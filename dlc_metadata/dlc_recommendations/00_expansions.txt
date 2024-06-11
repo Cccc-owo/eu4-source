@@ -4,7 +4,7 @@ dlc010 = {
 	reason = {
 		tooltip_desc = "dlc010_reason_natives"
 		tooltip_reason = "dlc010_reason_natives_reason"
-		weight = 30
+		weight = 10
 		trigger = {
 			capital_scope = {
 				continent = north_america
@@ -15,7 +15,7 @@ dlc010 = {
 	reason = {
 		tooltip_desc = "dlc010_reason_colonists"
 		tooltip_reason = "dlc010_reason_colonists_reason"
-		weight = 10
+		weight = 5
 		trigger = {
 			OR = {
 				tag = ENG
@@ -33,7 +33,7 @@ dlc018 = {
 	reason = {
 		tooltip_desc = "dlc018_reason_generic"
 		tooltip_reason = "dlcXXX_reason_generic_reason"
-		weight = 7.5
+		weight = 5.5
 		trigger = {
 			always = yes
 		}
@@ -41,7 +41,7 @@ dlc018 = {
 	reason = {
 		tooltip_desc = "dlc018_reason_generic"
 		tooltip_reason = "dlc018_reason_tc_reason"
-		weight = 8.5
+		weight = 6.5
 		trigger = {
 			OR = {
 				tag = ENG
@@ -55,7 +55,7 @@ dlc018 = {
 	reason = {
 		tooltip_desc = "dlc018_reason_kiel_canal"
 		tooltip_reason = "dlc018_reason_kiel_canal_reason"
-		weight = 12.5
+		weight = 7.5
 		trigger = {
 			OR = {
 				tag = DAN
@@ -67,7 +67,7 @@ dlc018 = {
 	reason = {
 		tooltip_desc = "dlc018_reason_suez_canal"
 		tooltip_reason = "dlc018_reason_suez_canal_reason"
-		weight = 12.5
+		weight = 7.5
 		trigger = {
 			tag = MAM
 		}
@@ -91,7 +91,7 @@ dlc018 = {
 	reason = { #Christian not protestant not Pope i.e. you could become Protestant
 		tooltip_desc = "dlc018_reason_reformed"
 		tooltip_reason = "dlc018_reason_christian_reason"
-		weight = 8
+		weight = 4
 		trigger = {
 			religion = catholic
 			NOT = { tag = PAP }
@@ -104,7 +104,7 @@ dlc021 = {
 	reason = {
 		tooltip_desc = "dlc022_reason_republics"
 		tooltip_reason = "dlc022_reason_republics_reason"
-		weight = 12.5
+		weight = 6.5
 		trigger = {
 			OR = {
 				government = dictatorship
@@ -115,7 +115,7 @@ dlc021 = {
 	reason = {
 		tooltip_desc = "dlc022_reason_going_dutch"
 		tooltip_reason = "dlc022_reason_going_dutch_reason"
-		weight = 20
+		weight = 10
 		trigger = {
 			OR = {
 				primary_culture = dutch
@@ -127,7 +127,7 @@ dlc021 = {
 	reason = {
 		tooltip_desc = "dlc022_reason_merchant_republic"
 		tooltip_reason = "dlc022_reason_merchant_republic_reason"
-		weight = 20
+		weight = 15
 		trigger = {
 			has_government_attribute = is_merchant_republic
 		}
@@ -135,7 +135,7 @@ dlc021 = {
 	reason = {
 		tooltip_desc = "dlc022_reason_elective_monarchy"
 		tooltip_reason = "dlc022_reason_elective_monarchy_pol_reason"
-		weight = 25
+		weight = 20
 		trigger = {
 			tag = POL
 		}
@@ -155,7 +155,7 @@ dlc027 = {
 	reason = { #always adds something
 		tooltip_desc = "dlc027_reason_generic"
 		tooltip_reason = "dlcXXX_reason_generic_reason"
-		weight = 7.5
+		weight = 15
 		trigger = {
 			always = yes
 		}
@@ -190,7 +190,7 @@ dlc027 = {
 	reason = { #Sweden can sack Prague
 		tooltip_desc = "dlc027_reason_hre"
 		tooltip_reason = "dlc027_reason_sweden_reason"
-		weight = 12.5
+		weight = 6.5
 		trigger = {
 			tag = SWE
 		}
@@ -202,7 +202,7 @@ dlc033 = {
 	reason = { #Aztecs
 		tooltip_desc = "dlc033_reason_aztec"
 		tooltip_reason = "dlc033_reason_aztec_reason"
-		weight = 30
+		weight = 7
 		trigger = {
 			religion = nahuatl
 		}
@@ -210,7 +210,7 @@ dlc033 = {
 	reason = { #Mayans
 		tooltip_desc = "dlc033_reason_maya"
 		tooltip_reason = "dlc033_reason_maya_reason"
-		weight = 30
+		weight = 7
 		trigger = {
 			religion = mesoamerican_religion
 		}
@@ -218,7 +218,7 @@ dlc033 = {
 	reason = { #Incans
 		tooltip_desc = "dlc033_reason_inca"
 		tooltip_reason = "dlc033_reason_inca_reason"
-		weight = 30
+		weight = 7
 		trigger = {
 			religion = inti
 		}
@@ -226,7 +226,7 @@ dlc033 = {
 	reason = { #Colonial countries
 		tooltip_desc = "dlc033_reason_colonists"
 		tooltip_reason = "dlc033_reason_colonists_reason"
-		weight = 15
+		weight = 10
 		trigger = {
 			OR = {
 				tag = ENG
@@ -365,7 +365,7 @@ dlc055 = {
 	reason = { #General (don't mention naval)
 		tooltip_desc = "dlc055_reason_generic"
 		tooltip_reason = "dlcXXX_reason_generic_reason"
-		weight = 6.5
+		weight = 3.5
 		trigger = {
 			OR = {
 				NOT = {
@@ -392,7 +392,7 @@ dlc055 = {
 	reason = { #General (do mention naval)
 		tooltip_desc = "dlc055_reason_generic_naval"
 		tooltip_reason = "dlc055_reason_generic_naval_reason"
-		weight = 10
+		weight = 5
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 3
@@ -417,7 +417,7 @@ dlc055 = {
 	reason = { #Slave Raids
 		tooltip_desc = "dlc055_reason_slave_raids"
 		tooltip_reason = "dlc055_reason_slave_raids_reason"
-		weight = 20
+		weight = 7
 		trigger = {
 			OR = {
 				tag = TUN
@@ -431,7 +431,7 @@ dlc055 = {
 	reason = { #Merchant Republics can annoy everyone else by starting trade leagues
 		tooltip_desc = "dlc055_reason_merchants"
 		tooltip_reason = "dlc055_reason_merchants_reason"
-		weight = 20
+		weight = 8
 		trigger = {
 			has_government_attribute = is_merchant_republic
 		}
@@ -443,7 +443,7 @@ dlc060 = {
 	reason = { #General (RoM is just awesome)
 		tooltip_desc = "dlc060_reason_generic"
 		tooltip_reason = "dlcXXX_reason_generic_reason"
-		weight = 12.5
+		weight = 15
 		trigger = {
 			always = yes
 		}
@@ -451,7 +451,7 @@ dlc060 = {
 	reason = { #Ottomans get some features
 		tooltip_desc = "dlc060_reason_ottomans"
 		tooltip_reason = "dlc060_reason_ottomans_reason"
-		weight = 35
+		weight = 10
 		trigger = {
 			tag = TUR
 		}
@@ -475,7 +475,7 @@ dlc060 = {
 	reason = { #Prussia get some features
 		tooltip_desc = "dlc060_reason_prussia"
 		tooltip_reason = "dlc060_reason_prussia_reason2"
-		weight = 30
+		weight = 10
 		trigger = {
 			OR = {
 				tag = BRA
@@ -486,7 +486,7 @@ dlc060 = {
 	reason = { #Prussia get some features
 		tooltip_desc = "dlc060_reason_prussia"
 		tooltip_reason = "dlc060_reason_prussia_reason2"
-		weight = 20
+		weight = 15
 		trigger = {
 			tag = TEU
 		}
@@ -494,7 +494,7 @@ dlc060 = {
 	reason = { #Prussia get some features
 		tooltip_desc = "dlc060_reason_prussia"
 		tooltip_reason = "dlc060_reason_prussia_reason"
-		weight = 40
+		weight = 20
 		trigger = {
 			tag = PRU
 		}
@@ -514,7 +514,7 @@ dlc066 = {
 	reason = { #Qing/Ming
 		tooltip_desc = "dlc066_reason_china"
 		tooltip_reason = "dlc066_reason_emperor_reason"
-		weight = 50
+		weight = 100
 		trigger = {
 			OR = {
 				tag = QNG
@@ -574,7 +574,7 @@ dlc072 = {
 	reason = { #Russia
 		tooltip_desc = "dlc072_reason_russia"
 		tooltip_reason = "dlc072_reason_russia_reason"
-		weight = 50
+		weight = 20
 		trigger = {
 			OR = {
 				primary_culture = uralic
@@ -628,7 +628,7 @@ dlc077 = {
 	reason = { #Mamluk stuff
 		tooltip_desc = "dlc077_reason_mamluks"
 		tooltip_reason = "dlc077_reason_mamluks_reason"
-		weight = 40
+		weight = 25
 		trigger = {
 			tag = MAM
 		}
@@ -636,7 +636,7 @@ dlc077 = {
 	reason = { #Timurid stuff
 		tooltip_desc = "dlc077_reason_tims"
 		tooltip_reason = "dlc077_reason_tims_reason"
-		weight = 40
+		weight = 25
 		trigger = {
 			OR = {
 				tag = TIM
@@ -647,7 +647,7 @@ dlc077 = {
 	reason = { #Can form Persia
 		tooltip_desc = "dlc077_reason_persia"
 		tooltip_reason = "dlc077_reason_persia_reason"
-		weight = 30
+		weight = 15
 		trigger = {
 			OR = {
 				culture_group = iranian
@@ -658,7 +658,7 @@ dlc077 = {
 	reason = { #Ardabil is a Feudal Theocracy
 		tooltip_desc = "dlc077_reason_feudal_theocracy"
 		tooltip_reason = "dlc077_reason_feudal_theocracy_reason"
-		weight = 50
+		weight = 20
 		trigger = {
 			tag = ARL
 		}
@@ -666,7 +666,7 @@ dlc077 = {
 	reason = { #Tribal Federations
 		tooltip_desc = "dlc077_reason_tribal_federation"
 		tooltip_reason = "dlc077_reason_tribal_federation_reason"
-		weight = 40
+		weight = 15
 		trigger = {
 			OR = {
 				tag = QAR
@@ -699,7 +699,7 @@ dlc084 = {
 	reason = { #england
 		tooltip_desc = "dlc084_reason_we_rule_the_waves"
 		tooltip_reason = "dlc084_reason_we_rule_the_waves_reason"
-		weight = 50
+		weight = 10
 		trigger = {
 			OR = {
 				tag = ENG
@@ -714,7 +714,7 @@ dlc090 = {
 	reason = { #Government stuff
 		tooltip_desc = "dlc090_reason_generic"
 		tooltip_reason = "dlcXXX_reason_generic_reason"
-		weight = 10
+		weight = 3.5
 		trigger = {
 			always = yes
 		}
@@ -722,7 +722,7 @@ dlc090 = {
 	reason = { #TCs + above
 		tooltip_desc = "dlc090_reason_trade_companies"
 		tooltip_reason = "dlc090_reason_trade_companies_reason"
-		weight = 15
+		weight = 6
 		trigger = {
 			OR = {
 				tag = ENG
@@ -769,7 +769,7 @@ dlc090 = {
 	reason = { #Adds mission tree
 		tooltip_desc = "dlc090_reason_missions_tim"
 		tooltip_reason = "dlc090_reason_missions_tim_reason"
-		weight = 20
+		weight = 5
 		trigger = {
 			tag = TIM
 		}
@@ -781,7 +781,7 @@ dlc095 = {
 	reason = { #Spain stuff
 		tooltip_desc = "dlc095_reason_iberian"
 		tooltip_reason = "dlc095_reason_iberian_reason"
-		weight = 30
+		weight = 15
 		trigger = {
 			capital_scope = { region = iberia_region }
 		}
@@ -857,7 +857,7 @@ dlc101 = {
 	reason = { # mission tree
 		tooltip_desc = "dlc101_reason_venice"
 		tooltip_reason = "dlc101_reason_venice_reason"
-		weight = 28
+		weight = 10
 		trigger = {
 			tag = VEN
 		}
@@ -1020,7 +1020,7 @@ dlc115 = {
 dlc119 = {
 	reason = { # Mission trees and unique content
 		tooltip_desc = "dlc119_reason_new_content"
-		tooltip_reason = "dlc119_reason_new_content_reason"
+		tooltip_reason = "dlc119_reason_new_content"
 		weight = 200
 		trigger = {
 			OR = {
@@ -1102,28 +1102,20 @@ dlc119 = {
 	}
 }
 
-#King of Kings
+# King of Kings
 dlc128 = {
-	reason = {
+	reason = { # Mission trees and unique content
 		tooltip_desc = "dlc128_reason_new_content"
-		tooltip_reason = "dlc128_reason_new_content_reason"
+		tooltip_reason = "dlc128_reason_new_content"
 		weight = 200
 		trigger = {
 			OR = {
 				tag = MAM
 				tag = BYZ
 				tag = AKK
-				tag = QOM
-				tag = GEO
 				tag = ARL
-				tag = MLK
-				tag = QAR
-				tag = YEM
 				capital_scope = {
-					OR = {
-						superregion = persia_superregion
-						region = egypt_region
-					}
+					superregion = persia_superregion
 				}
 			}
 		}
@@ -1139,8 +1131,8 @@ dlc128 = {
 				tag = KOJ
 				primary_culture = georgian
 				tag = ISR
-				primary_culture = al_suryah_arabic
 				primary_culture = turkish
+				primary_culture = al_suryah_arabic
 				primary_culture = berber
 				primary_culture = pontic_greek
 			}
@@ -1153,11 +1145,83 @@ dlc128 = {
 		trigger = {
 			capital_scope = {
 				OR = {
-					superregion = persia_superregion
 					region = egypt_region
+					region = persia_region
+					region = caucasia_region
 				}
 			}
 		}
 	}
+}
 
+# Winds of Change
+dlc136 = {
+	reason = { # Mission trees and unique content
+		tooltip_desc = "dlc136_reason_new_content"
+		tooltip_reason = "dlc136_reason_new_content"
+		weight = 200
+		trigger = {
+			OR = {
+				tag = CSU
+				tag = TIM
+				tag = BOH
+				tag = HUN
+				tag = HSN
+				tag = TRE
+				tag = FEO
+				capital_scope = {
+					OR = {
+						region = central_america_region
+						region = mexico_region
+						region = south_german_region
+						region = north_german_region
+						region = low_countries_region
+						region = italy_region
+						region = arabia_region
+						region = persia_region
+						region = khorasan_region
+						region = mongolia_region
+						region = central_asia_region
+						region = crimea_region
+						region = ural_region
+						region = west_siberia_region
+					}
+				}
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc136_reason_new_units"
+		tooltip_reason = "dlc136_reason_new_units_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				tag = MOL
+				primary_culture = umbrian
+				primary_culture = romagnan
+				primary_culture = dalmatian
+				primary_culture = hannoverian
+				primary_culture = hessian
+				primary_culture = rheinlaender
+				primary_culture = slovak
+				primary_culture = croatian
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc136_reason_new_music"
+		tooltip_reason = "dlc136_reason_new_music_reason"
+		weight = 30
+		trigger = {
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					region = south_german_region
+					region = north_german_region
+					region = low_countries_region
+				}
+			}
+		}
+	}
 }

@@ -337,7 +337,3 @@ dlc126 = {
 		}
 	}
 }
-
-#dlc130 is part of King of Kings
-#dlc131 is part of King of Kings
-#dlc132 is part of King of Kings

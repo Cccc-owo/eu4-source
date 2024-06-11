@@ -35,6 +35,7 @@ NGame = {
 	RNW_MERC_COMPANY_RANDOM_NAME_COUNT = 20, -- RANDOM_MERCENARY_NAME + number up to this value
 
 	MAX_GOVERNMENT_REFORMS_PER_TIER = 16,   -- This is used to avoid crash, if you want more reforms add more levels in gui before changing this value
+	PRINT_MESSAGES_TO_GAME_LOG = 0, -- Should we print messages to the game log or not ( 0 = false, 1 = true )
 },
 
 NDiplomacy = {
@@ -115,6 +116,7 @@ NDiplomacy = {
 	NUM_POSSIBLE_RIVALS = 3,
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
+	RIVAL_DISTANT_WAR_FACTOR = 0.25,			-- How much the distant war modifer is reduced when calling against rivals
 	SPY_NETWORK_DISTANCE_EFFECT = 0.1,			-- Mutiplied by distance between capitals to get penalty
 	OVEREXTENSION_THRESHOLD = 1.0,				-- at which threshold you can get events
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
@@ -920,7 +922,7 @@ NCountry = {
 	REQUEST_EXTRA_LEVIES_COOLDOWN_MONTHS = 60,
 
 	SEIZE_COURT_RESOURCES_MAX_LIBERTY_DESIRE = 25,
-	SEIZE_COURT_RESOURCES_COOLDOWN_MONTHS = 60,
+	SEIZE_COURT_RESOURCES_COOLDOWN_MONTHS = 120,
 
 	MIN_LIBERTY_DESIRE = 0,							-- Min total (effective) liberty desire
 	MAX_LIBERTY_DESIRE = 100,						-- Max total (effective) liberty desire
@@ -1114,6 +1116,7 @@ NCountry = {
 	FEDERATION_ADVANCEMENT_COHESION_COST = 80.0,
 
 	EXPAND_INFRASTRUCTURE_DEV_LIMIT = 15, 			-- How much dev you need for each improvement.
+	PARLIAMENT_SCALED_MODIFIER_DEFAULT_PERCENTAGE = 0.20, -- How much the modifier is multiplied by if a country doesn't have the estate specified in the parliament issue
 },
 
 NEconomy = {
@@ -1477,6 +1480,20 @@ NMilitary = {
 	SAMURAI_STARTING_STRENGTH = 1.0,
 	SAMURAI_STARTING_MORALE = 0.1, 
 
+	QIZILBASH_USES_CONSTRUCTION = 1,
+	QIZILBASH_BASE_COST_MODIFIER = 0.7,
+	QIZILBASH_MANPOWER_COST_MODIFIER = 1.0,
+	QIZILBASH_LEGITIMACY_COST = 0,
+	QIZILBASH_STARTING_STRENGTH = 1.0,
+	QIZILBASH_STARTING_MORALE = 0.1, 
+
+	MAMLUKS_USES_CONSTRUCTION = 1,
+	MAMLUKS_BASE_COST_MODIFIER = 1.0,
+	MAMLUKS_MANPOWER_COST_MODIFIER = 1.0,
+	MAMLUKS_LEGITIMACY_COST = 0,
+	MAMLUKS_STARTING_STRENGTH = 1.0,
+	MAMLUKS_STARTING_MORALE = 0.1, 
+
 	GEOBUKSEON_USES_CONSTRUCTION = 1,
 	GEOBUKSEON_BASE_COST_MODIFIER = 1.0,
 	GEOBUKSEON_SAILORS_COST_MODIFIER = 1.0,
@@ -1520,7 +1537,6 @@ NMilitary = {
 	REVOLUTIONARY_GUARD_STARTING_STRENGTH = 1.0,
 	
 	SPECIAL_REGIMENT_ESTATE_LOYALTY_COST = 0.0,		-- Estate loyalty cost of recruiting thei related special troops
-	NAVAL_DOCTRINE_SAILORS_COST = 0.1,				-- Cost for switching naval doctrine (Share of sailors)
 	NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 20,			-- Minimum naval force limit to be able to select a naval doctrine
 	LEAGUE_LEADER_CHANGE_SCORE_THRESHOLD = 1.5,		-- Score * factor needed for leader change (Compared to current leader)
 	MAX_DRILL_DECAY = -0.9,							-- Drill can never Decay with more than this value. 
@@ -1593,6 +1609,11 @@ NMilitary = {
 	SIEGE_BONUS_FOOD_SHORTAGE = 2,
 	SIEGE_BONUS_WATER_SHORTAGE = 3,
 	SIEGE_BONUS_DEFENDERS_DESERT = 2,
+
+	MINIMUM_DRILL_DECAY_MODIFIER = 0, -- Change this to a negative value so values below -100% drill decay will actually give drill
+	MINIMUM_MERCENARY_HIRE_PRICE = 0.1, -- Lower cap for mercenary cost modifier, change it to 0 for free mercs
+
+	OPEN_SEA_PATHFIND_PENALTY = 3,
 },
 
 NAI = {
@@ -1772,6 +1793,8 @@ NAI = {
 	PEACE_WAR_DIRECTION_FACTOR = 0.5, -- AI willingness to peace based on who's making gains in the war
 	PEACE_WAR_DIRECTION_WINNING_MULT = 5.0, -- Multiplies AI emphasis on war direction if it's the one making gains
 	PEACE_FORCE_BALANCE_FACTOR = 0.2, -- AI willingness to peace based on strength estimation of both sides
+	PEACE_SWING_PANIC_THRESHOLD = 0.7, -- If a new entrant to a war will swing us from a winning position to a position worse than this, we'll consider accepting an enforce peace action a bit more seriously
+	PEACE_PANIC_FACTOR = 500, --the amount we'll swing if we start panicking (multiplied by the amount under the panic swing threshold we will now be)
 	PEACE_INDEPENDENCE_FACTOR = 50, -- Revolting AI's unwillingness to peace while between -5 and cost of independence wargoal in an independence war.
 	PEACE_WARGOAL_FACTOR = 0, -- AI unwillingness to peace based on holding the wargoal
 	PEACE_CAPITAL_FACTOR = 5, -- AI unwillingness to peace based on holding their own capital
@@ -2037,6 +2060,8 @@ NAI = {
 	DIPLOMATIC_ACTION_COUNTER_ESPIONAGE_ENEMY_FACTOR = 25, --AI scoring for counter espionage against an active enemy (someone we're at war with, antagonize or otherwise rival).
 	DIPLOMATIC_ACTION_TRIBUTARY_ACCEPTANCE_PER_DEVELOPMENT = -0.5,	-- AI scoring for accepting becoming a tributary state per raw development
 	DIPLOMATIC_ACTION_TRIBUTARY_EMPIRE_FACTOR = 10,			-- AI scoring for establishing Tributary States is increased by this if actor is Celestial Emperor or has horde government with rank Empire.
+	DIPLOMATIC_ACTION_ASK_KNOWLEDGE_SHARING_ALLIANCE_FACTOR = 50, -- AI scoring for asking for knowledge sharing if the other nation is an ally or they have a royal marriage.
+	DIPLOMATIC_ACTION_ASK_KNOWLEDGE_SHARING_OPINION_FACTOR = 0.1, -- Multiplier for score for knowledge sharing from relation.
 	ALLIANCE_DESIRE_TOO_MANY_RELATIONS = -20,				-- AI desire/acceptance for alliance when it has or will get too many relations. Multiplies with number of relations above limit.
 	SUPPORT_INDEPENDENCE_DESIRE_TOO_MANY_RELATIONS = -20,	-- AI desire/acceptance for supporting independence when it has or will get too many relations. Multiplies with number of relations above limit.
 	MARRIAGE_DESIRE_TOO_MANY_RELATIONS = -50,				-- AI desire/acceptance for royal marriange when it has or will get too many relations. Multiplies with number of relations above limit.
@@ -2159,6 +2184,8 @@ NAI = {
 	FIRE_PIP_MULT = 3, -- This means having one of each fire pip applies a modifier of 17/13 to the fire phase estimate, as desired (since it's equivalent to +1 dice modifier)
 	SHOCK_PIP_MULT = 3, -- Ditto
 	MORALE_PIP_MULT = 2, -- Morale pips are counted in both phases, but only applies to morale damage, which we guesstimate to be worth twice as much as casualties (=2/3, or ~1.32/2, of total)
+
+	MIN_DAYS_AFTER_TRUCE_ENDS = 5, -- How long AI needs to wait after a truce ends to declare a war, some time needed for the player to take any action since AI can do it immediately
 },
 
 NAIEconomy = {

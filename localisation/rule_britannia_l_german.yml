@@ -508,7 +508,7 @@
  MISSIONS_SWAPPED:0 "Neue Missionen erhalten"
  LEDGER_INNOVATIVENESS:0 "Innovationsfähigkeit"
  SHARE_OF_STARTING_INCOME_LESS:0 "Einkommen von höchstens §Y$TARGET$§!¤. (Momentan §Y$CURRENT$§!¤)"
- SHARE_OF_STARTING_INCOME_MORE:0 "Einkommen von mindestens §Y$TARGET$§!¤. (Momentan §Y$CURRENT$§!¤)"
+ SHARE_OF_STARTING_INCOME_MORE:0 "Einkommen von mindestens §Y$TARGET$§!¤ (Momentan §Y$CURRENT$§!¤)."
  INNOVATIVENESS_AMOUNT:0 "Wir haben momentan $AMOUNT|Y$ Innovationsfähigkeit."
  INNOVATIVENESS_CHANGE_DESC:0 "Unsere Innovationsfähigkeit wird von Folgendem modifiziert:\n"
  INNOVATIVENESS_FULL_MOD_DESC:0 "\nAuswirkung bei §Y100§! Innovationsfähigkeit:\n$MOD$"
