@@ -20,7 +20,7 @@ emperor_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.25
 		}
 	}
 	
@@ -29,11 +29,15 @@ emperor_idea_adm_modifiers = {
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
-		chance = {
-			factor = 0
-		}
 		enabled = {
 			has_dlc = "Third Rome"
+		}
+		chance = {
+			factor = 1
+			modifier = {
+				NOT = { religion = orthodox }
+				factor = 0
+			}
 		}
 	}
 	
@@ -43,7 +47,11 @@ emperor_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
+			modifier = {
+				NOT = { has_estate = estate_church }
+				factor = 0
+			}
 		}
 	}
 	
@@ -53,7 +61,11 @@ emperor_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
+			modifier = {
+				NOT = { has_estate = estate_dhimmi }
+				factor = 0
+			}
 		}
 	}
 	
@@ -63,7 +75,11 @@ emperor_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
+			modifier = {
+				NOT = { has_estate = estate_jains }
+				factor = 0
+			}
 		}
 	}
 }
@@ -77,7 +93,11 @@ emperor_idea_dip_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
+			modifier = {
+				NOT = { has_estate = estate_burghers }
+				factor = 0
+			}
 		}
 	}
 	
@@ -87,12 +107,16 @@ emperor_idea_dip_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
+			modifier = {
+				NOT = { has_estate = estate_vaisyas }
+				factor = 0
+			}
 		}
 	}
 	
 	custom_allowed_marine_fraction = {
-		allowed_marine_fraction = 0.05
+		allowed_marine_fraction = 0.25
 		level_cost_2 = 5
 		max_level = 2
 	
@@ -100,6 +124,14 @@ emperor_idea_dip_modifiers = {
 			OR = {
 				has_dlc = "Rule Britannia"
 				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+			}
+		}
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
 			}
 		}
 	}
@@ -113,6 +145,9 @@ emperor_idea_dip_modifiers = {
 		enabled = {
 			has_dlc = "Mare Nostrum"
 		}
+		chance = {
+			factor = 0.5
+		}
 	}
 }
 
@@ -124,6 +159,9 @@ emperor_idea_mil_modifiers = {
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
+		chance = {
+			factor = 0.5
+		}
 	}
 	
 	custom_special_unit_forcelimit = {
@@ -133,7 +171,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_4 = 18
 		
 		chance = {
-			factor = 0
+			factor = 0.25
 		}
 	}
 	
@@ -143,7 +181,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 	
@@ -153,7 +191,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 	
@@ -163,7 +201,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 	
@@ -173,7 +211,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 	
@@ -183,7 +221,7 @@ emperor_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 }

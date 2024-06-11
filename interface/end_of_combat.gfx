@@ -18,19 +18,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_combat_result_bg"
 		texturefile = "gfx/interface/combat_result_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_combat_result_bg_compact"
 		texturefile = "gfx/interface/combat_result_bg_compact.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
 		name = "GFX_combat_result_compact_bg"
 		texturefile = "gfx/interface/combat_result_compact_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -46,7 +46,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_war_result_bg"
 		texturefile = "gfx/interface/war_result_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	spriteType = {
 		name = "GFX_combat_result_bg_area"

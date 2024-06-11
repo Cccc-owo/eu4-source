@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
 			NOT = { tag = PAP }
@@ -57,8 +61,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 343 #Fez
-			owns_core_province = 344 #Marrekech
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 348 #Sus
 				owns_core_province = 346 #Tafilalt
@@ -69,6 +76,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = MOR
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -116,13 +124,16 @@ country_decisions = {
 			add_prestige = 25
 			if = {
 				limit = { NOT = { has_reform = celestial_empire } }
-				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
+				change_government = monarchy
 				#set_legacy_government = despotic_monarchy
 			}
 			change_primary_culture = moroccan
 			set_country_flag = formed_morocco_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = MOR_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -141,6 +152,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
@@ -211,8 +226,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 338 #Algiers
-			owns_core_province = 2461 #Dahra
+			owns_core_province = 2461 	#Dahra
+			owns_core_province = 338 	#Algiers
+			338 = {						#Algiers
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 336 #Tlemcen
 				owns_core_province = 339 #Kabylia
@@ -223,6 +241,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = ALG
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -265,13 +284,16 @@ country_decisions = {
 				limit = {
 					is_tribal = yes	#Desert tribes settling down.
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 				#set_legacy_government = despotic_monarchy
 			}
 			add_prestige = 25
 			set_country_flag = formed_algiers_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = berber_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -290,6 +312,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
@@ -339,8 +365,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 341 #Tunis
-			owns_core_province = 2473 #Souss
+			owns_core_province = 2473	#Souss
+			owns_core_province = 341 	#Tunis
+			341 = {						#Tunis
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 2454 #Kef
 				owns_core_province = 354 #Tripoli
@@ -351,6 +380,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TUN
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -370,13 +400,16 @@ country_decisions = {
 				limit = {
 					is_tribal = yes
 				}
-				change_government_to_monarchy = yes #Desert tribes settling down.
+				change_government = monarchy
 				#set_legacy_government = despotic_monarchy
 			}
 			add_prestige = 25
 			set_country_flag = formed_tunisia_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = TUN_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
@@ -395,6 +428,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
@@ -445,8 +482,11 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			owns_core_province = 354 #Tripoli
-			owns_core_province = 2451 #Thubaqt
+			owns_core_province = 2451 	#Thubaqt
+			owns_core_province = 354	#Tripoli
+			354 = {						#Tripoli
+				is_state = yes
+			}
 			OR = {
 				owns_core_province = 355 #Sirt
 				owns_core_province = 353 #Djerba
@@ -457,6 +497,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TRP
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -475,13 +516,16 @@ country_decisions = {
 				limit = {
 					is_tribal = yes #Desert tribes settling down.
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 				#set_legacy_government = despotic_monarchy
 			}
 			add_prestige = 25
 			set_country_flag = formed_tripoli_flag
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = berber_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}

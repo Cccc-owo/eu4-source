@@ -8,9 +8,9 @@
 
 # Sweden FIXED
 SWE = {
-    color1= { 62 122 189  }
-    color2= { 248 229 12 }
-    color3= { 62 122 189  }
+    color1= { 0 40 104  }
+    color2= { 250 184 7 }
+    color3= { 0 40 104  }
 }
 
 # Aachen
@@ -24,16 +24,16 @@ AAC = {
 # Denmark FIXED
 DAN = {
     color1= { 193 26 14  }
-    color2= { 255 255 255  }
-    color3= { 193 26 14  }
+    color2= { 45 49 50 }
+    color3= { 255 255 255 }
 }
 
 
 # Finland FIXED
 FIN = {
-    color1= { 62 122 189  }
-    color2= { 255 255 255  }
-    color3= { 62 122 189  }
+    color1= { 167 176 191  }
+    color2= { 0 110 146  }
+    color3= { 0 64 88  }
 }
 
 
@@ -47,17 +47,17 @@ GOT = {
 
 # Norway FIXED
 NOR = {
-    color1= { 193 26 14  }
-    color2= { 247 206 12  }
-    color3= { 193 26 14  }
+    color1= { 161 48 48  }
+    color2= { 198 160 76  }
+    color3= { 44 54 87  }
 }
 
 
 # Holstein FIXED
 SHL = {
-    color1= { 255 255 255  }
-    color2= { 193 65 56  }
-    color3= { 255 255 255  }
+    color1= { 175 15 15  }
+    color2= { 255 255 255 }
+    color3= { 0 57 173  }
 }
 
 
@@ -124,6 +124,27 @@ CYP = {
     color3= { 247 206 12  }
 }
 
+
+# Dithmarshcen
+DTT = {
+    color1= { 101 71 51 }
+    color2= { 255 255 255 }
+    color3= { 19 57 121 }
+}
+
+# East Frisia
+EFR = {
+    color1= { 79 75 72}
+    color2= { 224 156 11  }
+    color3= { 25 25 25  }
+}
+
+#Friesland
+FRI = {
+    color1= { 155 123 102 }
+    color2= { 13 57 131  }
+    color3= { 187 17 9 }
+}
 
 # Greece
 GRE = {
@@ -196,6 +217,13 @@ TRA = {
     color3= { 60 60 60  }
 }
 
+# Livonia
+LVA = {
+    color1= { 102 18 31  }
+    color2= { 255 255 255  }
+    color3= { 205 164 65  }
+}
+
 
 # Wallachia FIXED
 WAL = {
@@ -240,9 +268,30 @@ CRN = {
 # England FIXED
 ENG = {
     color1= { 175 15 15  }
-    color2= { 26 56 141  }
-    color3= { 175 15 15  }
+    color2= { 255 196 0  }
+    color3= { 26 56 141  }
+}		
 
+
+# East India Company
+EIC = {
+    color1= { 188 0 7  }
+    color2= { 20 20 20  }
+    color3= { 255 255 255  }
+}
+
+# Angevin Empire
+AVE = {
+    color1= { 188 0 7  }
+    color2= { 26 56 141  }
+    color3= { 255 196 0  }
+}
+
+# Great Britain
+GBR = {
+    color1= { 175 15 15  }
+    color2= { 0 36 125  }
+    color3= { 255 255 255  }
 }
 
 
@@ -259,6 +308,14 @@ IRE = {
     color1= { 112 150 105  }
     color2= { 136 157 23  }
     color3= { 117 127 174  }
+}
+
+
+# Iceland
+ICE = {
+    color1= { 43 60 116  }
+    color2= { 255 255 255  }
+    color3= { 116 35 5  }
 }
 
 
@@ -316,14 +373,6 @@ NOL = {
     color1= { 83 149 105  }
     color2= { 126 203 120  }
     color3= { 193 26 14  }
-}
-
-
-# Great Britain
-GBR = {
-    color1= { 193 26 14  }
-    color2= { 99 137 153  }
-    color3= { 83 149 105  }
 }
 
 
@@ -399,11 +448,11 @@ QUE = {
 }
 
 
-# USA
+# United States of America
 USA = {
-    color1= { 69 157 208  }
-    color2= { 124 140 162  }
-    color3= { 137 183 124  }
+    color1= { 16 49 79  }
+    color2= { 179 34 34  }
+    color3= { 230 220 177  }
 }
 
 
@@ -448,11 +497,11 @@ KUR = {
 
 
 # Riga
-#RIG = {
-#    color1= { 183 176 194  }
-#    color2= { 197 92 106  }
-#    color3= { 255 255 255  }
-#}
+RIG = {
+    color1= { 158 15 15  }
+    color2= { 255 255 255  }
+    color3= { 230 191 12  }
+}
 
 
 # Teutonic Order
@@ -482,9 +531,9 @@ TEU = {
 
 # Auvergne
 AUV = {
-    color1= { 81 122 125  }
-    color2= { 136 157 23  }
-    color3= { 135 104 85  }
+    color1= { 244 184 12  }
+    color2= { 14 101 15  }
+    color3= { 188 0 7 }
 }
 
 
@@ -516,15 +565,15 @@ BRI = {
 BUR = {
     color1= { 220 220 220  }
     color2= { 99 26 44  }
-    color3= { 220 220 220  }
+    color3= { 255 173 1  }
 }
 
 
 # Champagne
 CHP = {
-    color1= { 193 237 85  }
-    color2= { 161 126 128  }
-    color3= { 117 127 174  }
+    color1= { 19 90 143  }
+    color2= { 255 255 255  }
+    color3= { 164 24 18  }
 }
 
 
@@ -546,8 +595,8 @@ DAU = {
 
 # Foix
 FOI = {
-    color1= { 175 15 15  }
-    color2= { 230 191 12  }
+    color1= { 230 191 12  }
+    color2= { 175 15 15  }
     color3= { 90 79 103  }
 }
 
@@ -578,9 +627,9 @@ GUY = {
 
 # Nevers
 NEV = {
-    color1= { 207 111 64  }
-    color2= { 255 87 127  }
-    color3= { 199 175 12  }
+    color1= { 26 56 141  }
+    color2= { 230 191 12  }
+    color3= { 230 191 12  }
 }
 
 
@@ -601,18 +650,18 @@ NRM = {
 
 
 # Provence
-#PRO = {
-#    color1= { 93 160 163  }
-#    color2= { 236 159 89  }
-#    color3= { 107 170 77  }
-#}
+PRO = {
+    color1= { 0 66 148 }
+    color2= { 255 199 0 }
+    color3= { 188 0 7 }
+}
 
 
 # Toulouse
 TOU = {
-    color1= { 127 170 146  }
-    color2= { 89 140 176  }
-    color3= { 166 189 199  }
+    color1= { 23 73 18  }
+    color2= { 255 255 255  }
+    color3= { 166 15 8  }
 }
 
 
@@ -737,11 +786,11 @@ KOL = {
 
 
 # Lorraine
-#LOR = {
-#    color1= { 115 142 205  }
-#    color2= { 166 72 57  }
-#    color3= { 99 137 153  }
-#}
+LOR = {
+    color1= { 250 188 0  }
+    color2= { 188 0 7  }
+    color3= { 255 255 255 }
+}
 
 
 # Luneburg
@@ -789,14 +838,6 @@ OLD = {
     color1= { 175 15 15  }
     color2= { 230 191 12  }
     color3= { 111 92 81  }
-}
-
-# GOOD
-# East Frisia   
-EFR = {
-    color1= { 247 206 12  }
-	color2= { 60  60  60 }
-	color3= { 60  60  60 }
 }
 
 
@@ -937,11 +978,11 @@ CAT = {
 
 
 # Portugal
-#POR = {
-#   color1= { 57 160 101  }
-#    color2= { 107 94 169  }
-#   color3= { 69 157 208  }
-#}
+POR = {
+    color1 = { 0 62 109  }
+    color2 = { 255 255 255  }
+    color3 = { 150 0 7  }
+}
 
 
 # Spain
@@ -1082,17 +1123,17 @@ VEN = {
 
 # Brabant
 BRB = {
-    color1= { 118 193 153  }
-    color2= { 154 69 116  }
-    color3= { 166 189 199  }
+    color1= { 30 30 30  }
+    color2= { 230 191 12  }
+    color3= { 175 15 15  }
 }
 
 
 # Flanders
 FLA = {
-    color1= { 43 141 172  }
-    color2= { 195 149 155  }
-    color3= { 134 166 117  }
+    color1= { 230 191 12  }
+    color2= { 44 44 44  }
+    color3= { 62 122 189 }
 }
 
 
@@ -1129,11 +1170,11 @@ HOL = {
 
 
 # Liege
-#LIE = {
-#    color1= { 149 186 37  }
-#    color2= { 136 157 23  }
-#    color3= { 255 255 255  }
-#}
+LIE = {
+    color1= { 30 47 111  }
+    color2= { 188 0 7  }
+    color3= { 255 174 0  }
+}
 
 
 # Luxembourg
@@ -1146,9 +1187,9 @@ LUX = {
 
 # Netherlands
 NED = {
-    color1= { 222 149 33  }
-    color2= { 255 255 255  }
-    color3= { 49 116 224  }
+    color1= { 14 55 122  }
+    color2= { 224 90 0  }
+    color3= { 255 255 255  }
 }
 
 
@@ -1855,6 +1896,13 @@ RYU = {
     color3= { 135 104 85  }
 }
 
+# Ainu
+ANU = {
+    color1= { 23 35 95 }
+    color2= { 255 255 255  }
+    color3= { 254 0 0  }
+}
+
 
 # Shan
 #SST = {
@@ -1866,9 +1914,9 @@ RYU = {
 
 # Sulu
 SUL = {
-    color1= { 89 164 144  }
-    color2= { 219 124 139  }
-    color3= { 187 79 86  }
+    color1= { 15 58 106  }
+    color2= { 250 210 16  }
+    color3= { 206 32 42  }
 }
 
 
@@ -2220,6 +2268,14 @@ MNG = {
     color2= { 60 60 60	}
     color3= { 230 20 15  }
 }
+
+# Dali
+CDL = {
+    color1= { 178 19 45  }
+    color2= { 255 255 255  }
+    color3= { 20 122 20  }
+}
+
 # Qing
 QNG = {
     color1= { 191 133 24  }
@@ -2406,6 +2462,13 @@ YMN = {
 	color1 = { 150 10 10 }
 	color2 = { 148 95 123 }
 	color3 = { 230 200 70 }
+}
+
+#Wu
+WUU = {
+    color1 = { 198 62 62 }
+    color2 = { 206 135 11 }
+    color3 = { 25 25 25 }
 }
 
 ################################################
@@ -2602,6 +2665,49 @@ BPR = {
     color3= { 21 100 219 }
 }
 
+# Navajo
+NAH = {
+    color1= { 255 0 0 }
+    color2= { 255 206 0 }
+    color3= { 0 66 173 }
+}
+
+# Ohkay
+OHK = {
+    color1= { 255 255 0 }
+    color2= { 255 0 0 }
+    color3= { 255 255 0 }
+}
+
+# Isleta
+ISL = {
+    color1= { 2 2 2 }
+    color2= { 248 223 209 }
+    color3= { 2 2 2 }
+}
+
+# ACO
+ACO = {
+    color1= { 20 140 75 }
+    color2= { 248 223 209 }
+    color3= { 198 0 35 }
+}
+
+# Chinook
+CNK = {
+    color1= { 221 64 43 }
+    color2= { 255 255 255 }
+    color3= { 20 20 20 }
+}
+
+
+#Glogow
+GLG = {
+    color1= { 255 255 255 }
+    color2= { 218 37 29 }
+    color3= { 255 255 255 }
+}
+
 ################################################
 #### Pirates! Yarr!  ###########################
 ################################################
@@ -2633,4 +2739,195 @@ LIB = {
     color1= { 222 222 222 } # white
     color2= { 30 30 30 } # black
     color3= { 222 222 222 } # white
+}
+
+
+
+
+################################################
+#### Africa          ###########################
+################################################
+
+MKU = {
+    color1= { 255 255 255 }
+    color2= { 0 102 0 } 
+    color3= { 255 0 0  } 
+}
+
+MRA = {
+    color1= { 206 17 38 }
+    color2= { 51 158 53 } 
+    color3= { 15 15 15  } 
+}
+
+SFA = {
+    color1= { 255 204 0 }
+    color2= { 204 0 0 } 
+    color3= { 255 255 255  } 
+}
+
+ZIM = {
+    color1= { 38 66 147 }
+    color2= { 255 255 255 } 
+    color3= { 132 74 0  } 
+}
+
+MFY = {
+    color1= { 135 42 20 }
+    color2= { 232 188 35 } 
+    color3= { 196 113 38  } 
+}
+
+LOA = {
+    color1= { 58 107 184 }
+    color2= { 250 247 178 } 
+    color3= { 240 143 49  } 
+}
+
+CKW = {
+    color1= { 98 48 20 }
+    color2= { 249 223 194} 
+    color3= { 172 20 20  } 
+}
+
+LND = {
+    color1= { 105 72 58 }
+    color2= { 237 226 198 } 
+    color3= { 48 27 15 } 
+}
+
+NDO = {
+    color1= { 96 96 96 }
+    color2= { 255 255 255 } 
+    color3= { 29 29 29 } 
+}
+
+TYO = {
+    color1= { 187 153 98 }
+    color2= { 233 227 205 } 
+    color3= { 109 57 26 } 
+}
+
+KUB = {
+    color1= { 221 184 55 }
+    color2= { 129 55 22 } 
+    color3= { 221 184 55 } 
+}
+
+KLD = {
+    color1= { 221 184 55 }
+    color2= { 17 43 5 } 
+    color3= { 153 50 14 } 
+}
+
+LUB = {
+    color1= { 83 181 199 }
+    color2= { 254 231 138 } 
+    color3= { 35 31 32 } 
+}
+
+KZB = {
+    color1= { 159 33 24 }
+    color2= { 39 16 8 } 
+    color3= { 255 255 255 } 
+}
+
+UBH = {
+    color1= { 51 153 255 } 
+    color2= { 255 0 0 } 
+    color3= { 20 20 20 }
+}
+
+RWA = {
+    color1= { 249 211 2 }
+    color2= { 49 144 0 } 
+    color3= { 226 2 18 } 
+}
+
+YAK = {
+    color1= { 44 28 8 }
+    color2= { 214 193 140 } 
+    color3= { 237 226 198 } 
+}
+
+KRW = {
+    color1= { 190 103 91 }
+    color2= { 20 20 20 } 
+    color3= { 222 171 141 } 
+}
+
+BUG = {
+    color1= { 255 255 255 }
+    color2= { 238 179 54 } 
+    color3= { 147 35 132 } 
+}
+
+BSG = {
+    color1= { 255 255 255 }
+    color2= { 0 124 195 } 
+    color3= { 248 195 0 } 
+}
+
+BUU = {
+    color1= { 255 255 255 }
+    color2= { 30 181 58 } 
+    color3= { 228 121 9 } 
+}
+
+NKO = {
+    color1= { 12 102 0 }
+    color2= { 255 255 255 } 
+    color3= { 20 20 20 } 
+}
+
+BNY = {
+    color1= { 200 0 0 }
+    color2= { 255 255 255 } 
+    color3= { 20 20 20 } 
+}
+
+
+
+
+# Latgalia
+LTG = {
+    color1= { 15 55 116  }
+    color2= { 255 255 255  }
+    color3= { 252 174 23  }
+}
+
+# Livonia
+LVA = {
+    color1= { 255 1 1  }
+    color2= { 255 255 255  }
+    color3= { 252 174 23  }
+}
+
+# Sapmi
+SMI = {
+    color1= { 0 56 168  }
+    color2= { 216 30 5  }
+    color3= { 252 209 22  }
+}
+
+# Estonia
+EST = {
+    color1= { 239 169 0  }
+    color2= { 58 117 195  }
+    color3= { 180 31 54  }
+}
+
+# Ainu
+
+ANU = {
+    color1= { 23 35 98  }
+    color2= { 255 255 255  }
+    color3= { 254 0 0  }
+}
+
+# Lotharingia
+LOT = {
+    color1= { 99 26 44  }
+    color2= { 247 190 0 }
+    color3= { 30 86 168  }
 }

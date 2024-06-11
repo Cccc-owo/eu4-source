@@ -81,10 +81,13 @@ dh_tim_india = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	
 	dh_tim_khorasan_one = {
-		icon = mission_non-western_cavalry_raid
+		icon = per_establish_western_defenses
 		required_missions = { dh_tim_army_built }
 		position = 3
 		
@@ -140,10 +143,13 @@ dh_tim_india = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	
 	dh_tim_khorasan_two = {
-		icon = mission_unite_home_region
+		icon = per_establish_eastern_defenses
 		required_missions = { dh_tim_khorasan_one }
 		position = 5
 		
@@ -177,6 +183,9 @@ dh_tim_india = {
 				name = "tim_heartland_reconquest"
 				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	
@@ -228,7 +237,7 @@ dh_tim_india = {
 			else_if = {
 				limit = { is_year = 1650 }
 				define_general = {
-					name = "AurangzÃ®b Timurid"
+					name = "Aurangzîb Timurid"
 					shock = 5
 					fire = 5
 					manuever = 2
@@ -318,12 +327,6 @@ dh_tim_india = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
-			factor = 5
-		}
 		trigger = {
 			lahore_area = {
 				type = all
@@ -355,18 +358,15 @@ dh_tim_india = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	
 	dh_conquer_delhi = {
 		icon = mission_monarch_in_throne_room
 		required_missions = { dh_conquer_punjab_MUG }
 		
-		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			OR = {
 				area = sirhind_area
@@ -393,6 +393,9 @@ dh_tim_india = {
 			}
 			add_treasury = 500
 			add_prestige = 20
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }

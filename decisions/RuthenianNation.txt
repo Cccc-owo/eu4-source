@@ -10,12 +10,18 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }			
 			NOT = { exists = UKR }
 			OR = {
 				primary_culture = byelorussian
 				primary_culture = ruthenian
+				primary_culture = byelorussian_new
+				primary_culture = ruthenian_new
 			}
 			OR = {
 				ai = no
@@ -66,15 +72,21 @@ country_decisions = {
 			OR = {
 				#owns everything
 				AND = {
-					owns_core_province = 280		#Kiev -center
 					owns_core_province = 261		#Ruthenia/Lvov -western
 					owns_core_province = 279		#Volhynia -western
 					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
+					owns_core_province = 280		#Kiev -center
+					280 = { 						#Kiev -center
+						is_state = yes
+					}
 				}
 				#or owns only core-core stuff but has god like ruler
-				AND = {
-					owns_core_province = 280		#Kiev -center				
+				AND = {				
 					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
+					owns_core_province = 280		#Kiev -center
+					280 = { 						#Kiev -center
+						is_state = yes
+					}
 					dip = 5
 				}
 			}
@@ -86,34 +98,33 @@ country_decisions = {
 			ruthenia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
-					NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = UKR
 			}
 			red_ruthenia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
-					NOT = { is_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = UKR
 			}
 			add_prestige = 25
 			change_tag = UKR
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
-			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
-					OR = {
-						has_reform = veche_republic
-						has_reform = principality
-					}
+					technology_group = nomad_group
 				}
-				set_government_rank = 3
-				if = {
-					limit = { is_revolutionary = no }
-					change_government_to_monarchy = yes
-					add_government_reform = tsardom
-				}
+				change_technology_group = eastern
+				change_unit_type = eastern
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			if = {
+				limit = { is_revolutionary = no government = monarchy }
+				add_government_reform = ruthenian_tsardom
 			}
 			set_country_flag = formed_ruthenia_flag
 			if = {

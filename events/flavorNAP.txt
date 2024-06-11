@@ -33,6 +33,8 @@ country_event = {
 			has_regency = no
 			is_lesser_in_union = no
 		}
+		religion_group = christian
+		is_at_war = no 
 	}
 	
 	mean_time_to_happen = {
@@ -388,7 +390,7 @@ country_event = {
 		name = new_flavour_nap.1.B
 		custom_tooltip = new_flavour_nap.1.B.tooltip
 		
-		change_government_to_republic = yes
+		change_government = republic
 		add_government_reform = signoria_reform
 		add_republican_tradition = 5
 		every_neighbor_country  = {
@@ -607,6 +609,7 @@ country_event = {
 						type = nap_republican_rebels
 						size = 2
 						leader = nap_foreign_republican
+						friend = ROOT
 					}
 					set_province_flag = nap_foreigner_arrives_here
 				}
@@ -617,6 +620,7 @@ country_event = {
 						type = nap_republican_rebels
 						size = 2
 						leader = nap_foreign_republican
+						friend = ROOT
 					}
 					set_province_flag = nap_foreigner_arrives_here
 				}

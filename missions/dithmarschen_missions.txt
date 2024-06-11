@@ -20,6 +20,7 @@ peasants_1 = {
 				limit = {
 					OR = {
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 						has_dlc = "Wealth of Nations"
 					}
 				}
@@ -52,6 +53,9 @@ peasants_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_hemmingstedt = {
 		icon = mission_teutonic_knights
@@ -78,6 +82,9 @@ peasants_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 	peasants_denmark = {
@@ -114,6 +121,9 @@ peasants_1 = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_conquest_of_bread = {
 		icon = mission_rice_field
@@ -139,6 +149,9 @@ peasants_1 = {
 				name = "conquest_of_bread_modifier"
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 	peasants_means_of_production = {
@@ -190,6 +203,9 @@ peasants_1 = {
 				name = "means_of_production"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 }
@@ -257,6 +273,9 @@ peasants_2 = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_north_germany = {
 		icon = mission_landsknecht_soldier
@@ -298,6 +317,9 @@ peasants_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_protect_frisia = {
 		icon = mission_settlers_north_america
@@ -306,7 +328,7 @@ peasants_2 = {
 			area = frisia_area
 			NOT = {
 				owner = {
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 					alliance_with = ROOT
 				}
 			}
@@ -320,7 +342,7 @@ peasants_2 = {
 					OR = {
 						owned_by = ROOT
 						owner = {
-							has_reform = peasants_republic
+							has_government_attribute = is_peasants_republic
 							alliance_with = ROOT
 						}
 					}
@@ -330,6 +352,9 @@ peasants_2 = {
 		}
 		effect = {
 			add_dip_power = 200
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 	peasants_the_peasants_war = {
@@ -342,7 +367,7 @@ peasants_2 = {
 			}
 			NOT = {
 				owner = {
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 				}
 			}
 		}
@@ -355,8 +380,8 @@ peasants_2 = {
 					custom_trigger_tooltip = {
 						tooltip = dtt_peasants_war_tt_1
 						OR = {
-							has_country_flag = gpw_peasants_win_major
-							has_country_flag = gpw_peasants_win_minor
+							has_global_flag = gpw_peasants_win_major
+							has_global_flag = gpw_peasants_win_minor
 						}
 					}
 					calc_true_if = {
@@ -367,7 +392,7 @@ peasants_2 = {
 								region = south_german_region
 							}
 							owner = {
-								has_reform = peasants_republic
+								has_government_attribute = is_peasants_republic
 							}
 						}
 						amount = 30
@@ -383,7 +408,7 @@ peasants_2 = {
 							region = south_german_region
 						}
 						owner = {
-							has_reform = peasants_republic
+							has_government_attribute = is_peasants_republic
 						}
 					}
 					amount = 30
@@ -397,6 +422,9 @@ peasants_2 = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_break_the_chains = {
 		icon = mission_impaled_soldies
@@ -409,7 +437,7 @@ peasants_2 = {
 				# new revolution stuff
 				AND = {
 					num_of_cities = 50
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 				}
 			}
 		}
@@ -427,6 +455,9 @@ peasants_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_terror_in_russia = {
 		icon = mission_steppe_warriors
@@ -437,7 +468,10 @@ peasants_2 = {
 					region = russia_region
 				}
 				total_development = 100
-				culture_group = east_slavic
+				OR = {
+					culture_group = east_slavic
+					culture_group = slavic
+				}
 				is_subject = no
 			}
 		}
@@ -451,7 +485,10 @@ peasants_2 = {
 							region = russia_region
 						}
 						total_development = 100
-						culture_group = east_slavic
+						OR = {
+							culture_group = east_slavic
+							culture_group = slavic
+						}
 						is_subject = no
 					}
 				}
@@ -459,6 +496,9 @@ peasants_2 = {
 		}
 		effect = {
 			add_mil_power = 300
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 }

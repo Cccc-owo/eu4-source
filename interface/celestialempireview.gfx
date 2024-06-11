@@ -10,11 +10,28 @@ spriteTypes = {
 		texturefile = "gfx//interface//eoc_bg.dds"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_new_eoc_bg"
+		texturefile = "gfx//interface//new_eoc_bg.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_eoc_bg_dom"
+		texturefile = "gfx//interface//eoc_bg_domination.dds"
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_reform_button"
 		texturefile = "gfx//interface//reform_button.dds"
 	}		
+
+	spriteType = {
+		name = "GFX_mutualy_exclusive_reforms"
+		texturefile = "gfx//interface//mutualy_exclusive_reforms_placeholder.dds"
+	}	
 	
 	spriteType = {
 		name = "GFX_decree_button_seal"

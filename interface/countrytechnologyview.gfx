@@ -3,13 +3,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_progress_bar_frame"
 		texturefile = "gfx//interface//progress_bar_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_westernize_progress_frame"
 		texturefile = "gfx//interface//progress_bar_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	progressbartype = {
@@ -62,6 +62,20 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	
+	spriteType = {
+		name = "GFX_icon_tech_may_build_flagships"
+		texturefile = "gfx//interface//icon_tech_may_build_flagships.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_icon_tech_may_drill"
+		texturefile = "gfx//interface//icon_tech_may_drill.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
 	spriteType = {
 		name = "GFX_icon_tech_may_agitate_for_liberty"
 		texturefile = "gfx//interface//ideas_EU4//may_agitate_for_liberty.dds"
@@ -135,7 +149,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_icon_tech_may_rebel_support"
-		texturefile = "gfx//interface//ideas_EU4//rebel_support_efficiencyt.dds"
+		texturefile = "gfx//interface//ideas_EU4//rebel_support_efficiency.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
 	}	
@@ -159,7 +173,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//country_technology_view_unitNextUnlock_big.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 	}
 	
 	spriteType = {
@@ -167,7 +181,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//country_technology_view_unitNextUnlock.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 	}
 	
 	progressbartype = {
@@ -234,7 +248,7 @@ spriteTypes = {
  	spriteType = {
 		name = "GFX_highlight_frame"
 		texturefile = "gfx//interface//institutions//highlight_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}		
 	
 	### Institutions ###
@@ -337,14 +351,14 @@ spriteTypes = {
 		name = "GFX_institution_tab_glow"
 		texturefile = "gfx/interface/institutions//institution_tab_glow.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_institution_progress_frame"
 		texturefile = "gfx/interface/institutions//institution_progress_frame.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -365,6 +379,64 @@ spriteTypes = {
 		textureFile2 = "gfx//interface//institutions//institution_progress_transparent.dds"
 		size = { x = 300 y = 20 }
 		effectFile = "gfx//FX//progress.lua"
+	}
+
+	## TECH INSTITUTIONS FRAMES
+
+	spriteType = {
+		name = "GFX_tech_institution_feudalism"
+		texturefile = "gfx/interface/institutions/tech_institution_feudalism.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_renaissance"
+		texturefile = "gfx/interface/institutions/tech_institution_renaissance.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_new_world_i"
+		texturefile = "gfx/interface/institutions/tech_institution_colonialism.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_printing_press"
+		texturefile = "gfx/interface/institutions/tech_institution_printing_press.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_global_trade"
+		texturefile = "gfx/interface/institutions/tech_institution_global_trade.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_manufactories"
+		texturefile = "gfx/interface/institutions/tech_institution_manufactories.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_enlightenment"
+		texturefile = "gfx/interface/institutions/tech_institution_enlightenment.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_institution_industrialization"
+		texturefile = "gfx/interface/institutions/tech_institution_industrialization.dds"
+		noOfFrames = 5
+		transparencecheck = yes
 	}
 	
 }

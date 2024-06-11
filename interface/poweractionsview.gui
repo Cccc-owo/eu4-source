@@ -86,7 +86,7 @@ guiTypes = {
 			maxWidth = 228
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		instantTextBoxType = {
@@ -99,7 +99,7 @@ guiTypes = {
 			maxWidth = 228
 			maxHeight = 32
 			format = right
-			allwaystransparent = yes			
+			alwaystransparent = yes			
 		}	
 	}		
 }

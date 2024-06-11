@@ -249,7 +249,7 @@ country_event = {
 			}
 			else = {
 				every_enemy_country = {
-					country_event = { id = dutch_revolt.20 days = 1 }
+					country_event = { id = flavor_bur.20 days = 1 }
 				}
 			}
 			# Begin incident
@@ -264,6 +264,65 @@ country_event = {
 				set_imperial_incident = incident_dutch_revolt
 			}
 		}
+	}
+	
+	option = {
+		name = "flavor_bur.EVTOPTB10"
+		trigger = {
+			ai = no
+		}
+		NED = {
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_independence_war
+			}
+		}
+		hidden_effect = {
+			NED = {
+				country_event = { id = flavor_bur.11 days = 1 }
+				set_country_flag = swapped_to_dutch_republic
+			}
+			every_country = {
+				limit = {
+					NOT = { tag = ROOT }
+					NOT = { tag = NED }
+					any_owned_province = {
+						region = low_countries_region
+					}
+				}
+				country_event = { id = flavor_bur.12 days = 10 }
+			}
+			# Send messages to rivals allowing them to join
+			if = {
+				limit = {
+					NED = { is_part_of_hre = yes }
+					has_dlc = "Emperor"
+				}
+				every_enemy_country = {
+					limit = {
+						is_emperor = no
+					}
+					country_event = { id = flavor_bur.20 days = 1 }
+				}
+			}
+			else = {
+				every_enemy_country = {
+					country_event = { id = flavor_bur.20 days = 1 }
+				}
+			}
+			# Begin incident
+			if = {
+				limit = {
+					is_emperor = no
+					NED = {
+						is_part_of_hre = yes
+					}
+					has_dlc = "Emperor"
+				}
+				set_imperial_incident = incident_dutch_revolt
+			}
+		}
+		switch_tag = NED
 	}
 }
 
@@ -295,6 +354,10 @@ country_event = {
 					light_ship = 0.3
 					transport = 0.2
 				}
+			}
+			add_treasury = 500
+			create_general = {
+				tradition = 80
 			}
 		}
 	}
@@ -335,9 +398,15 @@ country_event = {
 		NOT = { tag = NED }
 		NED = {
 			exists = yes
-			ai = yes
-			was_player = no
+			OR = {
+				AND = {
+					ai = yes
+					was_player = no
+				}
+				has_country_flag = swapped_to_dutch_republic
+			}
 			NOT = { truce_with = ROOT }
+			is_subject = no
 		}
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -526,6 +595,7 @@ country_event = {
 		}
 		event_target:dutch_unification_country = {
 			change_tag = NED
+			on_change_tag_effect = yes
 			hidden_effect = {
 				swap_non_generic_missions = yes
 				if = {
@@ -687,7 +757,7 @@ country_event = {
 					limit = {
 						has_dlc = "Rights of Man" 
 					}
-					hidden_effect = { add_ruler_personality = kind_hearted_personality }
+					hidden_effect = { add_ruler_personality_ancestor = { key = kind_hearted } }
 				}
 			}
 		}
@@ -911,6 +981,7 @@ country_event = {
 	option = {
 		name = new_flavour_bur.4.A
 		change_tag = LOT
+		on_change_tag_effect = yes
 		if = {
 			limit = {
 				NOT = {
@@ -960,6 +1031,13 @@ country_event = {
 		add_country_modifier = {
 			name = bur_prestigious_duchy_mod
 			duration = -1
+		}
+		if = {
+			limit = { NOT = { tag = AVE } }
+			add_permanent_power_projection = {
+				type = 25_permanent_power_projection
+				amount = 25
+			}
 		}
 	}
 }
@@ -1034,7 +1112,6 @@ country_event = {
 				capital_scope = {
 					region = france_region
 				}
-				liberty_desire = 50
 			}
 			set_country_flag = FRA_vassal_to_be_given_to_BUR
 			custom_tooltip = THIS_vassalised_by_FROM

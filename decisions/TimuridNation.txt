@@ -78,14 +78,23 @@ country_decisions = {
 				limit = {
 					has_heir = yes
 				}
-				remove_heir = yes
+				remove_heir = {}
 			}
 			define_heir = {
 				dynasty = "Timurid"
 			}
+			set_country_flag = enthroned_a_timurid_prince
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { exists = MUG }	#Mughals should appear instead first
+			}
+			modifier = {
+				factor = 0
+				NOT = { exists = PER }	#Same goes for Persia
+			}
 		}
 	}
 
@@ -98,6 +107,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -142,8 +155,11 @@ country_decisions = {
 			NOT = { exists = TIM }
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			owns_core_province = 454	# Samarkand
 			owns_core_province = 446	# Herat
+			owns_core_province = 454	# Samarkand
+			454 = {						# Samarkand
+				is_state = yes
+			}
 			OR = {
 				AND = {
 					owns_core_province = 429	# Isfahan
@@ -162,6 +178,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TIM
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -286,7 +303,15 @@ country_decisions = {
 			set_country_flag = formed_timurids_flag
 		}
 		ai_will_do = {
-			factor = 400
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { exists = MUG }	#Mughals should appear instead first
+			}
+			modifier = {
+				factor = 0
+				NOT = { exists = PER }	#Same goes for Persia
+			}
 		}
 		ai_importance = 600
 	}

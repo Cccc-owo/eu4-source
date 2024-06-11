@@ -2,9 +2,13 @@ akk_missions = {
 	slot = 1
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "King of Kings" }
+	}
 	potential = {	
 		NOT = { map_setup = map_setup_random }
 		tag = AKK
+		NOT = { has_dlc = "King of Kings" }
 	}
 	has_country_shield = yes
 
@@ -59,6 +63,9 @@ akk_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Annexing a neighboring OPM should be done by the AI
 		}
 	}
 	defeat_black_sheep = {
@@ -161,6 +168,9 @@ akk_missions = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Black and White sheeps cannot stand eachother. Why? They are both sheeps...
+		}
 	}
 	conquer_the_caucasus_akk = {
 		icon = mission_conquer_50_development
@@ -228,6 +238,9 @@ akk_missions = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Should be on their todo list as they can form Persia
+		}
 	}
 	invade_persia_akk = {
 		icon = mission_persian_soldiers
@@ -251,6 +264,9 @@ akk_missions = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Should be on their todo list as they can form Persia
+		}
 	}
 }
 
@@ -258,9 +274,13 @@ akk_missions_2 = {
 	slot = 2
 	generic = no
 	ai = yes
-	potential = {
+	potential_on_load = {
+		NOT = { has_dlc = "King of Kings" }
+	}
+	potential = {	
 		NOT = { map_setup = map_setup_random }
 		tag = AKK
+		NOT = { has_dlc = "King of Kings" }
 	}
 	has_country_shield = yes
 
@@ -331,6 +351,9 @@ akk_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Should be on their todo list as they can form Persia
 		}
 	}
 }

@@ -224,6 +224,17 @@ country_event = {
 			set_country_flag = french_revolution_male_ruler
 		}
 		enact_revolution_effect = yes
+		if = {
+			limit = {
+				tag = FRA 
+				OR = {
+					is_revolution_target = yes 
+					is_revolutionary = yes
+				}
+				has_dlc = "Domination"
+			}
+			country_event = { id = ideagroups.1 }
+		}
 	}
 }
 
@@ -270,7 +281,6 @@ country_event = {
 
 		define_ruler = {
 			name = "Maximilien de Robespierre"
-			fixed = yes
 			adm = 3
 			dip = 0
 			mil = 4
@@ -399,15 +409,7 @@ country_event = {
 	}
 	option = {		# Show leniency
 		name = french_revolution.301.B
-		if = {
-			limit = {
-				has_dlc = "Emperor"
-			}
-			add_revolutionary_zeal = -10
-		}
-		else = {
-			add_absolutism = -10
-		}
+		add_revolutionary_zeal_or_absolutism = { amount = -10 }
 	}
 
 	after = {
@@ -522,15 +524,7 @@ country_event = {
 	}
 	option = {		# Show leniency
 		name = french_revolution.301.B
-		if = {
-			limit = {
-				has_dlc = "Emperor"
-			}
-			add_revolutionary_zeal = -5
-		}
-		else = {
-			add_absolutism = -5
-		}
+		add_revolutionary_zeal_or_absolutism = { amount = -5 }
 	}
 
 	after = {
@@ -590,16 +584,7 @@ country_event = {
 	
 	option = {		# Yay
 		name = french_revolution.303.A
-		
-		if = {
-			limit = {
-				has_dlc = "Emperor"
-			}
-			add_revolutionary_zeal = 10
-		}
-		else = {
-			add_absolutism = 10
-		}
+		add_revolutionary_zeal_or_absolutism = { amount = 10 }
 	}
 }
 
@@ -644,16 +629,7 @@ country_event = {
 	
 	option = {		# Yay
 		name = french_revolution.303.A
-		
-		if = {
-			limit = {
-				has_dlc = "Emperor"
-			}
-			add_revolutionary_zeal = 10
-		}
-		else = {
-			add_absolutism = 10
-		}
+		add_revolutionary_zeal_or_absolutism = { amount = 10 }
 	}
 }
 
@@ -891,7 +867,7 @@ country_event = {
 				}
 			}
 		}
-		add_revolutionary_zeal = 10
+		add_revolutionary_zeal_or_absolutism = { amount = 10 }
 	}
 	option = {		# 361 votes against and 360 for execution
 		name = "flavor_fra.EVTOPTB3146"
@@ -1028,21 +1004,21 @@ country_event = {
 				has_heir = yes
 			}
 			hidden_effect = {
-				kill_heir = yes
+				kill_heir = { allow_new_heir = no }
 			}
 		}
 		define_ruler = {
-			name = "Napoléon I Bonaparte"
+			name = "Napoléon I"
+			dynasty = "Bonaparte"
 			adm = 6
-			dip = 5
+			dip = 6
 			mil = 6
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 		}
 		if = {
 			limit = {
@@ -1054,6 +1030,13 @@ country_event = {
 
 		hidden_effect = {
 			country_event = { id = french_revolution.8 days = 1460 random = 2190 }
+			define_ruler_to_general = {
+				fire = 6
+				shock = 6
+				manuever = 6
+				siege = 2
+				trait = goal_oriented_personality
+			}
 		}
 	}
 	option = {		# We don't want a new Ceasar
@@ -1967,6 +1950,11 @@ country_event = {
 			}
 			clr_country_flag = noble_rebels_rise
 		}
+		if = { 
+			limit = { tag = FRA has_dlc = "Domination" } 
+			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 }
+		}
 	}
 }
 
@@ -2186,6 +2174,7 @@ country_event = {
 	}
 	
 	immediate = {
+		on_non_estate_disaster_end = yes
 		end_disaster = french_revolution
 
 		hidden_effect = {
@@ -2303,7 +2292,7 @@ country_event = {
 		else = {
 			custom_tooltip = add_as_much_revolutionary_zeal_as_you_can_take
 			hidden_effect = {
-				add_revolutionary_zeal = 1000
+				add_revolutionary_zeal_or_absolutism = { amount = 1000 }
 			}
 			hidden_effect = { log = "[Root.GetName] won the Revolution as the Revolutionaries." }
 		}

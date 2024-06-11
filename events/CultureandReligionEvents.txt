@@ -30,18 +30,18 @@ country_event = {
 		employed_advisor = {
 			category = ADM
 		}
+		NOT = {
+			employed_advisor = {
+				category = ADM
+				culture = root
+			}
+		}
 		any_owned_province = {
 			owner = {
 				employed_advisor = {
 					category = ADM
 					culture = PREV
 				}
-			}
-		}
-		NOT = {
-			employed_advisor = {
-				category = ADM
-				culture = root
 			}
 		}
 		variable_arithmetic_trigger = {
@@ -90,15 +90,15 @@ country_event = {
 		months = 800
 		modifier = {
 			factor = 0.8
-			heir_has_personality = well_connected_personality
+			heir_has_personality_ancestor = { key = well_connected }
 		}
 		modifier = {
 			factor = 0.8
-			heir_has_personality = free_thinker_personality
+			heir_has_personality_ancestor = { key = free_thinker }
 		}
 		modifier = {
 			factor = 0.8
-			heir_has_personality = tolerant_personality
+			heir_has_personality_ancestor = { key = tolerant }
 		}
 		modifier = {
 			factor = 0.8
@@ -118,7 +118,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 1.2
-			heir_has_personality = zealot_personality
+			heir_has_personality_ancestor = { key = zealot }
 		}
 		modifier = {
 			factor = 1.2
@@ -1180,7 +1180,7 @@ country_event = {
 					random_owned_province = {
 						limit = {
 							owner = { government = monarchy }
-							NOT = { owner ={ has_reform = ottoman_government } }
+							NOT = { owner ={ has_government_attribute = has_harem_events } }
 							is_state = yes
 							OR = {
 								has_owner_culture = yes
@@ -1836,11 +1836,11 @@ country_event = {
 	trigger = {
 		NOT = { ruler_culture = ROOT }
 		NOT = { has_reform = mamluk_government }
-		accepted_culture = new_variable:ruler_culture
 		has_regency = no
 		employed_advisor = {
 			culture = ROOT
 		}
+		accepted_culture = new_variable:ruler_culture
 	}
 	
 	mean_time_to_happen = {
@@ -2772,6 +2772,13 @@ country_event = {
 		employed_advisor = {
 			religion = heathen
 		}
+		OR = {
+			NOT = { has_country_flag = had_heathen_advisor_event }
+			had_country_flag = {
+				flag = had_heathen_advisor_event
+				days = 10950
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2780,6 +2787,8 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
+			clr_country_flag = had_heathen_advisor_event
+			set_country_flag = had_heathen_advisor_event
 			if = {
 				limit = {
 					employed_advisor = {
@@ -3051,6 +3060,8 @@ country_event = {
 	id = culture_religion_events.15
 	title = culture_religion_events.15.t
 	desc = culture_religion_events.15.d
+	goto = foreign_culture_province
+	
 	picture = {
 		trigger = { NOT = { has_dlc = "Cradle of Civilization" } }
 		picture = GOOD_WITH_MONARCH_eventPicture
@@ -3592,7 +3603,7 @@ country_event = {
 		NOT = { has_reform = ottoman_government }
 		NOT = { has_reform = mamluk_government }
 		NOT = { has_reform = states_general_reform }
-		NOT = { junior_union_with = ROOT }
+		is_lesser_in_union = no
 		has_government_attribute = heir
 		any_owned_province = {
 			has_owner_culture = no
@@ -3676,11 +3687,15 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_ruler_flag = faith_question }
 		government = monarchy
 		NOT = { ruler_religion = ROOT }
 		legitimacy = 90
 		stability = 2
+		NOT = { has_ruler_flag = faith_question }
+		NOT = { is_incident_active = incident_spread_of_christianity }
+		NOT = { is_incident_active = incident_ikko_shu }
+		NOT = { is_incident_active = incident_neo_confucianism }
+		NOT = { has_country_modifier = zoroastrian_interests }
 	}
 	
 	mean_time_to_happen = {

@@ -78,6 +78,9 @@ country_event = {
 	
 	
 	is_triggered_only = yes
+	immediate = {
+		on_non_estate_disaster_end = yes
+	}
 	
 	option = {
 		name = "granada_civil_war.2.a"
@@ -111,7 +114,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			remove_heir = yes
+			remove_heir = {}
 		}
 		define_heir = {
 			dynasty = ROOT

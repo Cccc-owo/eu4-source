@@ -821,7 +821,7 @@ guiTypes = {
 			maxWidth = 350
 			maxHeight = 32
 			format = center	
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	
 		guiButtonType = 
@@ -871,7 +871,7 @@ guiTypes = {
 			maxWidth = 350
 			maxHeight = 32		
 			format = center		
-			allwaystransparent = yes			
+			alwaystransparent = yes			
 		}
 	
 		guiButtonType = 

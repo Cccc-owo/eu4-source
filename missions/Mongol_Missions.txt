@@ -46,7 +46,9 @@ mongol_missions_1 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			primary_culture = altaic_new
 		}
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -215,8 +217,11 @@ mongol_missions_2 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			primary_culture = altaic_new
 		}
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -226,16 +231,14 @@ mongol_missions_2 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 2116
-				province_id = 2190
+				province_id = 4678
 			}
-			NOT = {
-				owned_by = ROOT
-				is_core = ROOT
-			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
 		}
 		trigger = {
 			owns_core_province = 2116
-			owns_core_province = 2190
+			owns_core_province = 4678
 			is_subject = no
 		}
 		effect = {
@@ -268,29 +271,52 @@ mongol_missions_2 = {
 				culture = chahar
 				culture = khalkha
 				culture = oirats
+				culture = altaic_new
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				culture = mongol
-				value = 5
+			if = {
+				limit = {
+					has_global_flag = sinicized_altaic_flag
+				}
+				num_of_owned_provinces_with = {
+					culture = altaic_new
+					value = 20
+				}
 			}
-			num_of_owned_provinces_with = {
-				culture = chahar
-				value = 5
-			}
-			num_of_owned_provinces_with = {
-				culture = khalkha
-				value = 5
-			}
-			num_of_owned_provinces_with = {
-				culture = oirats
-				value = 5
+			else = {
+				num_of_owned_provinces_with = {
+					culture = mongol
+					value = 5
+				}
+				num_of_owned_provinces_with = {
+					culture = chahar
+					value = 5
+				}
+				num_of_owned_provinces_with = {
+					culture = khalkha
+					value = 5
+				}
+				num_of_owned_provinces_with = {
+					culture = oirats
+					value = 5
+				}
 			}
 		}
 		effect = {
-			country_event = { id = mch_missions.7 }
+			if = {
+				limit = {
+					has_global_flag = sinicized_altaic_flag
+				}
+				add_country_modifier = {
+					name = "reorganized_mongols"
+					duration = -1
+				}
+			}
+			else = {
+				country_event = { id = mch_missions.7 }
+			}
 			tibet_region = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -436,8 +462,11 @@ mongol_missions_3 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			primary_culture = altaic_new
 		}
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		
 	}
 	has_country_shield = yes
 	
@@ -604,7 +633,9 @@ mongol_missions_4 = {
 			primary_culture = chahar
 			primary_culture = khalkha
 			primary_culture = oirats
+			primary_culture = altaic_new
 		}
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes

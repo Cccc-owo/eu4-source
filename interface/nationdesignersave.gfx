@@ -8,12 +8,12 @@ spriteTypes = {
 		name = "GFX_nd_cloud_file"
 		texturefile = "gfx/interface/cloud_file.dds"
 		noOfFrames = 2
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_nd_save_load_bg"
 		texturefile = "gfx/interface/save_load_game_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 }

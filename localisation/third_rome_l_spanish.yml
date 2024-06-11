@@ -170,158 +170,162 @@
  desc_fugitive_christian_converts:0 "Esta provincia ha recibido la afluencia de fugitivos de las provincias no cristianas que la rodean. Los fugitivos han estado muy deseosos de adoptar nuestra religión y jurar lealtad a nuestro estado, pero también ha llevado al aumento de tensiones en el área."
  corrupt_governor_modifier:0 "Concesiones locales"
  desc_corrupt_governor_modifier:0 "Un gobernador corrupto ha hecho que la población local nos sea muy hostil. Hemos tomado una serie de medidas locales para compensarlos."
- custom_yearly_harmony:0 "Prácticas religiosas"
+ custom_yearly_harmony:0 "Prácticas religiosas" # [LocEditor:AwaitingBatchUpdate]
  custom_yearly_harmony_desc:1 "Somos un pueblo que cumple unas prácticas religiosas estrictas, más que muchos otros, reforzando la armonía de nuestra nación."
- custom_harmonization_speed:0 "Integración de comunidades"
- custom_harmonization_speed_desc:0 "El peliagudo asunto de combinar creencias se ha facilitado mucho trasladando comunidades enteras de nuestras tierras a nuevas posesiones."
- custom_meritocracy:0 "Exámenes estrictos"
- custom_meritocracy_desc:0 "Al exigir los criterios más exigentes a nuestros examinandos, nos aseguramos de que nuestra administración cuenta con la ayuda de las más grandes mentes."
- custom_monarch_admin_power:0 "Educación regia"
- custom_monarch_admin_power_desc:0 "Jamás faltará educación de gobierno a un descendiente de nuestra dinastía. La educación de quienes pronto serán monarcas será rigurosa y omnipresente."
- custom_max_absolutism:0 "Constitución suprema"
- custom_max_absolutism_desc:0 "Está escrito en el mismo alma de nuestra nación que nuestro soberano es la persona más perfecta y suprema de la Tierra, por encima de todas la leyes humanas. Sin un juez por encima de su persona, podremos seguir adelante con el control absoluto de nuestras tierras."
- custom_yearly_absolutism:0 "Autoridad incuestionable"
- custom_yearly_absolutism_desc:0 "El concepto de representación y control autónomo son veneno para nuestra nación. Nuestro pueblo responderá a la voluntad absoluta del gobierno central."
- custom_administrative_efficiency:0 "Administración inflexible"
- custom_administrative_efficiency_desc:0 "Hay muchos controles y equilibrios que garantizan una administración fluida. Si ignoramos la mayor parte de estos y hacemos de la expansión nuestra política principal, podremos adquirir tierras más rápidamente."
- custom_institution_spread_from_true_faith:0 "Hermandad religiosa"
- custom_institution_spread_from_true_faith_desc:0 "Albergar la confianza de que la palabra de nuestros hermanos en la fe, aunque no siempre dicha con la mejor intención, al menos es verdadera, puede ayudar a la expansión de nuevas ideas beneficiosas."
- custom_global_institution_spread:0 "Al frente de nuevas ideas"
- custom_global_institution_spread_desc:0 "A menudo lo viejo debe dar paso a lo nuevo cuando ambos se encuentran. Nuestra nación está muy acostumbrada a adoptar nuevas ideas con la menor confusión posible."
- custom_embracement_cost:0 "Persuasión ahorrativa"
- custom_embracement_cost_desc:0 "Convencer al populacho de abandonar ideas atrasadas y abrazar las nuevas puede llegar a ser caro. Sin embargo, el nuestro es un pueblo siempre capaz de encontrar soluciones rentables."
- custom_max_states:0 "Personal gubernamental incrementado"
- custom_max_states_desc:0 "Tener en nómina un gran número de gobernadores, con los controles y equilibrios adecuados, garantiza que administrar grandes extensiones de tierra no será mucha carga."
- custom_church_power_modifier:0 "Derechos de religión estatal"
- custom_church_power_modifier_desc:0 "Se han concedido ciertos derechos y privilegios a los fieles para estar seguros de que nuestro pueblo halla fuerza en la fe."
- custom_yearly_corruption:0 "Castigos públicos"
- custom_yearly_corruption_desc:0 "La corrupción es rampante en el hombre, pero con castigos públicos para los que sean encontrados malversando, podemos atajar la peor parte."
- custom_caravan_power:0 "Apoyo a los comerciantes de caravanas"
- custom_caravan_power_desc:0 "Construyendo y manteniendo nuestra red de comercio terrestre, a nuestros comerciantes de caravanas les será más fácil traer maravillosos y gravables bienes a nuestra nación."
- custom_monthly_fervor_increase:0 "Cimientos religiosos"
- custom_monthly_fervor_increase_desc:0 "Al garantizar que la religión está en el núcleo de todo los asuntos de nuestro estado y pueblo, podemos desarrollar un gran fervor que podremos dirigir a asuntos importantes."
- custom_global_trade_goods_size_modifier:0 "Cuotas de producción"
- custom_global_trade_goods_size_modifier_desc:0 "Los centros de producción de nuestras tierras tienen que cumplir cuotas estrictas para impulsar nuestra economía."
- custom_adm_tech_cost_modifier:0 "Talento extranjero"
- custom_adm_tech_cost_modifier_desc:0 "Nuestra nación lleva mucho tiempo aceptando individuos huidos de otras naciones. Cuando resulta que estos individuos tienen talento, los contratamos con rapidez."
- custom_build_time:0 "Recortando detalles"
- custom_build_time_desc:0 "Las estructuras hermosas están sobrevaloradas. Mientras las infraestructuras se construyan rápidamente, la estética puede quedar en un segundo plano."
- custom_state_maintenance_modifier:0 "Sobresueldos provinciales"
- custom_state_maintenance_modifier_desc:0 "Concediendo privilegios y sobresueldos especiales a nuestros gobernadores provinciales, podemos reducir ligeramente los gastos de sus servicios."
- custom_autonomy_change_time:0 "Gobierno flexible"
- custom_autonomy_change_time_desc:0 "Como nación, seremos pragmáticos a la hora de sujetar a nuestro pueblo, evaluando las situaciones locales para ver si la gente menos gobernada es la mejor gobernada."
- custom_merc_discipline:0 "Criterios de reclutamiento"
- custom_merc_discipline_desc:0 "Si nos manchamos tratando con hombres de fortuna, al menos debemos asegurarnos de que reclutamos a los guerreros capaces."
- custom_rival_border_fort_maintenance:0 "Comunidades fronterizas"
- custom_rival_border_fort_maintenance_desc:0 "Se puede convencer a las comunidades en la frontera con tierras enemigas que lo mejor para ellos es ayudar financieramente a su defensa."
- custom_siege_blockade_progress:0 "Bloqueos férreos"
- custom_siege_blockade_progress_desc:0 "Cuando bloqueemos una provincia para que se rinda, ordenaremos a nuestros capitanes no dejar ni barco ni suministro alguno."
- custom_cav_to_inf_ratio:0 "Organización de batalla"
- custom_cav_to_inf_ratio_desc:0 "Aprenderemos de los grandes ejércitos de caballería de la historia para asegurarnos de que los cascos de nuestros caballos resuenan por toda la tierra."
- custom_artillery_bonus_vs_fort:0 "Descargas concentradas"
- custom_artillery_bonus_vs_fort_desc:0 "Con una cuidadosa posición y precisión podemos derribar fortificaciones enemigas mucho más rápido."
- custom_monarch_military_power:0 "Legado de combate"
- custom_monarch_military_power_desc:0 "Nadie de nuestra prestigiosa dinastía será considerado adulto hasta haber demostrado su competencia en combate. Una fuerte tradición militar mantiene fuertes a nuestra familia y nación."
- custom_backrow_artillery_damage:0 "Apoyo en el campo de batalla"
- custom_backrow_artillery_damage_desc:0 "Con artilleros instruídos rigurosamente para reaccionar al desarrollo del combate, podemos aumentar su efectividad apoyando la primera fila, siempre que esta resista."
- custom_harsh_treatment_cost:0 "Trato más duro"
- custom_harsh_treatment_cost_desc:0 "A veces no basta con masacrar disidentes. Hay que prender fuego a sus familias, hogares e incluso pueblos para hacernos entender."
- custom_fire_damage_received:0 "Estoicismo"
- custom_fire_damage_received_desc:0 "Soportar el fuego de los proyectiles enemigos es un asunto desagradable, pero somos un pueblo estoico y podemos mantener la compostura en la situaciones más difíciles."
+ custom_harmonization_speed:0 "Integración de comunidades" # [LocEditor:AwaitingBatchUpdate]
+ custom_harmonization_speed_desc:0 "El peliagudo asunto de combinar creencias se ha facilitado mucho trasladando comunidades enteras de nuestras tierras a nuevas posesiones." # [LocEditor:AwaitingBatchUpdate]
+ custom_meritocracy:0 "Exámenes estrictos" # [LocEditor:AwaitingBatchUpdate]
+ custom_meritocracy_desc:0 "Al exigir los criterios más exigentes a nuestros examinandos, nos aseguramos de que nuestra administración cuenta con la ayuda de las más grandes mentes." # [LocEditor:AwaitingBatchUpdate]
+ custom_monarch_admin_power:0 "Educación regia" # [LocEditor:AwaitingBatchUpdate]
+ custom_monarch_admin_power_desc:0 "Jamás faltará educación de gobierno a un descendiente de nuestra dinastía. La educación de quienes pronto serán monarcas será rigurosa y omnipresente." # [LocEditor:AwaitingBatchUpdate]
+ custom_governing_capacity_modifier:0 "Liderazgo competente"
+ custom_governing_capacity_modifier_desc:0 "Algunos son mejores que otros a la hora de mandar, así que pueden liderar a más gente con mayor eficacia."
+ custom_max_absolutism:0 "Constitución suprema" # [LocEditor:AwaitingBatchUpdate]
+ custom_max_absolutism_desc:0 "Está escrito en el mismo alma de nuestra nación que nuestro soberano es la persona más perfecta y suprema de la Tierra, por encima de todas la leyes humanas. Sin un juez por encima de su persona, podremos seguir adelante con el control absoluto de nuestras tierras." # [LocEditor:AwaitingBatchUpdate]
+ custom_yearly_absolutism:0 "Autoridad incuestionable" # [LocEditor:AwaitingBatchUpdate]
+ custom_yearly_absolutism_desc:0 "El concepto de representación y control autónomo son veneno para nuestra nación. Nuestro pueblo responderá a la voluntad absoluta del gobierno central." # [LocEditor:AwaitingBatchUpdate]
+ custom_administrative_efficiency:0 "Administración inflexible" # [LocEditor:AwaitingBatchUpdate]
+ custom_administrative_efficiency_desc:0 "Hay muchos controles y equilibrios que garantizan una administración fluida. Si ignoramos la mayor parte de estos y hacemos de la expansión nuestra política principal, podremos adquirir tierras más rápidamente." # [LocEditor:AwaitingBatchUpdate]
+ custom_institution_spread_from_true_faith:0 "Hermandad religiosa" # [LocEditor:AwaitingBatchUpdate]
+ custom_institution_spread_from_true_faith_desc:0 "Albergar la confianza de que la palabra de nuestros hermanos en la fe, aunque no siempre dicha con la mejor intención, al menos es verdadera, puede ayudar a la expansión de nuevas ideas beneficiosas." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_institution_spread:0 "Al frente de nuevas ideas" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_institution_spread_desc:0 "A menudo lo viejo debe dar paso a lo nuevo cuando ambos se encuentran. Nuestra nación está muy acostumbrada a adoptar nuevas ideas con la menor confusión posible." # [LocEditor:AwaitingBatchUpdate]
+ custom_embracement_cost:0 "Persuasión ahorrativa" # [LocEditor:AwaitingBatchUpdate]
+ custom_embracement_cost_desc:0 "Convencer al populacho de abandonar ideas atrasadas y abrazar las nuevas puede llegar a ser caro. Sin embargo, el nuestro es un pueblo siempre capaz de encontrar soluciones rentables." # [LocEditor:AwaitingBatchUpdate]
+ custom_max_states:0 "Personal gubernamental incrementado" # [LocEditor:AwaitingBatchUpdate]
+ custom_max_states_desc:0 "Tener en nómina un gran número de gobernadores, con los controles y equilibrios adecuados, garantiza que administrar grandes extensiones de tierra no será mucha carga." # [LocEditor:AwaitingBatchUpdate]
+ custom_church_power_modifier:0 "Derechos de religión estatal" # [LocEditor:AwaitingBatchUpdate]
+ custom_church_power_modifier_desc:0 "Se han concedido ciertos derechos y privilegios a los fieles para estar seguros de que nuestro pueblo halla fuerza en la fe." # [LocEditor:AwaitingBatchUpdate]
+ custom_yearly_corruption:0 "Castigos públicos" # [LocEditor:AwaitingBatchUpdate]
+ custom_yearly_corruption_desc:0 "La corrupción es rampante en el hombre, pero con castigos públicos para los que sean encontrados malversando, podemos atajar la peor parte." # [LocEditor:AwaitingBatchUpdate]
+ custom_caravan_power:0 "Apoyo a los comerciantes de caravanas" # [LocEditor:AwaitingBatchUpdate]
+ custom_caravan_power_desc:0 "Construyendo y manteniendo nuestra red de comercio terrestre, a nuestros comerciantes de caravanas les será más fácil traer maravillosos y gravables bienes a nuestra nación." # [LocEditor:AwaitingBatchUpdate]
+ custom_monthly_fervor_increase:0 "Cimientos religiosos" # [LocEditor:AwaitingBatchUpdate]
+ custom_monthly_fervor_increase_desc:0 "Al garantizar que la religión está en el núcleo de todo los asuntos de nuestro estado y pueblo, podemos desarrollar un gran fervor que podremos dirigir a asuntos importantes." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_trade_goods_size_modifier:0 "Cuotas de producción" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_trade_goods_size_modifier_desc:0 "Los centros de producción de nuestras tierras tienen que cumplir cuotas estrictas para impulsar nuestra economía." # [LocEditor:AwaitingBatchUpdate]
+ custom_adm_tech_cost_modifier:0 "Talento extranjero" # [LocEditor:AwaitingBatchUpdate]
+ custom_adm_tech_cost_modifier_desc:0 "Nuestra nación lleva mucho tiempo aceptando individuos huidos de otras naciones. Cuando resulta que estos individuos tienen talento, los contratamos con rapidez." # [LocEditor:AwaitingBatchUpdate]
+ custom_build_time:0 "Recortando detalles" # [LocEditor:AwaitingBatchUpdate]
+ custom_build_time_desc:0 "Las estructuras hermosas están sobrevaloradas. Mientras las infraestructuras se construyan rápidamente, la estética puede quedar en un segundo plano." # [LocEditor:AwaitingBatchUpdate]
+ custom_state_maintenance_modifier:0 "Sobresueldos provinciales" # [LocEditor:AwaitingBatchUpdate]
+ custom_state_maintenance_modifier_desc:0 "Concediendo privilegios y sobresueldos especiales a nuestros gobernadores provinciales, podemos reducir ligeramente los gastos de sus servicios." # [LocEditor:AwaitingBatchUpdate]
+ custom_autonomy_change_time:0 "Gobierno flexible" # [LocEditor:AwaitingBatchUpdate]
+ custom_autonomy_change_time_desc:0 "Como nación, seremos pragmáticos a la hora de sujetar a nuestro pueblo, evaluando las situaciones locales para ver si la gente menos gobernada es la mejor gobernada." # [LocEditor:AwaitingBatchUpdate]
+ custom_merc_discipline:0 "Criterios de reclutamiento" # [LocEditor:AwaitingBatchUpdate]
+ custom_merc_discipline_desc:0 "Si nos manchamos tratando con hombres de fortuna, al menos debemos asegurarnos de que reclutamos a los guerreros capaces." # [LocEditor:AwaitingBatchUpdate]
+ custom_rival_border_fort_maintenance:0 "Comunidades fronterizas" # [LocEditor:AwaitingBatchUpdate]
+ custom_rival_border_fort_maintenance_desc:0 "Se puede convencer a las comunidades en la frontera con tierras enemigas que lo mejor para ellos es ayudar financieramente a su defensa." # [LocEditor:AwaitingBatchUpdate]
+ custom_siege_blockade_progress:0 "Bloqueos férreos" # [LocEditor:AwaitingBatchUpdate]
+ custom_siege_blockade_progress_desc:0 "Cuando bloqueemos una provincia para que se rinda, ordenaremos a nuestros capitanes no dejar ni barco ni suministro alguno." # [LocEditor:AwaitingBatchUpdate]
+ custom_cav_to_inf_ratio:0 "Organización de batalla" # [LocEditor:AwaitingBatchUpdate]
+ custom_cav_to_inf_ratio_desc:0 "Aprenderemos de los grandes ejércitos de caballería de la historia para asegurarnos de que los cascos de nuestros caballos resuenan por toda la tierra." # [LocEditor:AwaitingBatchUpdate]
+ custom_artillery_bonus_vs_fort:0 "Descargas concentradas" # [LocEditor:AwaitingBatchUpdate]
+ custom_artillery_bonus_vs_fort_desc:0 "Con una cuidadosa posición y precisión podemos derribar fortificaciones enemigas mucho más rápido." # [LocEditor:AwaitingBatchUpdate]
+ custom_artillery_levels_available_vs_fort:1 "Andanadas concentradas"
+ custom_artillery_levels_available_vs_fort_desc:1 "Con una cuidadosa posición y precisión podemos derribar fortificaciones enemigas más rápido."
+ custom_monarch_military_power:0 "Legado de combate" # [LocEditor:AwaitingBatchUpdate]
+ custom_monarch_military_power_desc:0 "Nadie de nuestra prestigiosa dinastía será considerado adulto hasta haber demostrado su competencia en combate. Una fuerte tradición militar mantiene fuertes a nuestra familia y nación." # [LocEditor:AwaitingBatchUpdate]
+ custom_backrow_artillery_damage:0 "Apoyo en el campo de batalla" # [LocEditor:AwaitingBatchUpdate]
+ custom_backrow_artillery_damage_desc:0 "Con artilleros instruídos rigurosamente para reaccionar al desarrollo del combate, podemos aumentar su efectividad apoyando la primera fila, siempre que esta resista." # [LocEditor:AwaitingBatchUpdate]
+ custom_harsh_treatment_cost:0 "Trato más duro" # [LocEditor:AwaitingBatchUpdate]
+ custom_harsh_treatment_cost_desc:0 "A veces no basta con masacrar disidentes. Hay que prender fuego a sus familias, hogares e incluso pueblos para hacernos entender." # [LocEditor:AwaitingBatchUpdate]
+ custom_fire_damage_received:0 "Estoicismo" # [LocEditor:AwaitingBatchUpdate]
+ custom_fire_damage_received_desc:0 "Soportar el fuego de los proyectiles enemigos es un asunto desagradable, pero somos un pueblo estoico y podemos mantener la compostura en la situaciones más difíciles." # [LocEditor:AwaitingBatchUpdate]
  custom_shock_damage_received:2 "Camaradería"
- custom_shock_damage_received_desc:0 "Cuando el enemigo carga, el primer instinto es huir. Inculcar a nuestro ejército un fuerte espíritu de camaradería, nos asegurará que no se rompa en el calor del combate."
- custom_cavalry_flanking:0 "Tradición de caza"
- custom_cavalry_flanking_desc:0 "Cuando cazar a caballo es una habilidad vital que nuestra gente aprende en su infancia, aplicar estas técnicas al combate se convierte en una segunda naturaleza."
- custom_shock_damage:0 "Grito de guerra"
- custom_shock_damage_desc:0 "Nuestros guerreros desean cargar contra el enemigo en cualquier momento y lugar, lanzando su ensordecedor grito de guerra, sin mirar jamás atrás."
- custom_fire_damage:0 "Entrenando precisión"
- custom_fire_damage_desc:0 "Uniendo instrucción militar con prácticas religiosas semanales, nos aseguramos una población capaz de dar al blanco a 20 pasos."
- custom_movement_speed:0 "Experiencia local"
- custom_movement_speed_desc:0 "Hacernos prudentemente con los servicios de gente de la zona nos garantiza que ayudarán a nuestros ejércitos a encontrar el paso más rápido a través de tierras que ellos conocen mejor."
- custom_army_tradition_from_battle:0 "Reclutar observadores"
- custom_army_tradition_from_battle_desc:0 "Ganemos o perdamos, tenemos que aprender mucho de una batalla. Aseguremos que exploradores observen la batalla desde lejos para mejorar nuestra doctrina de batalla con nuestros descubrimiento."
- custom_monthly_militarized_society:0 "Sociedad militante"
- custom_monthly_militarized_society_desc:0 "Nuestro presupuesto militar es el estatal. Que nada se interponga en el camino de nuestro poder militar sin igual."
- custom_reinforce_cost_modifier:0 "Espíritu guerrero"
- custom_reinforce_cost_modifier_desc:0 "Nuestra nación es joven, rica en tradición marcial, siempre lista para asaltar el frente para reclamar la gloria de sus antepasados."
- custom_loot_amount:0 "Trofeos de guerra"
- custom_loot_amount_desc:0 "Entre nuestra gente es costumbre que el vencedor disfrute de los trofeos de guerra. Puede que nuestros enemigos no acepten el saqueo de sus tierras, pero tal vez deberían haber intentado ganar."
- custom_garrison_size:0 "Hasta el último hombre"
- custom_garrison_size_desc:0 "Al asegurarnos de tener fortificaciones con guarniciones extra, luchar hasta el último hombre hará las cosas más terribles para los invasores."
- custom_land_attrition:0 "Flexibilidad de terrenos"
- custom_land_attrition_desc:0 "Los terrenos hostiles no son nada nuevo para nosotros. Montañas, serpientes, frío cortante… lo hemos visto todo."
- custom_mil_tech_cost_modifier:0 "Lecciones de guerra"
- custom_mil_tech_cost_modifier_desc:0 "Los enemigos caerán ante nosotros en todos los conflictos, pero no debemos pasar por alto las tácticas que empleen. Una inteligente adopción de lo que veamos en combate ayudará a desarrollar nuestro pensamiento militar."
- custom_free_leader_pool:0 "Avances mediante mejoras"
- custom_free_leader_pool_desc:0 "Es absurdo limitarnos a grandes líderes militares. Dentro de lo posible, todos deben probarse antes de dirigir nuestros ejércitos."
- custom_global_regiment_cost:0 "El servicio da la ciudadanía"
- custom_global_regiment_cost_desc:0 "Igual que los romanos hicieron, permitiremos que los extranjeros demuestren su lealtad al estado mediante el servicio militar. Así encontrar carne de cañón no será más fácil y barato."
- custom_mercenary_cost:0 "Contactos mercenarios"
- custom_mercenary_cost_desc:0 "Manteniendo contactos con fuerzas mercenarias nos aseguramos de ser clientes prioritarios, no por el tamaño de nuestros pagos sino por nuestra fiabilidad."
- custom_recover_army_morale_speed:0 "Clarines de guerra"
- custom_recover_army_morale_speed_desc:0 "La presencia de nuestro instrumento nacional en el campo de batalla siempre ha elevado el espíritu combativo de nuestros soldados."
- custom_warscore_cost_vs_other_religion:0 "Intolerancia religiosa"
- custom_warscore_cost_vs_other_religion_desc:0 "Herejes y paganos siempre serán demonios para nuestra sociedad. Si bien será difícil crear buenas relaciones exteriores, al menos nuestras reclamaciones bélicas serán más justas."
- custom_war_taxes_cost_modifier:0 "Autoridad durante la guerra"
- custom_war_taxes_cost_modifier_desc:0 "En tiempos de guerra, nuestra nación llamará a nuestra gente a hacer cuanto puedan para ayudar, y los nuestros lo esperan."
- custom_monarch_diplomatic_power:0 "Educación cosmopolita"
- custom_monarch_diplomatic_power_desc:0 "Ningún gobernante que se precie puede valerse por sí solo en una negociación. La educación de todos los futuros gobernantes involucrará educarse en cortes tanto propias como ajenas para aprender los matices diplomáticos."
- custom_liberty_desire_from_subject_development:0 "Proyectos extranjeros"
- custom_liberty_desire_from_subject_development_desc:0 "Animando las inversiones en nuestros súbditos extranjeros, haremos que sientan más gratitud hacia nosotros, incluso cuando se hagan más poderosos."
- custom_reduced_liberty_desire_on_same_continent:0 "Exhibiciones militares"
- custom_reduced_liberty_desire_on_same_continent_desc:0 "Asegurarse de que nuestros súbditos cercanos sean plenamente conscientes de nuestra destreza militar les hará conocer su sitio en el gran plan."
- custom_naval_tradition_from_battle:0 "Marineros reclutados"
- custom_naval_tradition_from_battle_desc:0 "Al salir victoriosos en batallas navales, debemos emplear a los marineros capturados y aprender lo que podamos de ellos para mejorar nuestra destreza naval."
- custom_capture_ship_chance:0 "Piratas reclutados"
- custom_capture_ship_chance_desc:0 "Los piratas son la escoria de los mares, pero a los que capturemos debemos ofrecerles trabajo. Pueden enseñarnos un par de cosas sobre capturar naves enemigas en combate."
+ custom_shock_damage_received_desc:0 "Cuando el enemigo carga, el primer instinto es huir. Inculcar a nuestro ejército un fuerte espíritu de camaradería, nos asegurará que no se rompa en el calor del combate." # [LocEditor:AwaitingBatchUpdate]
+ custom_cavalry_flanking:0 "Tradición de caza" # [LocEditor:AwaitingBatchUpdate]
+ custom_cavalry_flanking_desc:0 "Cuando cazar a caballo es una habilidad vital que nuestra gente aprende en su infancia, aplicar estas técnicas al combate se convierte en una segunda naturaleza." # [LocEditor:AwaitingBatchUpdate]
+ custom_shock_damage:0 "Grito de guerra" # [LocEditor:AwaitingBatchUpdate]
+ custom_shock_damage_desc:0 "Nuestros guerreros desean cargar contra el enemigo en cualquier momento y lugar, lanzando su ensordecedor grito de guerra, sin mirar jamás atrás." # [LocEditor:AwaitingBatchUpdate]
+ custom_fire_damage:0 "Entrenando precisión" # [LocEditor:AwaitingBatchUpdate]
+ custom_fire_damage_desc:0 "Uniendo instrucción militar con prácticas religiosas semanales, nos aseguramos una población capaz de dar al blanco a 20 pasos." # [LocEditor:AwaitingBatchUpdate]
+ custom_movement_speed:0 "Experiencia local" # [LocEditor:AwaitingBatchUpdate]
+ custom_movement_speed_desc:0 "Hacernos prudentemente con los servicios de gente de la zona nos garantiza que ayudarán a nuestros ejércitos a encontrar el paso más rápido a través de tierras que ellos conocen mejor." # [LocEditor:AwaitingBatchUpdate]
+ custom_army_tradition_from_battle:0 "Reclutar observadores" # [LocEditor:AwaitingBatchUpdate]
+ custom_army_tradition_from_battle_desc:0 "Ganemos o perdamos, tenemos que aprender mucho de una batalla. Aseguremos que exploradores observen la batalla desde lejos para mejorar nuestra doctrina de batalla con nuestros descubrimiento." # [LocEditor:AwaitingBatchUpdate]
+ custom_monthly_militarized_society:0 "Sociedad militante" # [LocEditor:AwaitingBatchUpdate]
+ custom_monthly_militarized_society_desc:0 "Nuestro presupuesto militar es el estatal. Que nada se interponga en el camino de nuestro poder militar sin igual." # [LocEditor:AwaitingBatchUpdate]
+ custom_reinforce_cost_modifier:0 "Espíritu guerrero" # [LocEditor:AwaitingBatchUpdate]
+ custom_reinforce_cost_modifier_desc:0 "Nuestra nación es joven, rica en tradición marcial, siempre lista para asaltar el frente para reclamar la gloria de sus antepasados." # [LocEditor:AwaitingBatchUpdate]
+ custom_loot_amount:0 "Trofeos de guerra" # [LocEditor:AwaitingBatchUpdate]
+ custom_loot_amount_desc:0 "Entre nuestra gente es costumbre que el vencedor disfrute de los trofeos de guerra. Puede que nuestros enemigos no acepten el saqueo de sus tierras, pero tal vez deberían haber intentado ganar." # [LocEditor:AwaitingBatchUpdate]
+ custom_garrison_size:0 "Hasta el último hombre" # [LocEditor:AwaitingBatchUpdate]
+ custom_garrison_size_desc:0 "Al asegurarnos de tener fortificaciones con guarniciones extra, luchar hasta el último hombre hará las cosas más terribles para los invasores." # [LocEditor:AwaitingBatchUpdate]
+ custom_land_attrition:0 "Flexibilidad de terrenos" # [LocEditor:AwaitingBatchUpdate]
+ custom_land_attrition_desc:0 "Los terrenos hostiles no son nada nuevo para nosotros. Montañas, serpientes, frío cortante… lo hemos visto todo." # [LocEditor:AwaitingBatchUpdate]
+ custom_mil_tech_cost_modifier:0 "Lecciones de guerra" # [LocEditor:AwaitingBatchUpdate]
+ custom_mil_tech_cost_modifier_desc:0 "Los enemigos caerán ante nosotros en todos los conflictos, pero no debemos pasar por alto las tácticas que empleen. Una inteligente adopción de lo que veamos en combate ayudará a desarrollar nuestro pensamiento militar." # [LocEditor:AwaitingBatchUpdate]
+ custom_free_leader_pool:0 "Avances mediante mejoras" # [LocEditor:AwaitingBatchUpdate]
+ custom_free_leader_pool_desc:0 "Es absurdo limitarnos a grandes líderes militares. Dentro de lo posible, todos deben probarse antes de dirigir nuestros ejércitos." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_regiment_cost:0 "El servicio da la ciudadanía" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_regiment_cost_desc:0 "Igual que los romanos hicieron, permitiremos que los extranjeros demuestren su lealtad al estado mediante el servicio militar. Así encontrar carne de cañón no será más fácil y barato." # [LocEditor:AwaitingBatchUpdate]
+ custom_mercenary_cost:0 "Contactos mercenarios" # [LocEditor:AwaitingBatchUpdate]
+ custom_mercenary_cost_desc:0 "Manteniendo contactos con fuerzas mercenarias nos aseguramos de ser clientes prioritarios, no por el tamaño de nuestros pagos sino por nuestra fiabilidad." # [LocEditor:AwaitingBatchUpdate]
+ custom_recover_army_morale_speed:0 "Clarines de guerra" # [LocEditor:AwaitingBatchUpdate]
+ custom_recover_army_morale_speed_desc:0 "La presencia de nuestro instrumento nacional en el campo de batalla siempre ha elevado el espíritu combativo de nuestros soldados." # [LocEditor:AwaitingBatchUpdate]
+ custom_warscore_cost_vs_other_religion:0 "Intolerancia religiosa" # [LocEditor:AwaitingBatchUpdate]
+ custom_warscore_cost_vs_other_religion_desc:0 "Herejes y paganos siempre serán demonios para nuestra sociedad. Si bien será difícil crear buenas relaciones exteriores, al menos nuestras reclamaciones bélicas serán más justas." # [LocEditor:AwaitingBatchUpdate]
+ custom_war_taxes_cost_modifier:0 "Autoridad durante la guerra" # [LocEditor:AwaitingBatchUpdate]
+ custom_war_taxes_cost_modifier_desc:0 "En tiempos de guerra, nuestra nación llamará a nuestra gente a hacer cuanto puedan para ayudar, y los nuestros lo esperan." # [LocEditor:AwaitingBatchUpdate]
+ custom_monarch_diplomatic_power:0 "Educación cosmopolita" # [LocEditor:AwaitingBatchUpdate]
+ custom_monarch_diplomatic_power_desc:0 "Ningún gobernante que se precie puede valerse por sí solo en una negociación. La educación de todos los futuros gobernantes involucrará educarse en cortes tanto propias como ajenas para aprender los matices diplomáticos." # [LocEditor:AwaitingBatchUpdate]
+ custom_liberty_desire_from_subject_development:0 "Proyectos extranjeros" # [LocEditor:AwaitingBatchUpdate]
+ custom_liberty_desire_from_subject_development_desc:0 "Animando las inversiones en nuestros súbditos extranjeros, haremos que sientan más gratitud hacia nosotros, incluso cuando se hagan más poderosos." # [LocEditor:AwaitingBatchUpdate]
+ custom_reduced_liberty_desire_on_same_continent:0 "Exhibiciones militares" # [LocEditor:AwaitingBatchUpdate]
+ custom_reduced_liberty_desire_on_same_continent_desc:0 "Asegurarse de que nuestros súbditos cercanos sean plenamente conscientes de nuestra destreza militar les hará conocer su sitio en el gran plan." # [LocEditor:AwaitingBatchUpdate]
+ custom_naval_tradition_from_battle:0 "Marineros reclutados" # [LocEditor:AwaitingBatchUpdate]
+ custom_naval_tradition_from_battle_desc:0 "Al salir victoriosos en batallas navales, debemos emplear a los marineros capturados y aprender lo que podamos de ellos para mejorar nuestra destreza naval." # [LocEditor:AwaitingBatchUpdate]
+ custom_capture_ship_chance:0 "Piratas reclutados" # [LocEditor:AwaitingBatchUpdate]
+ custom_capture_ship_chance_desc:0 "Los piratas son la escoria de los mares, pero a los que capturemos debemos ofrecerles trabajo. Pueden enseñarnos un par de cosas sobre capturar naves enemigas en combate." # [LocEditor:AwaitingBatchUpdate]
  custom_sunk_ship_morale_hit_recieved:1 "Adiestramiento naval riguroso"
  custom_sunk_ship_morale_hit_recieved_desc:1 "Ver hundirse un buque aliado puede romper la moral de nuestra tripulación. Con suficiente instrucción, nuestros marineros pueden poner buena cara a la peor de las situaciones."
- custom_global_naval_engagement_modifier:0 "Doctrina naval adaptable"
- custom_global_naval_engagement_modifier_desc:0 "Ninguna táctica naval será incuestionable. Nos adaptaremos a las situaciones y conseguiremos ventaja en cualquier enfrentamiento."
- custom_global_ship_trade_power:0 "Conducta comercial agresiva"
- custom_global_ship_trade_power_desc:0 "El momento justo es clave a la hora de los tratos. Si esperamos demasiado, las corrientes no serán favorables para futuros viajes comerciales. Con una ventaja en negociaciones comerciales, a nuestras flotas comerciales les será más fácil ir de puerto a puerto."
- custom_native_assimilation:0 "Negociaciones nativas"
- custom_native_assimilation_desc:0 "Todos tienen un precio. Al comprar a los jefes nativos de la zona, nos aseguramos que los nativos de nuestras nuevas tierras trabajen en nuestro beneficio."
- custom_native_uprising_chance:0 "Cuentas y mantas"
- custom_native_uprising_chance_desc:0 "A fuego y espada es un modo de ocuparse de la amenaza nativa, claro, pero no es el único método. Tener buenas relaciones con los nativos nos los quitará de encima y nos permitirá construir nuestros asentamientos sin interrupciones."
- custom_reduced_liberty_desire:0 "Acuerdos protectores"
- custom_reduced_liberty_desire_desc:0 "No todos los soberanos son tiranos. En nuestro caso solo protegemos a los estados más débiles de sus vecinos agresivos y nos encargamos de que lo sepan."
- custom_migration_cooldown:0 "Costumbres migratorias"
- custom_migration_cooldown_desc:0 "Nuestro pueblo siempre ha estado dispuesto a ir de un lugar a otro, sin quedarse demasiado tiempo en un lugar."
- custom_envoy_travel_time:0 "Privilegio diplomático"
- custom_envoy_travel_time_desc:0 "Nos aseguraremos de que nuestros diplomáticos tengan siempre tratamiento preferente a la hora de tener los caballos más rápidos y los barcos más veloces."
- custom_province_warscore_cost:0 "Negociadores fuertes"
- custom_province_warscore_cost_desc:0 "Cuando tengamos la ventaja en una situación y lo sepamos, presionaremos para sacar más."
- custom_dip_tech_cost_modifier:0 "Expandiendo la alfabetización"
- custom_dip_tech_cost_modifier_desc:0 "Garantizando que no solo el clero tenga cierto conocimiento de lectura y escritura, podemos descubrir que hay más gente capaz de contribuir a nuestros avances tecnológicos."
- custom_papal_influence:0 "Lazos clericales"
- custom_papal_influence_desc:0 "Si nos mantenemos siempre de lado del clero, nos aseguramos tener siempre el favor papal."
- custom_auto_explore_adjacent_to_colony:0 "Avanzadas fronterizas"
- custom_auto_explore_adjacent_to_colony_desc:0 "Al poblar nuevas tierras, debemos asegurarnos de levantar puestos avanzados al borde de nuestras reclamaciones para conocer mejor qué hay más allá."
+ custom_global_naval_engagement_modifier:0 "Doctrina naval adaptable" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_naval_engagement_modifier_desc:0 "Ninguna táctica naval será incuestionable. Nos adaptaremos a las situaciones y conseguiremos ventaja en cualquier enfrentamiento." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_ship_trade_power:0 "Conducta comercial agresiva" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_ship_trade_power_desc:0 "El momento justo es clave a la hora de los tratos. Si esperamos demasiado, las corrientes no serán favorables para futuros viajes comerciales. Con una ventaja en negociaciones comerciales, a nuestras flotas comerciales les será más fácil ir de puerto a puerto." # [LocEditor:AwaitingBatchUpdate]
+ custom_native_assimilation:0 "Negociaciones nativas" # [LocEditor:AwaitingBatchUpdate]
+ custom_native_assimilation_desc:0 "Todos tienen un precio. Al comprar a los jefes nativos de la zona, nos aseguramos que los nativos de nuestras nuevas tierras trabajen en nuestro beneficio." # [LocEditor:AwaitingBatchUpdate]
+ custom_native_uprising_chance:0 "Cuentas y mantas" # [LocEditor:AwaitingBatchUpdate]
+ custom_native_uprising_chance_desc:0 "A fuego y espada es un modo de ocuparse de la amenaza nativa, claro, pero no es el único método. Tener buenas relaciones con los nativos nos los quitará de encima y nos permitirá construir nuestros asentamientos sin interrupciones." # [LocEditor:AwaitingBatchUpdate]
+ custom_reduced_liberty_desire:0 "Acuerdos protectores" # [LocEditor:AwaitingBatchUpdate]
+ custom_reduced_liberty_desire_desc:0 "No todos los soberanos son tiranos. En nuestro caso solo protegemos a los estados más débiles de sus vecinos agresivos y nos encargamos de que lo sepan." # [LocEditor:AwaitingBatchUpdate]
+ custom_migration_cooldown:0 "Costumbres migratorias" # [LocEditor:AwaitingBatchUpdate]
+ custom_migration_cooldown_desc:0 "Nuestro pueblo siempre ha estado dispuesto a ir de un lugar a otro, sin quedarse demasiado tiempo en un lugar." # [LocEditor:AwaitingBatchUpdate]
+ custom_envoy_travel_time:0 "Privilegio diplomático" # [LocEditor:AwaitingBatchUpdate]
+ custom_envoy_travel_time_desc:0 "Nos aseguraremos de que nuestros diplomáticos tengan siempre tratamiento preferente a la hora de tener los caballos más rápidos y los barcos más veloces." # [LocEditor:AwaitingBatchUpdate]
+ custom_province_warscore_cost:0 "Negociadores fuertes" # [LocEditor:AwaitingBatchUpdate]
+ custom_province_warscore_cost_desc:0 "Cuando tengamos la ventaja en una situación y lo sepamos, presionaremos para sacar más." # [LocEditor:AwaitingBatchUpdate]
+ custom_dip_tech_cost_modifier:0 "Expandiendo la alfabetización" # [LocEditor:AwaitingBatchUpdate]
+ custom_dip_tech_cost_modifier_desc:0 "Garantizando que no solo el clero tenga cierto conocimiento de lectura y escritura, podemos descubrir que hay más gente capaz de contribuir a nuestros avances tecnológicos." # [LocEditor:AwaitingBatchUpdate]
+ custom_papal_influence:0 "Lazos clericales" # [LocEditor:AwaitingBatchUpdate]
+ custom_papal_influence_desc:0 "Si nos mantenemos siempre de lado del clero, nos aseguramos tener siempre el favor papal." # [LocEditor:AwaitingBatchUpdate]
+ custom_auto_explore_adjacent_to_colony:0 "Avanzadas fronterizas" # [LocEditor:AwaitingBatchUpdate]
+ custom_auto_explore_adjacent_to_colony_desc:0 "Al poblar nuevas tierras, debemos asegurarnos de levantar puestos avanzados al borde de nuestras reclamaciones para conocer mejor qué hay más allá." # [LocEditor:AwaitingBatchUpdate]
  custom_establish_frontier_ability:1 "Poblar la frontera"
  custom_establish_frontier_ability_desc:2 "Ha llegado la hora de avanzar y poblar las tierras abiertas que se hallan ante nosotros."
- custom_unjustified_demands:0 "Injustos nunca"
- custom_unjustified_demands_desc:0 "Al asegurarnos de que las naciones vecinas conozcan bien la justicia de nuestra causa, nos garantizamos de no ser nunca los tiranos en la mesa de paz."
- custom_rebel_support_efficiency:0 "Apoyo a disidentes"
- custom_rebel_support_efficiency_desc:0 "No tenemos escrúpulos en pertrechar y financiar disidentes extranjeros para seguir debilitando a nuestros enemigos y que los nuevos estados emergentes sigan nuestro modo de pensar."
- custom_placed_merchant_power:0 "Financiación mercante"
- custom_placed_merchant_power_desc:0 "Con la ayuda adecuada garantizaremos que nuestros comerciantes tengan una ventaja extra comerciando en casa y el extranjero."
- custom_global_own_trade_power:0 "Nuevas prácticas de comercio"
- custom_global_own_trade_power_desc:0 "Con algo de esfuerzo, hemos afinado nuestras técnicas comerciales."
- custom_recover_navy_morale_speed:0 "Remando a la libertad"
- custom_recover_navy_morale_speed_desc:0 "Instaurando un sistema que garantiza que un esclavo en el mar pueda ganarse la libertad, podemos tener una tripulación más resistente a los malos momentos en el mar."
- custom_global_foreign_trade_power:0 "Diplomacia de cañoneras"
- custom_global_foreign_trade_power_desc:0 "Respaldando nuestras palabras con poder naval garantizaremos que nuestros comerciantes reciban tratamiento preferente en ultramar."
- custom_improve_relation_modifier:0 "Diplomáticos veteranos"
- custom_improve_relation_modifier_desc:0 "Tener cerca a los diplomáticos mejores y más brillantes, familiarizados con lenguas y matices extranjeros nos facilitará limar cualquier transgresión."
- custom_possible_condottieri:0 "Tradiciones mercenarias"
- custom_possible_condottieri_desc:0 "Cuando las expectativas en casa son a menudo inestables, nuestro pueblo suele recurrir a moneda extranjera. Nuestra fuerte tradición mercenaria nos hace un proveedor popular de soldadesca."
- custom_naval_attrition:0 "Barcos suministrados"
- custom_naval_attrition_desc:0 "El barco en sí no es lo único de lo que hay que preocuparse en los viajes largos. El bienestar de la tripulación es igual de importante. Nuestra tradición de controlar las necesidades alimentarias de nuestros marineros mantiene nuestros barcos más tiempo a flote."
- custom_idea_sailors_recovery_speed:0 "Uno con el mar"
- custom_idea_sailors_recovery_speed_desc:0 "Nuestro pueblo sale a la mar con naturalidad y sobresalen en la navegación. Cuando nos falten marineros activos, no nos faltarán reemplazos dispuestos a zarpar."
- custom_trade_range_modifier:0 "Pólizas de seguro"
- custom_trade_range_modifier_desc:0 "El comercio a larga distancia puede ser un asunto peligroso. Al garantizar que nuestros comerciantes puedan asegurarse contra los riesgos del comercio, nos aseguramos de que puedan llegar más lejos."
+ custom_unjustified_demands:0 "Injustos nunca" # [LocEditor:AwaitingBatchUpdate]
+ custom_unjustified_demands_desc:0 "Al asegurarnos de que las naciones vecinas conozcan bien la justicia de nuestra causa, nos garantizamos de no ser nunca los tiranos en la mesa de paz." # [LocEditor:AwaitingBatchUpdate]
+ custom_rebel_support_efficiency:0 "Apoyo a disidentes" # [LocEditor:AwaitingBatchUpdate]
+ custom_rebel_support_efficiency_desc:0 "No tenemos escrúpulos en pertrechar y financiar disidentes extranjeros para seguir debilitando a nuestros enemigos y que los nuevos estados emergentes sigan nuestro modo de pensar." # [LocEditor:AwaitingBatchUpdate]
+ custom_placed_merchant_power:0 "Financiación mercante" # [LocEditor:AwaitingBatchUpdate]
+ custom_placed_merchant_power_desc:0 "Con la ayuda adecuada garantizaremos que nuestros comerciantes tengan una ventaja extra comerciando en casa y el extranjero." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_own_trade_power:0 "Nuevas prácticas de comercio" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_own_trade_power_desc:0 "Con algo de esfuerzo, hemos afinado nuestras técnicas comerciales." # [LocEditor:AwaitingBatchUpdate]
+ custom_recover_navy_morale_speed:0 "Remando a la libertad" # [LocEditor:AwaitingBatchUpdate]
+ custom_recover_navy_morale_speed_desc:0 "Instaurando un sistema que garantiza que un esclavo en el mar pueda ganarse la libertad, podemos tener una tripulación más resistente a los malos momentos en el mar." # [LocEditor:AwaitingBatchUpdate]
+ custom_global_foreign_trade_power:0 "Diplomacia de cañoneras" # [LocEditor:AwaitingBatchUpdate]
+ custom_global_foreign_trade_power_desc:0 "Respaldando nuestras palabras con poder naval garantizaremos que nuestros comerciantes reciban tratamiento preferente en ultramar." # [LocEditor:AwaitingBatchUpdate]
+ custom_improve_relation_modifier:0 "Diplomáticos veteranos" # [LocEditor:AwaitingBatchUpdate]
+ custom_improve_relation_modifier_desc:0 "Tener cerca a los diplomáticos mejores y más brillantes, familiarizados con lenguas y matices extranjeros nos facilitará limar cualquier transgresión." # [LocEditor:AwaitingBatchUpdate]
+ custom_possible_condottieri:0 "Tradiciones mercenarias" # [LocEditor:AwaitingBatchUpdate]
+ custom_possible_condottieri_desc:0 "Cuando las expectativas en casa son a menudo inestables, nuestro pueblo suele recurrir a moneda extranjera. Nuestra fuerte tradición mercenaria nos hace un proveedor popular de soldadesca." # [LocEditor:AwaitingBatchUpdate]
+ custom_naval_attrition:0 "Barcos suministrados" # [LocEditor:AwaitingBatchUpdate]
+ custom_naval_attrition_desc:0 "El barco en sí no es lo único de lo que hay que preocuparse en los viajes largos. El bienestar de la tripulación es igual de importante. Nuestra tradición de controlar las necesidades alimentarias de nuestros marineros mantiene nuestros barcos más tiempo a flote." # [LocEditor:AwaitingBatchUpdate]
+ custom_idea_sailors_recovery_speed:0 "Uno con el mar" # [LocEditor:AwaitingBatchUpdate]
+ custom_idea_sailors_recovery_speed_desc:0 "Nuestro pueblo sale a la mar con naturalidad y sobresalen en la navegación. Cuando nos falten marineros activos, no nos faltarán reemplazos dispuestos a zarpar." # [LocEditor:AwaitingBatchUpdate]
+ custom_trade_range_modifier:0 "Pólizas de seguro" # [LocEditor:AwaitingBatchUpdate]
+ custom_trade_range_modifier_desc:0 "El comercio a larga distancia puede ser un asunto peligroso. Al garantizar que nuestros comerciantes puedan asegurarse contra los riesgos del comercio, nos aseguramos de que puedan llegar más lejos." # [LocEditor:AwaitingBatchUpdate]
  FIND:0 "Buscar"
  streltsy_concessions:0 "Privilegios streltsí"
  desc_streltsy_concessions:0 "Los streltsí han recibido privilegios de los que carecen otras partes de nuestras fuerzas armadas. Esto supone un esfuerzo financiero extra para nuestra administración militar."

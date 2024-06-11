@@ -12,6 +12,7 @@ country_event = {
 	trigger = {
 		tag = HSA
 		has_dlc = "Emperor"
+		is_subject = no
 		emperor = {
 			is_at_war = no
 		}
@@ -44,7 +45,7 @@ country_event = {
 		hidden_effect = {
 			45 = {
 				strongest_trade_power = {
-					save_event_target_as = lubeck_trade_power
+					save_global_event_target_as = lubeck_trade_power
 					set_country_flag = lubeck_trade_power_flag
 				}
 			}
@@ -82,7 +83,7 @@ country_event = {
 # Dummy incident
 country_event = {
 	id = hansa_incident.2
-	title = hansa_incident.t
+	title = hansa_incident.2.t
 	picture = GOOD_WITH_MONARCH_eventPicture
 	desc = hansa_incident.2.d
 	
@@ -96,7 +97,7 @@ country_event = {
 				limit = {
 					has_country_flag = lubeck_trade_power_flag
 				}
-				save_event_target_as = lubeck_trade_power
+				save_global_event_target_as = lubeck_trade_power
 			}
 		}
 	}
@@ -202,7 +203,7 @@ country_event = {
 		45 = {
 			add_trade_modifier = {
 				who = event_target:lubeck_trade_power
-				duration = 7200
+				duration = 7300
 				power = -30
 				key = IMPERIAL_EMBARGO
 			}
@@ -210,7 +211,7 @@ country_event = {
 		1876 = {
 			add_trade_modifier = {
 				who = event_target:lubeck_trade_power
-				duration = 7200
+				duration = 7300
 				power = -30
 				key = IMPERIAL_EMBARGO
 			}
@@ -218,7 +219,7 @@ country_event = {
 		4744 = {
 			add_trade_modifier = {
 				who = event_target:lubeck_trade_power
-				duration = 7200
+				duration = 7300
 				power = -30
 				key = IMPERIAL_EMBARGO
 			}
@@ -238,6 +239,16 @@ country_event = {
 				modifier = opinion_emperor_imperial_embargo
 			}
 		}
+		event_target:lubeck_trade_power = {
+			country_event = { 
+				id = hansa_incident.4
+				days = 1
+			}
+		}
+	}
+
+	after = {
+		clear_global_event_target = lubeck_trade_power
 	}
 }
 
@@ -300,5 +311,19 @@ country_event = {
 		emperor = {
 			add_imperial_influence = -5
 		}
+	}
+}
+
+# Notification of Embargo
+country_event = {
+	id = hansa_incident.4
+	title = hansa_incident.4.t
+	picture = HRE_eventPicture
+	desc = hansa_incident.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hansa_incident.4.a
 	}
 }

@@ -8,7 +8,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_edit_idea_button_glow"
 		texturefile = "gfx/interface/edit_idea_button_glow.dds"
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 	}
 
 	spriteType = {

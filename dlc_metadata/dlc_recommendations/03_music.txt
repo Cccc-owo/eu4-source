@@ -108,7 +108,7 @@ dlc031 = {
 	}
 }
 
-#Songs of the New World
+#Songs of Exploration
 dlc036 = {
 	reason = {
 		tooltip_desc = "dlc036_reason_colonists"
@@ -281,3 +281,63 @@ dlc105 = {
 		}
 	}
 }
+
+#dlc108 is in Leviathan
+#dlc109 is in Leviathan
+
+#dlc111 is in Origins
+#dlc112 is in Origins
+#dlc113 is in Origins
+
+#Guns, Drums and Steel vol 3
+dlc114 = {
+	reason = {
+		tooltip_desc = "dlc114_reason_generic"
+		tooltip_reason = "dlc110_reason_new_music_reason"
+		weight = 10
+		trigger = {
+			capital_scope = {
+				continent = europe
+			}
+		}
+	}
+}
+
+#dlc117 is in Lions of the North
+#dlc118 is in Lions of the North
+
+#dlc121 is in Domination
+#dlc122 is in Domination
+#dlc123 is in Domination
+#dlc124 is in Domination
+
+dlc125 = {
+	reason = {
+		tooltip_desc = "dlc125_reason_japan"
+		tooltip_reason = "dlc125_reason_japan_reason"
+		weight = 40
+		trigger = {
+			capital_scope = {
+				region = japan_region
+			}
+		}
+	}
+}
+
+dlc126 = {
+	reason = {
+		tooltip_desc = "dlc126_reason_china"
+		tooltip_reason = "dlc126_reason_china_reason"
+		weight = 40
+		trigger = {
+			OR = {
+				tag = QNG
+				tag = MNG
+			}
+		}
+	}
+}
+
+#dlc130 is part of King of Kings
+#dlc131 is part of King of Kings
+#dlc132 is part of King of Kings

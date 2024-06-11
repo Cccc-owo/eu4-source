@@ -23,7 +23,7 @@
  client_vassal_long_desc:0 "Tout comme un vassal habituel, un État-client doit participer aux guerres de son suzerain et lui reverser une part de ses revenus, et il ne peut entreprendre certaines actions diplomatiques."
  daimyo_vassal_long_desc:0 "Un daimyô doit participer aux guerres de son suzerain et lui reverser une part de ses revenus, et il ne peut entreprendre certaines actions diplomatiques. Les daimyôs peuvent s'affronter les uns les autres."
  client_march_long_desc:0 "Tout comme une marche militaire habituelle, une marche cliente ne peut être annexée et ne reverse aucune taxe, mais dispose d'une capacité militaire plus importante que les vassaux habituels."
- colony_long_desc:0 "Une colonie est un État colonial indépendant, sous suzeraineté de la mère patrie. Elle doit payer des droits de douane mensuels à celle-ci et lui transférer $TRADE|0%$ de sa puissance commerciale. Les colonies ne peuvent déclarer la guerre qu'aux primitifs et aux autres nations coloniales."
+ colony_long_desc:1 "Une colonie est un État colonial indépendant, sous suzeraineté de la mère patrie. Elle doit payer des droits de douane mensuels à celle-ci, basés sur la moitié de ses revenus de production et commerciaux, et lui transférer $TRADE|0%$ de sa puissance commerciale. Les colonies ne peuvent déclarer la guerre qu'aux primitifs et aux autres nations coloniales."
  protectorate_long_desc:0 "Un protectorat transfère la moitié de sa puissance coloniale à son protecteur, en retour de quoi celui-ci le protège."
  personal_union_long_desc:0 "Dans le cadre d'une union personnelle, deux pays sont gouvernés par le même monarque. Le partenaire mineur doit participer aux guerres du partenaire majeur et ne peut entreprendre certaines actions diplomatiques. À la mort du monarque commun, l'union peut soit être poursuivie, soit être brisée, ou le partenaire mineur peut être hérité et annexé par le partenaire majeur."
  vassal_is_our:0 "$NAME|Y$ est notre vassal."
@@ -50,6 +50,7 @@
  subject_only_marry_other_overlord:0 "En tant que $MYSUBJECTTYPE$, nous ne pouvons contracter de mariage royal qu'avec les $THEIRSUBJECTTYPES$ d'un autre suzerain."
  personal_union_no_overlord_dow:0 "Nous ne pouvons déclarer la guerre à un pays avec lequel nous avons une union personnelle."
  colony_no_overlord_dow:0 "Nous ne pouvons déclarer la guerre à nos propres colonies."
+ crown_colony_no_overlord_dow:0 "Nous ne pouvons déclarer la guerre à nos colonies de la Couronne."
  protectorate_no_overlord_dow:0 "Nous ne pouvons déclarer la guerre à un de nos protectorats."
  relation_fight:0 "déclarer la guerre à"
  relation_rival:0 "rival"
@@ -66,3 +67,6 @@
  dummy_title_plural:0 "Pantins"
  dummy_is_our:0 "§Y$NAME$§! est notre pantin."
  dummy_long_desc:1 "Un pantin est un modèle du corps humain utilisé pour diverses raisons."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ tributary_state_overlord_title:0 "suzerain"

@@ -20,6 +20,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Cradle of Civilization"
+		religion_group = muslim
 		has_religious_school = yes
 		total_development = 50
 		num_of_cities = 5
@@ -97,6 +98,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Cradle of Civilization"
+		religion_group = muslim
 		has_religious_school = yes
 		total_development = 50
 		num_of_cities = 5
@@ -162,6 +164,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Cradle of Civilization"
+		religion_group = muslim
 		has_religious_school = yes
 		total_development = 50
 		num_of_cities = 5
@@ -271,7 +274,7 @@ country_event = {
 	title = muslim_school_events.1.t
 	desc = muslim_school_events.1.d
 	picture = MUSLIM_SCHOLAR_WRITING_eventPicture
-	
+	goto = mufti_province
 	trigger = {
 		religion_group = muslim
 		NOT = { religion = shiite }
@@ -1184,8 +1187,8 @@ country_event = {
 			NOT = {
 				owns_core_province = 385 #Mecca
 			}
+			NOT = { religion = shiite }
 			NOT = {
-				religion = shiite
 				owns_core_province = 2311 #Najaf
 			}
 		}
@@ -2743,8 +2746,8 @@ country_event = {
 			NOT = {
 				owns_core_province = 385 #Mecca
 			}
+			NOT = { religion = shiite }
 			NOT = {
-				religion = shiite
 				owns_core_province = 2311 #Najaf
 			}
 		}
@@ -2809,7 +2812,7 @@ country_event = {
 	title = muslim_school_events.16.t
 	desc = muslim_school_events.16.d
 	picture = PRAYER_IN_MOSQUE_eventPicture
-
+	goto = madrasa_province
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		religion_group = muslim
@@ -3381,17 +3384,22 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Cradle of Civilization"
-		is_year = 1700
 		OR = {
-			has_global_flag = neo_sufism
-			is_year = 1780
-		}
-		uses_piety = yes
-		religious_school = {
-			group = muslim
-			school = hanbali_school
-		}
-		piety = 0.65
+			AND = {
+				is_year = 1700
+				OR = {
+					has_global_flag = neo_sufism
+					is_year = 1780
+				}
+				uses_piety = yes
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+				piety = 0.65
+			}
+			has_country_flag = ARB_may_fire_wahabism
+		}	
 	}
 	
 	immediate = {
@@ -3407,6 +3415,8 @@ country_event = {
 	option = {
 		name = muslim_school_events.22.a #Interesting
 		custom_tooltip = muslim_school_events.22.a.tt #Sunni Tribal Federations will now be able to change to the Hanbali School
+		
+		custom_tooltip = ABR_hanbali_countries_now_buff_religious_culture
 	}
 }
 
@@ -3490,3 +3500,139 @@ country_event = {
 	}
 }
 
+#Invite a Permanent Scholar
+country_event = {
+	id = muslim_school_events.24
+	title = muslim_school_events.24.t
+	desc = muslim_school_events.24.d
+	picture = MYSTIC_IN_PRAYER_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		disallow_baseline_invite_scholar = yes
+	}
+
+	option = {
+		name = muslim_school_events.24.a
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_hanafi_school }
+			NOT = { has_country_flag = privilege_can_always_invite_hanafi_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = hanafi_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = hanafi_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.b
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_hanbali_school }
+			NOT = { has_country_flag = privilege_can_always_invite_hanbali_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = hanbali_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.c
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_maliki_school }
+			NOT = { has_country_flag = privilege_can_always_invite_maliki_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = maliki_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = maliki_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.e
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_shafii_school }
+			NOT = { has_country_flag = privilege_can_always_invite_shafii_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = shafii_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = shafii_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.f
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_ismaili_school }
+			NOT = { has_country_flag = privilege_can_always_invite_ismaili_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = ismaili_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = ismaili_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.g
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_jafari_school }
+			NOT = { has_country_flag = privilege_can_always_invite_jafari_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = jafari_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = jafari_school
+		}
+	}
+
+	option = {
+		name = muslim_school_events.24.h
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_zaidi_school }
+			NOT = { has_country_flag = privilege_can_always_invite_zaidi_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = zaidi_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = zaidi_school
+		}
+	}
+
+	after = {
+		clr_country_flag = swaps_scholar_flag
+	}
+}

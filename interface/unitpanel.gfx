@@ -59,7 +59,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	frameAnimatedSpriteType = {
@@ -70,7 +70,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 		
 	frameAnimatedSpriteType = {
@@ -81,7 +81,7 @@ spriteTypes = {
 		animation_rate_fps = 20
 		looping = yes
 		play_on_show = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -92,7 +92,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_reorg_bg_navalTop_bg"
 		texturefile = "gfx/interface/reorg_bg_navalTop_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -103,25 +103,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unitpanel_nu_top_bg"
 		texturefile = "gfx/interface/unitpanel_nu_top_bg.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_unitpanel_morale_frame"
 		texturefile = "gfx/interface/unitpanel_morale_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_unitpanel_drilling_frame"
 		texturefile = "gfx/interface/unitpanel_drilling_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_unitpanel_drilling_frame_s"
 		texturefile = "gfx/interface/unitpanel_drilling_frame_s.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -139,7 +139,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unitpanel_small_frame"
 		texturefile = "gfx/interface/unitpanel_small_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -319,6 +319,11 @@ spriteTypes = {
 		name = "GFX_unitpanel_button_hunt_rebels_dharma"
 		texturefile = "gfx/interface/unitpanel_button_hunt_rebels_dharma.dds"
 	}
+
+	spriteType = {
+		name = "GFX_unitpanel_button_enable_carpet_siege"
+		texturefile = "gfx/interface/unitpanel_button_enable_carpet_siege.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_army_drill_button"
@@ -469,7 +474,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//no_leader_glow.dds"
 		
 		effectFile = "gfx/FX/buttonstate.lua"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -576,8 +581,78 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_band_regiment_cawa"
+		texturefile = "gfx//interface//band_regiment_cawa.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_carolean"
+		texturefile = "gfx/interface/band_regiment_carolean.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_hussars"
+		texturefile = "gfx/interface/band_regiment_hussars.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_band_regiment_streltsy"
 		texturefile = "gfx//interface//band_regiment_streltsy.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_tercio"
+		texturefile = "gfx//interface//band_regiment_tercio.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_musketeer"
+		texturefile = "gfx//interface//band_regiment_musketeer.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_samurai"
+		texturefile = "gfx//interface//band_regiment_samurai.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_qizilbash"
+		texturefile = "gfx//interface//band_regiment_qizilbash.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_mamluks"
+		texturefile = "gfx//interface//band_regiment_mamluks.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_geobukseon"
+		texturefile = "gfx//interface//band_regiment_geobukseon.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_man_of_war"
+		texturefile = "gfx//interface//band_regiment_man_of_war.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_galleon"
+		texturefile = "gfx//interface//band_regiment_galleon.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_galleass"
+		texturefile = "gfx//interface//band_regiment_galleass.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_caravel"
+		texturefile = "gfx//interface//band_regiment_caravel.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_band_regiment_voc_indiamen"
+		texturefile = "gfx//interface//band_regiment_voc_indiamen.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -644,6 +719,24 @@ spriteTypes = {
 	}	
 
 	spriteType = {
+		name = "GFX_band_reorg_regiment_cawa"
+		texturefile = "gfx/interface/band_reorg_cawa.dds"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_band_reorg_regiment_carolean"
+		texturefile = "gfx/interface/band_reorg_carolean.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_band_reorg_regiment_hussars"
+		texturefile = "gfx/interface/band_reorg_hussars.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_band_reorg_regiment_mercenary"
 		texturefile = "gfx//interface//band_reorg_green.dds"
 		loadType = "INGAME"		
@@ -657,6 +750,72 @@ spriteTypes = {
 	}	
 
 	spriteType = {
+		name = "GFX_band_reorg_regiment_tercio"
+		texturefile = "gfx//interface//band_reorg_tercio.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_musketeer"
+		texturefile = "gfx//interface//band_reorg_musketeer.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_samurai"
+		texturefile = "gfx//interface//band_reorg_samurai.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_qizilbash"
+		texturefile = "gfx//interface//band_reorg_qizilbash.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_mamluks"
+		texturefile = "gfx//interface//band_reorg_mamluks.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_geobukseon"
+		texturefile = "gfx//interface//band_reorg_geobukseon.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_man_of_war"
+		texturefile = "gfx//interface//band_reorg_man_of_war.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_galleon"
+		texturefile = "gfx//interface//band_reorg_galleon.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_galleass"
+		texturefile = "gfx//interface//band_reorg_galleass.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_caravel"
+		texturefile = "gfx//interface//band_reorg_caravel.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_voc_indiamen"
+		texturefile = "gfx//interface//band_reorg_voc_indiamen.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
 		name = "GFX_band_reorg_regiment_marine"
 		texturefile = "gfx//interface//band_reorg_marines.dds"
 		loadType = "INGAME"
@@ -664,7 +823,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_band_reorg_regiment_janissary"
-		texturefile = "gfx//interface//band_reorg_red.dds"
+		texturefile = "gfx/interface/band_reorg_janissary.dds"
 		loadType = "INGAME"
 	}	
 

@@ -23,6 +23,7 @@ country_event = {
 			NOT = { religion = sunni }
 			NOT = { piety = -0.3 }
 		}
+		NOT = { exists = SOK }
 		any_known_country = {
 			has_country_flag = fulani_jihad_state
 		}
@@ -104,7 +105,7 @@ country_event = {
 }
 
 #The followers of Usman Dan Fodio
-province_event = {
+country_event = {
 	id = flavor_sok.2
 	title = flavor_sok.2.t
 	desc = flavor_sok.2.d

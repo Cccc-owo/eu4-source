@@ -7,3 +7,6 @@ africangfx
 northamericagfx
 southamericagfx
 inuitgfx
+aboriginalgfx
+polynesiangfx
+southeastasiangfx

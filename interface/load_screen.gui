@@ -90,8 +90,8 @@ guiTypes = {
 		
 		iconType = {
 			name ="bg_pdx_int_logo"
-			spriteType = "GFX_frontend_dev_logo_small"
-			position = { x= -144 y = 10 }
+			spriteType = "GFX_frontend_tinto_logo_small"
+			position = { x= -190 y = 10 }
 			Orientation = "UPPER_RIGHT"
 		}			
 	}

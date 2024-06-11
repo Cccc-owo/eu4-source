@@ -1,9 +1,9 @@
 #############################
 # 7 VERY EASY ACHIEVEMENTS
 #############################
-
 achievement_for_the_glory = {
 	id = 1
+	localization = NEW_ACHIEVEMENT_1_2
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -22,6 +22,7 @@ achievement_for_the_glory = {
 
 achievement_grand_army = {
 	id = 2
+	localization = NEW_ACHIEVEMENT_1_3
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -38,6 +39,7 @@ achievement_grand_army = {
 
 achievement_grand_navy = {
 	id = 3
+	localization = NEW_ACHIEVEMENT_1_4
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -54,6 +56,7 @@ achievement_grand_navy = {
 
 achievement_defender_of_the_faith = { 
 	id = 4
+	localization = NEW_ACHIEVEMENT_1_5
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -70,6 +73,7 @@ achievement_defender_of_the_faith = {
 
 achievement_until_death_do_us_apart = {
 	id = 5
+	localization = NEW_ACHIEVEMENT_1_6
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -86,6 +90,7 @@ achievement_until_death_do_us_apart = {
 
 achievement_that_is_mine = {
 	id = 6
+	localization = NEW_ACHIEVEMENT_1_7
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -96,7 +101,7 @@ achievement_that_is_mine = {
 	
 	happened = {
 		custom_trigger_tooltip = {
-			tooltip = achievement_for_the_glory_tooltip
+			tooltip = achievement_that_is_mine_tooltip
 			has_country_flag = conquered_province
 		}
 	}
@@ -104,6 +109,7 @@ achievement_that_is_mine = {
 
 achievement_victorious = {
 	id = 7
+	localization = NEW_ACHIEVEMENT_1_8
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -114,7 +120,7 @@ achievement_victorious = {
 	
 	happened = {
 		custom_trigger_tooltip = {
-			tooltip = achievement_for_the_glory_tooltip
+			tooltip = achievement_victorious_tooltip
 			has_country_flag = has_won_war
 		}
 	}
@@ -127,6 +133,7 @@ achievement_victorious = {
 
 achievement_emperors_new_clothes = {
 	id = 8
+	localization = NEW_ACHIEVEMENT_1_9
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -144,6 +151,7 @@ achievement_emperors_new_clothes = {
 
 achievement_down_under = {
 	id = 9
+	localization = NEW_ACHIEVEMENT_1_10
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -169,6 +177,7 @@ achievement_down_under = {
 
 achievement_isnt_this_the_way_to_india = {
 	id = 10
+	localization = NEW_ACHIEVEMENT_1_11
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -192,6 +201,7 @@ achievement_isnt_this_the_way_to_india = {
 
 achievement_azur_seme_de_lis_or = {
 	id = 11
+	localization = NEW_ACHIEVEMENT_1_12
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -215,6 +225,7 @@ achievement_azur_seme_de_lis_or = {
 
 achievement_not_so_sad_a_state = {
 	id = 12
+	localization = NEW_ACHIEVEMENT_1_13
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -248,6 +259,7 @@ achievement_not_so_sad_a_state = {
 
 achievement_seriously = {
 	id = 13
+	localization = NEW_ACHIEVEMENT_1_14
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -266,6 +278,7 @@ achievement_seriously = {
 
 achievement_its_all_about_the_money = {
 	id = 14
+	localization = NEW_ACHIEVEMENT_1_15
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -281,6 +294,7 @@ achievement_its_all_about_the_money = {
 
 achievement_respected = {
 	id = 15
+	localization = NEW_ACHIEVEMENT_1_16
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -298,6 +312,7 @@ achievement_respected = {
 
 achievement_true_catholic = {
 	id = 16
+	localization = NEW_ACHIEVEMENT_1_17
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -318,6 +333,7 @@ achievement_true_catholic = {
 
 achievement_truly_divine_ruler = {
 	id = 17
+	localization = NEW_ACHIEVEMENT_1_18
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -343,6 +359,7 @@ achievement_truly_divine_ruler = {
 
 achievement_grand_coalition = {
 	id = 51
+	localization = NEW_ACHIEVEMENT_6_25
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -363,6 +380,7 @@ achievement_grand_coalition = {
 
 achievement_italian_ambition = {
 	id = 18
+	localization = NEW_ACHIEVEMENT_1_19
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -383,6 +401,7 @@ achievement_italian_ambition = {
 
 achievement_cold_war = {
 	id = 19
+	localization = NEW_ACHIEVEMENT_1_20
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -402,6 +421,7 @@ achievement_cold_war = {
 
 achievement_royal_authority = {
 	id = 20
+	localization = NEW_ACHIEVEMENT_1_21
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -421,6 +441,7 @@ achievement_royal_authority = {
 
 achievement_viva_la_revolucion = {
 	id = 21
+	localization = NEW_ACHIEVEMENT_1_22
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -440,6 +461,7 @@ achievement_viva_la_revolucion = {
 
 achievement_brothers_in_arms = {
 	id = 22
+	localization = NEW_ACHIEVEMENT_1_23
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -459,6 +481,7 @@ achievement_brothers_in_arms = {
 
 achievement_no_pirates_in_my_carribean = {
 	id = 23
+	localization = NEW_ACHIEVEMENT_1_24
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -485,6 +508,7 @@ achievement_no_pirates_in_my_carribean = {
 
 achievement_master_of_india = {
 	id = 24
+	localization = NEW_ACHIEVEMENT_1_25
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -499,43 +523,36 @@ achievement_master_of_india = {
 	
 	provinces_to_highlight = {
 		superregion = india_superregion
-		OR = {
-			NOT = { owned_by = ROOT }
-			NOT = { is_core = ROOT }
-		}
+		NOT = { country_or_non_sovereign_subject_holds = ROOT }
 	}
 	
 	happened = {
 		deccan_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		coromandel_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		bengal_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		hindusthan_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		west_india_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
 }
 
 achievement_sweden_is_not_overpowered = {
 	id = 25
+	localization = NEW_ACHIEVEMENT_1_26
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -638,6 +655,7 @@ achievement_sweden_is_not_overpowered = {
 
 achievement_my_armies_are_invincible = {
 	id = 26
+	localization = NEW_ACHIEVEMENT_1_27
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -654,6 +672,7 @@ achievement_my_armies_are_invincible = {
 
 achievement_this_navy_can_take_it_all = {
 	id = 27
+	localization = NEW_ACHIEVEMENT_1_28
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -670,6 +689,7 @@ achievement_this_navy_can_take_it_all = {
 
 achievement_winged_hussars = {
 	id = 52
+	localization = NEW_ACHIEVEMENT_6_24
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -699,6 +719,7 @@ achievement_winged_hussars = {
 
 achievement_the_pen_is_mightier_than_the_sword = {
 	id = 28
+	localization = NEW_ACHIEVEMENT_1_29
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -717,6 +738,7 @@ achievement_the_pen_is_mightier_than_the_sword = {
 
 achievement_traditional_player = {
 	id = 29
+	localization = NEW_ACHIEVEMENT_1_30
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -734,6 +756,7 @@ achievement_traditional_player = {
 
 achievement_its_all_about_luck = {
 	id = 30
+	localization = NEW_ACHIEVEMENT_1_31
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -753,6 +776,7 @@ achievement_its_all_about_luck = {
 
 achievement_all_belongs_to_mother_russia = {
 	id = 31
+	localization = NEW_ACHIEVEMENT_6_0
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -764,6 +788,9 @@ achievement_all_belongs_to_mother_russia = {
 			primary_culture = russian
 			primary_culture = novgorodian
 			primary_culture = ryazanian
+			primary_culture = russian_new
+			primary_culture = novgorodian_new
+			primary_culture = ryazanian_new
 		}
 	}
 	
@@ -774,6 +801,7 @@ achievement_all_belongs_to_mother_russia = {
 
 achievement_at_every_continent = {
 	id = 32
+	localization = NEW_ACHIEVEMENT_6_1
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -873,6 +901,7 @@ achievement_at_every_continent = {
 
 achievement_spain_is_the_emperor = {
 	id = 33
+	localization = NEW_ACHIEVEMENT_6_2
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -898,6 +927,7 @@ achievement_spain_is_the_emperor = {
 
 achievement_an_early_reich = {
 	id = 34
+	localization = NEW_ACHIEVEMENT_6_3
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -918,6 +948,7 @@ achievement_an_early_reich = {
 
 achievement_poland_can_into_space = {
 	id = 35
+	localization = NEW_ACHIEVEMENT_6_4
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -937,6 +968,7 @@ achievement_poland_can_into_space = {
 
 achievement_world_discoverer = {
 	id = 36
+	localization = NEW_ACHIEVEMENT_6_5
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -955,6 +987,7 @@ achievement_world_discoverer = {
 
 achievement_the_chrysanthemum_throne = {
 	id = 37
+	localization = NEW_ACHIEVEMENT_6_6
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -991,6 +1024,7 @@ achievement_the_chrysanthemum_throne = {
 
 achievement_trade_hegemon = {
 	id = 53
+	localization = NEW_ACHIEVEMENT_6_23
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1029,6 +1063,7 @@ achievement_trade_hegemon = {
 
 achievement_basileus = {
 	id = 38
+	localization = NEW_ACHIEVEMENT_6_7
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1064,7 +1099,14 @@ achievement_basileus = {
 	}
 	
 	happened = {
-		tag = BYZ
+		or = {
+			tag = ROM
+			tag = BYZ
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_never_formed_latin_empire_tt
+			not = { has_country_flag = byz_dishonoring_justinian }
+		}
 		
 		### Balkans
 		
@@ -1151,6 +1193,7 @@ achievement_basileus = {
 
 achievement_agressive_expander = {
 	id = 39
+	localization = NEW_ACHIEVEMENT_6_8
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1167,6 +1210,7 @@ achievement_agressive_expander = {
 
 achievement_kaiser_not_just_in_name = {
 	id = 40
+	localization = NEW_ACHIEVEMENT_6_9
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1187,6 +1231,7 @@ achievement_kaiser_not_just_in_name = {
 
 achievement_norwegian_wood = {
 	id = 41
+	localization = NEW_ACHIEVEMENT_6_10
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1194,19 +1239,25 @@ achievement_norwegian_wood = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = NOR
+		OR = {
+			tag = NOR
+			AND = {
+				tag = SCA
+				was_tag = NOR
+			}
+		}
 	}
 	
 	provinces_to_highlight = {
 		trade_goods = naval_supplies
-		NOT = { country_or_non_sovereign_subject_holds = NOR}
+		NOT = { country_or_non_sovereign_subject_holds = ROOT }
 	}
 	
 	happened = {
 		NOT = {
 			any_province = {
 				trade_goods = naval_supplies
-				NOT = { country_or_non_sovereign_subject_holds = NOR }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			}
 		}
 	}
@@ -1214,6 +1265,7 @@ achievement_norwegian_wood = {
 
 achievement_african_power = {
 	id = 42
+	localization = NEW_ACHIEVEMENT_6_11
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1251,6 +1303,7 @@ achievement_african_power = {
 
 achievement_no_trail_of_tears = {
 	id = 43
+	localization = NEW_ACHIEVEMENT_6_12
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1258,7 +1311,10 @@ achievement_no_trail_of_tears = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = CHE
+		OR = {
+			tag = CHE
+			was_tag = CHE
+		}
 		is_random_new_world = no
 	}
 	
@@ -1285,8 +1341,8 @@ achievement_no_trail_of_tears = {
 			province_id = 2566
 		}
 		OR = {
-			NOT = { owned_by = CHE }
-			NOT = { is_core = CHE }
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
 		}
 	}
 	
@@ -1298,65 +1354,66 @@ achievement_no_trail_of_tears = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 		susquehanna_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		delaware_valley_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		hudson_valley_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		massachusetts_bay_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		connecticut_valley_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		chesapeake_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		great_valley_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		piedmont_north_america_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		carolinas_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		south_carolina_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		appalachia_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		south_appalachia_area = {
 			type = all
-			owned_by = CHE
-			is_core = CHE
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		owns_core_province = 929
 		owns_core_province = 971
@@ -1371,6 +1428,7 @@ achievement_no_trail_of_tears = {
 
 achievement_one_night_in_paris = {
 	id = 44
+	localization = NEW_ACHIEVEMENT_6_13
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1392,7 +1450,8 @@ achievement_one_night_in_paris = {
 	happened = {
 		OR = {
 			tag = ENG
-			tag = GBR		
+			tag = GBR
+			tag = AVE
 		}
 		owns_core_province = 183
 	}
@@ -1400,6 +1459,7 @@ achievement_one_night_in_paris = {
 
 achievement_definitely_the_sultan_of_rum = {
 	id = 45
+	localization = NEW_ACHIEVEMENT_6_14
 	
 	visible = {
 		OR = {
@@ -1441,6 +1501,7 @@ achievement_definitely_the_sultan_of_rum = {
 
 achievement_market_control = {
 	id = 46
+	localization = NEW_ACHIEVEMENT_6_15
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1457,6 +1518,7 @@ achievement_market_control = {
 
 achievement_ruina_imperii = {
 	id = 47
+	localization = NEW_ACHIEVEMENT_6_16
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1474,6 +1536,8 @@ achievement_ruina_imperii = {
 
 achievement_luck_of_the_irish = {
 	id = 55
+	localization = NEW_ACHIEVEMENT_6_22
+	
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1508,6 +1572,7 @@ achievement_luck_of_the_irish = {
 
 achievement_world_conqueror = {
 	id = 48
+	localization = NEW_ACHIEVEMENT_6_17
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1521,22 +1586,42 @@ achievement_world_conqueror = {
 	provinces_to_highlight = {
 		is_wasteland = no
 		is_sea = no
-		NOT = { country_or_non_sovereign_subject_holds = ROOT }
-	}
-	
-	happened = {
-		NOT = {
-			any_country = {
-				NOT = {
-					OR = {
-						tag = ROOT
-						AND = {
-							is_subject_of = ROOT
-							NOT = { is_subject_of_type = tributary_state }
+		owner = {
+			NOT = { tag = ROOT }
+			OR = {
+				is_subject = no
+				is_subject_of_type = tributary_state
+				AND = {
+					is_subject = yes
+					#This checks ensuures that only subjects will be taken into account, whose overlord is not a subject to ROOT
+					overlord = {
+						NOT = { tag = ROOT }
+						OR = {
+							NOT = { is_subject_of = ROOT }
+							is_subject_of_type = tributary_state
 						}
 					}
 				}
-				exists = yes
+			}
+		}
+	}
+	
+	happened = {
+		all_country = {
+			OR = {
+				tag = ROOT
+				AND = {
+					is_subject = yes
+					NOT = { is_subject_of_type = tributary_state }
+					#This checks ensuures that only subjects will be taken into account, whose overlord is a subject to ROOT / or is ROOT
+					overlord = {
+						NOT = { is_subject_of_type = tributary_state }
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1544,6 +1629,7 @@ achievement_world_conqueror = {
 
 achievement_the_three_mountains = {
 	id = 49
+	localization = NEW_ACHIEVEMENT_6_18
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1581,6 +1667,7 @@ achievement_the_three_mountains = {
 
 achievement_jihad = {
 	id = 50
+	localization = NEW_ACHIEVEMENT_6_19
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1622,6 +1709,7 @@ achievement_jihad = {
 
 achievement_sunset_invasion = {
 	id = 54
+	localization = NEW_ACHIEVEMENT_6_21
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1665,6 +1753,7 @@ achievement_sunset_invasion = {
 # Very easy
 achievement_just_a_little_patience = {
 	id = 56
+	localization = NEW_ACHIEVEMENT_6_27
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1682,6 +1771,7 @@ achievement_just_a_little_patience = {
 # Medium
 achievement_turning_the_tide = {
 	id = 57
+	localization = NEW_ACHIEVEMENT_6_30
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1701,12 +1791,14 @@ achievement_turning_the_tide = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 	}
 }
 
 # Easy
 achievement_double_the_love = {
 	id = 58
+	localization = NEW_ACHIEVEMENT_6_26
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1725,6 +1817,7 @@ achievement_double_the_love = {
 # Medium
 achievement_liberty_or_death = {
 	id = 59
+	localization = NEW_ACHIEVEMENT_6_28
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1752,6 +1845,7 @@ achievement_liberty_or_death = {
 # Easy
 achievement_nobody_wants_to_die = {
 	id = 60
+	localization = NEW_ACHIEVEMENT_6_29
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1783,6 +1877,7 @@ achievement_nobody_wants_to_die = {
 # Easy
 achievement_in_the_name_of_the_father = {
 	id = 61
+	localization = NEW_ACHIEVEMENT_6_31
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1804,6 +1899,7 @@ achievement_in_the_name_of_the_father = {
 # Medium
 achievement_the_rising_sun = {
 	id = 62
+	localization = NEW_ACHIEVEMENT_7_0
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1836,6 +1932,7 @@ achievement_the_rising_sun = {
 # Medium
 achievement_the_five_colonies = {
 	id = 63
+	localization = NEW_ACHIEVEMENT_7_1
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1875,6 +1972,7 @@ achievement_the_five_colonies = {
 # Very hard
 achievement_the_re_reconquista = {
 	id = 64
+	localization = NEW_ACHIEVEMENT_7_2
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1906,6 +2004,7 @@ achievement_the_re_reconquista = {
 # Very hard
 achievement_turn_the_table = {
 	id = 65
+	localization = NEW_ACHIEVEMENT_7_3
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -1935,6 +2034,7 @@ achievement_turn_the_table = {
 # Very hard
 achievement_the_great_khan = {
 	id = 66
+	localization = NEW_ACHIEVEMENT_7_4
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2000,6 +2100,7 @@ achievement_the_great_khan = {
 # Easy
 achievement_four_for_trade = {
 	id = 67
+	localization = NEW_ACHIEVEMENT_7_5
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2021,6 +2122,7 @@ achievement_four_for_trade = {
 # Hard
 achievement_the_grand_armada = {
 	id = 68
+	localization = NEW_ACHIEVEMENT_7_6
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2039,6 +2141,7 @@ achievement_the_grand_armada = {
 # Medium
 achievement_je_maintiendrai = {
 	id = 69
+	localization = NEW_ACHIEVEMENT_7_7
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2058,6 +2161,7 @@ achievement_je_maintiendrai = {
 # Very hard
 achievement_a_protected_market = {
 	id = 70
+	localization = NEW_ACHIEVEMENT_7_8
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2075,6 +2179,7 @@ achievement_a_protected_market = {
 # Medium
 achievement_queen_of_mercury = {
 	id = 71
+	localization = NEW_ACHIEVEMENT_7_9
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2106,6 +2211,7 @@ achievement_queen_of_mercury = {
 # Easy
 achievement_a_pile_of_gold = {
 	id = 72
+	localization = NEW_ACHIEVEMENT_7_10
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2140,6 +2246,7 @@ achievement_a_pile_of_gold = {
 # Hard
 achievement_sons_of_carthage = {
 	id = 73
+	localization = NEW_ACHIEVEMENT_7_11
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2236,6 +2343,7 @@ achievement_sons_of_carthage = {
 # Easy
 achievement_the_princess_is_in_this_castle = {
 	id = 74
+	localization = NEW_ACHIEVEMENT_7_12
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2259,6 +2367,7 @@ achievement_the_princess_is_in_this_castle = {
 # Easy
 achievement_electable = {
 	id = 75
+	localization = NEW_ACHIEVEMENT_7_13
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2287,6 +2396,7 @@ achievement_electable = {
 # Easy
 achievement_vasa_or_wettin = {
 	id = 76
+	localization = NEW_ACHIEVEMENT_7_14
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2323,6 +2433,7 @@ achievement_vasa_or_wettin = {
 # Medium
 achievement_sinaasappel = {
 	id = 77
+	localization = NEW_ACHIEVEMENT_7_15
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2376,6 +2487,7 @@ achievement_sinaasappel = {
 # Easy
 achievement_one_king_to_rule = {
 	id = 78
+	localization = NEW_ACHIEVEMENT_7_16
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2390,6 +2502,9 @@ achievement_one_king_to_rule = {
 		has_switched_nation = no
 		government = monarchy
 		NOT = { has_reform = elective_monarchy }
+		NOT = { has_reform = polish_great_sejm }
+		NOT = { has_reform = elective_monarchy_reform }
+		NOT = { has_reform = polish_elective_monarchy }
 		absolutism = 50
 	}
 }
@@ -2397,6 +2512,7 @@ achievement_one_king_to_rule = {
 # Hard
 achievement_venetian_sea = {
 	id = 79
+	localization = NEW_ACHIEVEMENT_7_17
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2429,6 +2545,7 @@ achievement_venetian_sea = {
 # Medium
 achievement_iron_price = {
 	id = 80
+	localization = NEW_ACHIEVEMENT_7_18
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2488,6 +2605,7 @@ achievement_iron_price = {
 # Medium
 achievement_total_control = {
 	id = 81
+	localization = NEW_ACHIEVEMENT_7_21
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2520,6 +2638,7 @@ achievement_total_control = {
 # Easy
 achievement_center_of_attention = {
 	id = 82
+	localization = NEW_ACHIEVEMENT_7_20
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2550,6 +2669,7 @@ achievement_center_of_attention = {
 # Medium
 achievement_this_revolution_was_crushed = {
 	id = 83
+	localization = NEW_ACHIEVEMENT_7_22
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2579,6 +2699,7 @@ achievement_this_revolution_was_crushed = {
 # Easy
 achievement_a_manchurian_candidate = {
 	id = 84
+	localization = NEW_ACHIEVEMENT_7_19
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2597,6 +2718,7 @@ achievement_a_manchurian_candidate = {
 # Easy
 achievement_land_of_eastern_jade = {
 	id = 85
+	localization = NEW_ACHIEVEMENT_7_23
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2639,6 +2761,7 @@ achievement_land_of_eastern_jade = {
 # Hard
 achievement_thats_a_silk_road = {
 	id = 86
+	localization = NEW_ACHIEVEMENT_7_24
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2669,6 +2792,7 @@ achievement_thats_a_silk_road = {
 # Easy
 achievement_my_true_friend = {
 	id = 87
+	localization = NEW_ACHIEVEMENT_7_25
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2689,6 +2813,7 @@ achievement_my_true_friend = {
 # Very Easy
 achievement_marshy_march = {
 	id = 88
+	localization = NEW_ACHIEVEMENT_7_26
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2714,6 +2839,7 @@ achievement_marshy_march = {
 # Very Hard
 achievement_shahanshah = {
 	id = 89
+	localization = NEW_ACHIEVEMENT_7_27
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2726,13 +2852,17 @@ achievement_shahanshah = {
 
 	happened = {
 		has_switched_nation = no
-		tag = PER
+		or = {
+			tag = ERS
+			tag = PER
+		}
 	}
 }
 
 # Medium
 achievement_die_please_die = {
 	id = 90
+	localization = NEW_ACHIEVEMENT_7_28
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2760,6 +2890,7 @@ achievement_die_please_die = {
 # Very Hard
 achievement_holy_trinity = {
 	id = 91
+	localization = NEW_ACHIEVEMENT_7_29
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2794,6 +2925,7 @@ achievement_holy_trinity = {
 # Medium
 achievement_switzerlake = {
 	id = 92
+	localization = NEW_ACHIEVEMENT_7_30
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2824,6 +2956,7 @@ achievement_switzerlake = {
 # Hard
 achievement_king_of_jerusalem = {
 	id = 93
+	localization = NEW_ACHIEVEMENT_7_31
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2845,6 +2978,7 @@ achievement_king_of_jerusalem = {
 # Easy
 achievement_krabater = {
 	id = 94
+	localization = NEW_ACHIEVEMENT_8_0
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2855,7 +2989,10 @@ achievement_krabater = {
 	}
 	
 	visible = {
-		primary_culture = croatian
+		OR = {
+			primary_culture = croatian
+			primary_culture = croatian_new
+		}
 	}	
 
 	happened = {
@@ -2868,6 +3005,7 @@ achievement_krabater = {
 # Medium
 achievement_lion_of_the_north = {
 	id = 95
+	localization = NEW_ACHIEVEMENT_8_1
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2894,6 +3032,7 @@ achievement_lion_of_the_north = {
 # Hard
 achievement_guaranteer_of_peace = {
 	id = 96
+	localization = NEW_ACHIEVEMENT_8_2
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2919,6 +3058,7 @@ achievement_guaranteer_of_peace = {
 # Very Hard
 achievement_servitor_of_jagannath = {
 	id = 97
+	localization = NEW_ACHIEVEMENT_8_3
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2948,6 +3088,7 @@ achievement_servitor_of_jagannath = {
 # Medium
 achievement_bengal_tiger = {
 	id = 98
+	localization = NEW_ACHIEVEMENT_8_4
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -2978,6 +3119,7 @@ achievement_bengal_tiger = {
 # Hard
 achievement_prester_john = {
 	id = 99
+	localization = NEW_ACHIEVEMENT_8_5
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3001,7 +3143,6 @@ achievement_prester_john = {
 	}
 	
 	happened = {
-		tag = ETH
 		religion = coptic
 		owns_core_province = 358 #Alexandria
 		owns_core_province = 2313 #Antioch
@@ -3012,6 +3153,7 @@ achievement_prester_john = {
 # Hard
 achievement_auld_alliance = {
 	id = 100
+	localization = NEW_ACHIEVEMENT_8_6
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3032,6 +3174,7 @@ achievement_auld_alliance = {
 # Very Hard
 achievement_gothic_invasion = {
 	id = 101
+	localization = NEW_ACHIEVEMENT_8_7
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3065,6 +3208,7 @@ achievement_gothic_invasion = {
 # Medium
 achievement_kow_tow = {
 	id = 102
+	localization = NEW_ACHIEVEMENT_8_8
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3099,6 +3243,7 @@ achievement_kow_tow = {
 # Medium
 achievement_barbarossa = {
 	id = 103
+	localization = NEW_ACHIEVEMENT_8_9
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3117,6 +3262,7 @@ achievement_barbarossa = {
 # Medium
 achievement_georgia_on_my_mind = {
 	id = 104
+	localization = NEW_ACHIEVEMENT_8_10
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3171,6 +3317,7 @@ achievement_georgia_on_my_mind = {
 # Very Hard
 achievement_albania_or_iberia = {
 	id = 105
+	localization = NEW_ACHIEVEMENT_8_11
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3205,6 +3352,7 @@ achievement_albania_or_iberia = {
 # Easy
 achievement_spice_must_flow = {
 	id = 106
+	localization = NEW_ACHIEVEMENT_8_12
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3227,6 +3375,7 @@ achievement_spice_must_flow = {
 # Insane
 achievement_raja_of_the_rajput_reich = {
 	id = 107
+	localization = NEW_ACHIEVEMENT_8_13
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3261,6 +3410,7 @@ achievement_raja_of_the_rajput_reich = {
 # Very Hard
 achievement_sun_never_sets_on_the_indian_empire = {
 	id = 108
+	localization = NEW_ACHIEVEMENT_8_14
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3302,7 +3452,7 @@ achievement_sun_never_sets_on_the_indian_empire = {
 		owns_or_non_sovereign_subject_of = 236 # London
 		owns_or_non_sovereign_subject_of = 1177 # Cape
 		owns_or_non_sovereign_subject_of = 667 # Hongkong (in Canton)
-		owns_or_non_sovereign_subject_of = 2585 # Ottawa (in Kichesipi)
+		owns_or_non_sovereign_subject_of = 4890 # Ottawa (in Kichesipi)
 		
 	}
 }
@@ -3310,6 +3460,7 @@ achievement_sun_never_sets_on_the_indian_empire = {
 # Very Hard
 achievement_over_a_thousand = {
 	id = 109
+	localization = NEW_ACHIEVEMENT_8_15
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3343,6 +3494,7 @@ achievement_over_a_thousand = {
 # Hard
 achievement_draculas_revenge = {
 	id = 110
+	localization = NEW_ACHIEVEMENT_8_16
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3376,6 +3528,7 @@ achievement_draculas_revenge = {
 ###################################
 achievement_arabian_coffee = {
 	id = 111
+	localization = NEW_ACHIEVEMENT_8_17
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3401,6 +3554,7 @@ achievement_arabian_coffee = {
 
 achievement_even_better_than_piet_heyn = {
 	id = 112
+	localization = NEW_ACHIEVEMENT_8_18
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3427,6 +3581,7 @@ achievement_even_better_than_piet_heyn = {
 
 achievement_a_sun_god = {
 	id = 113
+	localization = NEW_ACHIEVEMENT_8_19
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3458,6 +3613,7 @@ achievement_a_sun_god = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
+		has_institution = industrialization
 		
 		south_america = {
 			type = all
@@ -3478,6 +3634,7 @@ achievement_a_sun_god = {
 
 achievement_on_the_edge_of_madness = {
 	id = 114
+	localization = NEW_ACHIEVEMENT_8_20
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3508,6 +3665,7 @@ achievement_on_the_edge_of_madness = {
 
 achievement_magellans_voyage = {
 	id = 115
+	localization = NEW_ACHIEVEMENT_8_21
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3533,6 +3691,7 @@ achievement_magellans_voyage = {
 
 achievement_imperio_espanol = {
 	id = 116
+	localization = NEW_ACHIEVEMENT_8_22
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3588,6 +3747,7 @@ achievement_imperio_espanol = {
 
 achievement_blockader = {
 	id = 117
+	localization = NEW_ACHIEVEMENT_8_23
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3604,6 +3764,7 @@ achievement_blockader = {
 
 achievement_this_is_persia = {
 	id = 118
+	localization = NEW_ACHIEVEMENT_8_24
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3617,7 +3778,10 @@ achievement_this_is_persia = {
 		OR = {
 			culture_group = iranian
 			primary_culture = azerbaijani
-			tag = PER
+			or = {
+				tag = ERS
+				tag = PER
+			}
 		}
 	}
 	
@@ -3636,32 +3800,45 @@ achievement_this_is_persia = {
 	}
 
 	happened = {
-		tag = PER
+		or = {
+			tag = ERS
+			tag = PER
+		}
 		has_switched_nation = no
 		anatolia_region = {
 			type = all
-			owned_by = PER
-			is_core = PER
+			OR = {
+				AND = { owned_by = PER is_core = PER }
+				AND = { owned_by = ERS is_core = ERS }
+			}
 		}
 		morea_area = {
 			type = all
-			owned_by = PER
-			is_core = PER
+			OR = {
+				AND = { owned_by = PER is_core = PER }
+				AND = { owned_by = ERS is_core = ERS }
+			}
 		}
 		northern_greece_area = {
 			type = all
-			owned_by = PER
-			is_core = PER
+			OR = {
+				AND = { owned_by = PER is_core = PER }
+				AND = { owned_by = ERS is_core = ERS }
+			}
 		}
 		macedonia_area = {
 			type = all
-			owned_by = PER
-			is_core = PER
+			OR = {
+				AND = { owned_by = PER is_core = PER }
+				AND = { owned_by = ERS is_core = ERS }
+			}
 		}
 		egypt_region = {
 			type = all
-			owned_by = PER
-			is_core = PER
+			OR = {
+				AND = { owned_by = PER is_core = PER }
+				AND = { owned_by = ERS is_core = ERS }
+			}
 		}
 
 	}
@@ -3669,6 +3846,7 @@ achievement_this_is_persia = {
 
 achievement_kirishitan_japan = {
 	id = 119
+	localization = NEW_ACHIEVEMENT_8_25
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3698,6 +3876,7 @@ achievement_kirishitan_japan = {
 
 achievement_hessian_mercenaries = {
 	id = 120
+	localization = NEW_ACHIEVEMENT_8_26
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3724,6 +3903,7 @@ achievement_hessian_mercenaries = {
 
 achievement_baltic_crusader = {
 	id = 121
+	localization = NEW_ACHIEVEMENT_8_27
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3749,6 +3929,7 @@ achievement_baltic_crusader = {
 			NOT = { is_core = ROOT }
 			NOT = { religion = catholic }
 		}
+		is_city = yes
 	}
 
 	happened = {
@@ -3759,27 +3940,43 @@ achievement_baltic_crusader = {
 		}
 		russia_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
-			religion = catholic
+			OR = {
+				AND = {
+					owned_by = ROOT
+					is_core = ROOT
+					religion = catholic
+				}
+				is_city = no
+			}
 		}
 		ural_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
-			religion = catholic
+			OR = {
+				AND = {
+					owned_by = ROOT
+					is_core = ROOT
+					religion = catholic
+				}
+				is_city = no
+			}
 		}
 		crimea_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
-			religion = catholic
+			OR = {
+				AND = {
+					owned_by = ROOT
+					is_core = ROOT
+					religion = catholic
+				}
+				is_city = no
+			}
 		}
 	}
 }
 
 achievement_neither_holy_nor_german = {
 	id = 122
+	localization = NEW_ACHIEVEMENT_8_28
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3812,6 +4009,7 @@ achievement_neither_holy_nor_german = {
 }
 achievement_colonial_management = {
 	id = 123
+	localization = NEW_ACHIEVEMENT_8_29
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3851,6 +4049,7 @@ achievement_colonial_management = {
 
 achievement_voting_streak = {
 	id = 124
+	localization = NEW_ACHIEVEMENT_8_30
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3871,6 +4070,7 @@ achievement_voting_streak = {
 
 achievement_industrial_evolution = {
 	id = 125
+	localization = NEW_ACHIEVEMENT_8_31
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3884,6 +4084,7 @@ achievement_industrial_evolution = {
 		has_dlc = "Common Sense"
 		OR = {
 			culture_group = british
+			primary_culture = anglois
 			tag = GBR
 		}
 	}
@@ -3948,6 +4149,7 @@ achievement_industrial_evolution = {
 
 achievement_city_of_cities = {
 	id = 126
+	localization = NEW_ACHIEVEMENT_9_0
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -3971,6 +4173,7 @@ achievement_city_of_cities = {
 
 achievement_one_family_to_rule_them_all = {
 	id = 127
+	localization = NEW_ACHIEVEMENT_9_1
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4000,6 +4203,7 @@ achievement_one_family_to_rule_them_all = {
 
 achievement_this_is_my_faith = {
 	id = 128
+	localization = NEW_ACHIEVEMENT_9_2
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4021,6 +4225,7 @@ achievement_this_is_my_faith = {
 
 achievement_bleed_them_dry = {
 	id = 129
+	localization = NEW_ACHIEVEMENT_9_3
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4037,6 +4242,7 @@ achievement_bleed_them_dry = {
 
 achievement_subsidize_my_love = {
 	id = 130
+	localization = NEW_ACHIEVEMENT_9_4
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4050,7 +4256,9 @@ achievement_subsidize_my_love = {
 		is_in_deficit = no
 		calc_true_if = {
 			all_ally = {
-				subsidised_percent_amount = 0.5
+				subsidised_percent_amount = {
+					value = 0.5
+				}
 			}
 			amount = 3
 		}
@@ -4060,6 +4268,7 @@ achievement_subsidize_my_love = {
 
 achievement_take_that_habsburgs = {
 	id = 131
+	localization = NEW_ACHIEVEMENT_9_5
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4111,6 +4320,7 @@ achievement_take_that_habsburgs = {
 
 achievement_white_elephant = {
 	id = 132
+	localization = NEW_ACHIEVEMENT_9_6
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4134,7 +4344,10 @@ achievement_white_elephant = {
 	
 	happened = {
 		has_switched_nation = no
-		tag = AYU
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
 		indo_china_region = {
 			type = all
 			owned_by = ROOT
@@ -4150,6 +4363,7 @@ achievement_white_elephant = {
 
 achievement_buddhists_strike_back = {
 	id = 133
+	localization = NEW_ACHIEVEMENT_9_7
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4210,6 +4424,7 @@ achievement_buddhists_strike_back = {
 
 achievement_better_than_napoleon = {
 	id = 134
+	localization = NEW_ACHIEVEMENT_9_8
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4243,6 +4458,7 @@ achievement_better_than_napoleon = {
 
 achievement_big_blue_blob = {
 	id = 135
+	localization = NEW_ACHIEVEMENT_9_9
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4255,7 +4471,6 @@ achievement_big_blue_blob = {
 	
 	provinces_to_highlight = {
 		continent = europe
-		is_core = FRA
 		NOT = { owned_by = FRA }
 	}
 
@@ -4275,6 +4490,7 @@ achievement_big_blue_blob = {
 
 achievement_full_house = {
 	id = 136
+	localization = NEW_ACHIEVEMENT_9_10
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4292,6 +4508,7 @@ achievement_full_house = {
 
 achievement_black_jack = {
 	id = 137
+	localization = NEW_ACHIEVEMENT_9_11
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4314,6 +4531,7 @@ achievement_black_jack = {
 
 achievement_a_decent_reserve = {
 	id = 138
+	localization = NEW_ACHIEVEMENT_9_12
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4330,6 +4548,7 @@ achievement_a_decent_reserve = {
 
 achievement_six_nations = {
 	id = 139
+	localization = NEW_ACHIEVEMENT_9_13
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4337,12 +4556,12 @@ achievement_six_nations = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = IRO
+		primary_culture = iroquois
 	}
 
 	happened = {
 		has_switched_nation = no
-		tag = IRO
+		primary_culture = iroquois
 		is_federation_leader = yes
 		federation_size = 6
 	}
@@ -4350,6 +4569,7 @@ achievement_six_nations = {
 
 achievement_the_bohemians = {
 	id = 140
+	localization = NEW_ACHIEVEMENT_9_14
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4379,6 +4599,7 @@ achievement_the_bohemians = {
 
 achievement_komenoi_empire = {
 	id = 141
+	localization = NEW_ACHIEVEMENT_9_15
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4398,6 +4619,7 @@ achievement_komenoi_empire = {
 
 achievement_lucky_lucca = {
 	id = 142
+	localization = NEW_ACHIEVEMENT_9_16
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4425,6 +4647,7 @@ achievement_lucky_lucca = {
 
 achievement_fine_goosestep = {
 	id = 143
+	localization = NEW_ACHIEVEMENT_9_17
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4454,6 +4677,7 @@ achievement_fine_goosestep = {
 
 achievement_meissner_porcelain = {
 	id = 144
+	localization = NEW_ACHIEVEMENT_9_18
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4484,6 +4708,7 @@ achievement_meissner_porcelain = {
 
 achievement_all_your_trade_are_belong_to_us = {
 	id = 145
+	localization = NEW_ACHIEVEMENT_9_19
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4511,6 +4736,7 @@ achievement_all_your_trade_are_belong_to_us = {
 
 achievement_grand_duchy = {
 	id = 146
+	localization = NEW_ACHIEVEMENT_9_20
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4529,6 +4755,7 @@ achievement_grand_duchy = {
 
 achievement_rags_and_riches = {
 	id = 147
+	localization = NEW_ACHIEVEMENT_9_21
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4565,6 +4792,7 @@ achievement_rags_and_riches = {
 
 achievement_strait_talk = {
 	id = 148
+	localization = NEW_ACHIEVEMENT_9_22
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4584,6 +4812,7 @@ achievement_strait_talk = {
 
 achievement_academical = {
 	id = 149
+	localization = NEW_ACHIEVEMENT_9_23
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4613,6 +4842,7 @@ achievement_academical = {
 
 achievement_one_faith = {
 	id = 150
+	localization = NEW_ACHIEVEMENT_9_24
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4642,6 +4872,7 @@ achievement_one_faith = {
 
 achievement_dar_al_islam = {
 	id = 151
+	localization = NEW_ACHIEVEMENT_9_25
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4664,6 +4895,7 @@ achievement_dar_al_islam = {
 
 achievement_the_uncommonwealth = {
 	id = 152
+	localization = NEW_ACHIEVEMENT_9_26
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4682,6 +4914,7 @@ achievement_the_uncommonwealth = {
 
 achievement_the_burgundian_inheritance = {
 	id = 153
+	localization = NEW_ACHIEVEMENT_9_27
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4702,7 +4935,10 @@ achievement_the_burgundian_inheritance = {
 
 	happened = {
 		has_switched_nation = no
-		tag = BUR
+		OR = {
+			tag = BUR
+			tag = LOT
+		}
 		FRA = { is_subject_of = ROOT }
 		HAB = { is_subject_of = ROOT }
 		low_countries_region = {
@@ -4715,6 +4951,7 @@ achievement_the_burgundian_inheritance = {
 
 achievement_the_third_way = {
 	id = 154
+	localization = NEW_ACHIEVEMENT_9_28
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4748,6 +4985,7 @@ achievement_the_third_way = {
 
 achievement_back_to_the_piast = {
 	id = 155
+	localization = NEW_ACHIEVEMENT_9_29
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4758,6 +4996,8 @@ achievement_back_to_the_piast = {
 		OR = {
 			tag = MAZ
 			tag = SIL
+			tag = OPL
+			tag = GLG
 		}
 	}
 
@@ -4769,6 +5009,7 @@ achievement_back_to_the_piast = {
 
 achievement_great_perm = {
 	id = 156
+	localization = NEW_ACHIEVEMENT_9_30
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4833,6 +5074,7 @@ achievement_great_perm = {
 
 achievement_lazarus = {
 	id = 157
+	localization = NEW_ACHIEVEMENT_9_31
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4864,6 +5106,7 @@ achievement_lazarus = {
 
 achievement_frozen_assets = {
 	id = 158
+	localization = NEW_ACHIEVEMENT_10_0
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4888,6 +5131,7 @@ achievement_frozen_assets = {
 
 achievement_tatarstan = {
 	id = 159
+	localization = NEW_ACHIEVEMENT_10_1
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4926,6 +5170,7 @@ achievement_tatarstan = {
 
 achievement_terra_mariana = {
 	id = 160
+	localization = NEW_ACHIEVEMENT_10_2
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4949,14 +5194,14 @@ achievement_terra_mariana = {
 		tag = RIG
 		baltic_region = {
 			type = all
-			owned_by = ROOT
-			is_core = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}		
 	}
 }
 
 achievement_blood_for_the_sky_god = {
 	id = 161
+	localization = NEW_ACHIEVEMENT_10_3
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -4978,6 +5223,7 @@ achievement_blood_for_the_sky_god = {
 
 achievement_pyramid_of_skulls = {
 	id = 162
+	localization = NEW_ACHIEVEMENT_10_4
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5004,6 +5250,7 @@ achievement_pyramid_of_skulls = {
 
 achievement_trustworthy = {
 	id = 163
+	localization = NEW_ACHIEVEMENT_10_5
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5020,6 +5267,7 @@ achievement_trustworthy = {
 
 achievement_the_continuation_of_diplomacy = {
 	id = 164
+	localization = NEW_ACHIEVEMENT_10_6
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5043,6 +5291,7 @@ achievement_the_continuation_of_diplomacy = {
 
 achievement_factionalism = {
 	id = 165
+	localization = NEW_ACHIEVEMENT_10_7
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5059,6 +5308,7 @@ achievement_factionalism = {
 
 achievement_from_humble_origins = {
 	id = 166
+	localization = NEW_ACHIEVEMENT_10_8
 
 	possible = {
 		is_playing_custom_nation = yes
@@ -5078,6 +5328,7 @@ achievement_from_humble_origins = {
 
 achievement_ideas_guy = {
 	id = 167
+	localization = NEW_ACHIEVEMENT_10_9
 
 	possible = {
 		is_playing_custom_nation = yes
@@ -5098,6 +5349,7 @@ achievement_ideas_guy = {
 
 achievement_for_odin = {
 	id = 168
+	localization = NEW_ACHIEVEMENT_10_10
 
 	possible = {
 		is_playing_custom_nation = yes
@@ -5143,6 +5395,7 @@ achievement_for_odin = {
 
 achievement_rekindling_the_flames = {
 	id = 169
+	localization = NEW_ACHIEVEMENT_10_11
 
 	possible = {
 		is_playing_custom_nation = yes
@@ -5165,6 +5418,7 @@ achievement_rekindling_the_flames = {
 
 achievement_first_come_first_serve = {
 	id = 170
+	localization = NEW_ACHIEVEMENT_10_12
 
 	possible = {
 		is_playing_custom_nation = yes
@@ -5222,6 +5476,7 @@ achievement_first_come_first_serve = {
 
 achievement_mare_nostrum = {
 	id = 171
+	localization = NEW_ACHIEVEMENT_10_13
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5243,7 +5498,6 @@ achievement_mare_nostrum = {
 		OR = {
 			province_id = 101
 			province_id = 102
-			province_id = 4729
 			province_id = 111
 			province_id = 112
 			province_id = 113
@@ -5263,7 +5517,6 @@ achievement_mare_nostrum = {
 			province_id = 130
 			province_id = 136
 			province_id = 137
-			province_id = 4754
 			province_id = 142
 			province_id = 143
 			province_id = 144
@@ -5283,7 +5536,6 @@ achievement_mare_nostrum = {
 			province_id = 213
 			province_id = 220
 			province_id = 221
-			province_id = 222
 			province_id = 222
 			province_id = 223
 			province_id = 226
@@ -5308,7 +5560,6 @@ achievement_mare_nostrum = {
 			province_id = 338
 			province_id = 339
 			province_id = 341
-			province_id = 341
 			province_id = 353
 			province_id = 354
 			province_id = 355
@@ -5325,7 +5576,6 @@ achievement_mare_nostrum = {
 			province_id = 1751
 			province_id = 1756
 			province_id = 1764
-			province_id = 4738
 			province_id = 1773
 			province_id = 1774
 			province_id = 1826
@@ -5339,6 +5589,7 @@ achievement_mare_nostrum = {
 			province_id = 2195
 			province_id = 2196
 			province_id = 2296
+			province_id = 2297
 			province_id = 2298
 			province_id = 2299
 			province_id = 2302
@@ -5364,206 +5615,206 @@ achievement_mare_nostrum = {
 			province_id = 2982
 			province_id = 2983
 			province_id = 2984
-			province_id = 2984
 			province_id = 2985
 			province_id = 2986
 			province_id = 2988
-			province_id = 2991
 			province_id = 2992
 			province_id = 3003
+			province_id = 4706
+			province_id = 4174
+			province_id = 4175
 			province_id = 4316
 			province_id = 4546
 			province_id = 4549
 			province_id = 4550
+			province_id = 4559
+			province_id = 4560
 			province_id = 4561
 			province_id = 4562
-			province_id = 4560
-			province_id = 4559
-			province_id = 4175
-			province_id = 4174
-			province_id = 2297
 			province_id = 4696
+			province_id = 4698
+			province_id = 4699
+			province_id = 4700
+			province_id = 4701
+			province_id = 4705
+			province_id = 4729
 			province_id = 4732
-			province_id = 4737
-			province_id = 4736
 			province_id = 4733
+			province_id = 4735
+			province_id = 4736
+			province_id = 4737
+			province_id = 4738
 			province_id = 4752
 			province_id = 4753
-			province_id = 4699
-			province_id = 4701
-			province_id = 4700
+			province_id = 4754
 			province_id = 4779
-			province_id = 4706
-			province_id = 4705
-			province_id = 4698
-			province_id = 4735
 		}
 		NOT = { owned_by = ROOT }
 	}
 	
 	happened = {
 		tag = ROM
-		owns = 4752
-		owns = 4753
-		owns = 4699
-		owns = 4701
-		owns = 4700
-		owns = 4779
-		owns = 4706
-		owns = 4175
-		owns = 4174
-		owns = 2297
-		owns = 101
-		owns = 102
-		owns = 4729
-		owns = 111
-		owns = 112
-		owns = 113
-		owns = 114
-		owns = 115
-		owns = 117
-		owns = 118
-		owns = 119
-		owns = 120
-		owns = 121
-		owns = 122
-		owns = 123
-		owns = 124
-		owns = 125
-		owns = 126
-		owns = 127
-		owns = 130
-		owns = 136
-		owns = 137
-		owns = 4754
-		owns = 142
-		owns = 143
-		owns = 144
-		owns = 145
-		owns = 146
-		owns = 147
-		owns = 148
-		owns = 149
-		owns = 151
-		owns = 159
-		owns = 163
-		owns = 164
-		owns = 197
-		owns = 200
-		owns = 201
-		owns = 212
-		owns = 213
-		owns = 220
-		owns = 221
-		owns = 222
-		owns = 222
-		owns = 223
-		owns = 226
-		owns = 282
-		owns = 284
-		owns = 285
-		owns = 286
-		owns = 287
-		owns = 316
-		owns = 317
-		owns = 318
-		owns = 319
-		owns = 320
-		owns = 321
-		owns = 325
-		owns = 327
-		owns = 328
-		owns = 330
-		owns = 333
-		owns = 335
-		owns = 337
-		owns = 338
-		owns = 339
-		owns = 341
-		owns = 341
-		owns = 353
-		owns = 354
-		owns = 355
-		owns = 356
-		owns = 357
-		owns = 358
-		owns = 362
-		owns = 363
-		owns = 364
-		owns = 378
-		owns = 462
-		owns = 1247
-		owns = 1750
-		owns = 1751
-		owns = 1756
-		owns = 1764
-		owns = 4738
-		owns = 1773
-		owns = 1774
-		owns = 1826
-		owns = 1854
-		owns = 1855
-		owns = 1856
-		owns = 1882
-		owns = 1933
-		owns = 1934
-		owns = 1974
-		owns = 2195
-		owns = 2196
-		owns = 2296
-		owns = 2298
-		owns = 2299
-		owns = 2302
-		owns = 2304
-		owns = 2313
-		owns = 2325
-		owns = 2326
-		owns = 2348
-		owns = 2406
-		owns = 2410
-		owns = 2412
-		owns = 2447
-		owns = 2451
-		owns = 2452
-		owns = 2453
-		owns = 2455
-		owns = 2461
-		owns = 2473
-		owns = 2753
-		owns = 2954
-		owns = 2977
-		owns = 2980
-		owns = 2982
-		owns = 2983
-		owns = 2984
-		owns = 2984
-		owns = 2985
-		owns = 2986
-		owns = 2988
-		owns = 2991
-		owns = 2992
-		owns = 3003
-		owns = 4316
-		owns = 4546
-		owns = 4549
-		owns = 4550
-		owns = 4561
-		owns = 4562
-		owns = 4560
-		owns = 4559
-		owns = 4696
-		owns = 4732
-		owns = 4737
-		owns = 4736
-		owns = 4733
-		owns = 4705
-		owns = 4698
-		owns = 4735
+		custom_trigger_tooltip = {
+			tooltip = mare_nostrum_achievement_tt
+			owns = 101
+			owns = 102
+			owns = 111
+			owns = 112
+			owns = 113
+			owns = 114
+			owns = 115
+			owns = 117
+			owns = 118
+			owns = 119
+			owns = 120
+			owns = 121
+			owns = 122
+			owns = 123
+			owns = 124
+			owns = 125
+			owns = 126
+			owns = 127
+			owns = 130
+			owns = 136
+			owns = 137
+			owns = 142
+			owns = 143
+			owns = 144
+			owns = 145
+			owns = 146
+			owns = 147
+			owns = 148
+			owns = 149
+			owns = 151
+			owns = 159
+			owns = 163
+			owns = 164
+			owns = 197
+			owns = 200
+			owns = 201
+			owns = 212
+			owns = 213
+			owns = 220
+			owns = 221
+			owns = 222
+			owns = 223
+			owns = 226
+			owns = 282
+			owns = 284
+			owns = 285
+			owns = 286
+			owns = 287
+			owns = 316
+			owns = 317
+			owns = 318
+			owns = 319
+			owns = 320
+			owns = 321
+			owns = 325
+			owns = 327
+			owns = 328
+			owns = 330
+			owns = 333
+			owns = 335
+			owns = 337
+			owns = 338
+			owns = 339
+			owns = 341
+			owns = 353
+			owns = 354
+			owns = 355
+			owns = 356
+			owns = 357
+			owns = 358
+			owns = 362
+			owns = 363
+			owns = 364
+			owns = 378
+			owns = 462
+			owns = 1247
+			owns = 1750
+			owns = 1751
+			owns = 1756
+			owns = 1764
+			owns = 1773
+			owns = 1774
+			owns = 1826
+			owns = 1854
+			owns = 1855
+			owns = 1856
+			owns = 1882
+			owns = 1933
+			owns = 1934
+			owns = 1974
+			owns = 2195
+			owns = 2196
+			owns = 2296
+			owns = 2297
+			owns = 2298
+			owns = 2299
+			owns = 2302
+			owns = 2304
+			owns = 2313
+			owns = 2325
+			owns = 2326
+			owns = 2348
+			owns = 2406
+			owns = 2410
+			owns = 2412
+			owns = 2447
+			owns = 2451
+			owns = 2452
+			owns = 2453
+			owns = 2455
+			owns = 2461
+			owns = 2473
+			owns = 2753
+			owns = 2954
+			owns = 2977
+			owns = 2980
+			owns = 2982
+			owns = 2983
+			owns = 2984
+			owns = 2985
+			owns = 2986
+			owns = 2988
+			owns = 2992
+			owns = 3003
+			owns = 4706
+			owns = 4174
+			owns = 4175
+			owns = 4316
+			owns = 4546
+			owns = 4549
+			owns = 4550
+			owns = 4559
+			owns = 4560
+			owns = 4561
+			owns = 4562
+			owns = 4696
+			owns = 4698
+			owns = 4699
+			owns = 4700
+			owns = 4701
+			owns = 4705
+			owns = 4729
+			owns = 4732
+			owns = 4733
+			owns = 4735
+			owns = 4736
+			owns = 4737
+			owns = 4738
+			owns = 4752
+			owns = 4753
+			owns = 4754
+			owns = 4779
+		}
 	}
 }
 
 achievement_kuban_cigars = {
 	id = 172
+	localization = NEW_ACHIEVEMENT_10_14
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5592,6 +5843,7 @@ achievement_kuban_cigars = {
 
 achievement_kushite_restoration = {
 	id = 173
+	localization = NEW_ACHIEVEMENT_10_15
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5617,6 +5869,7 @@ achievement_kushite_restoration = {
 
 achievement_fezzan_corridors = {
 	id = 174
+	localization = NEW_ACHIEVEMENT_10_16
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5657,6 +5910,7 @@ achievement_fezzan_corridors = {
 
 achievement_victorian_three = {
 	id = 175
+	localization = NEW_ACHIEVEMENT_10_17
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5680,6 +5934,7 @@ achievement_victorian_three = {
 
 achievement_animal_kingdom = {
 	id = 176
+	localization = NEW_ACHIEVEMENT_10_18
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5709,6 +5964,7 @@ achievement_animal_kingdom = {
 
 achievement_golden_horn = {
 	id = 177
+	localization = NEW_ACHIEVEMENT_10_19
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5735,6 +5991,7 @@ achievement_golden_horn = {
 
 achievement_kinslayer = {
 	id = 178
+	localization = NEW_ACHIEVEMENT_10_20
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5767,6 +6024,7 @@ achievement_kinslayer = {
 
 achievement_choson_one = {
 	id = 179
+	localization = NEW_ACHIEVEMENT_10_21
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5794,6 +6052,7 @@ achievement_choson_one = {
 
 achievement_sailor_mon = {
 	id = 180
+	localization = NEW_ACHIEVEMENT_10_22
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5811,6 +6070,7 @@ achievement_sailor_mon = {
 
 achievement_networking = {
 	id = 181
+	localization = NEW_ACHIEVEMENT_10_23
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -5834,6 +6094,7 @@ achievement_networking = {
 
 achievement_the_white_company = {
 	id = 182
+	localization = NEW_ACHIEVEMENT_10_24
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -5857,6 +6118,7 @@ achievement_the_white_company = {
 
 achievement_time_bandit = {
 	id = 183
+	localization = NEW_ACHIEVEMENT_10_25
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -5878,6 +6140,7 @@ achievement_time_bandit = {
 
 achievement_with_a_little_help = {
 	id = 184
+	localization = NEW_ACHIEVEMENT_10_26
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5902,6 +6165,7 @@ achievement_with_a_little_help = {
 
 achievement_just_resting_in_my_account = {
 	id = 185
+	localization = NEW_ACHIEVEMENT_10_27
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -5922,6 +6186,7 @@ achievement_just_resting_in_my_account = {
 
 achievement_cities_of_cibola = {
 	id = 186
+	localization = NEW_ACHIEVEMENT_11_6
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5929,7 +6194,7 @@ achievement_cities_of_cibola = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = PUE
+		primary_culture = pueblo
 	}
 
 	happened = {
@@ -5942,6 +6207,7 @@ achievement_cities_of_cibola = {
 
 achievement_turkish_delight = {
 	id = 187
+	localization = NEW_ACHIEVEMENT_11_7
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5961,9 +6227,9 @@ achievement_turkish_delight = {
 		calc_true_if = {
 			all_province = {
 				OR = {
-					owned_by = CND
+					owned_by = ROOT
 					owner = {
-						is_subject_of = CND
+						is_subject_of = ROOT
 						NOT = {
 							is_subject_of_type = tributary_state
 						}
@@ -5978,6 +6244,7 @@ achievement_turkish_delight = {
 
 achievement_baa_baa_black_sheep = {
 	id = 188
+	localization = NEW_ACHIEVEMENT_11_8
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -5995,6 +6262,7 @@ achievement_baa_baa_black_sheep = {
 
 achievement_fanatic_collectivist = {
 	id = 189
+	localization = NEW_ACHIEVEMENT_11_9
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -6011,6 +6279,7 @@ achievement_fanatic_collectivist = {
 			is_institution_origin = global_trade
 			is_institution_origin = manufactories
 			is_institution_origin = enlightenment
+			is_institution_origin = industrialization
 		}
 		NOT = { owned_by = ROOT }
 	}
@@ -6022,6 +6291,7 @@ achievement_fanatic_collectivist = {
 		is_institution_enabled = global_trade
 		is_institution_enabled = manufactories
 		is_institution_enabled = enlightenment
+		is_institution_enabled = industrialization
 		custom_trigger_tooltip = {
 			tooltip = achievement_fanatic_collectivist_tooltip
 			any_owned_province = { is_institution_origin = renaissance }
@@ -6030,6 +6300,7 @@ achievement_fanatic_collectivist = {
 			any_owned_province = { is_institution_origin  = global_trade }
 			any_owned_province = { is_institution_origin  = manufactories }
 			any_owned_province = { is_institution_origin  = enlightenment }
+			any_owned_province = { is_institution_origin  = industrialization }
 		}
 	}
 }
@@ -6038,6 +6309,7 @@ achievement_fanatic_collectivist = {
 
 achievement_core_fu = {
 	id = 190
+	localization = NEW_ACHIEVEMENT_11_10
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6058,6 +6330,7 @@ achievement_core_fu = {
 
 achievement_rozwi_empire = {
 	id = 191
+	localization = NEW_ACHIEVEMENT_11_11
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6095,6 +6368,7 @@ achievement_rozwi_empire = {
 
 achievement_sudanese_expedition = {
 	id = 192
+	localization = NEW_ACHIEVEMENT_11_12
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6127,6 +6401,7 @@ achievement_sudanese_expedition = {
 
 achievement_a_tale_of_two_families = {
 	id = 193
+	localization = NEW_ACHIEVEMENT_11_13
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6169,6 +6444,7 @@ achievement_a_tale_of_two_families = {
 
 achievement_abu_bakr_IIs_ambition = {
 	id = 194
+	localization = NEW_ACHIEVEMENT_11_14
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6205,6 +6481,7 @@ achievement_abu_bakr_IIs_ambition = {
 
 achievement_consulate_of_the_sea = {
 	id = 195
+	localization = NEW_ACHIEVEMENT_11_15
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6251,6 +6528,7 @@ achievement_consulate_of_the_sea = {
 
 achievement_we_bled_for_this = {
 	id = 196
+	localization = NEW_ACHIEVEMENT_10_28
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -6273,6 +6551,7 @@ achievement_we_bled_for_this = {
 
 achievement_pick_your_poison = {
 	id = 197
+	localization = NEW_ACHIEVEMENT_10_29
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6305,6 +6584,7 @@ achievement_pick_your_poison = {
 
 achievement_not_just_pizza = {
 	id = 198
+	localization = NEW_ACHIEVEMENT_10_30
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6329,6 +6609,7 @@ achievement_not_just_pizza = {
 
 achievement_all_that_is_thine_shall_be_mine = {
 	id = 199
+	localization = NEW_ACHIEVEMENT_10_31
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -6351,6 +6632,7 @@ achievement_all_that_is_thine_shall_be_mine = {
 
 achievement_a_blessed_nation = {
 	id = 200
+	localization = NEW_ACHIEVEMENT_11_0
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6373,6 +6655,7 @@ achievement_a_blessed_nation = {
 
 achievement_queen_of_conquest = {
 	id = 201
+	localization = NEW_ACHIEVEMENT_11_1
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6398,6 +6681,7 @@ achievement_queen_of_conquest = {
 
 achievement_aaa_credit = {
 	id = 202
+	localization = NEW_ACHIEVEMENT_11_2
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -6421,6 +6705,7 @@ achievement_aaa_credit = {
 
 achievement_hoarder = {
 	id = 203
+	localization = NEW_ACHIEVEMENT_11_3
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6442,6 +6727,7 @@ achievement_hoarder = {
 
 achievement_gentle_persuasion = {
 	id = 204
+	localization = NEW_ACHIEVEMENT_11_4
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -6463,6 +6749,7 @@ achievement_gentle_persuasion = {
 
 achievement_combined_arms = {
 	id = 205
+	localization = NEW_ACHIEVEMENT_11_5
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -6485,6 +6772,7 @@ achievement_combined_arms = {
 
 achievement_turtles_all_the_way_down = {
 	id = 206
+	localization = NEW_ACHIEVEMENT_12_3
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6506,6 +6794,7 @@ achievement_turtles_all_the_way_down = {
 
 achievement_the_navigator = {
 	id = 207
+	localization = NEW_ACHIEVEMENT_12_2
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6543,6 +6832,7 @@ achievement_the_navigator = {
 
 achievement_gold_rush = {
 	id = 208
+	localization = NEW_ACHIEVEMENT_12_1
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6562,6 +6852,7 @@ achievement_gold_rush = {
 
 achievement_graze_my_horse_here_and_here = {
 	id = 209
+	localization = NEW_ACHIEVEMENT_12_0
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6600,6 +6891,7 @@ achievement_graze_my_horse_here_and_here = {
 
 achievement_rise_of_the_white_sheep = {
 	id = 210
+	localization = NEW_ACHIEVEMENT_11_31
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6624,6 +6916,7 @@ achievement_rise_of_the_white_sheep = {
 
 achievement_where_the_heart_is = {
 	id = 211
+	localization = NEW_ACHIEVEMENT_11_30
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6670,6 +6963,7 @@ achievement_where_the_heart_is = {
 
 achievement_disciples_of_enlightenment = {
 	id = 212
+	localization = NEW_ACHIEVEMENT_11_29
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6696,6 +6990,7 @@ achievement_disciples_of_enlightenment = {
 
 achievement_first_toungoo_empire = {
 	id = 213
+	localization = NEW_ACHIEVEMENT_11_28
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6725,6 +7020,7 @@ achievement_first_toungoo_empire = {
 
 achievement_made_in_japan = {
 	id = 214
+	localization = NEW_ACHIEVEMENT_11_27
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6744,6 +7040,7 @@ achievement_made_in_japan = {
 
 achievement_three_trivial_tributaries = {
 	id = 215
+	localization = NEW_ACHIEVEMENT_11_26
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6777,6 +7074,7 @@ achievement_three_trivial_tributaries = {
 
 achievement_qing_of_china = {
 	id = 216
+	localization = NEW_ACHIEVEMENT_11_25
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6806,6 +7104,7 @@ achievement_qing_of_china = {
 
 achievement_carthago_delenda_est = {
 	id = 217
+	localization = NEW_ACHIEVEMENT_11_24
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
@@ -6832,6 +7131,8 @@ achievement_carthago_delenda_est = {
 
 achievement_live_long_and_prosper = {
 	id = 218
+	localization = NEW_ACHIEVEMENT_11_16
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6862,6 +7163,8 @@ achievement_live_long_and_prosper = {
 
 achievement_tear_down_this_wall = {
 	id = 219
+	localization = NEW_ACHIEVEMENT_11_17
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6885,6 +7188,8 @@ achievement_tear_down_this_wall = {
 
 achievement_golden_empire = {
 	id = 220
+	localization = NEW_ACHIEVEMENT_11_18
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6904,6 +7209,8 @@ achievement_golden_empire = {
 }
 achievement_cherrypicking = {
 	id = 221
+	localization = NEW_ACHIEVEMENT_11_19
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6925,6 +7232,8 @@ achievement_cherrypicking = {
 }
 achievement_banners_need_a_saga = {
 	id = 222
+	localization = NEW_ACHIEVEMENT_11_20
+	
 	possible = {	
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6943,6 +7252,8 @@ achievement_banners_need_a_saga = {
 }
 achievement_sweet_harmony = {
 	id = 223
+	localization = NEW_ACHIEVEMENT_11_21
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6962,6 +7273,8 @@ achievement_sweet_harmony = {
 }
 achievement_sakoku_law = {
 	id = 224
+	localization = NEW_ACHIEVEMENT_11_22
+	
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -6978,6 +7291,8 @@ achievement_sakoku_law = {
 }
 achievement_absolutely = {
 	id = 225
+	localization = NEW_ACHIEVEMENT_11_23
+	
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -6992,6 +7307,8 @@ achievement_absolutely = {
 
 achievement_dovmonts_own = {
 	id = 226
+	localization = NEW_ACHIEVEMENT_13_1
+	
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -7009,6 +7326,8 @@ achievement_dovmonts_own = {
 
 achievement_redecorating = {
 	id = 227
+	localization = NEW_ACHIEVEMENT_13_2
+	
 	possible = {
 		normal_province_values = yes
 		normal_or_historical_nations = yes
@@ -7037,6 +7356,8 @@ achievement_redecorating = {
 
 achievement_breaking_the_yoke = {
 	id = 228
+	localization = NEW_ACHIEVEMENT_13_3
+	
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -7062,6 +7383,7 @@ achievement_breaking_the_yoke = {
 
 achievement_back_in_control = {
 	id = 229
+	localization = NEW_ACHIEVEMENT_13_4
 	possible = {
 		normal_province_values = yes
 		NOT = { num_of_custom_nations = 1 }
@@ -7070,7 +7392,11 @@ achievement_back_in_control = {
 		start_date = 1444.11.11
 	}
 	visible = {
-		culture_group = altaic
+		OR = { 
+			culture_group = altaic 
+			primary_culture = altaic_new 
+			tag = YUA
+		}
 	}
 	provinces_to_highlight = {
 		superregion = china_superregion
@@ -7091,6 +7417,7 @@ achievement_back_in_control = {
 
 achievement_mass_production = {
 	id = 230
+	localization = NEW_ACHIEVEMENT_13_5
 	possible = {
 		normal_province_values = yes
 		NOT = { num_of_custom_nations = 1 }
@@ -7121,13 +7448,17 @@ achievement_mass_production = {
 
 achievement_relentless_push_east = {
 	id = 231
+	localization = NEW_ACHIEVEMENT_13_6
 	possible = {
 		normal_province_values = yes
 		NOT = { num_of_custom_nations = 1 }
 		normal_or_historical_nations = yes
 		ironman = yes
 		start_date = 1444.11.11
-		culture_group = east_slavic
+		OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
 	}
 	provinces_to_highlight = {
 		region = east_siberia_region
@@ -7148,6 +7479,7 @@ achievement_relentless_push_east = {
 
 achievement_laughingstock = {
 	id = 232
+	localization = NEW_ACHIEVEMENT_13_7
 	possible = {
 		normal_province_values = yes
 		NOT = { num_of_custom_nations = 1 }
@@ -7172,6 +7504,7 @@ achievement_laughingstock = {
 
 achievement_lessons_of_hemmingstedt = {
 	id = 233
+	localization = NEW_ACHIEVEMENT_13_8
 	possible = {
 		normal_province_values = yes
 		NOT = { num_of_custom_nations = 1 }
@@ -7195,6 +7528,7 @@ achievement_lessons_of_hemmingstedt = {
 
 achievement_its_all_greek_to_me = {
 	id = 234
+	localization = NEW_ACHIEVEMENT_13_9
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7227,6 +7561,7 @@ achievement_its_all_greek_to_me = {
 
 achievement_52_garhs = {
 	id = 235
+	localization = NEW_ACHIEVEMENT_13_10
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7269,6 +7604,7 @@ achievement_52_garhs = {
 
 achievement_bunte_kuh = {
 	id = 236
+	localization = NEW_ACHIEVEMENT_12_14
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7290,6 +7626,7 @@ achievement_bunte_kuh = {
 
 achievement_good_king_rene = {
 	id = 237
+	localization = NEW_ACHIEVEMENT_12_15
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7304,6 +7641,7 @@ achievement_good_king_rene = {
 
 achievement_saladins_legacy = {
 	id = 238
+	localization = NEW_ACHIEVEMENT_12_16
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7382,6 +7720,7 @@ achievement_saladins_legacy = {
 
 achievement_avar_khaganate = {
 	id = 239
+	localization = NEW_ACHIEVEMENT_12_17
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7427,6 +7766,7 @@ achievement_avar_khaganate = {
 
 achievement_protect_the_secret = {
 	id = 240
+	localization = NEW_ACHIEVEMENT_12_18
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7473,6 +7813,7 @@ achievement_protect_the_secret = {
 
 achievement_great_moravia = {
 	id = 241
+	localization = NEW_ACHIEVEMENT_12_19
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7575,6 +7916,7 @@ achievement_great_moravia = {
 
 achievement_a_heros_welcome = {
 	id = 242
+	localization = NEW_ACHIEVEMENT_12_20
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7589,12 +7931,12 @@ achievement_a_heros_welcome = {
 
 achievement_david_the_builder = {
 	id = 243
+	localization = NEW_ACHIEVEMENT_12_21
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = IME
 	}
 	provinces_to_highlight = {
 		owned_by = ROOT
@@ -7615,6 +7957,7 @@ achievement_david_the_builder = {
 
 achievement_voltaires_nightmare = {
 	id = 244
+	localization = NEW_ACHIEVEMENT_12_22
 	possible = {
 		ironman = yes
 		start_date = 1444.11.11
@@ -7633,6 +7976,7 @@ achievement_voltaires_nightmare = {
 
 achievement_pandya_empire = {
 	id = 245
+	localization = NEW_ACHIEVEMENT_12_24
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7671,6 +8015,7 @@ achievement_pandya_empire = {
 
 achievement_prince_of_egypt = {
 	id = 246
+	localization = NEW_ACHIEVEMENT_12_25
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_province_values = yes
@@ -7685,6 +8030,7 @@ achievement_prince_of_egypt = {
 
 achievement_around_the_world_in_eighty_years = {
 	id = 247
+	localization = NEW_ACHIEVEMENT_12_26
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
@@ -7703,7 +8049,7 @@ achievement_around_the_world_in_eighty_years = {
 	provinces_to_highlight = {
 		OR = {
 			province_id = 965 #New York
-			province_id = 869 #San Francisco
+			province_id = 4637 #San Francisco
 			province_id = 2315 #Suez
 			province_id = 529 #Bombay
 			province_id = 561 #Calcutta
@@ -7715,7 +8061,7 @@ achievement_around_the_world_in_eighty_years = {
 	happened = {
 		NOT = { is_date = 1524.11.11 }
 		owns = 965 #New York
-		owns = 869 #San Francisco
+		owns = 4637 #San Francisco
 		owns = 2315 #Suez
 		owns = 529 #Bombay
 		owns = 561 #Calcutta
@@ -7726,6 +8072,7 @@ achievement_around_the_world_in_eighty_years = {
 
 achievement_hard_bargaining = {
 	id = 248
+	localization = NEW_ACHIEVEMENT_12_27
 	visible = {
 		has_dlc = "Cradle of Civilization"
 		religion_group = muslim
@@ -7747,6 +8094,7 @@ achievement_hard_bargaining = {
 
 achievement_early_modern_warfare = {
 	id = 249
+	localization = NEW_ACHIEVEMENT_12_28
 	visible = {
 		has_dlc = "Cradle of Civilization"
 	}
@@ -7762,6 +8110,7 @@ achievement_early_modern_warfare = {
 
 achievement_sworn_fealty = {
 	id = 250
+	localization = NEW_ACHIEVEMENT_12_29
 	visible = {
 		has_dlc = "Cradle of Civilization"
 	}
@@ -7777,14 +8126,24 @@ achievement_sworn_fealty = {
 	}
 	happened = {
 		tag = ARB
-		tribal_allegiance = 100
+		has_government_power = {
+			mechanic_type = tribal_federation_mechanic
+			power_type = tribal_allegiance
+			value = 100
+		}
 	}
 }
 
 achievement_parisian_pasha = {
 	id = 251
+	localization = NEW_ACHIEVEMENT_12_30
 	visible = {
-		has_reform = ottoman_government
+		OR = {
+			has_reform = ottoman_government
+			has_reform = modernized_ottoman_government
+			has_reform = reorganized_ottoman_government
+			has_reform = sultanate_of_rum_reform
+		}
 		has_dlc = "Cradle of Civilization"
 	}
 	possible = {
@@ -7806,6 +8165,7 @@ achievement_parisian_pasha = {
 
 achievement_multiculturalism = {
 	id = 252
+	localization = NEW_ACHIEVEMENT_12_31
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -7821,6 +8181,7 @@ achievement_multiculturalism = {
 
 achievement_narcissism = {
 	id = 253
+	localization = NEW_ACHIEVEMENT_12_32
 	visible = {
 		has_dlc = "Cradle of Civilization"
 	}
@@ -7835,9 +8196,9 @@ achievement_narcissism = {
 				any_army = {
 					general_with_steam_name = yes
 				}
+				has_country_flag = general_with_steam_name_won_battle
 				custom_trigger_tooltip = {
 					tooltip = general_with_steam_name_won_battle_tt
-					has_country_flag = general_with_steam_name_won_battle
 				}
 			}
 			OR = {
@@ -7855,6 +8216,15 @@ achievement_narcissism = {
 				has_leader = "Imse"
 				has_leader = "KaiserJohan"
 				has_leader = "Hawky"
+				#Tinto
+				has_leader = "Johan"
+				has_leader = "Pavía"
+				has_leader = "Aldaron"
+				has_leader = "SaintDaveUK"
+				has_leader = "Gnivom"
+				has_leader = "Big Boss"
+				has_leader = "Comrade Flan"
+				has_leader = "CzerstfyChlep"
 			}
 		}
 	}
@@ -7863,6 +8233,7 @@ achievement_narcissism = {
 
 achievement_levant_turnabout = {
 	id = 254
+	localization = NEW_ACHIEVEMENT_12_33
 	visible = {
 		has_dlc = "Cradle of Civilization"
 	}
@@ -7897,6 +8268,7 @@ achievement_levant_turnabout = {
 
 achievement_cowardly_tactics = {
 	id = 255
+	localization = NEW_ACHIEVEMENT_12_34
 	visible = {
 		has_dlc = "Cradle of Civilization"
 	}
@@ -7918,6 +8290,7 @@ achievement_cowardly_tactics = {
 
 achievement_home_and_away = {
 	id = 256
+	localization = NEW_ACHIEVEMENT_14_1
 	visible = {
 		OR = {
 			owns = 373 # Dublin
@@ -7959,6 +8332,7 @@ achievement_home_and_away = {
 
 achievement_sleepless_in_seattle = {
 	id = 257
+	localization = NEW_ACHIEVEMENT_14_3
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -7977,6 +8351,7 @@ achievement_sleepless_in_seattle = {
 
 achievement_sun_invasion = {
 	id = 258
+	localization = NEW_ACHIEVEMENT_14_2
 	visible = {
 		tag = MAS
 	}
@@ -8010,6 +8385,7 @@ achievement_sun_invasion = {
 
 achievement_empire_of_mann = {
 	id = 259
+	localization = NEW_ACHIEVEMENT_14_5
 	possible = {
 		normal_province_values = yes
 		ironman = yes
@@ -8033,6 +8409,7 @@ achievement_empire_of_mann = {
 
 achievement_dude_where_s_my_boat = {
 	id = 260
+	localization = NEW_ACHIEVEMENT_14_6
 	visible = {
 		has_dlc = "Rule Britannia"
 	}
@@ -8052,6 +8429,7 @@ achievement_dude_where_s_my_boat = {
 
 achievement_industrial_powerhouse = {
 	id = 261
+	localization = NEW_ACHIEVEMENT_14_9
 	visible = {
 		has_dlc = "Rule Britannia"
 	}
@@ -8077,6 +8455,7 @@ achievement_industrial_powerhouse = {
 
 achievement_chop_chop = {
 	id = 262
+	localization = NEW_ACHIEVEMENT_14_10
 	visible = {
 		has_dlc = "Rule Britannia"
 		has_dlc = "Rights of Man"
@@ -8099,6 +8478,7 @@ achievement_chop_chop = {
 
 achievement_bright_spark = {
 	id = 263
+	localization = NEW_ACHIEVEMENT_14_7
 	visible = {
 		has_dlc = "Rule Britannia"
 	}
@@ -8117,9 +8497,16 @@ achievement_bright_spark = {
 
 achievement_anglophile = {
 	id = 264
+	localization = NEW_ACHIEVEMENT_14_8
 	visible = {
-		has_dlc = "Rule Britannia"
-		culture_group = british
+		OR = {
+			has_dlc = "Rule Britannia"
+			has_dlc = "Domination"
+		}
+		OR = {
+			culture_group = british
+			primary_culture = anglois
+		}
 		is_random_new_world = no
 	}
 	possible = {
@@ -8129,59 +8516,154 @@ achievement_anglophile = {
 		ironman = yes
 		start_date = 1444.11.11
 		NOT = { num_of_custom_nations = 1 }
-		culture_group = british
+		OR = {
+			culture_group = british
+			primary_culture = anglois
+		}
 	}
 	
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = anglophile.tooltip
-			mission_completed = eng_mighty_army
-			mission_completed = conquer_ireland
-			mission_completed = conquer_scotland
-			mission_completed = eng_war_france
-			mission_completed = eng_reclaim_arm_paris
-			mission_completed = vassalize_france
-			mission_completed = eng_discover_america_caribbean
-			mission_completed = english_colony_in_north_america
-			mission_completed = english_colony_in_the_carribean
-			mission_completed = england_discovers_india
-			mission_completed = england_discovers_australia
-			mission_completed = eng_mighty_navy
-			mission_completed = eng_rb_take_gibraltar
-			mission_completed = eng_rb_take_baleares
-			mission_completed = eng_rb_take_mediterranean_islands
-			mission_completed = eng_rb_take_delta
-			mission_completed = eng_rb_take_bahari
-			mission_completed = eng_rb_war_of_roses
-			mission_completed = eng_rb_control_state_religion
-			mission_completed = eng_rb_empire_status
-			mission_completed = eng_rb_conquer_burgundy
-			mission_completed = eng_rb_canada
-			mission_completed = eng_rb_trade_value
-			mission_completed = eng_rb_universities
-			mission_completed = eng_rb_coal
-			mission_completed = eng_rb_furnaces
-			mission_completed = eng_rb_brittany
-			mission_completed = eng_rb_angevin
-			mission_completed = eng_rb_hre_electors
-			mission_completed = eng_rb_hre_emperor
-			mission_completed = eng_rb_spice_islands
-			mission_completed = gbr_rb_india_landfall
-			mission_completed = gbr_rb_india_coast
-			mission_completed = gbr_rb_india_landgrab
-			mission_completed = gbr_rb_india_princedoms
-			mission_completed = eng_rb_take_shetland_and_faro_isles
-			mission_completed = eng_rb_greenland
-			mission_completed = eng_rb_own_thirteen_colonies
-			mission_completed = eng_establish_trade_in_home_cot_gb
-			mission_completed = eng_hanseatic_one
-			mission_completed = eng_hanseatic_two
+			OR = {
+				#Rule Britannia
+				AND = {
+					mission_completed = eng_mighty_army
+					mission_completed = conquer_ireland
+					mission_completed = conquer_scotland
+					mission_completed = eng_war_france
+					mission_completed = eng_reclaim_arm_paris
+					mission_completed = vassalize_france
+					mission_completed = eng_discover_america_caribbean
+					mission_completed = english_colony_in_north_america
+					mission_completed = english_colony_in_the_carribean
+					mission_completed = england_discovers_india
+					mission_completed = england_discovers_australia
+					mission_completed = eng_mighty_navy
+					mission_completed = eng_rb_take_gibraltar
+					mission_completed = eng_rb_take_baleares
+					mission_completed = eng_rb_take_mediterranean_islands
+					mission_completed = eng_rb_take_delta
+					mission_completed = eng_rb_take_bahari
+					mission_completed = eng_rb_war_of_roses
+					mission_completed = eng_rb_control_state_religion
+					mission_completed = eng_rb_empire_status
+					mission_completed = eng_rb_conquer_burgundy
+					mission_completed = eng_rb_canada
+					mission_completed = eng_rb_trade_value
+					mission_completed = eng_rb_universities
+					mission_completed = eng_rb_coal
+					mission_completed = eng_rb_furnaces
+					mission_completed = eng_rb_brittany
+					mission_completed = eng_rb_angevin
+					mission_completed = eng_rb_hre_electors
+					mission_completed = eng_rb_hre_emperor
+					mission_completed = eng_rb_spice_islands
+					mission_completed = gbr_rb_india_landfall
+					mission_completed = gbr_rb_india_coast
+					mission_completed = gbr_rb_india_landgrab
+					mission_completed = gbr_rb_india_princedoms
+					mission_completed = eng_rb_take_shetland_and_faro_isles
+					mission_completed = eng_rb_greenland
+					mission_completed = eng_rb_own_thirteen_colonies
+					mission_completed = eng_establish_trade_in_home_cot_gb
+					mission_completed = eng_hanseatic_one
+					mission_completed = eng_hanseatic_two
+				}
+				#Domination
+				AND = {
+					mission_completed = eng_recruit_the_mercenaries
+					mission_completed = eng_conquer_scotland
+					mission_completed = eng_unify_the_isles
+					mission_completed = eng_act_of_union
+					mission_completed = eng_war_of_the_roses
+					mission_completed = eng_handle_the_reformation
+					mission_completed = eng_piety_of_the_state
+					mission_completed = eng_strengthen_the_monarchy
+					mission_completed = eng_the_english_civil_war
+					mission_completed = eng_irish_conquest
+					mission_completed = eng_english_parliamentarism
+					mission_completed = gbr_ave_hundred_years_war
+					mission_completed = gbr_ave_the_royal_court
+					mission_completed = gbr_a_house_divided
+					mission_completed = gbr_ave_early_industry
+					mission_completed = gbr_ave_the_great_empire
+					mission_completed = gbr_ave_english_renaissance
+					mission_completed = gbr_ave_renovate_universities
+					mission_completed = gbr_ave_the_men_of_war
+					mission_completed = gbr_ave_the_royal_marines
+					mission_completed = gbr_ave_create_standing_army
+					mission_completed = gbr_ave_the_redcoats
+					OR = {
+						#GB
+						AND = {
+							mission_completed = gbr_develop_british_identity
+							mission_completed = gbr_explore_new_world
+							mission_completed = gbr_colonize_canada
+							mission_completed = gbr_seize_ceylon
+							mission_completed = gbr_ave_hundred_years_war
+							mission_completed = gbr_end_the_french_conflict
+							mission_completed = gbr_abolish_villeinage
+							mission_completed = gbr_establish_royal_navy
+							mission_completed = gbr_rule_britannia
+							mission_completed = gbr_colonize_north_america
+							mission_completed = gbr_dominiate_new_world
+							mission_completed = gbr_establish_first_indian_trade_post
+							mission_completed = gbr_conquer_western_india
+							mission_completed = gbr_english_superiority
+							mission_completed = gbr_the_royal_charter
+							mission_completed = gbr_the_mediterranean_isles
+							mission_completed = gbr_colonize_caribbeans
+							mission_completed = gbr_discover_india
+							mission_completed = gbr_colonize_the_spice_isles
+							mission_completed = gbr_conquer_inland_india
+							mission_completed = gbr_masters_of_india
+							mission_completed = gbr_allies_on_the_mainland
+							mission_completed = gbr_take_over_the_lowlands
+							mission_completed = gbr_trade_dominance_in_europe
+							mission_completed = gbr_sail_around_africa
+							mission_completed = gbr_seize_the_cape
+							mission_completed = gbr_chart_the_southern_sea
+							mission_completed = gbr_colonize_australia
+							mission_completed = gbr_conquer_eastern_india
+						}
+						#Angevin
+						AND = {
+							mission_completed = ave_eliminate_the_french_minors
+							mission_completed = ave_conquer_iberia
+							mission_completed = ave_angevin_iberia
+							mission_completed = ave_promote_angevin_culture
+							mission_completed = ave_take_the_french_throne
+							mission_completed = ave_shatter_frances_nobility
+							mission_completed = ave_the_angevin_empire
+							mission_completed = ave_invade_italy
+							mission_completed = ave_italian_domination
+							mission_completed = ave_dominate_europe
+							mission_completed = ave_a_kingdom_of_chivalry
+							mission_completed = ave_claim_the_empire_title
+							mission_completed = ave_discover_the_americas
+							mission_completed = ave_eliminate_burgundy
+							mission_completed = ave_deal_with_the_hre
+							mission_completed = ave_double_emperorship
+							mission_completed = ave_kingdom_of_metropolises
+							mission_completed = ave_the_angevin_age
+							mission_completed = ave_introduce_the_banking_act
+							mission_completed = ave_colonize_america
+							mission_completed = ave_colonial_empire
+							mission_completed = ave_conquer_lowlands
+							mission_completed = ave_perfect_construct_barracks
+							mission_completed = ave_combine_land_and_navy
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
 achievement_philippine_tiger = {
 	id = 265
+	localization = NEW_ACHIEVEMENT_14_4
 	
 	visible = {
 		tag = CEB
@@ -8333,6 +8815,7 @@ achievement_philippine_tiger = {
 # 1.26 Achievements - Dharma
 achievement_mewar_never_changes = {
 	id = 266
+	localization = NEW_ACHIEVEMENT_15
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8376,6 +8859,7 @@ achievement_mewar_never_changes = {
 
 achievement_fine_financials = {
 	id = 267
+	localization = NEW_ACHIEVEMENT_16
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8403,6 +8887,7 @@ achievement_fine_financials = {
 
 achievement_the_coin_is_stronger_than_the_sword = {
 	id = 268
+	localization = NEW_ACHIEVEMENT_17
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8427,6 +8912,7 @@ achievement_the_coin_is_stronger_than_the_sword = {
 
 achievement_sweet_home_qaraqorum = {
 	id = 269
+	localization = NEW_ACHIEVEMENT_18
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8457,6 +8943,7 @@ achievement_sweet_home_qaraqorum = {
 
 achievement_the_ostenders = {
 	id = 270
+	localization = NEW_ACHIEVEMENT_19
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8493,6 +8980,7 @@ achievement_the_ostenders = {
 
 achievement_ganges_khan = {
 	id = 271
+	localization = NEW_ACHIEVEMENT_20
 	
 	visible = {
 		OR = {
@@ -8521,6 +9009,7 @@ achievement_ganges_khan = {
 
 achievement_foul_mouthed = {
 	id = 272
+	localization = NEW_ACHIEVEMENT_21
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8551,6 +9040,7 @@ achievement_foul_mouthed = {
 
 achievement_populists_in_government = {
 	id = 273
+	localization = NEW_ACHIEVEMENT_22
 	
 	visible = {
 		OR = {
@@ -8578,6 +9068,7 @@ achievement_populists_in_government = {
 
 achievement_maharana_pratap = {
 	id = 274
+	localization = NEW_ACHIEVEMENT_23
 	
 	visible = {
 		has_dlc = "Dharma"
@@ -8602,6 +9093,7 @@ achievement_maharana_pratap = {
 
 achievement_eat_your_greens = {
 	id = 275
+	localization = NEW_ACHIEVEMENT_24
 	
 	visible = {
 		tag = KAL
@@ -8634,6 +9126,7 @@ achievement_eat_your_greens = {
 
 achievement_emperor_of_hindustan = {
 	id = 276
+	localization = NEW_ACHIEVEMENT_25
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -8822,6 +9315,7 @@ achievement_emperor_of_hindustan = {
 
 achievement_true_heir_of_timur = {
 	id = 277
+	localization = NEW_ACHIEVEMENT_27
 	
 	visible = {
 		OR = {
@@ -8860,6 +9354,7 @@ achievement_true_heir_of_timur = {
 
 achievement_ostindisk_kompagni_te = {
 	id = 278
+	localization = NEW_ACHIEVEMENT_28
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -8869,7 +9364,10 @@ achievement_ostindisk_kompagni_te = {
 		tag = DAN
 	}
 	happened = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			tag = SCA
+		}
 		any_owned_province = {
 			is_owned_by_trade_company = yes
 			continent = asia
@@ -8883,6 +9381,7 @@ achievement_ostindisk_kompagni_te = {
 
 achievement_sikh_pun = {
 	id = 279
+	localization = NEW_ACHIEVEMENT_29
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -8899,6 +9398,7 @@ achievement_sikh_pun = {
 
 achievement_pirate_bay_of_janjira = {
 	id = 280
+	localization = NEW_ACHIEVEMENT_30
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -8922,6 +9422,7 @@ achievement_pirate_bay_of_janjira = {
 
 achievement_never_say_never = {
 	id = 281
+	localization = NEW_ACHIEVEMENT_31
 	provinces_to_highlight = {
 		region = france_region
 		NOT = { 
@@ -8949,6 +9450,7 @@ achievement_never_say_never = {
 
 achievement_forgive_me_for_i_have_sind = {
 	id = 282
+	localization = NEW_ACHIEVEMENT_32
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -8965,6 +9467,7 @@ achievement_forgive_me_for_i_have_sind = {
 
 achievement_cotton_kandy = {
 	id = 283
+	localization = NEW_ACHIEVEMENT_33
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -8983,6 +9486,7 @@ achievement_cotton_kandy = {
 
 achievement_the_pheasant_strut = {
 	id = 284
+	localization = NEW_ACHIEVEMENT_34
 	possible = {
 		normal_or_historical_nations = yes
 		normal_province_values = yes
@@ -9006,6 +9510,7 @@ achievement_the_pheasant_strut = {
 
 achievement_tiger_of_mysore = {
 	id = 285
+	localization = NEW_ACHIEVEMENT_26
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -9037,6 +9542,7 @@ achievement_tiger_of_mysore = {
 # 1.28 Achievements - Golden Century
 achievement_trophy_hunter = {
 	id = 286
+	localization = NEW_ACHIEVEMENT_35
 	
 	visible = {
 		has_dlc = "Golden Century"
@@ -9060,6 +9566,7 @@ achievement_trophy_hunter = {
 
 achievement_yarr_harr_a_pirates_life_for_me = {
 	id = 287
+	localization = NEW_ACHIEVEMENT_36
 	
 	visible = {
 		has_dlc = "Golden Century"
@@ -9089,6 +9596,7 @@ achievement_yarr_harr_a_pirates_life_for_me = {
 
 achievement_why_is_the_rum_gone = {
 	id = 288
+	localization = NEW_ACHIEVEMENT_37
 	
 	visible = {
 		has_dlc = "Golden Century"
@@ -9118,6 +9626,7 @@ achievement_why_is_the_rum_gone = {
 
 achievement_you_get_a_new_home_and_you_get_a_new_home = {
 	id = 289
+	localization = NEW_ACHIEVEMENT_38
 	
 	visible = {
 		has_dlc = "Golden Century"
@@ -9141,10 +9650,21 @@ achievement_you_get_a_new_home_and_you_get_a_new_home = {
 
 achievement_forever_golden = {
 	id = 290
+	localization = NEW_ACHIEVEMENT_39
 	
 	visible = {
-		has_dlc = "Golden Century"
-		has_mission = gc_cas_spa_plus_ultra
+		OR = {
+			AND = { 
+				capital_scope = { region = iberia_region }
+				religion_group = christian 
+				culture_group = iberian
+			}
+			tag = SPA 
+		}
+		OR = { 
+			has_dlc = "Domination"
+			has_dlc = "Golden Century" 
+		}
 	}
 	
 	possible = {
@@ -9158,40 +9678,79 @@ achievement_forever_golden = {
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = completed_spanish_missions
-			mission_completed = gc_cas_spa_plus_ultra
-			mission_completed = gc_cas_spa_caribbean_discovery
-			mission_completed = gc_cas_spa_caribbean_colony
-			mission_completed = gc_cas_spa_havana
-			mission_completed = gc_cas_spa_mayans
-			mission_completed = gc_cas_spa_california
-			mission_completed = gc_cas_spa_navarra
-			mission_completed = gc_cas_spa_expel_moriscos
-			mission_completed = gc_cas_spa_hispaniola
-			mission_completed = gc_cas_spa_aztecs
-			mission_completed = gc_cas_spa_new_spain
-			mission_completed = gc_cas_spa_florida
-			mission_completed = gc_cas_spa_army_ready
-			mission_completed = gc_cas_spa_reconquista_one
-			mission_completed = gc_cas_spa_iberia_christian
-			mission_completed = gc_cas_spa_reconquista_four
-			mission_completed = gc_cas_spa_spanish_main
-			mission_completed = gc_cas_spa_incans
-			mission_completed = gc_cas_spa_potosi
-			mission_completed = gc_cas_spa_native_reductions
-			mission_completed = gc_cas_spa_reconquista_three
-			mission_completed = gc_cas_spa_italian_ambition
-			mission_completed = gc_cas_spa_italian_ambition_2
-			mission_completed = gc_spa_spanish_armada
-			mission_completed = gc_spa_invade_england
-			mission_completed = gc_cas_spa_la_plata
-			mission_completed = gc_cas_spa_west_africa
-			mission_completed = gc_cas_spa_discover_spice_islands
-			mission_completed = gc_cas_spa_conquer_philippines
-			mission_completed = gc_cas_spa_reconquista_two
-			mission_completed = gc_spa_spanish_netherlands
-			mission_completed = gc_spa_austrian_union
-			mission_completed = gc_spa_hre
-			mission_completed = gc_cas_spa_new_granada
+			OR = {
+				AND = { #Golden Century
+					mission_completed = gc_cas_spa_plus_ultra
+					mission_completed = gc_cas_spa_caribbean_discovery
+					mission_completed = gc_cas_spa_caribbean_colony
+					mission_completed = gc_cas_spa_havana
+					mission_completed = gc_cas_spa_mayans
+					mission_completed = gc_cas_spa_california
+					mission_completed = gc_cas_spa_navarra
+					mission_completed = gc_cas_spa_expel_moriscos
+					mission_completed = gc_cas_spa_hispaniola
+					mission_completed = gc_cas_spa_aztecs
+					mission_completed = gc_cas_spa_new_spain
+					mission_completed = gc_cas_spa_florida
+					mission_completed = gc_cas_spa_army_ready
+					mission_completed = gc_cas_spa_reconquista_one
+					mission_completed = gc_cas_spa_iberia_christian
+					mission_completed = gc_cas_spa_reconquista_four
+					mission_completed = gc_cas_spa_spanish_main
+					mission_completed = gc_cas_spa_incans
+					mission_completed = gc_cas_spa_potosi
+					mission_completed = gc_cas_spa_native_reductions
+					mission_completed = gc_cas_spa_reconquista_three
+					mission_completed = gc_cas_spa_italian_ambition
+					mission_completed = gc_cas_spa_italian_ambition_2
+					mission_completed = gc_spa_spanish_armada
+					mission_completed = gc_spa_invade_england
+					mission_completed = gc_cas_spa_la_plata
+					mission_completed = gc_cas_spa_west_africa
+					mission_completed = gc_cas_spa_discover_spice_islands
+					mission_completed = gc_cas_spa_conquer_philippines
+					mission_completed = gc_cas_spa_reconquista_two
+					mission_completed = gc_spa_spanish_netherlands
+					mission_completed = gc_spa_austrian_union
+					mission_completed = gc_spa_hre
+					mission_completed = gc_cas_spa_new_granada
+				}
+				AND = { #Domination
+					mission_completed = gc_cas_spa_iberia_christian2
+					mission_completed = spa_rein_in_france
+					mission_completed = gc_spa_hre2
+					mission_completed = spa_law_and_order
+					mission_completed = spa_merchant_fleet
+					mission_completed = spa_dominate_sevilla
+					mission_completed = gc_cas_spa_la_plata2
+					mission_completed = dom_castile_circumnavigation
+					mission_completed = gc_cas_spa_conquer_philippines2
+					mission_completed = gc_cas_spa_new_granada2
+					mission_completed = spa_new_world_silver
+					mission_completed = gc_cas_spa_california2
+					mission_completed = gc_cas_spa_florida2
+					mission_completed = gc_cas_spa_native_reductions2
+				}
+				AND = {
+					mission_completed = dom_ara_catalan_nobility
+					mission_completed = gc_ara_provence2
+					mission_completed = gc_ara_athens2
+					mission_completed = dom_ara_med
+					mission_completed = gc_ara_tunis2
+					mission_completed = gc_ara_alexandria2
+					mission_completed = gc_ara_golden_age2
+					mission_completed = spa_merchant_fleet
+					mission_completed = spa_dominate_sevilla
+					mission_completed = gc_cas_spa_la_plata2
+					mission_completed = dom_castile_circumnavigation
+					mission_completed = gc_cas_spa_conquer_philippines2
+					mission_completed = gc_cas_spa_new_granada2
+					mission_completed = spa_new_world_silver
+					mission_completed = gc_cas_spa_california2
+					mission_completed = gc_cas_spa_florida2
+					mission_completed = gc_cas_spa_native_reductions2
+				}
+			}
 		}
 	}
 }
@@ -9199,6 +9758,7 @@ achievement_forever_golden = {
 # 1.28 Achievements - Free
 achievement_basque_in_the_glory = {
 	id = 291
+	localization = NEW_ACHIEVEMENT_40
 	
 	visible = {
 		tag = NAV
@@ -9231,6 +9791,7 @@ achievement_basque_in_the_glory = {
 
 achievement_an_unlikely_candidate = {
 	id = 292
+	localization = NEW_ACHIEVEMENT_41
 	
 	visible = {
 		OR = {
@@ -9259,6 +9820,7 @@ achievement_an_unlikely_candidate = {
 
 achievement_spanish_fly = {
 	id = 293
+	localization = NEW_ACHIEVEMENT_42
 	
 	visible = {
 		tag = FLY
@@ -9288,6 +9850,7 @@ achievement_spanish_fly = {
 
 achievement_the_league_of_mayapan = {
 	id = 294
+	localization = NEW_ACHIEVEMENT_43
 	
 	visible = {
 		tag = HST
@@ -9309,6 +9872,7 @@ achievement_the_league_of_mayapan = {
 
 achievement_where_am_i = {
 	id = 295
+	localization = NEW_ACHIEVEMENT_44
 	
 	visible = {
 		is_random_new_world = yes
@@ -9346,6 +9910,7 @@ achievement_where_am_i = {
 # 1.30 Achievements - Emperor DLC
 achievement_aeiou = {
 	id = 296
+	localization = NEW_ACHIEVEMENT_45
 	
 	visible = {
 		tag = HAB
@@ -9414,6 +9979,7 @@ achievement_aeiou = {
 
 achievement_napoleons_ambition = {
 	id = 297
+	localization = NEW_ACHIEVEMENT_46
 	
 	visible = {
 		has_dlc = "Emperor"
@@ -9441,6 +10007,7 @@ achievement_napoleons_ambition = {
 
 achievement_everythings_coming_up_mulhouse = {
 	id = 298
+	localization = NEW_ACHIEVEMENT_47
 	
 	visible = {
 		has_dlc = "Emperor"
@@ -9463,6 +10030,7 @@ achievement_everythings_coming_up_mulhouse = {
 
 achievement_global_hegemony = {
 	id = 299
+	localization = NEW_ACHIEVEMENT_48
 	
 	visible = {
 		has_dlc = "Emperor"
@@ -9483,6 +10051,7 @@ achievement_global_hegemony = {
 
 achievement_god_tier = {
 	id = 300
+	localization = NEW_ACHIEVEMENT_50
 	
 	visible = {
 		has_dlc = "Emperor"
@@ -9507,6 +10076,7 @@ achievement_god_tier = {
 
 achievement_spaghetti_western = {
 	id = 301
+	localization = NEW_ACHIEVEMENT_51
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -9521,12 +10091,14 @@ achievement_spaghetti_western = {
 		OR = {
 			tag = MEX
 			tag = TEX
+			tag = SNA
 		}
 	}
 }
 
 achievement_dont_be_cilli = {
 	id = 302
+	localization = NEW_ACHIEVEMENT_52
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -9545,6 +10117,7 @@ achievement_dont_be_cilli = {
 
 achievement_inner_turmoil = {
 	id = 303
+	localization = NEW_ACHIEVEMENT_53
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -9567,6 +10140,7 @@ achievement_inner_turmoil = {
 
 achievement_stern_des_sudens = {
 	id = 304
+	localization = NEW_ACHIEVEMENT_54
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -9586,6 +10160,7 @@ achievement_stern_des_sudens = {
 
 achievement_kingdom_of_god = {
 	id = 305
+	localization = NEW_ACHIEVEMENT_55
 	
 	possible = {
 		normal_or_historical_nations = yes
@@ -9606,12 +10181,13 @@ achievement_kingdom_of_god = {
 
 achievement_stiff_upper_lippe = {
 	id = 306
+	localization = NEW_ACHIEVEMENT_56
 	
 	provinces_to_highlight = {
 		if = {
 			limit = {
 				NOT = {
-					tag = LPP
+					owned_by = LPP
 				}
 			}
 			is_core = LPP
@@ -9641,6 +10217,7 @@ achievement_stiff_upper_lippe = {
 
 achievement_on_the_rhodes_again = {
 	id = 307
+	localization = NEW_ACHIEVEMENT_57
 	
 	provinces_to_highlight = {
 		OR = {
@@ -9672,6 +10249,7 @@ achievement_on_the_rhodes_again = {
 
 achievement_czechs_and_balances = {
 	id = 308
+	localization = NEW_ACHIEVEMENT_58
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -9701,6 +10279,7 @@ achievement_czechs_and_balances = {
 
 achievement_mary_of_lotharingia = {
 	id = 309
+	localization = NEW_ACHIEVEMENT_59
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -9720,6 +10299,7 @@ achievement_mary_of_lotharingia = {
 
 achievement_holiest_roman_empire = {
 	id = 310
+	localization = NEW_ACHIEVEMENT_60
 
 	possible = {
 		normal_or_historical_nations = yes
@@ -9737,5 +10317,2023 @@ achievement_holiest_roman_empire = {
 		hre_religion = catholic
 		hre_religion_locked = yes
 		PAP = { is_elector = yes }
+	}
+}
+
+# 1.31 Achievements - Leviathan DLC
+
+achievement_wonderful = {
+	id = 311
+	localization = NEW_ACHIEVEMENT_61
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		calc_true_if = {
+			amount = 8
+			all_owned_province_cumulative = {
+				has_great_project = {
+					type = monument
+					tier = 3
+				}
+			}
+		}
+	}
+}
+
+achievement_spice_girls = {
+	id = 312
+	localization = NEW_ACHIEVEMENT_62
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		trading_bonus = {
+			trade_goods = cloves
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = spices
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = salt
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = sugar
+			value = yes
+		}
+		is_female = yes
+	}
+}
+
+achievement_to_the_bone = {
+	id = 314
+	localization = NEW_ACHIEVEMENT_64
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = BNE
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = BNE
+		num_of_times_used_pillage_capital = 7
+	}
+}
+
+achievement_keep_the_flame_burning = {
+	id = 315
+	localization = NEW_ACHIEVEMENT_65
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		religion = zoroastrian
+		421 = {
+			owned_by = ROOT
+			religion = zoroastrian
+			has_great_project = {
+				type = fire_temple_of_ateshgah
+				tier = 3
+			}
+		}
+		2212 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		2223 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		4430 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		441 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+		4336 = {
+			owned_by = ROOT
+			religion = zoroastrian
+		}
+	}
+}
+
+achievement_new_new_deli = {
+	id = 316
+	localization = NEW_ACHIEVEMENT_66
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = DLI
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = DLI
+		capital = 522
+	}
+}
+
+achievement_the_power_of_three = {
+	id = 317
+	localization = NEW_ACHIEVEMENT_67
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = have_crown_colony_tt
+			has_subject_of_type = crown_colony
+		}
+		custom_trigger_tooltip = {
+			tooltip = have_private_enterprise_tt
+			has_subject_of_type = private_enterprise
+		}
+		custom_trigger_tooltip = {
+			tooltip = have_self_governing_colony_tt
+			has_subject_of_type = self_governing_colony
+		}
+	}
+}
+
+achievement_quizquiz_pro_quo = {
+	id = 318
+	localization = NEW_ACHIEVEMENT_68
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = QUI
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = QUI
+		capital = 178
+	}
+}
+
+achievement_thats_no_mon = { 
+	id = 319
+	localization = NEW_ACHIEVEMENT_69
+	
+	visible = {
+		has_dlc = "Leviathan"
+	}
+	
+	possible = {
+		tag = PEG
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		tag = PEG
+		num_of_owned_provinces_with = {
+			value = 50
+			NOT = { culture = mon }
+		}
+	}
+}
+
+achievement_mansa_musa = {
+	id = 320
+	localization = NEW_ACHIEVEMENT_70
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	possible = {
+		tag = MAL
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = MAL
+		has_country_flag = brown_noser	
+		has_estate_loan = no
+		NOT = { num_of_loans = 1 }
+		is_bankrupt = no
+	}
+}
+
+achievement_ultimate_military = { 
+	id = 321
+	localization = NEW_ACHIEVEMENT_71
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	possible = {
+		tag = SON
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = SON
+		PRU = { march_of = SON }
+		NPL = { march_of = SON }
+	}
+}
+
+achievement_golden_wind = { 
+	id = 322
+	localization = NEW_ACHIEVEMENT_72
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	possible = {
+		tag = AIR
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = AIR
+		current_income_balance = 50
+		gold_income_percentage = 0.5
+	}
+}
+
+achievement_fugger_banking = { 
+	id = 323
+	localization = NEW_ACHIEVEMENT_73
+	
+	visible = {
+		OR = {
+			has_dlc = "Rights of Man"
+			has_dlc = "Emperor"
+		}
+	}
+
+	possible = {
+		tag = AUG
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = AUG
+		NOT = { num_of_cities = 20 } # Having less than 20 provinces
+		
+		calc_true_if = { #subsidize 3 Great Powers at least 20% of their income
+			all_country = {
+				is_great_power = yes
+				subsidised_percent_amount = {
+					value = 0.2
+				}
+			}
+			amount = 3
+		}
+	}
+}
+
+achievement_where_are_the_penguins = { 
+	id = 324
+	localization = NEW_ACHIEVEMENT_74
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	provinces_to_highlight = {
+		OR = {
+			#Madagasacar
+			area = madagascar_highlands_area
+			area = betsimasaraka_area
+			area = sakalava_area
+			area = southern_madagascar
+			#South Africa
+			province_id = 1177
+			province_id = 1179
+			province_id = 833
+			province_id = 1180
+			#Autralia
+			province_id = 1084
+			province_id = 2727
+			province_id = 2736
+			province_id = 1086
+			province_id = 2735
+			province_id = 1087
+			province_id = 2734
+			province_id = 4869
+			province_id = 4868
+			province_id = 1085
+			province_id = 4858
+			#New Zealand
+			province_id = 1246
+			province_id = 1109
+			#South America
+			province_id = 783
+			province_id = 782
+			province_id = 2869
+			province_id = 1095
+			province_id = 2025
+		}
+		NOT = { owned_by = ROOT }
+		NOT = { is_core = ROOT }
+	}
+	
+	possible = {
+		OR = {
+			tag = SKA
+			tag = BTS
+			tag = MIR
+			tag = MFY
+			tag = ANT
+		}
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		is_random_new_world = no
+	}
+	happened = {
+		OR = {
+			tag = SKA
+			tag = BTS
+			tag = MIR
+			tag = MFY
+			tag = ANT
+		}
+		#Madagasacar
+		madagascar_highlands_area = {
+			type = all
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		betsimasaraka_area = {
+			type = all
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		sakalava_area = {
+			type = all
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		southern_madagascar = {
+			type = all
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		#South Africa
+		owns_or_non_sovereign_subject_of = 1177
+		owns_or_non_sovereign_subject_of = 1179
+		owns_or_non_sovereign_subject_of = 833
+		owns_or_non_sovereign_subject_of = 1180
+		#Autralia
+		owns_or_non_sovereign_subject_of = 1084
+		owns_or_non_sovereign_subject_of = 2727
+		owns_or_non_sovereign_subject_of = 2736
+		owns_or_non_sovereign_subject_of = 1086
+		owns_or_non_sovereign_subject_of = 2735
+		owns_or_non_sovereign_subject_of = 1087
+		owns_or_non_sovereign_subject_of = 2734
+		owns_or_non_sovereign_subject_of = 4869
+		owns_or_non_sovereign_subject_of = 4868
+		owns_or_non_sovereign_subject_of = 1085
+		owns_or_non_sovereign_subject_of = 4858
+		#New Zealand
+		owns_or_non_sovereign_subject_of = 1246
+		owns_or_non_sovereign_subject_of = 1109
+		#South America
+		owns_or_non_sovereign_subject_of = 783
+		owns_or_non_sovereign_subject_of = 782
+		owns_or_non_sovereign_subject_of = 2869
+		owns_or_non_sovereign_subject_of = 1095
+		owns_or_non_sovereign_subject_of = 2025
+	}
+}
+
+achievement_this_is_fine = {
+	id = 325
+	localization = NEW_ACHIEVEMENT_75
+	
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		# At least +10 Global Unrest
+		unrest = 10
+		#Be in a winning coalition war, which was targeted against you
+		is_in_war = {
+			defender_leader = ROOT
+			casus_belli = cb_super_badboy
+			war_score = 30
+		}
+		
+	}
+}
+
+achievement_khaaaaaan = {
+	id = 326
+	localization = NEW_ACHIEVEMENT_76
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		NOT = {	current_age = age_of_absolutism }
+		NOT = {	current_age = age_of_revolutions }
+		tag = MGE
+	}
+}
+
+achievement_knights_of_the_caribbean = {
+	id = 327
+	localization = NEW_ACHIEVEMENT_77
+	
+	provinces_to_highlight = {
+		NOT = { owned_by = ROOT }
+		has_discovered = ROOT
+		OR = {
+			region = carribeans_region
+			#Mediterranean Islands
+			province_id = 320
+			province_id = 321
+			province_id = 163
+			province_id = 164
+			province_id = 2348
+			province_id = 3003
+			province_id = 4700
+			province_id = 4698
+			province_id = 142
+			province_id = 2982
+			province_id = 124
+			province_id = 125
+			province_id = 4737
+			province_id = 4736
+			province_id = 2954
+			province_id = 126
+			province_id = 127
+			province_id = 1247
+			province_id = 4559
+			province_id = 4560
+			province_id = 333
+			province_id = 112
+			province_id = 4735
+			province_id = 2986
+		}
+	}
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		is_random_new_world = no
+		tag = KNI
+	}
+	happened = {
+		carribeans_region = {
+			type = all
+			owned_by = ROOT
+		}
+		#Mediterranean Islands
+		owns_core_province = 320
+		owns_core_province = 321
+		owns_core_province = 163
+		owns_core_province = 164
+		owns_core_province = 2348
+		owns_core_province = 3003
+		owns_core_province = 4700
+		owns_core_province = 4698
+		owns_core_province = 142
+		owns_core_province = 2982
+		owns_core_province = 124
+		owns_core_province = 125
+		owns_core_province = 4737
+		owns_core_province = 4736
+		owns_core_province = 2954
+		owns_core_province = 126
+		owns_core_province = 127
+		owns_core_province = 1247
+		owns_core_province = 4559
+		owns_core_province = 4560
+		owns_core_province = 333
+		owns_core_province = 112
+		owns_core_province = 4735
+		owns_core_province = 2986
+	}
+}
+
+achievement_australia_hungary = {
+	id = 328
+	localization = NEW_ACHIEVEMENT_78
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		OR = {
+			tag = AUS
+			tag = TIW
+			tag = LAR
+			tag = YOL
+			tag = YNU
+			tag = AWN
+			tag = GMI
+			tag = MIA
+			tag = EOR
+			tag = KUL
+			tag = KAU
+			tag = PLW
+			tag = WRU
+			tag = NOO
+			tag = MLG
+		}
+	}
+	happened = {
+		OR = {
+			tag = AUS
+			tag = TIW
+			tag = LAR
+			tag = YOL
+			tag = YNU
+			tag = AWN
+			tag = GMI
+			tag = MIA
+			tag = EOR
+			tag = KUL
+			tag = KAU
+			tag = PLW
+			tag = WRU
+			tag = NOO
+			tag = MLG
+		}
+		australia_region = {
+			type = all
+			owned_by = ROOT
+		}
+		HUN = { vassal_of = ROOT }
+	}
+}
+
+achievement_shemot_is_not = {
+	id = 329
+	localization = NEW_ACHIEVEMENT_79
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	provinces_to_highlight = {
+		region = egypt_region
+		NOT = { religion = jewish }
+	}
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		religion = jewish
+		has_church_aspect = judaism_communities_aspect
+		egypt_region = {
+			type = all
+			religion = jewish
+		}
+	}
+}
+
+achievement_one_nation_to_rule_them_all = {
+	id = 330
+	localization = NEW_ACHIEVEMENT_80
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		tag = SRU
+		calc_true_if = {
+			all_subject_country = {
+				total_development = 100
+				not = { liberty_desire = 50 }
+				is_subject_of_type = vassal
+			}
+			amount = 9
+		}
+	}
+}
+
+achievement_swahili_persuasion = {
+	id = 331
+	localization = NEW_ACHIEVEMENT_81
+	
+	visible = {
+		has_dlc = "Origins"
+	}
+	
+	provinces_to_highlight = {
+		OR = {
+			region = moluccas_region
+			region = indonesia_region
+		}
+		NOT = { religion = ROOT }
+	}
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = ZAN
+	}
+	happened = {
+		tag = ZAN
+		moluccas_region = {
+			type = all
+			religion = ROOT
+		}
+		indonesia_region = {
+			type = all
+			religion = ROOT
+		}
+	}
+}
+
+achievement_I_dont_like_sand = {
+	id = 332
+	localization = NEW_ACHIEVEMENT_82
+	
+	provinces_to_highlight = {
+		OR = {
+			has_terrain = desert
+			has_terrain = coastal_desert
+		}
+		NOT = { owned_by = ROOT }
+		has_discovered = ROOT
+	}
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		is_random_new_world = no
+	}
+	happened = {
+		all_owned_province = { 
+			OR = {
+				has_terrain = desert
+				has_terrain = coastal_desert
+			}
+		}
+		NOT = {
+			any_country = {
+				NOT = { tag = ROOT }
+				total_development = ROOT
+			}
+		}
+	}
+}
+
+achievement_surfin_USA = {
+	id = 333
+	localization = NEW_ACHIEVEMENT_83
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		is_random_new_world = no
+		OR = {
+			AND = {
+				is_former_colonial_nation = yes
+				colonial_parent = {
+					OR = {
+						tag = HAW
+						tag = MAU
+						tag = OAH
+						tag = KAA
+						tag = UHW
+					}
+				}
+			}
+			tag = HAW
+			tag = MAU
+			tag = OAH
+			tag = KAA
+			tag = UHW
+		}
+	}
+	happened = {
+		tag = USA
+	}
+}
+
+achievement_imposter_syndrome = {
+	id = 334
+	localization = NEW_ACHIEVEMENT_84
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = SOS
+	}
+	happened = {
+		tag = SOS
+		calc_true_if = {
+			all_known_country  = {
+				# three countries hostile to you
+				not = {
+					has_opinion = {
+						who = ROOT
+						value = 0
+					}
+				}
+				#after they discovered your spy
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = discovery_of_evil
+				}
+			}
+			amount = 3
+		}
+	}
+}
+
+achievement_atwix_legacy = {
+	id = 335
+	localization = NEW_ACHIEVEMENT_85
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		calc_true_if = {
+			all_known_country  = {
+				junior_union_with = ROOT
+			}
+			amount = 10
+		}
+	}
+}
+
+achievement_brick_by_brick = {
+	id = 336
+	localization = NEW_ACHIEVEMENT_86
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = DAN
+		has_dlc = "Lions of the North"
+	}
+	happened = {
+		has_reform = danish_archkingdom
+		scandinavia_region = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+	}
+	provinces_to_highlight = {
+		region = scandinavia_region
+		OR = {
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+	}
+}
+
+achievement_super_trooper = {
+	id = 337
+	localization = NEW_ACHIEVEMENT_87
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = SWE
+		has_dlc = "Lions of the North"
+	}
+	happened = {
+		has_reform = allotment_system
+		num_of_carolean = 80
+		has_global_modifier_value = {
+			which = infantry_power
+			value = 0.4
+		}
+	}
+}
+
+achievement_assemble_instructions_needed = {
+	id = 338
+	localization = NEW_ACHIEVEMENT_88
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		OR = {
+			culture_group = scandinavian
+			tag = SCA
+			was_tag = SCA
+		}
+	}
+
+	happened = {
+		OR = {
+			AND = {
+				tag = SCA
+				custom_trigger_tooltip = {
+					tooltip = achievement_assemble_instructions_needed_tootlip
+					has_country_flag = revoked_privilege_flag
+				}
+				is_emperor = yes
+			}
+			AND = {
+				was_tag = SCA
+				tag = HLR
+			}
+		}
+	}
+}
+
+achievement_let_it_go = {
+	id = 339
+	localization = NEW_ACHIEVEMENT_89
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = NOR
+	}
+	provinces_to_highlight = {
+		OR = {
+			AND = {
+				region = scandinavia_region
+				owned_by = ROOT
+			}
+			AND = {
+				region = canada_region
+				NOT = { is_capital_of = ROOT }
+				ROOT = {
+					capital_scope = {
+						NOT = { region = canada_region }
+					}
+				}
+			}
+		}
+	}
+	happened = {
+		has_switched_nation = no
+		capital_scope = {
+			region = canada_region
+		}
+		NOT = {
+			any_owned_province = {
+				region = scandinavia_region
+			}
+		}
+	}
+}
+
+achievement_holy_horder = {
+	id = 340
+	localization = NEW_ACHIEVEMENT_90
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		has_dlc = "Lions of the North"
+		tag = TEU
+	}
+	happened = {
+		has_switched_nation = no
+		has_reform = holy_horde_reform
+		tag = MGE
+	}
+}
+
+achievement_for_the_emperor = {
+	id = 341
+	localization = NEW_ACHIEVEMENT_91
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	visible = {
+		OR = {
+			has_dlc = "Rule Britannia"
+			has_dlc = "Golden Century"
+			has_dlc = "Lions of the North"
+		}
+		OR = {
+			culture_group = germanic
+			tag = PRU
+			tag = GER
+		}
+	}
+	happened = {
+		OR = { 
+			tag = GER
+			tag = PRU
+		}
+		government_rank = 3
+		num_of_marines = 40
+	}
+}
+
+achievement_the_freest_man_in_the_world = {
+	id = 342
+	localization = NEW_ACHIEVEMENT_92
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		OR = {
+			has_dlc = "Golden Century"
+			has_dlc = "Lions of the North"
+		}
+	}
+	
+	provinces_to_highlight = {
+		trade_goods = slaves
+		is_city = yes
+	}
+	happened = {
+		has_reform = pirate_republic_reform
+		has_reform = war_against_the_world_doctrine_reform
+		custom_trigger_tooltip = {
+			tooltip = achievement_the_freest_man_in_the_world_tooltip
+			NOT = {
+				any_province = {
+					trade_goods = slaves
+					is_city = yes
+				}
+			}
+		}
+	}
+}
+
+achievement_crossing_the_finnish_line = {
+	id = 343
+	localization = NEW_ACHIEVEMENT_93
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = SWE
+	}
+	provinces_to_highlight = {
+		OR = {
+			AND = {
+				province_id = 28
+				NOT = { is_capital_of = ROOT }
+			}
+			AND = {
+				province_id = 1177
+				OR = {
+					NOT = { owned_by = ROOT }
+					is_in_capital_area = no
+				}
+			}
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = released_in_1444_tooltip
+			has_country_flag = released_in_1444
+		}
+		OR = {
+			tag = FIN
+			was_tag = FIN
+		}
+		28 = {
+			is_capital_of = ROOT
+		}
+		1177 = {
+			owned_by = ROOT
+			is_in_capital_area = yes
+		}
+	}
+}
+
+achievement_purify_the_temple = {
+	id = 344
+	localization = NEW_ACHIEVEMENT_94
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		has_dlc = "Lions of the North"
+		tag = RIG
+	}
+	happened = {
+		has_reform = reformer_state_reform
+		custom_trigger_tooltip = {
+			tooltip = achievement_purify_the_temple_tooltip
+			has_country_flag = looted_heretic_church_of_rome
+		}
+	}
+}
+
+achievement_almost_prussian_blue = {
+	id = 345
+	localization = NEW_ACHIEVEMENT_95
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = LIV
+	}
+	provinces_to_highlight = {
+		NOT = { is_core = ROOT }
+		NOT = { owned_by = ROOT }
+		OR = {
+			AND = {
+				region = north_german_region
+				NOT = { area = bohemia_area }
+				NOT = { area = moravia_area }
+				NOT = { area = erzgebirge_area }
+			}
+			area = east_prussia_area
+			area = west_prussia_area
+			area = silesia_area
+			province_id = 1859
+			province_id = 4523
+			province_id = 4526
+			province_id = 254
+			province_id = 2963
+			province_id = 1931
+		}
+	}
+	happened = {
+		tag = LVA
+		east_prussia_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		west_prussia_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		owns_core_province = 1859
+		owns_core_province = 4523
+		owns_core_province = 4526
+		owns_core_province = 254
+		owns_core_province = 2963
+		owns_core_province = 1931
+		silesia_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		north_german_region = {
+			OR = {
+				AND = {
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				area = bohemia_area
+				area = moravia_area
+				area = erzgebirge_area
+			}
+			type = all
+		}
+	}
+}
+
+achievement_hannukah_mutapa = {
+	id = 346
+	localization = NEW_ACHIEVEMENT_96
+	
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		has_dlc = "Origins"
+		tag = ZIM
+	}
+	happened = {
+		religion = jewish
+		custom_trigger_tooltip = {
+			tooltip = has_celebrated_festival_tooltip
+			has_country_flag = has_celebrated_festival
+		}
+	}
+}
+
+#1.35 Achievements# 
+
+achievement_frankfurt_andes = {
+	id = 347
+	localization = NEW_ACHIEVEMENT_97
+	provinces_to_highlight = {
+		province_id = 333
+		NOT = { owned_by = ROOT }
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = FRN
+		NOT = { num_of_custom_nations = 1 }
+		
+	}
+	happened = {
+		was_tag = FRN
+		was_tag = KOJ
+		tag = INC
+		owns_core_province = 333
+	}
+}
+
+achievement_mehmet_ambition = {
+	id = 348
+	localization = NEW_ACHIEVEMENT_98
+	provinces_to_highlight = {
+		BYZ_roman_empire_decision_trigger = yes
+		owner = {
+			NOT = { tag = ROOT }
+			OR = {
+				NOT = { is_subject_of = ROOT }
+				NOT = { is_subject_of_type = core_eyalet }
+			}
+		}
+	}		
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = TUR
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		NOT = { is_year = 1500 }
+		num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			custom_trigger_tooltip = {
+				tooltip = BYZ_highlighted_by_decision
+				BYZ_roman_empire_decision_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = achievement_mehmet_ambition_tooltip
+				owner = {
+					OR = {
+						tag = ROOT
+						AND = {
+							is_subject_of = ROOT
+							is_subject_of_type = core_eyalet
+						}
+					}
+				}
+			}
+			value = 425
+		}
+	}
+}
+
+achievement_triple_rome = {
+	id = 349
+	localization = NEW_ACHIEVEMENT_99
+	
+	visible = {
+		has_dlc = "Mandate of Heaven" 
+        OR = {
+            primary_culture = russian
+            primary_culture = novgorodian
+            primary_culture = ryazanian
+            primary_culture = russian_new
+            primary_culture = novgorodian_new
+            primary_culture = ryazanian_new
+            tag = RUS
+        }
+    }
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = RUS 
+		is_emperor_of_china = yes 
+		is_emperor = yes 
+	}
+}
+
+achievement_no_country_for_old_tercios = {
+	id = 350
+	localization = NEW_ACHIEVEMENT_100
+	
+	visible = {
+        has_dlc = "Domination"
+        OR = { 
+            has_dlc = "Rights of Man" 
+            has_dlc = "Emperor" 
+        }
+        OR = {
+            culture_group = iberian
+            tag = SPA
+        }
+    }
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = SPA 
+		has_country_modifier = spa_reformed_tercio_modifier
+		num_of_tercio = 33
+		calc_true_if = {
+			all_country = {
+				is_great_power = yes 
+				capital_scope = {
+					controlled_by = SPA
+				}
+			}
+			amount = 3 
+		}
+	}
+}
+
+achievement_all_blue = {
+	id = 351
+	localization = NEW_ACHIEVEMENT_101
+	provinces_to_highlight = {
+		continent = europe  
+		AND = {
+			is_wasteland = no
+			is_sea = no
+			NOT = { owned_by = POR } 
+			NOT = { owned_by = FRA } 
+			NOT = { owned_by = SPI } 
+			NOT = { owned_by = VEN }
+			NOT = { owned_by = LBV }
+			NOT = { owned_by = BAV }
+			NOT = { owned_by = PRU }
+			NOT = { owned_by = TRY }
+			NOT = { owned_by = FLA }
+			NOT = { owned_by = GLG }
+			NOT = { owned_by = IME }
+			NOT = { owned_by = BOU }
+			NOT = { owned_by = BRE }
+			NOT = { owned_by = SWE }
+			NOT = { owned_by = NOR } 
+			NOT = { owned_by = OKA } 
+			NOT = { owned_by = HRZ }
+			NOT = { owned_by = ING }
+			NOT = { owned_by = UBV }
+			NOT = { owned_by = PRO }
+			NOT = { owned_by = DTT }
+			NOT = { owned_by = MKL }
+			NOT = { owned_by = HES }
+			NOT = { owned_by = PAL }
+			NOT = { owned_by = THU }
+			NOT = { owned_by = SZO }
+			NOT = { owned_by = RVA }
+			NOT = { owned_by = LOR }
+			NOT = { owned_by = URB }
+			NOT = { owned_by = AVR }
+			NOT = { owned_by = TRE }
+			NOT = { owned_by = KAR }
+			NOT = { owned_by = PGA }
+			NOT = { owned_by = NAX }
+			NOT = { owned_by = KNI }
+		}
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = POR
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = POR 
+		europe = {
+			type = all 
+			OR = { 
+				is_wasteland = yes
+				is_sea = yes
+				owned_by = POR 
+				owned_by = FRA 
+				owned_by = SPI 
+				owned_by = VEN
+				owned_by = LBV
+				owned_by = BAV
+				owned_by = PRU
+				owned_by = TRY
+				owned_by = FLA
+				owned_by = GLG
+				owned_by = IME
+				owned_by = BOU
+				owned_by = BRE
+				owned_by = SWE
+				owned_by = NOR 
+				owned_by = OKA 
+				owned_by = HRZ
+				owned_by = ING
+				owned_by = UBV
+				owned_by = PRO
+				owned_by = DTT
+				owned_by = MKL
+				owned_by = HES
+				owned_by = PAL
+				owned_by = THU
+				owned_by = SZO
+				owned_by = RVA
+				owned_by = LOR
+				owned_by = URB
+				owned_by = AVR
+				owned_by = TRE
+				owned_by = KAR
+				owned_by = PGA
+				owned_by = NAX
+				owned_by = KNI
+			}
+		}
+	}
+}
+
+achievement_stardust_crusaders = {
+	id = 352
+	localization = NEW_ACHIEVEMENT_102
+	provinces_to_highlight = {
+		OR = { 
+			area = palestine_area
+			province_id = 361 
+		}
+		OR = {
+			NOT = { owned_by = ROOT } 
+			NOT = { religion_group = christian }
+		}
+	}
+	visible = { 
+        has_dlc = "Domination"
+        OR = {
+            culture_group = japanese_g
+            tag = JAP
+        }
+     }
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = JAP 
+		has_reform = land_christian_sun_reform
+		palestine_area = {
+			type = all 
+			religion_group = christian 
+			owned_by = ROOT 
+		}
+		361 = {
+			owned_by = ROOT 
+			religion_group = christian 
+		}
+	}
+}
+
+achievement_copium_wars = {
+	id = 353
+	localization = NEW_ACHIEVEMENT_103
+	provinces_to_highlight = {
+		region = british_isles_region
+		NOT = { owned_by = MNG }
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = MNG
+	}
+	happened = {
+		tag = MNG 
+		british_isles_region = {
+			type = all 
+			owned_by = MNG 
+		}
+	}
+}
+
+achievement_brentry = {
+	id = 354
+	localization = NEW_ACHIEVEMENT_104
+	
+	visible = {
+		has_dlc = "Domination"
+		OR = {
+            culture_group = british
+            primary_culture = anglois
+            is_or_was_tag = { tag = ENG }
+            tag = AVE
+         }
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = AVE 
+		has_passed_all_acts_of_crown_parliamentary_issues = yes 
+	}
+}
+
+achievement_reapers = {
+	id = 355
+	localization = NEW_ACHIEVEMENT_105
+	provinces_to_highlight = {
+		OR = { 
+			province_id = 217 
+			province_id = 183 
+		}
+		NOT = { 
+			owner = { has_reform = peasants_republic }
+		}
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = ARA
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		has_reform = peasants_republic
+		217 = { 
+			owner = { has_reform = peasants_republic }
+		}
+		183 = { 
+			owner = { has_reform = peasants_republic }
+		}
+	}
+}
+
+#1.36#
+
+achievement_king_of_kings = {
+	id = 356
+	localization = NEW_ACHIEVEMENT_106
+	visible = {
+		has_dlc = "King of Kings"
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		has_completed_all_persian_missions = yes
+	}
+}
+
+achievement_restore_the_pentarchy = {
+	id = 357
+	localization = NEW_ACHIEVEMENT_107
+	provinces_to_highlight = {
+		OR = {
+			province_id = 118
+			province_id = 151
+			province_id = 358
+			province_id = 2313
+			province_id = 379
+		}
+		NOT = {
+			AND = {
+				is_core = ROOT 
+				owned_by = ROOT
+				religion = orthodox
+			}
+		}
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = BYZ
+		religion = orthodox
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		or = {
+			tag = ROM
+			tag = BYZ
+		}
+		religion = orthodox
+		118 = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = orthodox
+		}
+		151 = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = orthodox
+		}
+		358 = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = orthodox
+		}
+		2313 = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = orthodox
+		}
+		379 = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = orthodox
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_never_formed_latin_empire_tt
+			not = { has_country_flag = byz_dishonoring_justinian }
+		}
+	}
+}
+
+achievement_mets_hayk = {
+	id = 358
+	localization = NEW_ACHIEVEMENT_108
+	provinces_to_highlight = {
+		OR = {	
+			province_id = 331
+			province_id = 419
+			province_id = 2202
+			province_id = 2205
+			province_id = 2305
+			province_id = 2307
+			province_id = 2306
+			province_id = 4302
+			province_id = 327
+			area = tabriz_area
+			area = shahrizor_area
+			area = al_jazira_area
+			area = dulkadir_area
+			area = aleppo_area
+			area = syria_area
+			area = syrian_desert_area
+		}
+		NOT = {
+			AND = {
+				is_core = ROOT 
+				owned_by = ROOT
+				religion = coptic
+			}
+		}
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = MLK
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		religion = coptic
+		331 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		419 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		2202 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		2205 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		2305 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		2307 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		2306 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		4302 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		327 = {
+			is_core = ROOT 
+			owned_by = ROOT 
+			religion = coptic
+		}
+		tabriz_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		shahrizor_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		al_jazira_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		dulkadir_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		aleppo_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		syria_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+		syrian_desert_area = {
+			owned_by = ROOT 
+			is_core = ROOT
+			religion = coptic
+		}
+	}
+}
+
+achievement_desert_power = {
+	id = 359
+	localization = NEW_ACHIEVEMENT_109
+	visible = {
+		has_dlc = "King of Kings"
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		capital_scope = {
+			region = arabia_region
+		}
+		government = tribal
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		has_estate_privilege = estate_burghers_ARB_oasis_development
+		development_in_provinces = {
+			value = 1000
+			OR = {
+				has_terrain = coastal_desert
+				has_terrain = desert
+			}
+			region = arabia_region
+		}
+	}
+}
+
+achievement_breadbasket_of_the_world = {
+	id = 360
+	localization = NEW_ACHIEVEMENT_110
+	visible = {
+		has_dlc = "King of Kings"
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		is_or_was_tag = {
+			tag = MAM
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_europe_tt
+			has_country_flag = exported_grain_in_europe
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_oceania_tt
+			has_country_flag = exported_grain_in_oceania
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_north_america_tt
+			has_country_flag = exported_grain_in_north_america
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_south_america_tt
+			has_country_flag = exported_grain_in_south_america
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_africa_tt
+			has_country_flag = exported_grain_in_africa
+		}
+		custom_trigger_tooltip = {
+			tooltip = has_exported_grain_in_asia_tt
+			has_country_flag = exported_grain_in_asia
+		}
+	}
+}
+
+achievement_truly_good_maaaaaaaaaaaaaaaaaaaaaaaaaatch = {
+	id = 361
+	localization = NEW_ACHIEVEMENT_111
+	provinces_to_highlight = {
+		is_capital_of = RAM
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		OR = {
+			tag = AKK
+			tag = QAR
+		}
+	}
+	happened = {
+		OR = {
+			tag = AKK 
+			tag = QAR
+		}
+		alliance_with = RAM
+		marriage_with = RAM
+	}
+}
+
+achievement_the_last_crusade = {
+	id = 362
+	localization = NEW_ACHIEVEMENT_112
+	provinces_to_highlight = {
+		OR = {
+			province_id = 112
+			owner = { tag = VEN }
+		}
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		tag = BYZ
+	}
+	happened = {
+		or = {
+			tag = ROM
+			tag = BYZ
+		}
+		owns_core_province = 112
+		VEN = { exists = no }
+		custom_trigger_tooltip = {
+			tooltip = has_never_formed_latin_empire_tt
+			not = { has_country_flag = byz_dishonoring_justinian }
+		}
+	}
+}
+
+achievement_legacy_saint_george = {
+	id = 363
+	localization = NEW_ACHIEVEMENT_113
+	visible = {
+		or = {
+			and = {
+				was_never_end_game_tag_trigger = yes
+				primary_culture = georgian
+			}
+			tag = GEO
+		}
+	}
+	provinces_to_highlight = {
+		area = wales_area
+		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+	}
+	happened = {
+		tag = GEO
+		any_subject_country = {
+			is_or_was_tag = { tag = GEN }
+			is_subject_of_type = vassal
+		}
+		any_subject_country = {
+			is_or_was_tag = { tag = ARA }
+			is_subject_of_type = vassal
+		}
+		any_subject_country = {
+			is_or_was_tag = { tag = ENG }
+			is_subject_of_type = vassal
+		}
+		any_subject_country = {
+			is_or_was_tag = { tag = TRI }
+			is_subject_of_type = vassal
+		}
+		wales_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+}
+
+achievement_zoroaustrians = { 
+	id = 364
+	localization = NEW_ACHIEVEMENT_114	
+	visible = {
+		has_dlc = "King of Kings"
+	}
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		tag = HAB
+	}
+	happened = {
+		or = {
+			tag = ERS
+			tag = PER
+		}
+		mission_completed = per_a_new_eranshahr
+		mission_completed = per_an_asha_empire
 	}
 }

@@ -347,7 +347,12 @@ emp_ita_war_branch = {
 									NOT = { mil_tech = 14 }
 								}
 							}
-							has_building = fort_15th
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
 						}
 						else_if = {
 							limit = {
@@ -358,7 +363,11 @@ emp_ita_war_branch = {
 									}
 								}
 							}
-							has_building = fort_16th
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
 						}
 						else_if = {
 							limit = {
@@ -369,7 +378,10 @@ emp_ita_war_branch = {
 									}
 								}
 							}
-							has_building = fort_17th
+							OR= { 
+								has_building = fort_17th
+								has_building = fort_18th
+							}
 						}
 						else_if = {
 							limit = {
@@ -402,7 +414,12 @@ emp_ita_war_branch = {
 									}
 								}
 							}
-							has_building = fort_16th
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+
 						}
 						else_if = {
 							limit = {
@@ -413,7 +430,11 @@ emp_ita_war_branch = {
 									}
 								}
 							}
-							has_building = fort_17th
+							OR = {
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+
 						}
 						else_if = {
 							limit = {
@@ -446,7 +467,12 @@ emp_ita_war_branch = {
 							NOT = { mil_tech = 14 }
 						}
 					}
-					has_building = fort_15th
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
 				}
 				else_if = {
 					limit = {
@@ -457,7 +483,11 @@ emp_ita_war_branch = {
 							}
 						}
 					}
-					has_building = fort_16th
+					OR = {
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
 				}
 				else_if = {
 					limit = {
@@ -468,7 +498,10 @@ emp_ita_war_branch = {
 							}
 						}
 					}
-					has_building = fort_17th
+					OR = {
+						has_building = fort_17th
+						has_building = fort_18th
+					}
 				}
 				else_if = {
 					limit = {

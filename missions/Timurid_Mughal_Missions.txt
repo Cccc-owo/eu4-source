@@ -43,9 +43,15 @@ tim_reconquest_persia = {
 					}
 				}
 				TIM = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = insulted
+					OR = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = insulted
+						}
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = scornfully_insulted
+						}
 					}
 				}
 			}
@@ -341,6 +347,9 @@ tim_reconquest_khorasan = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	tim_khorasan_one = {
@@ -400,6 +409,9 @@ tim_reconquest_khorasan = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	tim_khorasan_two = {
@@ -437,6 +449,9 @@ tim_reconquest_khorasan = {
 				name = "tim_heartland_reconquest"
 				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -494,6 +509,9 @@ tim_reconquest_transoxiana = {
 			2356 = {
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -567,6 +585,9 @@ tim_reconquest_transoxiana = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 0
+		}
 	}
 	
 	tim_transoxiana_two = {
@@ -622,6 +643,9 @@ tim_reconquest_transoxiana = {
 				name = "tim_steppe_reconquest"
 				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 0
 		}
 	}
 	
@@ -684,6 +708,9 @@ tim_india = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 1000
+		}
 	}
 	
 	conquer_delhi = {
@@ -713,6 +740,9 @@ tim_india = {
 		effect = {
 			add_treasury = 500
 			add_prestige = 20
+		}
+		ai_weight = {
+			factor = 1000
 		}
 	}
 }

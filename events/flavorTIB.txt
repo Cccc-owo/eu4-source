@@ -61,8 +61,8 @@ country_event = {
 					government = theocracy
 				}
 			}
-			change_government_to_theocracy = yes
-			add_government_reform = leading_clergy_reform
+			change_government = theocracy
+			add_government_reform = tibetan_dual_government_reform
 			#set_legacy_government = theocratic_government
 		}
 		else = {
@@ -102,7 +102,10 @@ country_event = {
 		ai_chance = { factor = 100 }
 		every_country = {
 			limit = {
-				culture_group = altaic
+				OR = {
+					primary_culture = altaic_new 
+					culture_group = altaic
+				}
 				has_reform = steppe_horde
 			}
 			add_opinion = {
@@ -123,10 +126,19 @@ country_event = {
 		}
 		add_stability = -2
 		change_tag = KLK
+		on_change_tag_effect = yes
 		change_government = tribal
 		add_government_reform = steppe_horde
 		change_primary_culture = khalkha
-		add_accepted_culture = tibetan
+		if = {
+			limit = {
+				has_updated_culture = { culture = tibetan }
+			}
+			add_accepted_culture = tibetan_new
+		}
+		else = {
+			add_accepted_culture = tibetan
+		}
 		if = {
 			limit = {
 				is_year = 1527
@@ -139,7 +151,6 @@ country_event = {
 				adm = 4
 				dip = 4
 				mil = 5
-				fixed = yes
 			}
 		}
 		else = {
@@ -161,8 +172,17 @@ country_event = {
 		}
 		add_stability = -2
 		change_tag = KSD
+		on_change_tag_effect = yes
 		change_primary_culture = oirats
-		add_accepted_culture = tibetan
+		if = {
+			limit = {
+				has_updated_culture = { culture = tibetan }
+			}
+			add_accepted_culture = tibetan_new
+		}
+		else = {
+			add_accepted_culture = tibetan
+		}
 		change_government = tribal
 		add_government_reform = steppe_horde
 		if = {
@@ -177,7 +197,6 @@ country_event = {
 				adm = 2
 				dip = 4
 				mil = 5
-				fixed = yes
 			}
 		}
 		else = {
@@ -200,8 +219,17 @@ country_event = {
 		}
 		add_stability = -2
 		change_tag = ZUN
+		on_change_tag_effect = yes
 		change_primary_culture = oirats
-		add_accepted_culture = tibetan
+		if = {
+			limit = {
+				has_updated_culture = { culture = tibetan }
+			}
+			add_accepted_culture = tibetan_new
+		}
+		else = {
+			add_accepted_culture = tibetan
+		}
 		change_government = tribal
 		add_government_reform = steppe_horde
 		define_ruler = {

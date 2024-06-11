@@ -70,12 +70,12 @@
  LOADING_TIP_68:0 "El emperador del Sacro Imperio Romano podrá nombrar nuevos Electores, si hay menos de siete."
  LOADING_TIP_69:0 "No es posible asaltar una fortaleza antes de haber abierto una brecha en sus murallas."
  LOADING_TIP_70:0 "Las galeras destacan al luchar en mares interiores.\nEjemplos de ello son el Báltico, el Mediterráneo y el Mar Negro."
- LOADING_TIP_71:1 "¡El desgaste mata!\nAl asignar a un líder con una alta capacidad de maniobra se reducirá el desgaste de la unidad."
+ LOADING_TIP_71:1 "¡El desgaste mata! Al asignar a un líder con una alta capacidad de maniobra se reducirá el desgaste de la unidad."
  LOADING_TIP_72:0 "Pulsa F10 para guardar una captura de pantalla del modo mapa que tengas seleccionado actualmente."
  LOADING_TIP_73:0 "Reducir el mantenimiento naval reduce el Poder Comercial de los barcos. Si tienes muchos barcos ligeros, perderás ingresos al reducir el mantenimiento."
  LOADING_TIP_74:0 "El hastío bélico solo desaparece lentamente estando en paz y en absoluto estando en guerra."
  LOADING_TIP_75:0 "Vigila las coaliciones que se hagan. Encontrarte en guerra con la mayoría de tus vecinos puede ser peligroso."
- LOADING_TIP_76:0 "No solo se puede inventar un derecho sobre provincias adyacentes, sino en todas las provincias que comparten una zona de mar con uno de tus núcleos."
+ LOADING_TIP_76:0 "No solo se puede inventar un derecho sobre provincias adyacentes, sino en todas las provincias que comparten una zona de mar con uno de tus núcleos." # [LocEditor:AwaitingBatchUpdate]
  LOADING_TIP_77:0 "Muchas de las acciones comunes tienen atajos de teclado.\nRevisa la información sobre herramientas para encontrarlos."
  LOADING_TIP_78:0 "Utiliza la tecla 'Control' más una tecla numérica para asignar una unidad a un grupo de control. Pulsa la tecla numérica para seleccionar al instante la unidad en cuestión."
  LOADING_TIP_79:1 "La soldadesca se recupera lentamente. Con compañías mercenarias podrás conservarla."
@@ -92,7 +92,7 @@
  LOADING_TIP_90:0 "Las teclas Z y C se pueden usar para cancelar y confirmar las decisiones de eventos y de diplomacia."
  LOADING_TIP_91:0 "La tecla B abre la interfaz de reequilibrio de ejército."
  LOADING_TIP_92:0 "Con la interfaz de reequilibrio de ejército abierta, las teclas Z y B se puede utilizar para enviar unidades de un lado a otro."
- LOADING_TIP_93:0 "La tecla B se puede utilizar para anular la selección el ejército o la armada superior cuando se seleccionan múltiples ejércitos/flotas."
+ LOADING_TIP_93:1 ""
  LOADING_TIP_94:0 "Los otomanos son la nación más poderosa del juego. Te los recomendamos si eres un principiante."
  LOADING_TIP_95:0 "Muy Fácil es lo apropiado para principiantes a los que Normal les parece muy exigente."
  LOADING_TIP_96:0 "En dificultad Dura, la IA es lo más hábil posible casi sin trampas."
@@ -101,14 +101,3 @@
  LOADING_TIP_99:0 "El ejército que sitia una fortaleza en territorio enemigo contará como atacante en una batalla cuando sea atacado, incurriendo en penalizaciones de terreno."
  LOADING_TIP_100:0 "Este juego tarda en dominarse, no te sorprenda aprender cosas nuevas tras jugar un millar de horas."
  LOADING_TIP_101:0 "Puedes perder una batalla (o más) y aún así ganar la guerra.\nA menudo en la guerra merece la pena seguir luchando tras sufrir unos reveses iniciales."
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 

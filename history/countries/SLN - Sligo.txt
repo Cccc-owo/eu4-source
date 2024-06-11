@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = tanistry_reform
 government_rank = 1
 technology_group = western
 primary_culture = irish
@@ -64,7 +64,7 @@ capital = 4119	# Sligo
 
 1464.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 1
 		dip = 3
@@ -84,7 +84,7 @@ capital = 4119	# Sligo
 
 1494.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 3
 		dip = 2
@@ -124,7 +124,7 @@ capital = 4119	# Sligo
 
 1545.1.1 = {
 	monarch = {
-		name = "RuaidhrÃ­"
+		name = "Ruaidhrí"
 		dynasty = "O'Conor"
 		adm = 1
 		dip = 2

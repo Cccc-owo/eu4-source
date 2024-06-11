@@ -4,9 +4,8 @@ consolidate_expand_russia_missions = {
 	ai = yes
 	potential = {
 		NOT = { map_setup = map_setup_random }
-		NOT = {
-			has_dlc = "Third Rome"
-		}
+		NOT = { has_dlc = "Third Rome" }
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = MOS
 			tag = RUS
@@ -130,6 +129,9 @@ consolidate_expand_russia_missions = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	subjugate_novgorod = {
 		icon = mission_have_two_subjects
@@ -202,6 +204,9 @@ consolidate_expand_russia_missions = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	consolidate_russia_mission = {
@@ -288,6 +293,9 @@ consolidate_expand_russia_missions = {
 				add_base_manpower = 1
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	# Ruthenia
@@ -358,6 +366,9 @@ consolidate_expand_russia_missions = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	conquer_finland = {
 		icon = mission_assemble_an_army
@@ -392,6 +403,9 @@ consolidate_expand_russia_missions = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 
 }
@@ -406,9 +420,8 @@ russia_conquer_baltic_mission_slot = {
 			tag = MOS
 			tag = RUS
 		}
-		NOT = {
-			has_dlc = "Third Rome"
-		}
+		NOT = { has_dlc = "Third Rome" }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	access_to_the_baltic_sea = {
@@ -446,6 +459,9 @@ russia_conquer_baltic_mission_slot = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -459,9 +475,8 @@ russia_steppe_siberia_missions = {
 			tag = MOS
 			tag = RUS
 		}
-		NOT = {
-			has_dlc = "Third Rome"
-		}
+		NOT = { has_dlc = "Third Rome" }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	# Tame the Steppes
@@ -509,6 +524,9 @@ russia_steppe_siberia_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 
@@ -603,6 +621,9 @@ russia_steppe_siberia_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -714,6 +735,9 @@ russia_steppe_siberia_missions = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	subjugate_crimea = {
@@ -746,6 +770,9 @@ russia_steppe_siberia_missions = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 75
+		}
 	}
 }
 
@@ -759,9 +786,8 @@ russia_siberian_missions_slot = {
 			tag = MOS
 			tag = RUS
 		}
-		NOT = {
-			has_dlc = "Third Rome"
-		}
+		NOT = { has_dlc = "Third Rome" }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	russian_colony_in_west_siberia_new = {
@@ -809,6 +835,9 @@ russia_siberian_missions_slot = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 75
+		}
 	}
 	russian_colony_in_east_siberia = {
 		icon = mission_trade_company_region_abroad
@@ -855,6 +884,9 @@ russia_siberian_missions_slot = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 75
+		}
 	}
 }
 
@@ -868,9 +900,8 @@ russia_continue_steppes_mission_slot = {
 			tag = MOS
 			tag = RUS
 		}
-		NOT = {
-			has_dlc = "Third Rome"
-		}
+		NOT = { has_dlc = "Third Rome" }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	
@@ -967,6 +998,9 @@ russia_continue_steppes_mission_slot = {
 					duration = 5475
 				}
 			}
+		}
+		ai_weight = {
+			factor = 75
 		}
 	}
 }

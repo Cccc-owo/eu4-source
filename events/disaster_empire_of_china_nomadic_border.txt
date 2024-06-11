@@ -43,6 +43,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	major = yes
+
+	immediate = {
+		on_non_estate_disaster_end = yes
+	}
 	
 	option = {
 		name = "empire_of_china_nomadic_border_events.2.a"
@@ -50,7 +54,7 @@ country_event = {
 			limit = {
 				is_emperor_of_china = yes
 			}
-			add_mandate = 20
+			add_mandate = 30
 			add_stability = 2
 		}
 		else = {

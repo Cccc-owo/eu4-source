@@ -879,3 +879,285 @@ dlc101 = {
 		}
 	}
 }
+
+# Leviathan
+dlc106 = {
+	reason = { #North American tribes new mechanics (totemism, migration), events and missions
+		tooltip_desc = "dlc106_reason_natives"
+		tooltip_reason = "dlc106_reason_natives_reason"
+		weight = 50
+		trigger = {
+			capital_scope = {
+				continent = north_america
+			}
+			technology_group = north_american
+		}
+	}
+	reason = { #New Colonial Nations types
+		tooltip_desc = "dlc106_reason_colonists"
+		tooltip_reason = "dlc106_reason_colonists_reason"
+		weight = 20
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = SCO
+				tag = FRA
+				tag = CAS
+				tag = POR
+				tag = NED
+			}
+		}
+	}
+	reason = { #East Indies Superregion new content (missions, events, Mandala government, disasters, unit models etc)
+		tooltip_desc = "dlc106_reason_east_indies"
+		tooltip_reason = "dlc106_reason_east_indies_reason"
+		weight = 100
+		trigger = {
+			capital_scope = {
+				superregion = east_indies_superregion
+			}
+		}
+	}	
+	reason = { #Oceania new content (unit models, tags, flags, ideas, etc)
+		tooltip_desc = "dlc106_reason_oceania"
+		tooltip_reason = "dlc106_reason_oceania_reason"
+		weight = 30
+		trigger = {
+			capital_scope = {
+				continent = oceania
+			}
+		}
+	}
+}
+
+# Origins
+dlc110 = {
+	reason = { # Mission trees and unique content
+		tooltip_desc = "dlc110_reason_mission_trees"
+		tooltip_reason = "dlc110_reason_mission_trees_reason"
+		weight = 100
+		trigger = {
+			OR = {
+				tag = SON
+				tag = MAL
+				tag = ETH
+				tag = AJU
+				tag = ZAN
+				tag = ZIM
+				tag = KON
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc110_reason_new_music"
+		tooltip_reason = "dlc110_reason_new_music_reason"
+		weight = 30
+		trigger = {
+			capital_scope = {
+				continent = africa
+			}
+		}
+	}
+}
+
+# Lions of the North
+dlc115 = {
+	reason = { # Mission trees and unique content
+		tooltip_desc = "dlc115_reason_mission_trees"
+		tooltip_reason = "dlc115_reason_mission_trees_reason"
+		weight = 100
+		trigger = {
+			OR = {
+				tag = SWE
+				tag = DAN
+				tag = NOR
+				tag = TEU
+				tag = LIV
+				tag = POL
+				tag = LIT
+				tag = RIG
+				tag = GOT
+				tag = FIN
+				tag = DNZ
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc115_reason_new_units"
+		tooltip_reason = "dlc115_reason_new_units_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				tag = DAN
+				tag = NOR
+				tag = FIN
+				tag = ICE
+				tag = SMI
+				tag = SHL
+				tag = DTT
+				tag = RIG
+				tag = EST
+				tag = LTG
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc115_reason_new_music"
+		tooltip_reason = "dlc115_reason_new_music_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				capital_scope = {
+					region = scandinavia_region
+					region = baltic_region
+				}
+			}
+		}
+	}
+}
+
+# Domination
+dlc119 = {
+	reason = { # Mission trees and unique content
+		tooltip_desc = "dlc119_reason_new_content"
+		tooltip_reason = "dlc119_reason_new_content_reason"
+		weight = 200
+		trigger = {
+			OR = {
+				tag = TUR
+				tag = MNG
+				tag = FRA
+				tag = MOS
+				tag = NOV
+				tag = CAS
+				tag = ARA
+				tag = ENG
+				tag = BRA
+				tag = POR
+				tag = KOR
+				capital_scope = { 
+					region = japan_region
+				}
+				#Manchu countries				
+				tag = MJZ
+				tag = KRC
+				tag = MYR
+				tag = EJZ
+				tag = NHX
+				tag = MHX
+				capital_scope = { 
+					region = japan_region
+				}
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc119_reason_new_units"
+		tooltip_reason = "dlc119_reason_new_units_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				# Ainu units
+				culture_group = kamchatkan_g
+			
+				# Bai units
+				primary_culture = bai
+			
+				# French units
+				culture_group = french
+				primary_culture = flemish
+			
+				# Filipino Units
+				primary_culture = filipino
+			
+				# Wu units
+				primary_culture = wu
+				primary_culture = chimin
+				primary_culture = hakka
+				primary_culture = cantonese
+				primary_culture = gan
+				primary_culture = xiang
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc119_reason_new_music"
+		tooltip_reason = "dlc119_reason_new_music_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				tag = TUR
+				tag = RUM
+				has_reform = celestial_empire
+				is_emperor_of_china = yes 
+				capital_scope = {
+					OR = {
+						superregion = china_superregion
+						superregion = far_east_superregion
+					}
+				}
+				culture_group = french
+			}
+		}
+	}
+}
+
+#King of Kings
+dlc128 = {
+	reason = {
+		tooltip_desc = "dlc128_reason_new_content"
+		tooltip_reason = "dlc128_reason_new_content_reason"
+		weight = 200
+		trigger = {
+			OR = {
+				tag = MAM
+				tag = BYZ
+				tag = AKK
+				tag = QOM
+				tag = GEO
+				tag = ARL
+				tag = MLK
+				tag = QAR
+				tag = YEM
+				capital_scope = {
+					OR = {
+						superregion = persia_superregion
+						region = egypt_region
+					}
+				}
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc128_reason_new_units"
+		tooltip_reason = "dlc128_reason_new_units_reason"
+		weight = 30
+		trigger = {
+			OR = {
+				primary_culture = armenian
+				tag = CYP
+				tag = KOJ
+				primary_culture = georgian
+				tag = ISR
+				primary_culture = al_suryah_arabic
+				primary_culture = turkish
+				primary_culture = berber
+				primary_culture = pontic_greek
+			}
+		}
+	}
+	reason = {
+		tooltip_desc = "dlc128_reason_new_music"
+		tooltip_reason = "dlc128_reason_new_music_reason"
+		weight = 30
+		trigger = {
+			capital_scope = {
+				OR = {
+					superregion = persia_superregion
+					region = egypt_region
+				}
+			}
+		}
+	}
+
+}

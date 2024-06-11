@@ -45,6 +45,228 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
+		
+		#First Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_1_missions"
+			position = { x = 545 y = 80 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_1"
+			position = { x = 545 y = 122 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_1_highlighted"
+			position = { x = 545 y = 122 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_2"
+			position = { x = 545 y = 164 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_2_highlighted"
+			position = { x = 545 y = 164 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_3"
+			position = { x = 545 y = 206 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_3_highlighted"
+			position = { x = 545 y = 206 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_4"
+			position = { x = 545 y = 248 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_4_highlighted"
+			position = { x = 545 y = 248 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_5"
+			position = { x = 545 y = 290 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_1_missions_5_highlighted"
+			position = { x = 545 y = 290 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
+		
+		#Second Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_2_missions"
+			position = { x = 545 y = 342 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_1"
+			position = { x = 545 y = 384 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_1_highlighted"
+			position = { x = 545 y = 384 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_2"
+			position = { x = 545 y = 426 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_2_highlighted"
+			position = { x = 545 y = 426 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_3"
+			position = { x = 545 y = 468 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_3_highlighted"
+			position = { x = 545 y = 468 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_4"
+			position = { x = 545 y = 510 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_4_highlighted"
+			position = { x = 545 y = 510 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_5"
+			position = { x = 545 y = 552 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_2_missions_5_highlighted"
+			position = { x = 545 y = 552 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
+		
+		#Third Batch
+		guiButtonType = {
+			name = "select_current_branch_batch_3_missions"
+			position = { x = 545 y = 604 }
+			quadTextureSprite ="GFX_select_current_missions_button"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_1"
+			position = { x = 545 y = 646 }
+			quadTextureSprite ="GFX_preview_branch_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_1_highlighted"
+			position = { x = 545 y = 646 }
+			quadTextureSprite ="GFX_preview_branch_button_1_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_2"
+			position = { x = 545 y = 688 }
+			quadTextureSprite ="GFX_preview_branch_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_2_highlighted"
+			position = { x = 545 y = 688 }
+			quadTextureSprite ="GFX_preview_branch_button_2_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_3"
+			position = { x = 545 y = 730 }
+			quadTextureSprite ="GFX_preview_branch_button_3"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_3_highlighted"
+			position = { x = 545 y = 730 }
+			quadTextureSprite ="GFX_preview_branch_button_3_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_4"
+			position = { x = 545 y = 772 }
+			quadTextureSprite ="GFX_preview_branch_button_4"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_4_highlighted"
+			position = { x = 545 y = 772 }
+			quadTextureSprite ="GFX_preview_branch_button_4_highlighted"
+			scripted = yes
+		}
+		
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_5"
+			position = { x = 545 y = 814 }
+			quadTextureSprite ="GFX_preview_branch_button_5"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "preview_branch_batch_3_missions_5_highlighted"
+			position = { x = 545 y = 814 }
+			quadTextureSprite ="GFX_preview_branch_button_5_highlighted"
+			scripted = yes
+		}
+		###############
 
 		instantTextBoxType = {
 			name = "window_title"
@@ -110,35 +332,35 @@ guiTypes = {
 			name = "arrow_half_top"
 			position = {x=46 y=121}
 			quadTextureSprite ="gfx_arrow_verticall_tile"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "arrow_half_bottom_center"
 			position = {x=38 y=141}
 			quadTextureSprite ="gfx_arrow_end"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "arrow_half_bottom_left"
 			position = {x=15 y=141}
 			quadTextureSprite ="gfx_arrow_end"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "arrow_half_bottom_right"
 			position = {x=61 y=141}
 			quadTextureSprite ="gfx_arrow_end"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "skip_tier"
 			position = {x=46 y=141}
 			quadTextureSprite ="gfx_arrow_verticall_skip_tier"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		
@@ -146,20 +368,20 @@ guiTypes = {
 			name = "skip_slot"
 			position = {x=-6 y=127}
 			quadTextureSprite ="gfx_arrow_horizontal_skip_slot"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "left_branch_out"
 			position = {x=4 y=122}
 			quadTextureSprite ="gfx_arrow_left_out"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "right_branch_in"
 			position = {x=69 y=125}
 			quadTextureSprite ="gfx_arrow_left_in"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		
@@ -167,13 +389,13 @@ guiTypes = {
 			name = "right_branch_out"
 			position = {x=60 y=122}
 			quadTextureSprite ="gfx_arrow_right_out"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "left_branch_in"
 			position = {x=-5 y=127}
 			quadTextureSprite ="gfx_arrow_right_in"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		
@@ -226,7 +448,7 @@ guiTypes = {
 			text = "Subjective and a Noun"
 			orientation = "UPPER_LEFT"
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {

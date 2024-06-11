@@ -2,17 +2,21 @@ manchu_missions_1 = {
 	slot = 1
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		OR = {
 			tag = MJZ
 			tag = MHX
 			tag = MYR
-			tag = MCH
 			tag = QNG
+			tag = MCH
 			tag = EJZ
 			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	
@@ -52,9 +56,7 @@ manchu_missions_1 = {
 		ai_weight = {
 			factor = 3
 		}
-		ai_priority = {
-			factor = 3
-		}
+
 		provinces_to_highlight = {
 			OR = {
 				province_id = 726
@@ -112,9 +114,7 @@ manchu_missions_1 = {
 		ai_weight = {
 			factor = 3
 		}
-		ai_priority = {
-			factor = 3
-		}
+
 		provinces_to_highlight = {
 			OR = {
 				area = liaoning_area
@@ -196,9 +196,14 @@ manchu_missions_1_b = {
 	slot = 1
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		tag = QNG
 		NOT = { map_setup = map_setup_random }
+		
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	mch_green_standard_army = {
@@ -497,17 +502,21 @@ manchu_missions_2 = {
 	slot = 2
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		OR = {
 			tag = MJZ
 			tag = MHX
 			tag = MYR
-			tag = MCH
 			tag = QNG
+			tag = MCH
 			tag = EJZ
 			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	
@@ -518,9 +527,7 @@ manchu_missions_2 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
+
 		provinces_to_highlight = {
 			OR = {
 				province_id = 730
@@ -564,9 +571,7 @@ manchu_missions_2 = {
 		ai_weight = {
 			factor = 3
 		}
-		ai_priority = {
-			factor = 3
-		}
+
 		provinces_to_highlight = {
 			region = manchuria_region
 			NOT = {
@@ -782,11 +787,16 @@ manchu_missions_2_b = {
 	slot = 2
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		tag = QNG
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
+	
 	mch_establish_tributaries = {
 		icon = mission_kowtow
 		required_missions = { mch_mandate_of_heaven }
@@ -991,9 +1001,9 @@ manchu_missions_2_b = {
 							adm = 3
 							dip = 3
 							mil = 4
-							fixed = yes
 						}
 						change_tag = CZH
+						on_change_tag_effect = yes
 					}
 					kill_leader = { type = "Wu Sangui" }
 				}
@@ -1088,17 +1098,21 @@ manchu_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		OR = {
 			tag = MJZ
 			tag = MHX
 			tag = MYR
-			tag = MCH
 			tag = QNG
+			tag = MCH
 			tag = EJZ
 			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	mch_invade_joseon = {
@@ -1107,18 +1121,12 @@ manchu_missions_3 = {
 		position = 6
 		provinces_to_highlight = {
 			region = korea_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			NOT = {	
-				owner = { 
-					is_subject_of_type = tributary_state 
-					is_subject_of = ROOT
-				}
-			}
+			NOT = { country_or_subject_holds = ROOT }
 		}
 		trigger = {
 			korea_region = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				country_or_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -1135,9 +1143,13 @@ manchu_missions_3_b = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		tag = QNG
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	mch_confucian_administration = {
@@ -1146,7 +1158,7 @@ manchu_missions_3_b = {
 		position = 7
 		trigger = {
 			stability = 2
-			NOT = { average_autonomy = 35 }
+			NOT = { average_home_autonomy = 35 }
 		}
 		effect = {
 			if = {
@@ -1307,9 +1319,13 @@ manchu_missions_4 = {
 	slot = 4
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
 		tag = QNG
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	mch_annex_tibet = {

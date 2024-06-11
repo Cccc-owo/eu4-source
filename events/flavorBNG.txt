@@ -262,7 +262,6 @@ country_event = {
 			ADM = 4
 			MIL = 6
 			claim = 75
-			fixed = yes
 		}
 		if = {
 			limit = {
@@ -274,7 +273,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 		}
 		add_stability = -2
 		#custom_tooltip = flavor_bng.6.b.tt

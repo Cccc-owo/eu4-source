@@ -33,8 +33,8 @@
  LOADING_TIP_31:0 "Wählt Eure Ideengruppen mit Bedacht."
  LOADING_TIP_32:0 "Die Bildung von Kernprovinzen ist kostspieliger, wenn Ihr unter Kriegsmüdigkeit leidet."
  LOADING_TIP_33:0 "Je autonomer Eure Provinzen, desto weniger Steuern und Rekrutenreserve erhaltet Ihr von ihnen."
- LOADING_TIP_34:0 "Leichte Schiffe mit dem Auftrag "Handel schützen" auszusenden, erhöht die Marinetradition."
- LOADING_TIP_35:0 "Die Marinetradition erhöht Eure Handelssteuerung."
+ LOADING_TIP_34:0 "Leichte Schiffe mit dem Auftrag "Handel schützen" auszusenden, erhöht die Flottentradition."
+ LOADING_TIP_35:0 "Die Flottentradition erhöht Eure Handelssteuerung."
  LOADING_TIP_36:0 "Ein Kommandant mit Manöver erhöht die Effizienz einer Flotte mit dem Auftrag "Handel schützen"."
  LOADING_TIP_37:0 "Im Winter ist gegebenenfalls mit höheren Verlusten durch Zermürbung zu rechnen."
  LOADING_TIP_38:0 "Die Menge der monatlichen Verstärkungen richtet sich nach der Einstellung des Landunterhalt-Reglers."
@@ -75,7 +75,7 @@
  LOADING_TIP_73:0 "Das Reduzieren des Flottenunterhalts reduziert auch den Handelseinfluss durch Schiffe. Wenn Ihr viele leichte Schiffe habt, verliert Ihr Einkommen."
  LOADING_TIP_74:0 "Kriegsmüdigkeit legt sich nur langsam in Friedenszeiten und gar nicht in Kriegszeiten."
  LOADING_TIP_75:0 "Achtet auf sich bildende Koalitionen. Es kann gefährlich sein, sich unversehens im Krieg mit dem Großteil der Nachbarländer zu befinden."
- LOADING_TIP_76:0 "Auch in Provinzen, die über eine Seezone mit einer Eurer Kernprovinzen verbunden sind, könnt Ihr einen Anspruch fingieren."
+ LOADING_TIP_76:1 "Auch in Provinzen, die über eine Seezone mit einer Eurer Kernprovinzen verbunden sind, könnt Ihr einen Anspruch fingieren."
  LOADING_TIP_77:0 "Vielen gebräuchlichen Aktionen ist eine Schnelltaste zugeordnet.\nWelche Taste dies ist, erfahrt Ihr in den Infofenstern."
  LOADING_TIP_78:0 "Mit <Strg> + Zifferntaste könnt Ihr der gewählten Einheit eine Zahl zuweisen und sie durch Eingabe der Zahl direkt aufrufen."
  LOADING_TIP_79:1 "Die Rekrutenreserve erholt sich nur langsam. Zieht in Erwägung, Söldnerkompanien anzuheuern, um Eure Rekrutenreserve zu schonen."
@@ -92,8 +92,8 @@
  LOADING_TIP_90:0 "Mit den Tasten Y und C kannst du Ereignis- und Diplomatie-Entscheidungen abbrechen und bestätigen."
  LOADING_TIP_91:0 "Mit der Taste B öffnest du die Benutzeroberfläche zum Ausgleichen der Armeen."
  LOADING_TIP_92:0 "Über die Benutzeroberfläche zum Ausgleichen der Armeen kannst du mit den Tasten Y und B Einheiten von einer zur anderen Seite verschieben."
- LOADING_TIP_93:0 "Über die Taste B wählst du die oberste Armee oder Flotte ab, wenn mehrere Armeen/Flotten ausgewählt wurden."
- LOADING_TIP_94:0 "Die Osmanen sind die stärkste Nation im Spiel und werden empfohlen, wenn Ihr als Anfänger spielt."
+ LOADING_TIP_93:0 "" # [LocEditor:AwaitingBatchUpdate]
+ LOADING_TIP_94:0 "Das Osmanische Reich ist die stärkste Nation im Spiel und für Anfänger besonders empfohlen."
  LOADING_TIP_95:0 "Die Schwierigkeitsstufe Sehr einfach eignet sich für Anfänger, für die Normal zu schwierig ist."
  LOADING_TIP_96:0 "Auf der Schwierigkeitsstufe Schwer ist die KI so fähig wie möglich, wobei fast keine Cheats genutzt werden."
  LOADING_TIP_97:0 "Auf "Sehr schwer" ist die KI so fähig wie möglich und verwendet viele Cheats, um das Spiel selbst mit großen Nationen zu einer Herausforderung zu machen."
@@ -101,14 +101,3 @@
  LOADING_TIP_99:0 "Eine Armee, die eine Festung in feindlichem Gebiet belagert, gilt in einer Schlacht als Angreifer und erleidet somit Geländemali."
  LOADING_TIP_100:0 "Es dauert lange, bis Ihr dieses Spiel beherrscht. Seid nicht überrascht, wenn Ihr selbst nach mehreren tausend Stunden noch etwas dazulernt."
  LOADING_TIP_101:0 "Ihr könnt eine Schlacht verlieren, den Krieg aber trotzdem gewinnen. Es ist häufig sinnvoll, nach frühen Rückschlägen in einem Krieg weiterzukämpfen."
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 

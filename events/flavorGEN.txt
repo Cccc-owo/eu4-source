@@ -400,13 +400,12 @@ country_event = {
 			ADM = 5
 			MIL = 6
 			attach_leader = "Andrea Doria"
-			fixed = yes
 		}		
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = lawgiver_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = lawgiver } }
 		}
 	}
 	option = {

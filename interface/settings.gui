@@ -2219,7 +2219,7 @@ guiTypes = {
 					borderSize = {x = 0 y =0}
 					maxWidth = 256
 					maxHeight = 20	
-					text = "Rich Presence"
+					text = "RICH_PRESENCE"
 					orientation = "UPPER_LEFT"
 					format = left
 					fixedsize = yes
@@ -2303,7 +2303,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "allow_coop_title"
-					position = { x = 140 y = 205 }
+					position = { x = 140 y = 212 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
@@ -2311,6 +2311,7 @@ guiTypes = {
 					maxWidth = 180
 					maxHeight = 20	
 					format = left
+					vertical_alignment = center
 					Orientation = "UPPER_LEFT"
 				}				
 				
@@ -2886,15 +2887,17 @@ guiTypes = {
 		fullscreen = no
 		
 		instantTextBoxType={
-					position = { x =10 y = 10 }
+					position = { x =10 y = 0 }
 					name = "settings_item_label"
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}	
 					maxWidth = 120
-					maxHeight = 20
+					maxHeight = 40
 					text = "SM_MULTISAMPLE"	
 					orientation = "UPPER_LEFT"
 					format = centre
+					fixedsize = yes
+					vertical_alignment = centre
 				}
 
 		instantTextBoxType={

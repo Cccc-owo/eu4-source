@@ -138,7 +138,7 @@
  # Cultures
  slovene:0 "Slowenisch"
  bosnian:0 "Bosnisch"
- frisian:0 "Frisisch"
+ frisian:0 "Friesisch"
  # Areas
  western_sicily_area:0 "Westsizilien"
  western_sicily_area_name:0 "Westsizilien"
@@ -288,7 +288,7 @@
  SOR_ADJ:0 "Lausitzisch"
  RUG:0 "Rügen"
  RUG_ADJ:0 "Rügisch"
- FKN:0 "Fränken"
+ FKN:0 "Franken"
  FKN_ADJ:0 "Fränkisch"
  SWA:0 "Schwaben"
  SWA_ADJ:0 "Schwäbisch"
@@ -311,7 +311,7 @@
  COB:0 "Coburg"
  COB_ADJ:0 "Coburgisch"
  #Cultures
- sorbian:0 "Sorbien"
+ sorbian:0 "Sorbisch"
  lower_saxon:0 "Niedersächsisch"
  # Perugia
  PGA:0 "Perugia"

@@ -3,11 +3,17 @@ mug_timurid_resurgence = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -124,6 +130,9 @@ mug_timurid_resurgence = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Mughals are a conquest monster, so they should focus on that mission
+		}
 	}
 	mug_afghan_frontier = {
 		icon = mission_afghan_frontier
@@ -182,6 +191,9 @@ mug_timurid_resurgence = {
 			add_permanent_claim = 454
 			add_permanent_claim = 2213
 			add_permanent_claim = 2221
+		}
+		ai_weight = {
+			factor = 500	#Mughals are a conquest monster, so they should focus on that mission
 		}
 	}
 	mug_abu_saids_dream = {
@@ -266,6 +278,9 @@ mug_timurid_resurgence = {
 				add_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Persia, however, is a little bit too far fetched
+		}
 	}
 }
 
@@ -274,11 +289,17 @@ mug_towards_china = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -344,6 +365,9 @@ mug_towards_china = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#China, too, is a little bit too far fetched
+		}
 	}
 	mug_upper_burma_campaign = {
 		icon = mission_upper_burma_campaign
@@ -406,6 +430,9 @@ mug_towards_china = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 50	#China, too, is a little bit too far fetched
+		}
 	}
 	mug_open_up_china = {
 		icon = mission_open_up_china
@@ -462,6 +489,9 @@ mug_towards_china = {
 				duration = 9125
 			}
 		}
+		ai_weight = {
+			factor = 0	#China, too, is a little bit too far fetched
+		}
 	}
 }
 
@@ -470,11 +500,17 @@ mug_land_assesement = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -484,37 +520,9 @@ mug_land_assesement = {
 		required_missions = {  }
 		trigger = {
 			crown_land_share = 50
-			if = {
-				limit = { government = monarchy }
-				OR = {
-					has_reform = zabt_reform
-					has_reform = dakhni_culture_reform
-					has_reform = meritocratic_focus_reform
-					has_reform = of_noble_bearing_reform
-					has_reform = clergy_in_administration_reform
-				}
-			}
-			else_if = {
-				limit = { government = republic }
-				OR = {
-					has_reform = provincial_governments_reform
-					has_reform = administrative_divisions_reform
-					has_reform = union_of_states_reform
-				}
-			}
-			else_if = {
-				limit = { government = theocracy }
-				OR = {
-					has_reform = subservient_administrators_reform
-					has_reform = religious_administrators_reform
-				}
-			}
-			else = {
-				NOT = { government = tribal }
-				NOT = { government = native }
-			}
+			reform_level = 4
 			total_development = 1000
-			NOT = { average_autonomy = 30 }
+			NOT = { average_home_autonomy = 30 }
 		}
 		effect = {
 			change_government_reform_progress = 50
@@ -522,6 +530,9 @@ mug_land_assesement = {
 				name = "mug_general_land_assessement_modifier"
 				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -531,11 +542,17 @@ mug_indus_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -572,6 +589,9 @@ mug_indus_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 }
 
@@ -581,11 +601,17 @@ mug_ganges_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -635,6 +661,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_conquer_orissa = {
 		icon = mission_conquer_orissa_mug
@@ -654,6 +683,9 @@ mug_ganges_branch = {
 				name = "mug_garjat_recruitment"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_bengal_entrepot = {
@@ -697,6 +729,9 @@ mug_ganges_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mug_lower_burma_campaign = {
@@ -760,6 +795,15 @@ mug_ganges_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+			sukhothai_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
 			northern_thai_area = {
 				limit = {
 					NOT = {
@@ -778,7 +822,16 @@ mug_ganges_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
-			south_laos_area = {
+			champasak_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			vientiane_area = {
 				limit = {
 					NOT = {
 						is_permanent_claim = ROOT
@@ -797,6 +850,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 50	#Too far away
+		}
 	}
 	mug_subah_of_ayuddhya = {
 		icon = mission_subah_of_ayuddhya
@@ -806,9 +862,11 @@ mug_ganges_branch = {
 				area = tenasserim_area
 				area = north_tenasserim_area
 				area = central_thai_area
+				area = sukhothai_area 
 				area = northern_thai_area
 				area = north_laos_area
-				area = south_laos_area
+				area = champasak_area
+				area = vientiane_area
 				area = khorat_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -826,6 +884,10 @@ mug_ganges_branch = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			northern_thai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -834,7 +896,11 @@ mug_ganges_branch = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			south_laos_area = {
+			champasak_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			vientiane_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -869,7 +935,24 @@ mug_ganges_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
-			
+			north_malaya_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			johor_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
 			vietnam_area = {
 				limit = {
 					NOT = {
@@ -916,6 +999,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 0	#Too far away
+		}
 	}
 	mug_malaccan_viceroyalty = {
 		icon = mission_malayan_viceroyalty
@@ -923,7 +1009,9 @@ mug_ganges_branch = {
 		provinces_to_highlight = {
 			OR = {
 				area = malaya_area
+				area = north_malaya_area
 				area = malacca_area
+				area = johor_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -932,7 +1020,15 @@ mug_ganges_branch = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			north_malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			johor_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -952,6 +1048,9 @@ mug_ganges_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 0	#Too far away
+		}
 	}
 }
 
@@ -960,11 +1059,17 @@ mug_hindustan_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1029,6 +1134,9 @@ mug_hindustan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_bengal_campaign = {
 		icon = mission_bengal_campaign
@@ -1084,10 +1192,26 @@ mug_hindustan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_fortify_the_plains = {
 		icon = mission_fortifying_the_plain
 		required_missions = { mug_bengal_campaign }
+		provinces_to_highlight = {
+			OR = {
+				area = upper_doab_area
+				area = lower_doab_area
+				area = oudh_area
+				area = purvanchal_area
+				area = bihar_area
+			}
+			OR = {
+				NOT = { fort_level = 2 }
+				NOT = { owned_by = ROOT }
+			}
+		}
 		trigger = {
 			upper_doab_area = {
 				fort_level = 2
@@ -1128,6 +1252,9 @@ mug_hindustan_branch = {
 					duration = 9125
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mug_grand_trunk_road = {
@@ -1240,6 +1367,9 @@ mug_hindustan_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_embassy_to_the_west = {
 		icon = mission_embassy_to_the_west
@@ -1262,6 +1392,9 @@ mug_hindustan_branch = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 }
 
@@ -1270,11 +1403,17 @@ mug_desh = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1306,6 +1445,9 @@ mug_desh = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 }
 
@@ -1314,11 +1456,17 @@ mug_sufis = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1352,7 +1500,7 @@ mug_sufis = {
 				}
 				estate_influence = {
 					estate = estate_church
-					influence = 60
+					influence = 40
 				}
 				num_of_estate_privileges = {
 					estate = estate_church
@@ -1396,6 +1544,9 @@ mug_sufis = {
 				add_prestige = 20
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	
 }
@@ -1405,11 +1556,17 @@ mug_rajput_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1477,6 +1634,9 @@ mug_rajput_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_rajput_mansabdars = {
 		icon = mission_rajput_mansabdars
@@ -1484,7 +1644,7 @@ mug_rajput_branch = {
 		trigger = {
 			estate_influence = {
 				estate = estate_rajput
-				influence = 40
+				influence = 30
 			}
 			num_of_estate_privileges = {
 				estate = estate_rajput
@@ -1503,6 +1663,9 @@ mug_rajput_branch = {
 				name = "mug_watan_jagirs_rajputs"
 				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mug_fatehpur_sikri = {
@@ -1541,7 +1704,7 @@ mug_rajput_branch = {
 				}
 				estate_influence = {
 					estate = estate_church
-					influence = 60
+					influence = 40
 				}
 			}
 			if = {
@@ -1550,7 +1713,7 @@ mug_rajput_branch = {
 				}
 				estate_influence = {
 					estate = estate_brahmins
-					influence = 60
+					influence = 40
 				}
 			}
 			524 = {
@@ -1573,6 +1736,9 @@ mug_rajput_branch = {
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_din_i_illah = {
@@ -1631,6 +1797,9 @@ mug_rajput_branch = {
 				duration = 10950
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 }
 
@@ -1639,11 +1808,17 @@ mug_hyderabad_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1687,6 +1862,9 @@ mug_hyderabad_branch = {
 				name = "mug_southern_markets"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	
@@ -1736,6 +1914,9 @@ mug_hyderabad_branch = {
 				# }
 			# }
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 }
 
@@ -1744,11 +1925,17 @@ mug_deccan_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 	}
 	potential = {
 		tag = MUG
-		has_dlc = "Dharma"
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "King of Kings"
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1857,6 +2044,9 @@ mug_deccan_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_conquer_malwa = {
 		icon = mission_conquer_malwa_mug
@@ -1919,6 +2109,9 @@ mug_deccan_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_secure_hajj_ports = {
@@ -1988,6 +2181,9 @@ mug_deccan_branch = {
 			add_claim = 1099
 			add_claim = 388
 			add_claim = 387
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_across_vindhyas = {
@@ -2099,6 +2295,9 @@ mug_deccan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_riches_of_golconda = {
 		icon = mission_riches_of_golconda
@@ -2181,6 +2380,9 @@ mug_deccan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_coromandel_coast = {
 		icon = mission_cromandel_coast
@@ -2230,6 +2432,9 @@ mug_deccan_branch = {
 					key = mug_coromandel_dominance
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }

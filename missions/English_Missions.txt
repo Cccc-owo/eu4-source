@@ -3,8 +3,11 @@ eng_british_conquest = {
 	slot = 1
 	generic = no
 	ai = yes
-	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -92,6 +95,7 @@ eng_british_conquest = {
 				add_casus_belli = {
 					target = SCO
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -104,7 +108,11 @@ eng_british_conquest_ire = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -175,7 +183,9 @@ eng_british_conquest_ire = {
 				}
 			}
 		}
-	
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -185,7 +195,11 @@ eng_british_conquest_scotland = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -261,7 +275,9 @@ eng_british_conquest_scotland = {
 				371 = {add_claim = ROOT }
 			}
 		}
-	
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -271,7 +287,11 @@ eng_french_conquest = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -296,6 +316,7 @@ eng_french_conquest = {
 						tooltip = eng_war_france.tooltip
 						has_country_flag = rb_gave_up_maine
 					}
+					FRA = { is_subject_of = ROOT }
 				}
 			}
 			else_if = {
@@ -360,6 +381,7 @@ eng_french_conquest = {
 			if = {
 				limit = {
 					exists = FRA
+					NOT = { FRA = { is_subject_of = ROOT } }
 				}
 				FRA = {
 					capital_scope = {
@@ -394,10 +416,17 @@ eng_french_conquest = {
 						}
 					}
 				}
-				else = {
-					183 = {
-						owned_by = ROOT
-					}
+			}
+			else_if = {
+				limit = {
+					exists = FRA
+					FRA = { is_subject_of = ROOT }
+				}
+				FRA = { is_subject_of = ROOT }
+			}
+			else = {
+				183 = {
+					owned_by = ROOT
 				}
 			}
 		}
@@ -406,12 +435,13 @@ eng_french_conquest = {
 			if = {
 				limit = {
 					FRA = {
-						is_subject = NO
+						is_subject = no
 					}
 				}
 				add_casus_belli = {
 					target = FRA
 					type = cb_hundred_years_union
+					months = 360
 				}
 			}
 			if = {
@@ -462,6 +492,16 @@ eng_french_conquest = {
 		}
 		
 		effect = {
+			if = {
+				limit = {
+					has_heir = yes
+					has_ruler_flag = henry_vi_lancaster
+					NOT = { has_country_flag = rb_gave_up_maine }
+				}
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
+			}
 			add_prestige = 25
 			add_country_modifier = {
 				name = "eng_french_recovery"
@@ -477,7 +517,11 @@ eng_exploration_americas = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -511,7 +555,9 @@ eng_exploration_americas = {
 			}
 			add_dip_power = 50
 		}
-	
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	english_colony_in_north_america = {
@@ -540,6 +586,9 @@ eng_exploration_americas = {
 			create_conquistador = {
 				tradition = 80
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -571,6 +620,9 @@ eng_exploration_americas = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -579,7 +631,11 @@ eng_chesapeake_dominance = {
 	slot = 2
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -623,6 +679,9 @@ eng_chesapeake_dominance = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 
 }
@@ -632,7 +691,11 @@ eng_indian_ocean_exploration = {
 	slot = 5
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -644,7 +707,7 @@ eng_indian_ocean_exploration = {
 	england_discovers_india = {
 		icon = mission_junk_boat
 		required_missions = { }
-		position = 7
+		position = 6
 		completed_by = 1579.1.1
 		
 		trigger = {
@@ -674,6 +737,9 @@ eng_indian_ocean_exploration = {
 					add_claim = ROOT
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -709,7 +775,9 @@ eng_indian_ocean_exploration = {
 				duration = 5475
 			}
 		}
-	
+		ai_weight = {
+			factor = 500
+		}
 	}
 
 }
@@ -719,7 +787,11 @@ eng_indian_cot_dominance = {
 	slot = 4
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -769,6 +841,9 @@ eng_indian_cot_dominance = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 
 }
@@ -778,7 +853,11 @@ eng_british_cot_dominance = {
 	slot = 3
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR

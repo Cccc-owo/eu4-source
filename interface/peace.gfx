@@ -32,7 +32,7 @@ spriteTypes = {
 		name = "GFX_release_nation_icon"
 		texturefile = "gfx/interface/release_nation_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -40,7 +40,7 @@ spriteTypes = {
 		name = "GFX_annul_treaties_icon"
 		texturefile = "gfx/interface/annul_treaties_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -48,7 +48,7 @@ spriteTypes = {
 		name = "GFX_revoke_core_icon"
 		texturefile = "gfx/interface/revoke_core_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -56,7 +56,7 @@ spriteTypes = {
 		name = "GFX_return_core_icon"
 		texturefile = "gfx/interface/return_core_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -64,7 +64,7 @@ spriteTypes = {
 		name = "GFX_cede_provinces_icon"
 		texturefile = "gfx/interface/cede_provinces_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -72,7 +72,7 @@ spriteTypes = {
 		name = "GFX_cancel_vassals_icon"
 		texturefile = "gfx/interface/cancel_vassals_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
@@ -80,7 +80,7 @@ spriteTypes = {
 		name = "GFX_treaties_icon"
 		texturefile = "gfx/interface/treaties_icon.dds"
 		noOfFrames = 2
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 

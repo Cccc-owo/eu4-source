@@ -4,7 +4,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_upleft"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-upleft.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -23,7 +23,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_up"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-up.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -42,7 +42,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_upright"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-upright.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -61,7 +61,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_right"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-right.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -80,7 +80,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_downright"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-downright.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -99,7 +99,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_down"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-down.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -118,7 +118,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_downleft"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-downleft.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {
@@ -137,7 +137,7 @@ spriteTypes = {
 #		name = "GFX_uiarrow_left"
 #		texturefile = "gfx\\interface\\tutorial\\ui-arrow-left.dds"
 #		
-#		allwaystransparent = yes
+#		alwaystransparent = yes
 #	}
 	
 	frameAnimatedSpriteType = {

@@ -67,7 +67,7 @@ guiTypes = {
 			name ="country_icon"
 			position = { x= 27 y = 112 }
 			quadTextureSprite = "GFX_shield_small"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}			
 		
 		guiButtonType = {
@@ -85,7 +85,7 @@ guiTypes = {
 			position = { x= 252 y = 112 }
 			Orientation = "UPPER_LEFT"
 			frame = 17
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		guiButtonType = {
@@ -103,7 +103,7 @@ guiTypes = {
 			position = { x= 478 y = 115 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		guiButtonType = {
@@ -120,19 +120,16 @@ guiTypes = {
 			spriteType = "GXF_environment_icon"
 			position = { x= 698 y = 110 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
-		listboxType =  {
-			# List of enabled_dlc_entry
-			name ="dlc_icons_list"
-			position = { x = 192 y = 552 }
-			backGround=""
-			size = { x = 1000 y = 1000 } # These get inverted by horizontal = yes
-			Orientation = "UPPER_LEFT"
-			horizontal = 1
-			spacing = -5
-			borderSize = { x = 0 y = 0 }
+		overlappingElementsBoxType = {
+			name = "dlc_icons_list"
+			position = { x = 20 y = 552 }
+			size = { x = 880 y = 40 }
+			orientation = "UPPER_LEFT"
+			format = center
+			spacing = 0
 		}
 		
 	    windowType = {

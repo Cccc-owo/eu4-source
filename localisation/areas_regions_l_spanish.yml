@@ -86,14 +86,14 @@
  upper_andalucia_area:0 "Andalucía Superior"
  upper_andalucia_area_name:0 "Granada"
  upper_andalucia_area_adj:0 "granadino"
- castille_area:0 "Castilla"
- castille_area_name:0 "Castilla"
- castille_area_adj:0 "castellano"
+ castille_area:1 "Sur de Castilla"
+ castille_area_name:1 "Sur de Castilla"
+ castille_area_adj:1 "castellano"
  toledo_area:0 "Toledo"
  toledo_area_name:0 "Toledo"
  toledo_area_adj:0 "toledano"
- asturias_area:0 "Asturias"
- asturias_area_name:0 "Asturias"
+ asturias_area:1 "Norte de Castilla"
+ asturias_area_name:1 "Norte de Castilla"
  asturias_area_adj:0 "asturiano"
  leon_area:0 "León"
  leon_area_name:0 "León"
@@ -125,13 +125,13 @@
  liguria_area:0 "Liguria"
  liguria_area_name:0 "Liguria"
  liguria_area_adj:0 "ligur"
- corsica_sardinia_area:0 "Islas del Mediterráneo Occidental"
+ corsica_sardinia_area:0 "Islas del Mediterráneo Occidental" # [LocEditor:AwaitingBatchUpdate]
  corsica_sardinia_area_name:0 "Cerdeña"
  corsica_sardinia_area_adj:0 "sardo"
- sicily_area:0 "Sicilia"
- sicily_area_name:0 "Sicilia"
- sicily_area_adj:0 "siciliano"
- naples_area:0 "Lazio-Campania"
+ sicily_area:0 "Sicilia" # [LocEditor:AwaitingBatchUpdate]
+ sicily_area_name:0 "Sicilia" # [LocEditor:AwaitingBatchUpdate]
+ sicily_area_adj:0 "siciliano" # [LocEditor:AwaitingBatchUpdate]
+ naples_area:0 "Lazio-Campania" # [LocEditor:AwaitingBatchUpdate]
  naples_area_name:0 "Nápoles"
  naples_area_adj:0 "napolitano"
  calabria_area:0 "Calabria"
@@ -197,19 +197,19 @@
  skaneland_area:0 "Escania"
  skaneland_area_name:0 "Escania"
  skaneland_area_adj:0 "escano"
- gotaland_area:0 "Östra Götaland"
+ gotaland_area:0 "Östra Götaland" # [LocEditor:AwaitingBatchUpdate]
  gotaland_area_name:0 "Gotlandia"
  gotaland_area_adj:0 "gauta"
  vastra_gotaland_area:0 "Västra Götaland"
  vastra_gotaland_area_adj:0 "skaran"
  vastra_gotaland_area_name:0 "Skaraborg"
- svealand_area:0 "Västra Svealand"
+ svealand_area:0 "Västra Svealand" # [LocEditor:AwaitingBatchUpdate]
  svealand_area_name:0 "Suecia"
  svealand_area_adj:0 "sueco"
  ostra_svealand_area:0 "Östra Svealand"
  ostra_svealand_area_name:0 "Dalecarlia"
  ostra_svealand_area_adj:0 "dalecarliano"
- baltic_islands_area:0 "Islas b7álticas"
+ baltic_islands_area:0 "Islas bálticas"
  baltic_islands_area_name:0 "Baltia"
  baltic_islands_area_adj:0 "báltico"
  norrland_area:0 "Norrland"
@@ -218,13 +218,13 @@
  finland_area:0 "Finlandia"
  finland_area_name:0 "Finlandia"
  finland_area_adj:0 "finlandés"
- karelia_area:0 "Carelia del Sur"
+ karelia_area:0 "Carelia del Sur" # [LocEditor:AwaitingBatchUpdate]
  karelia_area_name:0 "Carelia"
  karelia_area_adj:0 "carelio"
  north_karelia:0 "Carelia del Norte"
  north_karelia_adj:0 "olonetiano"
  north_karelia_name:0 "Olonets"
- northern_norway:0 "Trøndelag"
+ northern_norway:0 "Trøndelag" # [LocEditor:AwaitingBatchUpdate]
  northern_norway_name:0 "Trondelag"
  northern_norway_adj:0 "trondelagués"
  eastern_norway:0 "Noruega Oriental"
@@ -235,7 +235,7 @@
  western_norway_adj:0 "bergenshués"
  subarctic_islands_area:2 "Islas del Atlántico Norte"
  subarctic_islands_area_name:0 "Feroe"
- subarctic_islands_area_adj:0 "faroés"
+ subarctic_islands_area_adj:0 "faroés" # [LocEditor:AwaitingBatchUpdate]
  greenland_area:0 "Groenladia"
  greenland_area_name:0 "Groenladia"
  greenland_area_adj:0 "groenlandés"
@@ -255,12 +255,12 @@
  east_prussia_area_name:0 "Prusia"
  east_prussia_area_adj:0 "prusiano"
  west_prussia_area:0 "Prusia Occidental"
- west_prussia_area_name:0 "Chelmno"
- west_prussia_area_adj:0 "chelmno"
+ west_prussia_area_name:0 "Chelmno" # [LocEditor:AwaitingBatchUpdate]
+ west_prussia_area_adj:0 "chelmno" # [LocEditor:AwaitingBatchUpdate]
  pomerelia_area:0 "Pomerelia"
  pomerelia_area_name:0 "Pomerelia"
  pomerelia_area_adj:0 "pomereliano"
- wielkopolska_area:0 "Wielkopolska"
+ wielkopolska_area:0 "Gran Polonia"
  wielkopolska_area_name:0 "Gran Polonia"
  wielkopolska_area_adj:0 "granpolaco"
  central_poland_area:0 "Polonia central"
@@ -272,7 +272,7 @@
  kuyavia_area:0 "Cuyavia"
  kuyavia_area_name:0 "Cuyavia"
  kuyavia_area_adj:0 "cuyavio"
- malopolska_area:0 "Malopolska"
+ malopolska_area:0 "Pequeña Polonia"
  malopolska_area_name:0 "Pequeña Polonia"
  malopolska_area_adj:0 "pequeñopolaco"
  podolia_volhynia_area:1 "Podolia"
@@ -287,7 +287,7 @@
  mazovia_area:0 "Mazovia"
  mazovia_area_name:0 "Mazovia"
  mazovia_area_adj:0 "mazoviano"
- lithuania_area:1 "Alta Lituania"
+ lithuania_area:1 "Alta Lituania" # [LocEditor:AwaitingBatchUpdate]
  lithuania_area_name:1 "Alta Lituania"
  lithuania_area_adj:1 "altolituano"
  samogitia_area:0 "Samogitia"
@@ -338,9 +338,9 @@
  smolensk_area:0 "Smolensk"
  smolensk_area_name:0 "Smolensko"
  smolensk_area_adj:0 "smolense"
- novgorod_area:0 "Novgorod"
+ novgorod_area:0 "Nóvgorod"
  novgorod_area_name:0 "Nóvgorod"
- novgorod_area_adj:0 "novgorodenses"
+ novgorod_area_adj:0 "novgorodiano"
  pskov_area:0 "Pskov"
  pskov_area_name:0 "Pskov"
  pskov_area_adj:0 "plescovense"
@@ -407,10 +407,10 @@
  franconia_area:1 "Franconia"
  franconia_area_name:1 "Franconia"
  franconia_area_adj:1 "franconio"
- lower_swabia_area:0 "Baja Suabia"
+ lower_swabia_area:0 "Baja Suabia" # [LocEditor:AwaitingBatchUpdate]
  lower_swabia_area_name:0 "Suabia"
  lower_swabia_area_adj:0 "suabo"
- upper_swabia_area:0 "Alta Suabia"
+ upper_swabia_area:0 "Alta Suabia" # [LocEditor:AwaitingBatchUpdate]
  upper_swabia_area_name:0 "Constanza"
  upper_swabia_area_adj:0 "constantiano"
  northern_saxony_area:1 "Norte de Sajonia"
@@ -476,7 +476,7 @@
  weser_area:0 "Weser"
  weser_area_name:0 "Bremen"
  weser_area_adj:0 "bremense"
- holstein_area:0 "Schleswig-Holstein"
+ holstein_area:0 "Schleswig-Holstein" # [LocEditor:AwaitingBatchUpdate]
  holstein_area_name:0 "Holstein"
  holstein_area_adj:0 "holsteiniano"
  braunschweig_area:0 "Brunswick"
@@ -506,7 +506,7 @@
  moldavia_area:0 "Moldavia"
  moldavia_area_name:0 "Moldavia"
  moldavia_area_adj:0 "moldavo"
- transylvania_area:0 "Transilvania del Norte"
+ transylvania_area:0 "Transilvania del Norte" # [LocEditor:AwaitingBatchUpdate]
  transylvania_area_name:0 "Transilvania"
  transylvania_area_adj:0 "transilvano"
  southern_transylvania_area:0 "Transilvania del Sur"
@@ -539,9 +539,6 @@
  transdanubia_area:0 "Transdanubia"
  transdanubia_area_name:0 "Transdanubia"
  transdanubia_area_adj:0 "transdanubiano"
- georgia_area:0 "Georgia"
- georgia_area_name:0 "Georgia"
- georgia_area_adj:0 "georgiano"
  odishi_area:0 "Odishi"
  odishi_area_name:0 "Imericia"
  odishi_area_adj:0 "imericiano"
@@ -698,7 +695,7 @@
  sus_area:0 "Sus"
  sus_area_name:0 "Sus"
  sus_area_adj:0 "Susí"
- marrekesh_area:0 "Marruecos Central"
+ marrekesh_area:0 "Marruecos Central" # [LocEditor:AwaitingBatchUpdate]
  marrekesh_area_name:0 "Marrakech"
  marrekesh_area_adj:0 "marraquechí"
  western_morocco_area:0 "Gharb"
@@ -753,8 +750,8 @@
  lower_zambezi_area_name:0 "Zambeze"
  lower_zambezi_area_adj:0 "zambezí"
  upper_zambezi_area:0 "Zambeze superior"
- upper_zambezi_area_name:0 "Nsenga"
- upper_zambezi_area_adj:0 "nsenga"
+ upper_zambezi_area_name:0 "Nsenga" # [LocEditor:AwaitingBatchUpdate]
+ upper_zambezi_area_adj:0 "nsenga" # [LocEditor:AwaitingBatchUpdate]
  butua_area:0 "Butua"
  butua_area_name:0 "Butua"
  butua_area_adj:0 "butuano"
@@ -798,8 +795,8 @@
  mombasa_area_name:0 "Mombasa"
  mombasa_area_adj:0 "mombasa"
  northern_swahili_coast_area:0 "Costa norte suajili"
- northern_swahili_coast_area_name:0 "Pate"
- northern_swahili_coast_area_adj:0 "Patés"
+ northern_swahili_coast_area_name:0 "Pate" # [LocEditor:AwaitingBatchUpdate]
+ northern_swahili_coast_area_adj:0 "Patés" # [LocEditor:AwaitingBatchUpdate]
  east_african_islands_area:0 "Islas del África Oriental"
  east_african_islands_area_name:0 "Kilwa"
  east_african_islands_area_adj:0 "kilwa"
@@ -879,30 +876,48 @@
  melanesia_area:0 "Melanesia"
  melanesia_area_name:0 "Melanesia"
  melanesia_area_adj:0 "melanesio"
+ fiji_area:0 "Fiyi"
+ fiji_area_name:0 "Fiyi"
+ fiji_area_adj:0 "fiyiano"
  west_micronesia_area:0 "Micronesia Oeste"
  west_micronesia_area_name:0 "Palaos"
  west_micronesia_area_adj:0 "palauano"
  micronesia_area:1 "Micronesia Este"
  micronesia_area_name:0 "Micronesia"
  micronesia_area_adj:0 "micronesio"
- western_australia_area:0 "Australia Occidental"
+ western_australia_area:2 "Perth"
  western_australia_area_name:0 "Perth"
  western_australia_area_adj:0 "pertita"
  top_end_area:0 "Top End"
- top_end_area_name:0 "Australia"
- top_end_area_adj:0 "australiano"
- northern_australia_area:0 "Australia Septentrional"
- northern_australia_area_name:1 "Baiali"
- northern_australia_area_adj:1 "baialiano"
- eastern_australia_area:0 "Australia Oriental"
- eastern_australia_area_name:0 "Queensland"
- eastern_australia_area_adj:0 "reginense"
- murray_river_area:0 "Río Murray"
- murray_river_area_name:0 "Wergaia"
- murray_river_area_adj:0 "wergaino"
- southern_australia_area:0 "Australia Meridional"
+ top_end_area_name:1 "Top End"
+ top_end_area_adj:1 "topifinal"
+ northern_australia_area:1 "Capricornia"
+ northern_australia_area_name:2 "Capricornia"
+ northern_australia_area_adj:2 "capricorniano"
+ eastern_australia_area:1 "Nueva Gales del Sur"
+ eastern_australia_area_name:1 "Nueva Gales del Sur"
+ eastern_australia_area_adj:1 "neosurgalés"
+ murray_river_area:1 "Princeland"
+ murray_river_area_name:1 "Princeland"
+ murray_river_area_adj:1 "princilandés"
+ southern_australia_area:1 "Victoria"
  southern_australia_area_name:0 "Victoria"
  southern_australia_area_adj:0 "victoriano"
+ north_queensland_area:0 "Queensland"
+ north_queensland_area_name:0 "Queensland"
+ north_queensland_area_adj:0 "reginense"
+ south_queensland_area:0 "Brisbane"
+ south_queensland_area_name:0 "Brisbane"
+ south_queensland_area_adj:0 "brisbanita"
+ illawara_area:0 "Illawara"
+ illawara_area_name:0 "Illawara"
+ illawara_area_adj:0 "illawara"
+ pilbara_area:0 "Pilbara"
+ pilbara_area_name:0 "Pilbara"
+ pilbara_area_adj:0 "pilbarano"
+ tasmania_area:0 "Tasmania"
+ tasmania_area_name:0 "Tasmania"
+ tasmania_area_adj:0 "tasmano"
  eastern_polynesia_area:0 "Polinesia Oriental"
  eastern_polynesia_area_name:0 "Tahití"
  eastern_polynesia_area_adj:0 "tahitiano"
@@ -912,12 +927,15 @@
  polynesia_area:0 "Polinesia"
  polynesia_area_name:0 "Polinesia"
  polynesia_area_adj:0 "polinesio"
- te_ika_a_maui_area:0 "Te Ika un Maui"
- te_ika_a_maui_area_name:0 "Te Ika a Maui"
- te_ika_a_maui_area_adj:0 "maorí"
+ te_ika_a_maui_hauauru_area:0 "Te Ika a Maui Hauauru"
+ te_ika_a_maui_hauauru_area_name:0 "Te Ika a Maui Hauauru"
+ te_ika_a_maui_hauauru_area_adj:0 "maorí occidental"
+ te_ika_a_maui_waho_area:0 "Te Ika a Maui Waho"
+ te_ika_a_maui_waho_area_name:0 "Te Ika a Maui Waho"
+ te_ika_a_maui_waho_area_adj:0 "maorí oriental"
  te_waipounamu_area:0 "Te Waipounamu"
  te_waipounamu_area_name:0 "Te Waipounamu"
- te_waipounamu_area_adj:0 "maoirí"
+ te_waipounamu_area_adj:1 "maorí meridional"
  western_sahara_area:0 "Sáhara Occidental"
  western_sahara_area_name:0 "Azawad"
  western_sahara_area_adj:0 "azawadí"
@@ -960,7 +978,7 @@
  lower_niger_area:0 "Bajo Níger"
  lower_niger_area_name:0 "Ondo"
  lower_niger_area_adj:0 "ondonés"
- hausa_area:0 "Kano"
+ hausa_area:0 "Kano" # [LocEditor:AwaitingBatchUpdate]
  hausa_area_name:0 "Hausalandia"
  hausa_area_adj:0 "hausa"
  katsina_area:0 "Katsina"
@@ -981,9 +999,9 @@
  dendi_area:0 "Dendi"
  dendi_area_name:0 "Dendi"
  dendi_area_adj:0 "dendiano"
- azbin_area:0 "Azbin Occidental"
- azbin_area_name:0 "Air"
- azbin_area_adj:0 "airí"
+ azbin_area:0 "Azbin Occidental" # [LocEditor:AwaitingBatchUpdate]
+ azbin_area_name:0 "Air" # [LocEditor:AwaitingBatchUpdate]
+ azbin_area_adj:0 "airí" # [LocEditor:AwaitingBatchUpdate]
  east_azbin_area:0 "Azbin Oriental"
  east_azbin_area_name:0 "Azbin"
  east_azbin_area_adj:0 "azbin"
@@ -1080,12 +1098,12 @@
  isfahan_area:0 "Isfahán"
  isfahan_area_name:0 "Isfahan"
  isfahan_area_adj:0 "isfahaní"
- azerbaijan_area:0 "Azerbaiyán"
- azerbaijan_area_name:0 "Azerbayán"
- azerbaijan_area_adj:0 "azerbayano"
- tabriz_area:0 "Tabriz"
- tabriz_area_name:0 "Tabriz"
- tabriz_area_adj:0 "tabrizlí"
+ azerbaijan_area:1 "Zanyán"
+ azerbaijan_area_name:1 "Zanyán"
+ azerbaijan_area_adj:1 "zanyaní"
+ tabriz_area:1 "Azerbaiyán"
+ tabriz_area_name:1 "Azerbaiyán"
+ tabriz_area_adj:1 "azerbaiyano"
  tabarestan_area:0 "Tabaristan"
  tabarestan_area_name:0 "Tabaristán"
  tabarestan_area_adj:0 "tabaristaní"
@@ -1332,7 +1350,7 @@
  malacca_area:0 "Malaca"
  malacca_area_name:0 "Malaca"
  malacca_area_adj:0 "malaco"
- tenasserim_area:0 "Tenasserim Central"
+ tenasserim_area:0 "Tenasserim Central" # [LocEditor:AwaitingBatchUpdate]
  tenasserim_area_name:0 "Ligor"
  tenasserim_area_adj:0 "Ligor"
  north_tenasserim_area:0 "Tenasserim del Norte"
@@ -1341,54 +1359,54 @@
  red_river_delta_area:0 "Río Rojo"
  red_river_delta_area_name:0 "Vietnam"
  red_river_delta_area_adj:0 "vietnamita"
- vietnam_area:0 "Tonkin"
- vietnam_area_name:0 "Tonkín"
- vietnam_area_adj:0 "tonquinés"
+ vietnam_area:2 "Annam"
+ vietnam_area_name:2 "Annam"
+ vietnam_area_adj:1 "anamita"
  south_laos_area:0 "Laos Sur"
  south_laos_area_name:0 "Vientián"
  south_laos_area_adj:0 "vientianita"
- north_laos_area:0 "Laos Norte"
+ north_laos_area:1 "Luang Prabang"
  north_laos_area_name:0 "Luang Prabang"
  north_laos_area_adj:0 "luangprabangués"
  central_thai_area:0 "Tailandia Central"
  central_thai_area_name:0 "Ayutthaya"
  central_thai_area_adj:0 "ayutthaya"
- northern_thai_area:0 "Tailandia Norte"
+ northern_thai_area:1 "Chiang Mai"
  northern_thai_area_name:0 "Lan Na"
  northern_thai_area_adj:0 "lan Na"
  great_moluccas_area:0 "Grandes Molucas"
  great_moluccas_area_name:0 "Islas Molucas"
- great_moluccas_area_adj:0 "moluco"
+ great_moluccas_area_adj:0 "maluco"
  luzon_area:0 "Luzón"
  luzon_area_name:0 "Luzón"
  luzon_area_adj:0 "luzonés"
  mindanao_area:0 "Mindanao"
  mindanao_area_name:0 "Mindanao"
- mindanao_area_adj:0 "mindanaino"
- north_sumatra_area:0 "Aceh"
+ mindanao_area_adj:0 "mindanaoeño"
+ north_sumatra_area:0 "Aceh" # [LocEditor:AwaitingBatchUpdate]
  north_sumatra_area_name:0 "Lamuri"
  north_sumatra_area_adj:0 "lamurí"
  batak_area:0 "Batak"
  batak_area_name:0 "Batak"
  batak_area_adj:0 "batako"
- central_sumatra_area:0 "Riau"
+ central_sumatra_area:0 "Riau" # [LocEditor:AwaitingBatchUpdate]
  central_sumatra_area_name:0 "Jambi"
  central_sumatra_area_adj:0 "jambí"
  minangkabau_area:0 "Minangkabau"
  minangkabau_area_name:0 "Minangkabau"
  minangkabau_area_adj:0 "minangkabaun"
- south_sumatra_area:0 "Lampung"
+ south_sumatra_area:0 "Lampung" # [LocEditor:AwaitingBatchUpdate]
  south_sumatra_area_name:0 "Bengkulu"
  south_sumatra_area_adj:0 "bengkuluano"
  indonesian_islands_area:0 "Islas de Indonesia"
  indonesian_islands_area_name:0 "Islas de Indonesia"
  indonesian_islands_area_adj:0 "indonesio"
  east_java_area:0 "Java Oriental"
- east_java_area_name:0 "Sunda"
- east_java_area_adj:0 "sundo"
+ east_java_area_name:0 "Sonda"
+ east_java_area_adj:0 "sondanés"
  central_java_area:0 "Java Central"
- central_java_area_name:0 "Sunda"
- central_java_area_adj:0 "sundo"
+ central_java_area_name:0 "Sonda"
+ central_java_area_adj:0 "sondanés"
  west_java_area:0 "Java Occidental"
  west_java_area_name:0 "Kediri"
  west_java_area_adj:0 "kediri"
@@ -1397,7 +1415,7 @@
  kutai_area_adj:0 "kutai"
  brunei_area:0 "Brunéi"
  brunei_area_name:0 "Brunéi"
- brunei_area_adj:0 "brunei"
+ brunei_area_adj:0 "bruneano"
  kalimantan_area:0 "Kalimantan"
  kalimantan_area_name:0 "Kalimantán"
  kalimantan_area_adj:0 "kalimantán"
@@ -1411,14 +1429,14 @@
  molluca_area_name:0 "Ternate"
  molluca_area_adj:0 "ternate"
  lesser_sunda_islands_area:0 "Islas menores de Sonda"
- lesser_sunda_islands_area_name:0 "Bali"
- lesser_sunda_islands_area_adj:0 "balinés"
+ lesser_sunda_islands_area_name:0 "Bali" # [LocEditor:AwaitingBatchUpdate]
+ lesser_sunda_islands_area_adj:0 "balinés" # [LocEditor:AwaitingBatchUpdate]
  timor_area:0 "Timor"
  timor_area_name:0 "Timor"
  timor_area_adj:0 "timorense"
- sulawesi_area:0 "Célebes del Norte"
- sulawesi_area_name:0 "Palu"
- sulawesi_area_adj:0 "paluano"
+ sulawesi_area:0 "Célebes del Norte" # [LocEditor:AwaitingBatchUpdate]
+ sulawesi_area_name:0 "Palu" # [LocEditor:AwaitingBatchUpdate]
+ sulawesi_area_adj:0 "paluano" # [LocEditor:AwaitingBatchUpdate]
  south_sulawesi_area:0 "Célebes del Sur"
  south_sulawesi_area_name:0 "Macasar"
  south_sulawesi_area_adj:0 "macasar"
@@ -1864,239 +1882,239 @@
  upper_peru_name:0 "Potosí"
  upper_peru_adj:0 "potosino"
  maine_area:0 "Maine"
- maine_area_name:0 "Maine"
- maine_area_adj:0 "mainés"
- great_woods_area:0 "Grandes Bosques"
- great_woods_area_name:0 "Abenaki"
- great_woods_area_adj:0 "abenaki"
- massachusetts_bay_area:0 "Bahía de Massachusetts"
- massachusetts_bay_area_name:0 "Massachusetts"
- massachusetts_bay_area_adj:0 "massachusettense"
- connecticut_valley_area:0 "Valle de Connecticut"
- connecticut_valley_area_name:0 "Connecticut"
- connecticut_valley_area_adj:0 "conectiqués"
+ maine_area_name:0 "Maine" # [LocEditor:AwaitingBatchUpdate]
+ maine_area_adj:0 "mainés" # [LocEditor:AwaitingBatchUpdate]
+ great_woods_area:0 "Grandes Bosques" # [LocEditor:AwaitingBatchUpdate]
+ great_woods_area_name:0 "Abenaki" # [LocEditor:AwaitingBatchUpdate]
+ great_woods_area_adj:0 "abenaki" # [LocEditor:AwaitingBatchUpdate]
+ massachusetts_bay_area:0 "Bahía de Massachusetts" # [LocEditor:AwaitingBatchUpdate]
+ massachusetts_bay_area_name:0 "Massachusetts" # [LocEditor:AwaitingBatchUpdate]
+ massachusetts_bay_area_adj:0 "massachusettense" # [LocEditor:AwaitingBatchUpdate]
+ connecticut_valley_area:0 "Valle de Connecticut" # [LocEditor:AwaitingBatchUpdate]
+ connecticut_valley_area_name:0 "Connecticut" # [LocEditor:AwaitingBatchUpdate]
+ connecticut_valley_area_adj:0 "conectiqués" # [LocEditor:AwaitingBatchUpdate]
  hudson_valley_area:0 "Valle de Hudson"
- hudson_valley_area_name:0 "Hudsonia"
- hudson_valley_area_adj:0 "hudsonio"
+ hudson_valley_area_name:0 "Hudsonia" # [LocEditor:AwaitingBatchUpdate]
+ hudson_valley_area_adj:0 "hudsonio" # [LocEditor:AwaitingBatchUpdate]
  delaware_valley_area:0 "Valle de Delaware"
- delaware_valley_area_name:0 "Delaware"
- delaware_valley_area_adj:0 "delawareño"
+ delaware_valley_area_name:0 "Delaware" # [LocEditor:AwaitingBatchUpdate]
+ delaware_valley_area_adj:0 "delawareño" # [LocEditor:AwaitingBatchUpdate]
  iroquoisia_area:1 "Iroquoisia"
- iroquoisia_area_name:0 "Iroqués"
- iroquoisia_area_adj:0 "iroqués"
- south_iroquoisia_area:0 "Iroquoisia Sur"
- south_iroquoisia_area_name:0 "Seneca"
- south_iroquoisia_area_adj:0 "senecano"
- susquehanna_area:0 "Susquehanna"
- susquehanna_area_name:0 "Susquehanna"
- susquehanna_area_adj:0 "susquehanno"
- chesapeake_area:0 "Chesapeake"
- chesapeake_area_name:0 "Chesapeake"
- chesapeake_area_adj:0 "chesapeake"
+ iroquoisia_area_name:0 "Iroqués" # [LocEditor:AwaitingBatchUpdate]
+ iroquoisia_area_adj:0 "iroqués" # [LocEditor:AwaitingBatchUpdate]
+ south_iroquoisia_area:0 "Iroquoisia Sur" # [LocEditor:AwaitingBatchUpdate]
+ south_iroquoisia_area_name:0 "Seneca" # [LocEditor:AwaitingBatchUpdate]
+ south_iroquoisia_area_adj:0 "senecano" # [LocEditor:AwaitingBatchUpdate]
+ susquehanna_area:0 "Susquehanna" # [LocEditor:AwaitingBatchUpdate]
+ susquehanna_area_name:0 "Susquehanna" # [LocEditor:AwaitingBatchUpdate]
+ susquehanna_area_adj:0 "susquehanno" # [LocEditor:AwaitingBatchUpdate]
+ chesapeake_area:0 "Chesapeake" # [LocEditor:AwaitingBatchUpdate]
+ chesapeake_area_name:0 "Chesapeake" # [LocEditor:AwaitingBatchUpdate]
+ chesapeake_area_adj:0 "chesapeake" # [LocEditor:AwaitingBatchUpdate]
  great_valley_area:0 "Gran Valle"
- great_valley_area_name:0 "Shenandoah"
- great_valley_area_adj:0 "shenandoah"
+ great_valley_area_name:0 "Shenandoah" # [LocEditor:AwaitingBatchUpdate]
+ great_valley_area_adj:0 "shenandoah" # [LocEditor:AwaitingBatchUpdate]
  piedmont_north_america_area:0 "Piedmont"
- piedmont_north_america_area_name:0 "Piedmont"
- piedmont_north_america_area_adj:0 "piedmontino"
+ piedmont_north_america_area_name:0 "Piedmont" # [LocEditor:AwaitingBatchUpdate]
+ piedmont_north_america_area_adj:0 "piedmontino" # [LocEditor:AwaitingBatchUpdate]
  carolinas_area:1 "Carolina del Norte"
- carolinas_area_name:0 "Carolina"
- carolinas_area_adj:0 "carolino"
+ carolinas_area_name:0 "Carolina" # [LocEditor:AwaitingBatchUpdate]
+ carolinas_area_adj:0 "carolino" # [LocEditor:AwaitingBatchUpdate]
  south_carolina_area:0 "Carolina del Sur"
- south_carolina_area_name:0 "Santee"
- south_carolina_area_adj:0 "santeano"
+ south_carolina_area_name:0 "Santee" # [LocEditor:AwaitingBatchUpdate]
+ south_carolina_area_adj:0 "santeano" # [LocEditor:AwaitingBatchUpdate]
  upper_american_georgia_area:0 "Alta Georgia"
  upper_american_georgia_area_name:0 "Coosa"
- upper_american_georgia_area_adj:0 "coosa"
+ upper_american_georgia_area_adj:0 "coosa" # [LocEditor:AwaitingBatchUpdate]
  american_georgia_area:0 "Georgia"
- american_georgia_area_name:0 "Georgia"
- american_georgia_area_adj:0 "georgiano"
- north_florida_area:0 "Florida Norte"
+ american_georgia_area_name:0 "Georgia" # [LocEditor:AwaitingBatchUpdate]
+ american_georgia_area_adj:0 "georgiano" # [LocEditor:AwaitingBatchUpdate]
+ north_florida_area:0 "Florida Norte" # [LocEditor:AwaitingBatchUpdate]
  north_florida_area_name:0 "Timucua"
  north_florida_area_adj:0 "timucuano"
  florida_area:0 "Florida"
- florida_area_name:0 "Florida"
- florida_area_adj:0 "floridano"
- south_appalachia_area:0 "Apalachia Sur"
- south_appalachia_area_name:0 "Tennessee"
- south_appalachia_area_adj:0 "tenesiano"
- appalachia_area:1 "Apalachia Norte"
- appalachia_area_name:0 "Apalaches"
- appalachia_area_adj:0 "apalachense"
+ florida_area_name:0 "Florida" # [LocEditor:AwaitingBatchUpdate]
+ florida_area_adj:0 "floridano" # [LocEditor:AwaitingBatchUpdate]
+ south_appalachia_area:0 "Apalachia Sur" # [LocEditor:AwaitingBatchUpdate]
+ south_appalachia_area_name:0 "Tennessee" # [LocEditor:AwaitingBatchUpdate]
+ south_appalachia_area_adj:0 "tenesiano" # [LocEditor:AwaitingBatchUpdate]
+ appalachia_area:1 "Apalachia Norte" # [LocEditor:AwaitingBatchUpdate]
+ appalachia_area_name:0 "Apalaches" # [LocEditor:AwaitingBatchUpdate]
+ appalachia_area_adj:0 "apalachense" # [LocEditor:AwaitingBatchUpdate]
  west_florida_area:0 "Florida Occidental"
- west_florida_area_name:0 "Mobile"
- west_florida_area_adj:0 "mauvilano"
+ west_florida_area_name:0 "Mobile" # [LocEditor:AwaitingBatchUpdate]
+ west_florida_area_adj:0 "mauvilano" # [LocEditor:AwaitingBatchUpdate]
  mississippi_area:0 "Misisipi"
- mississippi_area_name:0 "Misisipi"
- mississippi_area_adj:0 "misisipiano"
+ mississippi_area_name:0 "Misisipi" # [LocEditor:AwaitingBatchUpdate]
+ mississippi_area_adj:0 "misisipiano" # [LocEditor:AwaitingBatchUpdate]
  alabama_area:0 "Alabama"
- alabama_area_name:0 "Alabama"
- alabama_area_adj:0 "alabamiense"
+ alabama_area_name:0 "Alabama" # [LocEditor:AwaitingBatchUpdate]
+ alabama_area_adj:0 "alabamiense" # [LocEditor:AwaitingBatchUpdate]
  kentucky_area:0 "Kentucky"
- kentucky_area_name:0 "Kentucky"
- kentucky_area_adj:0 "kentuckiano"
- miami_river_area:0 "Miami"
- miami_river_area_name:0 "Miami"
- miami_river_area_adj:0 "miamense"
- mississippi_plain_area:0 "Llanuras del Misisipi"
- mississippi_plain_area_name:0 "Cahokia"
+ kentucky_area_name:0 "Kentucky" # [LocEditor:AwaitingBatchUpdate]
+ kentucky_area_adj:0 "kentuckiano" # [LocEditor:AwaitingBatchUpdate]
+ miami_river_area:0 "Miami" # [LocEditor:AwaitingBatchUpdate]
+ miami_river_area_name:0 "Miami" # [LocEditor:AwaitingBatchUpdate]
+ miami_river_area_adj:0 "miamense" # [LocEditor:AwaitingBatchUpdate]
+ mississippi_plain_area:0 "Llanuras del Misisipi" # [LocEditor:AwaitingBatchUpdate]
+ mississippi_plain_area_name:0 "Cahokia" # [LocEditor:AwaitingBatchUpdate]
  mississippi_plain_area_adj:1 "ugakhpa"
  ohio_country_area:0 "Ohio"
- ohio_country_area_name:0 "Ohio"
- ohio_country_area_adj:0 "ohioano"
+ ohio_country_area_name:0 "Ohio" # [LocEditor:AwaitingBatchUpdate]
+ ohio_country_area_adj:0 "ohioano" # [LocEditor:AwaitingBatchUpdate]
  illinois_country_area:0 "Illinois"
- illinois_country_area_name:0 "Illinois"
- illinois_country_area_adj:0 "ilinés"
+ illinois_country_area_name:0 "Illinois" # [LocEditor:AwaitingBatchUpdate]
+ illinois_country_area_adj:0 "ilinés" # [LocEditor:AwaitingBatchUpdate]
  michigan_area:0 "Michigan"
- michigan_area_name:0 "Michigan"
- michigan_area_adj:0 "michiguense"
+ michigan_area_name:0 "Michigan" # [LocEditor:AwaitingBatchUpdate]
+ michigan_area_adj:0 "michiguense" # [LocEditor:AwaitingBatchUpdate]
  wisconsin_area:0 "Wisconsin"
- wisconsin_area_name:0 "Wisconsin"
- wisconsin_area_adj:0 "wisconsinita"
+ wisconsin_area_name:0 "Wisconsin" # [LocEditor:AwaitingBatchUpdate]
+ wisconsin_area_adj:0 "wisconsinita" # [LocEditor:AwaitingBatchUpdate]
  lake_superior_area:0 "Lago Superior"
- lake_superior_area_name:0 "Mesquakie"
- lake_superior_area_adj:0 "mesquakie"
- lower_louisiana_area:0 "Baja Luisiana"
- lower_louisiana_area_name:0 "Arkansas"
- lower_louisiana_area_adj:0 "arkansano"
+ lake_superior_area_name:0 "Mesquakie" # [LocEditor:AwaitingBatchUpdate]
+ lake_superior_area_adj:0 "mesquakie" # [LocEditor:AwaitingBatchUpdate]
+ lower_louisiana_area:0 "Baja Luisiana" # [LocEditor:AwaitingBatchUpdate]
+ lower_louisiana_area_name:0 "Arkansas" # [LocEditor:AwaitingBatchUpdate]
+ lower_louisiana_area_adj:0 "arkansano" # [LocEditor:AwaitingBatchUpdate]
  upper_louisiana_area:0 "Alta Luisiana"
- upper_louisiana_area_name:0 "Misuri"
- upper_louisiana_area_adj:0 "misuriano"
+ upper_louisiana_area_name:0 "Misuri" # [LocEditor:AwaitingBatchUpdate]
+ upper_louisiana_area_adj:0 "misuriano" # [LocEditor:AwaitingBatchUpdate]
  ozarks_area:0 "Ozarks"
- ozarks_area_name:0 "Pahatsi"
- ozarks_area_adj:0 "pahatsi"
+ ozarks_area_name:0 "Pahatsi" # [LocEditor:AwaitingBatchUpdate]
+ ozarks_area_adj:0 "pahatsi" # [LocEditor:AwaitingBatchUpdate]
  central_plains_area:0 "Llanuras centrales"
- central_plains_area_name:0 "Pawnee"
- central_plains_area_adj:0 "pawnee"
- lower_plains_area:0 "Llanuras Inferiores"
- lower_plains_area_name:0 "Kansas"
- lower_plains_area_adj:0 "kanseño"
+ central_plains_area_name:0 "Pawnee" # [LocEditor:AwaitingBatchUpdate]
+ central_plains_area_adj:0 "pawnee" # [LocEditor:AwaitingBatchUpdate]
+ lower_plains_area:0 "Llanuras Inferiores" # [LocEditor:AwaitingBatchUpdate]
+ lower_plains_area_name:0 "Kansas" # [LocEditor:AwaitingBatchUpdate]
+ lower_plains_area_adj:0 "kanseño" # [LocEditor:AwaitingBatchUpdate]
  high_plains_area:0 "Llanuras Superiores"
- high_plains_area_name:0 "Arapajó"
- high_plains_area_adj:0 "arapajó"
- south_dakota_area:2 "Minesota"
- south_dakota_area_name:0 "Iowa"
- south_dakota_area_adj:0 "iowano"
- dakota_area:0 "Dakota"
- dakota_area_name:0 "Dakota"
- dakota_area_adj:0 "dakoteño"
+ high_plains_area_name:0 "Arapajó" # [LocEditor:AwaitingBatchUpdate]
+ high_plains_area_adj:0 "arapajó" # [LocEditor:AwaitingBatchUpdate]
+ south_dakota_area:3 "Dakota del Sur"
+ south_dakota_area_name:0 "Iowa" # [LocEditor:AwaitingBatchUpdate]
+ south_dakota_area_adj:0 "iowano" # [LocEditor:AwaitingBatchUpdate]
+ dakota_area:1 "Dakota del Norte"
+ dakota_area_name:0 "Dakota" # [LocEditor:AwaitingBatchUpdate]
+ dakota_area_adj:0 "dakoteño" # [LocEditor:AwaitingBatchUpdate]
  upper_missouri_area:0 "Alto Misuri"
- upper_missouri_area_name:0 "Montana"
- upper_missouri_area_adj:0 "montanés"
+ upper_missouri_area_name:0 "Montana" # [LocEditor:AwaitingBatchUpdate]
+ upper_missouri_area_adj:0 "montanés" # [LocEditor:AwaitingBatchUpdate]
  badlands_area:0 "Badlands"
- badlands_area_name:0 "Wyoming"
- badlands_area_adj:0 "wyominguita"
+ badlands_area_name:0 "Wyoming" # [LocEditor:AwaitingBatchUpdate]
+ badlands_area_adj:0 "wyominguita" # [LocEditor:AwaitingBatchUpdate]
  llano_estacado_area:0 "Llano estacado"
- llano_estacado_area_name:0 "Llano Estacado"
- llano_estacado_area_adj:0 "llanoestaqueño"
- coastal_prarie_area:0 "Pradera costera"
- coastal_prarie_area_name:0 "Atakapa"
- coastal_prarie_area_adj:0 "atakapano"
+ llano_estacado_area_name:0 "Llano Estacado" # [LocEditor:AwaitingBatchUpdate]
+ llano_estacado_area_adj:0 "llanoestaqueño" # [LocEditor:AwaitingBatchUpdate]
+ coastal_prarie_area:2 "Pradera costera"
+ coastal_prarie_area_name:0 "Atakapa" # [LocEditor:AwaitingBatchUpdate]
+ coastal_prarie_area_adj:0 "atakapano" # [LocEditor:AwaitingBatchUpdate]
  texas_area:0 "Tejas"
- texas_area_name:0 "Tejas"
- texas_area_adj:0 "tejano"
- rio_grande_area:0 "Rio Grande"
- rio_grande_area_name:0 "Matamoros"
- rio_grande_area_adj:0 "matamorense"
+ texas_area_name:0 "Tejas" # [LocEditor:AwaitingBatchUpdate]
+ texas_area_adj:0 "tejano" # [LocEditor:AwaitingBatchUpdate]
+ rio_grande_area:0 "Rio Grande" # [LocEditor:AwaitingBatchUpdate]
+ rio_grande_area_name:0 "Matamoros" # [LocEditor:AwaitingBatchUpdate]
+ rio_grande_area_adj:0 "matamorense" # [LocEditor:AwaitingBatchUpdate]
  new_mexico_area:0 "Nuevo México"
  new_mexico_area_name:0 "Nuevo México"
  new_mexico_area_adj:0 "neomexicano"
  colorado_plateau_area:0 "Meseta de Colorado"
- colorado_plateau_area_name:0 "Colorado"
- colorado_plateau_area_adj:0 "coloradino"
+ colorado_plateau_area_name:0 "Colorado" # [LocEditor:AwaitingBatchUpdate]
+ colorado_plateau_area_adj:0 "coloradino" # [LocEditor:AwaitingBatchUpdate]
  arizona_area:0 "Arizona"
- arizona_area_name:0 "Arizona"
- arizona_area_adj:0 "arizoniano"
- california_area:0 "California"
- california_area_name:0 "California"
- california_area_adj:0 "californiano"
+ arizona_area_name:0 "Arizona" # [LocEditor:AwaitingBatchUpdate]
+ arizona_area_adj:0 "arizoniano" # [LocEditor:AwaitingBatchUpdate]
+ california_area:0 "California" # [LocEditor:AwaitingBatchUpdate]
+ california_area_name:0 "California" # [LocEditor:AwaitingBatchUpdate]
+ california_area_adj:0 "californiano" # [LocEditor:AwaitingBatchUpdate]
  central_valley_area:0 "Valle Central"
- central_valley_area_name:0 "Sacramento"
- central_valley_area_adj:0 "sacramentino"
+ central_valley_area_name:0 "Sacramento" # [LocEditor:AwaitingBatchUpdate]
+ central_valley_area_adj:0 "sacramentino" # [LocEditor:AwaitingBatchUpdate]
  oregon_area:0 "Oregón"
- oregon_area_name:0 "Oregón"
- oregon_area_adj:0 "oregoniano"
+ oregon_area_name:0 "Oregón" # [LocEditor:AwaitingBatchUpdate]
+ oregon_area_adj:0 "oregoniano" # [LocEditor:AwaitingBatchUpdate]
  columbia_river_area:0 "Rio Columbia"
- columbia_river_area_name:0 "Columbia"
- columbia_river_area_adj:0 "columbiano"
+ columbia_river_area_name:0 "Columbia" # [LocEditor:AwaitingBatchUpdate]
+ columbia_river_area_adj:0 "columbiano" # [LocEditor:AwaitingBatchUpdate]
  snake_river_area:0 "Río Snake"
  snake_river_area_name:0 "Nimiipuu"
  snake_river_area_adj:0 "nimiipuu"
- salish_sea_area:1 "Estrecho de Puget"
- salish_sea_area_name:0 "Squamish"
- salish_sea_area_adj:0 "squamish"
+ salish_sea_area:1 "Estrecho de Puget" # [LocEditor:AwaitingBatchUpdate]
+ salish_sea_area_name:0 "Squamish" # [LocEditor:AwaitingBatchUpdate]
+ salish_sea_area_adj:0 "squamish" # [LocEditor:AwaitingBatchUpdate]
  interior_plateau_area:0 "Meseta Interior"
  interior_plateau_area_name:0 "Dakelh"
- interior_plateau_area_adj:0 "dakelhiano"
+ interior_plateau_area_adj:0 "dakelhiano" # [LocEditor:AwaitingBatchUpdate]
  hecate_strait_area:0 "Estrecho de Hecate"
- hecate_strait_area_name:0 "Kwakiutl"
- hecate_strait_area_adj:0 "kwakiutl"
- alaska_area:0 "Alaska"
- alaska_area_name:0 "Alaska"
- alaska_area_adj:0 "alaskeño"
+ hecate_strait_area_name:0 "Kwakiutl" # [LocEditor:AwaitingBatchUpdate]
+ hecate_strait_area_adj:0 "kwakiutl" # [LocEditor:AwaitingBatchUpdate]
+ alaska_area:0 "Alaska" # [LocEditor:AwaitingBatchUpdate]
+ alaska_area_name:0 "Alaska" # [LocEditor:AwaitingBatchUpdate]
+ alaska_area_adj:0 "alaskeño" # [LocEditor:AwaitingBatchUpdate]
  lower_acadia_area:0 "Acadia Inferior"
- lower_acadia_area_name:0 "Nueva Escocia"
- lower_acadia_area_adj:0 "novoescocés"
+ lower_acadia_area_name:0 "Nueva Escocia" # [LocEditor:AwaitingBatchUpdate]
+ lower_acadia_area_adj:0 "novoescocés" # [LocEditor:AwaitingBatchUpdate]
  upper_acadia_area:0 "Acadia Superior"
- upper_acadia_area_name:0 "Acadia"
- upper_acadia_area_adj:0 "acadiano"
+ upper_acadia_area_name:0 "Acadia" # [LocEditor:AwaitingBatchUpdate]
+ upper_acadia_area_adj:0 "acadiano" # [LocEditor:AwaitingBatchUpdate]
  newfoundland_area:0 "Terranova"
- newfoundland_area_name:0 "Terranova"
- newfoundland_area_adj:0 "terranovense"
+ newfoundland_area_name:0 "Terranova" # [LocEditor:AwaitingBatchUpdate]
+ newfoundland_area_adj:0 "terranovense" # [LocEditor:AwaitingBatchUpdate]
  labrador_area:0 "Labrador"
- labrador_area_name:0 "Labrador"
- labrador_area_adj:0 "labradoreño"
+ labrador_area_name:0 "Labrador" # [LocEditor:AwaitingBatchUpdate]
+ labrador_area_adj:0 "labradoreño" # [LocEditor:AwaitingBatchUpdate]
  cote_nord_area:0 "Cote Nord"
- cote_nord_area_name:0 "Manicouagan"
- cote_nord_area_adj:0 "manicouagano"
- notre_dame_mountains_area:0 "Montañas de Notre Dame"
- notre_dame_mountains_area_name:0 "Kespek"
- notre_dame_mountains_area_adj:0 "kespek"
+ cote_nord_area_name:0 "Manicouagan" # [LocEditor:AwaitingBatchUpdate]
+ cote_nord_area_adj:0 "manicouagano" # [LocEditor:AwaitingBatchUpdate]
+ notre_dame_mountains_area:0 "Montañas de Notre Dame" # [LocEditor:AwaitingBatchUpdate]
+ notre_dame_mountains_area_name:0 "Kespek" # [LocEditor:AwaitingBatchUpdate]
+ notre_dame_mountains_area_adj:0 "kespek" # [LocEditor:AwaitingBatchUpdate]
  lower_canada_area:0 "Bajo Canadá"
- lower_canada_area_name:0 "Canadá"
- lower_canada_area_adj:0 "canadiense"
+ lower_canada_area_name:0 "Canadá" # [LocEditor:AwaitingBatchUpdate]
+ lower_canada_area_adj:0 "canadiense" # [LocEditor:AwaitingBatchUpdate]
  upper_canada_area:0 "Alto Canadá"
- upper_canada_area_name:0 "Ottawa"
- upper_canada_area_adj:0 "otawés"
+ upper_canada_area_name:0 "Ottawa" # [LocEditor:AwaitingBatchUpdate]
+ upper_canada_area_adj:0 "otawés" # [LocEditor:AwaitingBatchUpdate]
  laurentian_area:0 "Laurentia"
- laurentian_area_name:0 "Laurentia"
- laurentian_area_adj:0 "laurentino"
- inner_ontario_area:0 "Ontario interior"
- inner_ontario_area_adj:0 "outoulibi"
- inner_ontario_area_name:0 "outoulibiano"
+ laurentian_area_name:0 "Laurentia" # [LocEditor:AwaitingBatchUpdate]
+ laurentian_area_adj:0 "laurentino" # [LocEditor:AwaitingBatchUpdate]
+ inner_ontario_area:0 "Ontario interior" # [LocEditor:AwaitingBatchUpdate]
+ inner_ontario_area_adj:0 "outoulibi" # [LocEditor:AwaitingBatchUpdate]
+ inner_ontario_area_name:0 "outoulibiano" # [LocEditor:AwaitingBatchUpdate]
  upper_ontario_area:0 "Ontario Superior"
- upper_ontario_area_name:0 "Ontario"
- upper_ontario_area_adj:0 "ontariano"
+ upper_ontario_area_name:0 "Ontario" # [LocEditor:AwaitingBatchUpdate]
+ upper_ontario_area_adj:0 "ontariano" # [LocEditor:AwaitingBatchUpdate]
  huronia_area:0 "Huronia"
- huronia_area_name:0 "Huronia"
- huronia_area_adj:0 "hurón"
+ huronia_area_name:0 "Huronia" # [LocEditor:AwaitingBatchUpdate]
+ huronia_area_adj:0 "hurón" # [LocEditor:AwaitingBatchUpdate]
  james_bay_area:0 "Bahía de James"
- james_bay_area_name:0 "Mosoni"
- james_bay_area_adj:0 "mosoni"
+ james_bay_area_name:0 "Mosoni" # [LocEditor:AwaitingBatchUpdate]
+ james_bay_area_adj:0 "mosoni" # [LocEditor:AwaitingBatchUpdate]
  hudson_bay_area:0 "Bahía de Hudson"
- hudson_bay_area_name:0 "Kuugjuaq"
- hudson_bay_area_adj:0 "kuugjuaq"
- red_river_area:0 "Rio Rojo"
- red_river_area_name:0 "Winnipeg"
- red_river_area_adj:0 "winipegués"
+ hudson_bay_area_name:0 "Kuugjuaq" # [LocEditor:AwaitingBatchUpdate]
+ hudson_bay_area_adj:0 "kuugjuaq" # [LocEditor:AwaitingBatchUpdate]
+ red_river_area:0 "Rio Rojo" # [LocEditor:AwaitingBatchUpdate]
+ red_river_area_name:0 "Winnipeg" # [LocEditor:AwaitingBatchUpdate]
+ red_river_area_adj:0 "winipegués" # [LocEditor:AwaitingBatchUpdate]
  saskatchewan_area:0 "Saskatchewan"
  saskatchewan_area_name:0 "Saskatchewan"
  saskatchewan_area_adj:0 "saskatchewaniano"
- prairies_area:0 "Praderas"
- prairies_area_name:0 "Alberta"
- prairies_area_adj:0 "albertano"
+ prairies_area:0 "Praderas" # [LocEditor:AwaitingBatchUpdate]
+ prairies_area_name:0 "Alberta" # [LocEditor:AwaitingBatchUpdate]
+ prairies_area_adj:0 "albertano" # [LocEditor:AwaitingBatchUpdate]
  athabasca_area:0 "Athabasca"
- athabasca_area_name:0 "Athabasca"
- athabasca_area_adj:0 "atabasco"
- northeast_mexico_area:0 "Noreste de México"
- northeast_mexico_area_name:0 "Tamaulipas"
- northeast_mexico_area_adj:0 "tamaulipeco"
+ athabasca_area_name:0 "Athabasca" # [LocEditor:AwaitingBatchUpdate]
+ athabasca_area_adj:0 "atabasco" # [LocEditor:AwaitingBatchUpdate]
+ northeast_mexico_area:0 "Noreste de México" # [LocEditor:AwaitingBatchUpdate]
+ northeast_mexico_area_name:0 "Tamaulipas" # [LocEditor:AwaitingBatchUpdate]
+ northeast_mexico_area_adj:0 "tamaulipeco" # [LocEditor:AwaitingBatchUpdate]
  durango_area:0 "Durango"
- durango_area_name:0 "Durango"
- durango_area_adj:0 "duranguense"
+ durango_area_name:0 "Durango" # [LocEditor:AwaitingBatchUpdate]
+ durango_area_adj:0 "duranguense" # [LocEditor:AwaitingBatchUpdate]
  sonora_y_sinaloa_area:0 "Sonora y Sinaloa"
- sonora_y_sinaloa_area_name:0 "Sinaloa"
- sonora_y_sinaloa_area_adj:0 "sinaloense"
+ sonora_y_sinaloa_area_name:0 "Sinaloa" # [LocEditor:AwaitingBatchUpdate]
+ sonora_y_sinaloa_area_adj:0 "sinaloense" # [LocEditor:AwaitingBatchUpdate]
  baja_california_area:0 "Baja California"
  baja_california_area_name:0 "Guaycura"
  baja_california_area_adj:0 "guaycura"
@@ -2107,7 +2125,7 @@
  michoacan_area_name:0 "Michoacán"
  michoacan_area_adj:0 "michoacano"
  gran_chichimeca_area:0 "Gran Chichimeca"
- gran_chichimeca_area_name:0 "Chichimequia"
+ gran_chichimeca_area_name:0 "Chichimequia" # [LocEditor:AwaitingBatchUpdate]
  gran_chichimeca_area_adj:0 "chichimeco"
  mexico_area:0 "México"
  mexico_area_name:0 "México"
@@ -2118,27 +2136,27 @@
  oaxaca_area:0 "Oaxaca"
  oaxaca_area_name:0 "Oaxaca"
  oaxaca_area_adj:0 "oaxaqueño"
- eastern_mexico_area:0 "México Occidental"
+ eastern_mexico_area:0 "México Occidental" # [LocEditor:AwaitingBatchUpdate]
  eastern_mexico_area_name:0 "Xalapa"
  eastern_mexico_area_adj:0 "xalapeño"
  chiapas_area:0 "Chiapas"
  chiapas_area_name:0 "Chiapas"
  chiapas_area_adj:0 "chiapaneco"
  yucatan_area:1 "Yucatán Oeste"
- yucatan_area_name:0 "Yucatán"
- yucatan_area_adj:0 "yucateco"
+ yucatan_area_name:0 "Yucatán" # [LocEditor:AwaitingBatchUpdate]
+ yucatan_area_adj:0 "yucateco" # [LocEditor:AwaitingBatchUpdate]
  east_yucatan_area:0 "Yucatán Este"
- east_yucatan_area_name:0 "Cocomes"
- east_yucatan_area_adj:0 "cocomesano"
+ east_yucatan_area_name:0 "Cocomes" # [LocEditor:AwaitingBatchUpdate]
+ east_yucatan_area_adj:0 "cocomesano" # [LocEditor:AwaitingBatchUpdate]
  guatemala_area:0 "Guatemala"
- guatemala_area_name:0 "Guatemala"
- guatemala_area_adj:0 "guatemalteco"
+ guatemala_area_name:0 "Guatemala" # [LocEditor:AwaitingBatchUpdate]
+ guatemala_area_adj:0 "guatemalteco" # [LocEditor:AwaitingBatchUpdate]
  honduras_area:0 "Honduras"
- honduras_area_name:0 "Honduras"
- honduras_area_adj:0 "hondureño"
+ honduras_area_name:0 "Honduras" # [LocEditor:AwaitingBatchUpdate]
+ honduras_area_adj:0 "hondureño" # [LocEditor:AwaitingBatchUpdate]
  nicaragua_area:0 "Nicaragua"
- nicaragua_area_name:0 "Nicaragua"
- nicaragua_area_adj:0 "nicaragüense"
+ nicaragua_area_name:0 "Nicaragua" # [LocEditor:AwaitingBatchUpdate]
+ nicaragua_area_adj:0 "nicaragüense" # [LocEditor:AwaitingBatchUpdate]
  assiniboia_area:0 "Assiniboia"
  assiniboia_area_name:0 "Nakoda"
  assiniboia_area_adj:0 "nakodano"
@@ -2155,14 +2173,14 @@
  panama_area_name:0 "Panamá"
  panama_area_adj:0 "panameño"
  cuba_area:1 "Cuba Oeste"
- cuba_area_name:0 "Cuba"
- cuba_area_adj:0 "cubano"
+ cuba_area_name:0 "Cuba" # [LocEditor:AwaitingBatchUpdate]
+ cuba_area_adj:0 "cubano" # [LocEditor:AwaitingBatchUpdate]
  east_cuba_area:0 "Cuba Este"
  east_cuba_area_name:0 "Baracoa"
  east_cuba_area_adj:0 "baracoano"
  hispaniola_area:1 "Haití"
- hispaniola_area_name:0 "La Española"
- hispaniola_area_adj:0 "españolense"
+ hispaniola_area_name:0 "La Española" # [LocEditor:AwaitingBatchUpdate]
+ hispaniola_area_adj:0 "españolense" # [LocEditor:AwaitingBatchUpdate]
  greater_antilles_area:0 "Antillas Mayores"
  greater_antilles_area_name:0 "Jamaica"
  greater_antilles_area_adj:0 "jamaicano"
@@ -2211,7 +2229,7 @@
  caribbean_sea_area:0 "Mar Caribe"
  gulf_of_mexico_area:0 "Golfo de México"
  sea_of_labrador_area:0 "Mar de Labrador"
- hudson_bay_sea_area:0 "Bahía de Hudson"
+ hudson_bay_sea_area:0 "Mar de la Bahía de Hudson"
  denmark_strait_area:0 "Estrecho de Dinamarca"
  gulf_of_guinea_sea_area:0 "Golfo del Mar de Guinea"
  cape_of_storms_area:0 "Cabo de las Tormentas"
@@ -2224,7 +2242,7 @@
  coast_of_brazil_sea_area:0 "Costa de Brasil"
  coast_of_guyana_area:0 "Costa de Guyana"
  celtic_sea_area:0 "Mar Céltico"
- west_african_coast_sea_area:0 "Costa de África Occidental"
+ west_african_coast_sea_area:0 "Mar de África Occidental"
  south_atlantic_area:0 "Atlántico Sur"
  argentine_sea_area:0 "Mar Argentino"
  gulf_of_st_lawrence_area:0 "Golfo de San Lorenzo"
@@ -2334,9 +2352,9 @@
  east_africa_region:0 "África Oriental"
  east_africa_region_name:0 "Suajilia"
  east_africa_region_adj:0 "suajili"
- kongo_region:0 "Congo"
- kongo_region_name:0 "Congo"
- kongo_region_adj:0 "congoleño"
+ kongo_region:0 "Congo" # [LocEditor:AwaitingBatchUpdate]
+ kongo_region_name:0 "Congo" # [LocEditor:AwaitingBatchUpdate]
+ kongo_region_adj:0 "congoleño" # [LocEditor:AwaitingBatchUpdate]
  central_asia_region:0 "Asia Central"
  central_asia_region_name:0 "Tartaria"
  central_asia_region_adj:0 "tártaro"
@@ -2439,7 +2457,7 @@
  mississippi_region:0 "Misisipi"
  mississippi_region_name:1 "Misisipi"
  mississippi_region_adj:1 "misisipiano"
- choctaw_area:0 "Choctaw"
+ choctaw_area:0 "Choctaw" # [LocEditor:AwaitingBatchUpdate]
  choctaw_area_name:0 "Choctaw"
  choctaw_area_adj:0 "choctaw"
  great_plains_region:0 "Grandes Llanuras"
@@ -2544,7 +2562,7 @@
  madagascar_highlands_area:0 "Tierras altas de Madagascar"
  madagascar_highlands_area_name:0 "Merina"
  madagascar_highlands_area_adj:0 "merina"
- bothnia_area:0 "Ostrobothnia"
+ bothnia_area:0 "Ostrobothnia" # [LocEditor:AwaitingBatchUpdate]
  bothnia_area_name:0 "Botnia"
  bothnia_area_adj:0 "botnio"
  western_ireland_area:0 "Irlanda Occidental"
@@ -2826,6 +2844,12 @@
  apacheria_area_area:0 "Apachería"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ georgia_area:0 "Georgia"
+ georgia_area_name:0 "Georgia"
+ georgia_area_adj:0 "georgiano"
+ te_ika_a_maui_area:0 "Te Ika un Maui"
+ te_ika_a_maui_area_name:0 "Te Ika a Maui"
+ te_ika_a_maui_area_adj:0 "maorí"
  najd_area:0 "Nayd"
  zambezi_area:0 "Zambeze"
  north_korea_area:0 "Corea del Norte"

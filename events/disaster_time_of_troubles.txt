@@ -262,7 +262,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { allow_new_heir = no }
 		}
 		define_ruler = {
 			name = "Dimitri I"
@@ -670,7 +670,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { allow_new_heir = no }
 		}
 		define_ruler = {
 			name = "Vasily"
@@ -712,6 +712,7 @@ country_event = {
 		days = 1
 	}
 	immediate = {
+		on_non_estate_disaster_end = yes
 		set_country_flag = rus_had_time_of_troubles
 	}
 	
@@ -734,7 +735,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { allow_new_heir = no }
 		}
 		define_ruler = {
 			name = "Mikhail I"

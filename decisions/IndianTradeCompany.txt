@@ -61,6 +61,9 @@ country_decisions = {
 			NOT = {
 				has_country_modifier = portuguese_india_trade_co
 			}
+			NOT = {
+				has_country_modifier = scottish_india_trade_co
+			}
 		}
 
 		allow = {
@@ -81,21 +84,27 @@ country_decisions = {
 
 		effect = {
 			set_country_flag = trade_company
-			add_treasury = 200
 			add_country_modifier = {
 				name = "india_trade_co"
 				duration = -1
 			}
-			hidden_effect = {
-				if = {
-					limit = {
-						OR = {
-							tag = ENG
-							tag = GBR
+			if = {
+				limit = { has_dlc = "Domination" }
+				add_treasury = 300
+			}
+			else = {
+				add_treasury = 200
+				hidden_effect = {
+					if = {
+						limit = {
+							OR = {
+								tag = ENG
+								tag = GBR
+							}
 						}
+						country_event = { id = flavor_eng.9145 days = 1 }
 					}
-					country_event = { id = flavor_eng.9145 days = 1 }
-				}
+				}	
 			}
 		}
 		ai_will_do = {

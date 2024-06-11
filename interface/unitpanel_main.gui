@@ -207,6 +207,21 @@ guiTypes = {
 			position = { x = 378 y = 325}
 			Orientation = "UPPER_LEFT"
 		}
+		
+		guiButtonType = {
+			name = "enable_carpet_siege"
+			position = { x=421 y=413}
+			quadTextureSprite ="GFX_unitpanel_button_enable_carpet_siege"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		iconType = {
+			name ="enable_carpet_siege_glow"
+			spriteType = "GFX_unitpanel_button_large_glow"
+			position = { x = 421 y = 413}
+			Orientation = "UPPER_LEFT"
+		}
 		guiButtonType = {
 			name = "army_drill_button"
 			position = { x = 378 y = 413}
@@ -865,9 +880,10 @@ guiTypes = {
 		iconType =
 		{
 			name ="sailor_maintenance"
-			spriteType = "GFX_icon_sailors"
-			position = { x= 336 y = 455 }
+			spriteType = "GFX_icon_sailor_maintenance"
+			position = { x= 336 y = 450 }
 			Orientation = "UPPER_LEFT"
+			scale = 0.5
 		}
 
 		
@@ -1022,6 +1038,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
+			alwaystransparent = yes
 			maxWidth = 200
 			maxHeight = 32	
 		}
@@ -1036,4 +1053,5 @@ guiTypes = {
 			buttonFont = "vic_18"
 			Orientation = "UPPER_LEFT"
 		}
+	}
 }

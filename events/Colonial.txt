@@ -803,6 +803,13 @@ province_event = {
 			}
 		}
 	}
+
+	immediate = {
+		hidden_effect = {
+			clr_province_flag = received_trade_goods
+			set_province_flag = received_trade_goods
+		}
+	}
 	
 	mean_time_to_happen = {
 		days = 1
@@ -1107,6 +1114,13 @@ province_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+
+	immediate = {
+		hidden_effect = {
+			clr_province_flag = received_trade_goods
+			set_province_flag = received_trade_goods
+		}
+	}
 	
 	option = {
 		name = "colonial.EVTOPTA18"
@@ -1194,6 +1208,14 @@ province_event = {
 	option = {
 		name = "colonial.19.a"
 
-		add_center_of_trade_level = 1
+		if = {
+			limit = {
+				NOT = { province_has_center_of_trade_of_level = 2 }
+			}
+			add_center_of_trade_level = 1
+		}
+		else = {
+			add_base_production = 2
+		}
 	}
 }

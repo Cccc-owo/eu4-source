@@ -11,6 +11,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = PER }
 			NOT = { tag = MUG }
 			NOT = { tag = TUR }
@@ -63,13 +67,18 @@ country_decisions = {
 				owns_core_province = 2075 #Sirhind
 				owns_core_province = 524 #Agra
 			}
-			owns_core_province = 522 #Delhi
+			owns_core_province = 522 	#Delhi
+			522 = {						#Delhi
+				is_state = yes
+			}
 		}
 		effect = {
 			522 = {
 				move_capital_effect = yes
 			}
 			change_tag = MUG
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_primary_culture = kanauji
@@ -99,7 +108,7 @@ country_decisions = {
 					NOT = { government = monarchy }
 					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 			}
 			if = {
 				limit = {
@@ -112,14 +121,14 @@ country_decisions = {
 			if = {
 				limit = {
 					has_dlc = "Dharma"
-					has_reform_level = 3
+					reform_level = 3
 				}
 				add_government_reform = mansabdari_reform
 			}
 			if = {
 				limit = {
 					has_dlc = "Dharma"
-					has_reform_level = 4
+					reform_level = 4
 				}
 				add_government_reform = zabt_reform
 			}
@@ -165,7 +174,14 @@ country_decisions = {
 			set_country_flag = formed_mughal_empire_flag
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { tag = TIM }
+				NOT = { tag = AFG }
+				NOT = { tag = BAL }
+				NOT = { total_development = 350 }
+			}
 		}
 		ai_importance = 600
 	}

@@ -26,13 +26,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_panel_bg"
 		texturefile = "gfx\\interface\\Unit_Panel_bg.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_Navy_panel_bg"
 		texturefile = "gfx\\interface\\Navy_Panel_bg.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -260,7 +260,7 @@ spriteTypes = {
 		size= {x=32 y=32 }
 		texturefile = "gfx//interface//building_improvement_onmap.dds"
 		borderSize = { x=8 y=8 }
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -271,25 +271,25 @@ spriteTypes = {
 	spriteType = {
 		name = "onmap_builing_bg1"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg1.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "onmap_builing_bg1_extended"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg1_extended.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
 		name = "GFX_onmap_building_bg2"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg_small.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
 		name = "GFX_onmap_building_bg_simple"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg_simple.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
@@ -300,25 +300,25 @@ spriteTypes = {
 	spriteType = {
 		name = "onmap_builing_bg2"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg2.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "onmap_builing_bg3"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg3.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
 		name = "onmap_builing_bg4"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg4.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 
 	spriteType = {
 		name = "onmap_builing_bg6"
 		texturefile = "gfx\\interface\\building_improvement_onmap_bg6.tga"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 	
 	spriteType = {
@@ -391,5 +391,35 @@ spriteTypes = {
 		name = "GFX_battle_mapicon"
 		texturefile = "gfx//interface//battle_mapicon.dds"
 		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_panel_neighbouring"
+		texturefile = "gfx/interface/unit_panel_neighbouring.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_unit_panel_own_subject"
+		texturefile = "gfx/interface/unit_panel_own_subject.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_unit_panel_outraged"
+		texturefile = "gfx/interface/unit_panel_outraged.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_unit_panel_allies"
+		texturefile = "gfx/interface/unit_panel_allies.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_unit_panel_threatening"
+		texturefile = "gfx/interface/unit_panel_threatening.dds"
+		alwaystransparent = yes
 	}
 }

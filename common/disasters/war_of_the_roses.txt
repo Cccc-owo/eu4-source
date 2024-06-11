@@ -1,17 +1,24 @@
 war_of_the_roses = {
 	potential = {
 		tag = ENG
+		current_age = age_of_discovery
 		normal_or_historical_nations = yes
 		government = monarchy
 		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		NOT = { has_country_flag = had_war_of_the_roses  }
+		is_tutorial_active = no
 	}
 
 
 
 	can_start = {
 		current_age = age_of_discovery
+		OR = {
+			dynasty = York
+			dynasty = Lancaster
+			dynasty = Plantagenet
+		}
 		has_any_disaster = no
 		OR = {
 			has_heir = no

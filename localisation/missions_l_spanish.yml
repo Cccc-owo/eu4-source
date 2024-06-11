@@ -1,11 +1,11 @@
 ﻿l_spanish:
- monopolize_british_cot_desc:0 "Las compañías mercantes se están quejando de que nuestra riqueza está fluyendo en manos de los comerciantes extranjeros y de esta manera desaparece del país. Están pidiendo el apoyo del gobierno para establecer un control sobre el comercio británico."
+ monopolize_british_cot_desc:0 "Las compañías mercantes se están quejando de que nuestra riqueza está fluyendo en manos de los comerciantes extranjeros y de esta manera desaparece del país. Reclaman el apoyo del gobierno para establecer un control sobre el comercio británico."
  monopolize_japanese_cot_title:0 "Controlar el comercio japonés"
  monopolize_italian_cot_title:0 "Controlar el comercio italiano"
  monopolize_italian_cot_desc:0 "Venecia es, ante todo, una nación comercial. Los poderosos comerciantes están pidiendo apoyo para que puedan controlar el comercio en Italia."
  tradenode_tunis_title:0 "Problemas comerciales en Túnez"
  tradenode_tunis_desc:0 "Nuestra nación se beneficiaría al controlar el comercio en Túnez, haciéndonos un nombre en el comercio del Mediterráneo"
- tradenode_alexandria_title:0 "Cerveza de Malta en Alejandría"
+ tradenode_alexandria_title:0 "Cerveza en Alejandría"
  tradenode_alexandria_desc:0 "Nuestros mercaderes han intentado unirse a los comerciantes de Alejandría, pero las persistentes costumbres y un líder poco dispuesto a reconocer la superioridad del comercio de Genova nos obliga a tomar una posición."
  tradenode_thrace_title:0 "Problemas comerciales en Tracia"
  tradenode_thrace_desc:0 "Tracia es uno de los muchos puertos alrededor del Mediterráneo y uno de los más ricos. Nuestros comerciantes nos han instado a tomar el control del comercio de Tracia y así será."
@@ -26,9 +26,9 @@
  befriend_rival_rival_title:0 "El rival de nuestro rival"
  befriend_rival_rival_desc:0 "El rival de nuestro rival es $COUNTRY$ así que deberían ser nuestros amigos."
  take_from_rival_culture_title:0 "¡Salvar a la gente de $PROVINCECULTURE$!"
- take_from_rival_culture_desc:0 "Nuestro rival $OWNERNAME$ tiene a nuestros compañeros como rehenes en $PROVINCENAME$ ¡es momento de salvarlos!"
+ take_from_rival_culture_desc:0 "Nuestro rival $OWNERNAME$ tiene a nuestros hermanos como rehenes en $PROVINCENAME$ ¡es momento de salvarlos!"
  take_from_rival_religion_title:0 "Salvar a los fieles de $PROVINCENAME$!"
- take_from_rival_religion_desc:0 "Nuestro rival $OWNERNAME$ persigue cruelmente a nuestros compañeros en $PROVINCENAME$ ¡debemos salvar sus almas!"
+ take_from_rival_religion_desc:0 "Nuestro rival $OWNERNAME$ persigue cruelmente a nuestros hermanos en $PROVINCENAME$ ¡debemos salvar sus almas!"
  befriend_threat_rival_title:0 "El rival de una amenaza"
  befriend_threat_rival_desc:0 "$COUNTRY$ es el rival de un país al que consideramos una amenaza para nosotros"
  improve_fort_threat_1_title:0 "Fortificar la frontera amenazada"
@@ -37,14 +37,14 @@
  improve_fort_threat_2_desc:0 "Nuestro vecino parece hostil, mejorar nuestra fortaleza nos haría sentirnos más seguros."
  royal_marriage_threat_title:0 "Boda estratégica con $COUNTRY$"
  royal_marriage_threat_desc:0 "Las amenazantes fuerzas de $COUNTRY$ se aproximan hacia nosotros, pero tal vez un Matrimonio Real nos mantendría a salvo de sus maneras belicistas."
- improve_relations_threat_title:0 "Aplacar $COUNTRY$"
+ improve_relations_threat_title:0 "Aplacar a $COUNTRY$"
  improve_relations_threat_desc:0 "$COUNTRY$ es una amenaza para nuestra nacióndebemos mejorar las relaciones con ellos para evitar un ataque."
  go_legitimate_title:0 "Demostrar Legitimidad"
  go_legitimate_desc:0 "Nuestra monarquía parece inestable, debemos demostrar al pueblo que nuestra monarquía es su legítimo gobernante."
- make_core_province_title:0 "Integrar $PROVINCENAME$"
+ make_core_province_title:0 "Integrar a $PROVINCENAME$"
  make_core_province_desc:0 "¡$PROVINCENAME$ debe convertirse en Núcleo Provincial de nuestra nación!"
  change_province_culture_title:0 "Esparcir nuestra cultura por $PROVINCENAME$"
- change_province_culture_desc:0 "La cultura de $PROVINCENAME$ es diferente de la nuestra. Esto hace que nuestra gente se sienta incómoda al visitar $PROVINCENAME$. Esto debería ser rectificado."
+ change_province_culture_desc:0 "La cultura de $PROVINCENAME$ es diferente de la nuestra. Esto hace que nuestra gente se sienta incómoda al visitar $PROVINCENAME$. Debenmos rectificar eso."
  control_the_pope_title:0 "Convertirse en Controlador Papal"
  control_the_pope_desc:0 "Sobornando a algunos cardenales clave podríamos beneficiarnos del hecho de controlar las acciones del Santo Padre."
  achive_religious_unity_title:0 "Conseguir unidad religiosa"
@@ -118,7 +118,7 @@
  make_base_on_spice_islands_jakarta_desc:0 "Las Indias Orientales son el centro mundial de las especias, grandes riquezas hay para la naciãn que expanda el comercio de las especias. ¡La especia debe fluir!"
  portugal_discovers_central_africa_title:0 "Descubrir qué aguarda en el lejano sur"
  portugal_discovers_central_africa_desc:0 "Muy pocos exploradores han aventurado al sur de la Costa de Marfil, y menos todavía han vuelto. ¿Hay otro continente allí, lleno de antípodas? ¿Tierras con las bestias legendarias? Ya es hora de descubrir qué hay allí y negociar con ello."
- portugal_colonizes_central_africa_title:0 "Establecer un puesto comercial en Angola"
+ portugal_colonizes_central_africa_title:0 "Establecer un puesto comercial en Angola" # [LocEditor:AwaitingBatchUpdate]
  portugal_colonizes_central_africa_desc:0 "Con exploraciones más lejanas de la costa africana, está quedando claro que necesitamos establecer más puertos para que nuestras naves anclen en sus largas travesías."
  portugal_rounds_cape_of_good_hope_title:0 "Rodear el Cabo de Buena Esperanza"
  portugal_rounds_cape_of_good_hope_desc:0 "Aunque nos llevó atravesar aguas traicioneras y recorrer costas inhóspitas, parece que hemos encontrado lo que buscábamos. La legendaria punta meridional de África. Ahora necesitamos descubrir qué se encuentra al otro lado."
@@ -128,8 +128,8 @@
  portugal_explore_east_africa_desc:0 "Todo lo que sabemos es que se intercambian grandes riquezas a lo largo de la costa de África Oriental. Comerciantes también han regresado a Portugal con los artefactos indios, lo que significa que las riquezas de Asia están a nuestro alcance."
  portugal_establish_naval_base_mozambique_title:0 "Establecer una base naval en Mozambique"
  portugal_establish_naval_base_mozambique_desc:0 "Nuestra gran búsqueda está casi terminada, pero para que nuestros buques mercantes sobrevivan al largo viaje del Océano Índico, necesitamos puertos que puedan ofrecer un descanso en su camino."
- portugal_establish_naval_base_zanzibar_title:0 "Someter a los comerciantes suajili"
- portugal_establish_naval_base_zanzibar_desc:0 "La costa norte suajili costa está cubierta de ricas ciudades comerciales donde mercaderes indios y persas vienen a comprar oro y marfil a cambio de sus telas y productos manufacturados. Sin embargo, estas ciudades comerciales tienen una situación muy precaria para alguien que controle el mar abierto. Conquistemos estas tierras y pongámoslas bajo el firme control portugués."
+ portugal_establish_naval_base_zanzibar_title:0 "Someter a los comerciantes suajili" # [LocEditor:AwaitingBatchUpdate]
+ portugal_establish_naval_base_zanzibar_desc:0 "La costa norte suajili costa está cubierta de ricas ciudades comerciales donde mercaderes indios y persas vienen a comprar oro y marfil a cambio de sus telas y productos manufacturados. Sin embargo, estas ciudades comerciales tienen una situación muy precaria para alguien que controle el mar abierto. Conquistemos estas tierras y pongámoslas bajo el firme control portugués." # [LocEditor:AwaitingBatchUpdate]
  portugal_explore_horn_of_africa_title:0 "Explorar el Cuerno de África"
  portugal_explore_horn_of_africa_desc:0 "Nuestros exploradores han alcanzado al fin el otro lado del Golfo de Adén, donde tanta especias y otros objetos de valor se importan al Mediterráneo. Debemos trazar un mapa de esta área si queremos traer estas riquezas a Portugal."
  portugal_establish_naval_base_horn_of_africa_title:0 "Establecer una base naval a lo largo del Cuerno de África"
@@ -244,12 +244,12 @@
  #Start New Missions
  secure_the_imperial_crown_title:0 "Asegurar electores"
  secure_the_imperial_crown_desc:0 "Desde que Rodolfo, conde of Habsburgo, fue coronado emperador del Sacro Imperio y puso a su familia en el Ducado de Austria, todos los condes han tenido la meta de ser emperadores. Hagamos lo que debamos para asegurarnos de que el imperio tenga la estabilidad que necesita, un emperador austríaco."
- subjugate_bohemia_title:0 "Controlar Bohemia"
- subjugate_bohemia_desc:0 "El destino del Reino of Bohemia siempre ha sido de interés para los duques de Austria. Debemos ser más activos y poner este reino en nuestra órbita con firmeza."
+ subjugate_bohemia_title:0 "Controlar Bohemia" # [LocEditor:AwaitingBatchUpdate]
+ subjugate_bohemia_desc:0 "El destino del Reino of Bohemia siempre ha sido de interés para los duques de Austria. Debemos ser más activos y poner este reino en nuestra órbita con firmeza." # [LocEditor:AwaitingBatchUpdate]
  recover_silesia_title:0 "Recuperar Silesia"
  recover_silesia_desc:0 "La provincia de Silesia es parte legítima de la herencia de los Habsburgo, pero se ha perdido. Tenemos que recuperarla por el bien de la majestad de la dinastía Habsburgo. "
- partition_poland_title:0 "Conquistar Galitzia"
- partition_poland_desc:0 "La Galitzia polaca fue otrora un valioso tapón ante nuestros otros vecinos. Sin embargo, ya ha llegado la hora de quedarnos con estas provincias para que correr el riesgo de que caigan en manos de nuestros rivales."
+ partition_poland_title:0 "Conquistar Galitzia" # [LocEditor:AwaitingBatchUpdate]
+ partition_poland_desc:0 "La Galitzia polaca fue otrora un valioso tapón ante nuestros otros vecinos. Sin embargo, ya ha llegado la hora de quedarnos con estas provincias para que correr el riesgo de que caigan en manos de nuestros rivales." # [LocEditor:AwaitingBatchUpdate]
  subjugate_hungary_title:0 "El rechazo de Hungría "
  subjugate_hungary_desc:0 "El relativo rechazo de Hungría en relación con el Ducado de Austria es causa de preocupación. Tenemos que fortalecer nuestra relación con Hungría para asegurarnos de que sus territorios no caen en manos hostiles. "
  austrian_hungary_title:0 "Hungría Real"
@@ -260,13 +260,13 @@
  conquer_transylvania_desc:0 "La Hungría oriental debe estar bajo control directo austríaco. Eso nos permitirá proteger a las gentes cristianas de la región del peligro de ofensivas turcas."
  austrian_italian_ambition_title:0 "Ambición italiana"
  austrian_italian_ambition_desc:0 "Las ricas tierras del Norte de Italia llevan mucho tiempo desobedeciendo los edictos imperiales. No se puede permitir ciudades así tan cerca del corazón de Austria."
- unite_austria_title:0 "Dominio Habsburgo"
+ unite_austria_title:0 "Dominio Habsburgo" # [LocEditor:AwaitingBatchUpdate]
  unite_austria_desc:0 "Siguiendo la tradición alemana, las tierras de los Habsburgo fueron divididas para asegurar que cada hijo recibiera una herencia. Sin embargo, las ramas separadas ya no reconocen el señorío de la rama austriaca. Tenemos que unir las tierras de la familia si queremos prosperar. "
  head_of_the_habsburgs_title:0 "AEIOU"
  head_of_the_habsburgs_desc:0 "El destino de Austria es gobernar el mundo, y el de [Root.GetName] es gobernar Austria. Como guardianes de la herencia Habsburgo, debemos ocupar nuestro lugar como legítimos gobernantes de Austria."
- vassalize_wallachia_title:0 "Conquistar Valaquia"
+ vassalize_wallachia_title:0 "Conquistar Valaquia" # [LocEditor:AwaitingBatchUpdate]
  vassalize_wallachia_desc:0 "El príncipe de Valaquia gobierna un territorio relativamente pobre que el sultán no tiene interés en gobernar. Sin embargo, tiene frontera con nuestras tierras y sería insensato permitirle que siga siendo independiente. "
- vassalize_transylvania_title:0 "Conquistar Transilvania"
+ vassalize_transylvania_title:0 "Conquistar Transilvania" # [LocEditor:AwaitingBatchUpdate]
  vassalize_transylvania_desc:0 "Nuestros esfuerzos por expulsar a los cruzados francos nos han llevado a capturar aún más tierras balcánicas desde la casa de la guerra. Ahora tenemos una frontera con el príncipe de Transilvania y, por la seguridad de la casa de la sumisión, debe reconocer nuestra jefatura. "
  conquer_hungary_title:0 "Controlar el Danubio"
  conquer_hungary_desc:0 "Sigamos avanzando a lo largo del Danubio hacia el corazón de Hungría, Austria y el Sacro Imperio Romano."
@@ -274,7 +274,7 @@
  conquer_serbia_desc:0 "Desde que el rey húngaro Sigmundo condujo una fuerza de cruzados francos contra las fuerzas otomanas, no hemos estado seguros. Aunque Alá nos concedió la victoria aquel día, tenemos que adentrarnos más en los Balcanes para asegurarnos de que, en el futuro, nuestros territorios estén protegidos. "
  conquer_bosnia_title:0 "Conquistar Bosnia"
  conquer_bosnia_desc:0 "Nos han llegado informes de que el rey de Bosnia está conspirando con el Papa para fomentar el conflicto en los Balcanes. Con la ayuda de Dios, nos aseguraremos de que tales conjuras no tengan éxito. "
- conquer_southern_greece_title:0 "Conquistar Grecia"
+ conquer_southern_greece_title:0 "Conquistar Grecia" # [LocEditor:AwaitingBatchUpdate]
  conquer_southern_greece_desc:0 "Los estados del sur de Grecia podrían servir de pasarela a los infieles para llevar una cruzada contra nosotros. Tenemos que asegurar nuestro flanco sur, para que el auténtico líder del Islam prospere. "
  defeat_the_byzantine_empire_title:0 "La Ciudad del Deseo del Mundo"
  defeat_the_byzantine_empire_desc:0 "Las últimas órdenes del gran profeta fueron enviar guerreros de la fe para someter a los romanos. Tenemos que hacer lo que ningún otro ghazi ha hecho y conquistar la ciudad en nombre del Profeta. "
@@ -304,17 +304,17 @@
  conquer_tunisia_desc:0 "En caso de que Túnez cayera en manos cristianas, nuestro dominio sobre el norte de África podría ser contestado. La población local, bajo la fuerte presión de los cristianos que buscan controlar el Mediterráneo Occidental, le dará la bienvenida a nuestros ejércitos como salvadores y protectores."
  subjugate_algiers_title:0 "Subyugar Argelia"
  subjugate_algiers_desc:0 "Si no queremos que nuestros intereses en el Magreb encuentren nuevos obstáculos, hemos de asegurar relaciones más fuertes allí. Es hora de que la muy amenazada por los cristianos Argelia caiga en nuestra esfera de influencia."
- defeat_the_knights_title:0 "El último bastión cruzado"
+ defeat_the_knights_title:0 "El último bastión cruzado" # [LocEditor:AwaitingBatchUpdate]
  defeat_the_knights_desc:0 "Gracias a la voluntad de Alá, las fuerzas del Islam han podido expulsar a los infieles cruzados francos de la Tierra Santa. Aún siguen en la isla de Rodas, albergando sueños de nuevas cruzadas. La Ciudad Santa de Jerusalén, donde el Profeta ascendió a los cielos, debe ser protegida de sus garras. "
  take_crete_from_venice_title:0 "Conquistar Creta"
  take_crete_from_venice_desc:0 "Los piratas infieles usan la isla de Creta como base para abordar nuestros barcos. Tenemos que conquistar la isla y proteger nuestras embarcaciones. "
  recover_greece_title:0 "Recuperar Grecia "
  recover_greece_desc:0 "Tras las repetidas acometidas de los turcos, el reino apenas es una sombra de sí mismo. Para alzarnos de las cenizas, cual ave fénix, tenemos que recuperar el territorio griego. "
- recover_the_coast_of_asia_minor_title:0 "Recuperar la costa"
+ recover_the_coast_of_asia_minor_title:0 "Recuperar la costa" # [LocEditor:AwaitingBatchUpdate]
  recover_the_coast_of_asia_minor_desc:0 "Mientras los territorios del Asia Menor estén en manos del enemigo, nunca estaremos seguros. Si tomamos las provincias costeras, conseguiremos la holgura que necesitamos. "
- recover_the_balkans_title:0 "Conquistar Bulgaria"
- recover_the_balkans_desc:0 "Si queremos proteger la segunda Roma, debemos extender nuestras tierras por los Balcanes orientales, por las tierras del zarato búlgaro. Aunque los búlgaros son un pueblo orgulloso, se han rebelado a menudo contra el dominio otomano, así que seguramente se unirían con gusto a un Imperio romano renacido."
- convert_asia_minor_title:0 "Convertir Asia Menor"
+ recover_the_balkans_title:0 "Conquistar Bulgaria" # [LocEditor:AwaitingBatchUpdate]
+ recover_the_balkans_desc:0 "Si queremos proteger la segunda Roma, debemos extender nuestras tierras por los Balcanes orientales, por las tierras del zarato búlgaro. Aunque los búlgaros son un pueblo orgulloso, se han rebelado a menudo contra el dominio otomano, así que seguramente se unirían con gusto a un Imperio romano renacido." # [LocEditor:AwaitingBatchUpdate]
+ convert_asia_minor_title:0 "Convertir Asia Menor" # [LocEditor:AwaitingBatchUpdate]
  convert_asia_minor_desc:0 "Los pueblos de Asia Menor han adoptado, lamentablemente, la fe de sus conquistadores. Ahora que han sido liberados, debemos devolverlos a la santa doctrina ortodoxa. "
  convert_asia_minor_pp_title:1 "Convertir Asia menor"
  convert_asia_minor_pp_desc:0 "Por desgracia, el pueblo de Asia menor ha adoptado la fe de sus conquistadores. Ahora que fueron liberados, debemos devolverles a la santa fe ortodoxa."
@@ -344,10 +344,10 @@
  recover_northern_balkans_desc:0 "Debemos reclamar el antíguo límite norte y establecer una nueva frontera contra los bárbaros germánicos."
  recover_western_balkans_title:1 "Conquistar los Balcanes"
  recover_western_balkans_desc:0 "Debemos restablecer de nuevo nuestra autoridad sobre la península balcánica, reclamar la costa adriática y fijar el Danubio como frontera norte."
- recover_west_anatolia_title:0 "Anatolia occidental"
- recover_west_anatolia_desc:0 "Llegó el momento de reclamar Anatolia de los turcos y restablecer el dominio sobre lo que antaño fue parte central del Imperio."
- recover_central_anatolia_title:0 "Anatolia central"
- recover_central_anatolia_desc:0 "Debemos seguir haciendo retroceder a los turcos y reclamar más áreas para el Imperio romano. Hemos de restablecer el dominio sobre la parte central de Anatolia tanto por ser nuestra herencia como por defender bien la misma Ciudad Deseada por el mundo."
+ recover_west_anatolia_title:0 "Anatolia occidental" # [LocEditor:AwaitingBatchUpdate]
+ recover_west_anatolia_desc:0 "Llegó el momento de reclamar Anatolia de los turcos y restablecer el dominio sobre lo que antaño fue parte central del Imperio." # [LocEditor:AwaitingBatchUpdate]
+ recover_central_anatolia_title:0 "Anatolia central" # [LocEditor:AwaitingBatchUpdate]
+ recover_central_anatolia_desc:0 "Debemos seguir haciendo retroceder a los turcos y reclamar más áreas para el Imperio romano. Hemos de restablecer el dominio sobre la parte central de Anatolia tanto por ser nuestra herencia como por defender bien la misma Ciudad Deseada por el mundo." # [LocEditor:AwaitingBatchUpdate]
  conquest_of_azerbaijan_title:0 "Azerbaiyán persa"
  conquest_of_azerbaijan_desc:0 "Tabriz, como capital tanto de los ilkanes como de la Oveja negra, es una ciudad de importancia vital que controla el gran área de Azerbaiyán en Persia occidental. Debemos reclamar esta región al completo."
  consolidate_iran_title:0 "Consolidar Irán"

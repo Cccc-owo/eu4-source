@@ -223,6 +223,15 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_owned_province = { #fallback
+				save_event_target_as = save_wokou_target
+			}
+			random_owned_province = { #fallback
+				limit = {
+					has_port = yes
+				}
+				save_event_target_as = save_wokou_target
+			}
+			random_owned_province = { #fallback
 				limit = {
 					has_port = yes
 					is_in_capital_area = yes
@@ -1717,6 +1726,7 @@ country_event = {
 				end_incident = incident_nanban
 			}
 		}
+		set_country_flag = jap_chose_kaikoku_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -1765,6 +1775,7 @@ country_event = {
 				end_incident = incident_nanban
 			}
 		}
+		set_country_flag = jap_chose_trade_with_west_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -1819,6 +1830,7 @@ country_event = {
 				end_incident = incident_nanban
 			}
 		}
+		set_country_flag = jap_chose_sakoku_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -1991,6 +2003,7 @@ country_event = {
 				end_incident = incident_firearms
 			}
 		}
+		set_country_flag = perfecting_the_musket_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -2038,6 +2051,7 @@ country_event = {
 				end_incident = incident_firearms
 			}
 		}
+		set_country_flag = proliferation_firearms_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -2091,6 +2105,7 @@ country_event = {
 				end_incident = incident_firearms
 			}
 		}
+		set_country_flag = example_of_bushido_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
@@ -2664,12 +2679,14 @@ country_event = {
 				end_incident = incident_spread_of_christianity
 			}
 		}
+		set_country_flag = significant_christian_presence_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "significant_christian_presence"
 			duration = 18250
 		}
+		tooltip = { swap_non_generic_missions = yes }
 	}
 	
 }
@@ -2719,12 +2736,14 @@ country_event = {
 				end_incident = incident_spread_of_christianity
 			}
 		}
+		set_country_flag = christianity_defeated_flag
 		set_country_flag = shinto_incident_recent
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "christianity_defeated"
 			duration = 18250
 		}
+		tooltip = { swap_non_generic_missions = yes }
 	}
 }
 
@@ -3134,7 +3153,81 @@ country_event = {
 	}
 	
 	option = {
-		name = "shinto_events.58.b" #
+		name = "shinto_events.58.b" # Theocratic Government
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
+			}
+		}
+		change_government = theocracy
+		add_government_reform = ikko_ikki_reform
+		add_stability = -2
+		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
+			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				spawn_rebels = {
+					type = shinto_rebels
+					size = 1
+				}
+			}
+		}
+
+		add_country_modifier = {
+			name = "shinto_converted_to_mahayana"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = "shinto_events.58.c" # Peasant Government
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
+			}
+		}
+		change_government = republic
+		add_government_reform = ikko_ikki_republic_reform
+		add_stability = -2
+		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
+			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				spawn_rebels = {
+					type = shinto_rebels
+					size = 1
+				}
+			}
+		}
+
+		add_country_modifier = {
+			name = "shinto_converted_to_mahayana"
+			duration = 3650
+		}
+	}
+
+		option = {
+		name = "shinto_events.58.e" # Become Buddhist, but stay a Daimyo
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -3150,6 +3243,10 @@ country_event = {
 		change_religion = mahayana
 		capital_scope = {
 			change_religion = mahayana
+			spawn_rebels = {
+				type = ikko_ikki_rebels
+				size = 2
+			}
 			random_neighbor_province = {
 				limit = {
 					owned_by = ROOT

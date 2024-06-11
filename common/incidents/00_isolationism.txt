@@ -196,9 +196,13 @@ incident_shogunate_authority = {
 				legitimacy = 90
 			}
 			overlord = {
+				is_revolutionary = no
 				absolutism = 50
 			}
-			absolutism = 50
+			AND = {
+				is_revolutionary = no
+				absolutism = 50
+			}
 		}
 		custom_trigger_tooltip = {
 			tooltip = shinto_incident_recent_tooltip

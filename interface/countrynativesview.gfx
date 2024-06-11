@@ -31,6 +31,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//country_natives_migrate_bg.dds"
 		transparencecheck = yes
 	}
+
+	spriteType = {
+		name = "GFX_natives_unified_federation"
+		texturefile = "gfx//interface//native_unified_federation.dds"
+		transparencecheck = yes
+	}
 	
 	spriteType = {
 		name = "GFX_nativeView_entry_bg"
@@ -51,4 +57,49 @@ spriteTypes = {
 		size = { x = 86 y = 28 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
+
+    
+	### Natives Federation Advancements ###
+
+	
+	spriteType = {
+		name = "GFX_chartered_settlements"
+		texturefile = "gfx/interface/federal_advancement_icons/chartered_settlements.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_federal_constitution"
+		texturefile = "gfx/interface/federal_advancement_icons/federal_constitution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_joint_grain_depots"
+		texturefile = "gfx/interface/federal_advancement_icons/joint_grain_depots.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mutual_trust"
+		texturefile = "gfx/interface/federal_advancement_icons/mutual_trust.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pax_americana"
+		texturefile = "gfx/interface/federal_advancement_icons/pax_americana.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_shared_knowledge"
+		texturefile = "gfx/interface/federal_advancement_icons/shared_knowledge.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_unified_warbands"
+		texturefile = "gfx/interface/federal_advancement_icons/unified_warbands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_united_resistance"
+		texturefile = "gfx/interface/federal_advancement_icons/united_resistance.dds"
+	}
+
 }

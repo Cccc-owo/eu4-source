@@ -37,6 +37,7 @@ country_event = {
 	trigger = {
 		has_country_modifier = "counter_reformation"
 		religion_years = { protestant = 150 }
+		NOT = { has_country_flag = can_always_embrace_the_counter_reformation }
 	}
 	
 	mean_time_to_happen = {
@@ -2497,7 +2498,7 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { government = monarchy } }
-			change_government_to_monarchy = yes
+			change_government = monarchy
 		}
 		add_government_reform = indian_sultanate_reform
 		hidden_effect = {

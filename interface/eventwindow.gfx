@@ -15,14 +15,14 @@ spriteTypes = {
 		name = "GFX_event_bg_top"
 		texturefile = "gfx/interface/events_BG_top.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "GFX_event_bg_middle"	
 		textureFile = "gfx/interface/events_BG_middle.dds"
 		transparencecheck = yes
-		allwaystransparent = yes	
+		alwaystransparent = yes	
 	}	
 	
 	spriteType = 
@@ -30,7 +30,7 @@ spriteTypes = {
 		name = "GFX_event_bg_bottom_L"
 		texturefile = "gfx/interface/events_BG_bottom_L.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = 
@@ -38,7 +38,7 @@ spriteTypes = {
 		name = "GFX_event_bg_bottom_M"
 		texturefile = "gfx/interface/events_BG_bottom_M.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = 
@@ -46,7 +46,7 @@ spriteTypes = {
 		name = "GFX_event_bg_bottom_S"
 		texturefile = "gfx/interface/events_BG_bottom_S.dds"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	textSpriteType = {
@@ -82,6 +82,6 @@ spriteTypes = {
 	{
 		name = "GFX_event_event_test"
 		texturefile = "gfx/event_pictures/event_test.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 }

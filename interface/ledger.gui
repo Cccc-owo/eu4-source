@@ -1,5 +1,55 @@
 guiTypes = {
 	windowType = {
+		name = "ledger_piechart_entry"
+		backGround =""
+		position = { x = 0 y = 0 }
+		size = { x=0 y = 160 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+
+		
+		instantTextBoxType = { 
+			name = "ledger_piechart_header"
+			position = { x = 0 y = 0 }
+			font = "vic_22"
+			text = " "	
+			maxWidth = 135
+			maxHeight = 16
+			fixedsize = yes
+			format = left
+		}		
+		
+		iconType =
+		{
+			name ="ledger_piechart"
+			spriteType = "GFX_ledger_piechart_default"
+			position = { x= 0 y = 0 }
+		}	
+		
+		iconType =
+		{
+			name ="ledger_piechart_overlay"
+			spriteType = "GFX_ledger_piechart_overlay"
+			position = { x= -124 y = -24 }
+			scale = 0.5
+		}
+		
+		listboxType = 	{
+			name ="legend_list"
+			position = { x = 0 y = 0 }
+			backGround=""
+			size = { x=128 y = 528 }
+			Orientation = "UPPER_LEFT"
+			spacing = 2
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 1 y = 1}
+		}
+	}			
+
+	windowType = {
 		name = "ledger_legend_entry"
 		backGround=""
 		position = { x=0 y=-0 }	
@@ -34,8 +84,40 @@ guiTypes = {
 		}
 	}
 	
-	#########
-	#########
+	### GREAT PROJECTS
+	
+	windowType = 
+	{
+		name = "ledger_great_project_entry"
+		backGround=""
+		position = { x=0 y=0 }
+		size = { x=300 y=150 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType = 
+		{
+			name ="ledger_great_project_icon"
+			spriteType = "GFX_great_project_place_holder"
+			position = { x = 0 y = 0 }
+		}
+		
+
+		instantTextBoxType = {
+			name = "ledger_great_project_name_label"
+			position = { x = 17 y = 11 }
+			textureFile = ""
+			font = "standard_font"
+			borderSize = { x = 0 y = 0 }
+			text = "NAME HERE"
+			maxWidth = 300
+			maxHeight = 30
+			format = left
+		}
+	}
 	
 	instantTextBoxType = { 
 		name = "ledger_default_textbox"
@@ -187,15 +269,21 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-		### temp moved. 
 		iconType = {
 			name ="ledger_linegraph_bg"
 			spriteType = "GFX_ledger_linegraph_bg"
 			position = { x= 49 y = 100 }
 			Orientation = "UPPER_LEFT"
 		}
-		###
 		
+		iconType =
+		{
+			name ="ledger_great_projects_bg"
+			spriteType = "GFX_ledger_great_projects_bg"
+			position = { x = 49 y = 100 }
+			Orientation = "UPPER_LEFT"
+		}
+
 		guiButtonType = {
 			name = "close"
 			position = { x=1021 y=114 }
@@ -469,55 +557,6 @@ guiTypes = {
 					position = { x = -211 y = 60 }
 				}
 			
-			windowType = {
-				name = "ledger_piechart_entry"
-				backGround =""
-				position = { x = 0 y = 0 }
-				size = { x=0 y = 160 }
-				moveable = 0
-				dontRender = ""
-				horizontalBorder = "0"
-				verticalBorder = ""
-				fullScreen = no
-
-				
-				instantTextBoxType = { 
-					name = "ledger_piechart_header"
-					position = { x = 0 y = 0 }
-					font = "vic_22"
-					text = " "	
-					maxWidth = 135
-					maxHeight = 16
-					fixedsize = yes
-					format = left
-				}		
-				
-				iconType =
-				{
-					name ="ledger_piechart"
-					spriteType = "GFX_ledger_piechart_default"
-					position = { x= 0 y = 0 }
-				}	
-				
-				iconType =
-				{
-					name ="ledger_piechart_overlay"
-					spriteType = "GFX_ledger_piechart_overlay"
-					position = { x= -124 y = -24 }
-					scale = 0.5
-				}
-				
-				listboxType = 	{
-					name ="legend_list"
-					position = { x = 0 y = 0 }
-					backGround=""
-					size = { x=128 y = 528 }
-					Orientation = "UPPER_LEFT"
-					spacing = 2
-					scrollbartype = "standardlistbox_slider"
-					borderSize = {x = 1 y = 1}
-				}
-			}			
 		}
 
 		### INDEX
@@ -699,7 +738,7 @@ guiTypes = {
 		name = "filter_list_item"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=147 y=32 }
+		size = { x=117 y=32 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -717,9 +756,10 @@ guiTypes = {
 			position = { x = 34 y = 7 }
 			font = "vic_18"
 			text = "Allies"	
-			maxWidth = 110
-			maxHeight = 32
+			maxWidth = 80
+			maxHeight = 26
 			format = left
+			fixedsize = yes
 		}
 	}
 }

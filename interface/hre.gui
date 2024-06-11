@@ -37,7 +37,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
 			frame = 1
 		}
 
@@ -50,7 +49,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
 			frame = 1
 		}
 
@@ -60,7 +58,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 42 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType =
@@ -77,18 +75,18 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 825 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
 		instantTextBoxType = {
 			name = "dominantfaith_label"
-			position = { x = 636 y = 113 }
+			position = { x = 644 y = 113 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			text = "HRE_DOMINANTFAITH"
-			maxWidth = 130
+			maxWidth = 122
 			maxHeight = 32
 			format = left
 		}
@@ -114,7 +112,7 @@ guiTypes = {
 		
 
 		iconType =
-		8
+		{
 			name ="hre_war_peace_icon"
 			spriteType = "GFX_hre_war_peace_strip"
 			position = { x= 592 y = 110 }
@@ -129,7 +127,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 597 y = 114 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -152,6 +150,17 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "HRE_IMPERIALDIET"
+			maxWidth = 120
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "permanent_diet_location"
+			position = { x = 654 y = 386 }
+			format = centre
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
 			maxWidth = 120
 			maxHeight = 32
 		}
@@ -437,7 +446,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 128 y = 285 }
+			position = { x = 128 y = 293 }
 			size = { width = 200 height = 600 }
 			slotsize = { width = 88 height = 96 }
 			max_slots_horizontal = 2
@@ -446,7 +455,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_league"
-			position = { x=15 y =173 }
+			position = { x=15 y =167 }
 			backGround=""
 			size = { x=69 y=500 }
 			Orientation = "UPPER_LEFT"
@@ -458,7 +467,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_heretic_league"
-			position = { x=798 y =173 }
+			position = { x=798 y =167 }
 			backGround=""
 			size = { x=69 y=500 }
 			Orientation = "UPPER_LEFT"
@@ -634,7 +643,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"
@@ -688,7 +697,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"
@@ -713,7 +722,7 @@ guiTypes = {
 		{
 			name ="member_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 6 y = 0 }
+			position = { x= 6 y = 6 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -723,13 +732,13 @@ guiTypes = {
 		iconType = {
 			name = "free_city_outliner"
 			spriteType ="GFX_outliner_free_city"
-			position = { x= 11 y = -6 }
+			position = { x= 11 y = 0 }
 		}
 
 		iconType = {
 			name = "elector_outliner"
 			spriteType ="GFX_outliner_elector"
-			position = { x= 11 y = -6 }
+			position = { x= 11 y = 0 }
 		}
 	}
 

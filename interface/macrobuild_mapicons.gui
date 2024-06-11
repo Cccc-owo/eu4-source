@@ -346,7 +346,7 @@ guiTypes = {
 				text = ""
 				
 				format = left
-				#allwaystransparent = yes
+				#alwaystransparent = yes
 			}
 			
 			guiButtonType = {
@@ -709,7 +709,7 @@ guiTypes = {
 				maxWidth = 64
 				maxHeight = 18
 				format = right
-				#allwaystransparent = yes
+				#alwaystransparent = yes
 			}
 			instantTextBoxType={
 				name = "unrest"
@@ -718,7 +718,7 @@ guiTypes = {
 				maxWidth = 120
 				maxHeight = 18
 				format = left
-				#allwaystransparent = yes
+				#alwaystransparent = yes
 			}
 			
 			guiButtonType = {
@@ -766,7 +766,7 @@ guiTypes = {
 				maxWidth = 64
 				maxHeight = 18
 				format = right
-				#allwaystransparent = yes
+				#alwaystransparent = yes
 			}
 			instantTextBoxType={
 				name = "info_right"
@@ -776,7 +776,7 @@ guiTypes = {
 				maxWidth = 120
 				maxHeight = 18
 				format = left
-				#allwaystransparent = yes
+				#alwaystransparent = yes
 			}
 			
 			guiButtonType = {

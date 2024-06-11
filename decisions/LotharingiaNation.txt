@@ -11,6 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
 				AND = {
 					tag = BUR
 					NOT = { has_dlc = "Emperor" }
@@ -44,6 +48,9 @@ country_decisions = {
 			NOT = { exists = LOT }
 			num_of_cities = 30
 			owns_core_province = 1878
+			1878 = {
+				is_state = yes
+			}
 			OR = {
 				NOT = {
 					hre_size = 1
@@ -56,6 +63,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = LOT
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			if = {
 				limit = {

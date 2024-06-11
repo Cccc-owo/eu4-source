@@ -1,7 +1,7 @@
 ########################################
 # USA DLC Events
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-ï¿½rtqvist
 ########################################
 
 namespace = usa_dlc
@@ -755,6 +755,7 @@ country_event = {
 				has_province_modifier = north_american_fur_trade 
 			} 
 		}
+		NOT = { has_global_flag = had_fur_trade_event }
 	}
 	
 	mean_time_to_happen = {
@@ -770,7 +771,16 @@ country_event = {
 				name = north_american_fur_trade 
 				duration = 3650
 			} 
-		} 
+		}
+		change_price = {
+			trade_goods = fur
+			key = FUR_TRADE
+			value = 0.25
+			duration = 3650
+		}
+		hidden_effect = {
+			set_global_flag = had_fur_trade_event
+		}
 	}
 	option = {
 		name = "usa_dlc.EVTOPTB26"
@@ -2438,13 +2448,12 @@ country_event = {
 			adm = 5	
 			dip = 4
 			mil = 2
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = incorruptible_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = incorruptible } }
 		}
 	}
 
@@ -2463,13 +2472,12 @@ country_event = {
 			adm = 5
 			dip = 4
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = lawgiver_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = lawgiver } }
 		}
 	}
 }
@@ -2629,13 +2637,12 @@ country_event = {
 			adm = 5
 			dip = 4
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = lawgiver_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = lawgiver } }
 		}
 	}
 
@@ -2647,13 +2654,12 @@ country_event = {
 			adm = 3
 			dip = 6
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = entrepreneur_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = entrepreneur } }
 		}
 	}
 
@@ -2665,13 +2671,12 @@ country_event = {
 			adm = 5	
 			dip = 4
 			mil = 2
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = incorruptible_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = incorruptible } }
 		}
 	}
 
@@ -2729,7 +2734,12 @@ country_event = {
 				}
 			}
 			owner = {
-				remove_core = PREV
+				if = {
+					limit = {
+						PREV = { is_core = ROOT }
+					}
+					remove_core = PREV
+				}
 			}
 			add_core = ROOT
 			cede_province = ROOT
@@ -2802,13 +2812,12 @@ country_event = {
 			dip = 4
 			adm = 5
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = lawgiver_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = lawgiver } }
 		}
 	}
 
@@ -2820,13 +2829,12 @@ country_event = {
 			dip = 3	
 			adm = 4	
 			mil = 5
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = fierce_negotiator_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = fierce_negotiator } }
 		}
 	}
 }
@@ -2869,13 +2877,12 @@ country_event = {
 			dip = 5	
 			adm = 5	
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = righteous_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = righteous } }
 		}
 	}
 
@@ -2887,13 +2894,12 @@ country_event = {
 			dip = 3	
 			adm = 4	
 			mil = 5
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = fierce_negotiator_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = fierce_negotiator } }
 		}
 	}
 
@@ -2905,13 +2911,12 @@ country_event = {
 			dip = 5	
 			adm = 3	
 			mil = 4
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = benevolent_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = benevolent } }
 		}
 	}
 }
@@ -3011,13 +3016,12 @@ country_event = {
 			dip = 5	
 			adm = 5	
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = righteous_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = righteous } }
 		}
 	}
 
@@ -3035,13 +3039,12 @@ country_event = {
 			adm = 4	
 			dip = 6
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = architectural_visionary_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = architectural_visionary } }
 		}
 	}
 }
@@ -3083,13 +3086,12 @@ country_event = {
 			dip = 5	
 			adm = 6	
 			mil = 3
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = incorruptible_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = incorruptible } }
 		}
 	}
 
@@ -3105,19 +3107,18 @@ country_event = {
 			dip = 5
 			adm = 6
 			mil = 5
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = charismatic_negotiator_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = charismatic_negotiator } }
 		}
 		# monarch = 03999
 	}
 }
 
-# Adam-Onís Treaty
+# Adam-Onï¿½s Treaty
 country_event = {
 	id = usa_dlc.71
 	title = "usa_dlc.EVTNAME71"

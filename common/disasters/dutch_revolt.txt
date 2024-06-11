@@ -27,6 +27,7 @@ dutch_revolt_disaster = {
 		NOT = { capital_scope = { region = low_countries_region } }
 		is_free_or_tributary_trigger = yes
 		num_of_cities = 6
+		NOT = { has_government_attribute = no_more_dutch_revolt }
 	}
 	
 	can_start = {
@@ -40,25 +41,48 @@ dutch_revolt_disaster = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = dutch_revolt_disaster_tt
-				AND = {
-					any_owned_province = {
-						culture = dutch
+				OR = {
+					AND = {
+						any_owned_province = {
+							culture = dutch
+						}
+						NOT = { accepted_culture = dutch }
 					}
-					NOT = { accepted_culture = dutch }
-				}
-				AND = {
-					any_owned_province = {
-						culture = flemish
+					AND = {
+						any_owned_province = {
+							culture = flemish
+						}
+						NOT = { accepted_culture = flemish }
 					}
-					NOT = { accepted_culture = flemish }
-				}
-				AND = {
-					any_owned_province = {
-						culture = frisian
+					AND = {
+						any_owned_province = {
+							culture = frisian
+						}
+						NOT = { accepted_culture = frisian }
 					}
-					NOT = { accepted_culture = frisian }
 				}
 			}
+			if = {
+				limit = {
+					has_dlc = "Emperor"
+				}
+				AND = {
+					is_emperor = yes
+					NOT = { hre_reform_passed = emperor_gemeinerpfennig }
+					NOT = { stability = 2 }
+				}
+			}
+			else = {
+				AND = {
+					is_emperor = yes
+					NOT = { hre_reform_passed = gemeinerpfennig }
+					NOT = { stability = 2 }
+				}
+			}
+		}
+		if = {
+			limit = { has_government_attribute = no_more_dutch_revolt }
+			NOT = { has_government_attribute = no_more_dutch_revolt }
 		}
 	}
 	
@@ -75,75 +99,65 @@ dutch_revolt_disaster = {
 		modifier = {
 			factor = 1
 			any_owned_province = {
-				region = low_countries_region
-				NOT = { province_religion = ROOT }
-			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 3
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_at
 					region = low_countries_region
 					NOT = { province_religion = ROOT }
 				}
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			num_of_owned_provinces_with = {
 				value = 3
-				region = low_countries_region
-				NOT = { province_religion = ROOT }
-			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 5
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_at
 					region = low_countries_region
 					NOT = { province_religion = ROOT }
 				}
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 1
 			num_of_owned_provinces_with = {
 				value = 5
-				region = low_countries_region
-				NOT = { province_religion = ROOT }
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_at
+					region = low_countries_region
+					NOT = { province_religion = ROOT }
+				}
 			}
 		}
 		modifier = {
 			factor = 1
 			any_owned_province = {
-				region = low_countries_region
-				unrest = 3
-			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 3
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_bt
 					region = low_countries_region
 					unrest = 3
 				}
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			num_of_owned_provinces_with = {
 				value = 3
-				region = low_countries_region
-				unrest = 3
-			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 5
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_bt
 					region = low_countries_region
 					unrest = 3
 				}
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 1
 			num_of_owned_provinces_with = {
 				value = 5
-				region = low_countries_region
-				unrest = 3
+				custom_trigger_tooltip = {
+					tooltip = dutch_revolt_disaster_bt
+					region = low_countries_region
+					unrest = 3
+				}
 			}
 		}
 		modifier = {
@@ -169,7 +183,27 @@ dutch_revolt_disaster = {
 		}
 		modifier = {
 			factor = 1
+			NOT = { stability = 2 }
+		}
+		modifier = {
+			factor = 1
 			NOT = { stability = 1 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 3
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 3
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 10
+			NOT = { stability = -3 }
 		}
 	}
 	

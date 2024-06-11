@@ -10,7 +10,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//available_idea_glow.dds"
 		
 		effectFile = "gfx/FX/buttonstate.lua"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}	
 
 	spriteType = {
@@ -35,6 +35,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_new_choose_idea_bg"
+		texturefile = "gfx/interface/new_choose_idea_bg.dds"
+        transparencecheck = yes
+	}
+
+	spriteType = {
 		name = "GFX_country_ideas_view_bg"
 		texturefile = "gfx//interface//country_ideas_view_bg.dds"
 		loadType = "INGAME"
@@ -46,7 +52,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//country_idea_view_nextunlock.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 	}
 
 	spriteType = {
@@ -54,7 +60,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//country_idea_view_cannotunlock.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		allwaystransparent = yes		
+		alwaystransparent = yes		
 	}
 
 	progressbartype = {

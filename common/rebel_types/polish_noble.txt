@@ -42,6 +42,10 @@ polish_noble_rebels = {
 			NOT = { owner = { primary_culture = polish } }
 		}
 		modifier = {
+			factor = 0
+			NOT = { owner = { primary_culture = polish_new } }
+		}
+		modifier = {
 			factor = 0.0
 			owner = {
 				is_colonial_nation = yes
@@ -76,7 +80,12 @@ polish_noble_rebels = {
 		}
 		modifier = {
 			factor = 0.1
-			owner = { has_reform = elective_monarchy }
+			owner = { 
+				OR = { 
+					has_reform = elective_monarchy 
+					has_reform = polish_elective_monarchy
+				}
+			}
 		}
 		modifier = {
 			factor = 3.0
@@ -171,6 +180,7 @@ polish_noble_rebels = {
 					has_reform = indep_daimyo
 					has_reform = principality
 					has_reform = daimyo
+					has_reform = appanage_reform
 					has_reform = shogunate
 					has_reform = colonial_government
 					has_reform = siberian_tribe
@@ -178,12 +188,35 @@ polish_noble_rebels = {
 					has_reform = elective_monarchy
 					has_reform = english_monarchy
 					has_reform = ottoman_government
+					has_reform = modernized_ottoman_government
+					has_reform = reorganized_ottoman_government
+					has_reform = sultanate_of_rum_reform
+					has_reform = eyalet_government
+					has_reform = barbary_eyalet_government
+					has_reform = kalmar_union
+					has_reform = danish_archkingdom
 					has_reform = tribal_federation
 					has_reform = feudal_theocracy
 					has_reform = mamluk_government
+					OR = { 
+						tag = PLC 
+						tag = POL 
+					}
+					has_dlc = "Lions of the North"
 				}
 			}
 			add_government_reform = elective_monarchy
+		}
+		else_if = { 
+			limit = { 
+				OR = {
+					tag = PLC 
+					tag = POL 
+				}
+				NOT = { mission_completed = plc_golden_liberty } 
+				has_dlc = "Lions of the North"
+			}
+			add_government_reform = polish_elective_monarchy 
 		}
 		change_estate_land_share = {
 			estate = estate_nobles

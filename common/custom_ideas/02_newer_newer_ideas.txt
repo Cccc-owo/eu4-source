@@ -9,7 +9,13 @@ newer_newer_idea_adm_modifiers = {
 		level_cost_1 = 9
 		level_cost_2 = 18
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { religion = sunni }
+				NOT = { religion = shiite }
+				NOT = { religion = ibadi }
+			}
 		}
 	}
 	custom_positive_piety = {
@@ -18,7 +24,13 @@ newer_newer_idea_adm_modifiers = {
 		level_cost_1 = 9
 		level_cost_2 = 18
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { religion = sunni }
+				NOT = { religion = shiite }
+				NOT = { religion = ibadi }
+			}
 		}
 	}
 	custom_reform_progress = {
@@ -28,23 +40,30 @@ newer_newer_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.25
 		}
 	}
 	custom_free_religion = {
 		no_religion_penalty = yes
 		max_level = 1
-		level_cost_1 = 60
+		level_cost_1 = 45
 		chance = {
-			factor = 0
+			factor = 0.15
+			modifier = {
+				factor = 0
+				dominant_religion = ROOT
+			}
 		}
 	}
 	custom_same_culture_idea_advisor_cost = {
 		same_culture_advisor_cost = -0.05
 		level_cost_2 = 1
 		level_cost_3 = 6
-		level_cost_4 = 9		
-	}		
+		level_cost_4 = 9
+		chance = {
+			factor = 1
+		}
+	}
 }
 
 
@@ -53,17 +72,26 @@ newer_newer_idea_dip_modifiers = {
 	custom_power_prod_insults = {
 		power_projection_from_insults = 1
 		max_level = 1
-		level_cost_1 = 25
+		level_cost_1 = 10
 		chance = {
-			factor = 0
+			factor = 0.33
 		}
 	}
 	custom_manifest_destiny = {
 		cb_on_primitives = yes
 		max_level = 1
-		level_cost_1 = 50
+		level_cost_1 = 35
 		chance = {
-			factor = 0
+			factor = 0.15
+			modifier = {
+				factor = 0
+				OR = {
+					technology_group = andean
+					technology_group = south_american
+					technology_group = mesoamerican
+					technology_group = north_american
+				}
+			}
 		}
 	}
 	custom_justify_conflict_cost = {
@@ -73,17 +101,17 @@ newer_newer_idea_dip_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.25
 		}
 	}
 	custom_claim_fab_cost = {
 		fabricate_claims_cost = -0.175
 		max_level = 4
-		level_cost_2 = 9
-		level_cost_3 = 18
-		level_cost_4 = 30
+		level_cost_2 = 3
+		level_cost_3 = 9
+		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 0.25
 		}
 	}
 	custom_sailor_maintenance = {
@@ -93,18 +121,24 @@ newer_newer_idea_dip_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
 		}
 	}
 	custom_coastal_combat = {
-		own_coast_naval_combat_bonus = 0.5
-		max_level = 4
-		level_cost_1 = 5
-		level_cost_2 = 10
-		level_cost_3 = 20
-		level_cost_3 = 40
+		own_coast_naval_combat_bonus = 1
+		max_level = 2
+		level_cost_1 = 10
+		level_cost_2 = 40
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
 		}
 	}
 }
@@ -116,7 +150,7 @@ newer_newer_idea_mil_modifiers = {
 		max_level = 1
 		level_cost_1 = 25
 		chance = {
-			factor = 0
+			factor = 0.05
 		}
 	}
 	custom_manchu_ban = {
@@ -125,8 +159,18 @@ newer_newer_idea_mil_modifiers = {
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
+
+		enabled = {
+			has_dlc = "Mandate of Heaven"
+		}
+
 		chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				NOT = { primary_culture = manchu_new }
+				NOT = { primary_culture = manchu }
+				factor = 0
+			}
 		}
 	}
 	custom_garrison_growth = {
@@ -136,7 +180,7 @@ newer_newer_idea_mil_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0
+			factor = 1
 		}
 	}
 }

@@ -63,7 +63,7 @@ country_event = {
 		emperor = {
 			add_opinion = {
 				who = ROOT
-				modifier = opinion_left_hre
+				modifier = hre_country_left
 			}
 		}
 		add_prestige = 50
@@ -124,7 +124,7 @@ country_event = {
 		}
 		declare_war_with_cb = {
 			who = SWI
-			casus_belli = cb_force_join_hre
+			casus_belli = cb_reintegrate_into_hre
 		}
 	}
 }

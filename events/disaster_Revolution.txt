@@ -763,6 +763,41 @@ country_event = {
 		days = 1
 	}
 	
+	immediate = {
+		on_non_estate_disaster_end = yes
+		hidden_effect = {
+			if = {
+				limit = {
+					has_dlc = "Emperor"
+					is_revolutionary = no
+					has_country_flag = revolution_disaster_reactionary
+				}
+				add_country_modifier = {
+					name = no_revolution_here_country_dummy
+					duration = -1
+					hidden = yes
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							is_center_of_revolution = yes
+						}
+					}
+					remove_center_of_revolution = yes
+				}
+				custom_tooltip = remove_revolution_from_all_provinces
+				hidden_effect = {
+					every_owned_province = {
+						limit = { has_revolution_in_province = yes }
+						remove_revolution_from_province_effect = yes
+					}
+				}
+				increase_legitimacy_large_effect = yes
+				hidden_effect = { log = "[Root.GetName] won the Revolution as the Reactionaries." }
+			}
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA3019"			# Restore order
 		trigger = {
@@ -830,33 +865,35 @@ country_event = {
 			limit = {
 				is_revolutionary = no
 			}
-			add_country_modifier = {
-				name = no_revolution_here_country_dummy
-				duration = -1
-				hidden = yes
-			}
-			if = {
-				limit = {
-					any_owned_province = {
-						is_center_of_revolution = yes
+			tooltip = {
+				add_country_modifier = {
+					name = no_revolution_here_country_dummy
+					duration = -1
+					hidden = yes
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							is_center_of_revolution = yes
+						}
+					}
+					remove_center_of_revolution = yes
+				}
+				custom_tooltip = remove_revolution_from_all_provinces
+				hidden_effect = {
+					every_owned_province = {
+						limit = { has_revolution_in_province = yes }
+						remove_revolution_from_province_effect = yes
 					}
 				}
-				remove_center_of_revolution = yes
+				increase_legitimacy_large_effect = yes
+				hidden_effect = { log = "[Root.GetName] won the Revolution as the Reactionaries." }
 			}
-			custom_tooltip = remove_revolution_from_all_provinces
-			hidden_effect = {
-				every_owned_province = {
-					limit = { has_revolution_in_province = yes }
-					remove_revolution_from_province_effect = yes
-				}
-			}
-			increase_legitimacy_large_effect = yes
-			hidden_effect = { log = "[Root.GetName] won the Revolution as the Reactionaries." }
 		}
 		else = {
 			custom_tooltip = add_as_much_revolutionary_zeal_as_you_can_take
 			hidden_effect = {
-				add_revolutionary_zeal = 1000
+				add_revolutionary_zeal_or_absolutism = { amount = 1000 }
 			}
 			hidden_effect = { log = "[Root.GetName] won the Revolution as the Revolutionaries." }
 		}
@@ -1115,6 +1152,18 @@ country_event = {
 	option = {
 		name = "EVTOPTA6606"
 		enact_revolution_effect = yes
+
+		if = {
+			limit = {
+				tag = FRA 
+				OR = {
+					is_revolution_target = yes 
+					is_revolutionary = yes
+				}
+				has_dlc = "Domination"
+			}
+			country_event = { id = ideagroups.1 }
+		}
 	}
 }
 
@@ -1303,7 +1352,6 @@ country_event = {
 			adm = 5
 			dip = 2
 			mil = 2
-			fixed = yes
 		}
 	}
 }
@@ -1394,7 +1442,6 @@ country_event = {
 			adm = 5
 			dip = 3
 			mil = 0
-			fixed = yes
 		}
 	}
 	option = {
@@ -1464,7 +1511,6 @@ country_event = {
 			adm = 5
 			dip = 3
 			mil = 1
-			fixed = yes
 		}
 	}
 }
@@ -1544,9 +1590,9 @@ country_event = {
 
 		define_ruler = { #Get a random ruler with +1 in each stat
 			name = new_supreme_vizier
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 		override_country_name = REV_TURKEY_STRING
 		set_country_flag = is_revolutionary_turkey_flag
@@ -1582,17 +1628,17 @@ country_event = {
 		add_stability = -1
 
 		define_ruler = {
-			name = "Napoleone I di Buonaparte"
+			name = "Napoleone I"
+			dynasty = "di Buonaparte"
 			adm = 6
 			dip = 5
 			mil = 6
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 		}
 		set_ruler_flag = bonaparte_flag
 		
@@ -1762,9 +1808,9 @@ country_event = {
 		enact_revolution_effect = yes
 		define_ruler = { #Random ruler with +1 in each category
 			name = new_ruler
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 	}
 
@@ -1939,9 +1985,9 @@ country_event = {
 		
 		define_ruler = { #Random ruler with +1 in each category
 			name = new_ruler
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 		override_country_name = REV_CHINA_STRING
 		set_country_flag = is_revolutionary_china_flag
@@ -2004,9 +2050,9 @@ country_event = {
 		
 		define_ruler = { #Random ruler with +1 in each category
 			name = new_ruler
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 		if = {
 			limit = { tag = MUG }

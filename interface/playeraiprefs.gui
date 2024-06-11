@@ -45,7 +45,7 @@ guiTypes = {
 			name ="aipref_listbox"
 			position = { x = 10 y = 58 }
 			backGround=""
-			size = { x=175 y =217}
+			size = { x=165 y =200}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -108,7 +108,7 @@ guiTypes = {
 		}
 		checkboxType = {
 			name = "checkbox"
-			position = { x = 0 y = 0 }
+			position = { x = 3 y = 0 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
 	}
@@ -125,7 +125,7 @@ guiTypes = {
 		fullscreen = no
 			
 		instantTextBoxType = {
-			position = { x = 0 y = 0 }
+			position = { x = 10 y = 0 }
 			name = "title"
 			font = "standard_font"
 			borderSize = {x = 0 y = 0}	
@@ -138,11 +138,11 @@ guiTypes = {
 		scrollbarType = {
 			name = "slider"	
 			slider = "landslider_SliderButton"
-			track= "landslider_TrackButton"
+			track= "listboxTrackButton"
 			leftbutton = "landslider_upButton"
 			rightbutton = "landslider_downButton"
-			size = {x = 161 y = 16 }
-			position = {x= 3 y = 18}
+			size = {x = 150 y = 16 }
+			position = {x= 10 y = 18}
 			priority = 100			
 			borderSize = {x =16 y = 16}	
 			maxValue = 2
@@ -160,6 +160,12 @@ guiTypes = {
 				name = "landslider_TrackButton"
 				quadTextureSprite = "yearslider_background"
 				position = { x=0 y =20}	
+			}
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "GFX_scroll_track"
+				position = { x=12 y =12}		
+
 			}
 			guiButtonType = {
 				parent = "landslider_SliderButton"

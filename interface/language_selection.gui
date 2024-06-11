@@ -74,7 +74,7 @@ guiTypes = {
 			text = ""
 			maxWidth = 130
 			maxHeight = 32
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = 
 		{

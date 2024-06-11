@@ -12,6 +12,12 @@ spriteTypes = {
 		noOfFrames = 4
 	}
 
+	spriteType = {
+		name = "buttonCheckbox_gold"
+		textureFile = "gfx//interface//checkbox_gold_24.dds"
+		noOfFrames = 2
+	}
+
 	textSpriteType = {
 		name = "tiny_button"
 		texturefile = "gfx/interface/tinybutton.tga"

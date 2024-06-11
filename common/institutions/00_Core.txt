@@ -15,13 +15,14 @@
 #######################################
 
 feudalism = {
-	penalty = 0.5
+
 	bonus = {
 		free_leader_pool = 1
 	}
 
 	trade_company_efficiency = 0.2
 
+	#effect = { } # When a country embraces it
 
 	history = {
 		is_year = 1000
@@ -64,6 +65,7 @@ feudalism = {
 					culture_group = dravidian
 					culture_group = east_asian
 					culture_group = east_slavic
+					culture_group = slavic
 					culture_group = eastern_aryan
 					culture_group = japanese_g
 					culture_group = korean_g
@@ -103,6 +105,7 @@ feudalism = {
 					technology_group = north_american
 					technology_group = south_american
 					technology_group = sub_saharan
+					technology_group = aboriginal_tech
 				}
 			}
 			AND = {
@@ -212,6 +215,7 @@ feudalism = {
 				NOT = { continent = north_america }
 				NOT = { continent = south_america }
 				NOT = { continent = new_world }
+				NOT = { region = australia_region }
 				owner = {
 					NOT = { government = tribal }
 					NOT = { government = native }
@@ -270,7 +274,6 @@ feudalism = {
 #######################################
 
 renaissance = {
-	penalty = 0.5
 
 	bonus = {
 		development_cost = -0.05
@@ -337,6 +340,7 @@ renaissance = {
 	
 	can_start = {
 		is_year = 1450
+		is_institution_enabled = feudalism
 		region = italy_region
 		is_state = yes
 		NOT = { province_id = 126 }
@@ -345,6 +349,7 @@ renaissance = {
 			development = 20
 			is_capital = yes
 			normal_or_historical_nations = no
+			is_year = 1475
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
@@ -534,7 +539,6 @@ renaissance = {
 # Colonising is good.. mkay.-.
 #######################################
 new_world_i = {
-	penalty = 0.5
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.10
@@ -623,6 +627,7 @@ new_world_i = {
 	
 	can_start = {
 		is_year = 1500
+		is_institution_enabled = renaissance
 		OR = {
 			continent = europe
 			continent = asia
@@ -638,7 +643,32 @@ new_world_i = {
 		}
 		is_in_capital_area = yes
 		owner = { 
-			has_idea = quest_for_the_new_world 
+			has_any_exploration_idea = yes
+			#at least one province colonised or colonising, or have a subject colony
+			OR = {
+				any_owned_province = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = new_world
+					}
+				}
+				any_subject_country = {
+					OR = {
+						is_subject_of_type = colony
+						is_subject_of_type = crown_colony
+						is_subject_of_type = private_enterprise
+						is_subject_of_type = self_governing_colony
+					}
+					capital_scope = {
+						OR = {
+							continent = north_america
+							continent = south_america
+							continent = new_world
+						}
+					}
+				}
+			}
 			OR = {
 				north_america = { has_discovered = PREV }
 				south_america = { has_discovered = PREV }
@@ -803,7 +833,6 @@ new_world_i = {
 # Printing Press
 #######################################
 printing_press = {
-	penalty = 0.5
 
 	bonus = {
 		stability_cost_modifier = -0.05
@@ -893,6 +922,7 @@ printing_press = {
 	
 	can_start = {
 		is_year = 1550
+		is_institution_enabled = new_world_i
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1112,7 +1142,7 @@ printing_press = {
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_global_trade_embraced_other_continent
+				tooltip = tooltip_printing_press_embraced
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = printing_press
@@ -1155,7 +1185,6 @@ printing_press = {
 # Global Trade
 #######################################
 global_trade = {
-	penalty = 0.5
 
 	bonus = {
 		merchants = 1
@@ -1210,7 +1239,6 @@ global_trade = {
 			}
 			AND = {
 				is_year = 1700
-				is_capital = no
 				OR = {
 					region = maghreb_region
 					region = egypt_region
@@ -1221,7 +1249,6 @@ global_trade = {
 			AND = {
 				is_year = 1720
 				has_port = yes
-				is_capital = no
 				OR = {
 					superregion = india_superregion
 					superregion = persia_superregion
@@ -1231,7 +1258,6 @@ global_trade = {
 			AND = {
 				is_year = 1750
 				has_port = yes
-				is_capital = no
 				superregion = africa_superregion
 			}
 		}
@@ -1239,6 +1265,7 @@ global_trade = {
 	
 	can_start = {
 		is_year = 1600
+		is_institution_enabled = printing_press
 		is_island = no
 		highest_value_trade_node = yes
 		OR = {
@@ -1461,7 +1488,6 @@ global_trade = {
 # Manufactories
 #######################################
 manufactories = {
-	penalty = 0.5
 
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -1545,6 +1571,7 @@ manufactories = {
 	
 	can_start = {
 		is_year = 1650
+		is_institution_enabled = global_trade
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1693,6 +1720,7 @@ manufactories = {
 					trade_goods = ivory
 					trade_goods = slaves
 					trade_goods = spices
+					trade_goods = cloves
 					trade_goods = fur
 					trade_goods = incense
 				}
@@ -1826,6 +1854,7 @@ manufactories = {
 					trade_goods = ivory
 					trade_goods = slaves
 					trade_goods = spices
+					trade_goods = cloves
 					trade_goods = fur
 					trade_goods = incense
 				}
@@ -1966,7 +1995,6 @@ manufactories = {
 # Enlightenment
 #######################################
 enlightenment = {
-	penalty = 0.5
 
 	bonus = {
 		culture_conversion_cost = -0.25
@@ -2029,6 +2057,7 @@ enlightenment = {
 	
 	can_start = {
 		is_year = 1700
+		is_institution_enabled = manufactories
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -2349,7 +2378,6 @@ enlightenment = {
 # Industrialisation
 #######################################
 industrialization = {
-	penalty = 0.5
 	
 	trade_company_efficiency = 2.0
 
@@ -2381,6 +2409,7 @@ industrialization = {
 	
 	can_start = {
 		is_year = 1750
+		is_institution_enabled = enlightenment
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -2519,7 +2548,7 @@ industrialization = {
 		}
 		#Rule Britannia specific
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -2534,7 +2563,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -2549,7 +2578,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -2687,6 +2716,7 @@ industrialization = {
 					trade_goods = ivory
 					trade_goods = slaves
 					trade_goods = spices
+					trade_goods = cloves
 					trade_goods = fur
 					trade_goods = incense
 				}
@@ -2820,6 +2850,7 @@ industrialization = {
 					trade_goods = ivory
 					trade_goods = slaves
 					trade_goods = spices
+					trade_goods = cloves
 					trade_goods = fur
 					trade_goods = incense
 				}

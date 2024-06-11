@@ -36,7 +36,8 @@
  hindu_events.1.e:0 "Adoro a Ganga, la diosa del río sagrado"
  hindu_events.1.f:0 "Ganesha nos guiará hacia la sabiduría"
  hindu_events.1.g:0 "Ganaré fuerzas por Surya, la Luz Suprema"
- hindu_events.1.h:0 "No estoy listo para tomar esa decisión."
+ hindu_events.1.h:1 "Buda es el camino a la Iluminación." # [LocEditor:AwaitingBatchUpdate]
+ hindu_events.1.i:0 "No estoy listo para tomar tal decisión."
  hindu_events.2.t:0 "Shiva el Creador"
  hindu_events.2.d:1 "De todos aquellos que tratan de captar la gloria de Shiva en el arte, $ARTIST$ siempre ha tenido más éxito que los demás. Por esto se le llamó a tu corte, pero a pesar de su útil asesoramiento sobre muchos temas, su conocimiento de lo divino sigue siendo un misterio para ti.\n\nUna noche, caminando por los pasillos del palacio de [Root.Capital.GetCapitalName], le ves dando los toques finales a una estatua y finalmente le preguntas qué visiones le permitieron retratar las muchas caras de Shiva.\n'Todas y cada una de las almas son parte del espíritu del señor Shiva', contesta, 'y al igual que Shiva creó todo lo que existe, el alma ha sido bendecida con el poder de crear. Si sabéis esto dentro de vos, conoceréis lo divino'."
  hindu_events.2.a:0 "Tengo que pensar en esto"
@@ -66,7 +67,7 @@
  hindu_events.9.d:0 "Tras años de meditación sobre cómo la gracia de Shiva oculta la verdad a los ojos mortales, te sientes en paz. Sabiendo que tu propia existencia, la búsqueda y eventual entendimiento dependen de ello, ahora puedes ver cómo este principio impregna todas las facetas de la realidad."
  hindu_events.9.a:0 "Aum."
  hindu_events.10.t:0 "Shiva revelado"
- hindu_events.10.d:0 "Tras muchos años buscando un gurú que te guíe, no has encontrado a nadie que pueda explicar adecuadamente los misterios de la existencia o aporte claridad en los asuntos religiosos. En este punto, estás comenzando a perder la esperanza en los grandes maestros y prefieres discutir lo espiritual con tus compañeros.\n\nUn día, hablas con el gobernante de uno de los aliados de [Root.GetName], discutiendo la naturaleza del alma y su unidad con lo divino. Aunque tu aliado es seguidor de Visnú, encuentras que sus palabras sobre Shiva conectan.\n\nMás tarde, piensas en la conversación y te das cuenta de que lo que has dicho no sonaba como las palabras de un alumno, sino un maestro. Quizás Shiva ya te ha mostrado su gracia dándote esta revelación."
+ hindu_events.10.d:0 "Tras muchos años buscando un gurú que te guíe, no has encontrado a nadie que pueda explicar adecuadamente los misterios de la existencia o aporte claridad en los asuntos religiosos. En este punto, estás comenzando a perder la esperanza en los grandes maestros y prefieres discutir lo espiritual con tus compañeros.\n\nUn día, hablas con el gobernante de uno de los aliados de [Root.GetName], discutiendo la naturaleza del alma y su unidad con lo divino. Aunque tu aliado es seguidor de Visnú, encuentras que sus palabras sobre Shiva conectan.\n\nMás tarde, piensas en la conversación y te das cuenta de que lo que has dicho no sonaba como las palabras de un alumno, sino un maestro. Quizás Shiva ya te ha mostrado su gracia dándote esta revelación." # [LocEditor:AwaitingBatchUpdate]
  hindu_events.10.a:0 "Voy a contemplar cómo se me concedió este conocimiento."
  hindu_events.10.b:0 "Este es un pensamiento vano. Todavía tengo que aprender mucho de los mayores."
  hindu_events.11.t:0 "Anugraha: emancipación"

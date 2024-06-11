@@ -46,11 +46,11 @@
  tributary_state_behind_overlord_tech_dip:0 "Estado tributario con menos niveles totales de Tecnología diplomática que soberano"
  tributary_state_behind_overlord_tech_mil:0 "Estado tributario con menos niveles totales de Tecnología militar que soberano"
  CURRENT_HARMONY:0 "Armonía"
- HARMONY_DESCRIPTION:0 "La armonía religiosa de nuestra nación aumentará naturalmente con el paso del tiempo. Convertir provincias y armonizar con otras religiones reducirá nuestra armonía a corto plazo."
+ HARMONY_DESCRIPTION:0 "La armonía religiosa de nuestra nación aumentará naturalmente con el paso del tiempo. Convertir provincias y armonizar con otras religiones reducirá nuestra armonía a corto plazo." # [LocEditor:AwaitingBatchUpdate]
  CURRENT_HARMONY_VAL:0 "§YArmonía§!: $VAL$\nCambia con $CHANGE$ al año.\n"
  HARMONY_LOSS_FROM_CONV:0 "Esto reduce nuestra armonía en §R$VAL$§!."
  HARMONY_FROM_HARMONIZING:0 "Armonizando $RELIGION$: $VAL$"
- MISSIONARY_HARMONY_LOSS_DESC:0 "Convertir esta provincia reducirá armonía en §R$VAL$§!\n(§R$LOSS_PER_DEV$§! por desarrollo)."
+ MISSIONARY_HARMONY_LOSS_DESC:0 "Convertir esta provincia reducirá armonía en §R$VAL$§!\n(§R$LOSS_PER_DEV$§! por desarrollo)." # [LocEditor:AwaitingBatchUpdate]
  MODIFIER_YEARLY_HARMONY:0 "Aumento anual de armonía"
  low_harmony:0 "Armonía baja"
  high_harmony:0 "Armonía alta"
@@ -182,7 +182,7 @@
  tributary_events.22.d:0 "Como antiguo y leal tributario de [Root.Overlord.GetName] nos han enviado un regalo enorme. ¡Esto reforzará nuestro poder a escala interna y engrosará nuestras arcas inmensamente!"
  tributary_events.22.a:0 "Sienta bien ser reconocido."
  tributary_events.23.t:0 "Buscadores de fortuna"
- tributary_events.23.d:0 "Si bien las misiones tributarias anuales a [Root.Capital.GetCapitalName] traen tanto regalos como valiosas oportunidades comerciales, también son un modo para que gentes emprendedoras lleguen a la corte [Root.GetAdjective]. Una vez allí buscan empleo sirviendo [Root.GetalalaDir] [Root.GetTitle], esperando una vida más rica y mejor."
+ tributary_events.23.d:0 "Si bien las misiones tributarias anuales a [Root.Capital.GetCapitalName] traen tanto regalos como valiosas oportunidades comerciales, también son un modo para que gentes emprendedoras lleguen a la corte [Root.GetAdjective]. Una vez allí buscan empleo sirviendo [Root.GetalalaDir] [Root.Monarch.GetTitle], esperando una vida más rica y mejor."
  tributary_events.23.a:0 "Esta es una tierra de oportunidades."
  tributary_events.24.t:0 "Aventureros [Root.Overlord.GetAdjective]"
  tributary_events.24.d:0 "Al pagar tributo [Root.GetalalaDir] [Root.Overlord.Monarch.GetTitle] de [Root.Overlord.GetName], somos parte del ámbito comercial [Root.Overlord.GetAdjective] y las gentes pueden viajar libremente entre nuestros países. Entre los que podrían aprovechar bien esta oportunidad son buscadores de fortuna y aventureros de toda la región.\nEsta gente tiene habilidades, talento, experiencia y una formación sin igual en nuestro reino y podrían ser una valiosa contribución a nuestra causa."
@@ -238,8 +238,8 @@
  desc_harmonization_classics_defended:0 "Hemos trabajado activamente contra la dilución de las idas y pensamientos de Confucio para adaptarse a la filosofía bárbara. Para llegar a ser civilizados deben aceptar que deben ser como nosotros y abandonar la idea ridícula de que nosotros seremos como ellos."
  harmonization_converted_minister:0 "Ministro erudito"
  desc_harmonization_converted_minister:0 "Uno de nuestros ministros se ha interesado mucho en la ciencia lógica y matemáticas de una región extranjera. Le hemos dado permiso para seguir esos intereses, escandalizando a sabios y funcionarios confucianos por todo el país."
- harmonization_local_rites_refused:0 "Ritos locales reprimidos"
- desc_harmonization_local_rites_refused:0 "Hemos tratado con severidad a los funcionarios locales de este estado por intentar incorporar rituales religiosos locales de liderazgo mientras ejercían nuestra autoridad."
+ harmonization_local_rites_refused:0 "Ritos locales reprimidos" # [LocEditor:AwaitingBatchUpdate]
+ desc_harmonization_local_rites_refused:0 "Hemos tratado con severidad a los funcionarios locales de este estado por intentar incorporar rituales religiosos locales de liderazgo mientras ejercían nuestra autoridad." # [LocEditor:AwaitingBatchUpdate]
  harmony_banned_book:0 "Novela prohibida"
  desc_harmony_banned_book:0 "Hemos prohibido una novela popular por descarriar a nuestra gente."
  FOLLOWING_HARMONIZED_RELIGION:0 "Esta gente ya sigue una religión armonizada."
@@ -290,7 +290,7 @@
  confucian_events.11.a:0 "¡Debemos enseñarles el modo correcto!"
  confucian_events.11.b:0 "Acomodemos esta abstracción."
  confucian_events.12.t:0 "Traducciones de los clásicos"
- confucian_events.12.d:0 "El pueblo del [harmonization_province.Religion.GetName] tienen poderosas tradiciones y ritos y su fidelidad al lenguaje arcaico de su propias enseñanzas les impide acercarse a la civilización. Si alguna vez desean alzarse por encima de los bárbaros Yi de este mundo, debemos asegurarnos de que tienen los clásicos y los ritos correctos en su propio idioma para que puedan digerirlos.\nHay algunos eruditos que ya han empezado a crear tales obras. ¿Debemos animarles a seguir sintetizando sus antiguos concepto religiosos con los principios sublimes de Confucio?"
+ confucian_events.12.d:0 "El pueblo del [harmonization_province.Religion.GetName] tienen poderosas tradiciones y ritos y su fidelidad al lenguaje arcaico de su propias enseñanzas les impide acercarse a la civilización. Si alguna vez desean alzarse por encima de los bárbaros Yi de este mundo, debemos asegurarnos de que tienen los clásicos y los ritos correctos en su propio idioma para que puedan digerirlos.\nHay algunos eruditos que ya han empezado a crear tales obras. ¿Debemos animarles a seguir sintetizando sus antiguos concepto religiosos con los principios sublimes de Confucio?" # [LocEditor:AwaitingBatchUpdate]
  confucian_events.12.a:0 "Que creen su propia versión de las formas correctas."
  confucian_events.12.b:0 "¡Sería una burla de nuestra ideología!"
  confucian_events.13.t:0 "La fe de [Root.Adm_Advisor.GetName]"
@@ -298,7 +298,7 @@
  confucian_events.13.a:0 "¡Destituye a tal [Root.Adm_Advisor.GetWomanMan]!"
  confucian_events.13.b:0 "Teneos mucho que aprender del pueblo del [harmonization_province.Religion.GetName]."
  confucian_events.14.t:0 "Derechos y ritos"
- confucian_events.14.d:0 "Si bien son parte de nuestro [Root.GovernmentName], algunas de las tradiciones de [harmonization_province.GetName] pueden ser muy difíciles de digerir. Se supone que un pueblo civilizado debe regirse según lo que las enseñanzas confucianas señalan como justo y lógico, pero estas gentes tienen muchas costumbres que contradicen directamente tales reglas. Nuestros funcionarios en [harmonization_province.GetName] han estado luchando con la gentes de la zona, empeñadas en sus manías bárbaras."
+ confucian_events.14.d:0 "Si bien son parte de nuestro [Root.GovernmentName], algunas de las tradiciones de [harmonization_province.GetName] pueden ser muy difíciles de digerir. Se supone que un pueblo civilizado debe regirse según lo que las enseñanzas confucianas señalan como justo y lógico, pero estas gentes tienen muchas costumbres que contradicen directamente tales reglas. Nuestros funcionarios en [harmonization_province.GetName] han estado luchando con la gentes de la zona, empeñadas en sus manías bárbaras." # [LocEditor:AwaitingBatchUpdate]
  confucian_events.14.a:0 "¡Bárbaros!"
  confucian_events.14.b:0 "Asuntos tan triviales no nos preocupan."
  confucian_events.15.t:0 "Reforzando la oficina de [Root.Monarch.GetTitle]"
@@ -317,13 +317,13 @@
  confucian_events.18.d:0 "El gobierno de nuestro gran [Root.GovernmentName] es la mayor responsabilidad y privilegio del [Root.Monarch.GetTitle]. En el pasado, la dinastía [Root.Monarch.Dynasty.GetName] se enorgullecía de liderar con el ejemplo, manteniendo una etiqueta estricta, austeridad personal y una eliminación cuidadosa de aquellos que no se ajustasen a este ideal.\nAsí pues, el [Root.Monarch.GetName] ha observado con gran tristeza el desarrollo de [Root.Heir.GetName]. Lejos del ideal, sus profesores describen a nuestro heredero como una persona mezquina, centrada en la ganancia inmediata y los placeres emocionales. No obstante, hay facciones que quedarían disgustadas si abandonásemos a [Root.Heir.GetName]. Un nuevo heredero no contaría con su apoyo."
  confucian_events.18.a:0 "Tal [Root.Heir.GetWomanMan] no es digno para el Palacio del Este."
  confucian_events.18.b:0 "Necesitamos que las facciones apoyen al [Root.Heir.GetTitle]."
- confucian_events.19.t:0 "Novela popular"
- confucian_events.19.d:0 "Una novela de la zona sobre una historia bien conocida de la era [Root.GetOldEra] se está haciendo rápidamente muy popular entre nuestros súbditos. Esto en sí no sería un problema, pero nos han llamado la atención de que esta novela infringe de hecho los principios centrales de la ideología confuciana, pues podría verse como un argumento para desobedecer la autoridad central y [Root.Monarch.GetalalaDir] [Root.Monarch.GetTitle].\nAhora nuestros administradores sostienen que debemos prohibir el libro, si bien algunos temen que esto solo lo hará más atractivo para aquellos que quieran leerlo."
- confucian_events.19.a:0 "Debe ser prohibido inmediatamente."
- confucian_events.19.b:0 "Guiaremos por ejemplo, no por derecho. Que sea lo que sea."
- confucian_events.20.t:0 "Funcionariado"
- confucian_events.20.d:0 "Educación, superación y observancia de los clásicos son la columna doral del gobierno confuciano, y si nuestro [Root.GovernmentName] quiere aspirar a la grandeza, deberemos dedicar tiempo, atención y energía a asegurarnos de que nuestros funcionarios están lo mejor educados e informados posible. Por lo tanto, es algo preocupante que últimamente parezca estar disminuyendo el número de gente que busca empleo en el gobierno."
- confucian_events.20.a:0 "¡Debemos expandir la burocracia!"
+ confucian_events.19.t:0 "Novela popular" # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.19.d:0 "Una novela de la zona sobre una historia bien conocida de la era [Root.GetOldEra] se está haciendo rápidamente muy popular entre nuestros súbditos. Esto en sí no sería un problema, pero nos han llamado la atención de que esta novela infringe de hecho los principios centrales de la ideología confuciana, pues podría verse como un argumento para desobedecer la autoridad central y [Root.Monarch.GetalalaDir] [Root.Monarch.GetTitle].\nAhora nuestros administradores sostienen que debemos prohibir el libro, si bien algunos temen que esto solo lo hará más atractivo para aquellos que quieran leerlo." # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.19.a:0 "Debe ser prohibido inmediatamente." # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.19.b:0 "Guiaremos por ejemplo, no por derecho. Que sea lo que sea." # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.20.t:0 "Funcionariado" # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.20.d:0 "Educación, superación y observancia de los clásicos son la columna doral del gobierno confuciano, y si nuestro [Root.GovernmentName] quiere aspirar a la grandeza, deberemos dedicar tiempo, atención y energía a asegurarnos de que nuestros funcionarios están lo mejor educados e informados posible. Por lo tanto, es algo preocupante que últimamente parezca estar disminuyendo el número de gente que busca empleo en el gobierno." # [LocEditor:AwaitingBatchUpdate]
+ confucian_events.20.a:0 "¡Debemos expandir la burocracia!" # [LocEditor:AwaitingBatchUpdate]
  confucian_events.20.b:0 "Todavía no hay necesidad de reforzar nuestros cuadros."
  confucian_events.21.t:0 "Herencia confuciana"
  confucian_events.21.d:0 "Desde la ocupación china, la veneración a Confucio y los ideales confucianos han arraigado en nuestra sociedad, de la adoración básica a Confucio en la religión popular de los plebeyos a la admiración y el estudio de los textos neoconfucianos de nuestra corte.\nAunque el clero no estará de acuerdo, algunos dirían que somos primero un país confuciano y después budista Mahayana."
@@ -377,8 +377,8 @@
  FILTER_ALLIES:0 "Aliados"
  FILTER_RIVALS:0 "Rivales"
  FILTER_WAR_ENEMIES:0 "Enemigo de guerra"
- FILTER_POS_OPINION:0 "Opinión positiva"
- FILTER_NEG_OPINION:0 "Opinión negativa"
+ FILTER_POS_OPINION:1 "Opinión §G+ve§! "
+ FILTER_NEG_OPINION:1 "Opinión §R-ve§!"
  FILTER_PLAYERS:0 "Jugadores"
  FILTER_ALLIES_DESC:0 "Muestra solo a nosotros y nuestros aliados."
  FILTER_RIVALS_DESC:0 "Muestra solo a nosotros y nuestros rivales."
@@ -387,8 +387,8 @@
  FILTER_NEG_OPINION_DESC:0 "Nos muestra a nosotros y los países que tienen una opinión negativa hacia nosotros."
  FILTER_PLAYERS_DESC:0 "Muestra solo a nosotros y otros jugadores."
  ZERO_TRIBUTE:0 "Cantidad demasiado pequeña"
- celestial_empire_events.1.t:0 "El fin del [From.GovernmentName] [From.GetAdjective]"
- celestial_empire_events.1.d:0 "Con la caída de [From.Capital.GetCapitalName], los últimos restos del Imperio de China han sido aplastados. El Mandato del Cielo y la antigua administración confuciana ahora se ven como conceptos caducos y la nobleza erudita tendrá que evolucionar en otra cosa o perecer. \nAunque la memoria del Imperio vivirá durante algún tiempo, el [Root.GovernmentName] de [Root.GetName] serán recordados para siempre como los destructores del último [From.Monarch.GetTitle]."
+ celestial_empire_events.1.t:0 "El fin del [From.GovernmentName] [From.GetAdjective]" # [LocEditor:AwaitingBatchUpdate]
+ celestial_empire_events.1.d:0 "Con la caída de [From.Capital.GetCapitalName], los últimos restos del Imperio de China han sido aplastados. El Mandato del Cielo y la antigua administración confuciana ahora se ven como conceptos caducos y la nobleza erudita tendrá que evolucionar en otra cosa o perecer. \nAunque la memoria del Imperio vivirá durante algún tiempo, el [Root.GovernmentName] de [Root.GetName] serán recordados para siempre como los destructores del último [From.Monarch.GetTitle]." # [LocEditor:AwaitingBatchUpdate]
  celestial_empire_events.1.a:0 "Vale."
  celestial_empire_events.2.t:0 "Una ideología para nuestro imperio "
  celestial_empire_events.2.d:0 "Al asumir el papel de la China imperial, entramos en una antigua tradición. [Root.GetName] ha heredado un número de instituciones, como el sistema de exámenes y el concepto del mandato celestial, que están íntimamente relacionados con la filosofía china del confucianismo\nComo el nuevo Imperio de China, depende de nosotros hasta qué punto deseemos integrar esta ideología con la nuestra, pero adoptar la filosofía confuciana nos ayudaría tanto a gobernar el vasto imperio que ahora reclamamos, como a reforzar nuestro mandato en la mente del pueblo."
@@ -419,6 +419,7 @@
  empire_of_china_nomadic_border_events.2.db:0 "El Imperio de China se ha perdido. La ruina general de nuestra antaño poderosa nación ha hecho que la preocupación de nuestro pueblo por la frontera nómada sea un recuerdo lejano."
  empire_of_china_nomadic_border_events.2.a:0 "Tal es la voluntad de los Cielos."
  empire_of_china_nomadic_border:0 "Frontera nómada desprotegida"
+ empire_of_china_nomadic_border_tt:0 "Es una §Yhorda§! y tiene un desarrollo total propio y de súbditos no tributarios de §Y300§!"
  eoc_nomadic_border_tooltip:0 "Total desarrollo al menos §Y300§!"
  shogunate_mechanic_explanation:0 "§BUn país puede apoderase del shogunato y ser soberano de todos los daimios súbditos tomando la provincia de Kioto.§!"
  wokou_pirate_stronghold_indifferent:0 "Bastión pirata"
@@ -758,9 +759,11 @@
  shinto_events.57.d:0 "Nuestra política de reivindicar activamente nuestra independencia y contar con autoridades locales alternativas en lugar de seguir la corriente de las intrigas del shogunato nos ha ganado la reputación de ser un daimio poderoso y sumamente independiente. Nuestra palabra conlleva respeto y nuestras acciones resuenan en muchos de los daimios y kokujin de Japón que desean superar los límites de su vasallazgo. Al socavar continuamente la autoridad imperial, construimos rápidamente una base de poder propia."
  shinto_events.57.a:0 "Hechos, y no palabras."
  shinto_events.58.t:0 "El Buda Amida"
- shinto_events.58.d:0 "Nuestro prolongado apoyo a los Ikko-ikkis no ha carecido de fricciones, y en muchos casos es como si en Japón hubiera dos autoridades paralelas. No obstante, también puede decirse que según algunos, los Ikko-Ikki jamás hubieran llegado tan lejos sin nuestra protección.\nAhora que los tiempos de luchas internas quedaron atrás, muchos esperan que ascendamos a los líderes de los Ikko-Ikki a altos cargos y que el estado patrocine su fe de un modo más oficial. Aunque para mucha gente esto sería un grave insulto a nuestras antiguas tradiciones…"
+ shinto_events.58.d:1 "Nuestro prolongado apoyo a los ikko-ikki no ha carecido de roces y, en muchos casos, es como si en Japón hubiera dos autoridades paralelas. No obstante, según algunos, estos jamás habrían llegado tan lejos sin nuestra protección.\nAhora que los tiempos de luchas internas quedan atrás, muchos esperan que ascendamos a los líderes de los ikko-ikki a altos cargos y que el Estado dé un carácter más oficial a su fe. Sin embargo, para mucha gente eso sería un grave insulto a nuestras antiguas tradiciones…"
  shinto_events.58.a:0 "No, nunca podremos volver totalmente la espalda a las tradiciones de nuestros antepasados."
- shinto_events.58.b:0 "Namu Amida Butsu."
+ shinto_events.58.b:1 "Namu Amida Butsu. Debemos abrazar sus creencias y consagrarlas en nuestro sistema legal."
+ shinto_events.58.c:1 "Namu Amida Butsu. Sus comunas recibirán autoridad total."
+ shinto_events.58.e:1 "Namu Amida Butsu. Su filosofía es sensata, pero no podemos dejar que gobiernen."
  MAX_TRIBUTE_REACHED:0 "\nUn tributario no puede pagar más de $AMOUNT|Y$ $SYMBOL$ al año."
  CHANGE_TRIBUTE_COOLDOWN:0 "Solo puedes cambiar el tributo una vez al mes. Podrás hacerlo de nuevo el $UNTIL|Y$."
  SWITCH_HARMONIZATION_DESC:0 "Esto §Rcancelará§! tu armonización con $CURRENT|Y$ (progreso actual $PROGRESS|%|Y|0$).\n"
@@ -821,6 +824,8 @@
  ENEMY_ALLY_PLAYER:0 "@$TAG$ $NAME$ (jugador humano)\n"
  ENEMY_ALLY:0 "@$TAG$ $NAME$\n"
  TRIBUTE_INCOME:0 "§Y$NAME$§! nos paga §Y$VAL$§!¤ al año."
+ temple_of_confucius_modifier:0 "Templo de Confucio"
+ desc_temple_of_confucius_modifier:0 "El templo de Confucio de Qufu es el mayor y más célebre de los templos confucianos. Originalmente la casa del mismo Confucio, el templo se ha convertido en una especie de lugar sagrado para las costumbres confucianas. Muchos emperadores visitaron este templo para ofrecer sacrificios en recuerdo de Confucio."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  tributary_state_behind_overlord_tech:0 "Estado tributario con menos nivel tecnológico total que soberano."

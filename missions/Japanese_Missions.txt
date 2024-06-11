@@ -7,7 +7,10 @@ japanse_missions_sea = {
 			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -33,21 +36,33 @@ japanse_missions_sea = {
 			}
 		}
 		trigger = {
+			owns_or_non_sovereign_subject_of = 4193
+			owns_or_non_sovereign_subject_of = 1847
+			owns_or_non_sovereign_subject_of = 1852
+			owns_or_non_sovereign_subject_of = 1031
 			4193 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
+				OR = {
+					religion = ROOT
+					ROOT = { has_harmonized_with = PREV }
+				}
 			}
 			1847 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
+				OR = {
+					religion = ROOT
+					ROOT = { has_harmonized_with = PREV }
+				}
 			}
 			1852 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
+				OR = {
+					religion = ROOT
+					ROOT = { has_harmonized_with = PREV }
+				}
 			}
 			1031 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
+				OR = {
+					religion = ROOT
+					ROOT = { has_harmonized_with = PREV }
+				}
 			}
 		}
 		effect = {
@@ -63,30 +78,18 @@ japanse_missions_sea = {
 			if = {
 				limit = {
 					1032 = {
-						is_empty = yes
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 				}
-				1032 = {
-					cede_province = ROOT
-					change_culture = ROOT
-					change_religion = ROOT
-				}
+				add_permanent_claim = 1032
 			}
-			else = {
-				1032 = {
-					add_permanent_claim = ROOT
+			sakhalin_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-			}
-			1033 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -178,7 +181,10 @@ japanse_missions_china = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -216,6 +222,10 @@ japanse_missions_china = {
 		trigger = {
 			OR = {
 				has_reform = shogunate
+				japan_region = { 
+					type = all 
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
 				tag = JAP
 			}
 			south_korea_area = {
@@ -290,6 +300,10 @@ japanse_missions_china = {
 			OR = {
 				has_reform = shogunate
 				tag = JAP
+				japan_region = { 
+					type = all 
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
 			}
 			ningguta_area = {
 				type = all
@@ -342,7 +356,13 @@ japanse_missions_china = {
 		}
 		
 		trigger = {
-			tag = JAP
+			OR = { 
+				japan_region = { 
+					type = all 
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
+				tag = JAP
+			}
 			if = {
 				limit = {
 					has_dlc = "Mandate of Heaven"
@@ -407,7 +427,7 @@ japanse_missions_china = {
 					}
 					ROOT = {
 						add_casus_belli = {
-							type = cb_force_tributary
+							type = cb_force_tributary_mission
 							months = 300
 							target = PREV
 						}
@@ -494,7 +514,10 @@ japanse_missions_the_empire = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -522,10 +545,14 @@ japanse_missions_the_empire = {
 			OR = {
 				has_reform = shogunate
 				tag = JAP
+				japan_region = { 
+					type = all 
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
 			}
 		}
 		effect = {
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 			south_korea_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -608,29 +635,11 @@ japanse_missions_the_empire = {
 				}
 				add_claim = ROOT
 			}
-			1240 = {
+			northern_polynesia_area = {
 				if = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			1994 = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			1997 = {
-				if = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
@@ -642,11 +651,7 @@ japanse_missions_the_empire = {
 		icon = mission_invade_island
 		required_missions = { jap_colonize_taiwan }
 		provinces_to_highlight = {
-			OR = {
-				province_id = 1240 # Hawaii
-				province_id = 1994 # Wake Island
-				province_id = 1997 # Midway
-			}
+			area = northern_polynesia_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -663,9 +668,10 @@ japanse_missions_the_empire = {
 				}
 			}
 			else = {
-				owns_core_province = 1240
-				owns_core_province = 1994
-				owns_core_province = 1997
+				northern_polynesia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
 		}
 		effect = {
@@ -727,7 +733,10 @@ japanse_missions_domestic = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -773,7 +782,12 @@ japanse_missions_domestic = {
 			}
 		}
 		trigger = {
-			tag = JAP
+			if = {
+				limit = { 
+					NOT = { has_dlc = "Domination" }
+				}
+				tag = JAP 
+			}
 			hokuriku_area = {
 				type = all
 				owned_by = ROOT
@@ -896,7 +910,10 @@ japanse_missions_domestic = {
 				limit = {
 					is_revolutionary = no
 				}
-				absolutism = 50
+				OR = {
+					absolutism = 50
+					crown_land_share = 70
+				}
 			}
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" }
@@ -946,7 +963,10 @@ japanse_missions_economic = {
 		OR = {
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}

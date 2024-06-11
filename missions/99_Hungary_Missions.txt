@@ -37,7 +37,10 @@ hun_north_group = {
 					exists = POL
 					has_dlc = "Res Publica"
 					POL = {
-						has_reform = elective_monarchy
+						OR = { 
+							has_reform = polish_elective_monarchy
+							has_reform = elective_monarchy
+						}
 					}
 				}
 				OR = { 
@@ -128,6 +131,9 @@ hun_north_group = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Mission itself is rather ignorable, but the next one should be important for AI Hungary
+		}
 	}
 	
 	hun_vassal_states = {
@@ -163,6 +169,9 @@ hun_north_group = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 	
@@ -237,6 +246,9 @@ hun_north_group = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -302,6 +314,9 @@ hun_south_group = {
 					add_permanent_claim = ROOT
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 
@@ -398,6 +413,9 @@ hun_south_group = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 }
 
@@ -460,6 +478,9 @@ hun_ottoman_group = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#AI HUngary should WANT to survive against the Ottoman threat
+		}
 	}
 	
 	hun_ottoman_borders_three = {
@@ -498,11 +519,14 @@ hun_ottoman_group = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Tapping into Alt-History, but plausible
+		}
 	}
 
 	hun_ottoman_borders_two = {
 		icon = mission_conquer_5_states
-		required_missions = { hun_ottoman_borders }
+		required_missions = { hun_ottoman_borders_three }
 		position = 6
 		
 		provinces_to_highlight = {
@@ -529,13 +553,15 @@ hun_ottoman_group = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 50	#Less relevant
+		}
 	}
 	
 	hun_ottoman_borders_four = {
 		icon = mission_ottoman_harem
 		required_missions = { 
-		hun_ottoman_borders_two 
-		hun_ottoman_borders_three
+			hun_ottoman_borders_two 
 		}
 		position = 7
 		
@@ -586,6 +612,9 @@ hun_ottoman_group = {
 				}
 				country_event = { id = new_flavour_hun.3 } #event used by Austria too
 			}
+		}
+		ai_weight = {
+			factor = 50	#Less relevant
 		}
 	}
 }
