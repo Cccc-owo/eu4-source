@@ -236,7 +236,7 @@
  SLANDERMERCHANTSALREADYPRESENTDESC:0 "Ihre Kaufleute werden bereits verleumdet."
  SUPPORTREBELSTITLE:0 "Rebellen unterstützen"
  SUPPORTREBELSDESC:0 "\nUnterstützt Rebellen in einem Land."
- SUPPORTREBELSDESCDERIVED:1 "Die Unterstützung einer Rebellenfraktion wird die Größe unseres §Y$ADJ$en§! Spionagenetzwerks um $COST|R$ verringern und ihre Chance auf einen Aufstand für $YEARS|Y$ Jahre monatlich um §Y$AMT$%§! erhöhen.\nIhr werdet sie auch während ihres Aufstands unterstützen. Wenn die Rebellen die Macht erlangen, werden sie zu Verbündeten."
+ SUPPORTREBELSDESCDERIVED:1 "Die Unterstützung einer Rebellenfraktion reduziert unser §Y$ADJ$es§! Spionagenetzwerk um $COST|R$ und erhöht $YEARS|Y$ Jahre lang die monatliche Chance auf einen Aufstand um §Y$AMT$%§!. Die Unterstützung läuft während des Aufstands weiter. Wenn die Rebellen die Macht erlangen, werden sie zu Verbündeten."
  SUPPORTREBELSDESCALREADYPRESENTDESC:0 "Jemand unterstützt bereits diese Rebellen im Zielland."
  SUPPORTREBELSDESCNOREBELSDESC:0 "Es gibt keine Rebellen, die unterstützt werden können."
  SUPPORT_REBELS_OVERLORD:0 "Rebellen bei einem Eurer Untertanen können nicht unterstützt werden."

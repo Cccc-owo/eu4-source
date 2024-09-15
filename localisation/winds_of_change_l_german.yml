@@ -127,8 +127,8 @@
  FEO_UNLOCK_GOTHIC_INVASION_CB:0 "Schaltet den Kriegsgrund "§YGotische Invasion§!" frei"
  FEO_OCCUPYING_MAJOR_EUROPEAN_CITIES_GRANTS_PERMANENT_MODIFIER:0 "Die Eroberung bestimmter §Ydeutscher Großstädte§! gibt uns nun folgende Boni:\n   §YWien§!: Kosten (Diplomatische Annexion) §G-10.0%§!\n   §YPrag§!: Beraterkosten (Gleiche Kultur) §G-15.0%§!\n   §YKöln§!: Missionare §G+1§! und Missionarsstärke (Häretiker) §G+2.00%§!\n   §YAachen§!: Administrative Effizienz §G+5.00%§!\n   §YLübeck§!: Einheitenlimit (Flotte) §G+20.0%§! und Provinz-Handelseinfluss (Global) §G+15.0%§!"
  FEO_MODIFY_FREEDOM_OF_STEPPES_PRIVILEGE:0 "Das Standesprivileg "§YSteppenfreiheit§!" gibt jetzt zusätzlich §G-2.00§! Unruhe in Steppenprovinzen"
- feo_buffed_freedom_of_steppes_gt:0 "Zusätzliche Boni durch die §YMissionsbelohnungen§!:" # [LocEditor:AwaitingBatchUpdate]
- feo_buffed_freedom_of_steppes_rt:0 "Der Modifikator "§YWahre Freiheit§!" wird aus allen §YSteppenprovinzen§! entfernt." # [LocEditor:AwaitingBatchUpdate]
+ feo_buffed_freedom_of_steppes_gt:0 "Zusätzliche Boni durch die §YMissionsbelohnungen§!:"
+ feo_buffed_freedom_of_steppes_rt:0 "Der Modifikator "§YWahre Freiheit§!" wird aus allen §YSteppenprovinzen§! entfernt."
  feo_buffed_freedom_of_steppes_mod:0 "Wahre Freiheit"
  desc_feo_buffed_freedom_of_steppes_mod:0 "Jene Menschen, die in der wilden Steppe leben, sind gänzlich frei von Sorgen, die ihre Regierung verursacht."
  FROM_CAUCASIA_LIVESTOCK:0 "aus Provinzen mit §YViehbestand§! in §YKaukasien§!"
@@ -207,7 +207,7 @@
  feo_black_seas_fleet:0 "Schwarzmeerflotte"
  desc_feo_black_seas_fleet:0 "Unsere Flotte ist nun in der Lage, jeden unserer Rivalen im Schwarzen Meer zu bekämpfen."
  livestock_regulation_modifier:0 "Regulierter Viehbestand"
- desc_livestock_regulation_modifier:0 "Die Viehzucht in dieser Provinz ist streng geregelt. Es werden nur die besten Tiere gezüchtet und gefüttert." # [LocEditor:AwaitingBatchUpdate]
+ desc_livestock_regulation_modifier:0 "Die Viehzucht in dieser Provinz ist streng geregelt. Es werden nur die besten Tiere gezüchtet und gefüttert."
  feo_defending_trebizond:0 "Verteidigung von Trapezunt"
  desc_feo_defending_trebizond:0 "Die Stadt Trapezunt wurde für den Fall einer Invasion befestigt."
  feo_one_goth_to_rule_them_all:0 "Ein Gote, der über sie alle herrscht"
@@ -222,9 +222,9 @@
  feo_plains_of_ruthenia:0 "Ruthenische Tiefebene"
  desc_feo_plains_of_ruthenia:0 "Die fruchtbaren Böden Rutheniens haben es unseren Reitern erlaubt, sich dort niederzulassen, was es uns leichter macht, sie für unsere Armee zu rekrutieren."
  feo_tatar_population:0 "Tatarische Bevölkerung"
- feo_tatar_population_desc:0 "In dieser Provinz lebt ein Großteil der tatarischen Bevölkerung."
+ desc_feo_tatar_population:0 "In dieser Provinz lebt ein Großteil der tatarischen Bevölkerung."
  feo_cossack_self_governance_ruthenia:0 "Selbstverwaltung der Kosaken"
- desc_feo_cossack_self_governance_ruthenia:0 "Diese Provinz wird von den örtlichen umherziehenden Kosaken regiert." # [LocEditor:AwaitingBatchUpdate]
+ desc_feo_cossack_self_governance_ruthenia:0 "Diese Provinz wird von den örtlichen umherziehenden Kosaken regiert."
  feo_return_to_gothic_ways:0 "Rückkehr zur gotischen Tradition"
  desc_feo_return_to_gothic_ways:0 "Deutschland muss wieder zu seinen alten Wurzeln zurückkehren. Es muss wieder den Wegen der Goten folgen."
  feo_cossacks_freedom_of_the_steppes_buff:0 "Steppenfreiheit"
@@ -239,15 +239,15 @@
  feo_elite_russian_guard:0 "Russische Elitegarde"
  desc_feo_elite_russian_guard:0 ""
  feo_russian_tolerance:0 "Russische Toleranz"
- desc_feo_russian_tolerance:0 "" #Empty on purpose as it is invisible [LocEditor:AwaitingBatchUpdate]
+ desc_feo_russian_tolerance:0 "" #Empty on purpose as it is invisible
  feo_vienna:0 "Wien"
- desc_feo_vienna:0 "" #Empty on purpose as it is invisible [LocEditor:AwaitingBatchUpdate]
+ desc_feo_vienna:0 "" #Empty on purpose as it is invisible
  feo_prague:0 "Prag"
- desc_feo_prague:0 "" #Empty on purpose as it is invisible [LocEditor:AwaitingBatchUpdate]
+ desc_feo_prague:0 "" #Empty on purpose as it is invisible
  feo_lubeck:0 "Lübeck"
- desc_feo_lubeck:0 "" #Empty on purpose as it is invisible [LocEditor:AwaitingBatchUpdate]
+ desc_feo_lubeck:0 "" #Empty on purpose as it is invisible
  feo_aachen:0 "Aachen"
- desc_feo_aachen:0 "" #Empty on purpose as it is invisible [LocEditor:AwaitingBatchUpdate]
+ desc_feo_aachen:0 "" #Empty on purpose as it is invisible
  feo_cologne:0 "Köln"
  desc_feo_cologne:0 "" #Empty on purpose as it is invisible
  feo_russian_aristocracy_idea_buff:1 "Verbindungen zur russischen Aristokratie"
@@ -304,7 +304,7 @@
  flavor_feo.9.d:0 "Da wir die Rus inzwischen vollständig im Griff haben, nennt uns ein Großteil unseres Adels nun "Zaren": Herrscher über Russland. Der Kreml wurde ebenfalls von unseren Truppen gesichert, was unseren Anspruch weiter festigt, sollte ihn jemand anzweifeln. Jetzt müssen wir nur noch entscheiden, wie wir regieren wollen. Sollen wir unseren Status als Herrscher von [Root.GetName] behalten oder sollen wir als Doppelmonarchie regieren?"
  flavor_feo.9.a:1 "Die Rus werden Teil von [Root.GetName] sein."
  flavor_feo.9.b:0 "Wir werden sowohl die Gabras als auch die Khowras sein."
- flavor_feo.9.c:0 "Lasst uns die Kraft und die Widerstandsfähigkeit der örtlichen Bevölkerung nutzen." # [LocEditor:AwaitingBatchUpdate]
+ flavor_feo.9.c:0 "Lasst uns die Kraft und die Widerstandsfähigkeit der örtlichen Bevölkerung nutzen."
 
  
  #Countries:
@@ -467,8 +467,8 @@
  desc_hsn_ayyubid_tolerance:0 "Unsere ayyubidischen Herrscher haben Menschen verschiedenster Herkunft schon immer die Möglichkeit gegeben, großen Einfluss zu erlangen."
  hsn_anatolian_alliance:0 "Anatolisches Bündnis"
  desc_hsn_anatolian_alliance:0 "Ein Bündnis mit den Türken wird unsere nördlichen Grenzen schützen und der Region einen dauerhaften Frieden bringen."
- hsn_anatolian_alliance2:0 "Anatolisches Bündnis" # [LocEditor:AwaitingBatchUpdate]
- desc_hsn_anatolian_alliance2:0 "Ein Bündnis mit den Türken wird unsere nördlichen Grenzen schützen und der Region einen dauerhaften Frieden bringen." # [LocEditor:AwaitingBatchUpdate]
+ hsn_anatolian_alliance2:0 "Anatolisches Bündnis"
+ desc_hsn_anatolian_alliance2:0 "Ein Bündnis mit den Türken wird unsere nördlichen Grenzen schützen und der Region einen dauerhaften Frieden bringen."
  hsn_a_sublime_alliance:0 "Bündnis mit den Osmanen"
  desc_hsn_a_sublime_alliance:0 "Osmans Söhne herrschen über ein riesiges Reich, und es ist ihnen sogar gelungen, bis tief ins Herz Europas vorzudringen und den Sitz der Römer zu bedrohen. Es liegt in unserem besten Interesse, unermüdlich daran zu arbeiten, unser Bündnis aufrechtzuerhalten."
  hsn_center_of_commerce:0 "Zentrum des Handels"
@@ -802,7 +802,7 @@
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_MERCHANT_BUFF:1 "Das Bürger-Standesprivileg "§YArabische Händler§!" gibt Folgendes:\n   Händler: §G+1§!\n   Handelsmacht (Händler): §G+10.0%§!"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:2 "Das Bürger-Standesprivileg "§YArabische Händler§!" gibt Folgendes:\n   Kosten (Leichtschiffe): §G-20.0%§!\n   Handelsmacht (Schiffe): §G+30.0%§!"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_DIPLOMATIC_BUFF:1 "Das Bürger-Standesprivileg "§YArabische Händler§!" gibt Folgendes:\n   Akzeptanz (Handel übertragen): §G+30§!\n   Beziehungen verbessern: §G+25.0%§!"
- ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:1 "Das Bürger-Standesprivileg "§YArabische Händler§!" gibt jetzt §G+15.0%§! Arabischer Merkantilismus."
+ ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:2 "Das Bürger-Standesprivileg "§YArabische Händler§!" gibt jetzt §G+15.0%§! Arabischer Merkantilismus monatlich."
  ORM_0_TOLERANCE_IBADI:0 "Unsere Toleranz hinsichtlich des §Yibaditischen§! Glaubens ist mindestens §Y0§!"
  ORM_DISTRIBUTE_ONLY_IN_IBADI_PROVINCES:0 "Die Entwicklung wird nur auf §Yibaditische§! Provinzen verteilt."
  ORM_IF_CONVERSION:0 "Wenn die Mission abgeschlossen wird, indem alle §Mibaditischen Provinzen konvertiert§! wurden:"
@@ -813,8 +813,8 @@
  ORM_RELIGIOUS_PROPAGATION_NOW_GRANTS_PROVINCE_FOLLOWING_MODIFIER:0 "Wenn wir eine Provinz durch die Handelspolitik "§YReligion verbreiten§!" konvertieren, erhält diese nun den folgenden Modifikator:"
  ORM_RELIGIOUS_CULTURE_GRANTS_EXTRA_MODIFIERS:0 "Das Ulema-Standesprivileg "§YReligiöse Kultur§!" gibt nun zusätzlich §G10.0%§! Handelsmacht (Lokal) und §G-10.0%§! Verwaltungskosten (Provinzen)."
  ORM_PROSPERITY_FOR_EVERY_GEM_PROVINCE:0 "Jede im Besitz befindliche Provinz, die §YEdelsteine§! produziert, erhält §G+100%§! Wohlstand"
- ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:0 "Modifiziert den Modifikator "§YFernost-Handelshaus§!" um:\n   - Handelsübertragung: §G+10.0%§!\n   Kosten (Handelshaus-Investitionen): §G-25.0%§!"
- ORM_BUFF_FAR_EAST_COMPANY_MODIFIER_NO_DLC:0 "Modifiziert den Modifikator "§YFernost-Handelshaus§!" um:\n   - Handelsübertragung: §G+10.0%§!\n   Handelseffizienz: §G+10.0%§!"
+ ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:1 "Modifiziert "§YFernost-Handelshaus§!" um:\n   - Handelsübertragung: §G+10.0%§!\n   Kosten (Handelshaus-Investitionen): §G-25.0%§!"
+ ORM_BUFF_FAR_EAST_COMPANY_MODIFIER_NO_DLC:1 "Modifiziert "§YFernost-Handelshaus§!" um:\n   - Handelsübertragung: §G+10.0%§!\n   Handelseffizienz: §G+10.0%§!"
  ORM_UNLOCK_BURGHERS_TOLERANCE_PRIVILEGE:0 "Neues Bürger-Privileg: §YErzwungener interreligiöser Dialog§!"
  ORM_IF_NO_SPICE_TRADE_EVENT:0 "Wenn das Ereignis §MGewürzhandel§! noch nicht eingetreten ist:"
  ORM_IF_YES_SPICE_TRADE_EVENT:0 "Wenn das Ereignis §MGewürzhandel§! bereits eingetreten ist:"
@@ -1022,7 +1022,7 @@
  ITA_britain_desc:1 "Wie es Claudius bereits Hunderte von Jahren zuvor tat, sollten auch wir sofort eine neue Flotte zusammenstellen und der Selbstherrschaft der Briten ein Ende setzen. Der berühmte Holzwall wird dem, was wir im Namen Roms aufbringen, nicht gewachsen sein."
  ITA_to_the_rhine_title:0 "Auf zum Rhenus"
  ITA_to_the_rhine_desc:0 "Der Rhein war einst die natürliche Grenze zwischen Rom und den germanischen Stämmen. Wir müssen diese Grenze wiederherstellen und den Limes, unseren Grenzwall, schützen, bis wir bereit sind, das Land dahinter zu unterwerfen."
- ITA_to_the_rhine_tt:0 "Ist eine Provinz, die an den §YRhein§! angrenzt oder in dessen Nähe liegt" # [LocEditor:AwaitingBatchUpdate]
+ ITA_to_the_rhine_tt:0 "Ist eine Provinz, die an den §YRhein§! angrenzt oder in dessen Nähe liegt"
  ITA_galleasses_title:0 "Perfektioniert die Galeasse"
  ITA_galleasses_desc:0 "Die Galeasse ist eine Variation der schweren Galeone, die an die Maßstäbe für den Kampf der Galeeren im Mittelmeer angepasst wurde. Wir sollten sie weiter verbessern, um sicherzustellen, dass das Mittelmeer unser Meer bleibt!"
  ITA_reform_the_military_title:0 "Reformiert das Militär"
@@ -1209,8 +1209,8 @@
  desc_ITA_galleass_durability:0 "Der Rumpf unserer Galeassen wurde dergestalt modifiziert, dass er robuster ist."
  ITA_allow_galleasses:0 "Neuerfindung der Galeere"
  desc_ITA_allow_galleasses:0 "Es ist an der Zeit, eine neue Ära für die Seekriegsführung im Mittelmeerraum einzuläuten."
- ITA_galleass_galleys:0 "Neuerfindung der Galeere" # [LocEditor:AwaitingBatchUpdate]
- desc_ITA_galleass_galleys:0 "Es ist an der Zeit, eine neue Ära für die Seekriegsführung im Mittelmeerraum einzuläuten." # [LocEditor:AwaitingBatchUpdate]
+ ITA_galleass_galleys:0 "Neuerfindung der Galeere"
+ desc_ITA_galleass_galleys:0 "Es ist an der Zeit, eine neue Ära für die Seekriegsführung im Mittelmeerraum einzuläuten."
  ITA_new_renaissance:0 "Wiedergeburt Italiens"
  desc_ITA_new_renaissance:0 "Im 15. Jahrhundert durchlebte Italien die Renaissance, eine geistige Wiedergeburt."
  ITA_flowering_of_renaissance:0 "Blütezeit der Renaissance"
@@ -1595,9 +1595,9 @@
  cultural_unity_desc:3 "Die §YKulturelle Einheit§! ist ein Maßstab dafür, wie sehr eine Kultur in unsere Nation integriert ist. Damit eine Kultur als integriert gilt, muss die §YKulturelle Einheit§! 100 erreichen. Sobald eine Kultur integriert wurde, kostet sie keinen Platz mehr für §Ygeförderte Kulturen§!, und wenn die §YIntegration§! stark genug ist, können wir eine §YKulturunion§! bilden. Um §YKulturunionen§! bilden zu können, muss die Mission "§YVertraut Euren Nachbarn§!" abgeschlossen werden. Eine Kultur kann mit der Entscheidung "§YZu integrierende Kultur wählen§!" integriert werden.\n\nKulturelle Einheit wächst folgendermaßen:\nGrundwert: §G+0.83§! pro Monat.\nZielkultur ist eine akzeptierte Kultur: §G+0.33§! pro Monat.\nStabilität: §R-0.3§! bis §G+0.3§! pro Monat.\nEntwicklung von Provinzen der Zielkultur: §G+1.50§! pro Entwicklung.\nKein Teil der deutschen Kulturgruppe: §R-1.00§!\nKeine Kultur zu integrieren: §R-1.00§!\nIm Frieden: §G+0.1§!\nKriegsmüdigkeit: §R-0.05§! für je 1 Kriegsmüdigkeit\nReligiöse Einheit: §G+0.1§! bei 100.0%\nLegitimität: §R-0.1§! bis §G+0.1§!\nAbgeschlossene Hof-Ideen: §G+0.5§!\n\n"
  ability_cultural_unity_mechanic:2 "Mechanik: Kulturelle Einheit"
  
- GET_can_integrate_a_culture:0 "Es gibt eine §Ydeutsche§! Kultur, die §Yintegriert§! werden kann." # [LocEditor:AwaitingBatchUpdate]
- GER_not_integrating_a_culture:0 "§YIntegriert§! derzeit keine Kultur." # [LocEditor:AwaitingBatchUpdate]
- GER_until_demotion:0 "bis diese §YKultur§! vernachlässigt wird" # [LocEditor:AwaitingBatchUpdate]
+ GET_can_integrate_a_culture:0 "Es gibt eine §Ydeutsche§! Kultur, die §Yintegriert§! werden kann."
+ GER_not_integrating_a_culture:0 "§YIntegriert§! derzeit keine Kultur."
+ GER_until_demotion:0 "bis diese §YKultur§! vernachlässigt wird"
  
  GER_prussian_modifier:0 "Integrierte Kultur: Preußisch"
  desc_GER_prussian_modifier:0 ""
@@ -2431,7 +2431,7 @@
  NED_ALLOW_FASTER_NETHERLANDS_FORMATION:0 "Die Gründung der @NED §YNiederlande§! benötigt nicht länger §Yadministrative Technologiestufe 10§!."
  NED_IF_NETHERLANDS_EXTEND_ABOVE_MODIFIER:0 "Wenn wir diese Mission abschließen, während wir die §YNiederlande§! sind, wird der Modifikator "§YJe Maintiendrai§!" um §G10§! Jahre verlängert."
  NED_GAIN_DIPLO_POWER_PER_ENGLISH_COT:0 "Wir erhalten §G+25§! diplomatische Macht für jedes im Besitz befindliche §YHandelszentrum§! auf dem Umschlagplatz §YÄrmelkanal§!"
- NED_UNLOCK_MAN_O_WARS_TOOLTIP:0 "Solange §YEngland§! oder §YGroßbritannien§! ein §YJuniorpartner§! unserer Personalunion ist, sind wir in der Lage, §YLinienschiffe§! zu bauen."
+ NED_UNLOCK_MAN_O_WARS_TOOLTIP:1 "Solange §YEngland§! oder §YGroßbritannien§! ein §YJuniorpartner§! unserer Personalunion ist, sind wir in der Lage, §YLinienschiffe§! zu bauen."
  NED_ENGLAND_PU_IS_25_CHEAPER_TO_INTEGRATE:0 "Die Integration von §YEngland§! (oder §YGroßbritannien§!) ist jetzt §G25%§! günstiger."
  NED_GRANT_CLAIMS_ON_ALL_BATLIC_COT_PROVINCES:0 "Wir erhalten dauerhafte Ansprüche auf jede Provinz mit einem §YHandelszentrum§! auf dem Umschlagplatz §YOstsee§!."
  NED_GRANT_BONUS_ON_ALL_LOW_COUNTRIES_FARMLANDS_PROVINCES:0 "Jede im Besitz befindliche Provinz in den §YNiederlanden§!, die ein §YAckerland§! ist, erhält Folgendes:"
@@ -2542,11 +2542,11 @@
  
  #Leader Personalities:
  us_heit_personality:0 "Us Heit"
- desc_us_heit_personality:0 ""Us Heit", was so viel wie "Unser Vater" bedeutet, ist der volkstümliche Titel, den man Wilhelm Ludwig von Nassau für seine Erfolge gegen die Spanier und das Heilige Römische Reich verlieh, durch die er die Unabhängigkeit der Niederlande sicherte." # [LocEditor:AwaitingBatchUpdate]
- us_heit_personality_die_desc:0 "[GetHerHisCap]e Errungenschaften werden in die niederländische Geschichte eingehen." # [LocEditor:AwaitingBatchUpdate]
+ desc_us_heit_personality:0 ""Us Heit", was so viel wie "Unser Vater" bedeutet, ist der volkstümliche Titel, den man Wilhelm Ludwig von Nassau für seine Erfolge gegen die Spanier und das Heilige Römische Reich verlieh, durch die er die Unabhängigkeit der Niederlande sicherte."
+ us_heit_personality_die_desc:0 "[GetHerHisCap]e Errungenschaften werden in die niederländische Geschichte eingehen."
  bestevaer_personality:0 "Bestevaer"
- desc_bestevaer_personality:0 ""Bestevaer", was so viel wie "Großvater" bedeutet, war der Titel des legendären Admirals Michiel de Ruyter, einem der größten Admirale in der Geschichte, der für seine Raubzüge gegen die englische Krone bekannt ist." # [LocEditor:AwaitingBatchUpdate]
- bestevaer_personality_die_desc:0 "[GetHerHisCap]e Feinde können beruhigt sein, da [GetHerHis]e Raubzüge nicht mehr ihre Häfen plündern werden." # [LocEditor:AwaitingBatchUpdate]
+ desc_bestevaer_personality:0 ""Bestevaer", was so viel wie "Großvater" bedeutet, war der Titel des legendären Admirals Michiel de Ruyter, einem der größten Admirale in der Geschichte, der für seine Raubzüge gegen die englische Krone bekannt ist."
+ bestevaer_personality_die_desc:0 "[GetHerHisCap]e Feinde können beruhigt sein, da [GetHerHis]e Raubzüge nicht mehr ihre Häfen plündern werden."
  orangist_stadholder_personality:0 "Orangistischer Statthalter"
  desc_orangist_stadholder_personality:1 "Ein politischer Vordenker für die Orangisten. Unser Herrscher wird alles tun, um die Macht der Orangisten zu sichern und den Einfluss der Etatisten zu verringern."
  orangist_stadholder_personality_die_desc:0 "[GetHerHisCap]e politische Agenda für die Orangisten hat ihr Ende gefunden."
@@ -3061,7 +3061,7 @@
  flavor_hun.53.de:0 "Unser Glas wird dem von Böhmen und Venedig in nichts nachstehen."
  flavor_hun.53.e:0 "Unser derzeitiger Schwerpunkt dient uns gut."
  golden_city_gp_reward1:0 "Das Ereignis "§YGOLDFIEBER!§!" gibt uns jetzt Einnahmen in Höhe von §G1.5§! Jahren anstelle von §G1§! Jahr."
- golden_city_gp_reward2:0 "Das Ereignis "§YGOLDFIEBER!§!" gibt uns jetzt Einnahmen in Höhe von §G2§! Jahren anstelle von §G1.5§! Jahren."
+ golden_city_gp_reward2:0 "Das Ereignis "§YGOLDFIEBER!§!" gibt uns jetzt Einnahmen in Höhe von §G2§! Jahren anstelle von §G1.5§! Jahr."
  hun_pest_production_insight_tt:0 "\n§GEreignis-Einblick:§!\nDieses Ereignis gibt uns die Wahl, entweder das Handelsgut von §Y[153.GetName]§! zu §YEisen§!, §YKupfer§!, §YTuch§! oder §YGlas§! zu machen und der Provinz §G1§! £dip£ Entwicklung zu geben oder das derzeitige Handelsgut zu behalten und der Provinz §G3§! £dip£ Entwicklung zu geben."
 
  azt_imperial_tributes_title:0 "Tribut für die Hauptstadt"
@@ -3098,7 +3098,7 @@
  azt_squashing_rebellious_tributaries_desc:0 "Wollen wir den stetigen Strom an Opfern für die Götter aufrechterhalten, müssen wir mehr erobern, mehr unterwerfen und über mehr herrschen. Wir müssen erneut in den Krieg ziehen und mehr Opfer sammeln, um den Weltuntergang zu verhindern!"
  azt_fate_of_city_alliance_title:0 "Die Zukunft des Bündnisses"
  azt_fate_of_city_alliance_desc:0 "Das Städtebündnis des Aztekenreichs ist nur noch ein schaler Abklatsch dessen, was es einst war. Wir müssen ihm entweder den Todesstoß versetzen oder es zum Nutzen von Tenochtitlan umgestalten."
- azt_roads_title:0 "Straßen für die [Root.GetBürgerName]"
+ azt_roads_title:1 "Straßen für das Volk"
  azt_roads_desc:0 "Der [Root.GetBürgerName]-Stand ist auf unsere Hilfe angewiesen. Das Fehlen von Straßen in unserem Land erweist sich für die Beförderung von Waren als recht hinderlich. Wir müssen neue Straßen für Händler errichten, die große Entfernungen zurücklegen wollen."
  AZTMacehualtinMissionName:0 "[Root.GetAdjective]e Urbanisierung"
  MacehualtinMissionName:0 "Urbanisiert Mesoamerika"
@@ -3206,7 +3206,8 @@
  AZT_EVERY_SUBJECT_LOSES_LD:0 "All unsere §YUntertanen§! verlieren §G20%§! Freiheitsstreben."
  NAHUATL_TRIBUTARIES_GRANT_FURTHER_BONUSES:1 "§YMesoamerikanische Tributstaaten§! geben jetzt monatlich §G+0.01§! Tonalli."
  AZT_NOBLE_LEVIES_BUFF_TOOLTIP:1 "Das [Root.GetAdelName]-Standesprivileg "§YErhöhte Aufgebote§!" gibt jetzt zusätzlich Folgendes (skaliert mit ihrem §YEinfluss§!):\n   Kosten (Regimenter): §G-10.0%§!"
- AZT_MODIFY_TRIPLE_ALLIANCE_PRIVILEGE:3 "Das [Root.GetAdelName]-Standesprivileg "§YDreibund§!" gibt nicht länger einen Malus auf das §YRegierungslimit§! und der Malus auf das §YRegierungslimit (Modifikator)§! wird auf §G-25%§! reduziert" AZT_GAIN_DEVELOPMENT_PER_SUBJECT:0 "Unsere §YHauptstadt§! erhält §G+1§! zufällige Entwicklung für jeden Untertanen, den wir haben."
+ AZT_MODIFY_TRIPLE_ALLIANCE_PRIVILEGE:3 "Das [Root.GetAdelName]-Standesprivileg "§YDreibund§!" gibt nicht länger einen Malus auf das §YRegierungslimit§! und der Malus auf das §YRegierungslimit (Modifikator)§! wird auf §G-25%§! reduziert"
+ AZT_GAIN_DEVELOPMENT_PER_SUBJECT:0 "Unsere §YHauptstadt§! erhält §G+1§! zufällige Entwicklung für jeden Untertanen, den wir haben."
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER:0 "Modifiziert "§YTenochtitlan-Stadt§!" um:\n   Wohlstand (lokales Wachstum): §G+0.50§!\n   Entwicklungskosten (Lokal): §G-5.00%§!"
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER_2:0 "Modifiziert "§YTenochtitlan-Stadt§!" um:\n   Bauzeit (Lokal): §G-15.0%§!\n   Gebäude (Max. Anzahl): §G+1§!"
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER_3:0 "Modifiziert "§YTenochtitlan-Stadt§!" um:\n   Entwicklungskosten (Lokal): §G-10.0%§!"
@@ -3264,7 +3265,7 @@
  AZT_MODIFY_MECHANIC_HUITZILOPOCHTLI:1 "Macht §YHuitzilopochtli§! zur wichtigsten Schutzgottheit der Nation, wodurch das §YSammeln von Tonalli§! bei maximaler Macht folgende Auswirkungen hat:\n   Moral (Armee): §G+10.0%§!\n   Rekrutenreserve (Provinzen derselben Kulturgruppe): §G+20.0%§!"
  AZT_MODIFY_MECHANIC_TEZCATLIPOCA:1 "Macht §YTezcatlipoca§! zur wichtigsten Schutzgottheit der Nation, wodurch das §YSammeln von Tonalli§! bei maximaler Macht folgende Auswirkungen hat:\n   Kosten (Kernprovinzen): §G-15.0%§!\n   Auswirkung (Aggressive Expansion): §G-10.0%§!"
  AZT_MODIFY_MECHANIC_TLALOC:1 "Macht §YTlaloc§! zur wichtigsten Schutzgottheit der Nation, wodurch das §YSammeln von Tonalli§! bei maximaler Macht folgende Auswirkungen hat:\n   Baukosten: §G-20.0%§!\n   Entwicklungskosten (Primärkultur): §G-10.0%§!"
- AZT_MODIFY_MECHANIC_QUETZACOATL:1 "Macht §YQuetzalcoatl§! zur wichtigsten Schutzgottheit der Nation, wodurch das §YSammeln von Tonalli§! bei maximaler Macht folgende Auswirkungen hat:\n   Unruhe (Global): §G-3.00%§!\n   Missionarsstärke: §G+3.0%§!"
+ AZT_MODIFY_MECHANIC_QUETZACOATL:2 "Macht §YQuetzalcoatl§! zur wichtigsten Schutzgottheit der Nation, wodurch das §YSammeln von Tonalli§! bei maximaler Macht folgende Auswirkungen hat:\n   Unruhe (Global): §G-3.00%§!\n   Missionarsstärke: §G+3.0%§!"
  
  AZT_FESTIVAL_REWARD_CHANGES_WITH_PATRON_DEITY:0 "Die Belohnungen für "§YReligiöses Fest abhalten§!" ändern sich je nachdem, wer unsere §YSchutzgottheit§! ist"
  
@@ -3356,7 +3357,7 @@
  azt_gold_mines_of_mexico:0 "Mexikanische Goldminen"
  desc_azt_gold_mines_of_mexico:0 "Diese Provinz ist eine wichtige Goldmine in Mexiko."
  azt_mexican_goldmine:0 "Mexikanische Goldmine"
- desc_azt_mexican_goldmine:0 "Auf der einen Seite: Gold! Auf der anderen Seite: schmerzhaftes, quälendes Scheitern." # [LocEditor:AwaitingBatchUpdate]
+ desc_azt_mexican_goldmine:0 "Auf der einen Seite: Gold! Auf der anderen Seite: schmerzhaftes, quälendes Scheitern."
  azt_recent_reform:0 "Kürzliche Nahuatl-Reform"
  desc_azt_recent_reform:0 "Vor Kurzem wurde unsere Religion reformiert, was zu einem Umbruch in unserem Reich führte."
  
@@ -4332,8 +4333,8 @@
  desc_SUN_less_ld_for_colonies_modifier:0 "Mehr Bürokratie in den Kolonien bedeutet, dass sie weniger Zeit haben werden, sich gegen uns aufzulehnen."
  SUN_modernization_period:0 "Periode der Anpassung"
  desc_SUN_modernization_period:0 "Wir passen uns an die neuen Technologien an, die uns die Europäer brachten."
- SUN_modernization_period_no_dlc:0 "Periode der Anpassung" # [LocEditor:AwaitingBatchUpdate]
- desc_SUN_modernization_period_no_dlc:0 "Wir passen uns an die neuen Technologien an, die uns die Europäer brachten." # [LocEditor:AwaitingBatchUpdate]
+ SUN_modernization_period_no_dlc:0 "Periode der Anpassung"
+ desc_SUN_modernization_period_no_dlc:0 "Wir passen uns an die neuen Technologien an, die uns die Europäer brachten."
  SUN_doctrine:0 "Pazifikeroberung"
  desc_SUN_doctrine:0 "Die Verwaltung unserer westlichen Territorien und die damit verbundene Überquerung des Pazifiks haben uns gelehrt, wie man nicht vom Kurs abkommt."
  SUN_reaching_the_sunlight:0 "Den Sonnenaufgang erreicht"
@@ -4368,7 +4369,7 @@
  sunset_invasion.1.d:0 "Mit der Niederlage der Invasoren aus Übersee und ihrem Rückzug in ihr Heimatland sitzen viele Siedler, die einst auf der Suche nach neuer Hoffnung, Ruhm und Profit hierherkamen, in unseren Territorien fest. Obwohl wir dies einfach als weitere Eroberung ansehen könnten, könnten diese Menschen ein Hindernis für unsere Herrschaft werden."
  sunset_invasion.1.a:0 "Verbannung ist der einzige Weg."
  sunset_invasion.1.b:0 "Wir behandeln sie einfach wie alle anderen eroberten Territorien."
- sunset_invasion.1.c:0 "Wir werden an ihren Küsten Angst und Schrecken verbreiten!" # [LocEditor:AwaitingBatchUpdate]
+ sunset_invasion.1.c:0 "Wir werden an ihren Küsten Angst und Schrecken verbreiten!"
  
  sunset_invasion.2.t:0 "Auf nach Europa"
  sunset_invasion.2.d:0 "Tausende von Schiffen sind in Richtung Sonnenaufgang ausgelaufen. Zehntausende Männer sind bereit, die erstbeste Küste zu erobern, auf die sie stoßen. Sollte unser Feind vorbereitet sein, so werden auch wir bereit sein, ihn zu vernichten, und sollte er nicht bereit sein, steht unser Sieg bereits fest."
@@ -4661,8 +4662,8 @@
  boh_biggest_eu_dev:0 "Es existiert keine Nation in §YEuropa§!, die mehr Gesamtentwicklung als §Y[Root.GetName]§! hat."
  boh_great_moravia_insight_tt:0 "\n§GEreignis-Einblick:§!\nDieses Ereignis schaltet eine Entscheidung frei, die es uns erlaubt, @GMA §YGroßmähren§! zu gründen, und gibt unserem Herrscher §G2§! £mil£ Macht sowie den folgenden Modifikator:"
  boh_unlock_great_moravia_tt:0 "Schaltet eine Entscheidung frei, die es uns erlaubt, @GMA §YGroßmähren§! zu gründen."
- boh_preview_catholic_branching:0 "Vorschau des Missionsbaums "§OPfad: Katholisch§!" anzeigen."
- boh_preview_hussite_branching:0 "Vorschau des Missionsbaums "§OPfad: Hussitisch§!" anzeigen."
+ boh_preview_catholic_branching:1 "Vorschau des Missionsbaums "§OPfad: Katholisch§!" anzeigen."
+ boh_preview_hussite_branching:1 "Vorschau des Missionsbaums "§OPfad: Hussitisch§!" anzeigen."
  boh_dip_for_reform_votes_tt:0 "Erhält §G1§! £dip£ diplomatische Macht für jede Nation, die Mitglied des §YHeiligen Römischen Reichs§! ist."
  boh_perma_claim_hre_provinces_tt:0 "§Y[Root.GetName]§! erhält einen dauerhaften Anspruch auf alle Provinzen, die Teil des §YHeiligen Römischen Reichs§! sind, sich aber nicht im Besitz eines §YReichsfürsten§! befinden."
  boh_most_income_europe:0 "Es existiert keine §Yeuropäische§! Nation, die ein höheres Einkommen als §Y[Root.GetName]§! hat."
@@ -5215,7 +5216,7 @@
  TATARS_IF_YUAN_SUBJECT:0 "Wenn @YUA §Y[YUA.GetName]§! unser Untertan ist:"
  HORDES_SHARE_SPOILS_GRANTS_TECH_COST_REDUCTION:0 "Das Stämme-Standesprivileg "§YAnteil an der Beute§!" gibt jetzt §G-5.00%§! Kosten (Technologien)"
  HORDES_UNLOCK_JAPANESE_NAVAL_DOCTRINE:0 "Wir schalten die Flottendoktrin "§YAtakebune§!" frei."
- TATARS_GAIN_DIP_POWER_PER_COT_IN_PERSIA:0 "Wir erhalten §G+25§! diplomatische Macht für jedes im Besitz befindliche §YHandelszentrum§! in der Region §YPersien§!."
+ TATARS_GAIN_DIP_POWER_PER_COT_IN_PERSIA:1 "Wir erhalten §G+25§! diplomatische Macht für jedes im Besitz befindliche §YHandelszentrum§! in der Region §YPersien§!."
  HORDES_RESTORE_YUAN_IN_PERSIA:1 "@ILK §Y[ILK.GetName]§! wird in den Regionen §YPersien§! und §YKhorasan§! als §YMongolisches Bruderreich§! von uns entlassen."
  TATARS_MODIFY_KHAN_OF_KHANS_1:1 "Modifiziert "§YKhan der Khane§!" um:\n   Horden-Einheit (Jährlich): §G+0.50§!\n   Bewegungsgeschwindigkeit: §G+10.0%§!"
  TATARS_MODIFY_KHAN_OF_KHANS_2:0 "Modifiziert "§YKhan der Khane§!" um:\n   Reisezeit (Gesandte): §G-10.0%§!"
@@ -5223,9 +5224,9 @@
  TATARS_IF_CAIRO_AND_BAGHDAD_HAVE_BEEN_RAZED:0 "Wenn §Y[410.GetName]§! und §Y[361.GetName]§! innerhalb der letzten §Y20§! Jahre gebrandschatzt wurden:"
  TATARS_RAZING_GRANTS_TRIBES_LOYALTY:0 "Jedes Mal, wenn wir eine Provinz §Ybrandschatzen§!, erhält der §YStämme§!-Stand §G+1%§! Loyalität."
  HORDES_UNLOCK_REAVER_RULER_PERSONALITY:0 "Schaltet die Herrscherpersönlichkeit "§YPlünderer§!" frei, solange wir eine §YHorde§! bleiben. Diese gibt Folgendes:\n   Verfügbare Beute: §G+15.0%§!\n   Machtzuwachs von Brandschatzen: §G+20.0%§!"
- HORDES_GRANT_HORDE_UNITY_PER_MOUNTAIN_PROVINCE_IN_REGION:1 "Wir erhalten für jede im Besitz befindliche §YBerg§!- oder §YHügel§!-Provinz in der Region §YKaukasien§! §G+2§! Horden-Einheit."
+ HORDES_GRANT_HORDE_UNITY_PER_MOUNTAIN_PROVINCE_IN_REGION:2 "Wir erhalten für jede im Besitz befindliche §YBerg§!- oder §YHügel§!-Provinz in der Region §YKaukasien§! §G+2§! [Root.GetLegitimacyOrSimilarCurrency]."
  HORDES_CREATE_PAX_MONGOLICA_MODIFIER:0 "Verschmilzt die Modifikatoren "§YKhan der Khane§!" und "§YWie ein Drache§!" im neuen Modifikator "§YPax Mongolica§!" und verstärkt diesen um:\n   Reisezeit (Gesandte): §G-10.0%§!\n   Regierungslimit: §G+100§!"
- HORDES_CONQUERORS_GUARANTEED:0 "Unsere §YHerrscher§! erhalten garantiert die Persönlichkeit "§YEroberer§!"."
+ HORDES_CONQUERORS_GUARANTEED:1 "Unsere zukünftigen §YHerrscher§! erhalten garantiert die Persönlichkeit "§YEroberer§!"."
  HORDES_GENERALS_CREATED_FROM_WARGAMES_INCREASED_CHANCE_AND_BETTER_STATS:0 "Das Ereignis "§YKriegsspiele§!" hat eine erhöhte Chance, die Ereignisse "§YAufgehender Stern§!" und "§YLeuchtender Stern§!" auszulösen, und Generäle, die durch diese Ereignisse erschaffen werden, erhalten §G+1§! Nahkampf und Belagerung."
  HORDES_WARGAMES_GRANT_HORDE_UNITY:0 "Das Ereignis "§YKriegsspiele§!" gibt jetzt §G+5§! Horden-Einheit."
  HORDES_BASAQS_NOW_GRANT_TRIPLES_LOYALTY_PER_TRIBUTE_RECEIVED:2 "Das Standesprivileg "§YMehr Autonomie für die Basqaq§!" gibt jetzt jedes Mal, wenn uns ein §YTributstaat§! Tribut zahlt, §G+1%§! Loyalität für den Stand, dem es zugewiesen wurde."
@@ -5333,7 +5334,7 @@
  hordes_unity_of_faith:0 "Einheit des Glaubens"
  desc_hordes_unity_of_faith:0 "Die Stämme haben dank ähnlicher religiöser Werte Einheit im Glauben gefunden."
  mongol_brother_realm_modifier:0 "Bruderreich"
- desc_mongol_brother_realm_modifier:0 "Dieser Staat ist ein Geschwisterstaat seines Lehnsherrn, folgt aber unserem Befehl - wie es sich für einen guten Geschwisterstaat gehört." # [LocEditor:AwaitingBatchUpdate]
+ desc_mongol_brother_realm_modifier:0 "Dieser Staat ist ein Geschwisterstaat seines Lehnsherrn, folgt aber unserem Befehl - wie es sich für einen guten Geschwisterstaat gehört."
  hordes_brother_realm_cavalry_buff:0 "Bruderreich"
  desc_hordes_brother_realm_cavalry_buff:0 "Dieser Untertan ist unser Geschwisterstaat. Er wird uns die Pferde für unsere kommenden Kriege liefern."
  oir_execution_of_the_emperor:1 "Rechtmäßiger Anspruch auf China"
@@ -5410,7 +5411,7 @@
  
  #Subject Type:
  mongol_brother_realm:0 "Mongolisches Bruderreich"
- mongol_brother_realm_long_desc:0 "Ein Mongolisches Bruderreich ist eine Erweiterung unseres eigenen Reichs. Seine Territorien haben zwar mehr Autonomie als andere, gehorchen aber dennoch unserer Herrschaft."
+ mongol_brother_realm_long_desc:1 "Ein Mongolisches Bruderreich ist eine Erweiterung unseres eigenen Reichs. Seine Territorien haben zwar mehr Autonomie als andere, gehorchen aber dennoch unserer Herrschaft. Dieser Untertanentyp kostet keine diplomatische Beziehung."
  mongol_brother_realm_is_our:0 "$NAME|Y$ ist unser Mongolisches Bruderreich"
  mongol_brother_realm_title:0 "Mongolisches Bruderreich"
  mongol_brother_realm_title_plural:0 "Mongolische Bruderreiche"
@@ -5813,7 +5814,7 @@
  HAB_UNLOCK_COUNCIL_OF_MECHELEN:0 "Schaltet die Regierungsreform "§YGroßer Rat von Mechelen§!" frei, der den §YNiederländischen Aufstand§! verhindert."
  HAB_IF_CONQUER:0 "Wenn die Mission durch die §MEroberung§! oder §MVasallisierung§! von Frankreich abgeschlossen wird:"
  HAB_IF_HRE:0 "Wenn die Mission abgeschlossen wird, indem die burgundischen Provinzen dem §MHeiligen Römischen Reich§! hinzugefügt wurden:"
- HAB_SPLIT_FRANCE_INTO_HRE:2 "Jede im Besitz befindliche Provinz in der Region §YFrankreich§! wird in mehrere Nationen aufgeteilt und dem §YHeiligen Römischen Reich§! hinzugefügt, wenn wir der §YKaiser§! sind."
+ HAB_SPLIT_FRANCE_INTO_HRE:3 "Jede im Besitz befindliche Provinz in der Region §YFrankreich§! wird in mehrere unabhängige Nationen aufgeteilt und dem §YHeiligen Römischen Reich§! hinzugefügt, wenn wir der §YKaiser§! sind."
  HAB_greater_development_than_SPA:0 "Gesamtentwicklung ist mindestens doppelt so hoch wie die von @SPA §Y[SPA.GetName]§!."
  HAB_greater_development_than_CAS:0 "Gesamtentwicklung ist mindestens doppelt so hoch wie die von @CAS §Y[CAS.GetName]§!."
  HAB_AS_LONG_AS_WE_HAVE_PU_CB_ON_CAS_OR_SPA_ALLOW_IBERIAN_PU_DECISION:2 "Schaltet die Entscheidung "§YMit der iberischen Krone vereinen§!" frei, die es uns erlaubt, §YKastilien§! oder §YSpanien§! zum Juniorpartner einer Personalunion zu machen. Solange wir die folgenden Anforderungen erfüllen, kann die Entscheidung getroffen werden:\n   Vertrauen mindestens §Y80§!\n   Die §Ykastilische§! oder §Yspanische§! Meinung über §Y[Root.GetName]§! beträgt mindestens §Y190§!.\n   Diplomatische Reputation mindestens §Y4§!.\n   Hat den Kriegsgrund "§YWiedererrichtung der Union§!" gegen §YKastilien§! oder §YSpanien§!"
@@ -5876,8 +5877,8 @@
  HAB_UNLOCK_BLACK_ARMY:0 "Schaltet die Söldnerkompanie "§YSchwarze Armee§!" zur Rekrutierung frei."
  HAB_GET_NEW_MISSIONS:0 "Wir wechseln zum Missionszweig "§YDeutsche Vereinigung§!"."
 
- hab_preview_germany_branch:0 "Vorschau des Missionsbaums §ODeutsche Vereinigung§! anzeigen."
- hab_preview_hre_branch:0 "Vorschau des Missionsbaums §OVermächtnis von Karl dem Großen§! anzeigen."
+ hab_preview_germany_branch:1 "Vorschau des Missionsbaums "§ODeutsche Vereinigung§!" anzeigen."
+ hab_preview_hre_branch:1 "Vorschau des Missionsbaums "§OVermächtnis von Karl dem Großen§!" anzeigen."
  HAB_SHADOW_KINGDOM:0 "Befasst sich derzeit mit dem §YSchattenkönigreich§!."
  HAB_GAIN_50_OPINION_WITH_ITALY:0 "Wir erhalten §G50§! Meinung bei allen §YReichsfürsten§! in §YItalien§!."
  HAB_GAIN_SUBJECT_CB_ON_ITALY:0 "Wir erhalten den Kriegsgrund §YUnterwerfung§! gegen alle §YReichsfürsten§! in §YItalien§!."
@@ -5943,11 +5944,11 @@
  hab_a_house_united:0 "Ein vereintes Haus"
  desc_hab_a_house_united:0 "Die Länder der Habsburger sind endlich vereint."
  hab_hungarian_province:0 "Schmelztiegel der Kulturen"
- desc_hab_hungarian_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen." # [LocEditor:AwaitingBatchUpdate]
+ desc_hab_hungarian_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen."
  hab_west_slavic_province:0 "Schmelztiegel der Kulturen"
- desc_hab_west_slavic_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen." # [LocEditor:AwaitingBatchUpdate]
+ desc_hab_west_slavic_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen."
  hab_minority_province:0 "Schmelztiegel der Kulturen"
- desc_hab_minority_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen." # [LocEditor:AwaitingBatchUpdate]
+ desc_hab_minority_province:0 "Diese Provinz ist ein Schmelztiegel der Kulturen, in dem sich verschiedene Ideen und Traditionen zu einzigartigen örtlichen Bräuchen vermischen."
 
  kept_universal_empire:0 "Beibehaltenes Universalreich"
  hab_peaceful_shadow_kingdom:0 "Friedenskaiser"
@@ -6001,7 +6002,7 @@
 
  edict_of_governance:0 "Regierungserlass"
  #Peace Treaties:
- spread_dynasty:0 "Dynastie verbreiten" # [LocEditor:AwaitingBatchUpdate]
+ spread_dynasty:0 "Dynastie verbreiten"
  PEACE_spread_dynasty:0 "Dynastie verbreiten"
  CB_ALLOWED_spread_dynasty:0 "Eine neue Dynastie ist an der Macht."
  spread_dynasty_desc:2 "§Y[From.GetName]§! gehört jetzt zur §Y[Root.Monarch.Dynasty.GetName]§!-Dynastie und §Y[Root.GetName]§! erhält §G+25§! Machtpunkte jedes Typs."
@@ -6143,7 +6144,7 @@
  allow_religious_conquests:0 "Religiöse Eroberungen erlauben"
  
  ned_sound_toll_ties:0 "Niederländische Händler und der Sundzoll"
- NED_PROVINCE_TRIGGERED_MODIFIER_GRANTS_TRADE_POWER:1 "Solange wir eine Meinung von mindestens §G125§! zu §Y[12.Owner.GetName]§! aufrechterhalten, erhalten wir §G70§! Handelsmacht auf dem Umschlagplatz."
+ NED_PROVINCE_TRIGGERED_MODIFIER_GRANTS_TRADE_POWER:2 "Solange wir eine Meinung von mindestens §G125§! zu dem Besitzer von §Y[12.GetName]§! aufrechterhalten, erhalten wir §G70§! Handelsmacht auf dem Umschlagplatz."
  
  NED_IF_COMPLETED_THROUGH_DIPLOMACY:0 "Wenn die Mission durch §MDiplomatie§! abgeschlossen wurde:"
  NED_IF_COMPLETED_THROUGH_HOSTILITY:0 "Wenn die Mission NICHT durch §MDiplomatie§! abgeschlossen wurde:"
@@ -6310,8 +6311,8 @@
  desc_TIM_start_of_a_renaissance:0 "Eine Periode verhältnismäßiger Stabilität und der Aufstieg einer mächtigen Aristokratie haben zu einer Wiedergeburt der Kultur geführt."
  TIM_pearl_of_khorasan:0 "Perle von Khorasan"
  desc_TIM_pearl_of_khorasan:0 "Der Status einer Großstadt im Zentrum des rauen Khorasan verlieh Herat einen ungemein treffenden Spitznamen."
- TIM_pearl_of_khorasan_no_dlc:0 "Perle von Khorasan" # [LocEditor:AwaitingBatchUpdate]
- desc_TIM_pearl_of_khorasan_no_dlc:0 "Der Status einer Großstadt im Zentrum des rauen Khorasan verlieh Herat einen ungemein treffenden Spitznamen." # [LocEditor:AwaitingBatchUpdate]
+ TIM_pearl_of_khorasan_no_dlc:0 "Perle von Khorasan"
+ desc_TIM_pearl_of_khorasan_no_dlc:0 "Der Status einer Großstadt im Zentrum des rauen Khorasan verlieh Herat einen ungemein treffenden Spitznamen."
  TIM_a_pious_ruler:0 "Frommer Herrscher"
  desc_TIM_a_pious_ruler:0 "Die Sultane des Timuridenreichs entsagen endlich den alten Jassa-Gesetzen."
  TIM_approval_of_governors:0 "Bevorzugung von Statthaltern"
@@ -6525,10 +6526,10 @@
  flavor_tim.18.c:0 "Wir benötigen einen fähigen General, der unsere Grenzen verteidigen kann."
  flavor_tim.18.e:0 "Setzt einen beliebigen Höfling auf den Thron."
  flavor_tim.18.f:0 "Entlasst [From.Monarch.GetName] aus dem Gefängnis."
- flavor_tim.18.g:0 "Ein alter und weiser Berater soll das Land regieren." # [LocEditor:AwaitingBatchUpdate]
+ flavor_tim.18.g:0 "Ein alter und weiser Berater soll das Land regieren."
  
  flavor_tim.19.t:0 "Muhammad Juki ist tot"
- flavor_tim.19.d:0 "Muhammad Juki, einer der berühmtesten Anwärter auf den timuridischen Thron, ist verstorben und hat die von ihm regierten Territorien seinen jungen und unerfahrenen Söhnen hinterlassen. Manche sagen, sein Tod sei auf eine Krankheit zurückzuführen, doch es liegt auch die Behauptung im Raum, Gauhar-Schad habe ein Attentat auf Muhammad Juki verübt, um die Nachfolge ihres Lieblingssohns Ala al-Daula zu sichern. Was auch immer der Grund gewesen sein mag: Wir könnten dieses Unglück zu unserem Vorteil ausnutzen."
+ flavor_tim.19.d:1 "Muhammad Juki, einer der berühmtesten Anwärter auf den timuridischen Thron, ist verstorben und hat die von ihm regierten Territorien seinen jungen und unerfahrenen Söhnen hinterlassen. Manche sagen, sein Tod sei auf eine Krankheit zurückzuführen, doch es liegt auch die Behauptung im Raum, Gauhar-Schad habe ein Attentat auf Muhammad Juki verübt, um die Nachfolge ihres liebsten Enkelsohns Ala al-Daula zu sichern. Was auch immer der Grund gewesen sein mag: Wir könnten dieses Unglück zu unserem Vorteil ausnutzen."
  flavor_tim.19.a:0 "Wir müssen diese Lage ausnutzen!"
  flavor_tim.19.b:0 "Das ist höchst bedauerlich."
  
@@ -6735,8 +6736,8 @@
  desc_MUG_indian_recruitment:0 "Wir ziehen verstärkt Rekruten aus der indischen Bevölkerung für unsere Armeen ein."
  MUG_grand_trunk_road:0 "Fernhandelsstraße Südasiens"
  desc_MUG_grand_trunk_road:0 "Diese Provinz liegt an der "Grand Trunk Road", der Fernhandelsstraße Südasiens, und wird von vielen Händlern frequentiert."
- MUG_grand_trunk_road_no_dlc:0 "Fernhandelsstraße Südasiens" # [LocEditor:AwaitingBatchUpdate]
- desc_MUG_grand_trunk_road_no_dlc:0 "Diese Provinz liegt an der "Grand Trunk Road", der Fernhandelsstraße Südasiens, und wird von vielen Händlern frequentiert." # [LocEditor:AwaitingBatchUpdate]
+ MUG_grand_trunk_road_no_dlc:0 "Fernhandelsstraße Südasiens"
+ desc_MUG_grand_trunk_road_no_dlc:0 "Diese Provinz liegt an der "Grand Trunk Road", der Fernhandelsstraße Südasiens, und wird von vielen Händlern frequentiert."
  MUG_industrial_powerhouse:0 "Industrielles Machtzentrum"
  desc_MUG_industrial_powerhouse:0 "Unser Vorsprung im Industriesektor hat es uns erlaubt, viel mehr zu produzieren, als wir es sonst hätten tun können."
  MUG_expanded_infrastructure:0 "Erhöhte Konnektivität"
@@ -6852,7 +6853,7 @@
  
  MUG_gujarat_privilege:0 "Schaltet das §Y[Root.GetJainaName]§!-Standesprivileg "§YGujarati-Privilegien ausweiten§!" frei, das uns bis zu §G+15.0%§! Handelseffizienz skalierend mit dem §YEinfluss ([Root.GetJainaName])§!, aber auch §R+0.1§! Autonomie (Monatlich) gibt."
  MUG_upgrade_the_gujarati_privilege:0 "Verstärkt das §Y[Root.GetJainaName]§!-Standesprivileg "§YGujarati-Privilegien ausweiten§!", indem es die Autonomie (Monatlich) auf §R+0.05§! und den §YEinfluss ([Root.GetJainaName])§! auf §Y+5.0%§! verringert."
- MUG_upgrade_rajputs:2 "Verstärkt das §Y[Root.GetRajputenNamen]§!-Standesprivileg "§YGründung der Rajputen-Regimenter§!" um zusätzliche §G+15.0%§! Truppenlimit (Rajputen-Regimenter-Anteil) und entfernt den Malus auf den §YAbsolutismus (Maximum)§!."
+ MUG_upgrade_rajputs:2 "Verstärkt das §Y[Root.GetRajputenName]§!-Standesprivileg "§YGründung der Rajputen-Regimenter§!" um zusätzliche §G+15.0%§! Truppenlimit (Rajputen-Regimenter-Anteil) und entfernt den Malus auf den §YAbsolutismus (Maximum)§!."
  MUG_enable_comission_peacock_throne_decision:0 "Aktiviert die Entscheidung "§YDen Pfauenthron in Auftrag geben§!", was uns den Erhalt eines mächtigen Modifikators ermöglicht, sobald wir den Großteil von §YIndien§! erobert haben. "
  MUG_unlock_gurkhas:1 "Aktiviert die Söldnerkompanie "§JElite-Gurkhas§!", deren Rekrutierung keine §YArmee-Professionalität§! kostet und die die folgenden Modifikatoren hat:\n  Kampfstärke (Infanterie): §G+15.0%§!\n  Reduktion (Nahkampfschaden): §G-10.0%§!\n  Reduktion (Fernkampfschaden): §G-10.0%§!"
  MUG_unlock_malaccan_viceroyalty_mission:0 "Schaltet die Mission "§YMalakkisches Vizekönigreich§!" frei. Die einzig benötigte Mission dafür ist diese hier."
@@ -6862,7 +6863,7 @@
  MUG_has_diplomat:0 "Wenn wir einen §YDiplomaten§! als Berater haben:"
  MUG_decays_05_yearly:0 "Verfällt jährlich um §R-0.25§!."
  MUG_more_chance_for_elephants:0 "Unsere Einheiten werden mit größerer Wahrscheinlichkeit ein §YElefantenmodell§! haben."
- MUG_unlock_rajput_mansabdar_privilege:1 "Schaltet das §Y[Root.GetRajputenNamen]§!-Standesprivileg "§YRajputen Mansabdar§!" frei, das uns §G+1.00§! Kostenlose Generäle und skalierend mit der Loyalität ([Root.GetRajputenNamen]) bis zu §G+15.0%§! Regeneration (Rekrutenreserve) auf Kosten von §R-5.0%§! Einfluss ([Root.GetAdelName]) gibt."
+ MUG_unlock_rajput_mansabdar_privilege:1 "Schaltet das §Y[Root.GetRajputenName]§!-Standesprivileg "§YRajputen Mansabdar§!" frei, das uns §G+1.00§! Kostenlose Generäle gibt und skalierend mit der Loyalität ([Root.GetRajputenName]) bis zu §G+15.0%§! Regeneration (Rekrutenreserve) auf Kosten von §R-5.0%§! Einfluss ([Root.GetAdelName]) gibt."
  MUG_distribute_10_base_manpower:1 "Verteilt §G10§! Grundmannstärke auf im Besitz befindliche Provinzen mit §Yrajasthanischer§! Kultur."
  MUG_the_3_most_developed_provinces:0 "Die §G3§! Provinzen mit der höchsten Entwicklung, einem §YRekrutengebäude§! und §Yhinduistischer§! Religion:"
  MUG_unlock_privilege_subahs:0 "Schaltet das §Y[Root.GetAdelName]§!-Standesprivileg "§YDie Subah entwickeln§!" frei, das uns §G-15.0%§! Verwaltungskosten (Staaten) auf Kosten von §R+5.0%§! Kriegspunktkosten (Provinzen) gibt."
@@ -7243,11 +7244,11 @@
  ned_orangist_ruler_flag:0 "Hat einen Orangisten-Statthalter"
  province_is_or_accepts_nahuatl_tt:0 "Die Religion von §Y[Root.GetName]§! ist §YNahuatl§!, und das ist entweder die Staatsreligion oder die synkretistische Religion des Besitzers."
 
- HUNGARY_AUSTRIA:0 "Ungarn-Österreich" # [LocEditor:AwaitingBatchUpdate]
- HUNGARY_AUSTRIA_ADJ:0 "Ungarisch-Österreichisch" # [LocEditor:AwaitingBatchUpdate]
- NED_UNLOCKS_VOC_ESTABLISHMENT:0 "Schaltet die Gründung der §YVOC§! als §YHandelsunternehmen§! in §YIndien§! frei." # [LocEditor:AwaitingBatchUpdate]
- ned_man_o_war_from_pu_flag:0 "Hat Linienschiffe durch Personalunionen freigeschaltet" # [LocEditor:AwaitingBatchUpdate]
- ven_allow_suez_flag:0 "Hat Zugang erhalten, um diesen Kanal zu bauen" # [LocEditor:AwaitingBatchUpdate]
+ HUNGARY_AUSTRIA:0 "Ungarn-Österreich"
+ HUNGARY_AUSTRIA_ADJ:0 "Ungarisch-Österreichisch"
+ NED_UNLOCKS_VOC_ESTABLISHMENT:0 "Schaltet die Gründung der §YVOC§! als §YHandelsunternehmen§! in §YIndien§! frei."
+ ned_man_o_war_from_pu_flag:1 "Hat Linienschiffe durch Personalunionen freigeschaltet"
+ ven_allow_suez_flag:0 "Hat Zugang erhalten, um diesen Kanal zu bauen"
 
  FUGGERS_SCALING_BONUS_TOOLTIP:1 "§YSkaliert mit der Loyalität§!\nBei §Y100%§! Loyalität hat das Privileg folgende Auswirkungen:\nInflationsreduktion (Jährlich): §G+0.10§!\nBeraterkosten (Herrscherkultur): §G-15.0%§!"
  VON_RAAB_RESTRICTIONS_TOOLTIP:0 "Der Modifikator ist nur aktiv, wenn der Stand weniger als §Y40%§! Einfluss besitzt.\n\n§YSkaliert mit der Loyalität§!\nBei §Y100%§! Loyalität hat das Privileg folgende Auswirkungen:\n   Entwicklungskosten (Global): §G-7.5%§!"
@@ -7257,7 +7258,7 @@
  HORDES_BUILD_UP_TO_FORCELIMIT:0 "Die oben genannten §YRegimenter§! werden bis zur maximalen Truppenstärke rekrutiert."
  HORDES_HAS_50_TRADE_POWER_IN_PERSIA:0 "§Y[Root.GetName]§! hat mindestens §Y50%§! Handelsmacht auf dem Umschlagplatz §YPersien§!"
  HORDES_HAS_50_TRADE_POWER_IN_SAMARKAND:0 "§Y[Root.GetName]§! hat mindestens §Y50%§! Handelsmacht auf dem Umschlagplatz §YSamarkand§!"
- ned_man_o_wars_from_pu_flag:0 "Hat Linienschiffe durch Personalunion freigeschaltet"
+ ned_man_o_wars_from_pu_flag:1 "Hat Linienschiffe durch Personalunion freigeschaltet"
  desc_ned_empowered_staatse_leger:0 "Der Staat der Armee wurde ermächtigt, unser Reich vor sämtlichen Invasionen zu schützen."
  NED_AS_LONG_AS_DUTCH_TRADER_MODIFIER_IS_ACTIVE_GAIN_TRADE_POWER:0 "Solange der Modifikator "§YNiederländische Kaufleute§!" aktiv ist, erhalten wir §G55§! Handelsmacht auf dem Umschlagplatz §YNippon§!."
  has_won_at_least_30_battles:0 "Hat mindestens §G30§! Schlachten §Ygewonnen§! (derzeit §Y[Root.GetAmountofBattles]§!)"
@@ -7271,10 +7272,10 @@
  release_soyurghal_desc:0 "Möchtet Ihr das Soyurghal §Y[From.GetName]§! wirklich entlassen?\nDies zu tun, reduziert unser Prestige um §R-25.00§!.\n[From.GetLoyaltyHitTooltip]Wir verlieren außerdem alle Kerne und Ansprüche, die wir auf seine Provinzen haben."
  release_soyurghal_tooltip:0 "Beendet unsere Beziehungen zu unserem Soyurghal und entlässt es als eigenständige Nation, die von allen Diensten uns gegenüber befreit ist."
 
- release_nahuatl_tributary:0 "Mesoamerikanischen Tributstaat entlassen" # [LocEditor:AwaitingBatchUpdate]
- release_nahuatl_tributary_title:0 "Mesoamerikanischen Tributstaat entlassen" # [LocEditor:AwaitingBatchUpdate]
- release_nahuatl_tributary_desc:0 "Möchtet Ihr den Mesoamerikanischen Tributstaat §Y[From.GetName]§! wirklich entlassen?\nDies zu tun, verringert unser Prestige um §R-25.00§!.\n[From.GetLoyaltyHitTooltip]Wir verlieren außerdem alle Kerne und Ansprüche, die wir auf seine Provinzen haben." # [LocEditor:AwaitingBatchUpdate]
- release_nahuatl_tributary_tooltip:0 "Beendet unsere Beziehungen zu unserem Mesoamerikanischen Tributstaat und entlässt ihn als eigenständige Nation, die von allen Diensten uns gegenüber befreit ist." # [LocEditor:AwaitingBatchUpdate]
+ release_nahuatl_tributary:0 "Mesoamerikanischen Tributstaat entlassen"
+ release_nahuatl_tributary_title:0 "Mesoamerikanischen Tributstaat entlassen"
+ release_nahuatl_tributary_desc:0 "Möchtet Ihr den Mesoamerikanischen Tributstaat §Y[From.GetName]§! wirklich entlassen?\nDies zu tun, verringert unser Prestige um §R-25.00§!.\n[From.GetLoyaltyHitTooltip]Wir verlieren außerdem alle Kerne und Ansprüche, die wir auf seine Provinzen haben."
+ release_nahuatl_tributary_tooltip:0 "Beendet unsere Beziehungen zu unserem Mesoamerikanischen Tributstaat und entlässt ihn als eigenständige Nation, die von allen Diensten uns gegenüber befreit ist."
  
  CB_ALLOWED_make_nahuatl_tributary:1 "Mesoamerikanischen Tributstaat einrichten"
  take_capital_vassalize_flower_wars:0 "Ihre Hauptstadt erobern"
@@ -7283,22 +7284,22 @@
  desc_feo_dominance_in_russia_modifier:0 "Unsere Armeen haben uns einmal mehr einen großen Sieg beschert. Die einst goldenen und prächtigen Hallen der mächtigen Rus sind unserer Macht erlegen. Wir werden an ihrer Stelle dafür sorgen, dass ihr Volk in Wohlstand lebt, unsere große Nation durch sie erweitern und unsere Macht festigen."
  GER_home_trade_node_is_in_the_province:0 "Der §Y[Root.Owner.GetAdjective]e§! Heimatumschlagplatz ist derselbe wie der Umschlagplatz, auf dem sich §Y[Root.GetName]§! befindet."
 
- grant_generalship_to_montezuma_title:0 "Moctezuma die Generalität gewähren" # [LocEditor:AwaitingBatchUpdate]
- grant_generalship_to_montezuma_desc:0 "Moctezuma I. hat den Azteken bisher nur als Reformer und Kaiser gedient. Wir sollten ihn zum General ernennen, damit er dem Rest Mesoamerikas seine Macht demonstrieren kann." # [LocEditor:AwaitingBatchUpdate]
- may_dynastic_influence_modifier:0 "Dynastischer Einfluss" # [LocEditor:AwaitingBatchUpdate]
- allow_banners_capital_modifier:0 "Mongolische Banner" # [LocEditor:AwaitingBatchUpdate]
- desc_allow_banners_capital_modifier:0 "Die Mongolischen Banner werden unser Land zum Sieg führen!" # [LocEditor:AwaitingBatchUpdate]
- mongol_banners_location:0 "Provinz der Mongolischen Banner" # [LocEditor:AwaitingBatchUpdate]
- desc_mongol_banners_location:0 "Diese Provinz kann das Reich mit neuen Banner-Regimentern versorgen." # [LocEditor:AwaitingBatchUpdate]
- TIM_for_as_long_as_we_are_tim:0 "bis wir nicht mehr das @TIM §YTimuridenreich§! sind" # [LocEditor:AwaitingBatchUpdate]
- WoC_free_integrated_vassal_str:0 "Im Gegensatz zu anderen §Yangegliederten Vasallen§! erhält §Y[Root.GetName]§! für §Y[This.GetName]§! keinen Malus auf das §YRegierungslimit§!." # [LocEditor:AwaitingBatchUpdate]
- free_incorporated_vassal:0 "Kein Malus auf das Regierungslimit" # [LocEditor:AwaitingBatchUpdate]
- MUG_unlock_a_few_dharmic_monuments:0 "Schaltet das Monument "§YGomateshwara-Statue§!" in §Y[4421.GetName]§! und das Monument "§YSonnentempel von Konark§!" in §Y[552.GetName]§! unabhängig von der §Ydharmischen§! Religionsgruppe frei." # [LocEditor:AwaitingBatchUpdate]
+ grant_generalship_to_montezuma_title:0 "Moctezuma die Generalität gewähren"
+ grant_generalship_to_montezuma_desc:0 "Moctezuma I. hat den Azteken bisher nur als Reformer und Kaiser gedient. Wir sollten ihn zum General ernennen, damit er dem Rest Mesoamerikas seine Macht demonstrieren kann."
+ may_dynastic_influence_modifier:0 "Dynastischer Einfluss"
+ allow_banners_capital_modifier:0 "Mongolische Banner"
+ desc_allow_banners_capital_modifier:0 "Die Mongolischen Banner werden unser Land zum Sieg führen!"
+ mongol_banners_location:0 "Provinz der Mongolischen Banner"
+ desc_mongol_banners_location:0 "Diese Provinz kann das Reich mit neuen Banner-Regimentern versorgen."
+ TIM_for_as_long_as_we_are_tim:0 "bis wir nicht mehr das @TIM §YTimuridenreich§! sind"
+ WoC_free_integrated_vassal_str:0 "Im Gegensatz zu anderen §Yangegliederten Vasallen§! erhält §Y[Root.GetName]§! für §Y[This.GetName]§! keinen Malus auf das §YRegierungslimit§!."
+ free_incorporated_vassal:0 "Kein Malus auf das Regierungslimit"
+ MUG_unlock_a_few_dharmic_monuments:0 "Schaltet das Monument "§YGomateshwara-Statue§!" in §Y[4421.GetName]§! und das Monument "§YSonnentempel von Konark§!" in §Y[552.GetName]§! unabhängig von der §Ydharmischen§! Religionsgruppe frei."
 
- MONGOL_BROTHER_REALM_EXPLANATION:0 "§YMongolische Brüderreiche§! erhalten kein §YFreiheitsstreben aus Entwicklung§!. Sie zahlen außerdem mehr Dukaten als gewöhnliche §YVasallen§!. Sie sind zudem in der Lage, ihre eigenen §YKriege§! zu erklären, und jedes Brüderreich gibt uns §G+10.0%§! Kampfstärke (Kavallerie)." # [LocEditor:AwaitingBatchUpdate]
- mechanic_can_recruit_banners_from_primary_culture_provinces:0 "Kann §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren" # [LocEditor:AwaitingBatchUpdate]
- mechanic_can_recruit_banners_from_primary_culture_provinces_yes:0 "Kann §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren" # [LocEditor:AwaitingBatchUpdate]
- mechanic_can_recruit_banners_from_primary_culture_provinces_no:0 "Kann KEINE §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren" # [LocEditor:AwaitingBatchUpdate]
+ MONGOL_BROTHER_REALM_EXPLANATION:1 "§YMongolische Brüderreiche§! erhalten kein §YFreiheitsstreben aus Entwicklung§! und kosten keine §Ydiplomatische Beziehung§!. Sie zahlen außerdem mehr Dukaten als gewöhnliche §YVasallen§!, sind in der Lage, ihre eigenen §YKriege§! zu erklären, und jedes Brüderreich gibt uns §G+10.0%§! Kampfstärke (Kavallerie)."
+ mechanic_can_recruit_banners_from_primary_culture_provinces:0 "Kann §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren"
+ mechanic_can_recruit_banners_from_primary_culture_provinces_yes:0 "Kann §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren"
+ mechanic_can_recruit_banners_from_primary_culture_provinces_no:0 "Kann KEINE §YBanner§! aus Provinzen der §YPrimärkultur§! rekrutieren"
  mechanic_block_cultural_union_yes:0 "Kann keine §YKulturunion§! errichten."
  YUA_UNLOCK_KESHIG_MERCENARY_COMPANY_NO_DLC:0 "Schaltet die Söldnerkompanie "§YKeshigs§!" frei, die nicht aufs §YTruppenlimit§! zählt und folgende Boni hat:\n   Fernkampf (Kavallerie): §G+0.5§!\n   Reduktion (Fernkampfschaden): §G-15.0%§!"
  boh_hegemon_dlcless:0 "Böhmische Hegemonie"
@@ -7330,8 +7331,15 @@
  become_an_empire_tt:0 "Wir steigen in den Rang eines §YKaiserreichs§! auf"
  boh_has_unlocked_great_moravia:0 "Hat @GMA §YGroßmähren§! durch den Abschluss der Mission "§YWiederaufbau Großmährens§!" freigeschaltet."
 
- # [LocEditor:UntranslatedKey] `black_army_reform_flag`
+ black_army_reform_flag:0 "Hat die institutionalisierte Schwarze Armee freigeschaltet."
+ 
+ european_colony_no_overlord_dow:0 "Wir können unseren Abendland-Kolonien nicht den Krieg erklären."
 
+ feo_unlock_russian_mercenary_guard_reform_flag:0 "Hat die Reform "Russische Söldnergarde" freigeschaltet"
+
+ council_of_mechelen_flag:0 "Hat die Reform "Rat von Mechelen" freigeschaltet"
+
+ integrated_personal_union_no_overlord_dow:0 "Wir können unseren angegliederten Personalunionen nicht den Krieg erklären."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  orangist_stadholder_personality_desc:0 "Dieser Statthalter ist ein Orangist. Er wird versuchen, seine Kontrolle über das Land auszubauen."

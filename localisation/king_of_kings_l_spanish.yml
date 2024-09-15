@@ -2007,6 +2007,7 @@
  HAS_CONVERTED_20_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y20§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y20§!)"
  HAS_CONVERTED_25_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y25§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y25§!)"
  HAS_CONVERTED_30_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y30§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y30§!)"
+ HAS_CONVERTED_45_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y45§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y30§!)"
  HAS_CONVERTED_50_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y50§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y50§!)"
  HAS_CONVERTED_75_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y75§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y75§!)"
  HAS_CONVERTED_100_PROVINCES_TT:0 "Ha convertido a la fuerza al menos a §Y100§! provincias (§Y[This.GetNumForceConvertedCountries]§!/§Y100§!)"
@@ -3493,6 +3494,7 @@
  nakharar_title_desc:0 "Perfeccionar el sistema de najarar y consolidarlo como parte formal de nuestra estructura de gobierno implica una mezcla armoniosa de nuestras costumbres ancestrales con las necesidades modernas de nuestra nación en expansión. El título de najarar, que se concede a nuestros nobles, asegurará un equilibrio de poder que reconozca su autoridad local al tiempo que promueve el bien mayor de la nación."
  sparapet_office:0 "El cargo de sparapet"
  sparapet_office_desc:0 "Revivir el cargo de sparapet representa un paso significativo para la conservación y mejora de nuestra antigua tradición marcial. El sparapet, comandante en jefe de nuestras fuerzas armadas, será vital para garantizar la preparación y la capacidad de nuestras fuerzas armadas frente a cualquier amenaza contra nuestra nación."
+ arm_unlocked_sparapet:0 "Ha desbloqueado la reforma gubernamental «§YEl cargo de sparapetಠओ §!»."
  unlock_nakharar_title_tt:1 "Desbloquea la reforma gubernamental de nivel 2 «§YTítulos de najarar§!» que da estos efectos:\nPrivilegios máximos de la nobleza: §G+1,00§!\nInfluencia noble: §Y+5,0%§!\nEquilibrio de lealtad de nobleza: §G+10,0%§!\n\nLa reforma también incluye esta mecánica:\nConfiscar tierra a la §Ynobleza§! no dispara revueltas nobles."
  mechanic_recruiting_general_gives_army_tradition_yes:0 "Reclutar generales da §G+0.25§! de tradición militar"
  unlock_sparapet_office_tt:2 "Desbloquea la reforma gubernamental de nivel 5 «§YEl cargo de sparapet§!», dando estos efectos:\nTradición militar por batallas: §G+50,0%§!\nLíder(es) terrestres sin gastos de mantenimiento: §G+1,00§!\n\nLa reforma también incluye esta mecánica gubernamental:\nReclutar generales da §G+0,25§! de Tradición militar."
@@ -4111,6 +4113,8 @@
  mam_reward_rival_yes_tt:0 "\n£yes£ Recompensa por tomar una postura agresiva hacia @VEN Venecia:"
  mam_reward_alliance_no_tt:0 "£no£ Recompensa de adoptar una postura de cooperación hacia @VEN Venecia:\nAccederemos a la construcción de §Ygaleazas§! mientras mantengamos una alianza con @VEN"
  mam_reward_alliance_yes_tt:0 "£yes£ Recompensa de adoptar una postura de cooperación hacia @VEN Venecia:\nAccederemos a la construcción de §Ygaleazas§! mientras mantengamos una alianza con @VEN"
+ mam_reward_alliance_yes_tt_no_dlc:0 "£yes£ Recompensa por tomar una postura de cooperación hacia @VEN Venecia:"
+ mam_reward_alliance_no_tt_no_dlc:0 "£no£ Recompensa por tomar una postura de cooperación hacia @VEN Venecia:"
  strong_mamluk_regulations_key:0 "Fuertes regulaciones mamelucas"
  no_nation_med_stronger_navy_tt:0 "Ningún país en el Mediterráneo tiene una armada mayor que la nuestra."
  mam_indebted_privilege_no_merc_loss_tt:0 "El privilegio estamental «§YEn deuda con los [Root.GetBurguesesName]§!» ya no costará mercantilismo\n "
@@ -4469,6 +4473,7 @@
 
  unlocked_state_madrasas_reform:0 "que desbloquea esta reforma gubernamental."
  unlocked_karimi_stations_reform:0 "que desbloquea esta reforma gubernamental."
+ mechanic_enables_pronoias:0 "Puede fundar «§Ypronoiarios§!»."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  select_current_branch_missions_title:0 "§YSeleccionar rama de misión actual:§! §O[Root.GetCurrentSelectedMissionBranch]§!"

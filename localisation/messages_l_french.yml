@@ -5251,7 +5251,7 @@
  IMPRELTOOTHER_BTN1:0 "D'accord"
  IMPRELTOOTHER_BTN2:0 "D'accord"
  IMPRELTOOTHER_BTN3:0 "Voir"
- RELIGIOUSUNITYDESC:0 "Demande à ce pays de se convertir à la seule véritable foi. Mais, s'il refuse, cela nous coûtera 20 en prestige."
+ RELIGIOUSUNITYDESC:1 "Demande à ce pays de se convertir à la seule véritable foi. S'il refuse, cela nous offrira un casus belli contre lui."
  RELIGIOUSUNITYNEWDESC:0 "Une famille qui prie de concert reste unie ! Souhaitez-vous demander à ce pays de se convertir à la seule véritable foi ?"
  RELIGIOUSUNITYTITLE:0 "Imposer l'unité religieuse"
  RELIGIOUSUNITYREQDESC:0 "L'empereur du Saint-Empire, depuis $COUNTRY|Y$, demande à ce que nous adoptions la foi $RELIGION$. Tout refus de notre part lui offrirait un casus belli contre nous."

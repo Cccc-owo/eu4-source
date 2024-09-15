@@ -481,7 +481,7 @@
  estate_privilege_revoke_lose_modifier_tooltip:0 "§RWir verlieren Folgendes, wenn wir dieses Standesprivileg widerrufen:§!"
  BYZ_every_catholic:0 "Jede §Ykatholische§! Nation wird dazu aufgefordert, zum §Yorthodoxen§! Glauben zu konvertieren. Nationen, die die Haltung "Rivalität", "Aufgebracht" oder "Feindlich" gegenüber §Y[Root.GetName]§! haben, werden nicht konvertieren."
  BYZ_if_we_have_taken_laesio_enormis:0 "Wenn wir die Regierungsreform "§YLaesio Enormis§!" haben:"
- BYZ_unlock_theme_system_reform:1 "Schaltet die Regierungsreform "§YThemen-System§!" frei. Dieses hat Folgende Auswirkungen:\nUnterhalt (Staaten): §G-10.0%§!\nRekrutenreserve (Provinzen der Primärkultur): §G+25.0%§!\nRekrutenreserve (Provinzen mit akzeptierter Kultur): §G+25.0%§!\n\n§YRegierungsmechanik§!:\nVerstärkt das Standesprivileg "§YLandrechte der Eugeneis§!". Dieses gibt nun §G+10.0%§! Truppenlimit und kostet nicht länger §YAbsolutismus (Maximum)§!."
+ BYZ_unlock_theme_system_reform:1 "Schaltet die Regierungsreform "§YThemen-System§!" frei. Diese hat Folgende Auswirkungen:\nUnterhalt (Staaten): §G-10.0%§!\nRekrutenreserve (Provinzen der Primärkultur): §G+25.0%§!\nRekrutenreserve (Provinzen mit akzeptierter Kultur): §G+25.0%§!\n\n§YRegierungsmechanik§!:\nVerstärkt das Standesprivileg "§YLandrechte des Eugeneis-Standes§!". Dieses gibt nun §G+10.0%§! Truppenlimit und kostet nicht länger §YAbsolutismus (Maximum)§!."
  BYZ_enact_theme_system_reform:0 "Erlässt die Stufe-5-Regierungsreform "§YThemen-System§!"."
  BYZ_lose_opinion_with_all_catholics:0 "Die Meinung jeder §Ykatholischen§! Nation über §Y[Root.GetName]§! wird um §R-75§! reduziert."
  BYZ_open_to_the_west:1 "Wir stehen einer möglichen Unterstützung aus dem Westen offen gegenüber.\n\n§RWarnung:§!\nDas Standesprivileg "§YKirchenunion§!" kann gelegentlich Revolten von §Yorthodoxen Fanatikern§! auslösen."
@@ -799,8 +799,8 @@
  BYZ_build_hexamilion_wall_decision_desc:0 "Die Mauern, die Morea schützten, wurden von den Osmanen zerstört. Wir müssen sie instand setzen!"
  BYZ_build_theodosian_wall_decision_title:0 "Die Theodosianischen Mauern reparieren"
  BYZ_build_theodosian_wall_decision_desc:0 "Die mächtigen Theodosianischen Mauern sind verfallen. Wenn wir Konstantinopel weiter schützen wollen, müssen wir diesen Missstand beheben. Die Mauern müssen instand gesetzt werden."
- BYZ_bosphorus_toll_decision_title:0 "Bosporus-Maut erhöhen"
- BYZ_bosphorus_toll_decision_desc:0 "Wir sollten die Besteuerung am Bosporus verbessern. Wir sollten neue Richtlinien erlassen und dafür sorgen, dass die Maut ordnungsgemäß erhoben wird."
+ BYZ_bosphorus_toll_decision_title:0 "Bosporus-Zoll erhöhen"
+ BYZ_bosphorus_toll_decision_desc:0 "Wir sollten die Besteuerung am Bosporus verbessern. Wir sollten neue Richtlinien erlassen und dafür sorgen, dass der Zoll ordnungsgemäß erhoben wird."
  preview_missions_decision_title:0 "Vorschau über verzweigte Missionen ansehen"
  preview_missions_decision_desc:0 "Wir können in unserem Missionsbaum derzeit aus einem von mehreren Missionszweigen wählen. Treffen wir eine weise Entscheidung."
  preview_missions_decision_ct:0 "Hat eine §Yverzweigte Mission§!, die angesehen werden kann."
@@ -860,7 +860,7 @@
  mechanic_enables_statesman_autonomy_reduction_yes:0 "§YStaatsmann§!-Berater geben nun pro Stufe §G-0.01§! Autonomie (Monatlich)."
  theme_system_reform:0 "Themen-System"
  theme_system_reform_desc:0 "Das Themen-System war ein byzantinisches System, das dem Militär Land zuwies. Es verband die zivile Verwaltung eng mit dem Militär und trug dazu bei, die Grenzgebiete angemessen zu verteidigen und die militärischen Fähigkeiten des Staates zu verbessern."
- mechanic_BYZ_buff_dynatoi_land_grants_yes:2 "Verstärkt das Standesprivileg "§YLandrechte der Eugeneis§!". Dieses gibt nun §G+10.0%§! Truppenlimit und kostet nicht länger §YAbsolutismus (Maximum)§!."
+ mechanic_BYZ_buff_dynatoi_land_grants_yes:2 "Verstärkt das Standesprivileg "§YLandrechte des Eugeneis-Standes§!". Dieses gibt nun §G+10.0%§! Truppenlimit und kostet nicht länger §YAbsolutismus (Maximum)§!."
 
  
  mechanic_enables_pronoias_yes:0 "Kann §YPronoia-Untertanen§! erstellen."
@@ -3241,7 +3241,7 @@
  estate_nobles_highland_fortifications:0 "Gebirgsfestungen"
  estate_nobles_highland_fortifications_desc:0 "Unser Reich wurde von den Mongolen, Türken und Tataren überrannt. Wir müssen aus den Fehlern der Vergangenheit lernen und in unsere Verteidigung investieren, damit kein Feind Georgien jemals wieder bedrohen kann!"
  estate_nobles_highland_fortifications_tt:0 "Jede im Besitz befindliche §YBerg§!-Provinz mit einer §YFestung§! erhält §G-35.0%§! Entwicklungskosten (Lokal)."
- estate_nobles_highland_fortifications_revoke:0 "Alle §YBergprovinzen§! mit einer §YFestung§! verlieren den Modifikator "§YInfrastrukturentwicklung in den Bergen§!"" # [LocEditor:AwaitingBatchUpdate]
+ estate_nobles_highland_fortifications_revoke:0 "Alle §YBergprovinzen§! mit einer §YFestung§! verlieren den Modifikator "§YInfrastrukturentwicklung in den Bergen§!""
  unlock_privilege_estate_nobles_highland_fortifications_tt:0 "Schaltet das Adel-Privileg "§YGebirgsfestungen§!" frei, das allen §YBerg§!-Provinzen mit einer §YFestung§! §G-35.0%§! Entwicklungskosten (Lokal) gibt."
  has_unlocked_estate_nobles_highland_fortifications_tt:0 "Hat das Privileg durch den Abschluss der Mission "§YBefestigt Kaukasien§!" freigeschaltet."
  #Tooltips & Modifiers
@@ -3494,6 +3494,7 @@
  nakharar_title_desc:0 "Die Reformierung des Nacharar-Systems und seine Verankerung als formeller Teil unserer Regierungsstruktur schafft eine harmonische Verbindung zwischen unseren alten Bräuchen und den modernen Bedürfnissen unserer stetig wachsenden Nation. Der Titel des Nacharar, der unseren Adligen verliehen wird, sorgt für ein Machtgleichgewicht, indem er ihre örtliche Autorität anerkennt und gleichzeitig das größere Wohl der Nation fördert."
  sparapet_office:0 "Sparapet-Amt"
  sparapet_office_desc:0 "Die Wiedereinführung des Sparapet-Amts stellt einen wichtigen Schritt für unser Ziel dar, unsere alte Kriegstradition zu bewahren und zu verbessern. Als Oberbefehlshaber der Armee wird der Sparapet eine entscheidende Rolle bei der Gewährleistung dafür spielen, dass unser Militär stets bereit und auf alle Bedrohungen unserer Nation vorbereitet ist."
+ arm_unlocked_sparapet:0 "Hat die Regierungsreform "§YSparapet-Amt§!" freigeschaltet."
  unlock_nakharar_title_tt:1 "Schaltet die Stufe-2-Regierungsreform "§YNacharar-Titel§!" frei, die folgende Auswirkungen hat:\nMax. Privilegien (Adel): §G+1.00§!\nEinfluss (Adel): §Y+5.0%§!\nLoyalitätsgleichgewicht (Adel): §G+10.0%§!\n\nDie Reform umfasst außerdem die folgende Mechanik:\nLand vom §YAdel§! zu beschlagnahmen, führt nicht länger dazu, dass adlige Rebellen auftauchen."
  mechanic_recruiting_general_gives_army_tradition_yes:0 "Das Rekrutieren von Generälen gibt §G+0.25§! Armeetradition."
  unlock_sparapet_office_tt:2 "Schaltet die Stufe-5-Regierungsreform "§YSparapet-Amt§!" frei, die folgende Auswirkungen hat:\nArmeetradition (Landschlachten): §G+50.0%§!\nKostenlose Generäle: §G+1.00§!\n\nDie Reform umfasst außerdem die folgende Regierungsmechanik:\nDas Rekrutieren von Generälen gibt §G+0.25§! Armeetradition."
@@ -4472,6 +4473,7 @@
 
  unlocked_state_madrasas_reform:0 "die zum Freischalten dieser Regierungsreform benötigt werden."
  unlocked_karimi_stations_reform:0 "die zum Freischalten dieser Regierungsreform benötigt werden."
+ mechanic_enables_pronoias:0 "Kann §YPronoia-Untertanen§! erstellen."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  select_current_branch_missions_title:0 "§YDerzeit ausgewählten Missionszweig wählen:§! §O[Root.GetCurrentSelectedMissionBranch]§!"

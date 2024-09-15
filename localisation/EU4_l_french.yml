@@ -368,7 +368,7 @@
  PRESTIGE_FROM_CONV:0 "Cela accroît notre prestige de §G+$VAL$§!."
  KARMA_FROM_CONV:1 "Cela accroît notre karma de §G+$VAL$§!."
  KARMA_FROM_CONV_CONFIRM:0 "Convertir cette province va accroître notre karma de §G+$VAL$§!."
- MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:1 "Permet le traité de paix §YTransfert de dépendance§! pour la moitié du coût"
+ MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:2 "Permet le traité de paix §YTransfert de dépendance§!"
  MODIFIER_CAN_CHAIN_CLAIM:0 "Permet de revendiquer les provinces limitrophes des provinces déjà revendiquées"
  MODIFIER_FREE_MAINTENANCE_ON_EXPL_CONQ:0 "Les commandants ne coûtent rien pendant l'exploration"
  MODIFIER_CAN_COLONY_BOOST_DEVELOPMENT:2 "§G+1§! en développement £adm£, £dip£ et £mil£ lorsqu'une colonie est terminée"

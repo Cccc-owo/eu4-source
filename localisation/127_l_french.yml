@@ -1,4 +1,7 @@
-﻿l_french:
+﻿# === [LocEditor:OrphanedFile] File contains only orphaned keys ===
+l_french:
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dawn_of_an_empire:0 "La naissance d'un empire"
  into_the_beyond:0 "Par-delà"
  the_conquistador:0 "Le conquistador"

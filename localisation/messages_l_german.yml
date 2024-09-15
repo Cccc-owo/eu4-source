@@ -5251,7 +5251,7 @@
  IMPRELTOOTHER_BTN1:0 "OK"
  IMPRELTOOTHER_BTN2:0 "OK"
  IMPRELTOOTHER_BTN3:0 "Zeigen"
- RELIGIOUSUNITYDESC:0 "Verlangt, dass sie ihre Religion zum einzig wahren Glauben ändern. Wenn sie sich weigern, wird es uns 20 Prestige kosten."
+ RELIGIOUSUNITYDESC:1 "Verlangt, dass sie ihre Religion zum einzig wahren Glauben ändern. Wenn sie sich weigern, erhalten wir einen Kriegsgrund gegen sie."
  RELIGIOUSUNITYNEWDESC:0 "Eine Familie, die zusammen betet, bleibt zusammen! Wollt Ihr verlangen, dass sie ihre Religion zum einzig wahren Glauben ändern?"
  RELIGIOUSUNITYTITLE:0 "Religiöse Einheit erzwingen"
  RELIGIOUSUNITYREQDESC:0 "Der Kaiser des Reichs (§Y$COUNTRY$§W) verlangt, dass wir zum $RELIGION$ konvertieren. Wenn wir das ablehnen, erhalten sie einen Kriegsgrund gegen uns."

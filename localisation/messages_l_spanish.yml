@@ -5251,7 +5251,7 @@
  IMPRELTOOTHER_BTN1:0 "Aceptar"
  IMPRELTOOTHER_BTN2:0 "Aceptar"
  IMPRELTOOTHER_BTN3:0 "Ir allí"
- RELIGIOUSUNITYDESC:0 "Exige que cambien su religión por la Única Fe Verdadera. Si se niega, nos costará 20 de prestigio."
+ RELIGIOUSUNITYDESC:1 "Exigir que cambien su religión a la única fe verdadera. Si se niegan, ganaremos un casus belli contra ellos."
  RELIGIOUSUNITYNEWDESC:0 "¡La familia que reza unida permanece unida! ¿Deseas exigir que cambien su religión por la Única Fe Verdadera?"
  RELIGIOUSUNITYTITLE:0 "Impón la unidad religiosa"
  RELIGIOUSUNITYREQDESC:0 "El Sacro Emperador Romano (§Y$COUNTRY$§!) exige que nos convirtamos a la fe $RELIGION$. Negarnos le proporcionará un casus belli contra nosotros."

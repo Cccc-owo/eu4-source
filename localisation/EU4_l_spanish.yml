@@ -360,7 +360,7 @@
  PRESTIGE_FROM_CONV:0 "¡Esto aumenta nuestro prestigio en §G+$VAL$§!."
  KARMA_FROM_CONV:1 "Esto aumenta nuestro karma en §G+$VAL$§!."
  KARMA_FROM_CONV_CONFIRM:0 "Convertir esta provincia aumentará nuestro karma en §G+$VAL$§!."
- MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:1 "Permite '§YTransferir tratado de paz de vasallo§!."
+ MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:2 "Permite «§YTransferir súbdito§!» Tratado de paz"
  MODIFIER_CAN_CHAIN_CLAIM:0 "Permite reclamar derechos fronterizos"
  MODIFIER_FREE_MAINTENANCE_ON_EXPL_CONQ:0 "Líderes exploradores sin mantenimiento"
  MODIFIER_CAN_COLONY_BOOST_DEVELOPMENT:2 "+1 de §Ycada desarrollo§! cuando se termine la colonia"

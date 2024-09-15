@@ -2007,6 +2007,7 @@
  HAS_CONVERTED_20_PROVINCES_TT:0 "A converti au moins §Y20§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y20§!)"
  HAS_CONVERTED_25_PROVINCES_TT:0 "A converti au moins §Y25§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y25§!)"
  HAS_CONVERTED_30_PROVINCES_TT:0 "A converti au moins §Y30§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y30§!)"
+ HAS_CONVERTED_45_PROVINCES_TT:0 "A converti au moins §Y45§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y45§!)"
  HAS_CONVERTED_50_PROVINCES_TT:0 "A converti au moins §Y50§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y50§!)"
  HAS_CONVERTED_75_PROVINCES_TT:0 "A converti au moins §Y75§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y75§!)"
  HAS_CONVERTED_100_PROVINCES_TT:0 "A converti au moins §Y100§! provinces (actuellement §Y[This.GetNumConvertedProvinces]§!/§Y100§!)"
@@ -3493,6 +3494,7 @@
  nakharar_title_desc:0 "La réforme du système des nakharars et son inscription dans les structures de l'État permettent d'allier de manière solide les coutumes anciennes et les besoins modernes d'un pays de plus en plus étendu. Le titre de nakharar, conféré aux plus grands nobles, assure un équilibre des pouvoirs, en permettant de reconnaître leur autorité locale tout en promouvant le bien commun à l'ensemble du pays."
  sparapet_office:0 "Office de sparapet"
  sparapet_office_desc:0 "Faire renaître la charge de sparapet est une étape cruciale pour préserver nos traditions martiales tout en les modernisant. Le sparapet, en tant que commandant en chef des armées, est en effet crucial pour s'assurer que les troupes sont toujours prêtes à faire face à quelque menace qui se présenterait."
+ arm_unlocked_sparapet:0 "A déverrouillé la réforme gouvernementale §YOffice de sparapet§!."
  unlock_nakharar_title_tt:1 "Donne accès à la réforme gouvernementale de niveau 2 §YTitres de nakharars§! :\nNombre max. de privilèges pour les [Root.GetNobles] : §G+1§!\nInfluence des [Root.GetNobles] : §Y+5%§!\nPt d'éq. de la loyauté des [Root.GetNobles] : §G+10%§!\n\nCette réforme permet aussi de saisir les terres des §Y[Root.GetNobles]§! sans provoquer de rébellion."
  mechanic_recruiting_general_gives_army_tradition_yes:0 "Recruter des généraux alloue §G+0.25§! en tradition terrestre."
  unlock_sparapet_office_tt:2 "Donne accès à la réforme gouvernementale de niveau 5 §YOffice de sparapet§! :\nTradition terrestre tirée des batailles : §G+50%§!\nCommandants terrestres sans entretien : §G+1§!\n\nCette réforme confère aussi §G+0.25§! en tradition terrestre lorsque des généraux sont recrutés."
@@ -4111,6 +4113,8 @@
  mam_reward_rival_yes_tt:0 "\n£yes£ Si nous adoptons une posture §Yagressive§! à l'égard de §YVenise§! :"
  mam_reward_alliance_no_tt:0 "£no£ Si nous adoptons une posture §Ycoopérative§! envers §YVenise§! : [Root.GetLeLaNP] §Y[Root.GetName]§! v[Root.GetAOntNP] avoir accès à la construction de §Ygaléasses§! aussi longtemps que l'alliance aura cours."
  mam_reward_alliance_yes_tt:0 "£yes£ Si nous adoptons une posture §Ycoopérative§! envers §YVenise§! : [Root.GetLeLaNP] §Y[Root.GetName]§! v[Root.GetAOntNP] avoir accès à la construction de §Ygaléasses§! aussi longtemps que l'alliance aura cours."
+ mam_reward_alliance_yes_tt_no_dlc:0 "£yes£ Si nous adoptons une posture §Ycoopérative§! envers §YVenise§! :"
+ mam_reward_alliance_no_tt_no_dlc:0 "£no£ Si nous adoptons une posture §Ycoopérative§! envers §YVenise§! :"
  strong_mamluk_regulations_key:0 "Régulations sévères des Mamelouks"
  no_nation_med_stronger_navy_tt:0 "Aucun pays autour de la Méditerranée n'a une flotte plus importante que celle [Root.GetDuDelaNP] §Y[Root.GetName]§!."
  mam_indebted_privilege_no_merc_loss_tt:0 "Le privilège §YEmprunts aux [Root.GetBourgeois]§! ne coûtera plus rien en mercantilisme.\n "
@@ -4469,6 +4473,7 @@
 
  unlocked_state_madrasas_reform:0 "qui donne accès à cette réforme gouvernementale."
  unlocked_karimi_stations_reform:0 "qui donne accès à cette réforme gouvernementale."
+ mechanic_enables_pronoias:0 "Peut établir des dépendances de type §Ypronoia§!."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  select_current_branch_missions_title:0 "§YChoix de la branche :§! §O[Root.GetCurrentSelectedMissionBranch]§!"

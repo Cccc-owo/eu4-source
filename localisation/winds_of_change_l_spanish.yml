@@ -222,7 +222,7 @@
  feo_plains_of_ruthenia:0 "Llanuras de Rutenia"
  desc_feo_plains_of_ruthenia:0 "Las tierras fértiles de Rutenia han permitido a muchos de nuestros jinetes a asentarse allí, facilitando su reclutamiento en nuestro ejército."
  feo_tatar_population:0 "Población tártara"
- feo_tatar_population_desc:0 "En esta provincia vive una mayoría de tártaros"
+ desc_feo_tatar_population:0 "En esta provincia vive una mayoría de tártaros"
  feo_cossack_self_governance_ruthenia:0 "Autogobierno cosaco"
  desc_feo_cossack_self_governance_ruthenia:0 "Esta provincia está gobernada por los cosacos nómadas locales."
  feo_return_to_gothic_ways:0 "Regreso a las tradiciones góticas"
@@ -802,7 +802,7 @@
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_MERCHANT_BUFF:1 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Comerciantes: §G+1§!\n   Modificador de poder de comerciante situado: §G+10,0%§!"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:2 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Coste de barco ligero: §G-20,0%§!\n   Modificador de poder comercial de barcos: §G+30,0%§"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_DIPLOMATIC_BUFF:1 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Aceptación de transferir poder comercial: §G+30%§!\n   Modificador de Mejorar relaciones: §G+25,0%§!"
- ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:1 "El privilegio de los burgueses §YComerciantes árabes§! ahora dará Modificador de ganancia de mercantilismo árabe §G+15,0%§!."
+ ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:2 "El privilegio de los burgueses §YComerciantes árabes§! ahora dará mercantilismo árabe mensual §G+15,0%§"
  ORM_0_TOLERANCE_IBADI:0 "Nuestra tolerancia hacia la fe §Yibadí§! es al menos §Y0§!"
  ORM_DISTRIBUTE_ONLY_IN_IBADI_PROVINCES:0 "El desarrollo solo se distribuirá en provincias §Yibadíes§!"
  ORM_IF_CONVERSION:0 "Si la misión se cumplió §Msin poseer ninguna provincia ibadí§!:"
@@ -813,8 +813,8 @@
  ORM_RELIGIOUS_PROPAGATION_NOW_GRANTS_PROVINCE_FOLLOWING_MODIFIER:0 "Cuando empecemos a §YPropagar religión§!, la provincia ganará este modificador:"
  ORM_RELIGIOUS_CULTURE_GRANTS_EXTRA_MODIFIERS:0 "El privilegio de los ulemas §YCultura religiosa§! ahora dará un §G10,0%§! de Poder comercial local y Coste de gobierno de provincia §G-10,0%§!."
  ORM_PROSPERITY_FOR_EVERY_GEM_PROVINCE:0 "Toda provincia poseída que produzca §Ygemas§! ganará una Prosperidad §G+100%§!."
- ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:0 "Se modifica §YCompañía del Lejano Oriente§! en:\n   -Comercio desviado: §G+10,0%§!\n   Coste de inversión de compañía comercial: §G-25,0%§!"
- ORM_BUFF_FAR_EAST_COMPANY_MODIFIER_NO_DLC:0 "Se modifica §YCompañía del Lejano Oriente§! en:\n   -Comercio desviado: §G+10,0%§!\n   Eficiencia comercial: §G-10,0%§!"
+ ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:1 "Modificar §YCompañía del Lejano Oriente§! en:\n   Desviar comercio: §G+10,0%§!\n   Coste de inversión en compañía comercial: §G-25,0%§!"
+ ORM_BUFF_FAR_EAST_COMPANY_MODIFIER_NO_DLC:1 "Modificar §YCompañía del Lejano Oriente§! mediante:\n   Desviar comercio: §G+10,0%§!\n   Eficiencia comercial: §G+10,0%§!"
  ORM_UNLOCK_BURGHERS_TOLERANCE_PRIVILEGE:0 "Desbloquearemos el privilegio de los burgueses §YDiálogo interreligioso impuesto§!"
  ORM_IF_NO_SPICE_TRADE_EVENT:0 "Si el evento §MComercio de especias§! aún no ha sucedido:"
  ORM_IF_YES_SPICE_TRADE_EVENT:0 "Si el evento §MComercio de especias§! ha sucedido:"
@@ -2431,7 +2431,7 @@
  NED_ALLOW_FASTER_NETHERLANDS_FORMATION:0 "Formar §YPaíses Bajos§! @NED ya no nos requerirá tener §YTecnología administrativa 10§!."
  NED_IF_NETHERLANDS_EXTEND_ABOVE_MODIFIER:0 "Si cumplimos la misión siendo §YPaíses Bajos§!, el modificador §YJe Maintiendrai§! se prorrogará §G10§! años más."
  NED_GAIN_DIPLO_POWER_PER_ENGLISH_COT:0 "Por cada provincia del §YCanal de la Mancha§! que poseamos con un §Ycentro de comercio§!, ganaremos poder diplomático §G+25§!"
- NED_UNLOCK_MAN_O_WARS_TOOLTIP:0 "Mientras §YInglaterra§! o §YGran Bretaña§! sea el socio menor de nuestra §Yunión personal§!, podremos construir §Ybuques de guerra§!."
+ NED_UNLOCK_MAN_O_WARS_TOOLTIP:1 "Mientras §YInglaterra§! o §YGran Bretaña§! esté bajo una §Yunión personal§! con nosotros, podremos reclutar §YMan-of-Wars§!."
  NED_ENGLAND_PU_IS_25_CHEAPER_TO_INTEGRATE:0 "Integrar §YInglaterra§! o §YGran Bretaña§! ahora será un §G25%§! más barato."
  NED_GRANT_CLAIMS_ON_ALL_BATLIC_COT_PROVINCES:0 "Ganaremos §Yreclamaciones permanentes§! sobre toda provincia en el nodo comercial del ऊ§Ymar Báltico§! con un §Ycentro de comercio§!."
  NED_GRANT_BONUS_ON_ALL_LOW_COUNTRIES_FARMLANDS_PROVINCES:0 "Toda provincia poseída en los §YPaíses Bajos§! que sea de §Ytierras de cultivo§! gana:"
@@ -2439,7 +2439,7 @@
  NED_GAIN_RELATIONS_WITH_LUBECK_COUNTRIES:0 "Toda nación en el nodo comercial de §YLübeck§! ganará §R30§! de opinión sobre nosotros."
  NED_IF_NO_LUBECK:1 "Si §Y[HSA.GetName]§! no es un §Ylíder de una Liga comercial§!:"
  NED_WON_AT_LEAST_200_BATTLES:0 "ha ganado por lo menos §Y200§! batallas. (§G[Root.NEDBattlesWon.GetValue]§!)"
- NED_FORTS_GRANT_BONUSES_IN_LOW_COUNTRIES:0 "Provincias con §Yfortalezas§! en los §YPaíses Bajos§!, ahora dará esto:\n   Coste de desarrollo local: §G+5,00%§!\n   Eficiencia de producción local: §G+10,0%§!\n   Defensa de Fortificación local: §G+10,0%§!\n\nLas bonificaciones anteriores se §Gdoblarán§! si completamos las §Yideas defensivas§!."
+ NED_FORTS_GRANT_BONUSES_IN_LOW_COUNTRIES:1 "Provincias con §Yfortalezas§! en los §YPaíses Bajos§! ahora darán estas bonificaciones:\n   Coste de desarrollo local: §G-5,00%§!\n   Eficiencia de producción local: §G+10,0%§!\n   Defensa de fortificación local: §G+10,0%§!\n\nLas bonificaciones anteriores se §Gdoblarán§! si llegamos a completar las §Yideas defensivas§!."
  NED_MODIFY_STAATSE_LEGER_REFORM:0 "La reforma gubernamental §Y§! Staatse Leger ahora dará:\n   Modificador de ganancia de instrucción: §G+15,0%§!\n   Disciplina: §G+2,5%§!"
  NED_MILITARY_ENGINEER_GRANTS_SIEGE_ABILITY:0 "A partir de ahora, los consejeros §Yingeniero militar§! proporcionarán Habilidad asedio §G+5,00%§! por nivel."
  NED_MODIFY_DUTCH_POLDERS_MONUMENT:0 "El gran proyecto §YPólderes holandeses§! ahora dará:\n   Modificador de los bienes producidos: §G+5,00%§!\n   Modificador de poder comercial provincial: §G+20,0%§!"
@@ -2503,7 +2503,7 @@
  orangist_stadholders_reform_desc:0 "Los orangistas han demostrado ser grandes gobernantes. Por ese motivo, debemos asegurarnos de que estos estatúderes tengan un poder mayor en el gobierno."
 
  #Mechanics:
- mechanic_seven_provinces_organization_yes:1 "Desbloquea la mecánica §YOrganización de las Siete provincias§! con estos efectos:\nLas provincias del grupo cultural principal en los Países Bajos ganan\n  Coste de desarrollo §G-10,0%§!\n   Modificador de los bienes producidos §G+10,0%§!\n   Coste de gobierno de la provincia §G-25,0%§!\n  Coste y tiempo de construcción §G-10%§!\n\nProvincias fuera de los Países Bajos ganan:\n   Modificador de los bienes producidos §R-10,0%§!\n   Coste de gobierno de la provincia §R+25,0%§!\n   Autonomía mínima §R+15%§!"
+ mechanic_seven_provinces_organization_yes:2 "Desbloquea la mecánica §YOrganización de las Siete provincias§! con estos efectos:\nLas provincias del grupo cultural principal en los Países Bajos ganan\n   Coste de desarrollo §G-10,0%§!\n   Modificador de los bienes producidos §G+10,0%§!\n   Coste de gobierno de la provincia §G-25,0%§!\n  Coste y tiempo de construcción §G-10%§!\n\nProvincias en Europa fuera de los Países Bajos ganan:\n   Coste de gobierno de la provincia §R+25,0%§!\n   Autonomía mínima §R+33%§!"
  mechanic_economic_golden_age_yes:0 "El privilegio estamental de los burgueses §YEmpresas libres§! ahora dará:\n Modificador de límite de fuerzas navales §G+10,0%§!\n   Coste de barco ligero §G-15,0%§!"
  mechanic_republican_virtues_yes:0 "Los candidatos §Yestatistas§! tendrán §G+1§! en todas las categorías de monarca"
  mechanic_orangist_cause_yes:1 "Cuando un gobernante §Yorangista§! gane al menos §Y25§! batallas como general, ganará el rasgo de gobernante §YEstatúder orangista§!"
@@ -2900,7 +2900,7 @@
  hun_developing_budapest_tt:0 "Desarrollar §Y[153.GetName]§! ahora tiene una probabilidad del §G20,0%§! de dar §G1§! desarrollo extra."
  hun_annexed_subject_tt_yes:0 "\n£yes£ Si cumplimos esta misión §Yteniendo§! el modificador §Ysúbditos anexionados§!, se §Yquitará§!."
  hun_annexed_subject_tt_no:0 "\n£no£ Si cumplimos esta misión §Yteniendo§! el modificador §Ysúbditos anexionados§!, se §Yquitará§!."
- hun_winning_wars_against_heathens_tt:0 "Ganar guerras contra §Ypaganos§! ahora da Proyección de poder §G10§! extra."
+ hun_winning_wars_against_heathens_tt:1 "Ganar guerras contra §Ylíderes de guerra paganos§! ahora da Proyección de poder §G10§! extra."
  hun_centralize_government:0 "Mientras el modificador «§YReforzar el gobierno§!» esté activo, §YCentralizar un estado§! añadirá §G+1§! desarrollo aleatorio a toda provincia que se posea en el área."
  hun_as_long_as_polish_accepted:0 "mientras la polaca sea una cultura aceptada"
  hun_cb_tt_else_yes:0 "\n£yes£ §TO si no§! recibiremos:"
@@ -3098,7 +3098,7 @@
  azt_squashing_rebellious_tributaries_desc:0 "Si queremos mantener un torrente constante de sacrificios para los dioses, debemos conquistar, subyugar y gobernar más. ¡Pongámonos de nuevo en marcha para reunir más sacrificios con el fin de evitar el Fin del Mundo!"
  azt_fate_of_city_alliance_title:0 "Destino de la alianza"
  azt_fate_of_city_alliance_desc:0 "La alianza de ciudades que formaron el Imperio azteca permanece como una mera sombra lo que fue en el pasado. Necesitamos bien darle el golpe final o darle una nueva forma para que funcione más en beneficio de Tenochtitlán."
- azt_roads_title:0 "Caminos para los [Root.GetBurguesesName]"
+ azt_roads_title:1 "Caminos para el pueblo"
  azt_roads_desc:0 "Los [Root.GetBurguesesName] necesitan nuestra ayuda desesperadamente. La falta de carreteras en nuestras tierras ha demostrado ser bastante poco eficaz en términos de transporte. Si queremos a ayudarlos, debemos construir nuevas carreteras para todo comerciante que desee recorrer grandes distancias de tierra."
  AZTMacehualtinMissionName:0 "Urbanización de los [Root.GetName]"
  MacehualtinMissionName:0 "Urbanizar Mesoamérica"
@@ -3206,7 +3206,8 @@
  AZT_EVERY_SUBJECT_LOSES_LD:0 "Todos nuestros §Ysúbditos§! perderán un §R20%§! de Deseo de libertad ."
  NAHUATL_TRIBUTARIES_GRANT_FURTHER_BONUSES:1 "Los §Ytributarios mesoamericanos§! ahora darán §G+0,01§! de tonalli mensual."
  AZT_NOBLE_LEVIES_BUFF_TOOLTIP:1 "El privilegio estamental §YLevas incrementadas§! de la [Root.GetNoblezaName] dará este modificador, a escala con su §Yinfluencia§!:\n   Coste de regimiento: §G-10,0%§!"
- AZT_MODIFY_TRIPLE_ALLIANCE_PRIVILEGE:3 "El privilegio de la [Root.GetNoblezaName] la §YTriple alianza§! ya no produce una penalización de §YCapacidad de gobierno§! y la penalización del §Ymodificador de capacidad de gobierno§! se reducirá al §G-25%§!" AZT_GAIN_DEVELOPMENT_PER_SUBJECT:0 "Nuestra §Ycapital§! ganará §G+1§! desarrollo al azar por súbdito que tengamos."
+ AZT_MODIFY_TRIPLE_ALLIANCE_PRIVILEGE:3 "El privilegio de la [Root.GetNoblezaName] la §YTriple alianza§! ya no produce una penalización de §YCapacidad de gobierno§! y la penalización del §Ymodificador de capacidad de gobierno§! se reducirá al §G-25%§!"
+ AZT_GAIN_DEVELOPMENT_PER_SUBJECT:0 "Nuestra §Ycapital§! ganará §G+1§! desarrollo al azar por súbdito que tengamos."
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER:0 "Modifica la §YCiudad de Tenochtitlán§! en:\n   Crecimiento de prosperidad local: §G+0,50§!\n   Coste de desarrollo local: §G-5,00%§!"
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER_2:0 "Modifica la §YCiudad de Tenochtitlán§! en:\n   Tiempo de construcción local: §G-15,0%§!\n   Número posible de edificios: §G+1§!"
  AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER_3:0 "Modifica la §YCiudad de Tenochtitlán§! en:\n   Modificador de coste de desarrollo local: §G-10,0%§!"
@@ -3264,7 +3265,7 @@
  AZT_MODIFY_MECHANIC_HUITZILOPOCHTLI:1 "Hacer de §YHuitzilopochtli§! la principal deidad patrona de nuestra nación, lo que dará estos efectos al §YAcopio de tonalli§! al máximo de poder:\n   Moral de ejércitos: §G+10,0%§!\n  Soldadesca en provincias del mismo grupo cultural: §G+20,0%§!"
  AZT_MODIFY_MECHANIC_TEZCATLIPOCA:1 "Hacer de §YTezcatlipoca§! la principal deidad patrona de nuestra nación, lo que dará estos efectos al §YAcopio de tonalli§! al máximo de poder:\n   Coste de creación de núcleos: §G-15,0%§!\n   Impacto de expansión agresiva: §G-10,0%§!"
  AZT_MODIFY_MECHANIC_TLALOC:1 "Hacer de §YTláloc§! la principal deidad patrona de nuestra nación, lo que dará estos efectos al §YAcopio de tonalli§! al máximo de poder:\n   Coste de construcción: §G-20,0%§!\n   Coste de desarrollo en culturas principales: §G-10,0%§!"
- AZT_MODIFY_MECHANIC_QUETZACOATL:1 "Hacer de §YQuetzalcóatl§! la principal deidad patrona de nuestra nación, lo que dará estos efectos al §YAcopio de tonalli§! al máximo de poder:\n   Disturbio nacional: §G-3,00%§!\n   Fuerza misionera: §G+3,0%§!"
+ AZT_MODIFY_MECHANIC_QUETZACOATL:2 "Hacer de §YQuetzalcóatl§! la principal deidad patrona de nuestra nación, lo que hará que el §YAcopio de tonalli§! tenga estos efectos al máximo de poder:\\n   Disturbio nacional: §G-3,00%§!\\n   Fuerza misionera: §G+3,0%§!"
  
  AZT_FESTIVAL_REWARD_CHANGES_WITH_PATRON_DEITY:0 "Las recompensas por §Ycelebrar un festival§! cambiarán dependiendo de quién sea nuestra §Ydeidad patrona§!"
  
@@ -4143,7 +4144,7 @@
  has_won_at_least_100_battles:0 "Ha §Yganado§! al menos §G100§! batallas. (Ahora: §Y[Root.num_of_battles_won_var.GetValue]§!.)"
  MAY_upgrade_obsidian_privilege:1 "Se refuerza el privilegio estamental de la §Y[Root.GetNoblezaName]§! «§YArmar a la [Root.GetNoblezaName] menor con macuahuit§!», quitando la penalización §YAbsolutismo máximo§! y el modificador §YInfluencia de la [Root.GetNoblezaName]§! de tener cumplidos los requisitos."
  MAY_unlock_privilege_for_tributaries:0 "Se desbloquea el privilegio estamental «§YExtender influencia dinástica§!» para la §Y[Root.GetNoblezaName]§!, que nos da §YEquilibrio de lealtad de la [Root.GetNoblezaName]§! a escala con el §YDeseo de libertad de súbditos§! y bonificaciones para nosotros y nuestros súbditos."
- MAY_benefits_of_dynastic_influence:1 "§YDeseo de libertad medio de súbdito§! nos dará Equilibrio de lealtad de la [Root.GetNoblezaName] §G+10,0%§! al §Y0,0%§!.\n\nLos §Y tributarios mesoamericanos§! con §Ynuestra dinastía§! nos proporcionarán cada uno Legitimidad anual §G+0,25§! y Límite de fuerzas terrestres §G+3§!."
+ MAY_benefits_of_dynastic_influence:2 "§YDeseo de libertad medio de súbdito§! nos dará Equilibrio de lealtad de la [Root.GetNoblezaName] §G+10,0%§! al §Y0,0%§!.\n\nLos §Y tributarios mesoamericanos§! con §Ynuestra dinastía§! nos proporcionarán cada uno Legitimidad anual §G+0,25§! y Límite de fuerzas terrestres §G+3§!."
  MAY_chontals_merc_company:0 "Se desbloquea la compañía mercenaria «§YLos guerreros honcal§!» cuyo mantenimiento no cuesta §Ylímite de fuerzas§! y también tiene esos modificadores:\n  Prestigio por batallas terrestres: §G+100,0%§!\n  Daño de moral: §G+10,0%§!"
  merc_may_chontals:0 "Los guerreros honcal"
  MAY_conditional_loyalty:1 "Equilibrio de lealtad de la [Country.GetNoblezaName]"
@@ -4661,8 +4662,8 @@
  boh_biggest_eu_dev:0 "Ningún país con capital en §YEuropa§! tiene más desarrollo total que §Y[Root.GetName]§!."
  boh_great_moravia_insight_tt:0 "\n§GComprensión del evento:§!\nEste evento desbloquea la §YGran Moravia§! @GMA como nación que se puede formar, da a nuestro gobernante una habilidad de §G2§! £mil£, así como este modificador:"
  boh_unlock_great_moravia_tt:0 "Desbloquea una decisión que nos permite formar la §YGran Moravia§! @GMA."
- boh_preview_catholic_branching:0 "Vista previa de las misiones ramales §Ocatólicas§!."
- boh_preview_hussite_branching:0 "Vista previa de las misiones ramales §Ohusitas§!."
+ boh_preview_catholic_branching:1 "Vista previa de las misiones ramales «§Ocatólicas§!»."
+ boh_preview_hussite_branching:1 "Vista previa de las misiones ramales «§Ohusitas§!»."
  boh_dip_for_reform_votes_tt:0 "Se gana §G1§! £dip£ poder diplomático por cada país el §YSacro Imperio Romano§!."
  boh_perma_claim_hre_provinces_tt:0 "§Y[Root.GetName]§! consigue una reclamación permanente sobre toda provincia del §YSacro Imperio§! que no pertenezca a los §Ymiembros imperiales§!."
  boh_most_income_europe:0 "Ninguna nación §Yeuropea§! tiene unos ingresos mensuales mayores que §Y[Root.GetName]§!."
@@ -5019,9 +5020,9 @@
  HORDES_RELEASE_GOLDEN_HORDE:0 "Liberaremos §Y[GLH.GetName]§! como §Ypaís hermano mongol§! nuestro en las regiones de §YRusia§!, §YEstepa del Ponto§! y §YUrales§!."
  MONGOLS_CAPTURED_EMPEROR:0 "Ha capturado al §Yemperador chino§! en batalla."
  MONGOLS_IF_CAPTURED_EMPEROR:0 "Si capturamos al §Yemperador chino§! en batalla"
- MONGOLS_EXECUTE_EMPEROR:1 "Ejecutaremos al §Yemperador chino§! y se reemplazará el modificador §YCapturado el emperador§! con el de §YDerechos legítimos sobre China§!. Cambio efectivo:\n   Moral de ejércitos: §R-20,0%§!\n   Habilidad asedio: §R-10,0%§!\n   Coste de creación de núcleos: §G-10,0%§!\n   Coste provincial en Marcador de Guerra: §G-10,0%§!"
+ MONGOLS_EXECUTE_EMPEROR:2 "Haremos amistad con el §Yemperador chino§! y se reemplazará el modificador §YCapturado el emperador§! con el de §YDerechos legítimos sobre China§!. Cambio efectivo:\n   Moral de ejércitos: §R-20,0%§!\n   Habilidad asedio: §R-10,0%§!\n   Coste de creación de núcleos: §G-10,0%§!\n   Coste provincial en Marcador de Guerra: §G-10,0%§!"
  MONGOLS_MODIFY_RETURN_OF_THE_MONGOLS_1:0 "Se modifica §YRegreso de los mongoles§! en:\n  Capacidad de gobierno: §G+100§!"
- MONGOLS_MODIFY_RETURN_OF_THE_MONGOLS_2:0 "Se modifica §YRegreso de los mongoles§! en:\n  Capacidad de gobierno: §G+100§!\n   Velocidad de saqueo: §G+30,0%§!\n   Botín disponible: §G+30,0%§!"
+ MONGOLS_MODIFY_RETURN_OF_THE_MONGOLS_2:1 "Se modifica §YRegreso de los mongoles§! en:\n   Coste provincial en Marcador de Guerra: §G-10,0%§!\n   Velocidad de saqueo: §G+30,0%§!\n   Botín disponible: §G+30,0%§!"
  HORDES_CREATE_PAX_MONGOLICA_MODIFIER_MONGOLS:0 "Fusiona los modificadores §YKan de kanes§! y §YRegreso de los mongoles§! en el modificador §YPax Mongolica§! y lo modifica más en:\n   Tiempo de viaje de enviados: §G-10,0%§!\n  Capacidad de gobierno: §G+100§!"
  MOGHULISTAN_OWNS_ALL_KAZAKH_PROVINCES:1 "Nosotros o alguno de nuestros súbditos no tributarios poseen todas las provincias en la región de §YAsia Central§! que sean de cultura §Ykazaja§!."
  
@@ -5211,11 +5212,11 @@
  HORDES_RESTORE_YUAN_EFFECT:0 "Crear §Y[YUA.GetName]§! @YUA como súbditos nuestros, y se les dará todas las provincias de la antigua §Ydinastía Yuan§! que poseamos."
  HORDES_UNLOCK_GREAT_WALL_OF_CHINA:1 "Podremos usar el gran proyecto la §YGran Muralla de China§!."
  TATARS_MODIFY_LIKE_A_DRAGON_MODIFIER_1:0 "Se modifica §YComo un dragón§! en:\n  Capacidad de gobierno: §G+100§!"
- TATARS_MODIFY_LIKE_A_DRAGON_MODIFIER_2:0 "Se modifica §YComo un dragón§! en:\n  Capacidad de gobierno: §G+100§!\n   Velocidad de saqueo: §G+30,0%§!\n   Botín disponible: §G+30,0%§!"
+ TATARS_MODIFY_LIKE_A_DRAGON_MODIFIER_2:1 "Se modifica §YComo un dragón§! en:\n   Coste provincial en Marcador de Guerra: §G-10,0%§!\n   Velocidad de saqueo: §G+30,0%§!\n   Botín disponible: §G+30,0%§!"
  TATARS_IF_YUAN_SUBJECT:0 "Si §Y[YUA.GetName]§! @YUA es súbdito nuestro:"
  HORDES_SHARE_SPOILS_GRANTS_TECH_COST_REDUCTION:0 "El privilegio de las tribus §YParte del botín§! ahora dará Coste de tecnología §G-5,00%§!"
  HORDES_UNLOCK_JAPANESE_NAVAL_DOCTRINE:0 "Desbloquearemos la doctrina naval §YAtakebune§!."
- TATARS_GAIN_DIP_POWER_PER_COT_IN_PERSIA:0 "Por cada §Ycentro de comercio§! que poseamos en §YPersia§!, ganaremos poder diplomático §G+25§!."
+ TATARS_GAIN_DIP_POWER_PER_COT_IN_PERSIA:1 "Ganaremos poder diplomátio §G+25§! por §Ycentro de comercio§! que poseamos en la región de §YPersia§!."
  HORDES_RESTORE_YUAN_IN_PERSIA:1 "Se liberará §Y[ILK.GetName]§! @ILK en las regiones de §YPersia§! y §YJorasán§! como §Ypaís hermano mongol§! nuestro."
  TATARS_MODIFY_KHAN_OF_KHANS_1:1 "Se modifica §YKan de kanes§! en:\n   Unidad de la Horda anual: §G+0,50§!\n   Velocidad de movimiento: §G+10,0%§!"
  TATARS_MODIFY_KHAN_OF_KHANS_2:0 "Se modifica §YKan de kanes§! en:\n   Tiempo de viaje de enviados: §G-10,0%§!"
@@ -5223,9 +5224,9 @@
  TATARS_IF_CAIRO_AND_BAGHDAD_HAVE_BEEN_RAZED:0 "Si se ha arrasado §Y[410.GetName]§! y §Y[361.GetName]§! en los últimos §Y20§! años:"
  TATARS_RAZING_GRANTS_TRIBES_LOYALTY:0 "Cada vez que §Yarrasamos§! una provincia, el estamento §Ytribus§! ganará un §G+1%§! de lealtad."
  HORDES_UNLOCK_REAVER_RULER_PERSONALITY:0 "Desbloquearemos la personalidad de gobernante §YDespojador§!, que se puede conseguir mientras sigamos siendo una §Yhorda§!. Proporcionará esto\n   Botín disponible: §G+15,0%§!\n   Ganancia de poder arrasador: §G+20,0%§!"
- HORDES_GRANT_HORDE_UNITY_PER_MOUNTAIN_PROVINCE_IN_REGION:1 "Por cada provincia con §Ymontañas§! o §Ycolinas§! que poseamos en la región de §YCaucasia§!, ganaremos Unidad de la Horda §G+2§!."
+ HORDES_GRANT_HORDE_UNITY_PER_MOUNTAIN_PROVINCE_IN_REGION:2 "Por cada provincia con §Ymontañas§! o §Ycolinas§! que poseamos en la región de §YCaucasia§!, ganaremos[Root.GetLegitimacyOrSimilarCurrency] §G+2§!."
  HORDES_CREATE_PAX_MONGOLICA_MODIFIER:0 "Fusiona los modificadores §YKan de kanes§! y §YComo un dragón§! en el modificador §YPax Mongolica§! y los modifica más allá en:\n   Tiempo de viaje de enviados: §G-10,0%§!\n   Capacidad de gobierno: §G+100§!"
- HORDES_CONQUERORS_GUARANTEED:0 "Nuestros §Ygobernantes§! tienen garantizado ser §Yconquistadores§!."
+ HORDES_CONQUERORS_GUARANTEED:1 "Nuestros futuros §Ygobernantes§! tienen garantizado convertirse en §Yconquistadores§!."
  HORDES_GENERALS_CREATED_FROM_WARGAMES_INCREASED_CHANCE_AND_BETTER_STATS:0 "El evento §YJuegos de guerra§! tendrá una probabilidad aumentada de disparar los eventos §Yestrella en ascenso§! y §Yestrella brillante§! y el general creado de estos eventos tendrá §G+1§! punto de Choque y Asedio."
  HORDES_WARGAMES_GRANT_HORDE_UNITY:0 "El evento §YJuegos de guerra§! ahora dará Unidad de la Horda §G+5§!."
  HORDES_BASAQS_NOW_GRANT_TRIPLES_LOYALTY_PER_TRIBUTE_RECEIVED:2 "El privilegio §Yautonomía basqaq§! ahora rendirá lealtad §G+1%§! al estamento al cual esté asignado cada vez que un §Ytributario§! nos pague tributo."
@@ -5410,7 +5411,7 @@
  
  #Subject Type:
  mongol_brother_realm:0 "País hermano mongol"
- mongol_brother_realm_long_desc:0 "Un país hermano mongol es una extensión de nuestro reino. Si bien tienen más autonomía que otros territorios, estas tierras siguen obedeciendo nuestro dominio."
+ mongol_brother_realm_long_desc:1 "Un país hermano mongol es una extensión de nuestra nación. Aunque estas tierras tengan más autonomía que otros territorios, siguen obedeciendo nuestro poder. Este súbdito no costará ninguna relación diploática."
  mongol_brother_realm_is_our:0 "$NAME|Y$ es un país hermano mongol"
  mongol_brother_realm_title:0 "País hermano mongol"
  mongol_brother_realm_title_plural:0 "Países hermanos mongoles"
@@ -5463,7 +5464,7 @@
  tre_legacy_of_the_crusades_desc:0 "Según la historia, los Comnenos han tenido vínculos estrechos con los cruzados latinos del Levante, tanto diplomáticos como militares. Ahora que volvemos a ejercer control sobre gran parte de las antiguas tierras bizantinas, tal vez sea el momento de volver a encender nuestro legado cruzado y ponernos como objetivo la liberación de Tierra Santa."
  tre_kingdoms_of_the_caucasus_title:0 "Reinos caucásicos"
  tre_kingdoms_of_the_caucasus_desc:0 "Los reinos del Cáucaso son ricos en recursos y ubicaciones estratégicas. Debemos crear alianzas con estos reinos o ponerlos bajo nuestro poder, asegurar nuestra posición en la región."
- tre_kingdoms_of_the_caucasus_tt:0 "§YAliados§! con su capital en la región de §YCaucasia§!"
+ tre_kingdoms_of_the_caucasus_tt:1 "§YAliados§! con su capital en la región de §YCaucasia§!"
  tre_emperor_of_the_iberians_title:0 "Emperador de los íberos"
  tre_emperor_of_the_iberians_desc:0 "Nuestros gobernantes reclaman ceremonialmente el título de Emperador y Autócrata de todo Oriente, Iberia y Peratea. Es hora de reclamar estos títulos y crear un dominio permanente sobre las región del Cáucaso, ya sea diplomáticamente o a la fuerza."
  tre_chastise_the_hordes_title:0 "Castigar a las hordas"
@@ -5573,8 +5574,8 @@
  desc_tre_komnenian_restoration3:0 "El Imperio romano de Oriente ha estado en franca decadencia desde la batalla de Manzikert. Nosotros, los Comnenos, hemos demostrado ser dignos de dirigir el imperio, así que debemos reclamar Constantinopla y proclamarnos emperadores de los romanos."
  tre_komnenian_restoration4:0 "Restauración Comnena"
  desc_tre_komnenian_restoration4:0 "El Imperio romano de Oriente ha estado en franca decadencia desde la batalla de Manzikert. Nosotros, los Comnenos, hemos demostrado ser dignos de dirigir el imperio, así que debemos reclamar Constantinopla y proclamarnos emperadores de los romanos."
- tre_3_allies_no_cossacks_tt_yes:0 "\n£yes£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, también recibiremos:"
- tre_3_allies_no_cossacks_tt_no:0 "\n£no£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, también recibiremos:"
+ tre_3_allies_no_cossacks_tt_yes:1 "\n£yes£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, también recibiremos:"
+ tre_3_allies_no_cossacks_tt_no:1 "\n£no£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, también recibiremos:"
  # Diplo Actions
  heathen_royal_marriage:0 "Matrimonio real pagano"
  heathen_royal_marriage_title:0 "Matrimonio real pagano"
@@ -5813,7 +5814,7 @@
  HAB_UNLOCK_COUNCIL_OF_MECHELEN:0 "Desbloquea la Reforma gubernamental §YGran Consejo de Malinas§!, que desactivará la §YRevuelta holandesa§!."
  HAB_IF_CONQUER:0 "Si esta misión se cumple con la §Mconquista§! o el §Mvasallaje§! de Francia:"
  HAB_IF_HRE:0 "Si la misión se cumplió añadiendo provincias al §MSacro Imperio Romano§!:"
- HAB_SPLIT_FRANCE_INTO_HRE:1 "Toda provincia poseída en la §Yregión de Francia§! se dividirá entre diversas naciones y se añadirá al §MSacro Imperio Romano§!."
+ HAB_SPLIT_FRANCE_INTO_HRE:3 "Toda provincia poseída en la §Yregión de Francia§! se repartirña entre distintas naciones no súbditas se sumarán al §YSacro Imperio Romano§! si somos su §Yemperador§!."
  HAB_greater_development_than_SPA:0 "El desarrollo total es el doble del §Y[SPA.GetAdjective]§! @SPA."
  HAB_greater_development_than_CAS:0 "El desarrollo total es el doble del §Y[CAS.GetAdjective]§! @CAS."
  HAB_AS_LONG_AS_WE_HAVE_PU_CB_ON_CAS_OR_SPA_ALLOW_IBERIAN_PU_DECISION:2 "Desbloquearemos la decisión §YUnirse a la corona ibérica§! que nos permitirá crear una Unión personal con §YCastilla§! o §YEspaña§!, disponible siempre que cumplamos estos requisitos:\n   Confianza mínima §Y80§!\n   Opinión de §YCastilla§! o §YEspaña§! sobre §Y[Root.GetName]§! es mínimo §Y190§!.\n   Reputación diplomática al menos §Y4§!.\n   Tener el casus belli §YRestauración de la unión§! contra §YCastilla§! o §YEspaña§!"
@@ -5876,8 +5877,8 @@
  HAB_UNLOCK_BLACK_ARMY:0 "Desbloquea el reclutamiento de la compañía mercenaria del §YEjército Negro§!."
  HAB_GET_NEW_MISSIONS:0 "Pasaremos a la rama de nuestro árbol §YUnificación alemana§!."
 
- hab_preview_germany_branch:0 "Tendremos una vista previa de la rama §OUnificación alemana§!."
- hab_preview_hre_branch:0 "Tendremos una vista previa de la rama §OLegado de Carlomagno§!."
+ hab_preview_germany_branch:1 "Daremos una vista previa de la rama «§OUnificación alemana§!»."
+ hab_preview_hre_branch:1 "Daremos una vista previa de la rama «§OLegado de Carlomagno§!»."
  HAB_SHADOW_KINGDOM:0 "Ya está tratando con el §MReino en la sombra§!:"
  HAB_GAIN_50_OPINION_WITH_ITALY:0 "Ganaremos §G50§! de opinión con todos los §Ypríncipes imperiales§! de §YItalia§!."
  HAB_GAIN_SUBJECT_CB_ON_ITALY:0 "Ganaremos el casus belli §YSubyugación§! contra todos los §Ypríncipes imperiales§! de §YItalia§!."
@@ -6056,8 +6057,8 @@
  flavor_hab.34.a:0 "Ha llegado el fin de una era"
 
  flavor_hab.35.t:0 "Unión ibérica"
- flavor_hab.35.d:0 "Al ser los franceses una amenaza no solo para nosotros, sino para el resto de Europa, [union_target.GetName], nuestro colega [union_target.Monarch.Dynasty.GetName] ha llegado a nosotros para proponernos fusionar nuestros países en una unión que contenga a los franceses en sus fronteras actuales."
- flavor_hab.35.a:0 "Lo daría todo para destruir Francia…"
+ flavor_hab.35.d:1 "Con el ascenso de tantas y tan diferentes amenazas a nuestro alrededor, [union_target.GetName], nuestros hermanos  [union_target.Monarch.Dynasty.GetName] nos han propuesto una unión de nuestros reinos. Si bien esto acabará con la soberanía de nuestro país, también nos permitirá unir fuerzas para aplastar a nuestros enemigos comunes."
+ flavor_hab.35.a:1 "Lo daría todo para defender a mi pueblo…"
  flavor_hab.35.b:0 "Nuestra independencia es más importante."
 
  flavor_hab.36.t:0 "La situación en Austria"
@@ -6143,7 +6144,7 @@
  allow_religious_conquests:0 "Permitir conquistas religiosas"
  
  ned_sound_toll_ties:0 "Comerciantes holandeses en el peaje del Sund"
- NED_PROVINCE_TRIGGERED_MODIFIER_GRANTS_TRADE_POWER:1 "Mientras mantengamos §G125§! de relaciones con §Y[12.Owner.GetName]§!, ganaremos §G70§! de poder comercial en el nodo comercial."
+ NED_PROVINCE_TRIGGERED_MODIFIER_GRANTS_TRADE_POWER:2 "Mientras mantengamos §G125§! de relaciones con §Y[12.GetName]§!, ganaremos §G70§! de poder comercial en el nodo comercial."
  
  NED_IF_COMPLETED_THROUGH_DIPLOMACY:0 "Si la misión se cumplió §Mdiplomáticamente§!:"
  NED_IF_COMPLETED_THROUGH_HOSTILITY:0 "Si la misión NO se cumplió §Mdiplomáticamente§!:"
@@ -6528,7 +6529,7 @@
  flavor_tim.18.g:0 "Un consejero sabio y anciano gobernará la tierra."
  
  flavor_tim.19.t:0 "Muerte de Muhammad Juki"
- flavor_tim.19.d:0 "Muhammad Juki, uno de los candidatos más ilustres al trono timúrida, ha fallecido y deja los territorios que gobernaba a unos hijos jóvenes y sin experiencia. Algunos dicen que murió de enfermedad, pero los oponentes de Gawhar Shad la acusan de haberlo asesinado para garantizar la sucesión de su hijo preferido, Ala al-Dawla. Fuera cual fuera la causa, podríamos explotar esta desgracia en nuestro beneficio."
+ flavor_tim.19.d:1 "Muhammad Juki, uno de los candidatos más ilustres al trono timúrida, ha fallecido y deja los territorios que gobernaba a unos hijos jóvenes y sin experiencia. Algunos dicen que murió de enfermedad, mas los oponentes de Gawhar Shad la acusan de haberle asesinado para garantizar la sucesión de su nieto preferido, Ala al-Dawla. Fuera cual fuera la causa, podríamos explotar esta calamidad en nuestro beneficio"
  flavor_tim.19.a:0 "Aprovechar la situación."
  flavor_tim.19.b:0 "Una gran desgracia."
  
@@ -6563,6 +6564,7 @@
  HLR_united_modifiers:0 "Fusiona «§YEstado imperial§!», «§YResolución romana§!» y «§YEstado santo§!» en «§YSacro, romano e imperial§!» y lo modifica en:\n  Efecto máx. absolutismo: §G+20,0%§!"
  HLR_distribute_dev_among_low_autonomy_provs:0 "Distribuye §G15§! desarrollos al azar entre las provincias nuestras que cumplan los §Yrequisitos§!."
  HLR_enable_iron_crowned_trait:0 "Desbloquea la personalidad de gobernante «§YCoronación con hierro§!», que da estos beneficios:\n   Coste de creación de núcleos: §G-20,0%§!\n  Hastío bélico mensual: §G-0,05§!"
+ HLR_enable_iron_crowned_trait_flag:0 "Activa el rasgo Corona de hierro"
  FRS_color_will_change:0 "El color de §Y[FRS.GetName]§! cambiará."
  TIM_cb_benefits:0 "Con este §Ycasus belli§! se reducirá el coste de tomar territorios §Ynúcleo§! y de §YVasallaje forzado§! en un §G-50,0%§!."
  
@@ -6942,7 +6944,7 @@
 
 
  YUA_WON_10_BATTLES_RULER:0 "Ha ganado al menos §Y10§! batallas con nuestro gobernante. (§Y[NumOfRulerBattlesWon]/10§!)"
- YUA_UNLOCK_KESHIG_MERCENARY_COMPANY:0 "Desbloquea los §Ykeshigs§! como una compañía mercenaria que no costará §Yprofesionalidad del ejército§! ni §Ylímite de fuerzas terrestres§!. Tendrán estos efectos:\n   Fuego de caballería: §G+0,5§!\n  Daño de fuego recibido: §R-15,0%§!"
+ YUA_UNLOCK_KESHIG_MERCENARY_COMPANY:1 "Desbloquea los §Ykeshigs§! como compañía mercenaria, lo que no costará §YProfesionalidad del ejército§! ni §Ylímite de fuerzas§!. Tendrán estos efectos:\n   Fuego de caballería: §G+0,5§!\n  Daño por fuego recibido: §G-15,0%§!"
  YUA_ONLY_IN_SOUTHERN_CHINA:0 "El desarrollo solo se distribuirá en las provincias de la región de §YSur de China§! con un edificio §YCampamento militar§!."
  YUA_NO_CHINA_PROVINCE_HAS_UNREST:0 "Ninguna provincia de §YChina§! tiene un disturbio mayor de §Y0§!."
  YUA_FROM_CHINESE_PROVINCES:0 "de provincias en §YChina§! que tengan §Ycuarteles§! y §Ypalacio de justicia§!."
@@ -7245,7 +7247,7 @@
  HUNGARY_AUSTRIA:0 "Hungría-Austria"
  HUNGARY_AUSTRIA_ADJ:0 "hungaroaustriaco"
  NED_UNLOCKS_VOC_ESTABLISHMENT:0 "Desbloquea la fundación de la §YVOC§! como una §Yempresa comercial§! en la §YIndia§!."
- ned_man_o_war_from_pu_flag:0 "Desbloqueados buques de guerra a partir de una unión personal"
+ ned_man_o_war_from_pu_flag:1 "Desbloqueados Man-of-wars por uniones personales"
  ven_allow_suez_flag:0 "Ha conseguido acceso a construir este canal"
 
  FUGGERS_SCALING_BONUS_TOOLTIP:1 "§YSe escala con la lealtad§!\nCon un §Y100%§! de lealtad, el privilegio tiene estos efectos:\nReducción anual de la inflación: §G+0,10§!\nCoste de consejeros con la cultura del gobernante: §G-15.0%§!"
@@ -7256,7 +7258,7 @@
  HORDES_BUILD_UP_TO_FORCELIMIT:0 "Los §Yregimientos§! previos se reclutarán hasta el máximo del límite de fuerzas."
  HORDES_HAS_50_TRADE_POWER_IN_PERSIA:0 "§Y[Root.GetName]§! tiene un §Y50%§! o más de poder comercial en el nodo comercial de §YPersia§!."
  HORDES_HAS_50_TRADE_POWER_IN_SAMARKAND:0 "§Y[Root.GetName]§! tiene un §Y50%§! o más de poder comercial en el nodo comercial de §YSamarcanda§!."
- ned_man_o_wars_from_pu_flag:0 "Desbloqueados buques de guerra a partir de una unión personal"
+ ned_man_o_wars_from_pu_flag:1 "Deesbloqueados Man-of-wars por unión personal"
  desc_ned_empowered_staatse_leger:0 "Se ha reforzado el estado del ejército para proteger nuestro país de invasiones."
  NED_AS_LONG_AS_DUTCH_TRADER_MODIFIER_IS_ACTIVE_GAIN_TRADE_POWER:0 "Mientras el modificador §YComerciantes holandeses§! esté activo, ganaremos §G55§! en el nodo comercial de §YJapón§!."
  has_won_at_least_30_battles:0 "Ha §Yganado§! al menos §G30§! batallas. (Ahora: §Y[Root.GetAmountofBattles]§!.)"
@@ -7294,16 +7296,34 @@
  free_incorporated_vassal:0 "Sin penalización de capacidad de gobierno"
  MUG_unlock_a_few_dharmic_monuments:0 "Desbloquea los monumentos «§YEstatua de Gomateshwara§!» en §Y[4421.GetName]§! y «§YTemplo del sol de Konârak§!» en §Y[552.GetName]§! sin el requisito del grupo de religión §Ydhármico§!."
 
- MONGOL_BROTHER_REALM_EXPLANATION:0 "Los §Ypaíses hermanos mongoles§! no recibirán §Ydeseo de libertad por desarrollo§!. Además, nos pagarán más ducados que los §Yvasallos§! normales. Podrán declarar sus propias §Yguerras§! y cada una de ellas nos dará Capacidad de combate de la caballería §G+10,0%§!."
+ MONGOL_BROTHER_REALM_EXPLANATION:1 "Los §Ypaíses hermanos mongoles§! no sufrirán §YDeseo de libertad por desarrollo§! y no nos costará §Ycasillas diplomáticas§!. Además, nos pagarán más ducados que los §Yvasallos§! normales. Podrán declarar sus §Yguerras§! propias, y cada uno de ellos nos dará §G+10,0%§! de capacidad de combate de caballería"
  mechanic_can_recruit_banners_from_primary_culture_provinces:0 "Se pueden reclutar §YEstandartes§! de las provincias de la §Ycultura principal§!"
  mechanic_can_recruit_banners_from_primary_culture_provinces_yes:0 "Se pueden reclutar §YEstandartes§! de las provincias de la §Ycultura principal§!"
  mechanic_can_recruit_banners_from_primary_culture_provinces_no:0 "NO se pueden reclutar §YEstandartes§! de las provincias de la §Ycultura principal§!"
  mechanic_block_cultural_union_yes:0 "No se puede alcanzar la §Yunión cultural§!."
- # [LocEditor:UntranslatedKey] `YUA_UNLOCK_KESHIG_MERCENARY_COMPANY_NO_DLC`
- # [LocEditor:UntranslatedKey] `boh_hegemon_dlcless`
- # [LocEditor:UntranslatedKey] `desc_boh_hegemon_dlcless`
- # [LocEditor:UntranslatedKey] `unlocked_ven_promissione_ducale_reform`
- # [LocEditor:UntranslatedKey] `event_insight_flavor_ven.42.b`
+ YUA_UNLOCK_KESHIG_MERCENARY_COMPANY_NO_DLC:0 "Desbloquea los §Ykeshigs§! como compañía mercenaria, lo que no costará §Ylímite de fuerzas§!. Tendrán estos efectos:\n   Fuego de caballería: §G+0,5§!\n  Daño por fuego recibido: §G-15,0%§!"
+ boh_hegemon_dlcless:0 "Hegemonía bohemia"
+ desc_boh_hegemon_dlcless:0 "Nuestra nación destaca como potencia hegemónica europea, un faro de poder e influencia."
+ unlocked_ven_promissione_ducale_reform:0 "Ha desbloqueado la reforma gubernamental  §YPromissione Ducale§"
+ event_insight_flavor_ven.42.b:0 "\n§GComprensión del evento§!:\n Este evento aumentará nuestro §Yprestigio§!."
+ 
+ ITA_best_form_of_defense_is_attack_no_dlc:0 "Proteger la costa"
+ desc_ITA_best_form_of_defense_is_attack_no_dlc:0 "La doctrina central del propósito de nuestra armada será la defensa de nuestras costas. Sin las incursiones constantes de los berberiscos, seremos capaces de prosperar."
+ ITA_unity_no_dlc:0 "Unificación completa"
+ desc_ITA_unity_no_dlc:0 "Esta provincia es parte de la península italiana, una tierra dividida en el pasado, pero ahora unida gracias al Risorgimiento."
+ ITA_constantinople_taken_no_dlc:0 "Constantinopla tomada"
+ desc_ITA_constantinople_taken_no_dlc:0 "La ciudad del Imperio romano oriental de Constantinopla ha sido tomada y puesta bajo gobierno romano."
+ ita_southern_focus_no_dlc:0 "Enfoque en el sur"
+ desc_ita_southern_focus_no_dlc:0 "Las inversiones en el bienestar de nuestras tierras del sur han tenido efectos que se extienden por todo el país, al tiempo que los delitos se reducen y las leyes gubernamentales permean cada vez más en la sociedad."
+ ITA_flowering_of_renaissance_no_dlc:0 "Florecer del Renacimiento"
+ desc_ITA_flowering_of_renaissance_no_dlc:0 "Con nuestras políticas y mecenazgo, el Renacimiento puede seguir adelante y alimentar al Estado con nuevas ideas e invenciones."
+ ITA_new_renaissance_non_dlc:0 "Italia renacida"
+ desc_ITA_new_renaissance_non_dlc:0 "Italia en el siglo XV ha incorporado el Renacimiento, un renacer intelectual."
+
+ orm_protected_trading_outposts_no_dlc:0 "Trabajos de fortificación de puestos avanzados comerciales"
+ desc_orm_protected_trading_outposts_no_dlc:0 "Nuevos puertos, así como nuevas fortificaciones costeras han hecho que este puesto avanzado tenga mucho mayor impacto en el área."
+ orm_protected_trading_outposts_buffed_no_dlc:0 "Trabajos de fortificación de puestos avanzados comerciales"
+ desc_orm_protected_trading_outposts_buffed_no_dlc:0 "Nuevos puertos, así como nuevas fortificaciones costeras han hecho que este puesto avanzado tenga mucho mayor impacto en el área."
 
  unlock_government_reform_timurid_diwan_reform:0 "Desbloquea la reforma gubernamental §YDiwán timúrida§"
  FEO_DISTRIBUTE_IN_DEV_STEPPES_TT:0 "Distribuye §G10§! de desarrollo £mil£ en provincias de §Yestepa§! que poseamos y ya tengan al menos §Y20§! de desarrollo"
@@ -7311,8 +7331,15 @@
  become_an_empire_tt:0 "Conseguiremos el rango de §Yimperio§!"
  boh_has_unlocked_great_moravia:0 "Ha desbloqueado §YGran Moravia§! @GMA al cumplir la misión «§YReforjar la Gran Moravia§!»."
 
- # [LocEditor:UntranslatedKey] `black_army_reform_flag`
+ black_army_reform_flag:0 "Ha desbloqueado al Ejército Negro institucionalizado."
+ 
+ european_colony_no_overlord_dow:0 "No podremos declarar la guerra a nuestros súbditos de Colonias de Poniente."
 
+ feo_unlock_russian_mercenary_guard_reform_flag:0 "Desbloqueada la bandera de Reforma de la guardia mercenaria rusa"
+
+ council_of_mechelen_flag:0 "Desbloqueada bandera del Consejo de Mechelen"
+
+ integrated_personal_union_no_overlord_dow:0 "No podremos declarar la guerra a nuestros súbditos de unión personal incorporados."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  orangist_stadholder_personality_desc:0 "Este estatúder es un príncipe orangista. Buscará aumentar su control sobre el país."

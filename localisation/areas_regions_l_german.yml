@@ -2779,9 +2779,9 @@
  baleares_area:0 "Balearen"
  baleares_area_name:0 "Balearen"
  baleares_area_adj:0 "Balearisch"
- barbary_coast:0 "Berberküste"
  barbary_coast_area:0 "Berberküste"
- barbary_coast_adj:0 "Berbisch"
+ barbary_coast_area_name:0 "Berberküste"
+ barbary_coast_area_adj:0 "Berbisch"
  rio_grande_region:0 "Rio Grande"
  rio_grande_region_name:0 "Rio Grande"
  rio_grande_region_adj:0 "Riograndisch"
@@ -2841,7 +2841,7 @@
  costa_rica_area_adj:0 "Costaricanisch"
  apacheria_area:0 "Apacheria"
  apacheria_area_adj:0 "Apacherianisch"
- apacheria_area_area:0 "Apacheria"
+ apacheria_area_name:0 "Apacheria"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  georgia_area:0 "Georgien"

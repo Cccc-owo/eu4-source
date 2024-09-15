@@ -1920,7 +1920,7 @@
  incidents_bur_inheritance.3.d:0 "Mit dem Tod des Herzogs von Burgund sind die Niederlande völlig unserer Kontrolle entwichen. Wenn wir das Reich stärken und Ausländer aus den kaiserlichen Angelegenheiten heraushalten wollen, müssen wir unsere Ansprüche auf die Niederlande durchsetzen oder riskieren, sie für immer zu verlieren."
  incidents_bur_inheritance.3.a:0 "Fordert die Unabhängigkeit der Niederlande."
  incidents_bur_inheritance.3.b:0 "Setzt unseren Anspruch auf Burgund durch."
- incidents_bur_inheritance.3.b.tt:0 "Der Krieg wird in §Y10§! Tagen ausbrechen." # [LocEditor:AwaitingBatchUpdate]
+ incidents_bur_inheritance.3.b.tt:0 "Der Krieg wird in §Y10§! Tagen ausbrechen."
  incidents_bur_inheritance.3.c:0 "Gebt die Ansprüche auf."
  incidents_bur_inheritance.301.t:0 "Der Kaiser fordert die Niederlande"
  incidents_bur_inheritance.301.d:0 "Als wir Burgund erbten, wurden wir auch Herrscher über die burgundischen Territorien in den Niederlanden, die traditionell zum Heiligen Römischen Reich gehören. Es überrascht uns daher nicht, dass unser Erbe [Emperor.GetName] dazu veranlasst hat, eben jene Gebiete von uns zurückzufordern. Wir könnten natürlich ablehnen, doch [Emperor.GetMderdie] [Emperor.Monarch.GetTitle] hat klargestellt, dass es sich hierbei um eine ernste Forderung handelt und sollten wir sie nicht erfüllen, es [Emperor.GetMihmihr] den Anlass geben würde, das Schwert des Reiches zu ziehen."

@@ -914,7 +914,7 @@
  CONFIRM_STOP_DRILLING_TEXT:0 "Seid Ihr Euch sicher, dass Ihr den Drill abbrechen und diese Armee an die $ARMY$ anschließen möchtet?"
  FROM_INSUFFICIENT_SUPPORT:0 "Von unzureichender Unterstützung: §R$VALUE$§W"
  gave_away_province:0 "Gab eine unserer Provinzen ab"
- SUPPORT_REBELS_POWER_PROJECTION:0 "Da $WHO|Y$ unser Rivale ist, erhalten wir $VALUE|Y$ Machtprojektion."
+ SUPPORT_REBELS_POWER_PROJECTION:0 "Wir erhalten $VALUE|Y$ Machtprojektion, da $WHO|Y$ unser Rivale ist."
  LONG_EU3_DATE_STRING:0 "$DD$. $MONTH$ $YYYY$"
  EU3_DATE_STRING:0 "$DD$.$MM$.$YYYY$"
  DASH_EU3_DATE_STRING:0 "$YYYY$_$MM$_$DD$"

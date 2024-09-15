@@ -37,8 +37,8 @@
  MIL_EFFECT:0 "$WHO$ $DIRECTION$ $VALUE$ £mil£\n"
  FRIENDLY_NEARBY_PROVINCE_STARTS:0 "Provincia amiga cercana"
  INSTITUTION_NOT_SPAWNED_YET:0 "$WHICH|Y$ no ha aparecido todavía\n"
- NOT_HAS_INSTITUTION_IN_COUNTRY:0 "$COUNTRY$ NO ha incorporado $WHICH|Y$\n"
- HAS_INSTITUTION_IN_COUNTRY:0 "$COUNTRY$ ha incorporado $WHICH|Y$\n"
+ NOT_HAS_INSTITUTION_IN_COUNTRY:1 "§Y$COUNTRY$§! NO ha incorporado $WHICH|Y$\n"
+ HAS_INSTITUTION_IN_COUNTRY:1 "§Y$COUNTRY$§! ha incorporado $WHICH|Y$\n"
  TECH_REQUIRES_INSTITUTION:0 "$TECH|Y$ cuesta $PENALTY$ más para los países que no hayan incorporado $INSTITUTION|Y$.\n" # [LocEditor:AwaitingBatchUpdate]
  TECH_COST:0 "Coste: $VAL$\n"
  NOT_HAS_INSTITUTION_IN_PROV:0 "$WHICH|Y$ no está presente.\n" # [LocEditor:AwaitingBatchUpdate]
