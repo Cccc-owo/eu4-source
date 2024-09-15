@@ -709,7 +709,7 @@
  COT_NO_OF_LEVEL:0 "Aucun carrefour commercial de niveau $LEVEL|Y$.\n"
  COT_OF_LEVEL:0 "Au moins un carrefour commercial de niveau $LEVEL|Y$.\n"
  COT_NO_OF_LEVEL_PROVINCE:0 "Pas de carrefour commercial de niveau $LEVEL|Y$.\n"
- COT_OF_LEVEL_PROVINCE:0 "Au moins un carrefour commercial de niveau $LEVEL|Y$.\n"
+ COT_OF_LEVEL_PROVINCE:1 "La province a un carrefour commercial de niveau $LEVEL|Y$.\n"
  COT_LESS_THAN:0 "A moins de $NUM|Y$ carrefours commerciaux.\n"
  COT_AT_LEAST:0 "A au moins $NUM|Y$ carrefours commerciaux.\n"
  COT_PROVINCE_GLOBAL_MODIFIER:0 "§Y$PROVINCE$ :§! $NAME$"

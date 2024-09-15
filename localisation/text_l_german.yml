@@ -1216,7 +1216,7 @@
  INSULTTITLE:0 "Beleidigung schicken"
  INSULTNEWDESC:1 "Möchtet Ihr $COUNTRY|Y$ eine Beleidigung schicken? Dies wird unsere Beziehungen um $MODIFIER|R$ verschlechtern und ihnen einen Kriegsgrund gegen uns geben."
  SCORNFULINSULTDESC:0 "Möchtet Ihr $COUNTRY|Y$ eine spöttische Beleidigung senden? Dies wird unsere Beziehungen um $MODIFIER|R$ verschlechtern und ihnen einen Kriegsgrund gegen uns geben."
- INSULTPOWERPROJECTIONGAIN:0 "Wir erhalten $VALUE|Y$ Machtprojektion.\n$INSULTMODIFIER$" # [LocEditor:AwaitingBatchUpdate]
+ INSULTPOWERPROJECTIONGAIN:1 "Wir erhalten $VALUE|Y$ Machtprojektion.\n$INSULTMODIFIER$"
  INSULTDESC:0 "Wir werden unsere Beziehungen mit ihnen sehr stark verschlechtern. Dies wird ihnen einen Kriegsgrund gegen uns geben."
  CLAIMTITLE:0 "Thron beanspruchen"
  NOCLAIMMARRIAGE:0 "Ihr könnt ihren Thron nur beanspruchen, wenn Ihr eine Staatsehe habt."
@@ -2476,7 +2476,7 @@
  DOMESTIC_MILITARY_MAINTENANCE:0 "Militär-Unterhalt"
  DOMESTIC_INCOME:0 "Einnahmen:"
  DOMESTIC_TAKE_LOAN:0 "Darlehen aufnehmen"
- DOMESTIC_WAR_TAXES:0 "§YKriegssteuer erheben§!" # [LocEditor:AwaitingBatchUpdate]
+ DOMESTIC_WAR_TAXES:1 "§YKriegssteuer erheben§!"
  DOMESTIC_BACK:0 "Zurück"
  DOMESTIC_SACK:0 "Feuern"
  ATTACKER:0 "Angreifer"
@@ -2870,7 +2870,7 @@
  SM_WATER:0 "Komplexes Meer"
  hungarian_hussarDESCR:0 "Eine leichte, aber schneidige ungarische Kavallerieeinheit, die in ganz Europa für ihre Disziplin und ihr Können berühmt war."
  CREATE_NATIVE:0 "$SIZE$ Stämme feindlicher Eingeborener erscheinen in $WHERE$.\n"
- CHANGE_SIEGE:0 "Die $WHO$ der Belagerung von $WHERE$ erleiden $SIZE$ Punktabzug.\n" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_SIEGE:1 "Die $WHO$ der Belagerung von $WHERE$ erleiden $SIZE$ Punktabzug.\n"
  SIEGE_DEFENDERS:0 "Verteidiger"
  SIEGE_ATTACKERS:0 "Angreifer"
  SIEGE_MINOR:0 "klein"
@@ -4927,9 +4927,9 @@
  german_nation_title:0 "Deutschland gründen"
  german_nation_desc:0 "Trotz des Fehlens einer starken Zentralautorität steht unser Land in Blüte. Die Hanse, ein Zusammenschluss Hunderter norddeutscher Städte, hat zum Wohlstand unserer Nation beigetragen. In Kombination mit See- und Landhandel hat auch intellektuelles Wachstum zur Entwicklung und Wandlung unseres Landes in ein reiches Manufakturzentrum beigetragen."
  persian_nation_title:0 "Persisches Reich"
- persian_nation_desc:0 "Die Länder Persiens waren seit den Zeiten von Kyros dem Großen stets der Sitz mächtiger Reiche. Da $MONARCH$ mehrere der benachbarten Regionen erobert hat und der Aufstieg einer neuen iranischen Nation nicht mehr so abwegig erscheint, ist es an der Zeit, dass $MONARCH$ den Titel Schah des Irans und den damit verbundenen Ruhm zurückfordert." # [LocEditor:AwaitingBatchUpdate]
+ persian_nation_desc:1 "Die Länder Persiens waren seit den Zeiten von Kyros dem Großen stets der Sitz mächtiger Reiche. Da $MONARCH$ mehrere der benachbarten Regionen erobert hat und der Aufstieg einer neuen iranischen Nation nicht mehr so abwegig erscheint, ist es an der Zeit, dass $MONARCH$ den Titel Schah des Irans und den damit verbundenen Ruhm zurückfordert."
  mughal_nation_title:0 "Mogulreich"
- mughal_nation_desc:0 "$MONARCH$ hat begonnen, die Grundsteine seines neuen Reiches zu legen. Trotz zahlenmäßiger Unterlegenheit haben seine sehr disziplinierten Truppen mehrere entscheidende Siege gegen die indischen Sultane errungen. Die Schlacht von [522.GetCapitalName] war der erste große Sieg in einer Reihe territorialer Expansionen, und mit der Zeit könnte sich das Reich der Mogule über den größten Teil des Indischen Plateaus erstrecken." # [LocEditor:AwaitingBatchUpdate]
+ mughal_nation_desc:1 "$MONARCH$ hat begonnen, die Grundsteine seines neuen Reiches zu legen. Trotz zahlenmäßiger Unterlegenheit haben seine sehr disziplinierten Truppen mehrere entscheidende Siege gegen die indischen Sultane errungen. Die Schlacht von [522.GetCapitalName] war der erste große Sieg in einer Reihe territorialer Expansionen, und mit der Zeit könnte sich das Reich der Mogule über den größten Teil des Indischen Plateaus erstrecken."
  irish_nation_title:0 "Irisches Reich"
  irish_nation_desc:0 "Seit Jahrzehnten versucht England, die irische Bevölkerung zu unterjochen und die Insel zu erobern. Die Vereinigung aller irischen Gebieten unter einer einzelnen Flagge könnte unsere einzige Chance sein, ihnen Widerstand zu leisten."
  british_nation_title:0 "Britisches Reich"
@@ -5778,14 +5778,14 @@
  VASSAL_TIMER:0 "Es ist allerdings nicht möglich, dies vor dem §Y$DATE$§! anzubieten."
  NOCLAIMONNOTIND:0 "Ihr könnt nicht den Thron einer untergebenen Nation fordern."
  LOCAL_DEFENSIVENESS:0 "Verteidigungsfähigkeit (Lokal)"
- BASE_TAX_LESS_THAN:0 "Grundsteuer weniger als " # [LocEditor:AwaitingBatchUpdate]
- BASE_TAX_MORE_THAN:0 "Grundsteuer beträgt mindestens " # [LocEditor:AwaitingBatchUpdate]
+ BASE_TAX_LESS_THAN:1 "Grundsteuer weniger als "
+ BASE_TAX_MORE_THAN:1 "Grundsteuer beträgt mindestens "
  PROVINCE_TRADE_POWER_LESS_THAN:0 "Provinz-Handelsmacht niedriger als "
  PROVINCE_TRADE_POWER_MORE_THAN:0 "Provinz-Handelsmacht mindestens "
- BASE_PROD_LESS_THAN:0 "Grundproduktion geringer als " # [LocEditor:AwaitingBatchUpdate]
- BASE_PROD_MORE_THAN:0 "Grundproduktion mindestens " # [LocEditor:AwaitingBatchUpdate]
- BASE_MP_LESS_THAN:0 "Grundmannstärke geringer als " # [LocEditor:AwaitingBatchUpdate]
- BASE_MP_MORE_THAN:0 "Grundmannstärke mindestens " # [LocEditor:AwaitingBatchUpdate]
+ BASE_PROD_LESS_THAN:1 "Grundproduktion geringer als "
+ BASE_PROD_MORE_THAN:1 "Grundproduktion mindestens "
+ BASE_MP_LESS_THAN:1 "Grundmannstärke geringer als "
+ BASE_MP_MORE_THAN:1 "Grundmannstärke mindestens "
  IS_NOT_LOOTED:0 "Ist nicht geplündert"
  IS_LOOTED:0 "Ist geplündert"
  INDEF:0 "Ende von"
@@ -6626,12 +6626,12 @@
  privateer_desc:0 "Der Freibeuter ist ein Mann der immer und immer wieder den feindlichen Handel zum eigenen Vorteil und dem der Krone angegriffen hat. Er weiß genau, was gebraucht wird, um den Gegner auf die Knie zu zwingen."
  sergeant_major_general_desc:0 "Traditionell der älteste nicht-adlige Kommandeur in der Armee ist der Generalstabsfeldwebel ein erfahrender Veteran mit einem guten Auge für gute Anführer. Mit seinem Rat können wir gute Anführer früh identifizieren."
  army_organiser_desc:0 "Eine moderne Armee zu führen ist kein einfaches Geschäft. In der guten alten Zeit sammelte man einfach seine Adligen und ihr Gefolge und zog in den Kampf. Heutzutage muss man Dinge organisieren, ein Mann, der dazu in der Lage ist, ist sein Gewicht in Gold wert."
- commandant_desc:0 "Der Drillmeister ist dafür zuständig, dass die Truppen ordnungsgemäß gedrillt werden. Angesichts der hohen Anzahl an Beschwerden durch die Soldaten könnte er seine Aufgabe nicht besser erfüllen." # [LocEditor:AwaitingBatchUpdate]
+ commandant_desc:1 "Der Drillmeister ist dafür zuständig, dass die Truppen ordnungsgemäß gedrillt werden. Angesichts der hohen Anzahl an Beschwerden durch die Soldaten könnte er seine Aufgabe nicht besser erfüllen."
  quartermaster_desc:0 "Unsere Truppen mit Munition, Nahrung und, am wichtigsten, frischem Kanonenfutter zu versorgen ist eine wichtige Aufgabe. Schätzt Euch immer glücklich, wenn Ihr einen guten Quartiermeister in Eurer Administration habt."
  recruitmaster_desc:0 "Körper zum Auffüllen der Uniformen zu finden kann manchmal eine schwere Aufgabe sein. Der Rekrutierungsmeister kennt alle Tricks und er wird sicherstellen, dass keiner, der dienen kann, sich drückt."
  fortification_expert_desc:0 "Befestigungen zu verteidigen wird zu einer Wissenschaft, obwohl die Experten es eher als Kunst beschreiben. Um jeden kleinsten Vorteil aus den Befestigungen herauszuholen, müssen die Verteidigungstaktiken dauernd aktualisiert werden."
  ambassador_desc:0 "Botschafter sind weit gereiste Männer, die viel über die Gepflogenheiten auf fremden Höfen wissen und so in wichtigen Verhandlungen einen Vorteil verschaffen können."
- inquisitor_desc:0 "Der Inquisitor hat Erfahrung darin, jene ausfindig zu machen, die nicht dem wahren orthodoxen Glauben folgen, und er spürt selbst jene auf, die sich in der Regierung auffällig verhalten." # [LocEditor:AwaitingBatchUpdate]
+ inquisitor_desc:1 "Der Inquisitor hat Erfahrung darin, jene ausfindig zu machen, die nicht dem wahren orthodoxen Glauben folgen, und er spürt selbst jene auf, die sich in der Regierung auffällig verhalten."
  grand_captain_desc:0 "Männer kämpfen immer besser, wenn sie wissen, dass sie gut geführt werden. Der große Führer bietet Führung von der Spitze, die sich durch die ganze Armee durchzieht."
  sheikh_ul_islam_title:0 "Gründet den Sheikh ul-Islam Amtssitz"
  sheikh_ul_islam_desc:0 "Richtet ein neues Amt ein, das von jenen mit großem Wissen um das Buch Gottes besetzt wird, um sicherzustellen, dass die Vorgehensweise der Regierung mit dem islamischen Recht übereinstimmt."
@@ -6989,7 +6989,7 @@
  MAPMODE_GOVERNMENT:0 "Regierungsformen"
  MAPMODE_OVERSEAS:0 "Übersee-Provinzen"
  MAPMODE_DEVASTATION:0 "Verwüstung"
- MAPMODE_PATRIARCHS:1 "Lokale Organisation" # [LocEditor:AwaitingBatchUpdate]
+ MAPMODE_PATRIARCHS:2 "Lokale Organisation"
  sphere:0 "Aus Einflusssphäre"
  DIPRELCH_BADBOY:0 "Ruf"
  HAS_NOT_TEMP_CLAIM_ON:0 " hat KEINEN temporären Anspruch auf "

@@ -177,7 +177,7 @@
  recruit_foreign_general_title:0 "Recruter un général étranger"
  recruit_foreign_general_desc:0 "Recruter un général va exiger de verser [From.GetAuAlaNP] §Y[From.GetName]§! §R1§! an de nos revenus, mais en retour nous bénéficierons de §G10§! en tradition terrestre et un §Ygénéral§! va pouvoir être recruté, dont les compétences dépendront de l'§Yopinion§! de sa patrie à notre égard et de sa §Ytradition terrestre§!."
  recruit_foreign_general_tooltip:0 "Recruter un général originaire de ce pays, dont les compétences dépendront de l'opinion et de la tradition terrestre de sa patrie."
- recruit_foreign_general_alert_tooltip:0 "[From.GetLeLaNPCap] §Y[From.GetName]§! souhaiterai[From.GetTEntNP] recruter l'un de nos généraux. Nous [From.GetLuiLeurNP] transférerions alors §R10§! de tradition terrestre, mais en retour nous toucherions §G1§! an des revenus [From.GetDuDelaNP] §Y[From.GetName]§!."
+ recruit_foreign_general_alert_tooltip:1 "Nous avons reçu une demande pour l'un de nos généraux."
  recruit_foreign_general_dialog:0 "[This.GetLeLaNPCap] §Y[This.GetName]§! souhait[This.GetEEntNP] recruter un général [Root.GetRootAdjMS] en échange de §G1§! an de son revenu. En retour, [This.GetIlElleNP] gagner[This.GetAOntNP] §Y10§! en tradition terrestre et un §Ygénéral§! dont les compétences dépendront de notre opinion et de notre tradition terrestre."
 
  demand_sacrifices:0 "Exiger des sacrifices"
@@ -800,7 +800,7 @@
  ORM_GRANT_DIPLO_POWER_PER_PROVINCE_THAT_MEETS_REQUIREMENTS:0 "Pour toutes les provinces §Y[Root.GetRootAdjFP]§! répondant aux prérequis : §G+25§! en puissance £dip£ (plafonné à §Y10§! provinces)."
  ORM_UNLOCK_ARABIC_MERCHANTS_BURGHERS_PRIVILEGE:1 "Donne accès au privilège §YMarchands arabes§!."
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_MERCHANT_BUFF:1 "Le privilège §YMarchands arabes§! va conférer :\n  Nombre de marchands : §G+1§!\n  Modif. de puissance des marchands placés : §G+10%§!"
- ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:1 "Le privilège §YMarchands arabes§! va conférer :\n  Coût des vaisseaux légers : §G-20%§!\n  Combativité des vaisseaux légers : §G+30%§!"
+ ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:2 "Le privilège §YMarchands arabes§! va conférer :\n  Coût des vaisseaux légers : §G-20%§!\n  Modif. de puiss. commerciale des vaisseaux : §G+30%§!"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_DIPLOMATIC_BUFF:1 "Le privilège §YMarchands arabes§! va conférer :\n  Acception du transfert commercial : §G+30§!\n  Amélioration des relations : §G+25%§!"
  ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:1 "Le privilège §YMarchands arabes§! va aussi conférer désormais §G+15%§! en modif. de gain en mercantilisme arabe."
  ORM_0_TOLERANCE_IBADI:0 "La tolérance [Root.GetDuDelaNP] §Y[Root.GetName]§! envers l'§Yibadisme§! est au moins de §Y0§!."
@@ -1492,6 +1492,7 @@
  
  german_cultural_disunity_reform:0 "Nation divisée"
  german_cultural_disunity_reform_desc:0 "Durant des siècles, la nation allemande est restée divisée au sein du Saint-Empire. Cela doit être corrigé."
+ GER_unlocked_via_kaiserreich:0 "La réforme peut être adoptée une fois la mission §YKaiserreich§! menée à bien."
  german_franconian_reform:0 "Imprimerie de Nuremberg"
  german_franconian_reform_desc:0 "La volonté de propager le savoir et la connaissance ont mis la nation sur l'avant-scène des progrès intellectuels."
  german_westphalian_reform:0 "Piété westphalienne"
@@ -2486,7 +2487,7 @@
  NED_PRODUCTION_IN_ALL_COT_JAPAN_PROVINCES:1 "Pour toute province §Y[Root.GetRootAdjFS]§! au §YJapon§! disposant d'un §Ycarrefour commercial§! : §G+1§! en développement £dip£"
  NED_IF_RELATIONS_KYOTO:0 "Si la mission a été menée à bien par la §Ydiplomatie§! :"
  NED_BUFF_VOC_PRIVILEGE_TRADE_BUFFS:0 "Le privilège §YVereenigde Oostindische Compagnie§! des §Y[Root.GetBourgeois]§! va désormais conférer :\n  Efficacité commerciale : §G+5%§!\n  Limite des indiamen de la VOC : §G+10%§!"
- NED_UPGRADE_ALL_GUINEA_COTS:0 "Tous les §Ycarrefours commerciaux§! contrôlés par [Root.GetLeLaNP] §Y[Root.GetName]§! dans la région de la §YGuinée§! vont être améliorés."
+ NED_UPGRADE_ALL_GUINEA_COTS:1 "Tous les §Ycarrefours commerciaux§! contrôlés par [Root.GetLeLaNP] §Y[Root.GetName]§! dans la région de la §YGuinée§! vont être améliorés. Aucun carrefour de niveau §Y2§! ne pourra passer au niveau §Y3§! s'il y en a déjà un."
  NED_BUFF_NEW_WORLD_CHARTERS:0 "Le privilège §YChartes pour le Nouveau Monde§! des §Y[Root.GetBourgeois]§! va désormais aussi relever la limite navale de §G5%§!."
  NED_UNLOCKS_ABOLISHMENT_OF_SLAVERY_EARLIER:0 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] pouvoir prendre la décision d'abolir l'esclavage sans devoir attendre l'§Yère des révolutions§!."
  ned_remove_embezzler_rulers:0 "Aucun dirigeant malhonnête"
@@ -3544,6 +3545,69 @@
  has_won_at_least_475_wars:2 "A remporté au moins §G475§! guerres (actuellement §Y[GetNumWars]§!)."
  has_won_at_least_500_wars:2 "A remporté au moins §G500§! guerres (actuellement §Y[GetNumWars]§!)."
 
+ unlocked_TIM_plunder_economy_tt:0 "La réforme gouvernementale §YPillage économique§! a été déverrouillée."
+ unlocked_timurid_diwan_reform_tt:0 "La réforme gouvernementale §YDivan timouride§! a été déverrouillée."
+ unlocked_crusader_nobility_reform_tt:0 "La réforme gouvernementale §YNoblesse croisée§! a été déverrouillée."
+ unlocked_ven_promissione_ducale_reform_tt:0 "La réforme gouvernementale §YPromissione ducale§! a été déverrouillée."
+ unlocked_merchant_representation_reform_tt:0 "La réforme gouvernementale §YConseil des marchands§! a été déverrouillée."
+ unlocked_imperial_hungarian_government_tt:0 "La réforme gouvernementale §YMonarchie impériale hongroise§! a été déverrouillée."
+ unlocked_bergordnung_reforms_reform_tt:0 "La réforme gouvernementale §YRéforme des lois minières§! a été déverrouillée."
+ unlocked_vozove_hradby_reform_tt:0 "La réforme gouvernementale §YForts de chariots§! a été déverrouillée."
+ unlocked_merchant_theocracy_reform_tt:0 "La réforme gouvernementale §YBienheureuse ploutocratie§! a été déverrouillée."
+ unlocked_reformer_state_reform_tt:0 "La réforme gouvernementale §YPloutocratie salvifique§! a été déverrouillée."
+ unlocked_allotment_system_tt:0 "La réforme gouvernementale §YSystème des tenures§! a été déverrouillée pour les monarchies."
+ unlocked_crusading_kingdom_reform_tt:0 "La réforme gouvernementale §YOrdre de croisés§! a été déverrouillée."
+ unlocked_militarized_crusader_order_reform_tt:0 "La réforme gouvernementale §YEmpire croisé§! a été déverrouillée."
+ unlocked_holy_horde_reform_tt:0 "La réforme gouvernementale §YHorde sacrée§! a été déverrouillée."
+ unlocked_absolutist_france_reform_tt:0 "La réforme gouvernementale §YAbsolutisme à la française§! a été déverrouillée."
+ unlocked_expanded_devshirme_system_reform_tt:0 "La réforme gouvernementale §YDevchirmé développé§! a été déverrouillée."
+ unlocked_ottoman_siyasah_tax_reform_tt:0 "La réforme gouvernementale §YSiyâsa ottomane§! a été déverrouillée."
+ unlocked_fiqh_laws_reform_tt:0 "La réforme gouvernementale §YFiqh§! a été déverrouillée."
+ unlocked_sufism_decree_reform_tt:0 "La réforme gouvernementale §YSoufisme§! a été déverrouillée."
+ unlocked_ottoman_conscription_reform_tt:0 "La réforme gouvernementale §YConscription ottomane§! a été déverrouillée."
+ unlocked_reformed_ottoman_conscription_reform_tt:0 "La réforme gouvernementale §YRecrutement de sekbans§! a été déverrouillée."
+ unlocked_mansure_army_reform_tt:0 "La réforme gouvernementale §YArmée Mansure§! a été déverrouillée."
+ unlocked_janissary_military_reform_tt:0 "La réforme gouvernementale §YJanissaires réformés§! a été déverrouillée."
+ unlocked_standardized_millets_reform_tt:0 "La réforme gouvernementale §YHomogénéisation des millets§! a été déverrouillée."
+ unlocked_modernized_ottoman_government_tt:0 "La réforme gouvernementale §YRégime ottoman modernisé§! a été déverrouillée."
+ unlocked_reorganized_ottoman_government_tt:0 "La réforme gouvernementale §YRégime ottoman réformé§! a été déverrouillée."
+ unlocked_russian_empire_reform_tt:0 "La réforme gouvernementale §YEmpire de Russie§! a été déverrouillée."
+ unlocked_great_russian_republic_reform_tt:0 "La réforme gouvernementale §YGrande fédération de Russie§! a été déverrouillée."
+ unlocked_professional_navy_reform_tt:0 "La réforme gouvernementale §YConseil de l'amirauté§! a été déverrouillée."
+ unlocked_thalassocracy_reform_tt:0 "La réforme gouvernementale §YThalassocratie§! a été déverrouillée."
+ unlocked_governing_senate_reform_tt:0 "La réforme gouvernementale §YSénat dirigeant§! a été déverrouillée."
+ unlocked_enforced_autocracy_reform_tt:0 "La réforme gouvernementale §YAutocratie illimitée§! a été déverrouillée."
+ unlocked_holy_synod_reform_tt:0 "La réforme gouvernementale §YTrès Saint-Synode dirigeant§! a été déverrouillée."
+ unlocked_strengthened_the_patriarchy_reform_tt:0 "La réforme gouvernementale §YPatriarcat renforcé§! a été déverrouillée."
+ unlocked_head_of_the_patriarchy_reform_tt:0 "La réforme gouvernementale §YChef du patriarcat§! a été déverrouillée."
+ unlocked_tysyatsky_reform_tt:0 "La réforme gouvernementale §YOffices de tyssiatski§! a été déverrouillée."
+ unlocked_namestnik_reform_tt:0 "La réforme gouvernementale §YOffices de namestniks§! a été déverrouillée."
+ unlocked_oprichnina_reform_tt:0 "La réforme gouvernementale §YOpritchnina§! a été déverrouillée."
+ unlocked_anglican_state_church_reform_tt:0 "La réforme gouvernementale §YÉglise officielle anglicane§! a été déverrouillée."
+ unlocked_english_conciliarism_reform_tt:0 "La réforme gouvernementale §YConciliarisme§! a été déverrouillée."
+ unlocked_direct_royal_administration_reform_tt:0 "La réforme gouvernementale §YAdministration royale directe§! a été déverrouillée."
+ unlocked_administration_of_the_parliament_reform_tt:0 "La réforme gouvernementale §YAdministration parlementaire§! a été déverrouillée."
+ unlocked_royal_charters_reform_tt:0 "La réforme gouvernementale §YChartes royales§! a été déverrouillée."
+ unlocked_commercial_trade_empire_reform_tt:0 "La réforme gouvernementale §YPolitique de commerce mondial§! a été déverrouillée."
+ unlocked_peters_government_reform_tt:0 "La réforme gouvernementale §YTable des rangs§! a été déverrouillée."
+ unlocked_irish_highkingdom_reform_tt:0 "La réforme gouvernementale §YHaut-royaume d'Irlande§! a été déverrouillée."
+ unlocked_caliphate_reform_tt:0 "La réforme gouvernementale §YCalifat§! a été déverrouillée."
+ unlocked_roman_empire_reform_tt:0 "La réforme gouvernementale §YEmpire romain§! a été déverrouillée."
+ unlocked_roman_republic_government_tt:0 "La réforme gouvernementale §YRépublique romaine§! a été déverrouillée."
+ unlocked_the_cawa_regiments_reform_tt:0 "La réforme gouvernementale §YPrivilèges aux tshawâ§! a été déverrouillée."
+ unlocked_legacy_of_timur_reform_tt:0 "La réforme gouvernementale §YHéritage de Tîmûr§! a été déverrouillée."
+ unlocked_legacy_of_the_safavid_reform_tt:0 "La réforme gouvernementale §YHéritage safavide§! a été déverrouillée."
+ unlocked_legacy_of_eranshahr_reform_tt:0 "La réforme gouvernementale §YHéritage de l'Êrânshahr§! a été déverrouillée."
+ unlocked_legacy_of_the_seljuk_reform_tt:0 "La réforme gouvernementale §YHéritage des Seldjoukides§! a été déverrouillée."
+ unlocked_court_of_art_and_culture_reform_tt:0 "La réforme gouvernementale §YCour des arts et de la culture§! a été déverrouillée."
+ unlocked_theme_system_reform_tt:0 "La réforme gouvernementale §YThèmes§! a été déverrouillée."
+ unlocked_modernized_furusiyya_reform_tt:0 "La réforme gouvernementale §YFurûsîyâ modernisée§! a été déverrouillée."
+ unlocked_karimi_stations_reform_tt:0 "La réforme gouvernementale §YComptoirs des kârimîs§! a été déverrouillée."
+ unlocked_state_madrasas_reform_tt:0 "La réforme gouvernementale §YMadâris d'État§! a été déverrouillée."
+ unlocked_integrated_ottoman_officials_tt:0 "La réforme gouvernementale §YIntégration des dignitaires ottomans§! a été déverrouillée."
+ unlocked_divided_aristocracy_reform_tt:0 "La réforme gouvernementale §YÉlites divisées§! a été déverrouillée."
+
+ bohemia_abolished:0 "La monarchie élective de Bohême a été abolie."
 
  CSU_ground_shaker_title:0 "Celui qui retourne tout"
  CSU_ground_shaker_desc:2 "L'histoire de Pachacutec est bien connue de tous. Il était l'un des fils de l'Inca de Cuzco et répondait au nom de Cusi Yupanqui, lorsque son père abandonna la ville sous la menace d'une attaque de l'armée des Chankas. Cusi Yupanqui, lui, choisit de demeurer sur place, et la défendit vaillamment face aux envahisseurs, avec l'aide des dieux. C'est en tout cas ce que prétendent les récits, puisque les détails ont pu être altérés selon les besoins de ses héritiers. Et, quoi qu'il en soit, c'est de cet événement qu'il tient son nom : Pachacutec, « celui qui retourne tout »."
@@ -4875,7 +4939,7 @@
  moghulistan_anatolia_title:0 "Sultanat de Rûm"
  moghulistan_anatolia_desc:0 "[Root.GetLeLaNPCap] [Root.GetName] doi[Root.GetTVentNP] poursuivre vers le couchant leurs campagnes et mener des incursions jusqu'en Syrie et en Anatolie. Les Turcs ne peuvent être autorisés à défier notre autorité !"
 
- moghulistan_nizhny_novgorod_title:0 "Prendre [306.GetCapitalName]"
+ moghulistan_nizhny_novgorod_title:0 "[306.GetCapitalName]"
  moghulistan_nizhny_novgorod_desc:0 "Le kremlin de [306.GetCapitalName] est sans doute le plus formidable obstacle qui se dresse face à nous, celui qui nous empêche de razzier les territoires russes. Nous devons nous en emparer."
 
  moghulistan_russia_title:0 "Réimposer le joug"
@@ -5198,7 +5262,7 @@
  hordes_preview_confucian:0 "Aperçu dans l'arbre des missions de celles liées au §Oconfucianisme§!."
  
  #Renames:
- ULUG_ULUS:0 "Horde d'or"
+ ULUG_ULUS:0 "Ulug Ulus"
  ULUG_ULUS_ADJ:0 "de la Horde d'or"
  
  #Estate:
@@ -5352,6 +5416,8 @@
  mongol_brother_realm_title:0 "Khanat associé"
  mongol_brother_realm_title_plural:0 "Khanat associé"
  is_mongol_brother_realm:0 "Est un khanat associé"
+ mongol_brother_realm_no_overlord_dow:0 "Nous ne pouvons déclarer la guerre à nos propres khanats associés."
+
  
  #Decisions:
  hordes_restore_yuan_title:0 "Restaurer le Grand Yuan"
@@ -5418,8 +5484,8 @@
  tre_caucasus_conquest_tt_no:0 "\n£no£ Si la mission est menée à bien par la §Yconquête§! :"
  tre_can_earn_both_advisors:0 "\nLes deux récompenses peuvent être gagnées s'il est répondu aux deux prérequis."
  tre_claim_caucasus:0 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] revendiquer toutes les provinces de la région du §YCaucase§! qui ne sont pas possédées par [Root.GetSesLeursNP] §Yalliés§!."
- tre_most_development_tt_yes:1 "\n£yes£ Si la mission est menée à bien alors qu'aucune province littorale bordant la §Ymer Noire§! n'est plus développée que §Y[330.GetCapitalName]§! :"
- tre_most_development_tt_no:1 "\n£no£ Si la mission est menée à bien alors qu'aucune province littorale bordant la §Ymer Noire§! n'est plus développée que §Y[330.GetCapitalName]§! :"
+ tre_most_development_tt_yes:2 "\n£yes£ Si la mission est menée à bien alors qu'aucune province littorale bordant la §Ymer Noire§! n'est plus développée que §Y[330.GetCapitalName]§! :"
+ tre_most_development_tt_no:2 "\n£no£ Si la mission est menée à bien alors qu'aucune province littorale bordant la §Ymer Noire§! n'est plus développée que §Y[330.GetCapitalName]§! :"
  tre_metropolitan_permanent_yes:0 "£yes£ Si la mission est menée à bien alors que §Y[Root.Monarch.GetName]§! est [Root.GetLeLaFDir] §Ydéfenseur[Root.GetXEDir] de la foi§!, le modificateur §YMétropolite de Trébizonde§! sera §Gperpétuel§!."
  tre_metropolitan_permanent_no:0 "£no£ Si la mission est menée à bien alors que §Y[Root.Monarch.GetName]§! est [Root.GetLeLaFDir] §Ydéfenseur[Root.GetXEDir] de la foi§!, le modificateur §YMétropolite de Trébizonde§! sera §Gperpétuel§!."
  tre_metropolitan_double_bonus_negate_tt:1 "Pour les provinces de l'État où a été §Yconsacré un métropolite§! : §G-10%§! en maintenance des États et §G-0.05§! en dévastation mensuelle.\n"
@@ -5449,8 +5515,8 @@
  tre_vassal_theodoro_tt_no:0 "\n£no£ Si la mission est menée à bien en §Yvassalisant§! [FEO.GetLeLaNP] §Y[FEO.GetName]§! :"
  tre_conquest_theodoro_tt_yes:0 "\n£yes£ Si la mission est menée à bien en §Yconquérant§! [FEO.GetLeLaNP] §Y[FEO.GetName]§! :"
  tre_conquest_theodoro_tt_no:0 "\n£no£ Si la mission est menée à bien en §Yconquérant§! [FEO.GetLeLaNP] §Y[FEO.GetName]§! :"
- tre_black_sea_claim_tt:1 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] disposer d'une revendication sur toutes les provinces littorales donnant sur la §Ymer Noire§!."
- tre_black_sea_perma_claim_tt:1 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] disposer d'une revendication perpétuelle sur toutes les provinces littorales donnant sur la §Ymer Noire§!."
+ tre_black_sea_claim_tt:2 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] disposer d'une revendication sur toutes les provinces littorales donnant sur la §Ymer Noire§! et dotées d'un port."
+ tre_black_sea_perma_claim_tt:2 "[Root.GetLeLaNPCap] §Y[Root.GetName]§! v[Root.GetAOntNP] disposer d'une revendication perpétuelle sur toutes les provinces littorales donnant sur la §Ymer Noire§! et dotées d'un port."
  tre_3_allies_tt_yes:0 "\n£yes£ Si la mission est menée à bien alors que [Root.GetLeLaNP] §Y[Root.GetName]§! compt[Root.GetEEntNP] au moins §Y3§! alliés : §G+5§! faveurs avec chaque allié."
  tre_3_allies_tt_no:0 "\n£no£ Si la mission est menée à bien alors que [Root.GetLeLaNP] §Y[Root.GetName]§! compt[Root.GetEEntNP] au moins §Y3§! alliés : §G+5§! faveurs avec chaque allié."
  tre_ottoman_humiliated_tt_yes:0 "\n£yes£ Si la mission est menée à bien alors que [Root.GetLeLaNP] §Y[Root.GetName]§! [Root.GetAOntNP] §Yhumilié§! [TUR.GetLeLaNP] §Y[TUR.GetName]§! :"
@@ -6855,7 +6921,7 @@
  yua_four_great_schools_title:0 "Quatre grandes écoles"
  yua_four_great_schools_desc:0 "En Chine, les quatre grandes écoles de médecine ont toujours été séparées. Si le moyen pouvait être trouvé d'unifier leurs théories, peut-être pourrions-nous faire progresser le savoir sur la vie et la mort."
 
- yua_censorate_title:0 "Censorat"
+ yua_censorate_title:3 "Censorat"
  yua_censorate_desc:0 "Le censorat est une branche extrêmement efficace de l'administration ; mais nous ne devons en aucun cas relâcher nos efforts et lui permettre de toujours fonctionner au mieux afin d'assurer la centralisation et l'efficacité bureaucratique partout, malgré le gigantisme des territoires [Root.GetRootAdjMP]."
 
  yua_sinicizition_title:0 "Système des quatre castes"
@@ -7051,6 +7117,19 @@
  hungarian_revolt_events.7.d:0 "Une partie du pays semble penser que les autorités ont trop longtemps opprimé les minorités. Avec les soulèvements qui se sont produits, ces partisans des prétendues libertés ont donc une occasion toute trouvée de protester contre [Root.GetLeLaLDir] [Root.GetDir]."
  hungarian_revolt_events.7.a:0 "Malédiction !"
  
+ hungarian_revolt_events.8.t:0 "Les Hongrois intègrent [From.GetLeLaNP] [From.GetName]"
+ hungarian_revolt_events.8.d:0 "S'ils sont sujets de [Root.Capital.GetCapitalName], les Hongrois ont trouvé un prétexte pour se libérer de notre autorité. La formation [From.GetDuDelaNP] [From.GetName] leur a permis d'obtenir de nombreux privilèges, qui leur seraient évidemment refusés [Root.GetAuEnNP] [Root.GetName], aussi ont-ils décidé de ne plus reconnaître l'autorité [Root.GetDuDelaDir] [Root.GetDir] [Root.Monarch.GetName]."
+ hungarian_revolt_events.8.a:0 "Ces gens n'écoutent que la force…"
+ hungarian_revolt_events.8.b:0 "Les maudits !"
+
+ hungarian_revolt_events.9.t:0 "Les Hongrois intègrent [Root.GetLeLaNP] [Root.GetName]"
+ hungarian_revolt_events.9.d:0 "Avec la formation [Root.GetDuDelaNP] [Root.GetName], les Hongrois de toute l'Europe ont décidé de se ranger sous notre bannière afin de jouir de leurs nouveaux privilèges. Ce n'est toutefois pas quelques individus seulement qui se sont rangés sous l'autorité de [Root.Monarch.GetName], mais un pays tout entier, [HUN.GetLeLaNP] [HUN.GetName] ayant coupé tout lien avec [From.Capital.GetCapitalName].\n\nMalheureusement, [From.GetLeLaLDir] [From.GetDir] [From.Monarch.GetName] n'entend pas [HUN.GetLeLaFNP] laisser faire, et vient de nous faire parvenir une déclaration de guerre. [From.GetIlElleDirCap] semble déterminé[From.GetXEDir] à reprendre les territoires qu'[From.GetIlElleDir] a perdus – et les nations du monde pourraient bien juger que ce conflit est de notre faute…"
+ hungarian_revolt_events.9.a:0 "Aux armes !"
+
+ hungarian_revolt_events.10.t:0 "Les Hongrois intègrent [Root.GetLeLaNP] [Root.GetName]"
+ hungarian_revolt_events.10.d:0 "Avec la formation [Root.GetDuDelaNP] [Root.GetName], les Hongrois de toute l'Europe ont décidé de se ranger sous notre bannière afin de jouir de leurs nouveaux privilèges. Ce n'est toutefois pas quelques individus seulement qui se sont rangés sous l'autorité de [Root.Monarch.GetName], mais un pays tout entier, [HUN.GetLeLaNP] [HUN.GetName] ayant coupé tout lien avec [From.Capital.GetCapitalName]."
+ hungarian_revolt_events.10.a:0 "Que voilà une heureuse nouvelle !"
+ 
  HAB_EVERY_HUNGARIAN_PROVINCE_GAINS_35_AUTONOMY:0 "Pour toutes les provinces légitimes §Yhongroises§! : §R+35%§! en autonomie."
  HAB_ALL_HUNGARIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:0 "Pour toutes les provinces légitimes de la §YHongrie§! : §G-50%§! en autonomie et, en outre :"
  
@@ -7088,6 +7167,19 @@
  austrian_revolt_events.3.b:0 "Gloire à [Root.Monarch.GetName] !"
  austrian_revolt_events.3.c:0 "Un jour, l'Autriche sera nôtre à nouveau !"
  austrian_revolt_events.3.dd:0 "Peut-être pourrions-nous proposer un compromis…"
+ 
+ austrian_revolt_events.8.t:0 "Les Autrichiens intègrent [From.GetLeLaNP] [From.GetName]"
+ austrian_revolt_events.8.d:0 "S'ils sont sujets de [Root.Capital.GetCapitalName], les Autrichiens ont trouvé un prétexte pour se libérer de notre autorité. La formation [From.GetDuDelaNP] [From.GetName] leur a permis d'obtenir de nombreux privilèges, qui leur seraient évidemment refusés [Root.GetAuEnNP] [Root.GetName], aussi ont-ils décidé de ne plus reconnaître l'autorité [Root.GetDuDelaDir] [Root.GetDir] [Root.Monarch.GetName]."
+ austrian_revolt_events.8.a:0 "Ces gens n'écoutent que la force…"
+ austrian_revolt_events.8.b:0 "Les maudits !"
+
+ austrian_revolt_events.9.t:0 "Les Autrichiens intègrent [Root.GetLeLaNP] [Root.GetName]"
+ austrian_revolt_events.9.d:0 "Avec la formation [Root.GetDuDelaNP] [Root.GetName], les Autrichiens de toute l'Europe ont décidé de se ranger sous notre bannière afin de jouir de leurs nouveaux privilèges. Ce n'est toutefois pas quelques individus seulement qui se sont rangés sous l'autorité de [Root.Monarch.GetName], mais un pays tout entier, [HAB.GetLeLaNP] [HAB.GetName] ayant coupé tout lien avec [From.Capital.GetCapitalName].\n\nMalheureusement, [From.GetLeLaLDir] [From.GetDir] [From.Monarch.GetName] n'entend pas [HAB.GetLeLaFNP] laisser faire, et vient de nous faire parvenir une déclaration de guerre. [From.GetIlElleDirCap] semble déterminé[From.GetXEDir] à reprendre les territoires qu'[From.GetIlElleDir] a perdus – et les nations du monde pourraient bien juger que ce conflit est de notre faute…"
+ austrian_revolt_events.9.a:0 "Aux armes !"
+
+ austrian_revolt_events.10.t:0 "Les Autrichiens intègrent [Root.GetLeLaNP] [Root.GetName]"
+ austrian_revolt_events.10.d:0 "Avec la formation [Root.GetDuDelaNP] [Root.GetName], les Autrichiens de toute l'Europe ont décidé de se ranger sous notre bannière afin de jouir de leurs nouveaux privilèges. Ce n'est toutefois pas quelques individus seulement qui se sont rangés sous l'autorité de [Root.Monarch.GetName], mais un pays tout entier, [HAB.GetLeLaNP] [HAB.GetName] ayant coupé tout lien avec [From.Capital.GetCapitalName]."
+ austrian_revolt_events.10.a:0 "Que voilà une heureuse nouvelle !"
  
  AustrianRevolutionCompromise:0 "La révolution en Autriche est terminée. Aucun côté n'a pu l'emporter de manière décisive, aussi les meneurs des deux camps ont-ils décidé d'un compromis. Plutôt qu'une indépendance de l'Autriche ou d'une Hongrie écrasant les rebelles, il a été décidé que la meilleure résolution serait de former un État nouveau, celui d'Autriche-Hongrie, qui permettra entre autres aux nobles d'Autriche de jouir d'un meilleur statut."
  AustrianRevolutionVictory:0 "La révolution en Autriche s'est soldée par la défaite des rebelles. En dépit de leur résistance courageuse, [Root.Capital.GetCapitalName] a fini par l'emporter, et c'est maintenant à [Root.Monarch.GetName] qu'il revient de décider du destin de la région."
@@ -7219,6 +7311,8 @@
 
  become_an_empire_tt:0 "Le pays va passer au rang politique d'§Yempire§!."
  boh_has_unlocked_great_moravia:0 "La mission §YGrande-Moravie§! ayant été menée à bien, la §YGrande-Moravie§! peut être formée."
+
+ # [LocEditor:UntranslatedKey] `black_army_reform_flag`
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

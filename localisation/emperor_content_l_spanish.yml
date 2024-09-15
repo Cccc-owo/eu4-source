@@ -987,6 +987,7 @@
  shadow_kingdom.2.b:0 "Debemos refrenar a los italianos."
  shadow_kingdom_emperor_gives_up_tt:1 "§YLas naciones italianas en el SIR que hayan sido refrenadas seguirán en el Imperio.§!\n§YAquellas que no lo hayan sido, lo abandonarán.\n\n§YEl emperador perderá §R0,2§! de Autoridad imperial por el desarrollo de cada provincia que deje el Imperio.§!"
  shadow_kingdom_incident_tt:0 "§YEl emperador tiene hasta 1490 para mantener en el Imperio a todas las naciones italianas posibles.§!"
+ shadow_kingdom_incident_penalty_tt:0 "Se pierde §R0,2§! de Autoridad imperial por §Ydesarrollo§! por las provincias italianas que abandonen el Sacro Imperio Romano."
  shadow_kingdom.3.t:0 "El reino en la sombra"
  shadow_kingdom.3.d:0 "Pese a la resolución imperial de refrenar Italia, sigue habiendo estados italianos que se niegan a aceptar la supremacía del Imperio. Pero el trabajo [Root.GetAdjective] no ha sido completamente en vano, pues los estados que sí fueron refrenados no se atreverán a volver a desafiar al Imperio."
  shadow_kingdom.3.a:0 "El destino de Italia está decidido."

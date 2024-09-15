@@ -709,7 +709,7 @@
  COT_NO_OF_LEVEL:0 "Sin centro de comercio de nivel $LEVEL|Y$\n"
  COT_OF_LEVEL:0 "Al menos un centro de comercio de nivel $LEVEL|Y$\n"
  COT_NO_OF_LEVEL_PROVINCE:0 "Sin centro de comercio de nivel $LEVEL|Y$\n"
- COT_OF_LEVEL_PROVINCE:0 "Al menos un centro de comercio de nivel $LEVEL|Y$\n"
+ COT_OF_LEVEL_PROVINCE:1 "La provincia tiene centros de comercio de nivel $LEVEL|Y$\n"
  COT_LESS_THAN:0 "Tiene menos de $NUM|Y$ centros de comercio\n"
  COT_AT_LEAST:0 "Tiene por lo menos $NUM|Y$ centros de comercio\n"
  COT_PROVINCE_GLOBAL_MODIFIER:0 "§Y$PROVINCE$:§! $NAME$"

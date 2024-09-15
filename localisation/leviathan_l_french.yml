@@ -1609,7 +1609,7 @@
  monument_boost:0 "Amélioration du monument"
  desc_monument_boost:0 "Recruter les meilleurs bâtisseurs [Root.GetDuDeNP] [Root.GetName] a grandement contribué à faciliter la construction du monument."
  monument_church_of_the_people:0 "La basilique du peuple"
- desc_monument_church_of_the_people:0 "Depuis les plus humbles paysans [Root.GetRootAdjMP] jusqu'aux personnalités les plus éminentes de la sainte Église, tous sont bienvenus dans la basilique Saint-Pierre."
+ desc_monument_church_of_the_people:1 "Depuis les plus humbles paysans [Root.GetRootAdjMP] jusqu'aux personnalités les plus éminentes de la sainte Église, tous sont bienvenus dans la basilique Saint-Pierre."
  monument_events.3.t:0 "La maison de Notre Seigneur"
  monument_events.3.d:0 "Dieu voit tout, mais Sa présence doit aussi trouver un lieu où s'incarner. La basilique Saint-Pierre est terminée, et prête à accueillir la présence de Notre Seigneur. De là, [Root.GetLeLaLDir] [Root.GetDir] [Root.Monarch.GetName] pourra tout contempler, comme [Root.GetSilSielleDir] était les yeux du divin en ce bas monde. Les dignitaires les plus respectés de la sainte Église sont prêts à y participer à une grande messe afin de célébrer ce moment de joie."
  monument_events.3.a:0 "Invitons aussi nos alliés à cette cérémonie"

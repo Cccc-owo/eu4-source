@@ -130,10 +130,10 @@
  CANCEL_GREAT_PROJECT_UPGRADE_PROGRESS:0 "Seid Ihr Euch sicher, dass Ihr die Verbesserung des Bauwerks "$BUILDING$" in $PROVINCE$ abbrechen möchtet? $PERCENTAGE_RETURNED|%1Y$ der Kosten werden Euch erstattet."
  SPEND_MANPOWER_TO_BOOST_PROGRESS:0 "§Y$NUMBER$§W Rekrutenreserve aufwenden, um den Baufortschritt um $DAYS|Y$ Tage zu beschleunigen"
  SPEND_MONEY_TO_BOOST_PROGRESS:0 "§Y$COST$§W¤ aufwenden, um den Baufortschritt um $DAYS|Y$ Tage zu beschleunigen"
- CANNOT_SPEND_MANPOWER_TO_BOOST_PROGRESS_NOT_ENOUGH_MANPOWER:0 "§RIhr habt nicht die erforderliche Rekrutenreserve, um den Baufortschritt zu beschleunigen.§!" # [LocEditor:AwaitingBatchUpdate]
- CANNOT_SPEND_MONEY_TO_BOOST_PROGRESS_NOT_ENOUGH_CASH:0 "§RIhr habt nicht das erforderliche Geld, um den Baufortschritt zu beschleunigen.§!" # [LocEditor:AwaitingBatchUpdate]
+ CANNOT_SPEND_MANPOWER_TO_BOOST_PROGRESS_NOT_ENOUGH_MANPOWER:1 "§RIhr habt nicht die erforderliche Rekrutenreserve, um den Baufortschritt zu beschleunigen.§!"
+ CANNOT_SPEND_MONEY_TO_BOOST_PROGRESS_NOT_ENOUGH_CASH:2 "§RIhr habt nicht das erforderliche Geld, um den Baufortschritt zu beschleunigen.§!"
  CANNOT_UPGRADE_GREAT_PROJECT_ALREADY_AT_MAX:0 "Diese $TYPE$-Konstruktion kann nicht weiter verbessert werden. Sie wurde bereits so weit wie möglich verbessert."
- CANNOT_BOOST_PROGRESS_NO_CONSTRUCTION:0 "§REs sind keine Bauarbeiten im Gange, die den Fortschritt fördern.§!" # [LocEditor:AwaitingBatchUpdate]
+ CANNOT_BOOST_PROGRESS_NO_CONSTRUCTION:2 "§REs sind keine Bauarbeiten im Gange, die den Fortschritt fördern.§!"
  CONFIRMGREATPROJECT_BOOST_TITLE:0 "Beschleunigen des Baufortschritts bestätigen."
  CONFIRMGREATPROJECT_BOOST_MANPOWER_TEXT:0 "Seid Ihr Euch sicher, dass Ihr $MANPOWER$ Rekrutenreserve dafür aufwenden wollt, um den Baufortschritt um $DAYS$ Tage zu beschleunigen?"
  CONFIRMGREATPROJECT_BOOST_MONEY_TEXT:0 "Seid Ihr Euch sicher, dass Ihr $COST|Y$¤ dafür aufwenden wollt, um den Baufortschritt um $DAYS$ Tage zu beschleunigen?"
@@ -1455,8 +1455,8 @@
  ONLY_BANNER_MODIFIER:0 "§YBetrifft nur Banner-Regimenter§!"
  ONLY_STRELTSY_MODIFIER:0 "§YBetrifft nur Strelizen-Regimenter§!"
  ONLY_COSSACK_MODIFIER:0 "§YBetrifft nur Kosaken-Regimenter§!"
- TRADE_NODE_VALUE_AT_LEAST:0 "Handelswert auf dem Umschlagplatz §Y$TRADENODE$§! beträgt mindestens $NUMBER$¤" # [LocEditor:AwaitingBatchUpdate]
- TRADE_NODE_VALUE_LESS_THAN:0 "Handelswert auf dem Umschlagplatz §Y$TRADENODE$§! ist geringer als $NUMBER$¤" # [LocEditor:AwaitingBatchUpdate]
+ TRADE_NODE_VALUE_AT_LEAST:1 "Handelswert auf dem Umschlagplatz §Y$TRADENODE$§! beträgt mindestens $NUMBER$¤"
+ TRADE_NODE_VALUE_LESS_THAN:1 "Handelswert auf dem Umschlagplatz §Y$TRADENODE$§! ist geringer als $NUMBER$¤"
  brown_noser:0 "Hat einer Großmacht mindestens 10k¤ gezahlt"
  EXILE_QUEEN_AS_EFFECT:0 "$NAME|Y$ geht ins Exil\n"
  SET_QUEEN_EFFECT:0 "$NAME|Y$ ($ADM$/$DIP$/$MIL$) wird Gemahl(in)\n"
@@ -1773,7 +1773,7 @@
  INNOVATIVENESS_INCREASE_TECH:0 "Technologisch der Zeit voraus: $VAL|3G$"
  INNOVATIVENESS_CHANGE_DESC_TT:1 "Ändert sich derzeit um $VAL|3+$/Monat."
  MODIFIER_ENABLE_FORCED_MARCH:0 "Gewaltmarsch aktivieren"
- MODIFIER_REVERSE_RELATION_WITH_SAME_RELIGION:0 "Meinung (Nationen mit derselben Religion)" # [LocEditor:AwaitingBatchUpdate]
+ MODIFIER_REVERSE_RELATION_WITH_SAME_RELIGION:1 "Meinung (Nationen mit derselben Religion)"
  MODIFIER_JANISSARY_COST:0 "Kosten (Janitscharen-Regimenter)"
  MODIFIER_CAWA_COST:0 "Kosten (Kawa-Regimenter)"
  MODIFIER_HUSSARS_COST:0 "Kosten (Husaren-Regimenter)"
@@ -2187,8 +2187,8 @@
  MERCENARY_COMPANY_NOWHERE_TO_HIRE:0 "Die Söldnerkompanie "$COMPANY|Y$" kann nicht innerhalb der Grenzen Eurer Nation angeheuert werden."
  SCALED_WITH_LOYALTY:0 "Skaliert mit der Loyalität des Stands"
  SCALED_WITH_INFLUENCE:0 "Skaliert mit dem Einfluss des Stands"
- CHANGE_COUNTRY_COLOR_EFFECT:0 "Ändert die Farbe der Nation.\n" # [LocEditor:AwaitingBatchUpdate]
- CHANGE_COUNTRY_COLOR_EFFECT_SPECIFIC:0 "Ändert die Farbe der Nation zu der von $WHO|Y$.\n" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_COUNTRY_COLOR_EFFECT:1 "Ändert die Farbe der Nation.\n"
+ CHANGE_COUNTRY_COLOR_EFFECT_SPECIFIC:1 "Ändert die Farbe der Nation zu der von $WHO|Y$.\n"
  RESTORE_COUNTRY_COLOR_EFFECT:0 "Stellt die ursprüngliche Farbe der Nation wieder her"
  CENTRALIZE_STATE_MAXED_OUT:0 "Der Staat wurde bereits so weit es geht zentralisiert."
  CANNOT_DISMANTLE_UNSUBJUGATED_ELECTOR:0 "$COUNTRY|Y$ ist weder mit uns verbündet noch einer unserer Untertanen noch steht seine Hauptstadt unter unserer Kontrolle."

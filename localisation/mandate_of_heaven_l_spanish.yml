@@ -145,7 +145,7 @@
  tributary_events.12.t:0 "Tributo de [ningbo_country.GetName]"
  tributary_events.12.d:0 "Un embajador de [ningbo_country.GetName] ha llegado con un enorme obsequio como compensación por las situaciones desagradables en [ningbo_province.GetCapitalName]. El [ningbo_country.Monarch.GetName] ha tratado con mucha dureza a estos subalternos desobedientes y ahora garantiza personalmente que la paz se mantendrá en las misiones tributarias futuras.."
  tributary_events.12.a:0 "Sabia elección."
- tributary_events.12.a.tt:0 "[Root.GetName] recibirá el equivalente a un año entero de ingresos de [ningbo_country.GetName]."
+ tributary_events.12.a.tt:1 "[Root.GetName] recibirá §G[Root.money_to_give.GetValue]§! de [ningbo_country.GetName]."
  tributary_events.13.t:0 "Los bienes exóticos de [exotic_tributary.GetName]"
  tributary_events.13.d:0 "Nuestra corte en [Root.Capital.GetCapitalName] se maravilla del gran número de bienes exóticos que ha traído la misión tributaria de [exotic_tributary.GetName]. Funcionarios y mercaderes emprendedores por igual se han finado en lo buscados que están estos artículos y ya se empiezan a forjar alianzas. Si no actuamos con rapidez, parece seguro que se formará una red de contrabando para traer más bienes exóticos a la capital."
  tributary_events.13.a:0 "¡Permitidlo, pero aseguraos que recibimos una parte!"

@@ -273,7 +273,7 @@
  ME_add_8_years_of_trade_income:0 "Añade §G8§! años de ingresos de §Ycomercio§!."
  ME_add_9_years_of_trade_income:0 "Añade §G9§! años de ingresos de §Ycomercio§!."
  ME_add_10_years_of_trade_income:0 "Añade §G10§! años de ingresos de §Ycomercio§!."
- ME_ADD_ARMY_TRADITION_OR_MIL_POWER:0 "La §YTradición militar§! excedente se convertirá en §G3§! de §YPoder Militar§ por 1 de §YTradición militar§!"
+ ME_ADD_ARMY_TRADITION_OR_MIL_POWER:0 "La §YTradición militar§! excedente se convertirá en §G3§! de §YPoder Militar§! por 1 de §YTradición militar§!"
  
  EVENT_INSIGHT_OPT_1:0 "§MOpción 1§!:"
  EVENT_INSIGHT_OPT_2:0 "§MOpción 2§!:"

@@ -1609,7 +1609,7 @@
  monument_boost:0 "Mejoras monumentales"
  desc_monument_boost:0 "Contratar a los mejores albañiles de la nación nos ha ayudado a perfeccionar la construcción de monumentos."
  monument_church_of_the_people:0 "Iglesia del pueblo"
- desc_monument_church_of_the_people:0 "Del más humilde campesino al más elevado de los clérigos, todas las gentes de nuestro/a [Root.Government.GetName] son bienvenidas en la Basílica de San Pedro."
+ desc_monument_church_of_the_people:1 "Del más humilde campesino al más elevado de los clérigos, todas las gentes de nuestra nación son bienvenidas en la basílica de San Pedro."
  monument_events.3.t:0 "La casa del Señor"
  monument_events.3.d:0 "Dios tiene ojos en todas partes, pero Su presencia abrumadora debe tener un lugar donde descansar. La basílica de San Pedro ya ha sido terminada y la casa del Señor ya está lista para ofrecer tal lugar de descanso apropiado. A partir de aquí, [Root.GetellaDir] [Root.Monarch.GetTitle] [Root.Monarch.GetName] es capaz de supervisar todo, como si fuera parte de las mirada de Dios. Los miembros más respetados de la Iglesia nos han aconsejado celebrar una gran misa para celebrar y honrar este momento de júbilo."
  monument_events.3.a:0 "¡Debemos invitar a nuestros aliados!"

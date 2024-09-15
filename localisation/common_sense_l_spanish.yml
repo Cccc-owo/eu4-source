@@ -707,7 +707,7 @@
  desc_prot_stopped_witch_trials:0 "Varios juicios de brujas en esta área han amenazado con desgajar la sociedad local, con vecinos denunciando a vecinos. Sin embargo, el estado ha intervenido y ha intentado desviar la situación. Nadie está contento con esta solución pero parece que las tensiones disminuyen."
  custodian_of_the_two_holy_mosques:0 "Guardián de las Ciudades Santas"
  desc_custodian_of_the_two_holy_mosques:0 "Controlamos las ciudades de La Meca y Medina y con ellas las reliquias más sagradas del mundo islámico."
- organised_through_bishops_aspect:0 "Organizado a través de los obispos"
+ organised_through_bishops_aspect:0 "Organizado por los obispos"
  desc_organised_through_bishops_aspect:1 "Los obispos solían ser los líderes de una sola iglesia, confinada a un área urbana. En la actualidad dirigen las iglesias de un área mayor y ya no atienden congregaciones individuales. Nombran sacerdotes para atender a cada congregación y actuar como delegados del obispo. \n\n También ganaremos §G-10%§! de Coste de construcción durante §Y10§! años"
  priests_may_marry_aspect:0 "Los sacerdotes pueden casarse"
  desc_priests_may_marry_aspect:1 "El emperador Justiniano declaró nulos y sin efecto todos los matrimonios contraídos por clérigos ordenados e ilegítimos a los niños de tales matrimonios. Los sacerdotes siempre han vivido más o menos ilegalmente con sus esposas y formado familias aunque debían ser célibes. Si permitimos que los sacerdotes se casen daremos nuestra aprobación al matrimonio clerical y condenamos los votos de celibato por motivos bíblicos. \n\n También ganaremos §G+1§! Tolerancia de la fe verdadera durante §Y10§! años"

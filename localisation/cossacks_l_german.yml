@@ -52,7 +52,7 @@
  estate_bushi:0 "Bushi"
  estate_warriors:0 "Krieger"
  estate_mani:0 "Mani"
- estate_pochteca:0 "Pochteca" # [LocEditor:AwaitingBatchUpdate]
+ estate_pochteca:1 "Pochteca"
  horde_unity:0 "Horden-Einheit"
  CALL_DIET:0 "Versammlung einberufen"
  ASK_FOR_CONTRIBUTION:0 "Beitrag erbitten"
@@ -218,7 +218,7 @@
  NEUTRAL_ATTITUDE_DESC:0 "Wenn Ihr Eure Einstellung auf §YNeutral§! stellt, bedeutet das, dass Ihr §Y$COUNTRY$§! für Eure Interessen als nicht relevant betrachtet. Sie werden es generell vermeiden, mit Euch diplomatisch zu interagieren, und Eure Verbündeten werden dies als Zeichen ansehen, dass Ihr ihnen gegenüber gleichgültig seid."
  FRIENDLY_ATTITUDE_DESC:0 "Wenn Ihr Eure Einstellung auf §YFreundlich§! stellt, bedeutet das, dass Ihr euch mit §Y$COUNTRY$§! verbünden wollt. Eure Verbündeten werden das als Zeichen ansehen, dass Ihr nicht bereit seid, sie anzugreifen."
  FRIENDLY_ATTITUDE_CANNOT_SET_OPINION:0 "§RIhr könnt Eure Einstellung nicht auf §YFreundlich§! stellen, da §Y$COUNTRY$§! nicht mindestens §Y$OPINION$§! Meinung von §Y$PLAYER$§! hat.§!"
- THREATENED_ATTITUDE_CANNOT_SET_POWER:0 "§R$COUNTRY|Y$ ist NICHT mindestens §Y33%§! mächtiger als $PLAYER|Y$.§!" # [LocEditor:AwaitingBatchUpdate]
+ THREATENED_ATTITUDE_CANNOT_SET_POWER:1 "§R$COUNTRY|Y$ ist NICHT mindestens §Y33%§! mächtiger als $PLAYER|Y$.§!"
  THREATENED_ATTITUDE_CANNOT_SET_DISTANCE:0 "§RIhr könnt Eure Einstellung nicht auf §YBedroht§! stellen, da §Y$COUNTRY$§! nicht in der Lage ist, §Y$PLAYER$§! zu bedrohen.§!"
  THREATENED_ATTITUDE_DESC:0 "Wenn Ihr Eure Einstellung auf §YBedroht§! stellt, bedeutet das, dass Ihr §Y$COUNTRY$§! fürchtet. Sie werden dies als Zeichen ansehen, dass Ihr bereit seid, Euch aus Sicherheitsgründen mit ihnen zu verbünden, doch auch, dass Ihr andere mächtige Verbündete sucht, um Euch vor ihnen zu schützen."
  TRUST_DESC:1 "§YVertrauen§! ist ein Maß für die Stärke jedes Bündnisses, das wir mit §Y$COUNTRY$§! haben. Es sinkt, wenn wir Versprechen brechen oder uns ihnen gegenüber anderweitig unehrenhaft verhalten. Es kann durch das Erweisen von Gefallen gesteigert werden. Vertrauen steigt auch mit der Zeit, solange ein Bündnis besteht oder einer dem anderen untertan ist."

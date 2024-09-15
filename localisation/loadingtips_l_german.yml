@@ -92,7 +92,7 @@
  LOADING_TIP_90:0 "Mit den Tasten Y und C kannst du Ereignis- und Diplomatie-Entscheidungen abbrechen und bestätigen."
  LOADING_TIP_91:0 "Mit der Taste B öffnest du die Benutzeroberfläche zum Ausgleichen der Armeen."
  LOADING_TIP_92:0 "Über die Benutzeroberfläche zum Ausgleichen der Armeen kannst du mit den Tasten Y und B Einheiten von einer zur anderen Seite verschieben."
- LOADING_TIP_93:0 "" # [LocEditor:AwaitingBatchUpdate]
+ LOADING_TIP_93:1 ""
  LOADING_TIP_94:0 "Das Osmanische Reich ist die stärkste Nation im Spiel und für Anfänger besonders empfohlen."
  LOADING_TIP_95:0 "Die Schwierigkeitsstufe Sehr einfach eignet sich für Anfänger, für die Normal zu schwierig ist."
  LOADING_TIP_96:0 "Auf der Schwierigkeitsstufe Schwer ist die KI so fähig wie möglich, wobei fast keine Cheats genutzt werden."

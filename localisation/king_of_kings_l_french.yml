@@ -2044,7 +2044,9 @@
  promoting_painting:0 "Peinture favorisée"
  desc_promoting_painting:0 "[Root.GetLeLaLDirCap] [Root.GetDir] [Root.Monarch.GetName] favorise la réalisation de magnifiques peintures qui documenteront son règne pour les générations à venir."
  persian_influence_current_reduction_bonus_tt:0 "[This.persian_influece_counter_tooltip.GetValue]"
- used_persian_influence_mechanic_tt:0 "Réduit de §G20§! le coût de l'action diplomatique §YVassaliser§! (réduction actuelle : §G[Root.GetTempElevationCostReduction]§!/§Y-200§!)."
+ used_persian_influence_mechanic_tt:1 "Réduit de §G20§! le coût de l'action diplomatique §YVassaliser§! (réduction actuelle : §G[Root.GetTempElevationCostReduction]§!/§Y-[Root.GetTempElevationCostReductionCap]§!)."
+ TWO_HUNDRED:0 "200"
+ FOUR_HUNDRED:0 "400"
  used_persian_influece_interaction_1:0 "Influence persane investie"
  used_persian_influece_interaction_2:0 "Influence persane investie"
  used_persian_influece_interaction_3:0 "Influence persane investie"
@@ -4464,6 +4466,9 @@
  passive_effects_events.9.a:0 "C'est une excellente chose"
  
  has_unified_all_culture_fr_fr_tt:0 "Toutes les provinces de la sphère culturelle §Y[Root.GetSphCultFS]§! sont possédées par [Root.GetLeLaNP] §Y[Root.GetName]§!, [Root.GetSesLeursNP] colonies ou les colonies de [Root.GetSesLeursNP] dépendances."
+
+ unlocked_state_madrasas_reform:0 "qui donne accès à cette réforme gouvernementale."
+ unlocked_karimi_stations_reform:0 "qui donne accès à cette réforme gouvernementale."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  select_current_branch_missions_title:0 "§YChoix de la branche :§! §O[Root.GetCurrentSelectedMissionBranch]§!"

@@ -1991,7 +1991,7 @@
  ABANDON_IDEA_GROUP_REFUND:0 "Renoncer à cet ensemble de doctrines nous rendra $VALUE|Y$ points de $POWER$."
  PRIMITIVES_CANT_BUILD_SHIPS:0 "Les primitifs ne peuvent construire de navires."
  PRIMITIVES_CANT_BUY_SHIPS:0 "Les primitifs ne peuvent acheter de navires."
- CV_TECH_RESEARCH_MAXED:0 "Nous avons recherché toutes les technologies de ce groupe."
+ CV_TECH_RESEARCH_MAXED:0 "Nous avons recherché toutes les technologies."
  CV_RESEARCH_TECH:0 "Rechercher $NAME$"
  CV_RESEARCH_TECH_DESC:0 "\nRechercher cette nouvelle technologie, « $NAME$ », coûte §Y$POWER_COST$§! points de puissance $TYPE$.\n"
  CV_RESEARCH_TECH_NOPOWER:0 "Notre puissance $TYPE$ n'est pas suffisante : il nous faut §Y$POWER_COST$§! points pour effectuer cette recherche, alors que nous ne disposons que de §Y$POWER_AVAILABLE$§!.\n"

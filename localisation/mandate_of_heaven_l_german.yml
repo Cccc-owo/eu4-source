@@ -145,7 +145,7 @@
  tributary_events.12.t:0 "Tribut aus [ningbo_country.GetName]"
  tributary_events.12.d:0 "Ein Botschafter aus [ningbo_country.GetName] ist mit einem enormen Geschenk als Entschädigung für die Unannehmlichkeiten in [ningbo_province.GetCapitalName] an uns getreten. [ningbo_country.GetMDerDie] [ningbo_country.Monarch.GetTitle] hat am schwersten mit ungehorsamen Untergebenen zu kämpfen und wird nun persönlich garantieren, dass der Frieden für künftige Tributsendungen beibehalten wird."
  tributary_events.12.a:0 "Eine kluge Entscheidung."
- tributary_events.12.a.tt:0 "[Root.GetName] wird ein Jahreseinkommen von [ningbo_country.GetName] erhalten."
+ tributary_events.12.a.tt:1 "[Root.GetName] erhält §G[Root.money_to_give.GetValue]§! von [ningbo_country.GetName]."
  tributary_events.13.t:0 "Die exotischen Güter aus [exotic_tributary.GetName]"
  tributary_events.13.d:0 "Unser Hof in [Root.Capital.GetCapitalName] besticht durch die große Anzahl exotischer Waren, die durch Tributsendungen von [exotic_tributary.GetName] erbracht werden. Geschäftstüchtige Beamte und Händler gleichermaßen haben bemerkt, wie begehrt diese Gegenstände sind, und schmieden bereits Bündnisse. Wenn wir nicht schnell handeln, scheint es mehr als sicher, dass sich ein Schmugglerring bilden wird, um noch mehr exotische Waren in die Hauptstadt zu bringen."
  tributary_events.13.a:0 "Erlaubt es, aber stellt sicher, dass wir einen Anteil erhalten."

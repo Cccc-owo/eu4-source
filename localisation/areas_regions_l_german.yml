@@ -125,7 +125,7 @@
  liguria_area:0 "Ligurien"
  liguria_area_name:0 "Ligurien"
  liguria_area_adj:0 "Ligurianisch"
- corsica_sardinia_area:1 "Tyrrhenisches Meer" # [LocEditor:AwaitingBatchUpdate]
+ corsica_sardinia_area:2 "Tyrrhenisches Meer"
  corsica_sardinia_area_name:0 "Sardinien"
  corsica_sardinia_area_adj:0 "Sardinisch"
  sicily_area:1 "Ostsizilien"
@@ -1098,12 +1098,12 @@
  isfahan_area:0 "Isfahan"
  isfahan_area_name:0 "Isfahan"
  isfahan_area_adj:0 "Isfahanisch"
- azerbaijan_area:0 "Zandschan" # [LocEditor:AwaitingBatchUpdate]
- azerbaijan_area_name:0 "Zandschan" # [LocEditor:AwaitingBatchUpdate]
- azerbaijan_area_adj:0 "Zandschanisch" # [LocEditor:AwaitingBatchUpdate]
- tabriz_area:0 "Aserbaidschan" # [LocEditor:AwaitingBatchUpdate]
- tabriz_area_name:0 "Aserbaidschan" # [LocEditor:AwaitingBatchUpdate]
- tabriz_area_adj:0 "Aserbaidschanisch" # [LocEditor:AwaitingBatchUpdate]
+ azerbaijan_area:1 "Zandschan"
+ azerbaijan_area_name:1 "Zandschan"
+ azerbaijan_area_adj:1 "Zandschanisch"
+ tabriz_area:1 "Aserbaidschan"
+ tabriz_area_name:1 "Aserbaidschan"
+ tabriz_area_adj:1 "Aserbaidschanisch"
  tabarestan_area:0 "Tabaristan"
  tabarestan_area_name:0 "Tabaristan"
  tabarestan_area_adj:0 "Tabaristanisch"

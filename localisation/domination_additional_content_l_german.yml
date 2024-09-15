@@ -319,9 +319,9 @@
  gov_coastal_government:0 "Küstenregierung"
  scaling_with_estate_influence_tt:0 "§YSkaliert mit dem Einfluss§!\nBei §Y100%§! Einfluss hat das Privileg folgende Auswirkung:"
  scaling_with_estate_loyalty_tt:0 "§YSkaliert mit der Loyalität§!\nBei §Y100%§! Loyalität hat das Privileg folgende Auswirkung:"
- when_loyal_tt:0 "§GBei mehr als 60% Loyalität und 100% Einfluss§!:" # [LocEditor:AwaitingBatchUpdate]
- when_neutral_tt:0 "§YBei 30% bis 60% Loyalität und 100% Einfluss§!:" # [LocEditor:AwaitingBatchUpdate]
- when_disloyal_tt:0 "§RBei unter 30% Loyalität und 100% Einfluss§!:" # [LocEditor:AwaitingBatchUpdate]
+ when_loyal_tt:1 "§GBei mehr als 60% Loyalität und 100% Einfluss§!:"
+ when_neutral_tt:1 "§YBei 30% bis 60% Loyalität und 100% Einfluss§!:"
+ when_disloyal_tt:1 "§RBei unter 30% Loyalität und 100% Einfluss§!:"
  UNTIL_REVOKED:0 "bis zum Widerruf"
  estate_church_clerical_education_loyal:0 "Klerikale Ausbildung"
  estate_church_clerical_education_neutral:0 "Klerikale Ausbildung"

@@ -915,21 +915,21 @@
  emp_ned_dutch_east_indies_title:0 "Ostindien"
  emp_ned_dutch_east_indies_desc:0 "Unser Handel in Indien floriert, aber die Sicherheit unseres Handels und unserer Kaufleute ist gefährdet, solange unsere wirtschaftliche Kontrolle über die Region nicht durch politische Kontrolle erreicht wird. Für den anhaltenden Wohlstand der Region und unsere nationalen Interessen ist es unerlässlich, dass wir so viel wie möglich von Indien unter unsere Kontrolle bringen."
  ned_security_on_and_from_the_sea:0 "Sicherheit auf und vom Meer"
- desc_ned_security_on_and_from_the_sea:0 "Eine Flotte, die ihres Namens würdig ist, hilft uns dabei, unsere Küsten und unsere Interessen zu schützen." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_security_on_and_from_the_sea:1 "Eine Flotte, die ihres Namens würdig ist, hilft uns dabei, unsere Küsten und unsere Interessen zu schützen."
  ned_fixed_garrisons:0 "Feste Garnisonen"
- desc_ned_fixed_garrisons:0 "Die gemeinsame Beteiligung der Zentralregierung und der Staaten erzeugt eine mächtige Kraft, die wir für die Rekrutierung von Garnisontruppen nutzen können." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_fixed_garrisons:1 "Die gemeinsame Beteiligung der Zentralregierung und der Staaten erzeugt eine mächtige Kraft, die wir für die Rekrutierung von Garnisontruppen nutzen können."
  ned_leiden_faculty:0 "Leidener Fakultät"
- desc_ned_leiden_faculty:0 "Der Ruhm der Universität Leiden zieht einige der klügsten Köpfe in unser Reich." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_leiden_faculty:1 "Der Ruhm der Universität Leiden zieht einige der klügsten Köpfe in unser Reich."
  ned_sea_beggar_activity:0 "Aktivität der Geusen"
- desc_ned_sea_beggar_activity:0 "Unsere leichten Schiffe sind hervorragend darin, den Handel unserer Feinde durcheinanderzubringen und unsere eigene unabhängige Handelsmacht zu fördern." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_sea_beggar_activity:1 "Unsere leichten Schiffe sind hervorragend darin, den Handel unserer Feinde durcheinanderzubringen und unsere eigene unabhängige Handelsmacht zu fördern."
  ned_west_indies_charter:0 "Westindische Charta"
- desc_ned_west_indies_charter:0 "Das Wachstum des Überseehandels erlaubt es uns, neue Quellen des Wohlstands zu erschließen." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_west_indies_charter:2 "Das Wachstum des Überseehandels erlaubt es uns, neue Quellen des Wohlstands zu erschließen."
  ned_distributed_tax_burden:0 "Aufgeteilte Steuerlast"
- desc_ned_distributed_tax_burden:0 "Ein Steuersystem, worauf sich alle Provinzen einigen können, trägt dazu bei, dass die Steuern von allen Regionen mit demselben Nachdruck erhoben werden." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_distributed_tax_burden:1 "Ein Steuersystem, worauf sich alle Provinzen einigen können, trägt dazu bei, dass die Steuern von allen Regionen mit demselben Nachdruck erhoben werden."
  ned_dutch_overseas_trade:0 "Niederländischer Überseehandel"
- desc_ned_dutch_overseas_trade:0 "Unser Handelsnetzwerk reicht weiter und unsere Händler suchen nach immer neuen Märkten." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_dutch_overseas_trade:1 "Unser Handelsnetzwerk reicht weiter und unsere Händler suchen nach immer neuen Märkten."
  ned_dutch_free_trade:0 "Niederländischer Freihandel"
- desc_ned_dutch_free_trade:0 "Ein wesentlicher Bestandteil unserer Freiheiten und Rechte ist die wirtschaftliche Freiheit, die den Handelsgeist unseres Volkes fördert." # [LocEditor:AwaitingBatchUpdate]
+ desc_ned_dutch_free_trade:1 "Ein wesentlicher Bestandteil unserer Freiheiten und Rechte ist die wirtschaftliche Freiheit, die den Handelsgeist unseres Volkes fördert."
  DUTCH_CHANNEL_SUPREMACY:0 "Niederländische Überlegenheit über den Ärmelkanal"
  DUTCH_DEJIMA:1 "Niederländisches Dejima"
  DUTCH_EAST_INDIES_TRADE:0 "Niederländisches Ostindien"
@@ -1119,7 +1119,7 @@
  emp_ita_anatolian_frontier_desc:0 "Unsere östlichen Besitztümer können nicht sicher sein, solange die Türken uns in Anatolien weiterhin bedrohen. Wir müssen eine neue Grenze in Kleinasien schaffen und diejenigen unterwerfen, die uns bedrohen."
  emp_ita_a_worthy_navy_title:0 "Eine würdige Flotte"
  emp_ita_a_worthy_navy_desc:0 "Italien ist eine große Halbinsel, die von riesigen Gewässern und vielen anderen Seemächten umgeben ist. Ohne eine eigene respektable Flotte wären wir gegen Seeblockaden und Invasionen schutzlos. Wir müssen eine Flotte aufbauen, um unser Land und unseren Ruhm zu verteidigen."
- emp_ita_africa_proconsulare_title:0 "Africa Proconsularis" # [LocEditor:AwaitingBatchUpdate]
+ emp_ita_africa_proconsulare_title:1 "Africa Proconsularis"
  emp_ita_africa_proconsulare_desc:0 "Unser Einfluss auf das Mittelmeer ist durch die Berberpiraten und andere Piraten aus Nordafrika bedroht. Wenn wir unser Land schützen wollen, müssen wir die Verstecke der Piraten und die nordafrikanischen Regierungen, die sie schützen, zerstören."
  emp_ita_befriend_ethiopia_title:0 "Freundschaft mit Äthiopien"
  emp_ita_befriend_ethiopia_desc:0 "Alte Legenden sprechen vom Königreich des Priesters Johannes, einem christlichen König, der jenseits der heidnischen Reiche lebte. Allmählich erfuhren wir mehr ... Marco Polo selbst sprach über das große christliche Königreich Äthiopien und unsere Kontakte zu diesem afrikanischen Land haben sich seitdem nur vergrößert. Es liegt im Interesse der Nachwelt und in unserem strategischen Interesse, das äthiopische Volk zu erreichen und Freundschaft und gegenseitigen Schutz zu pflegen."
@@ -1912,7 +1912,7 @@
  emp_mission_events.5.d:0 "Wir haben eine endgültige und dauerhafte Vereinbarung mit dem Stellvertreter Christi, Papst [PAP.Monarch.GetName], getroffen. Von diesem Tag an wird der Heilige Vater den Heiligen Römischen Kaiser persönlich krönen.\nEs wurde auch eine Einigung erzielt, wonach der Kaiser de facto die Kontrolle über die Kirche im Reichsgebiet haben wird, wodurch Jahrhunderte von oft gewaltsamen Auseinandersetzungen zwischen Papst und Kaiser beendet werden."
  emp_mission_events.5.a:0 "Wir sind wahrlich ein Römisches Reich."
  # German mission modifiers
- EST_VAL_GER_URBAN:0 "Deutsche Urbanisierung: §G$VAL$§!" # [LocEditor:AwaitingBatchUpdate]
+ EST_VAL_GER_URBAN:1 "Deutsche Urbanisierung: §G$VAL$§!"
  industrialized_rhineland:0 "Industrialisiertes Rheinland"
  desc_industrialized_rhineland:0 "Unsere Investition im Rheinland führt zu einer raschen Industrialisierung."
  ger_german_education:0 "Deutsche Bildung"
@@ -2055,7 +2055,7 @@
  french_minors_become_france_title:0 "Besetzt den Thron"
  french_minors_become_france_desc:1 "Die Zeit ist gekommen, dass [Root.Monarch.GetName] den Thron Frankreichs besteigt. Die frühere Regierung muss gänzlich zerschlagen werden, um Platz für das neue Regime zu machen."
  own_all_cores_fra_minors:0 "Besitzt alle Provinzen mit einem §Y[Root.GetAdjective]en§! Kern."
- EST_VAL_GERMAN_JUNKERS:0 "Loyale Junker: " # [LocEditor:AwaitingBatchUpdate]
+ EST_VAL_GERMAN_JUNKERS:1 "Loyale Junker: "
  guardians_of_the_fountain:0 "Wächter des Brunnens"
  desc_guardians_of_the_fountain:0 "Wir wurden vom Herrn beauftragt, den Jungbrunnen vor unwürdigen Seelen zu schützen. Zu diesem Zweck trinken wir aus seinem Wasser, um unser Leben zu erhalten und unsere Dienstzeit zu verlängern."
  swi_empire_tt:0 "Hat den Reichsvorfall "Die Schweiz und das Reich""
@@ -2125,7 +2125,7 @@
  desc_fla_prosperous_burghers:0 "Unseren Händlern geht es gut und sie wissen, wem sie dafür danken müssen."
  fla_european_agents_mod:0 "Spione in Europa"
  desc_fla_european_agents_mod:0 "Unsere Spione sind auf dem gesamten Kontinent sorgfältig positioniert und stellen sicher, dass unsere geschäftlichen Interessen gewahrt bleiben und unser Handel weiterhin floriert. Vielleicht könnten wir eines Tages das Wissen über Europa, das wir gesammelt haben, nutzen, um etwas friedlicheres zu schaffen, aber dieser Tag ist nicht heute."
- emp_ita_develop_the_south_tt2:0 "Jede im Besitz befindliche Provinz in den Regionen §YNeapel§!, §YOstsizilien§!, §YWestsizilien§!, §YKalabrien§! und §YApulien§!:" # [LocEditor:AwaitingBatchUpdate]
+ emp_ita_develop_the_south_tt2:1 "Jede im Besitz befindliche Provinz in den Regionen §YNeapel§!, §YOstsizilien§!, §YWestsizilien§!, §YKalabrien§! und §YApulien§!:"
  #Swabian Missions
  swa_expand_a_bit_title:0 "Dominiert die Schwaben"
  swa_expand_a_bit_desc:1 "In Schwaben gibt es eine Vielzahl von Fürsten, Bischöfen und Republiken, die jeweils über ihr eigenes kleines Territorium herrschen. Wir müssen genug Land vereinen, um eine vorherrschende Macht in unserem Teil Deutschlands zu werden."

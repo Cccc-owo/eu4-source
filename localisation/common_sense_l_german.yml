@@ -1068,7 +1068,7 @@
  SUBJECT_MUST_BE_REGENCY:0 "Untertan muss eine Regentschaft haben."
  YOU_CANT_HAVE_REGENCY:0 "Dies ist während einer Regentschaft nicht möglich."
  SAME_DYNASTY_ALREADY:0 "$DYNASTY$ herrscht bereits über $COUNTRY$."
- NEED_POSITIVE_PRESTIGE:0 "§R- Ihr benötigt positives Prestige.§!" # [LocEditor:AwaitingBatchUpdate]
+ NEED_POSITIVE_PRESTIGE:1 "§R- Ihr benötigt positives Prestige.§!"
  THEY_ARE_IN_DEBT:0 "Sie sind verschuldet."
  NEED_POSITIVE_OPINION_OF_US:0 "Ihre Meinung über uns muss positiv sein."
  MUST_HAVE_LESS_LIBERTY_DESIRE:0 "Nicht mit Freiheitsstreben über §Y$VAL$§! möglich."

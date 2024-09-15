@@ -662,8 +662,8 @@
  estate_church_one_faith_one_culture:0 "Religiöse Kultur"
  estate_church_one_faith_one_culture_desc:0 "Einheit innerhalb einer Gesellschaft kann nur erreicht werden, wenn sich der [Root.GetKlerusName]-Stand nicht nur um die geistlichen Angelegenheiten kümmert, sondern auch eine entscheidende Rolle in den kulturellen und sozialen Fragen des Reichs übernimmt."
  estate_church_one_faith_one_culture_gta:0 "Jede im Besitz befindliche Provinz mit §Y[Root.Religion.GetName]er§! Religion, die sich entweder in der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe befindet oder eine §Yakzeptierte Kultur§! ist, erhält den Modifikator "§YReligiöse Gesellschaft§!", der folgende Auswirkungen hat:\nUnruhe (Lokal): §G-1.00§!\nSteuereinnahmen (Lokal): §G+10.0%§!\nProduktionseffizienz (Lokal): §G+10.0%§!\nRekrutenreserve (Lokal): §G+10.0%§!"
- estate_church_one_faith_one_culture_buffed_gta:0 "Jede im Besitz befindliche Provinz mit §Y[Root.Religion.GetName]er§! Religion, die sich entweder in der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe befindet oder eine §Yakzeptierte Kultur§! ist, erhält den Modifikator "§YReligiöse Gesellschaft§!", der folgende Auswirkungen hat:\nUnruhe (Lokal): §G-1.00§!\nSteuereinnahmen (Lokal): §G+10.0%§!\nProduktionseffizienz (Lokal): §G+10.0%§!\nRekrutenreserve (Lokal): §G+10.0%§!\nHandelsmacht (Lokal): §G+10.0%§!\nVerwaltungskosten (Provinzen): §G-10.0%§!" # [LocEditor:AwaitingBatchUpdate]
- estate_church_one_faith_one_culture_gtb:2 "Jede im Besitz befindliche Provinz, die NICHT TEIL der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe und KEINE §Yakzeptierte Kultur§! ist, erhält den Modifikator §YHäretische Kultur§!, der folgende Auswirkungen hat:\nUnruhe (Lokal): §R+3.00§!\nKosten (Kulturänderung): §G-10.0%§!" # [LocEditor:AwaitingBatchUpdate]
+ estate_church_one_faith_one_culture_buffed_gta:0 "Jede im Besitz befindliche Provinz mit §Y[Root.Religion.GetName]er§! Religion, die sich entweder in der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe befindet oder eine §Yakzeptierte Kultur§! ist, erhält den Modifikator "§YReligiöse Gesellschaft§!", der folgende Auswirkungen hat:\nUnruhe (Lokal): §G-1.00§!\nSteuereinnahmen (Lokal): §G+10.0%§!\nProduktionseffizienz (Lokal): §G+10.0%§!\nRekrutenreserve (Lokal): §G+10.0%§!\nHandelsmacht (Lokal): §G+10.0%§!\nVerwaltungskosten (Provinzen): §G-10.0%§!"
+ estate_church_one_faith_one_culture_gtb:3 "Jede im Besitz befindliche Provinz, die NICHT TEIL der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe und KEINE §Yakzeptierte Kultur§! ist, erhält den Modifikator §YHäretische Kultur§!, der folgende Auswirkungen hat:\nUnruhe (Lokal): §R+3.00§!\nKosten (Kulturänderung): §G-10.0%§!"
  estate_church_one_faith_one_culture_rta:0 "Der Modifikator "§YReligiöse Gesellschaft§!" wird von allen §Y[Root.Religion.GetName]en§! Provinzen entfernt, die einer §Yakzeptierten Kultur angehören§! oder einer Kultur aus der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe folgen."
  estate_church_one_faith_one_culture_rtb:0 "Der Modifikator "§YHäretische Kultur§!" wird von allen Provinzen entfernt, die keiner §Yakzeptierten Kultur angehören§! oder keiner Kultur aus der §Y[Root.Culture.GetGroupName]en§! Kulturgruppe folgen."
  estate_brahmins_one_faith_one_culture:0 "Religiöse Kultur"
@@ -819,7 +819,7 @@
  has_reached_level_9:0 "Hat Regierungsreformstufe §Y9§! erreicht."
  has_reached_level_10:0 "Hat Regierungsreformstufe §Y10§! erreicht."
  enables_focus_on_armies_tt:0 "Neue Entscheidung: §YAuf eine Berufsarmee konzentrieren§!."
- no_more_comet_sighted_event_tt:0 "Das §Y[Root.GetAdjective]e§! Volk lebt nun in einer aufgeklärteren Zeit, weshalb das Ereignis "§YKomet gesichtet§!" nicht länger auftaucht." # [LocEditor:AwaitingBatchUpdate]
+ no_more_comet_sighted_event_tt:1 "Das §Y[Root.GetAdjective]e§! Volk lebt nun in einer aufgeklärteren Zeit, weshalb das Ereignis "§YKomet gesichtet§!" nicht länger auftaucht."
  allow_baseline_invite_scholar_privilege_tt:0 "Der Gelehrte gibt folgenden Bonus, wenn er eingeladen wird:"
  allows_every_time_invite_of_hanafi_school:0 "Erlaubt die Einladung eines Gelehrten der §YHanafit-Schule§! ohne diplomatische Beziehungen."
  allows_every_time_invite_of_hanbali_school:0 "Erlaubt die Einladung eines Gelehrten der §YHanbali-Schule§! ohne diplomatische Beziehungen."
@@ -837,7 +837,7 @@
  zaidi_school_bonus_tt:0 "Reduktion (Nahkampfschaden): §G-10.0%§!"
  ###CUSTOM LOCALIZATION###
  ZERO:0 "0"
- NUM_OF_CONVERTED_PROVINCES_COUNTER:0 "[This.num_converted_religion.GetValue]" # [LocEditor:AwaitingBatchUpdate]
+ NUM_OF_CONVERTED_PROVINCES_COUNTER:1 "[This.num_converted_religion.GetValue]"
  ###JEWISH MECHANICS###
  JEWISH_ASPECTS_LONG:0 "Tora-Aspekte"
  JEWISH_ASPECTS_SHORT:0 "Aspekt"
@@ -1015,7 +1015,7 @@
  eth_market_of_the_west_desc:1 "Der Handelsknoten am Roten Meer war einst einer der wichtigsten Umschlagplätze der Welt. Er verband das Römische Reich mit den Reichtümern Indiens und ermöglichte es den Römern so, indische Waren zu genießen, ohne sich mit den Persern herumschlagen zu müssen. Dies änderte sich jedoch, als sein Nachfolger, das Byzantinische Reich, an die osmanischen Türken fiel. Seither ist das Rote Meer nicht mehr so profitabel, wie es einst war - und das wird es aufgrund des Kolonialismus der Europäer wahrscheinlich auch nie wieder sein.\n\nWir haben jedoch noch immer unsere Möglichkeiten, und dank unserer neu gefundenen Verbindung zu den Europäern ist es uns möglich, an ihren viel aktiveren Handelsknoten präsent zu sein. Alles, was wir tun müssen, ist, auf die eine oder andere Weise ihren reichen Markt zu erreichen."
  eth_ideas_and_institutions_title:0 "Ideen des Westens"
  eth_ideas_and_institutions_desc:1 "Bisher waren die Religion und die Kultur die wichtigsten Aspekte unserer Zivilisation. Technologischer Fortschritt hatte für uns nie wirklich Bedeutung ...\n\nBis wir herausfanden, wozu die Europäer fähig waren. Aufgrund unserer Handelsbeziehungen konnten unsere Händler die Technologie der Europäer aus erster Hand erleben. Vor allem ihre technologischen Errungenschaften im militärischen Bereich beeindruckten sie sehr - und beunruhigten unsere eigene Nation. Wir müssen sicherstellen, dass uns diese Europäer nicht voraus sind!"
- has_better_tech_than_westerns_tt:0 "Es gibt keine §Ywestliche§! Nation, die mehr Technologien als §Y[Root.GetName]§! hat." # [LocEditor:AwaitingBatchUpdate]
+ has_better_tech_than_westerns_tt:1 "Es gibt keine §Ywestliche§! Nation, die mehr Technologien als §Y[Root.GetName]§! hat."
  has_more_institutions_than_westerns_tt:1 "Es gibt keine §Ywestliche§! Nation, die mehr Institutionen gefördert hat als §Y[Root.GetName]§!."
  eth_westernize_the_army_title:0 "Modernisiert die Armee"
  eth_westernize_the_army_desc:0 "Unsere Nation konnte sich in der Vergangenheit von der Effizienz und Brutalität der europäischen Armeen überzeugen. Vor allem während der Konflikte mit dem Sultanat Adal wurde [Root.GetName] Zeuge der technologischen Errungenschaften in der Kriegsführung der Portugiesen. Wir sollten unsere Armee modernisieren und uns die westliche Technologie zu eigen machen, um zu verhindern, dass unsere Nation an kompetente europäische Invasoren fällt."
@@ -1086,9 +1086,9 @@
  mal_give_gold_away_desc:0 "[Root.GetMaliReligionGenorisityMissionText]"
  mal_give_gold_away_desc_muslim:1 "Es ist großartig, Reichtum zu besitzen, doch es erfüllt nicht die Vision des Propheten. Statt auf unseren Reichtümern zu sitzen, sollten wir den Taten des großen Mansa Musa folgen und unser Gold mit unseren Glaubensbrüdern teilen, vor allem mit denen in Anatolien, Ägypten und natürlich in Mekka."
  mal_give_gold_away_desc_fetishist:1 "Die Welt hat uns mit wertvollen Metallen und anderen Reichtümern beschenkt und wir wissen, wie wir sie genießen können. Das ist jedoch nicht im Sinne unserer Schamanen und unseres Glaubens, weshalb wir sie stattdessen mit anderen Stämmen der Welt teilen sollten!"
- mal_jihad_upon_own_population_title:0 "[Root.GetPreviewColorMAL]Konvertiert [Root.GetName][Root.GetPreviewColorMAL_end]" # [LocEditor:AwaitingBatchUpdate]
+ mal_jihad_upon_own_population_title:1 "[Root.GetPreviewColorMAL]Konvertiert [Root.GetName][Root.GetPreviewColorMAL_end]"
  mal_jihad_upon_own_population_desc:1 "Mit der Islamisierung unserer Aristokratie haben wir beschlossen, auch unser Volk davon zu überzeugen, den Islam anzunehmen. Wir sollten damit beginnen, die heidnischen Praktiken der Vergangenheit auszurotten und die Macht zu beseitigen, die der [Root.GetDhimmiName]-Stand über uns hat."
- mal_more_tolerance_to_heathens_title:0 "[Root.GetPreviewColorMAL]Toleriert die Traditionen[Root.GetPreviewColorMAL_end]" # [LocEditor:AwaitingBatchUpdate]
+ mal_more_tolerance_to_heathens_title:1 "[Root.GetPreviewColorMAL]Toleriert die Traditionen[Root.GetPreviewColorMAL_end]"
  mal_more_tolerance_to_heathens_desc:0 "Wir haben beschlossen, der ländlichen Bevölkerung zu erlauben, ihre traditionelle Religion weiter auszuüben, doch die Oberschicht unseres Reichs ist davon nicht sehr begeistert. Wir müssen die öffentliche Toleranz gegenüber den alten Traditionen erhöhen und die Macht des [Root.GetKlerusName]-Standes innerhalb unserer Nation verringern."
  ###SON MISSIONS###
  son_build_military_title:0 "Vorbereitung auf Krieg"
@@ -1132,19 +1132,19 @@
  son_conquer_the_mossi_title:0 "Beseitigt die Mossi"
  son_conquer_the_mossi_desc:1 "Die mossischen Stämme im Süden sind uns schon seit geraumer Zeit ein Dorn im Auge. Obwohl sie einander regelmäßig gegenseitig bekämpfen, gelingt es ihnen und den Tuareg immer wieder, Überfälle auf unsere Dörfer zu organisieren und unsere Höfe zu plündern. Wenn wir Frieden wollen, müssen wir Stärke zeigen und diese heidnischen Stämme unschädlich machen."
  son_conquer_the_mossi_tt:0 "Jede §Ymossische§! Provinz befindet sich im Besitz von §Y[Root.GetName]§! oder einem nicht tributpflichtigen Untertan."
- son_convert_the_mossi_title:0 "[Root.GetPreviewColorSON]Konvertiert die Mossi[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_convert_the_mossi_title:1 "[Root.GetPreviewColorSON]Konvertiert die Mossi[Root.GetPreviewColorSON_end]"
  son_convert_the_mossi_desc:0 "Der [Root.GetKlerusName]-Stand hat die Geschichte der Mossi und ihrer Überfälle auf unser Volk studiert und eine Lösung vorgeschlagen: die vollständige Konvertierung der Mossi zum wahren Glauben! Diese Heiden müssen das Licht Allahs sehen!"
  son_convert_the_mossi_tt:0 "Jede Provinz mit §Ymossischer§! Kultur ist §Y[Root.Religion.GetName]§!."
  son_convert_the_mossi_ct:0 "Jede Provinz mit §Ymossischer§! Kultur verliert §G100§! Autonomie und erhält §Y30§! Jahre lang den Modifikator "§YErgebene Anhänger§!", was folgende Auswirkungen hat:\nLokaler Separatismus: §G-10.0§!"
- son_invite_foreign_scholars_title:0 "[Root.GetPreviewColorSON]Ladet Gelehrte ein[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_invite_foreign_scholars_title:1 "[Root.GetPreviewColorSON]Ladet Gelehrte ein[Root.GetPreviewColorSON_end]"
  son_invite_foreign_scholars_desc:0 "Wir sind weit weg von unseren Brüdern in Arabien und unsere Gelehrten sind es auch, weshalb sich unsere Gesetze unabhängig von ihnen entwickelt haben. Wir sollten Gelehrte aus dem Osten einladen und ihre neuesten Fortschritte bei der Gesetzgebung der [Root.Religion.GetName]en Religion hören."
  son_invite_foreign_scholars_ct:0 "Jede Nation, deren Hauptstadt NICHT in der Region §YSahel§!, §YNiger§! oder §YGuinea§! liegt und dem §Y[Root.Religion.GetName]en§! Glauben folgt, ist mit §Y[Root.GetName]§! verbündet."
  son_invite_foreign_scholars_bt:0 "[Root.GetName] ist in der Lage, einen §YGelehrten§! ohne diplomatische Anforderungen einzuladen.\n"
  son_invite_foreign_scholars_at:0 "Die Art des Gelehrten hängt davon ab, welche Schule zum Zeitpunkt des Abschlusses dieser Mission eingeladen wurde."
  son_invite_foreign_scholars_tt:0 "Hat eine Hauptstadt, die NICHT in der Region §YSahel§!, §YNiger§! oder §YGuinea§! ist.\n  Ist §Y[Root.Religion.GetName]§!\n  Hat eine Meinung von mindestens §Y150§! gegenüber §Y[Root.GetName]§!"
- son_power_to_the_ulema_title:0 "[Root.GetPreviewColorSON]Macht für den [Root.GetKlerusName]-Stand[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_power_to_the_ulema_title:1 "[Root.GetPreviewColorSON]Macht für den [Root.GetKlerusName]-Stand[Root.GetPreviewColorSON_end]"
  son_power_to_the_ulema_desc:1 "Unsere Nation ist auf dem Weg zu religiöser Einheit und Aufklärung, doch es gibt noch so viel mehr zu tun. Der [Root.GetKlerusName]-Stand verwaltet die heiligen Gesetze unseres Landes und beaufsichtigt die Konvertierung der Heiden, doch er ist durch unsere Regierung eingeschränkt. Wir sollten ihm mehr Freiheiten und Privilegien gewähren, damit er unseren Fortschritt bei der Schaffung von Gesetzen voranbringen kann."
- son_convert_west_africa_title:0 "[Root.GetPreviewColorSON]Konvertiert Westafrika[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_convert_west_africa_title:1 "[Root.GetPreviewColorSON]Konvertiert Westafrika[Root.GetPreviewColorSON_end]"
  son_convert_west_africa_desc:0 "Westafrika war schon immer einzigartig. Als der Islam in Westafrika Fuß fasste, konvertierten die oberen Eliten zum wahren Glauben, zwangen ihn ihren Untertanen jedoch nicht auf. In seltenen Fällen gewährten sie den heidnischen Bauern sogar Rechte und tolerierten ihr Verhalten.\n\nDie Zeit der Toleranz ist nun jedoch vorbei und wir sollten auch diesen Heiden den rechten Weg weisen."
  son_convert_west_africa_tt:0 "Jede Provinz in der Region §YSahel§!, §YNiger§! oder §YGuinea§!, die NICHT unkolonisiert ist, ist §Y[Root.Religion.GetName]§!."
  son_build_workshops_title:0 "Baut Werkstätten"
@@ -1156,16 +1156,16 @@
  son_gold_of_west_africa_desc:0 "Unsere Heimatregion ist für ihre reichen Goldvorkommen bekannt. Wir sollten den Goldbergbau ausbauen und Marktplätze einrichten, um das Gold in der ganzen Welt zu verteilen."
  son_dominate_west_african_trade_title:0 "Schützt den Handel"
  son_dominate_west_african_trade_desc:1 "Der gesamte westafrikanische Handel muss unter unserer Aufsicht stattfinden. Wir können nicht zulassen, dass unsere Rivalen oder andere Fremde einen Weg finden, den Handel in unserer Heimatregion auszubeuten."
- son_guarantee_the_fetishist_title:0 "[Root.GetPreviewColorSON]Die alten Traditionen[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_guarantee_the_fetishist_title:1 "[Root.GetPreviewColorSON]Die alten Traditionen[Root.GetPreviewColorSON_end]"
  son_guarantee_the_fetishist_desc:0 "[Root.GetName] folgte früher wie jede andere Nation in Afrika den alten Traditionen und dem Glauben der Ahnen. Obwohl unsere Oberschicht das Licht Allahs angenommen hat, folgt unsere ländliche Bevölkerung noch immer den heidnischen Traditionen. Wir sollten unseren Wurzeln Respekt zollen und unserem Volk die Religionsfreiheit garantieren."
  son_guarantee_the_fetishist_ct:0 "[Root.GetName] hat mindestens §Y+1§! Toleranz (Ungläubige)."
- son_fetishist_alliances_title:0 "[Root.GetPreviewColorSON]Heidnische Allianzen[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_fetishist_alliances_title:1 "[Root.GetPreviewColorSON]Heidnische Allianzen[Root.GetPreviewColorSON_end]"
  son_fetishist_alliances_desc:0 "Um unsere Vergangenheit und unsere Tradition besser verstehen zu können, ist es wichtig, zu lernen, wie die Heiden sich geben. Wir sollten heidnische Verbündete oder Untertanen sammeln und ihr Verhalten studieren."
  son_fetishist_alliances_ct:0 "Hat eine Hauptstadt in §YAfrika§!"
- son_eliminate_other_muslims_title:0 "[Root.GetPreviewColorSON]Schützt unser Erbe[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_eliminate_other_muslims_title:1 "[Root.GetPreviewColorSON]Schützt unser Erbe[Root.GetPreviewColorSON_end]"
  son_eliminate_other_muslims_desc:0 "Der fetischistische Glaube mag für uns und für den Islam heidnisch sein, doch er ist ein wichtiger Teil unserer Identität, und daher muss dieses Erbe vor religiösen Eiferern geschützt werden, die es vernichten wollen."
  son_eliminate_other_muslims_tt:0 "Keine §Yfetischistische§! Provinz in der Region §YSahel§!, §YNiger§! oder §YGuinea§! ist im Besitz einer nicht fetischistischen Nation (ausgenommen §Y[Root.GetName]§! und seine Untertanen)."
- son_back_to_the_roots_title:0 "[Root.GetPreviewColorSON]Vereint die Stämme[Root.GetPreviewColorSON_end]" # [LocEditor:AwaitingBatchUpdate]
+ son_back_to_the_roots_title:1 "[Root.GetPreviewColorSON]Vereint die Stämme[Root.GetPreviewColorSON_end]"
  son_back_to_the_roots_desc:0 "Viele Nationen, die den alten Wegen folgen, sind in Stämme zersplittert, führen Kriege gegeneinander und gegen uns und verlieren dabei ihre Bedeutung. Das Schicksal dieser Stämme geht uns wenig an, doch die Traditionen und die Geschichte, die sie mit sich tragen, sind es wert, dass man sie schützt und bewahrt. Wir sollten der ländlichen Bevölkerung einen Gefallen tun und sie von diesen Stämmen befreien."
  son_back_to_the_roots_ct:0 "[Root.GetName] hat mindestens §Y+3§! Toleranz (Ungläubige)."
  son_european_gold_market_title:0 "Märkte Europas"
@@ -1230,27 +1230,27 @@
  kon_obliterate_great_power_army_tt:0 "§Y[Root.GetName]§! ist die einzige verbliebene Großmacht."
  kon_anzikus_copper_title:0 "Makokos Kupfer"
  kon_anzikus_copper_desc:1 "Der König von Tyo, der sogenannte "Makoko", herrscht über Anziku und seine reichen Kupferadern. Historisch gesehen hatten wir keine Streitigkeiten mit dem Volk von Tyo, doch sein Kupfer ist von hervorragender Qualität und wird in unserem eigenen Königreich für zivile und militärische Zwecke benötigt. Es wäre von Vorteil, wenn Tyo ein Teil von [Root.GetName] würde."
- kon_collect_cults_title:0 "[Root.GetPreviewColorKON]Trefft andere Kulte[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_collect_cults_title:1 "[Root.GetPreviewColorKON]Trefft andere Kulte[Root.GetPreviewColorKON_end]"
  kon_collect_cults_desc:0 "Keine Religion ist so vielfältig und komplex wie die Glaubensrichtungen und Kulte Afrikas. Alle Stämme und alle Königreiche haben unterschiedliche Auffassungen von der Kosmologie unserer Welt, und doch sind diese Überzeugungen nur selten ein Grund, sich gegenseitig zu bekämpfen. Stattdessen suchen wir die anderen Stämme auf, um mehr über ihren Glauben zu erfahren und sogar unseren eigenen auf dieser Grundlage zu erweitern."
- kon_fetishist_alliances_title:0 "[Root.GetPreviewColorKON]Bund der Stämme[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_fetishist_alliances_title:1 "[Root.GetPreviewColorKON]Bund der Stämme[Root.GetPreviewColorKON_end]"
  kon_fetishist_alliances_desc:1 "Unsere Religion beruht auf dem kulturellen Austausch und der Stammesdiplomatie. Wir sollten Verbündete und Untertanen sammeln, um unsere Beziehungen zu den verschiedenen Kulten zu verbessern und zu pflegen."
  kon_fetishist_alliances_tt:0 "Ist §YFetischistisch§! und entweder ein §YUntertan§! oder ein §YVerbündeter§! von §Y[Root.GetName]§! oder hat eine Meinung von §Y150§! gegenüber §Y[Root.GetName]§!."
- kon_repel_the_missionaries_title:0 "[Root.GetPreviewColorKON]Wehrt die Christen ab[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_repel_the_missionaries_title:1 "[Root.GetPreviewColorKON]Wehrt die Christen ab[Root.GetPreviewColorKON_end]"
  kon_repel_the_missionaries_desc:0 "Männer mit einer sehr hellen Hautfarbe tauchten an unseren Küsten auf und begannen, Vorstellungen von einem am Kreuz aufgehängten Mann zu verbreiten. Zunächst schienen sie nur freundliche Geschichtenerzähler zu sein, doch dann versuchten sie, unsere alten Traditionen niederzubrennen - und die Menschen, die ihnen folgen, hörten auf sie! Wir können nicht zulassen, dass diese Missionare weitermachen!"
  kon_repel_the_missionaries_tt:1 "§Y[Root.GetName]§! ist nicht länger das Ziel fremder Missionare."
- kon_convert_west_africa_title:0 "[Root.GetPreviewColorKON]Befreit die Kulte[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_convert_west_africa_title:1 "[Root.GetPreviewColorKON]Befreit die Kulte[Root.GetPreviewColorKON_end]"
  kon_convert_west_africa_desc:1 "Afrika hat Invasionen durch Muslime und Christen erlebt - beide in dem Versuch, unsere Traditionen und unser Erbe auszurotten und durch ihre eigenen Ideen zu ersetzen. Das muss ein Ende haben! Wir werden diese Fanatiker in ihre Heimat zurücktreiben und den Kontinent für unsere Brüder zurückerobern!"
  kon_convert_west_africa_bt:1 "Jede besiedelte Provinz in den Regionen §YNiger§! und §YGuinea§! ist §Yfetischistisch§!."
  kon_convert_west_africa_ct:0 "[Root.GetName] hat beschlossen, sich den Europäern zu §Ywidersetzen§!."
- kon_convert_the_country_title:0 "[Root.GetPreviewColorKON]Fördert das Christentum[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_convert_the_country_title:1 "[Root.GetPreviewColorKON]Fördert das Christentum[Root.GetPreviewColorKON_end]"
  kon_convert_the_country_desc:0 "Wir haben beschlossen, uns auf die Seite der Europäer zu stellen, doch sie werden uns niemals als gleichberechtigt ansehen, solange wir nicht das Licht des Herrn akzeptieren. Wir müssen offiziell katholisch werden und König und Volk gleichermaßen davon überzeugen."
- kon_churches_for_the_pope_title:0 "[Root.GetPreviewColorKON]Kirchen für das Volk[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_churches_for_the_pope_title:1 "[Root.GetPreviewColorKON]Kirchen für das Volk[Root.GetPreviewColorKON_end]"
  kon_churches_for_the_pope_desc:1 "In der Vergangenheit, als wir noch Naturgeister und die Geister unserer Ahnen anbeteten, hatten wir keine Gotteshäuser, sondern bestenfalls Schreine, die von einem Schamanen betreut wurden.\n\nDiese Zeiten sind glücklicherweise vorbei, und nun ist es unsere wichtigste Aufgabe, Kirchen zu bauen, damit jeder in unserem Volk mit dem Herrn in Berührung kommen kann."
- kon_gain_cardinal_title:0 "[Root.GetPreviewColorKON][Root.GetAdjektive]er Kardinal[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_gain_cardinal_title:1 "[Root.GetPreviewColorKON][Root.GetAdjektive]er Kardinal[Root.GetPreviewColorKON_end]"
  kon_gain_cardinal_desc:1 "Während sich unser Volk immer mehr mit den Schriften der Bibel und den Lehren Christi vertraut macht, wächst auch der katholische Einfluss in Zentralafrika. Wenn wir wollen, dass dies so bleibt, brauchen wir einen offiziell ernannten Kardinal. Es wäre von Vorteil, wenn wir an den Papst oder zumindest an eines der katholischen Länder mit einem Kardinal herantreten würden."
  kon_gain_cardinal_at:0 "Der §YKirchenstaat§! oder eine andere Nation, die einen §YKardinal§! hat, ist entweder mit [Root.GetName] §Yverbündet§! oder hat eine Meinung von mindestens §Y100§! gegenüber [Root.GetName]."
  kon_gain_cardinal_bt:0 "Der §YKirchenstaat§! existiert NICHT und es gibt keine Nation, die einen Kardinal hat."
- kon_spread_catholicism_title:0 "[Root.GetPreviewColorKON]Verbreitet Gottes Wort[Root.GetPreviewColorKON_end]" # [LocEditor:AwaitingBatchUpdate]
+ kon_spread_catholicism_title:1 "[Root.GetPreviewColorKON]Verbreitet Gottes Wort[Root.GetPreviewColorKON_end]"
  kon_spread_catholicism_desc:0 "Die Europäer brachten uns Krankheiten und unlauteren Handel, aber auch Technologie und Fortschritt. Das wichtigste Gut, das sie mitbrachten, ist jedoch das Licht des Herrn. Es ist im besten Interesse der afrikanischen Bevölkerung, dieses Geschenk ebenfalls zu empfangen und Teil der katholischen Kirche zu werden."
  kon_build_navy_title:0 "[Root.GetAdjective]e Flotte"
  kon_build_navy_desc:1 "Die Welt verändert sich. Männer mit blasser Haut und nie gesehener Rüstung besuchen unsere Küsten und bringen unserem Volk neue Ideen, während Fremde mit uns Handel treiben. Oft ist es jedoch fraglich, ob ihre Absichten unserem Interesse dienen, und so müssen wir uns darauf vorbereiten, unsere Heimat gegen diese Eindringlinge vom Meer aus zu verteidigen, indem wir selbst Kriegsschiffe bauen."
@@ -1452,7 +1452,7 @@
  zan_establish_contact_with_persia_bt:1 "Der Besitzer von §Y[2218.GetName]§! ist entweder ein Verbündeter oder ein Untertan von §Y[Root.GetName]§!."
  zan_build_manufactories_ct:0 "Bis zu §Y6§! im Besitz befindliche Provinzen mit einer §YManufaktur§! erhalten §G2§! Produktion."
  zan_explore_the_malacca_trade_tt:0 "§Y[Root.GetName]§! erhält dauerhafte Ansprüche auf die Inseln §YSumatra§! und §YJava§!."
- zan_conquer_madagascar_tt:0 "Jede Provinz in §YMadagaskar§!, die sich im Besitz von [Root.GetName] oder einem seiner Untertanen befindet, erhält §Y25 Jahre§! lang den Modifikator "§YSwahilische Übernahme§!", was folgende Auswirkungen hat:\nMissionarsstärke (Lokal): §G+2.0%§!\nHandelsgüter: §G+0.25§!" # [LocEditor:AwaitingBatchUpdate]
+ zan_conquer_madagascar_tt:1 "Jede Provinz in §YMadagaskar§!, die sich im Besitz von [Root.GetName] oder einem seiner Untertanen befindet, erhält §Y25 Jahre§! lang den Modifikator "§YSwahilische Übernahme§!", was folgende Auswirkungen hat:\nMissionarsstärke (Lokal): §G+2.0%§!\nHandelsgüter: §G+0.25§!"
  zan_colonize_the_cape_ct:0 "§Y[Root.GetName]§! erhält einen dauerhaften Anspruch auf jede Provinz mit einem §YHandelszentrum§! in der Region §YKongo§! und §YZentralafrika§!."
  zan_settle_trade_posts_ct:0 "Ihr erhaltet Handelseinkommen im Wert von §G4 Jahren§!."
  ZAN_DOMINATION:0 "Kilwanische Handelsdominanz"
@@ -2412,8 +2412,8 @@
  flavor_zan.11.t:0 "Persien wies den Diplomaten aus!"
  flavor_zan.11.desc:0 "Schlechte Neuigkeiten: Unser Diplomat hat zwar das ferne Land [From.GetName] erreichen können, doch der dortige Herrscher war engstirnig genug, um unsere farsische Herkunft zu leugnen, und hat unseren Diplomaten aus dem Land vertrieben."
  flavor_zan.11.a:0 "Diese dreckigen Bastarde!"
- flavor_zan.12.t:0 "Die Zerstörung der persischen Botschaft" # [LocEditor:AwaitingBatchUpdate]
- flavor_zan.12.desc:0 "Trotz all unserer Bemühungen haben wir die persische Botschaft verloren und damit auch die Verbindung zu ihren Diplomaten. Es bleibt abzuwarten, wie sich dies auf unsere Beziehung auswirkt ..." # [LocEditor:AwaitingBatchUpdate]
+ flavor_zan.12.t:1 "Die Zerstörung der persischen Botschaft"
+ flavor_zan.12.desc:1 "Trotz all unserer Bemühungen haben wir die persische Botschaft verloren und damit auch die Verbindung zu ihren Diplomaten. Es bleibt abzuwarten, wie sich dies auf unsere Beziehung auswirkt ..."
  flavor_zan.12.a:0 "Das ist nicht gut ..."
  flavor_zan.12.b:0 "Das ist nicht gut ..."
  flavor_zan.13.t:1 "[From.GetName] hat die [Root.GetAdjective]e Botschaft verloren!"

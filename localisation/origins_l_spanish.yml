@@ -1057,7 +1057,7 @@
  mal_control_the_niger_river_desc:0 "El río Níger es el cordón umbilical de África Occidental y, como tal, tiene una gran importancia en esta región. Lo mejor sería que este río estuviera totalmente controlado."
  mal_control_the_niger_river_ct:0 "Poseer todas las provincias núcleos que formen parte del río §YNíger§!"
  mal_control_the_niger_river_tt:0 "Toda provincia poseída que forme parte del río §YNíger§! consigue «§YRío cultivado§!» durante §Y25§! años, con estos efectos:\nCoste de desarrollo: §G-10,0%§!\nEficiencia producción local: §G+10,0%§!\nModificador de impuestos locales: §G+10,0%§!"
- mal_dominate_ivory_coast_and_timbuktu_title:0 "Proteger el comercio de África Occidental"
+ mal_dominate_ivory_coast_and_timbuktu_title:0 "Comercio africano"
  mal_dominate_ivory_coast_and_timbuktu_desc:0 "Todo el comercio de África Occidental se realizará bajo nuestra supervisión. No podemos permitir que extranjeros y rivales encuentren el modo de explotar el comercio de nuestra región." # [LocEditor:AwaitingBatchUpdate]
  mal_dominate_ivory_coast_and_timbuktu_tt:0 "Ningún país §Yeuropeo§! tiene un §Y20%§! del poder comercial en los nodos comerciales de §YCosta de Marfil§!, §YTombuctú§! o §YKatsina§!." # [LocEditor:AwaitingBatchUpdate]
  mal_trade_domination:0 "Comercio africano occidental protegido"
@@ -1065,13 +1065,13 @@
  mal_retake_the_mosque_desc:0 "El estado de Djenné solía ser uno de nuestros socios comerciales e incluso llegó a ser vasallo de nuestro gran imperio en un momento dado. Con nuestro declive, Djenné consiguió la independencia. Ahora comercian con nuestros rivales y los apoyan. No podemos permitir que esto continúe. Tenemos que anexionar su estado al nuestro."
  mal_conquer_tmb_title:0 "Reconquistar Tombuctú"
  mal_conquer_tmb_desc:0 "La gran ciudad de Tombuctú fue en su día una parte esencial de nuestro imperio, ya que era el puesto comercial que conectaba África Occidental con Europa. Debido a nuestra decadencia, la ciudad se escapó de nuestro control y fundó su propio estado. Ahora es el momento de reconquistar esta inestimable ciudad y reintegrarla en nuestro/a [Root.GovernmentName]."
- mal_absolute_authority_title:0 "Restaurar la autoridad de Malí"
+ mal_absolute_authority_title:0 "Autoridad de Malí"
  mal_absolute_authority_desc:0 "Muchos especularon con el poderoso Imperio Malí jamás regresaría; que nos desvaneceremos con el paso del tiempo.\n¡Pero nada menos cierto! Conseguimos ampliar nuestras fronteras más allá de lo que nadie esperaba y nos libramos de las amenazas internas. ¡Que todo el mundo sepa que la autoridad de Mali está totalmente restaurada!"
  mal_absolute_authority_ct:0 "Terminará el desastre §YDecadencia de Malí§!."
- mal_west_african_great_power_title:0 "Gran potencia de África occidental"
+ mal_west_african_great_power_title:0 "Potencia africana"
  mal_west_african_great_power_desc:0 "Nuestro imperio estaba al borde de la decadencia y, sin embargo, conseguimos sobrevivir e incluso crecer. Pero aunque dominemos nuestra región no somos, ni mucho menos, la única gran potencia de este mundo. Los europeos también han formado estados poderosos por su cuenta y ahora intentan imponer su voluntad a los pueblos de África.\n¡Debemos crecer en poder y hacer saber a cada uno de estos insignificantes europeos que no nos pueden imponer sus ambiciones!" # [LocEditor:AwaitingBatchUpdate]
  mal_west_african_great_power_ct:0 "Ningún país §Yeuropeo§! tiene más desarrollo total que §Y[Root.GetName]§!."
- mal_brace_for_decline_title:0 "Ganar favores de los estamentos"
+ mal_brace_for_decline_title:0 "Favores de los estamentos"
  mal_brace_for_decline_desc:1 "No es ningún secreto que nuestro país está pasando por sus peores momentos. Mucha de nuestra población teme lo peor mientras que súbditos y rivales buscan oportunidades para aprovecharse de nuestro estado de debilidad. En momentos así necesitamos más que nunca unidad e integridad en nuestra corte. Debemos ganarnos algunos favores con los estamentos para asegurarnos de que no se vuelvan contra nosotros en cuanto tengan la oportunidad."
  mal_brace_for_decline_tt:0 "Los estamentos permanecerán §Yleales§! a [Root.GetName] durante el desastre §YDecadencia de Malí§!"
  mal_get_competent_court_title:0 "Una corte competente"
@@ -1097,17 +1097,17 @@
  son_conquer_tmb_desc:0 "Tombuctú es el corazón de la cultura y el comercio de África Occidental. Atrae comerciantes, eruditos, ulemas y extranjeros por igual. Nos interesa tener el control de esta significativa ciudad."
  son_conquer_zaf_title:0 "Conquistar Koumbi Saleh"
  son_conquer_zaf_desc:0 "Hacer unos 300 años, el poderoso Imperio de Ghana gobernaba el territorio que ahora ocupa Malí. El Imperio de Ghana se desmoronó con el paso del tiempo y, finalmente, hasta su otrora impresionante capital, Koumbi Saleh, no es más que una ciudad abandonada.\nAun así, la conquista de estas ruinas podría sernos útil para afianzarnos mejor en el territorio de Malí. También podríamos encontrar documentos antiguos que nos sirvan para nuestro estado actual." # [LocEditor:AwaitingBatchUpdate]
- son_prepare_troops_title:0 "Asumir el título de imperio"
+ son_prepare_troops_title:0 "Título de imperio"
  son_prepare_troops_desc:0 "Ha llegado el momento de que Malí nos entregue su título. Su decadencia los debilitó y ahora solo son una sombra de lo que fueron en el pasado. Sin embargo, para reclamar el título de imperio de África Occidental, necesitamos demostrar nuestro poder sobrepasando a Malí en cualquier aspecto imaginable." # [LocEditor:AwaitingBatchUpdate]
  son_invade_mali_title:0 "Destruir Malí"
  son_invade_mali_desc:0 "Malí ha vivido más tiempo del que debía. ¡Es un acto de misericordia acabar con su sufrimiento e integrar su población en nuestro legítimo imperio!"
- son_west_african_great_power_title:0 "Conquistar África Occidental"
+ son_west_african_great_power_title:0 "África Occidental"
  son_west_african_great_power_desc:0 "Con la caída de Malí, nuestro mayor rival ha dejado de existir. Todo el Níger, Sahel y Guinea están ahí que los tomemos y así disputar el Magreb sin tener que preocuparnos por ataques desde nuestra propia región." # [LocEditor:AwaitingBatchUpdate]
  son_competence_in_court_title:0 "Mejorar la burocracia"
  son_competence_in_court_desc:0 "La burocracia no es un tema muy apasionante, pero es esencial para todo país con grandes ambiciones. Sin embargo, nuestra burocracia se encuentra en un estado espantoso. Tenemos que organizar nuestra administración antes de pensar siquiera en expandirnos." # [LocEditor:AwaitingBatchUpdate]
- son_military_expertise_title:0 "Profesionalidad del ejército"
+ son_military_expertise_title:0 "Ejército profesional"
  son_military_expertise_desc:0 "Muchos gobernantes de la dinastía Sonni no veían en cada campesino más que otro soldado potencial al que sacrificar en guerras sin sentido. Aunque esta actitud nos ayudó en el pasado a conseguir más reclutas, no era rentable, desde luego. Debemos abandonar esta actitud y crear un ejército profesional, dirigido por nuestr[Root.GetoaDir] [Root.Monarch.GetTitle] en persona." # [LocEditor:AwaitingBatchUpdate]
- son_win_battles_title:0 "Abrazar la gloria de la batalla"
+ son_win_battles_title:0 "La gloria de la batalla"
  son_win_battles_desc:0 "Un ejército profesional solo es un adorno bonito si no lo utilizamos. Debemos desatar su poder sobre nuestros enemigos y abrazar la gloria de la batalla."
  son_win_battles_bt:0 "El disparador de esta misión queda revelado cuando se complete la misión «§YProfesionalidad del ejército§!»."
  son_win_battles_ct:0 "Ganar al menos §Y30§! batallas (actualmente §Y[Root.son_fight_counter.GetValue]§!/§Y30§!).\nGanar batallas con ejércitos dirigidos por §Y[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]§! valen el doble."
@@ -1116,7 +1116,7 @@
  son_modernize_army_tt:0 "Ningún país del grupo tecnológico §Yoccidental§! tiene una tecnología militar superior a la de §Y[Root.GetName]§!."
  son_westernize_state_title:0 "Modernizar [Root.GetName]"
  son_westernize_state_desc:0 "Aunque nuestro ejército disfruta de reformas y modernización, nuestro/a [Root.GovernmentName] sigue manteniendo leyes antiguas y reglas de tiempos medievales y no se considera a nuestr[Root.GetoaDir] [Root.Monarch.GetTitle] [Root.GetellaDir] gobernante absolut[Root.GetoaDir] de [Root.GetName]. Debemos centrarnos en reorganizar nuestro gobierno y adoptar las muchas maravillas de la tecnología moderna." # [LocEditor:AwaitingBatchUpdate]
- son_stop_the_air_raids_title:0 "Detener las incursiones de Air"
+ son_stop_the_air_raids_title:0 "Incursiones de Air"
  son_stop_the_air_raids_desc:0 "Desde su nacimiento, el pueblo [Root.GetAdjective] ha tenido que rechazar las incursiones de [AIR.GetName]. Estar a la defensiva no es la solución; los tuaregs seguirán asaltando nuestras aldeas.\nNo, para terminar con esta amenaza tenemos que pasar a la ofensiva y eliminar la amenaza de [AIR.GetName]."
  son_take_djenne_title:0 "Conquistar [1134.GetName]"
  son_take_djenne_desc:0 "[1134.GetName] ha sido históricamente un centro importante de comercio en el Níger desde su fundación. Además, también alberga la Gran Mezquita de Djenné. En el pasado perteneció a nuestro rival, Malí, pero ahora es independiente (y un objetivo fácil).\nDebemos tomar el control sobre esta ciudad importante por la gloria de [Root.GetName]." # [LocEditor:AwaitingBatchUpdate]
@@ -1152,9 +1152,9 @@
  son_own_develop_clothes_and_salt_title:0 "Desarrollar sal y tela"
  son_own_develop_clothes_and_salt_desc:0 "El oro se considera un recurso inmensamente valioso en el mundo. Sin embargo, en África Occidental, este recurso solo es el segundo después de otro mucho más importante: la sal. Aunque el oro es útil para nuestro tesoro, no es comestible, por lo que aquí la sal tiene un gran valor.\nLuego está la tela, que es de gran importancia para proteger el cuerpo del calor del sol.\n\nDebemos desarrollar la producción de ambos bienes para abastecer nuestro mercado y ampliar nuestro comercio más allá incluso del Sahel y Níger." # [LocEditor:AwaitingBatchUpdate]
  son_own_develop_clothes_and_salt_ct:0 "[Root.GetName] consigue «§YProducción principal de sal y telas§!» durante §Y25 años§!, lo que da estos efectos:\nPoder comercial global: §G+25,0%§!\nToda provincia poseída que produzca §Ysal§! o §Ytela§!:\nBienes locales producidos: §G+0,50§!"
- son_gold_of_west_africa_title:0 "Riqueza de África Occidental"
+ son_gold_of_west_africa_title:0 "Riqueza de África"
  son_gold_of_west_africa_desc:0 "Nuestra región es conocida por sus ricas fuentes de oro. Debemos desarrollar la minería del oro y fundar mercados para distribuir el oro a los muchos rincones del mundo."
- son_dominate_west_african_trade_title:0 "Proteger el comercio de África Occidental"
+ son_dominate_west_african_trade_title:0 "Comercio de África"
  son_dominate_west_african_trade_desc:0 "Todo el comercio de África Occidental se realizará bajo nuestra supervisión. No podemos permitir que extranjeros y rivales encuentren el modo de explotar el comercio de nuestra región." # [LocEditor:AwaitingBatchUpdate]
  son_guarantee_the_fetishist_title:1 "[Root.GetPreviewColorSON]Garantizar las tradiciones antiguas[Root.GetPreviewColorSON_end]"
  son_guarantee_the_fetishist_desc:0 "[Root.GetName], como cualquier otro país africano, solía seguir las viejas tradiciones y la fe de sus antepasados. Aunque la clase superior ha abrazado la luz de Alá, nuestra población rural continúa siguiendo las tradiciones paganas. Debemos respetar nuestras raíces y garantizar la libertad de religión de nuestro pueblo."
@@ -1393,11 +1393,11 @@
  zan_discover_the_cape_desc:0 "Las tierras del sur han estado siempre envueltas en misterios, ¡quién sabe cuántas riquezas impensables se encontrarán allí! Debemos explorar esas tierras si queremos explotarlas."
  zan_colonize_the_cape_title:0 "Colonizar El Cabo"
  zan_colonize_the_cape_desc:0 "El extremo sur del continente es de vital importancia si queremos controlar el flujo del comercio que va hacia Occidente. Debemos establecer una presencia permanente allí con la que ejercer el control de todo el comercio."
- zan_settle_trade_posts_title:0 "Puestos comerciales de África"
+ zan_settle_trade_posts_title:0 "Comercio de África"
  zan_settle_trade_posts_desc:0 "Hay muchos lugares en el norte y el oeste donde el flujo comercial es notable. Debemos poseer esos lugares y hacernos con el control del comercio."
- zan_establish_contact_with_persia_title:0 "Volver a conectar con Persia"
+ zan_establish_contact_with_persia_title:0 "Conectar con Persia"
  zan_establish_contact_with_persia_desc:0 "Es bien sabido que nuestro antepasado, Ali ibn al-Hassan Shirazi era el hijo del emir persa de Shiraz. Debemos volver a conectar con nuestros orígenes ancestrales."
- zan_build_workshops_title:0 "Aumentar la producción de marfil"
+ zan_build_workshops_title:0 "Producción de marfil"
  zan_build_workshops_desc:0 "El marfil ha sido siempre una de nuestras fuentes principales de ingresos. Debemos hacer todos los esfuerzos posibles para aumentar su producción."
  zan_expand_the_capital_title:0 "Ampliar [1196.GetName]"
  zan_expand_the_capital_desc:0 "Nuestra capital es el símbolo que representa a nuestra nación y donde se localiza la mayor parte de nuestra riqueza. Debemos mejorarla y desarrollarla aún más para que se convierte en la ciudad más rica del mundo."
@@ -1412,7 +1412,7 @@
  zan_dominate_gulf_of_aden_title:0 "El golfo de Adén"
  zan_dominate_gulf_of_aden_desc:0 "El golfo de Adén siempre ha bullido de comercio. Debemos tomar un claro control sobre él y explotarlo para nuestro beneficio."
  zan_dominate_gulf_of_aden_ct:0 "§Y[Root.GetName]§! consigue una reclamación sobre todo centro de comercio costero en los nodos comerciales de §YGujurat§! y §YCoromandel§!."
- zan_centralize_trade_title:0 "Conseguir la hegemonía comercial"
+ zan_centralize_trade_title:0 "Hegemonía comercial"
  zan_centralize_trade_desc:0 "El comercio que fluye por nuestro país, así como el que corre hacia el oeste siguiendo la costa es una gran fuente de riqueza si podemos controlarlo. Deberíamos dominar por completo este comercio y, al mismo tiempo, dirigir todo el comercio circundante hacia nosotros si queremos obtener los máximos beneficios."
  zan_transport_fleet_title:0 "Preparar la invasión"
  zan_transport_fleet_desc:1 "La isla de Madagascar está justo delante de nuestras costas, una presa demasiado sabrosa para no hacerle caso. Y además, está llena de infieles. Debemos reclutar un ejército, una flota y prepararnos para conquistarla."

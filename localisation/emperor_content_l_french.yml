@@ -987,6 +987,7 @@
  shadow_kingdom.2.b:0 "Ces Italiens doivent être contrôlés"
  shadow_kingdom_emperor_gives_up_tt:1 "Les États italiens se trouvant au sein de l'Empire et ayant été placés sous contrôle §Yresteront§! dans l'Empire.\nCeux qui n'auront pas été placés sous contrôle en §Ysortiront§!.\n\n§YL'[Emperor.GetEmpereurImperatriceDirCap] va perdre §R0.2§! en autorité impériale par niveau de développement de chaque province sortant de l'Empire.§!"
  shadow_kingdom_incident_tt:0 "L'[Emperor.GetEmpereurImperatriceDirCap] a jusqu'à §Y1490§! pour réaffirmer son autorité sur les États italiens membres de l'Empire."
+ shadow_kingdom_incident_penalty_tt:0 "§R-0.2§! en autorité impériale par point de §Ydéveloppement§! dans les provinces italiennes quittant le §YSaint-Empire§!."
  shadow_kingdom.3.t:0 "Le royaume fantôme"
  shadow_kingdom.3.d:0 "En dépit de toute sa résolution à réaffirmer son autorité sur l'Italie, l'[Emperor.GetEmpereurImperatriceDir] [Emperor.Monarch.GetName] est toujours confronté[Emperor.GetXEDir] au refus opiniâtre de certains États de reconnaître la suprématie impériale. Tous ses efforts n'ont pas été vains, pourtant : tous ceux qui ont pu être contrôlés n'oseront plus défier l'Empire à nouveau."
  shadow_kingdom.3.a:0 "Le sort de l'Italie est donc décidé"

@@ -415,7 +415,7 @@
  NAVAL_DOCTRINE_COST:0 "Die Auswahl dieser Flottendoktrin kostet Euch $COST|Y2$¤, da Eure Flotte eine Kapazität von $SAILORS|Y0$ Seeleuten hat."
  NAVAL_DOCTRINE_NOT_AVAILABLE:1 "§RDiese Flottendoktrin ist für Euch nicht verfügbar:§!"
  NAVAL_DOCTRINE_CHANGE_TITLE:0 "Flottendoktrin wechseln"
- NAVAL_DOCTRINE_CHANGE_DESC:3 "Seid Ihr Euch sicher, dass Ihr Eure Flottendoktrin zu "$DOCTRINE|Y$" ändern wollt?" # [LocEditor:AwaitingBatchUpdate]
+ NAVAL_DOCTRINE_CHANGE_DESC:4 "Seid Ihr Euch sicher, dass Ihr Eure Flottendoktrin zu "$DOCTRINE|Y$" ändern wollt?"
  NAVAL_DOCTRINE_CHANGE_REMOVAL:0 "Eure momentane Doktrin $DOCTRINE|Y$ wird dabei entfernt und Ihr verliert alle ihre Vorteile."
  NAVAL_DOCTRINE_CURRENT:0 "Dies ist Eure momentane Doktrin."
  NAVAL_DOCTRINE_CANNOT_AFFORD:1 "§RIhr könnt es Euch momentan nicht leisten, Eure Flottendoktrin zu ändern.§!"
@@ -473,7 +473,7 @@
  MACRO_BUILD_MANUFACTORY_TITLE:0 "Manufakturen bauen"
  MACRO_BUILDING_LIST_WINDOW_MANUFACTORIES_TITLE:0 "Manufakturen bauen"
  MACRO_BUILDING_GENERIC_MANUFACTORY_TITLE:0 "§YManufaktur§!\n"
- IDEA_WILL_INCREASE_INNOVATIVENESS:0 "Wenn Ihr diese Idee jetzt auswählt, erhöht sich Eure §YInnovationsfähigkeit§! um $VAL|G$." # [LocEditor:AwaitingBatchUpdate]
+ IDEA_WILL_INCREASE_INNOVATIVENESS:1 "Wenn Ihr diese Idee jetzt auswählt, erhöht sich Eure §YInnovationsfähigkeit§! um $VAL|G$."
  TECH_WILL_INCREASE_INNOVATIVENESS:0 "\nWenn Ihr diese Technologie jetzt erforscht, erhöht sich Eure §YInnovationsfähigkeit§! um $VAL|G$."
  INNOVATIVENESS_INCREASE:0 " (Erhält $VAL|+1$ §YInnovationsfähigkeit§!)"
  INNOVATIVENESS_INCREASE_DAYS_LEFT:0 " (Erhält $VAL|+1$ §YInnovationsfähigkeit§!, $DAYS|Y$ Tage verbleibend)"

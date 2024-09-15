@@ -532,7 +532,7 @@
  RUS_ideas_start:1 "Russische Traditionen"
  RUS_ideas_bonus:1 "Russische Ambitionen"
  land_of_the_rus:0 "Land der Rus"
- land_of_the_rus_desc:0 "Die vereinten Rus werden eine Macht sein, mit der man rechnen muss." # [LocEditor:AwaitingBatchUpdate]
+ land_of_the_rus_desc:1 "Die vereinten Rus werden eine Macht sein, mit der man rechnen muss."
  life_long_conscription:0 "Lebenslange Wehrpflicht"
  life_long_conscription_desc:0 "Um unsere ständig wachsende Armeen zu ernähren, sollten wir die Bedingungen des Militärdienstes dahingehend erweitern, dass es eine lebenslange Verpflichtung wird. Dies wird soziale Mobilität für diejenigen bieten, die sonst ein Leben in niedrigeren Berufen führen würden und es wird uns eine zuverlässige Quelle an Soldaten für unsere kaiserlichen Bemühungen geben."
  russian_artillery_yard:0 "Russischer Artillerieumschlagplatz"
@@ -786,7 +786,7 @@
  the_qizilbash_desc:1 "Die Kizilbasch oder Rotköpfe sind eine schiitische Militärbewegung, die bereit sind zu kämpfen und zu sterben, um ihre religiösen Überzeugungen durchzusetzen. Sie möchten unseren Staat unterstützen und könnten die Spitze unserer Armee ausmachen."
  persian_rug_production:0 "Fördert die persische Teppichproduktion"
  persian_rug_production_desc:0 "Persien ist seit Langem für seine Teppichwaren bekannt. Doch als die Mongolen über unser Land hereinfielen, brachten sie große Verwüstung über unser Land. Wenn Persien sich erholen soll, müssen wir uns auf den Wiederaufbau der Wirtschaft konzentrieren. Es wird höchste Zeit für eine Rückbesinnung auf unsere klassischen Stärken."
- the_ghulams:0 "Gründet die Ghilmanen" # [LocEditor:AwaitingBatchUpdate]
+ the_ghulams:1 "Gründet die Ghilmanen"
  the_ghulams_desc:0 "In der Vergangenheit bestand unsere Armee vor allem aus Feudaltruppen (Kizilbasch), deren Loyalität in den meisten Fällen weniger der Krone als vielmehr sich selbst galt. Wir werden nun zur Verteidigung unseres Landes ein stehendes Heer mit professioneller Infanterie und Kavallerie gründen, deren Loyalität in erster Linie dem Schah gilt."
  improved_silk_road:0 "Verbessert die Seidenstraße"
  improved_silk_road_desc:0 "Ein System von verbesserten Straßen und Brücken, ein System von Wachtposten zum Schutze der Straßen (gegen geringe Gebühr) und eine Kette von Karawansereien, an denen eine Rast möglich ist. All dies hilft Kaufleuten bei ihrer Reise entlang der Seidenstraße und wirft dabei auch eine hübsche Summe für das Staatssäckel ab."
@@ -1025,7 +1025,7 @@
  regulations_for_mercenaries:0 "Regulierung der Söldnertruppen"
  regulations_for_mercenaries_desc:0 "Es mag sein, dass wir sie weder mögen, noch sie einsetzen möchten, doch wenn die Situation es vorschreibt, werden wir auf Söldner nicht verzichten können. Wenn wir Richtlinien für Söldner entwerfen, können wir ihre Rekrutierung schneller und damit kostengünstiger machen."
  repopulation_of_countryside:0 "Wiederbesiedelung der ländlichen Bezirke"
- repopulation_of_countryside_desc:0 "Seuchen, Kriege und Bürgerkrieg haben in den ländlichen Gebieten einen hohen Preis gefordert. Sie sind verwüstet und liegen seit Langem brach. Wir müssen Siedler dazu ermutigen, zum Wiederaufbau des Landes beizutragen, um unsere Wirtschaft zu stärken." # [LocEditor:AwaitingBatchUpdate]
+ repopulation_of_countryside_desc:1 "Seuchen, Kriege und Bürgerkrieg haben in den ländlichen Gebieten einen hohen Preis gefordert. Sie sind verwüstet und liegen seit Langem brach. Wir müssen Siedler dazu ermutigen, zum Wiederaufbau des Landes beizutragen, um unsere Wirtschaft zu stärken."
  byz_state_admin_reform:0 "Beginnt eine Verwaltungsreform"
  byz_state_admin_reform_desc:0 "Unser Verwaltungssystem ist ein Relikt aus längst vergangenen Tagen. Wir müssen es überarbeiten und tauglich für dieses moderne Zeitalter machen. Den Anfang soll das Steuersystem machen. Dort müssen wir Regierungsbeamte, die nach Fähigkeit befördert werden, einsetzen. Dies wird uns mehr Geld einbringen, ohne dass wir die Bauern härter besteuern müssten."
  byz_admin_power:0 "Delegierte Macht"
@@ -1033,7 +1033,7 @@
  merchant_class:0 "Byzantinische Kaufmannsschicht"
  merchant_class_desc:0 "Reichtum und Macht gehen Hand in Hand und früher war Konstantinopel einmal das Zentrum des Mittelmeerhandels. Vielleicht sind diese Zeiten wirklich vorbei, aber wir sollten dennoch den Ausbau zu einem noch wichtigeren Zentrum, als es ohnehin schon ist, fortsetzen."
  new_imperial_army:0 "Die neue imperiale Armee"
- new_imperial_army_desc:0 "In den glorreichen Epochen der byzantinischen Geschichte hatte das Reich eine glorreiche Armee, und auch die Gegenwart wird eine dieser glorreichen Epochen sein. Lasst uns die Armee reformieren und eine neue Streitmacht auf die Beine stellen, die aus noch fähigeren Männern besteht." # [LocEditor:AwaitingBatchUpdate]
+ new_imperial_army_desc:1 "In den glorreichen Epochen der byzantinischen Geschichte hatte das Reich eine glorreiche Armee, und auch die Gegenwart wird eine dieser glorreichen Epochen sein. Lasst uns die Armee reformieren und eine neue Streitmacht auf die Beine stellen, die aus noch fähigeren Männern besteht."
  ecumenical_patriarch:0 "Restauriert den Ökumenischen Patriarchen"
  ecumenical_patriarch_desc:0 "Unsere Heilige Kirche befindet sich seit Langem im Niedergang. Lasst uns dieses Amt in seiner früheren Herrlichkeit restaurieren und der Kirche neue Lebenskraft geben. "
  VIJ_ideas:0 "Vijaynagari-Ideen"
@@ -2471,9 +2471,9 @@
  sarkin_bayi_desc:0 "Der ständige Bedarf unseres Volkes an weiteren Arbeitskräften erfordert einen kontinuierlichen Strom von Sklaven. Es obliegt Zazzau, dem König der Sklaven, einen ständigen Strom von Sklaven in alle Großstädte der Hausastaaten zu sichern und somit sicherzustellen, dass wir niemals unser Volk zur Arbeit verpflichten müssen."
  borno_refugees:0 "Borno-Flüchtlinge"
  borno_refugees_desc:0 "Die Unruhen in den Landen im Osten trieben viele Flüchtlinge in unsere Lande. Von ihnen können wir viel von dem neuen Wissen über Reiche hinter unseren Grenzen erfahren und dies zum größeren Ruhm unseres Landes verwenden."
- TAR_ideas:0 "Purépechanische Ideen" # [LocEditor:AwaitingBatchUpdate]
- TAR_ideas_start:0 "Purépechanische Traditionen" # [LocEditor:AwaitingBatchUpdate]
- TAR_ideas_bonus:0 "Purépechanische Ambitionen" # [LocEditor:AwaitingBatchUpdate]
+ TAR_ideas:1 "Purépechanische Ideen"
+ TAR_ideas_start:1 "Purépechanische Traditionen"
+ TAR_ideas_bonus:1 "Purépechanische Ambitionen"
  copperworking:0 "Kupferverarbeitung"
  copperworking_desc:0 "Unsere Handwerker haben damit begonnen, Werkzeuge aus Metall zu fertigen, das sie in unseren Landen gefunden haben. Wenn wir dieses Handwerk meistern würden, würden wir einen immensen Vorteil gegenüber unseren Nachbarn erlangen."
  no_mercy:0 "Keine Gnade"
@@ -2486,7 +2486,7 @@
  fortified_frontier_desc:0 "Mit den mächtigen Reichen an unseren Grenzen, die ständig danach streben, unser Land zu erobern, müssen wir hervorragende Festungen instand halten, um sicherzustellen, dass ihre Angriffe keine Früchte tragen. Nur auf diese Weise können wir unser Land beschützen."
  otomi_settlements:0 "Otomi-Siedlungen"
  otomi_settlements_desc:0 "Das Volk der Otomi, das den Nordwesten bewohnt, ist bestrebt, sich in unseren Landen anzusiedeln. Wenn wir ihnen dies im Gegenzug für ihren Betrag zur Verteidigung des Reiches erlauben würden, dann würden wir wertvolle Männer für unsere Armeen gewinnen."
- tarascan_assmilation:0 "Purépechanische Assimilation" # [LocEditor:AwaitingBatchUpdate]
+ tarascan_assmilation:1 "Purépechanische Assimilation"
  tarascan_assmilation_desc:0 "Durch die vorsichtige Umsiedlung unseres Volkes in neu eroberte Gebiete, und indem wir sicherstellen, dass die Sprache der Purépecha zur allgemeinen Sprache des Reiches wird, können wir jene entfernt gelegenen Regionen schnell unter die vollständige Kontrolle des Reiches bringen und dafür sorgen, dass sie uns gegenüber loyal sind."
  AIR_ideas:0 "Aïrische Ideen"
  AIR_ideas_start:0 "Aïrische Traditionen"

@@ -126,6 +126,7 @@
  dlc042_ned_sprite_pack:0 "Niederlande (Great Nations)"
  dlc042_por_sprite_pack:0 "Portugal (Great Nations)"
  dlc042_tur_sprite_pack:0 "Osmanisches Reich (Great Nations)"
+ dlc042_rus_sprite_pack_culture_group:0 "Ostslawisch (Great Nations)"
  dlc043_frn_sprite_pack:0 "Frankfurt (Free Cities)"
  dlc043_ham_sprite_pack:0 "Hamburg (Free Cities)"
  dlc043_num_sprite_pack:0 "Nürnberg (Free Cities)"
@@ -285,7 +286,7 @@
  dlc116_FIN_sprite_pack:0 "Finnland (Scandinavian)"
  dlc116_SHL_sprite_pack:0 "Holstein (Scandinavian)"
  dlc116_DIT_sprite_pack:0 "Dithmarschen (Scandinavian)"
- dlc116_KRL_sprite_pack:0 "Karelien (Scandinavian)" # [LocEditor:AwaitingBatchUpdate]
+ dlc116_KRL_sprite_pack:0 "Karelien (Scandinavian)"
  dlc056_sie_sprite_pack:0 "Siena (Italian)"
  dlc057_mak_sprite_pack:0 "Makurien (East African)"
  dlc057_aju_sprite_pack:0 "Ajuuraan (East African)"
@@ -309,8 +310,8 @@
  dlc120_SUL_sprite_pack:0 "Philippinen (Domination)"
  dlc120_TOU_sprite_pack:0 "Toulouse (Domination)"
  dlc120_WUU_sprite_pack:0 "Südchina (Domination)"
- dlc120_MIA_sprite_pack:0 "Miao (Domination)" # [LocEditor:AwaitingBatchUpdate]
- dlc120_YI_sprite_pack:0 "Yi (Domination)" # [LocEditor:AwaitingBatchUpdate]
+ dlc120_MIA_sprite_pack:0 "Miao (Domination)"
+ dlc120_YI_sprite_pack:0 "Yi (Domination)"
 
  dlc129_ARM_sprite_pack:0 "Armenien (King of Kings)"
  dlc129_CYP_sprite_pack:0 "Zypern (King of Kings)"
@@ -329,8 +330,8 @@
  dlc137_WES_sprite_pack:0 "Westfälisch (Winds of Change)"
  dlc137_CRO_sprite_pack:0 "Kroatisch (Winds of Change)"
  dlc137_MOL_sprite_pack:0 "Moldawisch (Winds of Change)"
- dlc137_LOW_sprite_pack:0 "Niedersächsisch (Winds of Change)" # [LocEditor:AwaitingBatchUpdate]
- dlc137_SLO_sprite_pack:0 "Slowenisch (Winds of Change)" # [LocEditor:AwaitingBatchUpdate]
+ dlc137_LOW_sprite_pack:0 "Niedersächsisch (Winds of Change)"
+ dlc137_SLO_sprite_pack:0 "Slowenisch (Winds of Change)"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dlc106_aboriginal_sprite_pack:0 "Australische Aborigines"

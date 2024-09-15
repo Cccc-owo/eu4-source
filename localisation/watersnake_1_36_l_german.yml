@@ -1,11 +1,11 @@
 ﻿l_german:
- NO_NATIVES_BLACK_FLAG:0 "§REs ist nicht möglich, die Eingeborenen anzugreifen, während sich die Armee im Exil befindet.§!" # [LocEditor:AwaitingBatchUpdate]
- NO_SELECT_LEADER_SHIP:0 "§RDieser Anführer ist auf See und kann daher kein anderes Kommando übernehmen.§!" # [LocEditor:AwaitingBatchUpdate]
+ NO_NATIVES_BLACK_FLAG:1 "§REs ist nicht möglich, die Eingeborenen anzugreifen, während sich die Armee im Exil befindet.§!"
+ NO_SELECT_LEADER_SHIP:1 "§RDieser Anführer ist auf See und kann daher kein anderes Kommando übernehmen.§!"
  NATIVE_TRIBE_VAL:0 "Diese Nation nutzt KEINE Legitimitätsmechanik"
  DIPLO_RIVAL_ENEMIES_TOO_FAR_AWAY:0 "Krieg gegen einen weit entfernten Rivalen: "
  can_upgrade_trade_centre_instant:0 "§YHandelszentren können verbessert werden§!"
  can_upgrade_trade_centre_delayed:0 "Die folgenden Handelszentren können verbessert werden:\n$LIST$"
- TRADE_CENTRE_UP_WHERE:0 "$NAME|Y$ (Stufe $LEVEL$)" # [LocEditor:AwaitingBatchUpdate]
+ TRADE_CENTRE_UP_WHERE:1 "$NAME|Y$ (Stufe $LEVEL$)"
  can_estate_interaction_instant:0 "§YStandesinteraktionen verfügbar§!"
  can_estate_interaction_delayed:0 "Die folgenden Standesinteraktionen sind verfügbar:\n$LIST|Y$"
  COUNTRIES_CAUSING_CALL_TO_PEACE:0 "Die folgenden Nationen tragen dazu bei, dass sich die Kriegsmüdigkeit erhöht:\n$LIST|Y$"

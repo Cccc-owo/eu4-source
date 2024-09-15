@@ -177,7 +177,7 @@
  recruit_foreign_general_title:0 "Reclutar un general extranjero"
  recruit_foreign_general_desc:0 "Para reclutar un general tenderemos que pagar el equivalente de §R1§! año de nuestros ingresos a §Y[From.GetName]§! @[From.GetTag], pero a cambio nos dará §G10§! de tradición militar, y también §Ygenerará un general§! dependiendo de su §Yopinión§! sobre nosotros, así como su §Ytradición militar§!."
  recruit_foreign_general_tooltip:0 "Reclutar un general de su parte con su opinión y su tradición militar como factores."
- recruit_foreign_general_alert_tooltip:0 "[From.GetName] solicita que les demos algunos de nuestros generales. Esto hará que les paguemos §R10§! de Tradición militar, pero a cambio ganaremos el equivalente a sus ingresos de §G1§! año."
+ recruit_foreign_general_alert_tooltip:1 "Se ha pedido uno de nuestros generales."
  recruit_foreign_general_dialog:0 "[This.GetName] quiere reclutar uno de nuestros generales a cambio del equivalente a §G1§! año de sus ingresos. A cambio ganan Tradición militar §Y+10§! y un §Ygeneral§! a escala con nuestra opinión y Tradición militar."
 
  demand_sacrifices:0 "Exigir sacrificios"
@@ -800,7 +800,7 @@
  ORM_GRANT_DIPLO_POWER_PER_PROVINCE_THAT_MEETS_REQUIREMENTS:0 "Por cada provincia poseída que cumpla los §Yrequisitos§!, ganaremos Poder diplomático §G25§! hasta §Y10§! provincias."
  ORM_UNLOCK_ARABIC_MERCHANTS_BURGHERS_PRIVILEGE:1 "Desbloquea el privilegio estamental de los burgueses §YComerciantes árabes§!."
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_MERCHANT_BUFF:1 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Comerciantes: §G+1§!\n   Modificador de poder de comerciante situado: §G+10,0%§!"
- ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:1 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Coste de Barco ligero: §G-20,0%§!\n   Capacidad de combate de barco ligero: §G+30,0%§!"
+ ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_LIGHT_SHIPS_BUFF:2 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Coste de barco ligero: §G-20,0%§!\n   Modificador de poder comercial de barcos: §G+30,0%§"
  ORM_BUFF_ARABIC_MERCHANTS_PRIVILEGE_DIPLOMATIC_BUFF:1 "El privilegio de los burgueses §YComerciantes árabes§! dará:\n   Aceptación de transferir poder comercial: §G+30%§!\n   Modificador de Mejorar relaciones: §G+25,0%§!"
  ORM_BUFF_ARABIAN_MERCHANTS_PRIVILEGE_ARABIAN_TRADE_INFLUENCE:1 "El privilegio de los burgueses §YComerciantes árabes§! ahora dará Modificador de ganancia de mercantilismo árabe §G+15,0%§!."
  ORM_0_TOLERANCE_IBADI:0 "Nuestra tolerancia hacia la fe §Yibadí§! es al menos §Y0§!"
@@ -1492,6 +1492,7 @@
  
  german_cultural_disunity_reform:0 "Fragmentación cultural"
  german_cultural_disunity_reform_desc:0 "Siglos de fragmentación bajo el Sacro Imperio Romano han desunido gravemente a los alemanes. Necesitamos corregirlo."
+ GER_unlocked_via_kaiserreich:0 "Ha desbloqueado esta reforma mediante la misión «§YKaiserreich§!»."
  german_franconian_reform:0 "Imprenta de Núremberg"
  german_franconian_reform_desc:0 "El foco en la difusión del conocimiento nos ha puesto al frente de los avances intelectuales"
  german_westphalian_reform:0 "Piedad de Westfalia"
@@ -2486,7 +2487,7 @@
  NED_PRODUCTION_IN_ALL_COT_JAPAN_PROVINCES:1 "Toda provincia japonesa poseída con un §Ycentro de comercio§! ganará Producción base §G+1§!."
  NED_IF_RELATIONS_KYOTO:0 "Si la misión se cumplió mediante §Mrelaciones§!:"
  NED_BUFF_VOC_PRIVILEGE_TRADE_BUFFS:0 "El privilegio estamental de los burgueses §YVerenigde Oostindische Compagnie§! ahora dará:\n   Eficiencia comercial: §G+5,00%§!\n   Límite de fuerzas de VOC indiamen: §G+10,0%§!"
- NED_UPGRADE_ALL_GUINEA_COTS:0 "Mejora todos los §Ycentros de comercio§! de la región de §YGuinea§!."
+ NED_UPGRADE_ALL_GUINEA_COTS:1 "Mejora todos los §Ycentros de comercio§! de la región de §YGuinea§!. Ningún §Ycentro de comercio§! de nivel 2 puede llegar a ser de nivel 3 si ya existe uno."
  NED_BUFF_NEW_WORLD_CHARTERS:0 "El privilegio estamental de los burgueses §YConceder Privilegios del Nuevo Mundo§! ahora dará:\n   Modificador de límite de fuerzas navales: §G+5,00%§!"
  NED_UNLOCKS_ABOLISHMENT_OF_SLAVERY_EARLIER:0 "Podremos §Yabolir la esclavitud§! sin tener que estar en la §YEra de las Revoluciones§!."
  ned_remove_embezzler_rulers:0 "Sin gobernantes desfalcadores"
@@ -3543,6 +3544,69 @@
  has_won_at_least_475_wars:2 "Ha §Yganado§! al menos §G475§! guerras. (Ahora: §Y[GetNumWars]§!)"
  has_won_at_least_500_wars:2 "Ha §Yganado§! al menos §G500§! guerras. (Ahora: §Y[GetNumWars]§!)"
 
+ unlocked_TIM_plunder_economy_tt:0 "Ha desbloqueado la reforma gubernamental «§YEconomía de pillaje§!»."
+ unlocked_timurid_diwan_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YDiwán timúrida§!»."
+ unlocked_crusader_nobility_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YOrden cruzada§!»."
+ unlocked_ven_promissione_ducale_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPromissione Ducale§!»."
+ unlocked_merchant_representation_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YComités de comerciantes§!»."
+ unlocked_imperial_hungarian_government_tt:0 "Ha desbloqueado la reforma gubernamental «§YMonarquía imperial húngara§!»."
+ unlocked_bergordnung_reforms_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YReformas de la Bergordnung§!»."
+ unlocked_vozove_hradby_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YTácticas de Wagenburg§!»."
+ unlocked_merchant_theocracy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPlutocracia bendecida§!»."
+ unlocked_reformer_state_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPlutocracia salvífica!»."
+ unlocked_allotment_system_tt:0 "Ha desbloqueado la reforma gubernamental «§YSistema de asignación§!» para las monarquías."
+ unlocked_crusading_kingdom_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YOrden cruzada§!»."
+ unlocked_militarized_crusader_order_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YImperio cruzado§!»."
+ unlocked_holy_horde_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YHorda santa§!»."
+ unlocked_absolutist_france_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YMonarquía absoluta francesa§!»."
+ unlocked_expanded_devshirme_system_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YSistema devshirme ampliado§!»."
+ unlocked_ottoman_siyasah_tax_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YSistema tributario otomano siyasa§!»."
+ unlocked_fiqh_laws_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YLeyes del fiqh§!»."
+ unlocked_sufism_decree_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YDecreto sobre el sufismo§!»."
+ unlocked_ottoman_conscription_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YReclutamiento otomano§!»."
+ unlocked_reformed_ottoman_conscription_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YReclutamiento sekban§!»."
+ unlocked_mansure_army_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YEjército Mansure§!»."
+ unlocked_janissary_military_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YJenízaros reformados§!»."
+ unlocked_standardized_millets_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YMillets homogeneizados§!»."
+ unlocked_modernized_ottoman_government_tt:0 "Ha desbloqueado la reforma gubernamental «§YGobierno otomano modernizado§!»"
+ unlocked_reorganized_ottoman_government_tt:0 "Ha desbloqueado la reforma gubernamental «§YGobierno otomano reorganizado§!»"
+ unlocked_russian_empire_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YImperio ruso§!»."
+ unlocked_great_russian_republic_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YGran federación rusa§!»."
+ unlocked_professional_navy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YJunta del almirantazgo§!»."
+ unlocked_thalassocracy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YTalasocracia§!»."
+ unlocked_governing_senate_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YSenado Gobernante§!»."
+ unlocked_enforced_autocracy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YAutocracia impuesta§!»."
+ unlocked_holy_synod_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YSantísimo Sínodo Gobernante§!»."
+ unlocked_strengthened_the_patriarchy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YReforzó el Patriarcado§!»."
+ unlocked_head_of_the_patriarchy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YJefe del Patriarcado§!»."
+ unlocked_tysyatsky_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YOficio de týsiatski§!»."
+ unlocked_namestnik_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPuesto de namestnik§!»."
+ unlocked_oprichnina_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YFuerzas de la oprichnina§!»."
+ unlocked_anglican_state_church_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YIglesia estatal anglicana§!»."
+ unlocked_english_conciliarism_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YConciliarismo de las iglesias§!»."
+ unlocked_direct_royal_administration_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YAdministración real directa§!»."
+ unlocked_administration_of_the_parliament_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YAdministración parlamentaria§!»."
+ unlocked_royal_charters_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YMonopolios reales§!»."
+ unlocked_commercial_trade_empire_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPolítica de comercio mundial británico§!»."
+ unlocked_peters_government_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YTabla de rangos§!»."
+ unlocked_irish_highkingdom_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YGran reino irlandés§!»."
+ unlocked_caliphate_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YCalifato§!»."
+ unlocked_roman_empire_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YImperio romano§!»."
+ unlocked_roman_republic_government_tt:0 "Ha desbloqueado la reforma gubernamental «§YRepública romana§!»."
+ unlocked_the_cawa_regiments_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YConceder privilegios para los cawa§!»."
+ unlocked_legacy_of_timur_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YLegado de Tamerlán§!»."
+ unlocked_legacy_of_the_safavid_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YLegado de los safávidas§!»."
+ unlocked_legacy_of_eranshahr_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YLegado de Eranshahr§!»."
+ unlocked_legacy_of_the_seljuk_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YLegado de los selyúcidas§!»."
+ unlocked_court_of_art_and_culture_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YCorte de arte y cultura§!»."
+ unlocked_theme_system_reform_tt:0 "Ha desbloqueado la reforma gubermanmental «§YEl sistema de temas§!»."
+ unlocked_modernized_furusiyya_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YFurusiyya modernizado§!»."
+ unlocked_karimi_stations_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YPuestos de karimis§!»."
+ unlocked_state_madrasas_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YMadrasas estatales§!»."
+ unlocked_integrated_ottoman_officials_tt:0 "Ha desbloqueado la reforma gubernamental «§YFuncionarios otomanos integrados§!»."
+ unlocked_divided_aristocracy_reform_tt:0 "Ha desbloqueado la reforma gubernamental «§YAristocracia dividida§!»."
+
+ bohemia_abolished:0 "Ha abolido la monarquía electiva bohemia."
 
  CSU_ground_shaker_title:0 "El que cambia la tierra"
  CSU_ground_shaker_desc:2 "La historia de Cusi Yupanqui, llamado Pachacuti –el Reformador o El que cambia la tierra– es famosa. Uno de los hijos de los incas de Cuzco, cuyo padre abandonó la ciudad ante la llegada del ejército chanca. Pachacuti se quedó y con valentía derrotó al ejército invasor con el favor de los dioses. O eso cuenta la leyenda, pues los detalles de estos eventos han variado para adaptarse a las necesidades posteriores de sus herederos."
@@ -4373,9 +4437,9 @@
  gma_svatopluks_legacy:0 "Legado de Svatopluk"
  gma_svatopluks_legacy_desc:0 "Svatopluk fue un rey de Moravia bajo cuyo reinado, la Gran Moravia alcanzó su expansión territorial máxima. Gobernó con puño de hierro, lo que, combinado con su destreza diplomática, le permitió rechazar los poderosos ejércitos de la Francia Oriental, así como las hordas magiares paganas. Su legado inspirará a nuestra nación para que podamos revivir de nuevo los gloriosos días de su reinado."
  #Missions
- boh_shield_of_the_true_faith_title:0 "[Root.GetPreviewColorBOH]Escudo de la fe verdadera[Root.GetPreviewColorBOH_end]"
+ boh_shield_of_the_true_faith_title:0 "[Root.GetPreviewColorBOH_RELIGION]Escudo de la fe verdadera[Root.GetPreviewColorBOH_RELIGION_end]"
  boh_shield_of_the_true_faith_desc:0 "Hemos demostrado nuestra habilidad para luchar contra las herejías que amenazaban la cristiandad. Asumamos oficialmente el título de protectores de nuestra fe, para poder alzarnos orgullosos como los campeones de la cruz."
- boh_catholic_empire_title:0 "[Root.GetPreviewColorBOH]Imperio católico[Root.GetPreviewColorBOH_end]"
+ boh_catholic_empire_title:0 "[Root.GetPreviewColorBOH_RELIGION]Imperio católico[Root.GetPreviewColorBOH_RELIGION_end]"
  boh_catholic_empire_desc:0 "Como el escudo de nuestra fe, es nuestro deber sagrado defender las enseñanzas verdaderas de aquellos que desean corromperlas. ¡Debemos tomar una postura dura contra las herejías que se extienden por el imperio y hacer que el Sacro Imperio Romano vuelva a ser sacro!"
  boh_hungarian_succession_title:0 "La sucesión húngara"
  boh_hungarian_succession_desc:0 "Hasta hace muy poco, la Santa Corona de Hungría estuvo bajo nuestro control. La devastadora derrota en la batalla de Varna ha dejado vacante el trono en Buda, lo que nos da la oportunidad de reivindicar nuestros derechos y retomarlo de nuevo."
@@ -4862,7 +4926,7 @@
  moghulistan_at_the_centre_of_asia_title:0 "En el centro de Asia"
  moghulistan_at_the_centre_of_asia_desc:0 "No debe quedar ningún kan en Asia Central que desafíe nuestra autoridad. Nuestro dominio sobre la región debe ser absoluto."
 
- moghulistan_revenge_against_timur_title:0 "Venganza contra Tamerlán"
+ moghulistan_revenge_against_timur_title:0 "Vengarse de Tamerlán"
  moghulistan_revenge_against_timur_desc:0 "Tamerlán arrasó muchas tierras mongolas y tártaras en el pasado. Ahora su imperio está al borde de desmoronarse. Ahora que tenemos esa oportunidad a nuestras puertas, destruyamos el imperio que levantó."
 
  moghulistan_into_iran_title:0 "Entrar en Irán"
@@ -4898,7 +4962,7 @@
  moghulistan_pax_mongolica_title:0 "Pax Mongolica"
  moghulistan_pax_mongolica_desc:0 "Se dice que bajo el gobierno de los grandes kanes del pasado una mujer podía ir de un extremo del imperio al otro con una pepita de oro sobre la cabeza sin temor. Restauraremos esta paz en nuestras tierras."
 
- moghulistan_secure_trade_posts_title:0 "Conseguir las ciudades mercantes"
+ moghulistan_secure_trade_posts_title:0 "Ciudades mercantes"
  moghulistan_secure_trade_posts_desc:0 "Asia Central se puede considerar el cruce de caminos entre China, Europa Oriental y Persia. Por ese motivo muchos comerciantes han fundado centros de comercio en estas tierras. Apoderemos de ellos y de su riqueza."
 
  moghulistan_control_over_northern_yuan_title:0 "Controlar Yuan del norte"
@@ -4928,7 +4992,7 @@
  moghulistan_japan_title:0 "Aplacar el viento divino"
  moghulistan_japan_desc:0 "Tal vez una de las derrotas más conocidas de nuestra historia militar es aquella contra el viento divino de Japón. Una flota y ejércitos enteros fueron aniquilados sin que los japoneses tuvieran que levantar un dedo ya que las tormentas destrozaron todas las embarcaciones que tuvieron la desgracia de intentar invadir. Sin embargo, por muy divino que sea ese viento, somos los mongoles y dominaremos hasta la más poderosa de las tormentas."
 
- moghulistan_land_raids_title:0 "Más incursiones terrestres"
+ moghulistan_land_raids_title:0 "Más incursiones"
  moghulistan_land_raids_desc:0 "Las distintas tribus nómadas de nuestro país siempre han salido a saquear y conquistar en nombre de la riqueza. Ayudémosles en estas empresas."
 
  mongols_kazakhs_title:0 "Pueblo kazajo"
@@ -5351,6 +5415,8 @@
  mongol_brother_realm_title:0 "País hermano mongol"
  mongol_brother_realm_title_plural:0 "Países hermanos mongoles"
  is_mongol_brother_realm:0 "Es un país hermano mongol"
+ mongol_brother_realm_no_overlord_dow:0 "No podemos declarar la guerra a nuestros súbditos de un país hermano mongol."
+
  
  #Decisions:
  hordes_restore_yuan_title:0 "Restaurar el Gran Yuan"
@@ -5417,8 +5483,8 @@
  tre_caucasus_conquest_tt_no:0 "\n£no£ Si cumplimos esta misión mediante §Tconquista§!, recibiremos:"
  tre_can_earn_both_advisors:0 "\nPodemos ganar ambas recompensas de esta misión si cumplimos ambos requisitos."
  tre_claim_caucasus:0 "§Y[Root.GetName]§! consigue una reclamación sobre todas las provincias de §YCaucasia§! que no pertenezcan a nuestros §Yaliados§!."
- tre_most_development_tt_yes:1 "\n£yes£ Si cumplimos esta misión sin que ninguna provincia costera lindante con el §Ymar Negro§! tenga más desarrollo que §Y[330.GetName]§!, también recibiremos:"
- tre_most_development_tt_no:1 "\n£nos£ Si cumplimos esta misión sin que ninguna provincia costera lindante con el §Ymar Negro§! tenga más desarrollo que §Y[330.GetName]§!, también recibiremos:"
+ tre_most_development_tt_yes:2 "\n£yes£ Si cumplimos esta misión sin que ninguna provincia costera con puerto en el §Ymar Negro§! tenga más desarrollo que §Y[330.GetName]§!, también recibiremos:"
+ tre_most_development_tt_no:2 "\n£no£ Si cumplimos esta misión sin que ninguna provincia costera con puerto en el §Ymar Negro§! tenga más desarrollo que §Y[330.GetName]§!, también recibiremos:"
  tre_metropolitan_permanent_yes:0 "£yes£ Si cumplimos esta misión siendo el §YDefensor de la fe§!, el modificador «§YMetropolitano de Trebisonda§!» será §Gpermanente§!."
  tre_metropolitan_permanent_no:0 "£no£ Si cumplimos esta misión siendo el §YDefensor de la fe§!, el modificador «§YMetropolitano de Trebisonda§!» será §Gpermanente§!."
  tre_metropolitan_double_bonus_negate_tt:1 "§YConsagrar un metropolitano§! ahora da a las provincias afectadas un modificador provincial que concede Mantenimiento del estado §G-10,0%§! y devastación mensual §G-0,05§!.\n"
@@ -5448,8 +5514,8 @@
  tre_vassal_theodoro_tt_no:0 "\n£no£ Si cumplimos esta misión mediante el §Tvasallaje§! de §Y[FEO.GetName]§! @FEO, recibiremos:"
  tre_conquest_theodoro_tt_yes:0 "\n£yes£ Si cumplimos esta misión mediante la §Tconquista§! de §Y[FEO.GetName]§! @FEO, recibiremos:"
  tre_conquest_theodoro_tt_no:0 "\n£no£ Si cumplimos esta misión mediante una §Tconquista§! de §Y[FEO.GetName]§! @FEO, recibiremos:"
- tre_black_sea_claim_tt:1 "§Y[Root.GetName]§! consigue una reclamación sobre toda provincia costera que linde con el §Ymar Negro§!."
- tre_black_sea_perma_claim_tt:1 "§Y[Root.GetName]§! consigue una reclamación permanente sobre toda provincia costera que linde con el §Ymar Negro§!."
+ tre_black_sea_claim_tt:2 "§Y[Root.GetName]§! consigue una reclamación sobre toda provincia costera con puerto en el área del §Ymar Negro§!."
+ tre_black_sea_perma_claim_tt:2 "§Y[Root.GetName]§! consigue una reclamación permanente sobre toda provincia costera con puerto en el área del §Ymar Negro§!."
  tre_3_allies_tt_yes:0 "\n£yes£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, ganaremos §YG5§! favores con todos nuestros aliados."
  tre_3_allies_tt_no:0 "\n£no£ Si cumplimos esta misión teniendo al menos §Y3§! alianzas, ganaremos §YG5§! favores con todos nuestros aliados."
  tre_ottoman_humiliated_tt_yes:0 "\n£yes£ Si cumplimos esta misión habiendo §Yhumillado§! a los §Yotomanos§! @TUR, también recibiremos:"
@@ -6854,7 +6920,7 @@
  yua_four_great_schools_title:0 "Cuatro grandes escuelas"
  yua_four_great_schools_desc:0 "Las cuatro grandes escuelas de la medicina siempre han estado divididas en China. Si encontramos un modo de unir sus teorías, tal vez podríamos progresar en nuestro conocimiento de la vida y la muerte."
 
- yua_censorate_title:0 "El antiguo censorado"
+ yua_censorate_title:3 "El antiguo Censorado"
  yua_censorate_desc:0 "Una rama muy eficiente de nuestro gobierno, debemos dar nuestros máximos esfuerzos para asegurarnos del progreso continuo de centralización y de eficiencia burocrática para estar a la altura del tamaño de nuestro enorme país."
 
  yua_sinicizition_title:0 "Sistema de las cuatro clases"
@@ -7050,6 +7116,19 @@
  hungarian_revolt_events.7.d:0 "Parte de nuestra nación cree que llevamos demasiado tiempo oprimiendo a otras minorías étnicas. Ahora que el país está sublevado han aprovechado la oportunidad para protestar contra nosotros."
  hungarian_revolt_events.7.a:0 "Malditos sean…"
  
+ hungarian_revolt_events.8.t:0 "Los húngaros se unen a [From.GetName]"
+ hungarian_revolt_events.8.d:0 "Si bien súbditos [Root.GetdeldelaDir] [Root.Monarch.GetTitle] y de la nación de [Root.GetName], los húngaros han sentido renacer su deseo de separarse de nosotros. La formación de [From.GetName] ha otorgado a los húngaros una gran cantidad de privilegios que serían impensables en nuestro estado, ¡y por lo tanto, quien fuera en el pasado nuestro leal títere, ha decidido separarse de nosotros!"
+ hungarian_revolt_events.8.a:0 "¡Los traeremos de vuelta a la fuerza!"
+ hungarian_revolt_events.8.b:0 "Malditos sean…"
+
+ hungarian_revolt_events.9.t:0 "¡Los húngaros se unen a nosotros!"
+ hungarian_revolt_events.9.d:0 "Con la formación de [Root.GetName], húngaros de todos los rincones de Europa han decidido acudir en masa a nuestra nación para disfrutar de sus nuevos privilegios. Pero no solo han venido las gentes, [HUN.GetName] ha decidido unirse y, por tanto, deshacer su voluntad de servir a [From.GetName]. Por desgracia para nosotros, [From.GetellaDir] [From.Monarch.GetTitle] no comparte tal sentimiento y nos ha declarado la guerra para reclamar los territorios perdidos, aunque puede que la opinión mundial nos culpe a nosotros de este conflicto…"
+ hungarian_revolt_events.9.a:0 "¡A las armas!"
+
+ hungarian_revolt_events.10.t:0 "¡Los húngaros se unen a nosotros!"
+ hungarian_revolt_events.10.d:0 "Con la formación de [Root.GetName], húngaros de todos los rincones de Europa han decidido acudir en masa a nuestra nación para disfrutar de sus nuevos privilegios. Pero no solo han venido las gentes, [HUN.GetName] ha decidido unirse y, por tanto, deshacer su voluntad de servir a [From.GetName]."
+ hungarian_revolt_events.10.a:0 "¡Una sorpresa agradable!"
+ 
  HAB_EVERY_HUNGARIAN_PROVINCE_GAINS_35_AUTONOMY:0 "Toda provincia núcleo §Yhúngara§! ganará un §R35%§! de autonomía."
  HAB_ALL_HUNGARIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:0 "Toda provincia núcleo §Yhúngara§! perderá un §R50%§! de autonomía y ganará:"
  
@@ -7087,6 +7166,19 @@
  austrian_revolt_events.3.b:0 "Victoria para la corona de [Root.Monarch.GetName]."
  austrian_revolt_events.3.c:0 "¡Un día regresaremos!"
  austrian_revolt_events.3.dd:0 "Quizás podríamos llegar a un compromiso en nuestras propias condiciones…"
+ 
+ austrian_revolt_events.8.t:0 "¡Los austriacos se unen a [From.GetName]"
+ austrian_revolt_events.8.d:0 "Si bien súbditos [Root.GetdeldelaDir] [Root.Monarch.GetTitle] y de la nación de [Root.GetName], los austriacos han sentido renacer su deseo de separarse de nosotros. La formación de [From.GetName] ha otorgado a los austriacos una gran cantidad de privilegios que serían impensables en nuestro estado, ¡y por lo tanto, quien fuera en el pasado nuestro leal títere, ha decidido separarse de nosotros!"
+ austrian_revolt_events.8.a:0 "¡Los traeremos de vuelta a la fuerza!"
+ austrian_revolt_events.8.b:0 "Malditos sean…"
+
+ austrian_revolt_events.9.t:0 "¡Los austriacos se unen a nosotros!"
+ austrian_revolt_events.9.d:0 "Con la formación de [Root.GetName], austriacos de todos los rincones de Europa han decidido acudir en masa a nuestra nación para disfrutar de sus nuevos privilegios. Pero no solo han venido las gentes, [HAB.GetName] ha decidido unirse y, por tanto, deshacer su voluntad de servir a [From.GetName]. Por desgracia para nosotros, [From.GetellaDir] [From.Monarch.GetTitle] no comparte tal sentimiento y nos ha declarado la guerra para reclamar los territorios perdidos, aunque puede que la opinión mundial nos culpe a nosotros de este conflicto…"
+ austrian_revolt_events.9.a:0 "¡A las armas!"
+
+ austrian_revolt_events.10.t:0 "¡Los austriacos se unen a nosotros!"
+ austrian_revolt_events.10.d:0 "Con la formación de [Root.GetName], austriacos de todos los rincones de Europa han decidido acudir en masa a nuestra nación para disfrutar de sus nuevos privilegios. Pero no solo han venido las gentes, [HAB.GetName] ha decidido unirse y, por tanto, deshacer su voluntad de servir a [From.GetName]."
+ austrian_revolt_events.10.a:0 "¡Una sorpresa agradable!"
  
  AustrianRevolutionCompromise:0 "Ha llegado el fin de la Revolución austriaca. Ninguno de los bandos fue capaz de salir victorioso, así que los líderes de ambos partidos llegaron a un compromiso. En lugar de un estado austriaco independiente, o de que la corona húngara se impusiera en lo más alto, la creación de Austria-Hungría fue la mejor solución. Ahora los nobles austriacos disfrutan de una posición elevada en [Root.GetName]."
  AustrianRevolutionVictory:0 "Ha llegado el fin de la Revolución austriaca. Pese a la valiente resistencia de los austriacos, la corona de [Root.GetName] se ha alzado victoriosa. Ahora el destino de Austria está en sus manos."
@@ -7218,6 +7310,8 @@
 
  become_an_empire_tt:0 "Conseguiremos el rango de §Yimperio§!"
  boh_has_unlocked_great_moravia:0 "Ha desbloqueado §YGran Moravia§! @GMA al cumplir la misión «§YReforjar la Gran Moravia§!»."
+
+ # [LocEditor:UntranslatedKey] `black_army_reform_flag`
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===

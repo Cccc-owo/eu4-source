@@ -709,7 +709,7 @@
  COT_NO_OF_LEVEL:0 "Kein Handelszentrum der Stufe $LEVEL|Y$\n"
  COT_OF_LEVEL:0 "Mindestens ein Handelszentrum der Stufe $LEVEL|Y$\n"
  COT_NO_OF_LEVEL_PROVINCE:0 "Kein Handelszentrum der Stufe $LEVEL|Y$\n"
- COT_OF_LEVEL_PROVINCE:0 "Mindestens ein Handelszentrum der Stufe $LEVEL|Y$\n"
+ COT_OF_LEVEL_PROVINCE:1 "Die Provinz hat ein Handelszentrum der Stufe $LEVEL|Y$\n"
  COT_LESS_THAN:0 "Hat weniger als $NUM|Y$ Handelszentren\n"
  COT_AT_LEAST:0 "Hat mindestens $NUM|Y$ Handelszentren\n"
  COT_PROVINCE_GLOBAL_MODIFIER:0 "§Y$PROVINCE$:§! $NAME$"

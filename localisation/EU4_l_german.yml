@@ -259,7 +259,7 @@
  obj_parliament:0 "Parlament"
  obj_parliament_desc:0 "Habt eine Regierungsform mit einem Parlament."
  obj_emperor:0 "Kaiser"
- obj_emperor_desc:0 "Seid Kaiser von China, vom Heiligen Römischen Reich oder gründet Euer eigenes Reich!" # [LocEditor:AwaitingBatchUpdate]
+ obj_emperor_desc:1 "Seid Kaiser von China, vom Heiligen Römischen Reich oder gründet Euer eigenes Reich!"
  obj_large_subject:0 "Mächtiger Untertan"
  obj_large_subject_desc:0 "Habt einen Untertanen mit mehr als 250 Entwicklung."
  obj_disc_army:0 "Hohe Disziplin"
@@ -486,8 +486,8 @@
  CONSORT_RELIGION_IS:0 "Gemahl ist $REL|Y$.\n"
  RULER_RELIGION_IS_NOT:0 "Herrscher ist NICHT $REL|Y$.\n"
  RULER_RELIGION_IS:0 "Herrscher ist $REL|Y$.\n"
- HAS_GOVERNMENT_MECHANIC:0 "Regierung hat die $MECHANIC|Y$-Mechanik.\n" # [LocEditor:AwaitingBatchUpdate]
- NOT_HAS_GOVERNMENT_MECHANIC:0 "Regierung hat nicht die $MECHANIC|Y$-Mechanik.\n" # [LocEditor:AwaitingBatchUpdate]
+ HAS_GOVERNMENT_MECHANIC:1 "Regierung hat die $MECHANIC|Y$-Mechanik.\n"
+ NOT_HAS_GOVERNMENT_MECHANIC:1 "Regierung hat nicht die $MECHANIC|Y$-Mechanik.\n"
  GOVERNMENT_RANK_BENEFITS_TITLE:0 "Der Regierungsrang $RANK|Y$ gibt die folgenden Vorteile:\n"
  CHAR_CULTURE_CHANGE:0 "$WHO$ wird $CUL|Y$.\n"
  CHAR_RELIGION_CHANGE:0 "$WHO$ wird $REL|Y$.\n"
@@ -986,8 +986,8 @@
  cas_civil_war_interferance:0 "In interne Angelegenheiten eingemischt"
  cas_civil_war_support:0 "Einmischung in Bürgerkrieg"
  castilian_civil_war.1.t:0 "Kastilischer Bürgerkrieg"
- castilian_civil_war.1.d:0 "Im vergangenen Jahrzehnt hat der kastilische Adel immer wieder versucht, sich in die Erbfolge der kastilischen Krone einzumischen und nicht einmal davor zurückgeschreckt, sich mit fremdländischen Mächten zu verbünden. Eine neue solche Schlacht scheint bevorzustehen, und die Erbfolge wird erneut infrage gestellt. Die zukünftige Legitimität des kastilischen Throns wird von einigen führenden Adligen angezweifelt, die einen Verwandten des Königs bevorzugen, der mit der Krone Aragons im Bunde steht. Inzwischen versuchen sich die Unterstützer der gegenwärtigen Regierung der portugiesischen Krone anzunähern, um die Position ihres Kandidaten zu sichern.\n\nDie Lage hat sich nun zum offenen Konflikt hochgeschaukelt und es scheint immer wahrscheinlicher, dass die Fraktion ohne königliche Unterstützung versuchen wird, ihren Kandidaten direkt auf den Thron zu setzen, statt ihn in der Thronfolge zu lassen. Manche Teile des Adels sind noch unentschlossen, und einige haben beschlossen, diese Gelegenheit zu nutzen, um gegen einen als solchen wahrgenommenen Verstoß gegen ihre alten Rechte im Allgemeinen zu protestieren." # [LocEditor:AwaitingBatchUpdate]
- castilian_civil_war.1.a:0 "Sucht Unterstützung in Portugal." # [LocEditor:AwaitingBatchUpdate]
+ castilian_civil_war.1.d:1 "Im vergangenen Jahrzehnt hat der kastilische Adel immer wieder versucht, sich in die Erbfolge der kastilischen Krone einzumischen und nicht einmal davor zurückgeschreckt, sich mit fremdländischen Mächten zu verbünden. Eine neue solche Schlacht scheint bevorzustehen, und die Erbfolge wird erneut infrage gestellt. Die zukünftige Legitimität des kastilischen Throns wird von einigen führenden Adligen angezweifelt, die einen Verwandten des Königs bevorzugen, der mit der Krone Aragons im Bunde steht. Inzwischen versuchen sich die Unterstützer der gegenwärtigen Regierung der portugiesischen Krone anzunähern, um die Position ihres Kandidaten zu sichern.\n\nDie Lage hat sich nun zum offenen Konflikt hochgeschaukelt und es scheint immer wahrscheinlicher, dass die Fraktion ohne königliche Unterstützung versuchen wird, ihren Kandidaten direkt auf den Thron zu setzen, statt ihn in der Thronfolge zu lassen. Manche Teile des Adels sind noch unentschlossen, und einige haben beschlossen, diese Gelegenheit zu nutzen, um gegen einen als solchen wahrgenommenen Verstoß gegen ihre alten Rechte im Allgemeinen zu protestieren."
+ castilian_civil_war.1.a:1 "Sucht Unterstützung in Portugal."
  castilian_civil_war.1.a.tt:0 "Wird uns §YPortugal§! näherbringen."
  castilian_civil_war.1.b:0 "Unterstützt den Kandidaten Aragóns."
  castilian_civil_war.1.b.tt:0 "Wird uns §YAragón§! näherbringen."
@@ -1303,7 +1303,7 @@
  HAS_NO_TRADER_IS_NODE:0 "§Y$WHO$§! hat KEINEN Händler in §Y$NAME$§!\n"
  HAS_TRADER_IS_NODE:1 "§Y$WHO$§! hat einen Händler in §Y$NAME$§!\n"
  ACTUALPOWER_MODIFIER:0 "Modifiziert durch $VAL$.\n"
- RELIGION_CHANGE:1 "§Y$NEW$§W ist nun die neue Staatsreligion von $WHO$.\nDies wird außerdem für die Herrscher und deren mögliche Erben gelten.\n" # [LocEditor:AwaitingBatchUpdate]
+ RELIGION_CHANGE:2 "§Y$NEW$§W ist nun die neue Staatsreligion von $WHO$.\nDies wird außerdem für die Herrscher und deren mögliche Erben gelten.\n"
  JOIN_LEAGUE:0 "$WHO$ tritt der §Y$RELIGION$ Liga§! bei.\n"
  LEAVE_LEAGUE:0 "$WHO$ verlässt die §Y$RELIGION$ Liga§!.\n"
  WEXTITLE:0 "Kriegsmüdigkeit"
@@ -1399,7 +1399,7 @@
  POOL_HAS_MP:0 "Mit §Y$POOL$§! Männern, die ihre Rekrutierung erwarten, kann unser Rekrutenreserve-Vorrat nicht weiter als auf §Y$MAX$§! steigen."
  YEARLY_MERITOCRACY:0 "Jährliche Meritokratie"
  YOU_MERITOCRACY_IRO:0 "§YMeritokratie§!\nDie Meritokratie ändert sich jährlich um $CHANGE$. Dies beruht auf:\n$WHY$"
- THEY_MERITOCRACY_IRO:0 "§YMeritokratie§!\nDie Meritokratie ändert sich jährlich um $CHANGE$. Dies beruht auf:\n$WHY$" # [LocEditor:AwaitingBatchUpdate]
+ THEY_MERITOCRACY_IRO:1 "§YMeritokratie§!\nDie Meritokratie ändert sich jährlich um $CHANGE$. Dies beruht auf:\n$WHY$"
  YOU_MERITOCRACY_DRO:1 "Dies repräsentiert die bürokratische Kompetenz innerhalb unserer Nation. Je höher sie ist, desto effizienter wird unsere Nation verwaltet!\nSie kann durch die Stärkung der Regierung, Ideen, Richtlinien oder Ereignisse erhöht werden.\nDiese Stufe der Meritokratie hat folgende Effekte:"
  THEY_MERITOCRACY_DRO:0 "Dies repräsentiert die bürokratische Kompetenz innerhalb ihrer Nation. Je höher sie ist, desto effizienter wird ihre Nation administriert!\nDiese Stufe der Meritokratie hat folgende Effekte:"
  DEVOTION_EFFECT:0 "$DIRECTION$ $VALUE$ Hingabe.\n"
@@ -1428,7 +1428,7 @@
  YOU_LEGITIMACY_AFFECTS:0 "§YEffekte aus Eurer gegenwärtigen Legitimität:§!"
  THEY_LEGITIMACY_AFFECTS:0 "§YEffekte aus ihrer gegenwärtigen Legitimität:§!"
  YOU_YEARLY_HORDE_UNITY_NO:0 "§YHorden-Einheit§!\nGegenwärtig ändert sich Eure Horden-Einheit nicht."
- THEY_YEARLY_HORDE_UNITY_NO:0 "§YHorden-Einheit§!\nGegenwärtig ändert sich ihre Horden-Einheit nicht." # [LocEditor:AwaitingBatchUpdate]
+ THEY_YEARLY_HORDE_UNITY_NO:1 "§YHorden-Einheit§!\nGegenwärtig ändert sich ihre Horden-Einheit nicht."
  YOU_YEARLY_HORDE_UNITY:0 "§YHorden-Einheit§!\nEure Horden-Einheit ändert sich jährlich um §Y$VALUE$§! aufgrund von:\n"
  THEY_YEARLY_HORDE_UNITY:0 "§YHorden-Einheit§!\nIhre Horden-Einheit ändert sich jährlich um §Y$VALUE$§! aufgrund von:\n"
  CVIEW_HORDE_UNITY_DESC:1 "Die Horden-Einheit wird verwendet, um zu messen, wie viel Unterstützung ein Khan von seinen Stämmen erhält. Sie nimmt im Laufe der Zeit ab und steigt durch §YPlündern und Brandschatzen von Provinzen§!. Horden mit geringer Einheit werden wahrscheinlich innerer Zwietracht erliegen."
@@ -1972,8 +1972,8 @@
  CV_ABANDON_IDEA_GROUP_DIALOG_TITLE:0 "Verlassen der Ideengruppe $NAME$ bestätigen"
  CV_UNLOCK_IDEA_DIALOG_DESC:0 "Hiermit wird die Idee "$NAME$" für §Y$POWER_COST$§! $TYPE$-Machtpunkte freigeschaltet.\n"
  INTI_REFORM_TOOLTIP:0 "Soll §Y$NAME$§! wirklich freigeschaltet werden? Dies kostet §Y100§! Autorität, verringert Eure Stabilität um §R2§! und stürzt die Nation in einen Bürgerkrieg."
- NAHUATL_REFORM_TOOLTIP:0 "Soll §Y$NAME$§! wirklich freigeschaltet werden? Dies wird Euer Verhängnis um §R50§! erhöhen, all Eure illoyalen Untertanen entlassen, das Freiheitsstreben all Eurer loyalen Untertanen um §R40%§! erhöhen und Eure Stabilität um §R1§! verringern." # [LocEditor:AwaitingBatchUpdate]
- MESOAMERICAN_REFORM_TOOLTIP:0 "Soll "§Y$NAME$§!" wirklich freigeschaltet werden? Dies wird alle von Euch eroberten oder unterworfenen Nationen entlassen und Eure Stabilität um §R2§! verringern." # [LocEditor:AwaitingBatchUpdate]
+ NAHUATL_REFORM_TOOLTIP:1 "Soll §Y$NAME$§! wirklich freigeschaltet werden? Dies wird Euer Verhängnis um §R50§! erhöhen, all Eure illoyalen Untertanen entlassen, das Freiheitsstreben all Eurer loyalen Untertanen um §R40%§! erhöhen und Eure Stabilität um §R1§! verringern."
+ MESOAMERICAN_REFORM_TOOLTIP:1 "Soll "§Y$NAME$§!" wirklich freigeschaltet werden? Dies wird alle von Euch eroberten oder unterworfenen Nationen entlassen und Eure Stabilität um §R2§! verringern."
  CV_UNLOCK_IDEAGROUP_DIALOG_TITLE:0 "Bestätigen, um die Ideengruppe "$NAME$" freizuschalten"
  CV_UNLOCK_IDEAGROUP_DIALOG_DESC:0 "Hiermit wird Euer freies Feld zum Freischalten der Ideengruppe "$NAME$" verwendet."
  CV_ABANDON_IDEA_GROUP_DESC:1 "Hierdurch werden all Eure aktiven Ideen in dieser Ideengruppe entfernt und lediglich $PERCENTAGE$ der für diese Ideen benötigten Grundmachtpunkte erstattet.\n\nWenn Ihr diese Ideengruppe aufgebt, werden §Y$VALUE$§! $POWER$ erstattet.\n\nSoll §Y$NAME$§! wirklich entfernt werden?"
@@ -3052,7 +3052,7 @@
  MISSIONARIESMAINTENANCE:0 "Missionare"
  ARMYMAINTENANCE:0 "Armeen"
  FLEETMAINTENANCE:0 "Flotten"
- DOMESTIC_GO_BANKRUPT:0 "§YBankrott erklären§!" # [LocEditor:AwaitingBatchUpdate]
+ DOMESTIC_GO_BANKRUPT:1 "§YBankrott erklären§!"
  VOLUNTEER_BANKRUPT_IN_BANKRUPT:0 "Ihr könnt keinen Bankrott erklären, während Ihr Euch bereits in einem befindet."
  VOLUNTEER_BANKRUPT_NO_LOANS:0 "Ohne Darlehen gibt es keinen Grund, den Bankrott zu erklären."
  VOLUNTEER_BANKRUPT:0 "Den Bankrott zu erklären, wird unsere Darlehen auflösen. Wir erhalten allerdings einige drastische Beeinträchtigungen."
@@ -4520,7 +4520,7 @@
  DharmaHinduUnitPackDLC:0 "Dharma - Hindu Unit Pack"
  GoldenCenturyDLC:0 "Golden Century"
  EmperorDLC:0 "Emperor"
- LeviathanDLC:0 "Leviathan" # [LocEditor:AwaitingBatchUpdate]
+ LeviathanDLC:1 "Leviathan"
  WomenInHistoryDLC:0 "Women in History"
  ME_CATEGORY_DYNASTY:0 "Dynastie"
  BAD_SERVER_PASSWORD:0 "Ungültiges Passwort"
@@ -4699,8 +4699,8 @@
  STATISTS_IN_POWER:1 "$NAME$ an der Macht"
  MONARCHISTS_NOT_IN_POWER:0 "$NAME$ NICHT an der Macht"
  MONARCHISTS_IN_POWER:0 "$NAME$ an der Macht"
- STATIST_VS_MONARCHISTS_LESS_THAN:0 "$STATISTS$ vs. $MONARCHISTS$ ist niedriger als $VAL|0Y$" # [LocEditor:AwaitingBatchUpdate]
- STATIST_VS_MONARCHISTS_AT_LEAST:0 "$STATISTS$ vs. $MONARCHISTS$ ist mindestens $VAL|0Y$" # [LocEditor:AwaitingBatchUpdate]
+ STATIST_VS_MONARCHISTS_LESS_THAN:1 "$STATISTS$ vs. $MONARCHISTS$ ist niedriger als $VAL|0Y$"
+ STATIST_VS_MONARCHISTS_AT_LEAST:1 "$STATISTS$ vs. $MONARCHISTS$ ist mindestens $VAL|0Y$"
  STRENG_STATISTS_EFFECT:1 "$NAME$ um $VAL|Y%$ stärken"
  STRENG_MONARCHISTS_EFFECT:0 "$NAME$ um $VAL|Y%$ stärken"
  STATISTS_IRO:1 "$NAME|Y$\n"
@@ -4814,7 +4814,7 @@
  CV_SUB_DEV_TOTAL_INFO:0 "Die Gesamtentwicklung ihrer Provinzen beträgt $DEV|Y$, basierend auf:\n  $TAX|Y$ Grundsteuer\n  $PRODUCTION|Y$ Grundproduktion\n  $MANPOWER|Y$ Grundmannstärke\n$WHO$ hat $PROVS|Y$ Provinzen und $HOME|Y$ Kernprovinzen, die nicht in Übersee liegen."
  AUTHORITY_FROM_DEV:0 "Aus $ADJ$er Entwicklung: $VAL$"
  DOOM_FROM_PROVINCES:0 "Anzahl von Provinzen im Besitz: $VAL$"
- DOOM_FROM_REFORMS:0 "Anzahl religiöser Reformen: $VAL$" # [LocEditor:AwaitingBatchUpdate]
+ DOOM_FROM_REFORMS:1 "Anzahl religiöser Reformen: $VAL$"
  AUTHORITY_TOOLTIP_INSTANT:0 "Autorität ändert sich jedes Jahr um $CHANGE$ aufgrund von:\n"
  AUTHORITY_TOOLTIP_EFFECTS:0 "§YEffekte aus unserer gegenwärtigen Autorität:§!\n"
  AUTHORITY_TOOLTIP_DESC:0 "Autorität ist eine Maßeinheit der geistlichen Kraft und Statur des $MONARCHTITLE$. Wenn Autorität §Y100§! erreicht, können wir religiöse Reformen erlassen. Autorität wird durch Besitz einer großen Anzahl Provinzen erhöht und sinkt, wenn Provinzen Autonomie garantiert wird."

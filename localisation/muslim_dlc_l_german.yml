@@ -65,8 +65,8 @@
  muslim_dlc.EVTDESC16:0 "Der Moral-Kodex und die religiösen Gesetze des Islam behandeln viele Themen, wie die Kriminalität, Politik und Wirtschaft, aber auch persönliche Angelegenheiten wie den Geschlechtsverkehr, die Hygiene, Diäten, Gebete und das Fasten. Sie gelten als das unfehlbare Gesetz Gottes und es gibt zwei Quellen der Gesetzgebung. Die erste sind die Regeln des Korans und das Beispiel Mohammeds in der Sunnah. Kadis und Imame beschweren sich über die laxe Auslegung der Sharia-Rechtsprechung in $COUNTRY$ und bestehen darauf, dass $MONARCHTITLE$ das Gesetz zu allen Zeiten strikt durchsetzt."
  muslim_dlc.EVTOPTA16:0 "Strenger Sharia-Gesetze"
  muslim_dlc.EVTOPTB16:0 "Weniger strenge Sharia-Gesetze"
- muslim_dlc.EVTNAME17:0 "Ghilmanen" # [LocEditor:AwaitingBatchUpdate]
- muslim_dlc.EVTDESC17:0 "Früher wurden die Sklaven-Soldaten von $COUNTRY$ auf Kosten ihrer Meister ausgebildet und erzogen. Sie erfüllten all seine Wünsche und dienten ihm in jeder erdenklichen Funktion. Viele von ihnen waren Soldaten und ein paar wenige wurden Berater, doch alle von ihnen mussten zum Islam konvertieren. Einige dieser Ghilmanen verweilen noch immer ohne Meister in $COUNTRY$ und suchen nach Wegen, um ihrem Leben wieder einen Sinn zu geben. Die Ghilman haben sogar einen Fürsprecher geschickt und um Erlaubnis gebeten, in $COUNTRY$ dienen zu dürfen." # [LocEditor:AwaitingBatchUpdate]
+ muslim_dlc.EVTNAME17:1 "Ghilmanen"
+ muslim_dlc.EVTDESC17:1 "Früher wurden die Sklaven-Soldaten von $COUNTRY$ auf Kosten ihrer Meister ausgebildet und erzogen. Sie erfüllten all seine Wünsche und dienten ihm in jeder erdenklichen Funktion. Viele von ihnen waren Soldaten und ein paar wenige wurden Berater, doch alle von ihnen mussten zum Islam konvertieren. Einige dieser Ghilmanen verweilen noch immer ohne Meister in $COUNTRY$ und suchen nach Wegen, um ihrem Leben wieder einen Sinn zu geben. Die Ghilman haben sogar einen Fürsprecher geschickt und um Erlaubnis gebeten, in $COUNTRY$ dienen zu dürfen."
  muslim_dlc.EVTOPTA17:0 "Gebt ihnen administrative Aufgaben"
  muslim_dlc.EVTOPTB17:0 "Stellt sie als Soldaten ein"
  muslim_dlc.EVTOPTC17:0 "Lasst sie dem Diplomatenkorps helfen"

@@ -51,7 +51,7 @@
  CEP:0 "Korfu"
  CHA:0 "Champa"
  CHE:0 "Cherokee"
- CHG:0 "Mogulistan" # [LocEditor:AwaitingBatchUpdate]
+ CHG:1 "Mogulistan"
  CHK:0 "Champassak"
  CHL:0 "Chile"
  CHM:0 "Chimu"
@@ -325,7 +325,7 @@
  CEP_ADJ:0 "Korfuanisch"
  CHA_ADJ:1 "Champanisch"
  CHE_ADJ:0 "Cherokeesch"
- CHG_ADJ:0 "Mogulisch" # [LocEditor:AwaitingBatchUpdate]
+ CHG_ADJ:1 "Mogulisch"
  CHK_ADJ:0 "Champassakisch"
  CHL_ADJ:0 "Chilenisch"
  CHM_ADJ:0 "Chimuisch"
@@ -917,8 +917,8 @@
  MIX_ADJ:0 "Mixtekisch"
  SAL:0 "Salish"
  SAL_ADJ:0 "Salishanisch"
- TAR:0 "Purépecha" # [LocEditor:AwaitingBatchUpdate]
- TAR_ADJ:0 "Purépechanisch" # [LocEditor:AwaitingBatchUpdate]
+ TAR:1 "Purépecha"
+ TAR_ADJ:1 "Purépechanisch"
  TLA:0 "Tlapaneken"
  TLA_ADJ:0 "Tlapanekisch"
  TLX:0 "Tlaxcalteken"

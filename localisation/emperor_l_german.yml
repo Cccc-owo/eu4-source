@@ -327,7 +327,7 @@
  ASSIGN_HEIR_TITLE:0 "Neuen Erben ernennen"
  ASSIGN_HEIR_DESC:0 "Die Ernennung eines neuen Erben wird $PRESTIGE|Y$ Prestige und $LEGITIMACY|Y$ Legitimität kosten! Seid Ihr sicher?"
  ASSIGN_HEIR_ALREADY_HEIR:0 "Ihr habt bereits einen Erben."
- ASSIGN_HEIR_TT:2 "§YNeuen Erben ernennen§!\nWendet $LEGITIMACY|Y$ Legitimität und $PRESTIGE|Y$ Prestige auf, um einen neuen Erben zu erhalten!" # [LocEditor:AwaitingBatchUpdate]
+ ASSIGN_HEIR_TT:3 "§YNeuen Erben ernennen§!\nWendet $LEGITIMACY|Y$ Legitimität und $PRESTIGE|Y$ Prestige auf, um einen neuen Erben zu erhalten!"
  ASSIGN_HEIR_TT_PERSONAL_UNIONS:0 "Da unsere Religion Personalunionen erlaubt, erhält jede Nation, die eine §YStaatsehe§! mit uns hat, den Kriegsgrund "§YWiedererrichtung der Union§!""
  ASSIGN_HEIR_NOT_MONARCHY:0 "Nur Monarchien können neue Erben ernennen!"
  ASSIGN_HEIR_NOT_HEIRS:0 "Eure Regierungsform sieht keine designierten Thronfolger vor!"
@@ -532,7 +532,7 @@
  alert_can_embrace_revolution_instant:0 "§YWir können die Revolution fördern§!"
  alert_can_embrace_revolution_delayed:0 "Revolutionäre Ideen haben sich in unserem Land so weit verbreitet, dass unsere Bürger bereit sind, sich gegen Könige und Tyrannen zu wehren. Wir können die Revolution jetzt fördern!"
  SPREAD_REVOLUTION_TREATY_NAME:0 "Verbreitet die Revolution"
- SPREAD_REVOLUTION_TREATY_DESC:0 "Revolutionäre Ideen werden sich in allen §Y$GIVER_ADJECTIVE$en§! Provinzen verbreiten. $TAKER|Y$ erhält $POWER|G$ von jeder Machtpunktkategorie und $GIVER|Y$ verliert $POWER|R$ jeder Kategorie." # [LocEditor:AwaitingBatchUpdate]
+ SPREAD_REVOLUTION_TREATY_DESC:1 "Revolutionäre Ideen werden sich in allen §Y$GIVER_ADJECTIVE$en§! Provinzen verbreiten. $TAKER|Y$ erhält $POWER|G$ von jeder Machtpunktkategorie und $GIVER|Y$ verliert $POWER|R$ jeder Kategorie."
  PEACE_OPTION_ONLY_REV_TARGET:1 "Nur der Ursprungsort der Revolution, das Revolutionsziel, kann diese Friedensoption fordern. Nur er kann die wahre Revolution verbreiten!"
  PEACE_OPTION_REQUIRES_PROVINCES_TO_SPREAD:0 "Es gibt keine Provinz, in der sich die Revolution noch ausbreiten könnte."
  spread_revolution_to_enemy:0 "Breitet die Revolution nach $TARGET$ aus"
@@ -701,10 +701,10 @@
  estate_privileges_and_agendas_events.3.i:1 "Der Vorschlag des [Root.GetDhimmiName]-Standes"
  estate_privileges_and_agendas_events.3.j:1 "Der Vorschlag des [Root.GetJainaName]-Standes"
  estate_privileges_and_agendas_events.3.k:1 "Der Vorschlag des [Root.GetRajputenName]-Standes"
- estate_privileges_and_agendas_events.3.l:0 "Der Vorschlag des [Root.GetJanitscharenName]-Standes" # [LocEditor:AwaitingBatchUpdate]
- estate_privileges_and_agendas_events.3.m:0 "Der Vorschlag des [Root.GetEunuchenName]-Standes" # [LocEditor:AwaitingBatchUpdate]
+ estate_privileges_and_agendas_events.3.l:1 "Der Vorschlag des [Root.GetJanitscharenName]-Standes"
+ estate_privileges_and_agendas_events.3.m:1 "Der Vorschlag des [Root.GetEunuchenName]-Standes"
  estate_privileges_and_agendas_events.3.n:0 "Der Vorschlag des [Root.GetQizilbaschName]-Standes"
- estate_privileges_and_agendas_events.3.o:0 "Der Vorschlag des [Root.GetGhilmanenName]-Standes" # [LocEditor:AwaitingBatchUpdate]
+ estate_privileges_and_agendas_events.3.o:1 "Der Vorschlag des [Root.GetGhilmanenName]-Standes"
  estate_privileges_and_agendas_events.6.t:0 "Verkauf von Kronland"
  estate_privileges_and_agendas_events.6.desc:0 "Die Schatzkammern unserer Nation sind leer. Zu unserem Glück sind unsere Stände sehr daran interessiert, einen Teil unseres Landes zu kaufen. An wen sollen wir unser wertvolles Kronland verkaufen?"
  estate_privileges_and_agendas_events.6.a:0 "Verkauft das Kronland gleichmäßig an alle Stände."
@@ -719,8 +719,8 @@
  estate_privileges_and_agendas_events.6.j:0 "Verkauft es an den [Root.GetMarathaOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.6.k:0 "Verkauft es an den [Root.GetVaisyasOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.6.l:0 "Verkauft es an den [Root.GetJainsOrFallbackName]-Stand."
- estate_privileges_and_agendas_events.6.m:0 "Verkauft es an den [Root.GetJanissariesOrFallbackName]-Stand." # [LocEditor:AwaitingBatchUpdate]
- estate_privileges_and_agendas_events.6.n:0 "Verkauft es an den [Root.GetEunuchsOrFallbackName]-Stand." # [LocEditor:AwaitingBatchUpdate]
+ estate_privileges_and_agendas_events.6.m:1 "Verkauft es an den [Root.GetJanissariesOrFallbackName]-Stand."
+ estate_privileges_and_agendas_events.6.n:1 "Verkauft es an den [Root.GetEunuchsOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.6.o:0 "Verkauft es an den [Root.GetQizilbashOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.6.p:0 "Verkauft es an den [Root.GetGhulamsOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.7.t:0 "Beschlagnahme von Kronland"
@@ -737,8 +737,8 @@
  estate_privileges_and_agendas_events.7.j:0 "Beschlagnahmt es von dem [Root.GetMarathaOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.7.k:0 "Beschlagnahmt es von dem [Root.GetVaisyasOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.7.l:0 "Beschlagnahmt es von dem [Root.GetJainsOrFallbackName]-Stand."
- estate_privileges_and_agendas_events.7.m:0 "Beschlagnahmt es vom [Root.GetJanissariesOrFallbackName]-Stand." # [LocEditor:AwaitingBatchUpdate]
- estate_privileges_and_agendas_events.7.n:0 "Beschlagnahmt es vom [Root.GetEunuchsOrFallbackName]-Stand." # [LocEditor:AwaitingBatchUpdate]
+ estate_privileges_and_agendas_events.7.m:1 "Beschlagnahmt es vom [Root.GetJanissariesOrFallbackName]-Stand."
+ estate_privileges_and_agendas_events.7.n:1 "Beschlagnahmt es vom [Root.GetEunuchsOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.7.o:0 "Beschlagnahmt es vom [Root.GetQizilbashOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.7.p:0 "Beschlagnahmt es vom [Root.GetGhulamsOrFallbackName]-Stand."
  estate_privileges_and_agendas_events.8.t:0 "Der Großwesir von [Root.GetName]"
@@ -907,7 +907,7 @@
  DURATION:0 "Dauer"
  MIL_UPKEEP_WAR_TAXES:1 "Kriegssteuern: $COST|+$\n"
  WAR_TAXES_TOOLTIP_START:0 "Dies gibt uns während eines Krieges:\n"
- WAR_TAXES_TOOLTIP_COST:0 "Es kostet monatlich $COST|Y$£mil£, während wir im Krieg sind, bis es beendet wird.\nGrundkosten: $VAL|Y$\n$MODIFIERS$" # [LocEditor:AwaitingBatchUpdate]
+ WAR_TAXES_TOOLTIP_COST:1 "Es kostet monatlich $COST|Y$£mil£, während wir im Krieg sind, bis es beendet wird.\nGrundkosten: $VAL|Y$\n$MODIFIERS$"
  ALLY_FORCES_UNKNOWN:0 "???"
  ALLY_FORCE_ENTRY:0 "$ADJ$e $TYPE$: $AMOUNT|Y0$\n"
  ALLY_FORCE_TOTAL_ENTRY:0 "$COUNTRY$ hat $DEPLOYED|0Y$ aktive Soldaten und $MANPOWER|0Y$ Rekrutenreserve.\n"

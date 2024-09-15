@@ -17,8 +17,8 @@
  THEIRSIDETRUCEENDS_SETUP:0 "Wenn ein einseitiger Waffenstillstand zwischen einer anderen Nation und Euch endet."
  THEIRSIDETRUCEENDS_HEADER:0 "Unser Kanzler berichtet,"
  THEIRSIDETRUCEENDS_1:0 "Einseitiger Waffenstillstand endet"
- THEIRSIDETRUCEENDS_2:0 "Der $COUNTRY_ADJ$e Waffenstillstand mit uns hat geendet." # [LocEditor:AwaitingBatchUpdate]
- THEIRSIDETRUCEENDS_5:0 "Sie können uns jetzt, ohne weitere Strafen befürchten zu müssen, den Krieg erklären." # [LocEditor:AwaitingBatchUpdate]
+ THEIRSIDETRUCEENDS_2:1 "Der $COUNTRY_ADJ$e Waffenstillstand mit uns hat geendet."
+ THEIRSIDETRUCEENDS_5:1 "Sie können uns jetzt, ohne weitere Strafen befürchten zu müssen, den Krieg erklären."
  THEIRSIDETRUCEENDS_6:0 "Dies war ein einseitiger Waffenstillstand."
  THEIRSIDETRUCEENDS_LOG:0 "Der Waffenstillstand zwischen $ACTOR$ und $RECIPIENT$ ist beendet."
  THEIRSIDETRUCEENDS_BTN1:0 "OK"
@@ -29,8 +29,8 @@
  HAS_MOD_ACTIVE:0 "Hat den aktiven Modifikator "$MOD$". (Aktiv: $ACTIVEMODS$)"
  DISALLOWED_DEATH_INHERITANCE:0 "§RDieser Untertanentyp kann nicht geerbt werden.§!"
  HRE_VOTE_INELIGIBLE_GOVERNMENT:0 "§R-$COUNTRY$ hat die falsche Regierungsform.§!"
- AUTOMATIC_MISSIONARY_TITLE:0 "Autonom:" # [LocEditor:AwaitingBatchUpdate]
- AUTOMATIC_MISSIONARY_TOOLTIP:0 "Dieser Missionar arbeitet völlig autonom. Solange die Missionarsstärke in der Provinz bei über 0% liegt, wird er Provinzen zum wahren Glauben konvertieren, wobei er Provinzen, die am schnellsten konvertiert werden können, Priorität einräumt.\n§YRechts- oder Linksklick zum Entfernen.§!" # [LocEditor:AwaitingBatchUpdate]
+ AUTOMATIC_MISSIONARY_TITLE:1 "Autonom:"
+ AUTOMATIC_MISSIONARY_TOOLTIP:1 "Dieser Missionar arbeitet völlig autonom. Solange die Missionarsstärke in der Provinz bei über 0% liegt, wird er Provinzen zum wahren Glauben konvertieren, wobei er Provinzen, die am schnellsten konvertiert werden können, Priorität einräumt.\n§YRechts- oder Linksklick zum Entfernen.§!"
  cossacks_regiment:0 "Kosaken-Regiment"
  rajput_regiment:0 "Rajputen-Regiment"
  PERMANENTLY_LEFT_HRE:0 "§R- Hat das Heilige Römische Reich dauerhaft verlassen§!"
@@ -66,7 +66,7 @@
  CURIATRANSFEROTHER_1:0 "Ein Wechsel der Loyalität!"
  CURIATRANSFEROTHER_2:0 "$POPE$"
  CURIATRANSFEROTHER_3:0 "hat seine Loyalität geändert."
- CURIATRANSFEROTHER_4:0 "Er ist jetzt loyal gegenüber §Y$CONTROLLER$§W, welche nun" # [LocEditor:AwaitingBatchUpdate]
+ CURIATRANSFEROTHER_4:1 "Er ist jetzt loyal gegenüber §Y$CONTROLLER$§W, welche nun"
  CURIATRANSFEROTHER_5:0 "KONTROLLEUR DER KURIE sind."
  CURIATRANSFEROTHER_6:0 "$COMMENT$"
  CURIATRANSFEROTHER_LOG:0 "$CONTROLLER$ ist aufgrund der wechselnden Loyalität des Papstes zum neuen Kontrolleur der Kurie geworden."
@@ -125,7 +125,7 @@
  THIRD_ASK_KNOWLEDGE_SHARING_BTN2:0 "OK"
  THIRD_ASK_KNOWLEDGE_SHARING_BTN3:0 "Anzeigen"
  THIRD_KNOWLEDGE_SHARING_TITLE:0 "Angebotener Wissensaustausch"
- THIRD_KNOWLEDGE_SHARING_SETUP:0 "Wenn eine Nation Wissensaustausch anbietet" # [LocEditor:AwaitingBatchUpdate]
+ THIRD_KNOWLEDGE_SHARING_SETUP:2 "Wenn eine Nation Wissensaustausch anbietet"
  THIRD_KNOWLEDGE_SHARING_HEADER:0 "Herold aus"
  THIRD_KNOWLEDGE_SHARING_1:0 "$RECIPIENT_COUNTRY$"
  THIRD_KNOWLEDGE_SHARING_2:0 "$MONARCHTITLE$, wir haben $TYPE$e Neuigkeiten!"

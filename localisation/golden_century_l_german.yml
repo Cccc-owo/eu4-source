@@ -488,7 +488,7 @@
  expel_minority_events.5.d:0 "Die Menschen, die aus [expelling_province.GetName] in unsere Kolonie [expelling_colony.GetName] vertrieben wurden, sind nicht nur normale Leute. Viele von ihnen haben wichtige Aufgaben bei der Verwaltung von [expelling_province.GetName] übernommen, manchmal als Brücke zwischen der [Root.GetAdjective]en Führung und den Einheimischen. Jetzt, da sie vertrieben werden, wird die Verwaltung der Provinz schwieriger, sodass wir einige Zugeständnisse machen müssen. Entweder gehen wir bei der Verwaltung von [expelling_province.GetName] so lange lockerer vor, bis die Positionen besetzt sind, oder wir beeilen uns gemäß unseren Plänen und haben weniger Verwaltungsbeamte."
  expel_minority_events.5.a:0 "Die Positionen werden vorerst unbesetzt bleiben."
  expel_minority_events.5.b:0 "Wir müssen einfach Leute schneller nach Übersee schicken."
- MODIFIER_ESTABLISH_ORDER_COST:0 "Kosten (Gründung von Lokalen Organisationen)" # [LocEditor:AwaitingBatchUpdate]
+ MODIFIER_ESTABLISH_ORDER_COST:1 "Kosten (Gründung von Lokalen Organisationen)"
  MODIFIER_MOVEMENT_SPEED_ONTO_OFF_BOAT:0 "Bewegungsgeschwindigkeit (Von und auf Schiffe)"
  portuguese_corps_of_fusiliers:0 "Portugiesische Füsiliere"
  portuguese_corps_of_fusiliers_desc:0 "Unsere Füsiliere müssen bereit sein, von einem Schiff aus anzugreifen, als wäre es Land, denn die portugiesische Flotte ist eine Erweiterung des Landes."

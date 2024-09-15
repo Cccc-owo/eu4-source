@@ -22,30 +22,30 @@
  fra_ducal_lands_avignon_desc:0 "Avignon war schon immer ein Dorn im Auge unserer südöstlichen Grenze. Trotz unserer Bemühungen hat es sich stets unserer Gerichtsbarkeit entzogen und stattdessen dem Kirchenstaat die Treue gehalten. Wir müssen entscheiden, wie wir in dieser heiklen Angelegenheit vorgehen, solange der Heilige Vater die Autorität über die Christenheit besitzt."
  fra_crown_naples_title:0 "Die Krone von Neapel"
  fra_crown_naples_desc:0 "Das süditalienische Königreich Neapel und seine Territorien sind ein wichtiger Knotenpunkt für den Handel im Mittelmeerraum. Wir müssen diese Territorien für uns sichern und von diesem Handel profitieren."
- fra_branch_mission_4_3_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_4_3_desc:1 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_4_4_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_4_4_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_5_3_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_5_3_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_city_lights_title:0 "[Root.GetPreviewColorFRA]Stadt der Lichter[Root.GetPreviewColorFRA_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_branch_mission_4_3_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_4_3_desc:2 "[Root.GetSelectableMissionDescription]"
+ fra_branch_mission_4_4_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_4_4_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_branch_mission_5_3_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_5_3_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_city_lights_title:1 "[Root.GetPreviewColorFRA]Stadt der Lichter[Root.GetPreviewColorFRA_end]"
  fra_city_lights_desc:0 "[118.GetName] war schon immer eine der bevölkerungsreichsten Religionen auf der Welt, und daher müssen wir die Stadt unter unsere Kontrolle bringen, damit wir uns als Eroberer von [118.GetName] im Ruhm sonnen können!"
- fra_milanese_succession_title:0 "[Root.GetPreviewColorFRA]Ambrosische Erbfolge[Root.GetPreviewColorFRA_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_milanese_succession_title:1 "[Root.GetPreviewColorFRA]Ambrosische Erbfolge[Root.GetPreviewColorFRA_end]"
  fra_milanese_succession_desc:0 "Um unsere Position in Norditalien zu sichern, müssen wir unsere Ansprüche auf Mailand ausweiten." #old
- fra_protector_catholicism_title:0 "[Root.GetPreviewColorFRA]Beschützer des Katholizismus[Root.GetPreviewColorFRA_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_protector_catholicism_title:1 "[Root.GetPreviewColorFRA]Beschützer des Katholizismus[Root.GetPreviewColorFRA_end]"
  fra_protector_catholicism_desc:0 "Der Katholizismus befand sich schon immer im Krieg mit seinen feindlichen Nachbarn, die ihn ausrotten wollten. Um unser Volk zu schützen, es vor den bösen Absichten unserer Nachbarn zu bewahren und unser Erbe zu verteidigen, werden wir ihn, so Gott will, bis zum letzten Mann verteidigen!"
- fra_shield_of_outremer_title:0 "[Root.GetPreviewColorFRA]Schild von Outremer[Root.GetPreviewColorFRA_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_shield_of_outremer_title:1 "[Root.GetPreviewColorFRA]Schild von Outremer[Root.GetPreviewColorFRA_end]"
  fra_shield_of_outremer_desc:0 "Unser Einfluss an der Levante hat ein noch nie da gewesenes Ausmaß angenommen. Zum ersten Mal seit Jahrhunderten können wir die Wiedergewinnung von Outremer, dem leuchtenden Stern unseres Glaubens in der Levante, verkünden."
- fra_pilgrimage_jerusalem_title:1 "[Root.GetPreviewColorFRA]Kreuzzug für Jerusalem[Root.GetPreviewColorFRA_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_pilgrimage_jerusalem_title:2 "[Root.GetPreviewColorFRA]Kreuzzug für Jerusalem[Root.GetPreviewColorFRA_end]"
  fra_pilgrimage_jerusalem_desc:0 "Der Weg nach Jerusalem führt durch viele Feinde und fremde Eroberer. Es liegt auf unseren Schultern, sie zu retten und zurück in die warme Umarmung unserer Religion zu bringen. Deus vult!"
- fra_branch_mission_1_4_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_1_4_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_2_5_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_2_5_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_2_6_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_2_6_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_3_5_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_3_5_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
+ fra_branch_mission_1_4_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_1_4_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_branch_mission_2_5_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_2_5_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_branch_mission_2_6_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_2_6_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_branch_mission_3_5_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_3_5_desc:1 "[Root.GetSelectableMissionDescription]"
  fra_raise_slave_ships_title:1 "Arsenal des Galères"
  fra_raise_slave_ships_desc:0 "Wenn wir rund um das Mittelmeer und darüber hinaus expandieren wollen, müssen wir eine angemessene Flotteninfrastruktur aufbauen und für einen stetigen Zustrom an fähigen Seeleuten sorgen."
  fra_crossroad_continents_title:0 "Kreuzung der Kontinente"
@@ -54,8 +54,8 @@
  fra_throne_naples_desc:0 "Die neapolitanische Nachfolge ist eine vielschichtige und umstrittene Angelegenheit. Neapel selbst strebt nach Unabhängigkeit, doch auch Frankreich und die iberischen Fürsten erheben Anspruch darauf. Diese Angelegenheit muss bereinigt werden." #old  
  fra_kingdoms_spain_title:0 "Königreich Spanien"
  fra_kingdoms_spain_desc:0 "Iberien ist die Heimat einiger der berühmtesten und prestigeträchtigsten Dynastien Europas, Nationen, die eine enorme politische und militärische Macht ausüben. Wir müssen vorsichtig vorgehen und entscheiden, ob wir sie als Freunde oder Feinde behandeln wollen."
- fra_branch_mission_2_9_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_2_9_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
+ fra_branch_mission_2_9_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_2_9_desc:1 "[Root.GetSelectableMissionDescription]"
  fra_secure_alpine_pass_title:0 "Sichert den Alpenpass"
  fra_secure_alpine_pass_desc:0 "Das Gebirge, das zwischen unserem Reich und Italien liegt, die Alpen, hat die Bewohner Italiens jahrhundertelang verteidigt. Wenn wir die italienischen Territorien erobern wollen, müssen wir dieses Hindernis überwinden und die Pässe sichern."
  fra_league_cambrai_title:0 "Die Liga von Cambrai"
@@ -72,23 +72,23 @@
  fra_secure_genoan_trade_desc:0 "Die Handelsmöglichkeiten, die die genuesischen Küsten bieten, sollten nicht ignoriert werden. Die Kaufleute erzählen sich Geschichten von einem unausweichlichen Reichtum, von so viel Münzen, um gleich zehn Geldbeutel zu füllen. Diese Einnahmequelle für uns zu sichern, wird für die Finanzierung unserer Bemühungen daheim und in der Fremde von entscheidender Bedeutung sein."
  fra_expand_french_domain_title:0 "Erweitert Frankreich"
  fra_expand_french_domain_desc:0 "Italien war seit jeher zwischen großen Reichen aufgeteilt. Wir müssen die Region, die einst de facto Teil des Heiligen Römischen Reichs war, sichern und unter unseren Einfluss bringen, damit sie sich nicht mit unseren politischen und militärischen Feinden verbündet."
- fra_sway_electorate_title:0 "[Root.GetPreviewColorFRA_HRE]Beeinflusst Kurfürsten[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_sway_electorate_title:1 "[Root.GetPreviewColorFRA_HRE]Beeinflusst Kurfürsten[Root.GetPreviewColorFRA_HRE_end]"
  fra_sway_electorate_desc:0 "Die Kaiserwürde ist kein Titel, der leicht zu erlangen ist, vor allem nicht von einem Nichtmitglied des Heiligen Römischen Reichs. Ein paar Hände zu schmieren und die richtigen Worte zu flüstern, wird uns bei unseren Bemühungen jedoch gewiss helfen. "
- fra_branch_mission_1_5_title:0 "[Root.GetSelectableMissionTitle]" # [LocEditor:AwaitingBatchUpdate]
- fra_branch_mission_1_5_desc:0 "[Root.GetSelectableMissionDescription]" # [LocEditor:AwaitingBatchUpdate]
- fra_push_imperial_line_title:0 "[Root.GetPreviewColorFRA_HRE]Treibt das HRR zurück[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_branch_mission_1_5_title:1 "[Root.GetSelectableMissionTitle]"
+ fra_branch_mission_1_5_desc:1 "[Root.GetSelectableMissionDescription]"
+ fra_push_imperial_line_title:1 "[Root.GetPreviewColorFRA_HRE]Treibt das HRR zurück[Root.GetPreviewColorFRA_HRE_end]"
  fra_push_imperial_line_desc:0 "Die Grenzen des sogenannten Heiligen Römischen Reichs im Osten sind bestenfalls lächerlich. Sie sind weder sicher noch zu verteidigen, und sie werden niemals mit ausreichend Soldaten besetzt sein, um sich mit unserer Armee zu messen. Die Grenze wird fallen und die mächtige französische Armee einmarschieren."
- fra_break_habsburg_ring_title:2 "[Root.GetPreviewColorFRA_HRE]Durchbrecht den Kaiserring[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_break_habsburg_ring_title:3 "[Root.GetPreviewColorFRA_HRE]Durchbrecht den Kaiserring[Root.GetPreviewColorFRA_HRE_end]"
  fra_break_habsburg_ring_desc:2 "Die [Emperor.Monarch.Dynasty.GetName]-Herrscher besitzen die Dreistigkeit, die Throne unseres rechtmäßigen Landes mit den Zweigen ihrer inzüchtigen Linie zu besetzen. Wir müssen den sogenannten "[Emperor.Monarch.Dynasty.GetName]ring" zerschlagen, um nicht Gefahr zu laufen, selbst von ihm umfasst zu werden."
- fra_declaratio_gallica_title:0 "[Root.GetPreviewColorFRA_HRE]Declaratio Gallica[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_declaratio_gallica_title:1 "[Root.GetPreviewColorFRA_HRE]Declaratio Gallica[Root.GetPreviewColorFRA_HRE_end]"
  fra_declaratio_gallica_desc:0 "Das deutsche Land, das formell unter dem Schutz des Kaisers steht, ist für unsere Eroberungspläne ein einfaches Ziel. Wenn wir sie erobern und zu französischem Territorium machen, werden wir eine weitere Bedrohung an unseren Grenzen beseitigt haben."
- fra_dismantle_empire_title:0 "[Root.GetPreviewColorFRA_HRE]Löst das HRR auf[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_dismantle_empire_title:1 "[Root.GetPreviewColorFRA_HRE]Löst das HRR auf[Root.GetPreviewColorFRA_HRE_end]"
  fra_dismantle_empire_desc:0 "Jene Farce, die den Namen des Römischen Reichs angenommen hat, ist nichts weiter als eine traurige Sache und eine klare Wahnvorstellung. Das Reich zu zerschlagen und seinen Daseinszweck für nichtig zu erklären, würde unserem Prestige sehr förderlich sein."
- fra_right_blood_title:0 "[Root.GetPreviewColorFRA_HRE]Blutrecht[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_right_blood_title:1 "[Root.GetPreviewColorFRA_HRE]Blutrecht[Root.GetPreviewColorFRA_HRE_end]"
  fra_right_blood_desc:0 "Genau wie Karl der Große vor uns haben auch wir ein Recht auf den kaiserlichen Thron des HRR. Ihn zu übernehmen, würde es uns erlauben, unseren rechtmäßigen Platz wieder einzunehmen."
- fra_restore_shadow_kingdom_title:0 "[Root.GetPreviewColorFRA_HRE]Italien und das Reich[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_restore_shadow_kingdom_title:1 "[Root.GetPreviewColorFRA_HRE]Italien und das Reich[Root.GetPreviewColorFRA_HRE_end]"
  fra_restore_shadow_kingdom_desc:0 "Jene Territorien, die das Reich durch den Rückgang des kaiserlichen Einflusses auf die Region verlor, müssen wieder in unsere Zuständigkeit zurückgeführt werden."
- fra_means_expansion_title:0 "[Root.GetPreviewColorFRA_HRE]Die Mittel der Expansion[Root.GetPreviewColorFRA_HRE_end]" # [LocEditor:AwaitingBatchUpdate]
+ fra_means_expansion_title:1 "[Root.GetPreviewColorFRA_HRE]Die Mittel der Expansion[Root.GetPreviewColorFRA_HRE_end]"
  fra_means_expansion_desc:0 "Das Reich vor äußeren Bedrohungen zu schützen, ist keine leichte Aufgabe. Zu unserem Glück verfügen wir über die fähigste Armee Europas, und diese wird uns bei der Befreiung und dem Schutz unserer Heimat helfen."
  fra_french_canada_title:0 "Französisches Kanada"
  fra_french_canada_desc:0 "Die "Compagnie des Marchands" bittet um finanzielle Unterstützung bei der Gründung von Stützpunkten in Nordamerika. Sie sagen, die Ehre Frankreichs verlange es." #old
@@ -440,8 +440,8 @@
  
  
  #Tooltips 
- fra_if_bur_subject_and_emperor_dlc_tt:1 "\nWenn wir diese Mission abschließen, während @BUR Burgund unser Untertan ist und NICHT von einem §Ymenschlichen Spieler§! gespielt wird:" # [LocEditor:AwaitingBatchUpdate]
- fra_alternatively_10_dev_spread_and_tt:0 "§G10§! £adm£ £dip£ £mil£ Entwicklung wird zwischen den §Yburgundischen§! und folgenden Provinzen verteilt:" # [LocEditor:AwaitingBatchUpdate]
+ fra_if_bur_subject_and_emperor_dlc_tt:2 "\nWenn wir diese Mission abschließen, während @BUR Burgund unser Untertan ist und NICHT von einem §Ymenschlichen Spieler§! gespielt wird:"
+ fra_alternatively_10_dev_spread_and_tt:1 "§G10§! £adm£ £dip£ £mil£ Entwicklung wird zwischen den §Yburgundischen§! und folgenden Provinzen verteilt:"
  fra_alternatively_10_dev_spread_and_2tt:0 "\n§G10§! £adm£ £dip£ £mil£ Entwicklung wird zwischen den §Yburgundischen§! und folgenden Provinzen verteilt:"
  fra_complete_via_opinion_alliance_and_trust_tt:1 "\nSchließen wir die Mission stattdessen durch eine hohe Meinung und ein Bündnis mit der Krone von @BUR Burgund ab, stellen sie sich wahrscheinlicher auf unsere Seite, sobald der Reichsvorfall §YDas burgundische Erbe§! beginnt"
  fra_enable_war_on_the_empire_cb_tt:0 "Wir erhalten den Kriegsgrund §YKrieg gegen das HRR§!, der es uns erlaubt, Territorien des HRR zu §Ygeringeren Kosten§! zu erobern"
@@ -716,9 +716,9 @@
  mng_kingdom_joseon_desc:0 "Im Osten liegt das Königreich Korea, ein mächtiger Verbündeter und eine potenzielle Bedrohung für unsere fortwährende Herrschaft. Es wäre klug, entsprechende Schritte zu unternehmen und diese Situation entweder auf diplomatische oder militärische Weise zu lösen, damit wir unsere Interessen schützen."
  mng_repeal_or_improve_haijin_title:0 "Das Haijin-System"
  mng_repeal_or_improve_haijin_desc:1 "Diese Mission wird durch das Ereignis "§YDie Haijin-Politik der großen Ming-Dynastie§!" freigeschaltet und bestimmt darüber, welche dynamische Mission Ihr erhaltet."
- mng_improve_haijin_policy_title:0 "[Root.GetPreviewColorMNG]Verbesserung des Haijin[Root.GetPreviewColorMNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ mng_improve_haijin_policy_title:1 "[Root.GetPreviewColorMNG]Verbesserung des Haijin[Root.GetPreviewColorMNG_end]"
  mng_improve_haijin_policy_desc:0 "Der derzeitige Status quo, den die Handelsverbote innerhalb unseres Reichs bedingen, schadet hauptsächlich unserer eigenen Bilanz. Auch wenn es äußerst vernünftig ist, ausgedehnte Handelsbeziehungen zu anderen Ländern zu verhindern, gibt es viel Spielraum, um die bestehende Politik zu verbessern und sie dazu zu nutzen, um unser wirtschaftliches Gleichgewicht zu verfeinern."
- mng_repeal_haijin_policy_title:0 "[Root.GetPreviewColorMNG]Aufhebung des Haijin[Root.GetPreviewColorMNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ mng_repeal_haijin_policy_title:1 "[Root.GetPreviewColorMNG]Aufhebung des Haijin[Root.GetPreviewColorMNG_end]"
  mng_repeal_haijin_policy_desc:1 "Unsere Märkte sind schon viel zu lange verschlossen! Es ist an der Zeit, dass wir unsere Politik modernisieren und einen offenen Handel anstreben!"
  mng_expand_bogue_title:0 "Erweitert die Flussmündung"
  mng_expand_bogue_desc:0 "Die Flussmündung bei [667.GetName] ist in unserem ganzen Reich als das pulsierende Herz für gewinnbringende Geschäfte und den Transport von wertvollen Waren und Getreide bekannt. Wir müssen unermüdlich daran arbeiten, sie auszubauen, um größere Mengen an Waren transportieren und den wachsenden Bedarf unseres Volkes befriedigen zu können."
@@ -1036,7 +1036,7 @@
  flavor_mng.32.b:0 "Das Zeitalter der Nomaden neigt sich seinem fruchtbaren Ende zu ..."
  
  flavor_mng.33.t:1 "Die Karma-Kagyü-Schule und die [From.Monarch.Dynasty.GetName]-Dynastie"
- flavor_mng.33.d:0 "Als eine der größten Ausprägungen innerhalb der Kagyü-Schule und eine der vier großen Denkschulen des tibetischen Buddhismus spielt die Karma-Kagyü eine wichtige Rolle für die Innenpolitik inmitten der Berghänge unserer Heimat. Doch trotz unserer Abgeschiedenheit hat sie auch Einfluss auf die Außenpolitik, denn einige ihrer Anführer waren Berater des Kaisers von China. Nun klopft der immer weiter reichende Einfluss des chinesischen Kaisers an unsere Tür und verlangt nach Unterwerfung und Anerkennung." # [LocEditor:AwaitingBatchUpdate]
+ flavor_mng.33.d:1 "Als eine der größten Ausprägungen innerhalb der Kagyü-Schule und eine der vier großen Denkschulen des tibetischen Buddhismus spielt die Karma-Kagyü eine wichtige Rolle für die Innenpolitik inmitten der Berghänge unserer Heimat. Doch trotz unserer Abgeschiedenheit hat sie auch Einfluss auf die Außenpolitik, denn einige ihrer Anführer waren Berater des Kaisers von China. Nun klopft der immer weiter reichende Einfluss des chinesischen Kaisers an unsere Tür und verlangt nach Unterwerfung und Anerkennung."
  flavor_mng.33.a:0 "Wir erkennen die Großzügigkeit des Mandatsträgers an!"
  flavor_mng.33.b:0 "Unsere Unabhängigkeit riskieren? So ein Unfug!"
  
@@ -1537,13 +1537,13 @@
  qng_branching_mission_trade_1_desc:0 ""
  qng_branching_mission_trade_2_title:0 "§YDynamische Mission§!"
  qng_branching_mission_trade_2_desc:0 ""
- qng_promote_local_industry_title:0 "[Root.GetPreviewColorQNG]Heimische Wirtschaft[Root.GetPreviewColorQNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ qng_promote_local_industry_title:2 "[Root.GetPreviewColorQNG]Heimische Wirtschaft[Root.GetPreviewColorQNG_end]"
  qng_promote_local_industry_desc:0 "Unser Volk ist am stärksten, wenn es zusammenhält und zusammenarbeitet, um die Ziele unseres großen Kaisers voranzubringen. Anstatt uns selbst zu entwürdigen, indem wir uns an Investoren aus der Fremde wenden, müssen wir uns verstärkt auf die heimische Herstellung konzentrieren."
- qng_expel_foreign_merchants_title:0 "[Root.GetPreviewColorQNG]Verbannt die Händler[Root.GetPreviewColorQNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ qng_expel_foreign_merchants_title:1 "[Root.GetPreviewColorQNG]Verbannt die Händler[Root.GetPreviewColorQNG_end]"
  qng_expel_foreign_merchants_desc:0 "Viel zu lange haben Händler aus fernen Ländern unsere Gastfreundschaft und Großzügigkeit ausgenutzt. Es ist an der Zeit, dass wir die Kontrolle über unsere Märkte übernehmen und uns von all den Blutsaugern befreien."
- qng_allow_foreign_exchanges_title:0 "[Root.GetPreviewColorQNG]Erlaubt fremden Austausch[Root.GetPreviewColorQNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ qng_allow_foreign_exchanges_title:1 "[Root.GetPreviewColorQNG]Erlaubt fremden Austausch[Root.GetPreviewColorQNG_end]"
  qng_allow_foreign_exchanges_desc:0 "Eine mächtige und wohlhabende Nation wie die unsere kann sehr davon profitieren, wenn sie ihre Handelsbeziehungen ausweitet und fremde Händler und Kaufleute aus allen Teilen der Welt anlockt. Der Welthandel ist wie eine Flut: Sie hebt alle Boote an, und wir müssen rasch handeln, um daraus vollen Nutzen zu ziehen."
- qng_chinese_industrial_revolution_title:0 "[Root.GetPreviewColorQNG]Industrielle Revolution[Root.GetPreviewColorQNG_end]" # [LocEditor:AwaitingBatchUpdate]
+ qng_chinese_industrial_revolution_title:2 "[Root.GetPreviewColorQNG]Industrielle Revolution[Root.GetPreviewColorQNG_end]"
  qng_chinese_industrial_revolution_desc:0 "Das Dröhnen der Motoren, das fröhliche Pfeifen des Dampfs und das Ausweiten der Grenzen unseres Wissens schreiten voran, während wir uns die technologischen Sprünge zunutze machen, durch die unsere Wirtschaft immer weiter wächst. Fertigungsstraßen, Industrialisierung und das Aufkommen neuer Maschinen ebnen den Weg für unser industrielles Erwachen."
  
  
@@ -1725,7 +1725,7 @@
  until_war_decleration_tt:0 "bis wir einen Krieg erklären"
  cannot_be_manually_revoked_tt:0 "§RDieses Privileg kann nicht manuell entfernt werden.§!"
  upgradable_modifier_tt:0 "§YDieser Modifikator wird durch spätere Missionen aufgewertet.§!"
- NUM_OF_FORCE_CONVERTED_COUNTRIES_COUNTER:0 "[This.num_of_forced_conversions.GetValue]" # [LocEditor:AwaitingBatchUpdate]
+ NUM_OF_FORCE_CONVERTED_COUNTRIES_COUNTER:1 "[This.num_of_forced_conversions.GetValue]"
  YEARS_OF_TRADE_INCOME_1:0 "Ihr erhaltet Handelseinkommen im Wert von §G1 Jahr§!."
  YEARS_OF_TRADE_INCOME_2:0 "Ihr erhaltet Handelseinkommen im Wert von §G2 Jahren§!."
  YEARS_OF_TRADE_INCOME_3:0 "Ihr erhaltet Handelseinkommen im Wert von §G3 Jahren§!."
@@ -1803,7 +1803,7 @@
  unlock_caliphate_reform_tt:0 "Neue Regierungsreform: §YKalifat§!."
  unlock_roman_empire_reform_tt:0 "Neue Regierungsreform: §YRömisches Reich§!."
  unlock_roman_republic_government_tt:0 "Neue Regierungsreform: §YRömische Republik§!."
- enable_improved_consecration_tt:1 "Einen Metropoliten zu weihen, gibt nun jeder Provinz im geweihten Gebiet §G+10.0%§! Steuereinnahmen (Lokal) und §G-10.0%§! Unterhalt (Staaten)." # [LocEditor:AwaitingBatchUpdate]
+ enable_improved_consecration_tt:2 "Einen Metropoliten zu weihen, gibt nun jeder Provinz im geweihten Gebiet §G+10.0%§! Steuereinnahmen (Lokal) und §G-10.0%§! Unterhalt (Staaten)."
  consecrated_ground:0 "Geweihter Boden"
  desc_consecrated_ground:0 "Der Boden ist geweiht. Er kann heiligen Schaden verursachen, wenn Ihr zu lange darauf steht."
  on_parliament_abolished_effect_tt:0 "Entfernt ALLE §YModifikatoren§!, die durch das §YParlament§! verabschiedet wurden."
@@ -1821,7 +1821,7 @@
  bribe_effect_scales_with_estate_janissaries_tt:0 "Skaliert invertiert mit der Loyalität des §YJanitscharen§!-Stands ([Root.GetJanissariesLoyaltyStatus])"
  bribe_effect_scales_with_estate_eunuchs_tt:0 "Skaliert invertiert mit der Loyalität des §YEunuchen§!-Stands ([Root.GetEunuchsLoyaltyStatus])"
  bribe_effect_scales_with_estate_qizilbash_tt:0 "Skaliert invertiert mit der Loyalität des §Y[Root.GetQizilbaschName]§!-Stands ([Root.GetQizilbashLoyaltyStatus])"
- bribe_effect_scales_with_estate_ghulams_tt:0 "Skaliert invertiert mit der Loyalität des §Y[Root.GetGhilmanenName]§!-Stands ([Root.GetGhulamsLoyaltyStatus])" # [LocEditor:AwaitingBatchUpdate]
+ bribe_effect_scales_with_estate_ghulams_tt:1 "Skaliert invertiert mit der Loyalität des §Y[Root.GetGhilmanenName]§!-Stands ([Root.GetGhulamsLoyaltyStatus])"
  issue_effects_with_estate_brahmins_influence_tt:0 "§YSkaliert mit dem Einfluss des [Root.GetBrahmanenName]-Stands§!"
  issue_effects_with_estate_church_influence_tt:0 "§YSkaliert mit dem Einfluss des [Root.GetKlerusName]-Stands§!"
  issue_effects_with_estate_maratha_influence_tt:0 "§YSkaliert mit dem Einfluss des [Root.GetMarathaName]-Stands§!"
@@ -1836,7 +1836,7 @@
  issue_effects_with_estate_janissaries_influence_tt:0 "§YSkaliert mit dem Einfluss des Janitscharen-Stands§!"
  issue_effects_with_estate_eunuchs_influence_tt:0 "§YSkaliert mit dem Einfluss des Eunuchen-Stands§!"
  issue_effects_with_estate_qizilbash_influence_tt:0 "§YSkaliert mit dem Einfluss des [Root.GetQizilbaschName]-Stands§!"
- issue_effects_with_estate_ghulams_influence_tt:0 "§YSkaliert mit dem Einfluss des [Root.GetGhilmanenName]-Stands§!" # [LocEditor:AwaitingBatchUpdate]
+ issue_effects_with_estate_ghulams_influence_tt:1 "§YSkaliert mit dem Einfluss des [Root.GetGhilmanenName]-Stands§!"
  unlock_issue_acts_of_high_admiralty_tt:0 "Neues [Root.GetParliamentOrFallbackName]-Anliegen: §YGesetz der Obersten Admiralität§!."
  unlock_issue_acts_of_maritime_courage_tt:0 "Neues [Root.GetParliamentOrFallbackName]-Anliegen: §YSeecourage-Gesetz§!."
  unlock_issue_acts_of_maritime_professionalism_tt:0 "Neues [Root.GetParliamentOrFallbackName]-Anliegen: §YSeeprofessionalitätsgesetz§!."
@@ -1899,7 +1899,7 @@
  increase_trade_goods_discovery_gems_tt:0 "Erhöht bei Kolonisierung der Provinz die Chance, §YEdelsteine§! zu entdecken."
  increase_trade_goods_discovery_coal_tt:0 "Erhöht bei Kolonisierung der Provinz die Chance, §YKohle§! zu entdecken."
  increase_trade_goods_discovery_cloves_tt:0 "Erhöht bei Kolonisierung der Provinz die Chance, §YGewürznelken§! zu entdecken."
- ADD_INNOVATIVENESS_OR_MONARCHPOWER:0 "Die überschüssige Innovationsfähigkeit wird zu §Y10§! §GMachtpunkten§! jedes Typs umgewandelt.\n(Zusätzliche Innovationsfähigkeit durch §YInnovationsfähigkeit (Zuwachs)§! wird NICHT umgewandelt)" # [LocEditor:AwaitingBatchUpdate]
+ ADD_INNOVATIVENESS_OR_MONARCHPOWER:1 "Die überschüssige Innovationsfähigkeit wird zu §Y10§! §GMachtpunkten§! jedes Typs umgewandelt.\n(Zusätzliche Innovationsfähigkeit durch §YInnovationsfähigkeit (Zuwachs)§! wird NICHT umgewandelt)"
  earlier_coal_available_tt:0 "§YKohle§! ist jetzt verfügbar, wenn wir die Institution §YManufakturen§! und eine Administrative Technologie von mindestens §Y23§! haben."
  enable_full_ducat_gain_from_selling_crownland_tt:0 "Die Auswirkung von "§YTitel verkaufen§!" wird im Lauf der Zeitalter nicht verringert."
  can_sell_crownland_to_estates_targeted_tt:0 ""§YTitel verkaufen§!" kann jetzt bei einem Stand eingesetzt werden."
@@ -2136,7 +2136,7 @@
  mechanic_has_eyalets:0 "Kann Eyalets haben"
  ottoman_provincial_government_system_reform:0 "Provinz-Regierungssystem"
  ottoman_provincial_government_system_reform_desc:0 "Durch die Ernennung von Provinzgouverneuren konnten wir die Verwaltung von Steuern und die Ausbeutung anderer Ressourcen verbessern. Obwohl ambitionierte Gouverneure oft in Intrigen und interne Fehden verwickelt sein können, rechtfertigt der zusätzliche Gewinn aus unseren Besitztümern dieses Risiko."
- mechanic_pasha_extra_bonuses_yes:0 "§YPaschas§! geben jetzt §G+20.0%§! Steuereinnahmen (Lokal) für Provinzen anderer Kulturgruppen." # [LocEditor:AwaitingBatchUpdate]
+ mechanic_pasha_extra_bonuses_yes:1 "§YPaschas§! geben jetzt §G+20.0%§! Steuereinnahmen (Lokal) für Provinzen anderer Kulturgruppen."
  devshirme_system_reform:0 "Dewschirme-System"
  devshirme_system_reform_desc:0 "Vom Ende des 14. bis zur Mitte des 17. Jahrhunderts erwarben die osmanischen Dynastien Sklaven für ihren Haushalt durch die Anwendung des Dewschirme-Systems. Sorgfältig ausgewählte, nicht muslimische Kinder - in der Regel Christen vom eher ländlichen Balkan - wurden dabei im Alter von zwölf bis vierzehn Jahren zu türkischen Familien geschickt, um mit diesen zusammenzuleben, ehe man sie in die kaiserliche Hauptstadt brachte. Die meisten schlossen sich den Janitscharen an, einer stehenden Armee aus Infanterie, deren Ausbildung von strenger Disziplin geprägt war. Wer besondere Führungsqualitäten oder intellektuelle Fähigkeiten zeigte, kam geradewegs in den Haushalt des Sultans, um dort erzogen zu werden; war man weiter erfolgreich, konnte man in die höchsten militärischen Ränge der osmanischen Elite aufsteigen. Da der Lebensunterhalt dieser Sklaven, die auch als Kul bekannt waren, vom jeweiligen Herrscher abhing, zeigten sie große Loyalität und standen der Einrichtung einer zentralen Kontrolle über das Reich durch die osmanische Dynastie kritisch gegenüber."
  tur_not_has_abolished_devshirme_system_tt:0 "Hat das §YDewschirme-System§! NICHT aufgegeben."
@@ -2222,7 +2222,7 @@
  desc_the_righteous_army:0 "Kein Feind, der dumm genug ist, uns anzugreifen, wird unser Land lebend verlassen. Die Bauernschaft wird unseren Boden mit allem verteidigen, was sie hat!"
  kor_righteous_army_ct:1 "Ermöglicht die Rekrutierung der Söldnerkompanie §JRechtschaffene Armee§! während Verteidigungskriegen.\nDiese Söldnerkompanie kostet keine Armee-Professionalität, wird aber in Friedenszeiten aufgelöst."
  the_righteous_army_tt:0 "bis wir uns im Frieden befinden"
- mechanic_has_righteous_army_yes:0 "Kann die §YRechtschaffene Armee§! in Verteidigungskriegen einberufen" # [LocEditor:AwaitingBatchUpdate]
+ mechanic_has_righteous_army_yes:1 "Kann die §YRechtschaffene Armee§! in Verteidigungskriegen einberufen"
  mansabdari_system_reform:0 "Mansabdaren-System"
  mansabdari_system_reform_desc:0 "Die Mansabdaren bilden den Kern unseres Militärs und unserer Verwaltung. Adlige erhalten Landrechte im Gegenzug für ihre Dienste im Militär und in der Verwaltung. Im Gegensatz zu anderen Adeligen unterstanden die Mansabdaren direkt dem Monarchen."
  mechanic_enable_mansabdar_privileges_yes:0 "Neues Privileg für den Adel-Stand: §YMansabdaren-Privilegien§!"
@@ -2405,7 +2405,7 @@
  bohemian_elective_kingdom_reform:0 "Böhmische Wahlmonarchie"
  bohemian_elective_kingdom_reform_desc:0 "Der Adel von Böhmen hatte schon immer ein Wort mitzureden, wenn es darum ging, wer ihn regieren sollte, und er wird seinen nächsten Herrscher aus allen verfügbaren Kandidaten wählen, unabhängig von der Blutlinie."
  stadthalter_monarchy_reform:1 "Statthalter-Monarchie"
- stadthalter_monarchy_reform_desc:1 "Der Titel des Statthalters ist eine traditionelle Bezeichnung für einen Regionalverwalter in den Niederlanden. Durch die Umwandlung in einen erblichen Titel ist er heute mit einem König vergleichbar." # [LocEditor:AwaitingBatchUpdate]
+ stadthalter_monarchy_reform_desc:2 "Der Titel des Statthalters ist eine traditionelle Bezeichnung für einen Regionalverwalter in den Niederlanden. Durch die Umwandlung in einen erblichen Titel ist er heute mit einem König vergleichbar."
  trade_company_government:0 "Handelshaus"
  trade_company_government_desc:0 "Bei einem Handelshaus handelt es sich um ein Unternehmen, das gegründet wurde, um den Handel in Übersee besser zu nutzen und mehr davon profitieren zu können."
  english_parliamentary_republic_government:0 "Konstitutionelle Republik"
@@ -2450,7 +2450,7 @@
  great_council_of_mechelen_reform_desc:1 "Der Große Rat von Mechelen war ein Gerichtshof in den Niederlanden während des späten Mittelalters und der frühen Neuzeit. Er war für die Auslegung und Umsetzung der Gesetze des Landes zuständig und hatte erheblichen Einfluss auf die Regierung und Verwaltung der Region."
  mechanic_no_more_dutch_revolt_yes:0 "Deaktiviert die Katastrophe §YNiederländischer Aufstand§!"
  sisterhood_of_jeanne_darc_reform:0 "Schwesternschaft der Johanna von Orléans"
- sisterhood_of_jeanne_darc_reform_desc:0 "Die Schwesternschaft der Johanna von Orléans ist ein religiöser Orden, der gegründet wurde, um die Ideale von Johanna von Orléans zu fördern, jener verehrten und äußerst frommen einfachen Magd, die Frankreich vor den Engländern rettete." # [LocEditor:AwaitingBatchUpdate]
+ sisterhood_of_jeanne_darc_reform_desc:1 "Die Schwesternschaft der Johanna von Orléans ist ein religiöser Orden, der gegründet wurde, um die Ideale von Johanna von Orléans zu fördern, jener verehrten und äußerst frommen einfachen Magd, die Frankreich vor den Engländern rettete."
  janissary_autocracy_reform:1 "Janitscharen-Stratokratie"
  janissary_autocracy_reform_desc:0 "Ein Reich, das von jenen Janitscharen regiert wird, die sich von ihren früheren Herren losgesagt haben. Ihr einziges Oberhaupt ist der Aga, den sie ähnlich wie einen Monarchen in einer Monarchie ernennen."
  admiralty_regime_reform:0 "Admiralitätsregime"
@@ -2740,6 +2740,7 @@
  tur_defeat_the_mamluks_title:0 "Besiegt die Mamelucken"
  tur_defeat_the_mamluks_desc:0 "Das ägyptische Sultanat der Mamelucken ist seit der Plünderung Bagdads durch die Mongolen die vorherrschende Macht in der islamischen Welt. Sie nennen sich zwar die Beschützer des Kalifen und der Heiligen Stadt, sind aber schwach und dekadent geworden. Die Zeit ist reif, ihre syrischen Besitztümer zu übernehmen und die heiligen Städte Jerusalem und Damaskus aus ihrer Gewalt zu befreien."
  tur_defeat_the_mamluks_at:0 "Diesen Kriegsgrund gegen das @MAM §YMameluckenreich§! zu verwenden, aktiviert eine besondere Kette von Ereignissen, die ausgelöst werden kann, wenn wir §Y[MAM.Capital.GetName]§! kontrollieren.\nDieses Ereignis ermöglicht es uns, ein §YKern-Eyalet§! in §YÄgypten§! zu errichten."
+ tur_defeat_the_mamluks_tt:0 "§Y[Root.GetName]§! erhält dauerhafte Ansprüche auf die Gebiete §YBahrain§!, §YTabuk§!, §YNafud§!, §YAl Qasim§!, §YMedina§! und §YMekka§!."
  tur_conquer_persia_title:0 "Persische Bedrohung"
  tur_conquer_persia_desc:1 "Persien wurde in der Vergangenheit von zahlreichen Nationen beherrscht, zuletzt von den Timmuriden, einer heimtückischen Macht, die die Hügel Anatoliens verwüstete. Obschon die Macht der Timmuriden nicht mehr das ist, was sie einmal war, könnte sich in dieser Region ein neues Reich erheben, ein neuer persischer Löwe, der versuchen wird, uns zu verschlingen. Wir müssen zuerst zuschlagen und der Bedrohung in unserem Osten ein für alle Mal ein Ende bereiten!"
  tur_conquer_greece_title:0 "Zügelt Griechenland"
@@ -2849,21 +2850,21 @@
  tur_second_islamic_golden_age_title:0 "Zweite Blütezeit"
  tur_second_islamic_golden_age_desc:0 "Die Blütezeit des Islam war ein Goldenes Zeitalter der Wissenschaft, Kultur und Wirtschaft. Für viele von uns endete dieses Zeitalter mit der tragischen Belagerung von Bagdad im Jahr 1258 durch die mongolische Horde und dem Zusammenbruch des Abbasiden-Kalifats.\nMit unserem Aufstieg zu einer der größten Mächte ist es an der Zeit, dem Islam neues Leben einzuhauchen."
  tur_any_islamic_nation_higher_dev_or_army_tt:0 "Keine andere Nation, die dem §Yislamischen§! Glauben folgt, hat mehr §YEntwicklung§! oder eine §Ygrößere Armee§! als wir"
- tur_embrace_legalism_title:0 "[Root.GetPreviewColorTUR]Legalismus fördern[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_embrace_legalism_title:1 "[Root.GetPreviewColorTUR]Legalismus fördern[Root.GetPreviewColorTUR_end]"
  tur_embrace_legalism_desc:0 "Die Gesetze des Islam sind unser Leben. Sie durchziehen all unsere Handlungen, Entscheidungen und Urteile. Ein Leben, das nicht Allahs Wort folgt, ist kein gutes Leben.\nWir müssen das großartige Rechtssystem unseres Glaubens fördern und es in unsere Kultur einbeziehen."
- tur_islamize_the_empire_title:0 "[Root.GetPreviewColorTUR]Moscheen für das Reich[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_islamize_the_empire_title:1 "[Root.GetPreviewColorTUR]Moscheen für das Reich[Root.GetPreviewColorTUR_end]"
  tur_islamize_the_empire_desc:0 "Obwohl unser Reich die Heimat vieler verschiedener Religionen ist, ist es in erster Linie ein islamisches Reich. Kein Bauer soll in einem Dorf leben müssen, das von Allah verlassen wurde."
- tur_rework_the_devshirme_system_title:0 "[Root.GetPreviewColorTUR]Kodifiziert das Fiqh[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_rework_the_devshirme_system_title:1 "[Root.GetPreviewColorTUR]Kodifiziert das Fiqh[Root.GetPreviewColorTUR_end]"
  tur_rework_the_devshirme_system_desc:0 "Das Fiqh ist das menschliche Verständnis der Scharia, jener religiösen Gesetze, die die Traditionen des Islam bilden. Unser Glaube spielt eine entscheidende Rolle in unserer Gesellschaft und unserer Regierung. Wir müssen das Fiqh kodifizieren und es als eine der Säulen unserer Regierung umsetzen."
- tur_embrace_mysticism_title:0 "[Root.GetPreviewColorTUR]Mystik fördern[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_embrace_mysticism_title:1 "[Root.GetPreviewColorTUR]Mystik fördern[Root.GetPreviewColorTUR_end]"
  tur_embrace_mysticism_desc:0 "Der Islam spielt in unserer Gesellschaft und Kultur eine wichtige Rolle. Manche widmen unserer heiligen Religion und deren Gesetzen sogar ihr gesamtes Leben. Dies ist zwar nicht unbedingt eine abträgliche Eigenschaft, doch die Idee unseres Glaubens ist es, eine Nähe zu Allah zu erreichen.\nWir müssen uns auf die große Mystik unserer Religion einlassen."
- tur_expand_the_dhimmi_title:0 "[Root.GetPreviewColorTUR]Moscheen für die Heiden[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_expand_the_dhimmi_title:1 "[Root.GetPreviewColorTUR]Moscheen für die Heiden[Root.GetPreviewColorTUR_end]"
  tur_expand_the_dhimmi_desc:0 "Unser Reich ist die Heimat vieler verschiedener Religionen, und auch wenn sie sich dessen nicht alle bewusst sein mögen, so werden sie alle von Allah geliebt. Es ist unsere Pflicht, dafür zu sorgen, dass auch unsere heidnischen Untertanen eine Moschee besuchen können."
- tur_develop_the_devshime_system_further_title:0 "[Root.GetPreviewColorTUR]Kodifiziert den Sufismus[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_develop_the_devshime_system_further_title:1 "[Root.GetPreviewColorTUR]Kodifiziert den Sufismus[Root.GetPreviewColorTUR_end]"
  tur_develop_the_devshime_system_further_desc:0 "Obwohl wir im Vergleich zu anderen muslimischen Reichen nicht so streng mit dem Rechtskodex des Islam sind, ist es dennoch wichtig, die Philosophien und Ideen des Sufismus in unserem Reich zu kodifizieren."
- tur_one_faith_empire_title:0 "[Root.GetPreviewColorTUR][Root.Religion.GetName]es Reich[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_one_faith_empire_title:1 "[Root.GetPreviewColorTUR][Root.Religion.GetName]es Reich[Root.GetPreviewColorTUR_end]"
  tur_one_faith_empire_desc:0 "Wir genießen die Herrlichkeit des [Root.Religion.GetName]en Glaubens. Wir müssen die heidnischen Wege der Ungläubigen in unserem Reich bekämpfen und dafür sorgen, dass der [Root.Religion.GetName]e Glaube gedeihen kann."
- tur_spread_the_true_faith_title:0 "[Root.GetPreviewColorTUR]Verbreitet den wahren Glauben[Root.GetPreviewColorTUR_end]" # [LocEditor:AwaitingBatchUpdate]
+ tur_spread_the_true_faith_title:2 "[Root.GetPreviewColorTUR]Verbreitet den wahren Glauben[Root.GetPreviewColorTUR_end]"
  tur_spread_the_true_faith_desc:0 "Es ist unsere göttliche Pflicht, den [Root.Religion.GetName]en Glauben auf der Welt zu verbreiten. Wir müssen dafür sorgen, dass niemand auf dem Weg der Dunkelheit wandelt, solange wir das Licht des [Root.Religion.GetName]en Glaubens bei uns tragen!"
  tur_spread_the_true_faith_at:1 "Zwangskonvertiert §Y15§! Nationen zum §Y[Root.Religion.GetName]en§! Glauben (§Y[Root.GetNumForceConvertedCountries]§!/§Y15§!)"
  tur_spread_the_true_faith_bt:0 "Konvertiert §Y150§! Provinzen (§Y[Root.GetNumConvertedProvinces]§!/§Y150§!)"
@@ -3571,6 +3572,7 @@
  commercial_enterprise_overlord:0 "Handelsunternehmen-Lehnsherr"
  commercial_enterprise_subject:0 "Handelsunternehmen-Untertan"
  commercial_enterprise_is_our:0 "§Y$NAME$§! ist unser Handelsunternehmen"
+ commercial_enterprise_no_overlord_dow:0 "Wir können unseren Handelsunternehmen nicht den Krieg erklären."
  trade_protectorate:0 "Handelsprotektorat"
  trade_protectorate_long_desc:0 "Ein Handelsprotektorat ist eine diplomatische Beziehung zwischen einer starken Seemacht und einem schwächeren lokalen Reich. Der Untertan überträgt seinen gesamten Handelseinfluss an seinen Lehnsherrn und erhält im Gegenzug dessen Schutz. Obwohl es sich um ein Untertanenverhältnis handelt, agieren Handelsprotektorate autonom und können das Handelsabkommen mit ihrem Lehnsherrn brechen."
  trade_protectorate_title:0 "Handelsprotektorat"
@@ -3808,7 +3810,7 @@
  ####BRHAMINS PRIVILEGES###
  estate_brahmins_development_of_temples:0 "Tempelausbau"
  estate_brahmins_development_of_temples_desc:0 "Die staatlichen Tempel sind Zufluchtsorte für das Volk und der Sitz des [Root.GetBrahmanenName]-Stands. Die Souveränität dieser Institutionen muss gewährleistet und ihr Ausbau gefördert werden."
- estate_brahmins_development_of_temples_gt:0 "Jede im Besitz befindliche §Ydharmische§! Provinz mit ein[Root.GetTempleNameDE7] §Y[Root.GetTempleName]§! oder besser erhält den folgenden Bonus:" # [LocEditor:AwaitingBatchUpdate]
+ estate_brahmins_development_of_temples_gt:1 "Jede im Besitz befindliche §Ydharmische§! Provinz mit ein[Root.GetTempleNameDE7] §Y[Root.GetTempleName]§! oder besser erhält den folgenden Bonus:"
  estate_brahmins_development_of_temples_rt:0 "Der Modifikator "§YTempelausbau§!" wird aus allen §Ydharmischen§! Provinzen entfernt."
  estate_brahmins_development_of_temples_mod:0 "Tempelausbau"
  desc_estate_brahmins_development_of_temples_mod:0 "Der Staat hat garantiert, die lokalen Tempel auszubauen."
@@ -4689,7 +4691,7 @@
  rus_solidify_serfdom_dt:0 "§YPrivilegien§!, die mit der §YLeibeigenschaft§! zusammenhängen, erhalten zusätzliche Modifikatoren."
  rus_solidify_serfdom_et:1 "Wenn wir diese Mission abschließen, während wir zu irgendeinem Zeitpunkt das Privileg "§YGrößere Freiheiten für Bauern§!" aktiv hatten:"
  rus_solidify_serfdom_ft:0 "§YPrivilegien§!, die mit der §YFreiheit der Bauern§! zusammenhängen, erhalten zusätzliche Modifikatoren."
- RUS_has_none_of_the_serfdom_privileges_tt:0 "Hat keines der auf die §YBauernschaft§! bezogenen Standesprivilegien aktiviert" # [LocEditor:AwaitingBatchUpdate]
+ RUS_has_none_of_the_serfdom_privileges_tt:0 "Hat keines der auf die §YBauernschaft§! bezogenen Standesprivilegien aktiviert"
  rus_increase_absolute_rule_title:0 "Absolute Autokratie"
  rus_increase_absolute_rule_desc:2 "Nur ein absoluter Autokrat kann [Root.GetUsableName] in eine blühende Zukunft führen. Wir müssen sicherstellen, dass es einen solchen Herrscher gibt und dass keiner unserer Stände eine Bedrohung für ihn darstellen kann."
  rus_increase_absolute_rule_tt:0 "Hat die Standesinteraktion "§YLand beschlagnahmen§!" mindestens §Y10§! Mal genutzt (§Y[Root.GetSeizeLandCounter]§!/§Y10§!)."
@@ -5104,12 +5106,12 @@
  flavor_mos.1.a.tt:0 "§RSolange dieser Modifikator aktiv ist, ist §Y[Root.GetName]§! dazu gezwungen, einen jährlichen Tribut an §Y[466.Owner.GetName]§! zu entrichten.§!"
  flavor_mos.2.t:0 "Das Ende des tatarischen Jochs"
  flavor_mos.2.desc:0 "Mit dem Fall von [466.GetName] an [466.Owner.GetName] sind die Tataren nicht mehr in der Lage, ihre Tributforderung an das [Root.GetAdjective]e Volk durchzusetzen. [Root.GetUsableName] konnte sich endlich vom tatarischen Joch befreien!"
- flavor_mos.2.desc_mos:0 "Da die Macht von [Root.GetName] stetig wächst, fiel es den Fürsten in [466.GetName] immer schwerer, das Joch auf unseren Schultern aufrechtzuerhalten. Irgendwann mussten die Tataren erkennen, dass wir zu mächtig sind, um uns ihre Forderungen aufzwingen zu lassen. [Root.GetUsableName] hat sich endlich vom tatarischen Joch befreit!" # [LocEditor:AwaitingBatchUpdate]
- flavor_mos.2.desc_mos_too_strong:0 "Die Macht von [target_country.GetName] hat ein unüberschaubares Ausmaß angenommen. Obwohl es auf dem Papier dem Tatarenjoch unterworfen ist, ist es dem [target_country.GetAdjective]en Volk dennoch gelungen, einen Staat zu errichten, der sich unserer Herrschaft zu widersetzen vermag. Es ist unmöglich geworden, unsere Forderungen gegenüber [target_country.GetName] durchzusetzen. Das Joch ist nicht mehr ..." # [LocEditor:AwaitingBatchUpdate]
+ flavor_mos.2.desc_mos:0 "Da die Macht von [Root.GetName] stetig wächst, fiel es den Fürsten in [466.GetName] immer schwerer, das Joch auf unseren Schultern aufrechtzuerhalten. Irgendwann mussten die Tataren erkennen, dass wir zu mächtig sind, um uns ihre Forderungen aufzwingen zu lassen. [Root.GetUsableName] hat sich endlich vom tatarischen Joch befreit!"
+ flavor_mos.2.desc_mos_too_strong:0 "Die Macht von [target_country.GetName] hat ein unüberschaubares Ausmaß angenommen. Obwohl es auf dem Papier dem Tatarenjoch unterworfen ist, ist es dem [target_country.GetAdjective]en Volk dennoch gelungen, einen Staat zu errichten, der sich unserer Herrschaft zu widersetzen vermag. Es ist unmöglich geworden, unsere Forderungen gegenüber [target_country.GetName] durchzusetzen. Das Joch ist nicht mehr ..."
  flavor_mos.2.desc_horde:0 "Das Ende einer Ära bricht an. Die einst wilde Horde "[Root.GetName]", die die Rus unterwarf und unter das Tatarenjoch zwang, hat sich reformiert und eine neue Regierung gebildet: eine, die sich nicht auf barbarische Methoden wie Raubzüge verlassen muss, um ihrer politischen Macht Wirksamkeit zu verleihen. Obwohl manche am Hof die Schwäche [Root.GetMdesder] [Root.Monarch.GetTitle][Root.GetMsMale] als Grund für diesen Politikwechsel angeben, wird [Root.Monarch.GetName] das Land in eine blühende Ära führen, die mehr dem ähnelt, was die europäischen Länder als zivilisiert ansehen."
  flavor_mos.2.a:0 "Wir sind Herr unseres eigenen Schicksals!"
  flavor_mos.2.b:0 "Außerdem hat das Joch sowieso mehr Mühe gemacht, als es Nutzen brachte."
- flavor_mos.2.c:0 "Eine unglückliche Wendung der Ereignisse ..." # [LocEditor:AwaitingBatchUpdate]
+ flavor_mos.2.c:0 "Eine unglückliche Wendung der Ereignisse ..."
  flavor_mos.3.t:0 "Forderung nach Tribut"
  flavor_mos.3.desc:0 "Die jährliche Forderung nach Tribut hat den Hof von [Root.Monarch.GetName] erreicht, und die Wilden aus [466.Owner.GetName] erwarten, dass wir diesen im Namen der ganzen Rus zahlen."
  flavor_mos.3.a:0 "Zahlt den Tribut."
@@ -5226,76 +5228,76 @@
  gbr_colonize_canada_desc:0 "Obwohl es kälter und rauer als die südlichen Länder ist, ist Kanada zur Ausbeutung reif. Exotische Felle, Holz und Mineralien sind in den verschneiten Bergen reichlich vorhanden."
  gbr_colonize_canada_ct:0 "§Y[Root.GetName]§! oder einer seiner Untertanen besitzen mindestens §Y10§! vollständig kolonisierte Provinzen in der Kolonialregion §YKolonial-Kanada§!."
  ENGLISH_FUR_TRADE:0 "Englischer Pelzhandel"
- gbr_seize_ceylon_title:0 "[Root.GetPreviewColorGBR]Übernehmt Ceylon[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_seize_ceylon_title:1 "[Root.GetPreviewColorGBR]Übernehmt Ceylon[Root.GetPreviewColorGBR_end]"
  gbr_seize_ceylon_desc:0 "Ceylon ist eine Insel in der Nähe des indischen Subkontinents und würde für den Handel im Indischen Ozean von großem Nutzen sein. Unsere Rivalen sind sich des profitablen Handels mit Indien und den Gewürzinseln bewusst und versuchen, Ceylon selbst zu erobern. Wir dürfen das nicht zulassen!"
  COROMANDEL_PRESENCE:0 "Präsenz in Koromandel"
- gbr_end_the_french_conflict_title:0 "[Root.GetPreviewColorGBR]Beendet den Konflikt[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_end_the_french_conflict_title:1 "[Root.GetPreviewColorGBR]Beendet den Konflikt[Root.GetPreviewColorGBR_end]"
  gbr_end_the_french_conflict_desc:0 "Sei es durch einen Sieg über die Franzosen und die Beanspruchung ihres Throns oder durch die Aufgabe unserer Territorien auf dem europäischen Kontinent und einen Fokus auf eine stärkere Flotte: Unser Konflikt mit Frankreich muss auf die eine oder andere Weise ein Ende finden."
  gbr_end_the_french_conflict_at:0 "Besitzt in der Region §YFrankreich§! keine andere Provinz als §Y[87.GetName]§!"
  gbr_end_the_french_conflict_bt:0 "§Y[4385.GetName]§! und §Y[167.GetName]§! befinden sich im Besitz von §Y[Root.GetName]§! oder dessen Untertanen und haben entweder einen §YMarktplatz§!, ein §YHandelsdepot§! oder eine §YBörse§!"
- gbr_abolish_villeinage_title:0 "[Root.GetPreviewColorGBR]Ende der Leibeigenschaft[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_abolish_villeinage_title:1 "[Root.GetPreviewColorGBR]Ende der Leibeigenschaft[Root.GetPreviewColorGBR_end]"
  gbr_abolish_villeinage_desc:0 "Die Leibeigenschaft hat sich zwar in der Vergangenheit bewährt, ist in der heutigen Zeit jedoch überholt. Sie ist einfach nicht mehr angemessen für eine Nation unseres Prestiges. Es ist an der Zeit, dieses System durch die Zinslehen zu ersetzen."
  unlock_privilege_estate_nobles_english_copyhold_tenure_tt:0 "\nNeues Adel-Privileg: §YErweiterte Zinslehen§!"
- gbr_establish_royal_navy_title:0 "[Root.GetPreviewColorGBR]Gründet die Royal Navy[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_establish_royal_navy_title:1 "[Root.GetPreviewColorGBR]Gründet die Royal Navy[Root.GetPreviewColorGBR_end]"
  gbr_establish_royal_navy_desc:0 "Unsere derzeitige Flotte besteht nur aus den Aufgeboten unserer Bürger, und sie zu mobilisieren, dauert lange und ist teuer.\nWir müssen eine dauerhafte Flotte errichten, die unsere Insel gegen fremde Eindringlinge verteidigen und die Zukunft von [Root.GetUsableName] sichern kann."
- gbr_rule_britannia_title:0 "[Root.GetPreviewColorGBR]Herrschaft über Britannien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_rule_britannia_title:1 "[Root.GetPreviewColorGBR]Herrschaft über Britannien[Root.GetPreviewColorGBR_end]"
  gbr_rule_britannia_desc:0 "Unsere Stärke liegt in unserer Flotte und das Meer ist unsere Heimat. Es ist unser Schicksal, die Welt von unseren Inseln aus zu beherrschen und sie mit unserer maritimen Überlegenheit zu dominieren!"
  gbr_rule_britannia_at:0 "Dieser Modifikator kann durch die Aktionen des Parlaments aufgestuft werden."
- gbr_colonize_north_america_title:0 "[Root.GetPreviewColorGBR]Besiedelt Amerika[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_colonize_north_america_title:1 "[Root.GetPreviewColorGBR]Besiedelt Amerika[Root.GetPreviewColorGBR_end]"
  gbr_colonize_north_america_desc:0 "Amerika ist ein vielseitiges Land. Im Norden haben wir von Pelzen und Schiffbaumaterialien gehört. Im Süden scheint das Land für den Anbau vieler verschiedener Feldfrüchte geeignet. Wir müssen dort Basen errichten, damit wir davon profitieren können."
  gbr_colonize_north_america_at:0 "§Y[Root.GetName]§! oder einer seiner Untertanen besitzt mindestens §Y10§! vollständig kolonisierte Provinzen in der Kolonialregion Kolonial-Ostamerika."
- gbr_dominiate_new_world_title:0 "[Root.GetPreviewColorGBR]Beherrscht die Neue Welt[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_dominiate_new_world_title:1 "[Root.GetPreviewColorGBR]Beherrscht die Neue Welt[Root.GetPreviewColorGBR_end]"
  gbr_dominiate_new_world_desc:0 "Auf dieser seltsamen Neuen Welt liegt ein [Root.GetAdjective]er Anspruch. All ihre Ressourcen und das Land gehören der [Root.GetAdjective]en Krone. Wir müssen unsere Vorherrschaft über die Neue Welt sicherstellen und diejenigen vertreiben, die es wagen, unseren Anspruch herauszufordern."
  gbr_dominiate_new_world_at:1 "Alle §Ykolonialen§! Untertanen erhalten §G+50.0%§! Produktionseffizienz und §G+50.0%§! Handelseffizienz."
- gbr_establish_first_indian_trade_post_title:0 "[Root.GetPreviewColorGBR]Ostindische Kompanie[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_establish_first_indian_trade_post_title:1 "[Root.GetPreviewColorGBR]Ostindische Kompanie[Root.GetPreviewColorGBR_end]"
  gbr_establish_first_indian_trade_post_desc:0 "Der Ursprung vieler exotischer Waren liegt auf dem indischen Subkontinent und die europäischen Großmächte profitieren bereits seit vielen Jahren vom Handel mit Indien. Es ist an der Zeit, dass wir mit ihnen gleichziehen und unser eigenes Handelshaus in Indien gründen."
  gbr_establish_first_indian_trade_post_at:0 "Dieses Ereignis erlaubt es uns, die @EIC §YOstindien-Kompanie§! in Indien als §YHandelsunternehmen§!-Untertan zu gründen."
- gbr_conquer_western_india_title:0 "[Root.GetPreviewColorGBR]Erobert Westindien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_conquer_western_india_title:1 "[Root.GetPreviewColorGBR]Erobert Westindien[Root.GetPreviewColorGBR_end]"
  gbr_conquer_western_india_desc:0 "Es ist unbestreitbar, dass die Kontrolle der Küste entlang von Westindien einem eine bessere Kontrolle über Indien als Ganzes gibt. Wir müssen dieses Land im Namen von [Root.GetName] beanspruchen."
  GBR_INDIAN_COASTLINE_CONTROL:0 "Indische Küstenkontrolle"
- gbr_english_superiority_title:0 "[Root.GetPreviewColorGBR][Root.GetAdjective]e Überlegenheit[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_english_superiority_title:1 "[Root.GetPreviewColorGBR][Root.GetAdjective]e Überlegenheit[Root.GetPreviewColorGBR_end]"
  gbr_english_superiority_desc:0 "Unsere Rivalen sind zahlreich und mächtig, doch auch arrogant. Sie glauben, uns auf dem Meer gewachsen zu sein, unseren Anspruch in fremden Ländern anzufechten und eine Bedrohung für uns darzustellen.\nWir müssen ihnen zeigen, was für ein fataler Irrtum das ist."
- gbr_the_royal_charter_title:0 "[Root.GetPreviewColorGBR]Königlicher Hoflieferant[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_the_royal_charter_title:1 "[Root.GetPreviewColorGBR]Königlicher Hoflieferant[Root.GetPreviewColorGBR_end]"
  gbr_the_royal_charter_desc:0 "Die Auszeichnung des königlichen Hoflieferanten (Royal Warrant) ist eine Befugnis, prächtige Waren für den königlichen Hof und die Königsfamilie zu liefern. Wir sollten unsere Handelspartner mit Bedacht auswählen und ihnen diese Auszeichnung im Austausch für günstigere Handelsbeziehungen gewähren."
  unlock_privilege_estate_burghers_autonomous_trade_companies_tt:0 "\nNeues Bürger-Privileg: §YAutonome Handelshäuser§!"
- gbr_the_mediterranean_isles_title:0 "[Root.GetPreviewColorGBR]Autorität im Mittelmeer[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_the_mediterranean_isles_title:1 "[Root.GetPreviewColorGBR]Autorität im Mittelmeer[Root.GetPreviewColorGBR_end]"
  gbr_the_mediterranean_isles_desc:0 "Während wir unsere Basen im Mittelmeer zunächst als strategisches Instrument für Kriege gegen unsere Nachbarn betrachteten, hat sich gezeigt, dass wir mit ihnen auch die Handelsflüsse der Region kontrollieren können. Wir sollten danach streben, den Handel zu steigern."
  gbr_the_mediterranean_isles_tt:0 "§Y[Root.GetName]§! erhält einen dauerhaften Anspruch auf jede §YInsel§! im §YMittelmeer§!."
- gbr_colonize_caribbeans_title:0 "[Root.GetPreviewColorGBR]Kolonisiert die Karibik[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_colonize_caribbeans_title:1 "[Root.GetPreviewColorGBR]Kolonisiert die Karibik[Root.GetPreviewColorGBR_end]"
  gbr_colonize_caribbeans_desc:0 "Die Inseln der Karibik bieten lukrative Möglichkeiten für bestimmte Gentlemen, die willens sind, sie zu erwerben. Wir haben genau diese Art von Gentleman."
- gbr_discover_india_title:0 "[Root.GetPreviewColorGBR]Entdeckt Indien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_discover_india_title:1 "[Root.GetPreviewColorGBR]Entdeckt Indien[Root.GetPreviewColorGBR_end]"
  gbr_discover_india_desc:0 "Der Handel mit Indien dauert schon seit undenkbarer Zeit an, doch durch die langen Routen profitieren auch andere davon. Wir müssen eine Expedition starten und einen Seeweg nach Indien finden."
  gbr_discover_india_at:0 "§Y[Root.GetName]§! erhält bis zu §Y5§! territoriale Kerne in Küstenprovinzen in §YIndien§!, die von [Root.GetName] entdeckt wurden."
- gbr_colonize_the_spice_isles_title:0 "[Root.GetPreviewColorGBR]Kolonisiert die Gewürzinseln[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_colonize_the_spice_isles_title:1 "[Root.GetPreviewColorGBR]Kolonisiert die Gewürzinseln[Root.GetPreviewColorGBR_end]"
  gbr_colonize_the_spice_isles_desc:0 "Aus den am weitesten entfernten Regionen der Welt kommen die wundersamsten Gewürze, gewebte Kleidungsstücke und exotische Frauen. Wir sollten hier eine Präsenz aufbauen, die der [Root.GetAdjective]en Gesellschaft nützt."
- gbr_conquer_inland_india_title:0 "[Root.GetPreviewColorGBR]Vorstoß nach Indien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_conquer_inland_india_title:1 "[Root.GetPreviewColorGBR]Vorstoß nach Indien[Root.GetPreviewColorGBR_end]"
  gbr_conquer_inland_india_desc:0 "Das Inland Indiens ist bekannt für seine lukrativen Minen und seltenen Juwelen. Es ist unnötig zu sagen, dass es den Bewohnern der Region unter unserer Verwaltung besser ginge."
  gbr_conquer_inland_india_at:0 "Bis zu §Y10§! im Besitz befindliche Provinzen in §YIndien§! erhalten Folgendes:"
- gbr_masters_of_india_title:0 "[Root.GetPreviewColorGBR]Herrscher von Indien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_masters_of_india_title:1 "[Root.GetPreviewColorGBR]Herrscher von Indien[Root.GetPreviewColorGBR_end]"
  gbr_masters_of_india_desc:0 "Der indische Subkontinent verneigt sich vor unserer Macht! Wir müssen die Reichtümer Indiens für den Ruhm von [Root.GetUsableName] einfahren!"
  gbr_masters_of_india_at:0 "§YHandelsunternehmen§! und §YProtektorate§! erhalten §G+15.0%§! Produzierte Güter.\n§YHandelsunternehmen§! gewähren ihrem Lehnsherrn jetzt §G-75.0%§! Handelsmalusreduktion (Kein Hauptumschlagplatz) und §G+5.0%§! Handelseffizienz."
  gbr_ave_the_royal_court_title:0 "Königlicher Hof"
  gbr_ave_the_royal_court_desc:0 "Ein[Root.GetMeFemale] [Root.Monarch.GetTitle] ist nichts ohne [Root.Monarch.GetHerHis]e Berater. Ganz gleich, wie die Zukunft von [Root.GetUsableName] auch aussehen mag: Wir werden stets fähige Berater benötigen."
- gbr_allies_on_the_mainland_title:0 "[Root.GetPreviewColorGBR]Bündnisse auf dem Festland[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_allies_on_the_mainland_title:1 "[Root.GetPreviewColorGBR]Bündnisse auf dem Festland[Root.GetPreviewColorGBR_end]"
  gbr_allies_on_the_mainland_desc:0 "Auch wenn unsere Prioritäten jenseits des Meers liegen, sollten wir nicht vergessen, dass unser Heimatkontinent eine Bedrohung für uns darstellen könnte, sofern wir uns nicht um ihn kümmern. Wir sollten Bündnisse mit den Feinden unserer Feinde eingehen."
  gbr_allies_on_the_mainland_tt:1 "- Hat eine Hauptstadt in §Y[Root.Capital.GetContinentName]§!\n- Meinung von §Y[Root.GetName]§! beträgt mindestens §Y150§!.\n- Ist entweder §Y[POR.GetName]§! oder hat mindestens §Y200§! Gesamtentwicklung"
- gbr_take_over_the_lowlands_title:0 "[Root.GetPreviewColorGBR]Beeinflusst die Niederlande[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_take_over_the_lowlands_title:1 "[Root.GetPreviewColorGBR]Beeinflusst die Niederlande[Root.GetPreviewColorGBR_end]"
  gbr_take_over_the_lowlands_desc:0 "Die Niederländer und Flamen in den Niederlanden sind uns in vielerlei Hinsicht ähnlich: Sie streben nach Reichtum durch profitablen Handel, unterhalten eine beeindruckende Seestreitmacht und haben sich gegen die französische und spanische Vorherrschaft gestellt. Die Niederlande zu unserem Vorteil zu beeinflussen, könnte uns einen unschätzbaren Verbündeten oder Untertan in dieser Region einbringen."
  gbr_take_over_the_lowlands_at:1 "Wenn wir diese Mission abschließen, während wir gleichzeitig einen Verbündeten in den §YNiederlanden§! haben, der die Bedingungen erfüllt:"
  gbr_take_over_the_lowlands_ct:0 "Der §YVerbündete§! und §Y[Root.GetName]§! werden zu §Yhistorischen Freunden§!."
- gbr_trade_dominance_in_europe_title:0 "[Root.GetPreviewColorGBR]Europäischer Handel[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_trade_dominance_in_europe_title:1 "[Root.GetPreviewColorGBR]Europäischer Handel[Root.GetPreviewColorGBR_end]"
  gbr_trade_dominance_in_europe_desc:0 "Obwohl viele Waren aus der Neuen Welt in unseren Ärmelkanal fließen, ist dies bei Weitem nicht der einzige Umschlagplatz in Europa, an dem beträchtliche Gewinne zu erzielen sind. Unsere Präsenz in Europa auszuweiten, wird es uns erlauben, eine stärkere Dominanz über den europäischen Handel auszuüben."
  gbr_trade_dominance_in_europe_at:0 " Umschlagplätze in §YEuropa§!:\n    §Y[Root.GetName]§! hat mindestens §Y30%§! Handelsmacht\n    §Y[Root.GetName]§! ist die stärkste Handelsmacht"
- gbr_sail_around_africa_title:0 "[Root.GetPreviewColorGBR]Umsegelt Afrika[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_sail_around_africa_title:1 "[Root.GetPreviewColorGBR]Umsegelt Afrika[Root.GetPreviewColorGBR_end]"
  gbr_sail_around_africa_desc:0 "Welche Wunder werden uns wohl jenseits des Kaps der Guten Hoffnung erwarten?"
  gbr_sail_around_africa_ct:0 "Hat Afrika umsegelt"
- gbr_seize_the_cape_title:0 "[Root.GetPreviewColorGBR]Erobert das Kap[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_seize_the_cape_title:1 "[Root.GetPreviewColorGBR]Erobert das Kap[Root.GetPreviewColorGBR_end]"
  gbr_seize_the_cape_desc:0 "Das Kap der Guten Hoffnung ist ein wichtiger Knotenpunkt auf der Route nach Ostindien. Wer das Kap kontrolliert, kontrolliert zweifelsohne auch die asiatischen Ambitionen der anderen Großmächte.\nDas Kap muss uns gehören!"
- gbr_chart_the_southern_sea_title:0 "[Root.GetPreviewColorGBR]Kartografie der Südsee[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_chart_the_southern_sea_title:1 "[Root.GetPreviewColorGBR]Kartografie der Südsee[Root.GetPreviewColorGBR_end]"
  gbr_chart_the_southern_sea_desc:0 "Wagemutige Männer mit echtem britischen Mut suchen staatliche Unterstützung, um die riesigen Weiten der Südsee kartografieren zu können. Gerüchten zufolge gibt es dort auch Land, das es zu beanspruchen gilt. Wir sollten uns beeilen und eine blühende Kolonie gründen, bevor andere die Gelegenheit ergreifen."
- gbr_colonize_australia_title:0 "[Root.GetPreviewColorGBR]Besiedelt Australien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_colonize_australia_title:1 "[Root.GetPreviewColorGBR]Besiedelt Australien[Root.GetPreviewColorGBR_end]"
  gbr_colonize_australia_desc:0 "Unsere Entdecker haben von einer Insel unvorstellbarer Größe gesprochen. Obwohl es nicht der südliche Kontinent ist, den wir zu finden gehofft hatten, ist es immer noch Land, das [Root.GetName] für sich beanspruchen sollte."
- gbr_conquer_eastern_india_title:0 "[Root.GetPreviewColorGBR]Erobert Bengalen[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ gbr_conquer_eastern_india_title:1 "[Root.GetPreviewColorGBR]Erobert Bengalen[Root.GetPreviewColorGBR_end]"
  gbr_conquer_eastern_india_desc:0 "Die [Root.GetAdjective]e Ostindien-Kompanie ist seit einiger Zeit in dieser Region tätig. Auf ihre Bitte hin und mit ihrer Anleitung ist es an der Zeit, unseren Einfluss auf das fruchtbare Bengaldelta zu festigen."
  gbr_ave_monopolize_the_channel_title:0 "Monopolisiert den Ärmelkanal"
  gbr_ave_monopolize_the_channel_desc:0 "Da wir unsere koloniale Vorherrschaft nun gefestigt haben, beginnen wertvolle Waren aus unseren Kolonien anzukommen. Was immer auch durch den Kanal fließt, gehört zu Recht uns, und wir müssen unsere Investitionen im Ausland und daheim schützen."
@@ -5320,67 +5322,67 @@
  gbr_ave_the_royal_marines_desc:0 "Der maritime Charakter unseres Staats erfordert auch gewisse Anpassungen an unserem Militär. Wir müssen eine Marineinfanterie, die Royal Marines gründen, um die Interessen von [Root.GetUsableName] in Übersee schützen zu können."
  gbr_ave_the_men_of_war_title:0 "Erweitert die Royal Navy"
  gbr_ave_the_men_of_war_desc:0 "Wir leben und sterben durch unsere Fähigkeit, unsere Macht über das Meer hinaus zu projizieren. Wir müssen unsere Nation auf den Auf- und Ausbau unserer großen Flotte, der Royal Navy, vorbereiten."
- ave_eliminate_the_french_minors_title:0 "[Root.GetPreviewColorGBR]Sichert die Herzogskronen[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_eliminate_the_french_minors_title:1 "[Root.GetPreviewColorGBR]Sichert die Herzogskronen[Root.GetPreviewColorGBR_end]"
  ave_eliminate_the_french_minors_desc:0 "Auch wenn der Thron Frankreichs nun von [Root.Capital.GetName] aus regiert wird, ist die französische Region noch immer dezentralisiert und zersplittert. Die unabhängigen Herzogtümer der Provence und der Bretagne müssen sich [Root.GetUsableName] beugen."
  ave_eliminate_the_french_minors_at:0 "Wenn wir diese Mission abschließen, während §YFrankreich§! unser Untertan ist:"
  ave_eliminate_the_french_minors_ct:0 "Einer der folgenden Punkte muss zutreffen:\n    Ist ein Untertan von §Y[Root.GetName]§! oder dessen Untertanen\n    Besitzt keine Provinz in der Region §YFrankreich§!"
- ave_conquer_iberia_title:0 "[Root.GetPreviewColorGBR]Königreiche Spaniens[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_conquer_iberia_title:1 "[Root.GetPreviewColorGBR]Königreiche Spaniens[Root.GetPreviewColorGBR_end]"
  ave_conquer_iberia_desc:0 "Die Iberische Halbinsel ist die Heimat der mächtigen Königreiche Aragon, Kastilien und Portugal. Jedes dieser Reiche stellt eine Bedrohung für unsere Interessen in Frankreich und jenseits des großen Atlantiks dar. Wir müssen zuschlagen, bevor die Iberer einen Angriff gegen uns beginnen können."
- ave_angevin_iberia_title:0 "[Root.GetPreviewColorGBR]Angevinisches Iberien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_angevin_iberia_title:1 "[Root.GetPreviewColorGBR]Angevinisches Iberien[Root.GetPreviewColorGBR_end]"
  ave_angevin_iberia_desc:0 "Wir haben die iberischen Königreiche in die Knie gezwungen, doch das Volk weigert sich weiterhin, sich der angevinischen Krone zu unterwerfen. Wir müssen das Erbe der spanischen Krone offiziell annehmen und den Iberern unser Wohlwollen zeigen, indem wir in ihr unterentwickeltes Land investieren"
- ave_promote_angevin_culture_title:0 "[Root.GetPreviewColorGBR]Angevinische Kultur[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_promote_angevin_culture_title:1 "[Root.GetPreviewColorGBR]Angevinische Kultur[Root.GetPreviewColorGBR_end]"
  ave_promote_angevin_culture_desc:0 "Der Hundertjährige Krieg hat eine tiefe Kluft zwischen unserer Kultur und der unseres Herkunftslands Frankreich geschaffen. Diese Wunden müssen heilen, wenn das Angevinische Reich die Zeiten überdauern soll."
  ave_promote_angevin_culture_at:0 "Hat einen §Ybritischen§! und §Yfranzösischen§! Berater eingestellt."
  ave_promote_angevin_culture_bt:1 "Die §Ybritische§! Kulturgruppe wird zur §Yangloisischen§! Kultur der §Yfranzösischen§! Kulturgruppe umgewandelt."
- ave_take_the_french_throne_title:0 "[Root.GetPreviewColorGBR]Der Thron von Frankreich[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_take_the_french_throne_title:1 "[Root.GetPreviewColorGBR]Der Thron von Frankreich[Root.GetPreviewColorGBR_end]"
  ave_take_the_french_throne_desc:0 "Seit 1337 befinden sich die Engländer und die Franzosen in einem ständigen Kampf um die Vorherrschaft über den französischen Thron. Es waren hundert Jahre voller Schlachten, Verwüstung, Tod und Zerstörung, und dieses Blutvergießen kann nur auf eine Weise enden: durch einen totalen Sieg über die Franzosen!"
- ave_shatter_frances_nobility_title:0 "[Root.GetPreviewColorGBR]Französischer Adel[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_shatter_frances_nobility_title:1 "[Root.GetPreviewColorGBR]Französischer Adel[Root.GetPreviewColorGBR_end]"
  ave_shatter_frances_nobility_desc:0 "Endlich hat Frankreich seine Niederlage akzeptiert und [Root.GetMdendie] [Root.Monarch.GetTitle] von [Root.GetUsableName] als einzig wahren Herrscher anerkannt. Während das französische Bürgertum vor [Root.GetMdemder] wahren [Root.Monarch.GetTitle] kniet, weigert sich der französische Adel jedoch weiterhin, uns anzuerkennen. Da wir mit dem englischen Adel schon mehr als genug zu tun haben, müssen wir uns rasch um den französischen Adel kümmern."
- ave_the_angevin_empire_title:0 "[Root.GetPreviewColorGBR]Angevinisches Königreich[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_the_angevin_empire_title:1 "[Root.GetPreviewColorGBR]Angevinisches Königreich[Root.GetPreviewColorGBR_end]"
  ave_the_angevin_empire_desc:0 "Die angevinischen Könige herrschten einst über die Hälfte der französischen Länder und sorgten für Wohlstand und Gerechtigkeit. Mit unserem Sieg über den französischen Thron haben wir jedes Recht, den angevinischen Titel erneut einzufordern."
  ave_the_angevin_empire_at:0 "Befindet sich im Besitz von §Y[Root.GetName]§! oder dessen Untertanen (oder einem Untertan des Untertanen)"
- ave_invade_italy_title:0 "[Root.GetPreviewColorGBR]Sichert den Alpenpass[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_invade_italy_title:1 "[Root.GetPreviewColorGBR]Sichert den Alpenpass[Root.GetPreviewColorGBR_end]"
  ave_invade_italy_desc:0 "Mit der Vereinigung der französischen Region sind die Alpen zu unserer neuen Südostgrenze geworden. Die Italiener halten die dortigen Pässe und könnten uns leicht von den Reichtümern des italienischen Handels abschneiden. Wir müssen diese Pässe sichern und dafür sorgen, dass keiner dieser Herzöge und Dogen zu viel Macht erlangt."
- ave_italian_domination_title:0 "[Root.GetPreviewColorGBR]Zügelt Italien[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_italian_domination_title:1 "[Root.GetPreviewColorGBR]Zügelt Italien[Root.GetPreviewColorGBR_end]"
  ave_italian_domination_desc:1 "Die vielen Häuser Italiens und auch der Papst selbst stehen in ständigem Zwist miteinander um die Vorherrschaft in Italien. Keiner dieser Narren ist sich jedoch bewusst, dass ihr geliebter Stiefel im angevinischen Einflussbereich liegt. Wir sollten sie freundlicherweise an ihren Platz erinnern."
- ave_dominate_europe_title:0 "[Root.GetPreviewColorGBR]Dominiert Europa[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_dominate_europe_title:1 "[Root.GetPreviewColorGBR]Dominiert Europa[Root.GetPreviewColorGBR_end]"
  ave_dominate_europe_desc:0 "Einst waren wir ein unbedeutendes Königreich auf den Britischen Inseln, doch unser Reich hat sich zu einer der angesehensten und einflussreichsten Mächte Westeuropas entwickelt. Das Königreich Frankreich gehört uns und die iberischen Monarchen knien vor uns. Selbst der Papst und der Kaiser haben nicht mehr die Macht, sich uns zu widersetzen.\nVon diesem Tag an, nein, von diesem Moment an gehört der europäische Kontinent uns!"
- ave_a_kingdom_of_chivalry_title:0 "[Root.GetPreviewColorGBR]Reich der Ritterlichkeit[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_a_kingdom_of_chivalry_title:1 "[Root.GetPreviewColorGBR]Reich der Ritterlichkeit[Root.GetPreviewColorGBR_end]"
  ave_a_kingdom_of_chivalry_desc:0 "Der Hundertjährige Krieg war einer der letzten Kriege in Europa, in dem Ritter wahre Ritterlichkeit und Ehre im Kampf bewiesen haben. Danach verschwand die Ritterlichkeit immer mehr, bis sie schließlich ganz zu existieren aufhörte.\nDem wäre auch tatsächlich so, wenn es uns nicht gäbe. Wir müssen an den Grundpfeilern der Ritterlichkeit festhalten und sie an unserem Hof und in unserer Armee wiederaufleben lassen."
- ave_claim_the_empire_title_title:0 "[Root.GetPreviewColorGBR]Beansprucht den Kaisertitel[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_claim_the_empire_title_title:1 "[Root.GetPreviewColorGBR]Beansprucht den Kaisertitel[Root.GetPreviewColorGBR_end]"
  ave_claim_the_empire_title_desc:0 "Ursprünglich waren wir nichts weiter als eines der vielen Königreiche, die mit Frankreich um die Macht rangen, doch heute ist das Angevinische Königreich so viel mehr. Ganz Frankreich und England sind in unserem Besitz und der bloße Titel "König" wird unserem Ruhm einfach nicht mehr gerecht.\nWir müssen den Titel "Kaiser" des Angevinischen Reichs annehmen!"
  ave_claim_the_empire_title_at:0 "Dieses Ereignis gibt uns einen richtigen Namen, der unsere Macht widerspiegelt."
  ave_claim_the_empire_title_bt:0 "Der Name unserer Nation passt sich nun dynamisch an unsere Regierung und unseren Rang an."
- ave_discover_the_americas_title:0 "[Root.GetPreviewColorGBR]Entdeckt Amerika[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_discover_the_americas_title:1 "[Root.GetPreviewColorGBR]Entdeckt Amerika[Root.GetPreviewColorGBR_end]"
  ave_discover_the_americas_desc:0 "Leise Gerüchte erzählen von geheimnisvollen Ländern im fernen Westen, die mit unvorstellbaren Wundern gefüllt sind. Wenn das stimmt, müssen sie uns gehören."
- ave_eliminate_burgundy_title:0 "[Root.GetPreviewColorGBR]Übernehmt Burgund[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_eliminate_burgundy_title:1 "[Root.GetPreviewColorGBR]Übernehmt Burgund[Root.GetPreviewColorGBR_end]"
  ave_eliminate_burgundy_desc:0 "Die letzten Überreste des Herzogtums Burgund sind in schweres Fahrwasser geraten. Wir haben nicht vergessen, wie es sich nach dem Vertrag von Arras von uns abwandte. Das wird es büßen."
- ave_deal_with_the_hre_title:0 "[Root.GetPreviewColorGBR]Kampf um das HRR[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_deal_with_the_hre_title:1 "[Root.GetPreviewColorGBR]Kampf um das HRR[Root.GetPreviewColorGBR_end]"
  ave_deal_with_the_hre_desc:0 "Das Heilige Römische Reich ist das Überbleibsel eines einst großen Kaiserreichs, dessen Macht nun unter den Kurfürsten und Fürsten aufgeteilt ist. Da unsere Ambitionen in Europa liegen, ist es nur natürlich, dass es zu einem Kampf zwischen dem Angevinischen Reich und dem Heiligen Römischen Reich kommen wird."
  ave_deal_with_the_hre_at:0 "Wenn wir diese Mission abschließen, während mindestens §Y3§! Kurfürsten unsere Untertanen sind und bei der Kaiserwahl für uns stimmen:"
  ave_deal_with_the_hre_bt:0 "Wenn wir diese Mission abschließen, indem wir oder einer unserer Untertanen mindestens §Y10§! Provinzen in der Region §YDeutschland§! hält:"
  ave_deal_with_the_hre_ct:0 "Jede uns bekannte Nation im §YHeiligen Römischen Reich§! verliert §G5§! Aggressive Expansion gegenüber §Y[Root.GetName]§!."
- ave_double_emperorship_title:0 "[Root.GetPreviewColorGBR]Angevinischer Aufstieg[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_double_emperorship_title:1 "[Root.GetPreviewColorGBR]Angevinischer Aufstieg[Root.GetPreviewColorGBR_end]"
  ave_double_emperorship_desc:0 "Unser Glück ist auf dem Vormarsch. Könige verbeugen sich vor unserer Majestät und Nationen vor unseren Truppen. Es gibt nur noch einen Thron, der größer als der unsere ist und den es zu besteigen gilt."
  ave_double_emperorship_at:0 "Wenn wir diese Mission als Kaiser des §YHeiligen Römischen Reichs§! abschließen:"
- ave_kingdom_of_metropolises_title:0 "[Root.GetPreviewColorGBR]Königreich der Metropolen[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_kingdom_of_metropolises_title:1 "[Root.GetPreviewColorGBR]Königreich der Metropolen[Root.GetPreviewColorGBR_end]"
  ave_kingdom_of_metropolises_desc:0 "Als Herrscher über die riesigen Ländereien Englands und Frankreichs ist es unsere Pflicht, die Infrastruktur beider Kronen auszubauen."
  ave_kingdom_of_metropolises_at:0 "Jede im Besitz befindliche Provinz mit mindestens §Y20§! Entwicklung in der Region §YFrankreich§! und §YBritannien§! erhält Folgendes:"
- ave_the_angevin_age_title:0 "[Root.GetPreviewColorGBR]Angevinisches Zeitalter[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_the_angevin_age_title:1 "[Root.GetPreviewColorGBR]Angevinisches Zeitalter[Root.GetPreviewColorGBR_end]"
  ave_the_angevin_age_desc:0 "Unsere Nation wurde für ein Relikt aus dem Mittelalter gehalten, aus einer Zeit, in der die Dunkelheit den Geist der Menschen vernebelte. Doch wir haben uns durchgesetzt und sind eine dominierende Macht geworden.\nDies ist der Anbruch eines neuen Zeitalters, dem Angevinischen Zeitalter, das den Kontinent in eine bessere Zukunft führen wird!"
- ave_introduce_the_banking_act_title:0 "[Root.GetPreviewColorGBR]Einführung des Bankengesetzes[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_introduce_the_banking_act_title:1 "[Root.GetPreviewColorGBR]Einführung des Bankengesetzes[Root.GetPreviewColorGBR_end]"
  ave_introduce_the_banking_act_desc:0 "Unsere Ambitionen sind groß und unsere Ziele oft gefährlich, und jedes Unterfangen, das wir in Europa in Angriff nehmen, erfordert eine starke Staatskasse - oder eine starke verstaatlichte Bank. Wir sollten sowohl die Regierung als auch unsere Wirtschaft auf die Einführung eines staatlichen Bankensystems vorbereiten."
- ave_colonize_america_title:0 "[Root.GetPreviewColorGBR]Besiedelt Amerika[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_colonize_america_title:1 "[Root.GetPreviewColorGBR]Besiedelt Amerika[Root.GetPreviewColorGBR_end]"
  ave_colonize_america_desc:0 "Amerika ist ein vielseitiges Land. Im Norden haben wir von Pelzen und Schiffbaumaterialien gehört. Im Süden scheint das Land für den Anbau vieler verschiedener Feldfrüchte geeignet. Wir müssen dort Basen errichten, damit wir davon profitieren können."
  ave_colonize_america_tt:0 "§Y[Root.GetName]§! oder einer ihrer Untertanen besitzt mindestens §Y10§! vollständig kolonisierte Provinzen in der §YNeuen Welt§!."
- ave_colonial_empire_title:0 "[Root.GetPreviewColorGBR]Koloniales Reich[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_colonial_empire_title:1 "[Root.GetPreviewColorGBR]Koloniales Reich[Root.GetPreviewColorGBR_end]"
  ave_colonial_empire_desc:0 "Wir wurden vom Herrn ausgewählt, den Rest der Welt aufzuklären und Ruhm einzufahren. Es ist unsere Bestimmung, die Neue Welt im Namen [Root.GetMdesder] [Root.Monarch.GetTitle][Root.GetMsMale] zu kolonisieren!"
- ave_conquer_lowlands_title:0 "[Root.GetPreviewColorGBR]Beeinflusst die Niederlande[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_conquer_lowlands_title:1 "[Root.GetPreviewColorGBR]Beeinflusst die Niederlande[Root.GetPreviewColorGBR_end]"
  ave_conquer_lowlands_desc:0 "Die Niederländer und Flamen in den Niederlanden sind uns in vielerlei Hinsicht ähnlich: Sie streben nach Reichtum durch profitablen Handel, unterhalten eine beeindruckende Seestreitmacht und haben sich gegen die französische und spanische Vorherrschaft gestellt. Die Niederlande zu unserem Vorteil zu beeinflussen, könnte uns einen unschätzbaren Verbündeten oder Untertan in dieser Region einbringen."
- ave_perfect_construct_barracks_title:0 "[Root.GetPreviewColorGBR]Erweitert die Armee[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_perfect_construct_barracks_title:1 "[Root.GetPreviewColorGBR]Erweitert die Armee[Root.GetPreviewColorGBR_end]"
  ave_perfect_construct_barracks_desc:0 "Kriege sind oft eine Erweiterung der Diplomatie, doch bedauerlicherweise sprechen die törichten Monarchen Europas nur die Sprache der Gewalt, weshalb der Krieg die einzige Diplomatie ist, die sie verstehen.\nUm eine Stimme in der Welt zu haben, müssen wir ein starkes Militär besitzen."
  ave_perfect_construct_barracks_at:0 "Bis zu §Y5§! im Besitz befindliche Provinzen mit einer §YFestung§! und einem der Gebäude, die die §YRekrutenreserve§! erhöhen, erhalten Folgendes:"
- ave_combine_land_and_navy_title:0 "[Root.GetPreviewColorGBR]Kombiniertes Militär[Root.GetPreviewColorGBR_end]" # [LocEditor:AwaitingBatchUpdate]
+ ave_combine_land_and_navy_title:1 "[Root.GetPreviewColorGBR]Kombiniertes Militär[Root.GetPreviewColorGBR_end]"
  ave_combine_land_and_navy_desc:0 "Die königliche Armee und die Flotte sind zwei Seiten derselben Medaille. Um die Bürokratie zu minimieren und die Ausbildung unserer Truppen zu maximieren, wäre es klug, beide Aspekte des Militärs miteinander zu verbinden."
  ###BRITISH FLAVOR EVENTS###
  flavor_gbr.23.b.tt:0 "@SPA §YSpanien§! wird als Juniorpartner einer Personalunion unter §Y[Root.GetName]§! entlassen."
@@ -6220,15 +6222,15 @@
  jap_new_buddha_desc:0 "Vor Kurzem kamen seltsame Händler aus dem Westen an unsere Küsten, die über etwas sprachen, was zunächst wie eine andere Art von Buddha klang. In Wirklichkeit handelte es sich um eine völlig andere Glaubensrichtung, die nichts mit dem Buddhismus zu tun hat, etwas, was unter unserer Bevölkerung für viel Aufsehen gesorgt hat. Wir müssen die religiösen Konflikte beenden und alle in unseren Überzeugungen vereinen."
  jap_shinto_or_christian_title:0 "Dynamische Mission"
  jap_shinto_or_christian_desc:0 "Diese Mission variiert, je nachdem, ob wir zum Katholizismus konvertieren oder schintoistisch bleiben."
- jap_restoration_title:0 "[Root.GetPreviewColorJAP_RELI]Gleichgewicht der Macht[Root.GetPreviewColorJAP_RELI_end]" # [LocEditor:AwaitingBatchUpdate]
+ jap_restoration_title:1 "[Root.GetPreviewColorJAP_RELI]Gleichgewicht der Macht[Root.GetPreviewColorJAP_RELI_end]"
  jap_restoration_desc:0 "Seit dem Ende des Genpei-Krieges im Jahr 1185 liegt die Herrschaft unseres Landes in den Händen der Samurai-Familien. Nach der Vereinigung entstand zwar ein sehr wohlhabendes Shogunat, doch Seine Majestät der Kaiser residiert noch immer in seinem Palast. Andere Kaiser haben in der Vergangenheit bereits öfter versucht, die Macht wieder an sich zu reißen, und einer war sogar eine Zeit lang erfolgreich. Wir müssen diese potenzielle Bedrohung im Auge behalten. Andererseits ist es vielleicht gar keine so schlechte Idee, wenn der Kaiser wieder die Zügel in der Hand hält."
- jap_spread_the_christian_faith_title:0 "[Root.GetPreviewColorJAP_RELI]Verbreitet das Christentum[Root.GetPreviewColorJAP_RELI_end]" # [LocEditor:AwaitingBatchUpdate]
+ jap_spread_the_christian_faith_title:1 "[Root.GetPreviewColorJAP_RELI]Verbreitet das Christentum[Root.GetPreviewColorJAP_RELI_end]"
  jap_spread_the_christian_faith_desc:0 "Der westliche Vater hat uns von den Irrtümern unseres Weges überzeugt und uns ins Licht Jesu geführt. Nun ist es an uns, sein Licht in alle Ecken Asiens zu tragen."
- jap_bugeijuuhappan_title:0 "[Root.GetPreviewColorJAP]Bugeijuuhappan[Root.GetPreviewColorJAP_end]" # [LocEditor:AwaitingBatchUpdate]
+ jap_bugeijuuhappan_title:1 "[Root.GetPreviewColorJAP]Bugeijuuhappan[Root.GetPreviewColorJAP_end]"
  jap_bugeijuuhappan_desc:0 "Die Bugeijuuhappan, die achtzehn Kampfkünste, die jeder Samurai beherrschen muss, sind der Stolz unserer Truppen. Nach den langen Bürgerkriegen und dem Eintritt in eine Periode des inneren Friedens beginnen einige der jüngeren Samurai jedoch, ihre Ausbildung zu vernachlässigen. Wir müssen die Ausbildung in allen achtzehn Kampfkünsten fortführen und weiter fördern, damit alle unsere Samurai den Gipfel des Bushido verkörpern."
  jap_bugeijuuhappan_or_naval_academy_of_japan_title:0 "Dynamische Mission"
  jap_bugeijuuhappan_or_naval_academy_of_japan_desc:0 "Diese Mission variiert, je nachdem, ob wir unsere Armee oder unsere Flotte verbessern."
- jap_naval_academy_of_japan_title:1 "[Root.GetPreviewColorJAP]Eine neue Flottenakademie[Root.GetPreviewColorJAP_end]" # [LocEditor:AwaitingBatchUpdate]
+ jap_naval_academy_of_japan_title:2 "[Root.GetPreviewColorJAP]Eine neue Flottenakademie[Root.GetPreviewColorJAP_end]"
  jap_naval_academy_of_japan_desc:0 "Obwohl wir ein Inselstaat sind, haben wir uns nie wirklich auf die Aufrechterhaltung einer großen Flotte konzentriert. Wenn wir wirklich über unsere natürlichen Grenzen hinaus expandieren wollen, müssen wir jedoch in eine starke und effektive Flotte investieren."
  jap_strengthen_bakuhan_system_title:0 "Stärkt das Bakuhan"
  jap_strengthen_bakuhan_system_desc:0 "Das Bakuhan, das System zur Aufteilung des Landes zwischen dem Shogunat und den örtlichen Herrschern, ist seit der Vereinigung des Landes in Kraft. Wir müssen alle potenziellen Möglichkeiten daraus zu unserem größtmöglichen Vorteil nutzen."
@@ -6734,7 +6736,7 @@
  spa_reinforce_royal_authority_desc:0 "Der Adel von [Root.GetName] hat sich in den letzten Jahren oft gegen unsere Herrschaft gestellt. Wir müssen unsere Autorität stärken und eine langfristige Vereinbarung mit ihm treffen."
  spa_law_and_order_title:0 "Recht & Ordnung"
  spa_law_and_order_desc:0 "Wir müssen für Recht und Ordnung sorgen und gleichzeitig das Reisen zwischen unseren wohlhabenden Städten erleichtern. Um dies zu erreichen, sollten wir die Chancillería-Gerichte in Valladolid und Granada fördern und die Santa Hermandad als Polizei einsetzen."
- spa_economic_reforms_title:0 "Füllt die Schatzkammern" # [LocEditor:AwaitingBatchUpdate]
+ spa_economic_reforms_title:1 "Füllt die Schatzkammern"
  spa_economic_reforms_desc:0 "Es liegen schwierige Zeiten hinter uns und wir müssen unsere Schatzkammer füllen, um neue Unternehmungen zu finanzieren. Wir müssen zudem unser Geldsystem reformieren, und dafür brauchen wir den Rat und die Zustimmung des Bürger-Stands."
  spa_new_capital_title:0 "Neue Hauptstadt"
  spa_new_capital_desc:0 "Unsere Nation ist stark gewachsen und umfasst viele Königreiche. Obwohl wir es gewohnt sind, zwischen diesen zu reisen, müssen wir unseren Hof an einem festen Ort einrichten."
@@ -7066,7 +7068,7 @@
  por_first_circumnavigation_modifier:0 "Vermächtnis der ersten Weltumsegelung"
  desc_por_first_circumnavigation_modifier:0 "Unsere Schiffe haben in unwirtlichen Häfen jenseits des Horizonts angelegt und alle Meere bereist. Unsere Entdeckungen bringen uns Ruhm und ein Vermächtnis maritimer Exzellenz."
  por_elite_marines_modifier:0 "Portugiesische Elite-Marineregimenter"
- desc_por_elite_marines_modifier:0 "Unsere Marineregimenter werden im Zuge ihrer Ausbildung einem harten Drill unterzogen, was unsere Marinekadetten zu herausragenden Soldaten macht." # [LocEditor:AwaitingBatchUpdate]
+ desc_por_elite_marines_modifier:1 "Unsere Marineregimenter werden im Zuge ihrer Ausbildung einem harten Drill unterzogen, was unsere Marinekadetten zu herausragenden Soldaten macht."
  
  #Missions
  dom_portugal_reform_navy_title:0 "Reformiert die Marine"
@@ -7150,7 +7152,7 @@
  pru_200_dev_unlock_Ability_tt:2 "\n£yes£ Wenn wir die Mission abschließen und dabei direkt mindestens §Y200§! Entwicklung in der Region §YPolen§! besitzen, erhalten wir Zugang zur Prachtfähigkeit "§YPolnische Krone§!" im §YZeitalter der Reformation§!"
  pru_adding_provinces_to_trade_c_merc_prod_tt:1 "\nUnsere Provinzen zu einem §YHandelshaus§! hinzuzufügen, gibt ihnen §G1§! £dip£ Entwicklung und uns §G1§! Merkantilismus"
  pru_dev_saxon_lands_tt:1 "\nProvinzen mit §Ysächsischer§! oder §Yniedersächsischer§! Kultur zu entwickeln, gibt uns §Y20§! Jahre lang folgende Boni:\nNationalismus (Jahre): §G-3§!\nLokale Autonomie: §G-5%§!\nWohlstand (lokales Wachstum): §G+1§!\n"
- pru_unifying_germany_bb_gate_magnificent_tier_tt:0 "\nDie Stufe "§YPrächtig§!" des §YBrandenburger Tors§! gewährt außerdem die folgenden Boni:\nMaximaler effektiver Absolutismus: §G+10%§!" # [LocEditor:AwaitingBatchUpdate]
+ pru_unifying_germany_bb_gate_magnificent_tier_tt:1 "\nDie Stufe "§YPrächtig§!" des §YBrandenburger Tors§! gewährt außerdem die folgenden Boni:\nMaximaler effektiver Absolutismus: §G+10%§!"
  pru_spread_5_dev_tt:1 "§G5§! zufällige £adm£ £dip£ & £mil£ Entwicklung wird auf Provinzen verteilt, die wir oder ein Untertan in den folgenden Gebieten besitzen:\n- §YBraunschweig§!\n- §YNordwestfalen§!\n- §YSüdwestfalen§!"
  enable_this_ability_tt:0 "Erhält Zugang zu dieser Fähigkeit als Belohnung"
  pru_access_normal_militarization_tt:0 "\nVerbessert die Mechanik der "§YFrühen preußischen Militarisierung§!" zur "§YPreußischen Militarisierung§!" und erhöht damit deren Stärke"
@@ -7192,7 +7194,7 @@
  enabled_via_mission:0 "Wird durch eine Missionsbelohnung aktiviert"
  #
  aljaferia_palace:0 "Aljafería-Palast"
- empower_inquisitors_tt:0 "Jede Stufe unseres §YInquisitor§!-Beraters gibt uns Folgendes:\nKosten (Gründung von Lokalen Organisationen): §G-5%§!" # [LocEditor:AwaitingBatchUpdate]
+ empower_inquisitors_tt:1 "Jede Stufe unseres §YInquisitor§!-Beraters gibt uns Folgendes:\nKosten (Gründung von Lokalen Organisationen): §G-5%§!"
  #
  divrigi_hospital_mosque:0 "Divrigi-Moschee und -Krankenhaus"
  fewer_plagues_tt:0 "[Root.Owner.GetAdjective]e Bürger werden weniger wahrscheinlich von der Pest heimgesucht"
@@ -7223,12 +7225,12 @@
  restore_color_decision_desc:0 "Diese nationale Entscheidung erlaubt es uns, unsere ursprüngliche Farbe wiederherzustellen.\n\nDiese Entscheidung ist §Y10§! Jahre lang nach der Annahme eines neuen Namens verfügbar."
  
  #Ship-related loc 
- geobukseon_ship:0 "Geobukseon-Schiff" # [LocEditor:AwaitingBatchUpdate]
- man_of_war_ship:0 "Linienschiff" # [LocEditor:AwaitingBatchUpdate]
- galleon_ship:0 "Galeone" # [LocEditor:AwaitingBatchUpdate]
- galleass_ship:0 "Galeasse" # [LocEditor:AwaitingBatchUpdate]
- caravel_ship:0 "Karavelle" # [LocEditor:AwaitingBatchUpdate]
- voc_indiamen_ship:0 "VOC-Ostindienfahrer" # [LocEditor:AwaitingBatchUpdate]
+ geobukseon_ship:1 "Geobukseon-Schiff"
+ man_of_war_ship:1 "Linienschiff"
+ galleon_ship:1 "Galeone"
+ galleass_ship:1 "Galeasse"
+ caravel_ship:1 "Karavelle"
+ voc_indiamen_ship:1 "VOC-Ostindienfahrer"
  
  
  

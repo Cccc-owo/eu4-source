@@ -109,10 +109,10 @@
  EVERY_OWNED_OR_NON_TRIBUTARY_PROV:0 "Jede Provinz, die sich in unserem oder dem Besitz eines unserer nicht tributpflichtigen Untertanen befindet"
  FRONTIER_TOOLTIP:0 "$COUNTRY|Y$ errichtet eine Kolonie in $PROVINCE|Y$. Die derzeitige Größe beträgt $AMOUNT|0$. Jeden Monat wächst die Bevölkerung um $MIN$ bis $MAX$."
  RETURN_CORE_COUNTRY_OFFDESC:0 "Ihr bittet $RECIPIENT$ als Verbündeter darum, die Kernprovinz $PROV$ zurückzugeben. Dies kostet $FAVOURS$ Gefallen."
- land_units_killed:0 "In einer einzigen Schlacht getötete Landeinheiten" # [LocEditor:AwaitingBatchUpdate]
- land_units_lost:0 "In einer einzigen Schlacht verlorene Landeinheiten" # [LocEditor:AwaitingBatchUpdate]
- naval_units_killed:0 "In einer einzigen Schlacht getötete Schiffe" # [LocEditor:AwaitingBatchUpdate]
- naval_units_lost:0 "In einer einzigen Schlacht verlorene Schiffe" # [LocEditor:AwaitingBatchUpdate]
+ land_units_killed:1 "In einer einzigen Schlacht getötete Landeinheiten"
+ land_units_lost:1 "In einer einzigen Schlacht verlorene Landeinheiten"
+ naval_units_killed:1 "In einer einzigen Schlacht getötete Schiffe"
+ naval_units_lost:1 "In einer einzigen Schlacht verlorene Schiffe"
  total_land_units_killed:0 "Getötete Landeinheiten insgesamt"
  total_land_units_lost:0 "Verlorene Landeinheiten insgesamt"
  total_naval_units_killed:0 "Getötete Flotteneinheiten insgesamt"
@@ -152,8 +152,8 @@
  OURSIDETRUCEENDS_SETUP:0 "Wenn ein einseitiger Waffenstillstand zwischen Eurer Nation und einer anderen Nation endet."
  OURSIDETRUCEENDS_HEADER:0 "Unser Kanzler berichtet,"
  OURSIDETRUCEENDS_1:0 "Einseitiger Waffenstillstand endet"
- OURSIDETRUCEENDS_2:0 "Unser Waffenstillstand mit $RECIPIENT$ ist beendet." # [LocEditor:AwaitingBatchUpdate]
- OURSIDETRUCEENDS_5:0 "Wir können ihnen nun den Krieg erklären, ohne weitere Strafen befürchten zu müssen." # [LocEditor:AwaitingBatchUpdate]
+ OURSIDETRUCEENDS_2:1 "Unser Waffenstillstand mit $RECIPIENT$ ist beendet."
+ OURSIDETRUCEENDS_5:1 "Wir können ihnen nun den Krieg erklären, ohne weitere Strafen befürchten zu müssen."
  OURSIDETRUCEENDS_6:0 "Dies war ein einseitiger Waffenstillstand."
  OURSIDETRUCEENDS_LOG:0 "Der Waffenstillstand zwischen $ACTOR$ und $RECIPIENT$ ist beendet."
  OURSIDETRUCEENDS_BTN1:0 "OK"
